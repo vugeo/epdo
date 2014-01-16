@@ -1,0 +1,28 @@
+:: Array Utilities [script]
+Array.prototype.purge = function (element) {
+	var i = this.indexOf(element);
+	while (i > -1) {
+		this.splice(i);
+		i = this.indexOf(element);
+	}
+	return this;
+};
+
+Array.prototype.add = function (element) {
+	if (this.indexOf(element) === -1) {
+		this.push(element);
+	}
+	return this;
+};
+
+
+:: Image Utilities [script]
+window.getBackgroundImage = function (element) {
+	var url = $(element).css('background-image');
+	if (url == "" || url == "none") return url;
+	url = /^url\((['"]?)(.*)\1\)$/.exec(url);
+	url = url[2];//continue with only the filepath portion
+	var filename = url.substring(url.lastIndexOf('/', url.lastIndexOf('/') - 1) + 1);
+	filename = filename ? filename : "";
+	return filename;
+};

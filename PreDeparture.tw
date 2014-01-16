@@ -1,0 +1,133 @@
+
+/%%%%%%%%%%%%%%%%%%%%%%%%%%
+Todo:
+Resize all background images to 1440x900 (http://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)
+Use smaller images with an overlay to mask image degradation: http://solemone.de/demos/fullsize-background-image-with-css3-background-size/
+iOS resolutions: http://www.iosres.com/
+Consider conversion of some resources to data URIs: http://css-tricks.com/data-uris/
+Credits page for all images used (final passage?)
+
+Images
+https://farm8.staticflickr.com/7381/9729745463_1386659d7d_b.jpg
+Jonathan C Williams - Beautiful clear beaches of Tarifa, Spain
+
+https://farm8.staticflickr.com/7365/9732663006_b3b2ea7a2a_h.jpg
+Martha Ann Babbitt - Looking out onto Lake Como, Italy
+
+https://farm6.staticflickr.com/5343/9732659004_da85071c30_h.jpg
+Sushma Boppana - Hillside Door in Budapest, Hungary
+
+https://farm8.staticflickr.com/7361/9732971090_eaa34a3faf_h.jpg
+Caleb Pike Umlauf - Bridge to Giant's Eye, N. Ireland
+
+https://farm6.staticflickr.com/5459/9729744099_32bf049d97_h.jpg
+John Franklin Sims-Jones - Fields and mountains near the Incan ruins of Moray
+
+https://farm8.staticflickr.com/7434/9729769853_d1b836868f_h.jpg
+Abby Marie Pribish - Lake Geneva Through the Foliage, Switzerland
+
+https://farm3.staticflickr.com/2820/9732971742_371e8d78c9_h.jpg
+Danielle Antoinette Morrison - Rooftop View, Segovia, Spain
+
+https://farm4.staticflickr.com/3760/9732827666_cb167630e2_b.jpg
+Courtney Elizabeth Hyland - Heliconia flowers in Costa Rica.
+
+https://farm3.staticflickr.com/2856/9732986242_3b2842448e_h.jpg
+Christina Anne Helena Snider - Apartment Buildings in San Telmo Neighborhood, Buenos Aires, Argentina
+
+https://farm4.staticflickr.com/3671/9732835282_7235344936_h.jpg
+Joshua LouAllen Grubb - Checkered Lawn - Jardín Japonés (Japanese Garden), Buenos Aires (Argentina)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%/
+
+:: About the Presentation [nosave]
+!About This Presentation
+!!!!Choose mode to continue
+This presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.
+
+You can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" "Passport Check">><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.
+
+<<click "Continue in Automatic Mode" "Passport Check">>\
+	<<set options.autoplay to true>>\
+	<<updateAutoplay>>\
+	<<saveoptions>>\
+<</click>>
+<<click "Continue in Manual Mode" "Passport Check">>\
+	<<set options.autoplay to false>>\
+	<<updateAutoplay>>\
+	<<saveoptions>>\
+<</click>>\
+<<stopAllSounds>>\
+<<set options.autoplaydelay to 1000 >>\
+
+::Passport Check
+<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\
+!Passport Check
+!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.
+Before we begin, take a moment to check your passport's expiration date.
+
+<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you to get a student visa or residence permit if your passport is near its expiration date. Be sure that your passport does not expire until at least 6 months after your program ends!
+
+<<sidebar-link "It looks like I need a new passport!" "Passport Acquisition" "Help!">>
+
+<<continue "Passport Security">>
+<<autoPlay "sounds/Passport Check.audio" "Passport Security">>\
+<<section "Travel Documents" "images/9732976450_d91248889d_h.jpg">>\
+
+:: Passport Acquisition [sidebar]
+<<sidebar "Getting a New Passport">>
+To get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.
+
+U.S. citizens should visit the State Department's website for [[passport services|http://travel.state.gov/passport/]] to view requirements and to check on [[current processing times|http://travel.state.gov/passport/processing/processing_1740.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications!
+
+In Nashville, locations near Vanderbilt where you can apply for a passport include:
+
+|alternating-rows|k
+|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|
+|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|
+|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|
+|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|
+
+You may need to ''call in advance'' for an appointment!
+
+You'll also need to get ''passport photos'' taken before you can apply. FedEx Kinko's, Walgreens, and CVS are locations near to Vandy that can take passport photos.
+
+<<continue "Passport Security">>\
+<<autoPlay "sounds/Passport Acquisition.audio">>\
+
+::Passport Security
+!Passport Security
+!!!!Keep your passport safe
+When you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also be made difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe!
+
+In general, you should only keep your passport on your person when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.
+<img src="images/passport wallet.jpg" class="right" style="height: 250px;" />\
+
+If you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.
+
+|box|k
+|!Potentially Good Places to Keep Your Passport|
+|Hidden in the room of your homestay or residence hall|
+|In your hotel's safe (//not// the room safe)|
+|With your study abroad provider, if they offer such a service|
+
+<<continue "Copying Documents">>\
+<<autoPlay "sounds/Passport Security.audio" "Copying Documents">>\
+
+:: Copying Documents
+!Copying Documents
+!!!!A "Plan B" for when you lose your passport or other important documents
+You will be taking every precaution to keep your important documents safe, but also make sure you have a Plan B to fall back on.
+
+It is much easier to replace a lost passport if you can show a photocopy of your missing document. So keep ''multiple copies'' of your passport and other key documents (visa or residence permit, credit cards, insurance cards, trip itineraries). Never keep a copy in the same place as the original--if one gets stolen, they both will!
+
+GEO recommends that you:
+#Scan your documents and email them to yourself, or store them in the cloud.
+#Leave a photocopy at home with your family.
+#Keep a photocopy in your luggage, in a //different bag// from the original.
+#Leave your original passport in a safe place when you're out and about; carry a photocopy!
+
+If you do lose your passport while abroad, you will need to ''get in touch with the nearest embassy'' or consulate (you may want to program the contact info into your phone). You should also ''notify your resident director'' or designated contact person.
+
+<<autoPlay "sounds/Copying Documents.audio">>\
+<<section "copying" "images/imagetest.jpg">>

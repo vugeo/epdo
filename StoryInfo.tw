@@ -1,0 +1,23 @@
+:: StoryTitle
+Predeparture Orientation
+
+
+:: MenuOptions
+<<optiontoggle "autoplay">>Autoplay<</optiontoggle>>
+
+
+:: StoryMenu
+/% <a id="audio-control" href="#">[ > ]</a> %/
+
+
+:: Configuration [script]
+config.saves.autosave = true;
+config.saves.slots = 0;
+//config.disableHistoryControls = true;
+
+config.saves.isAllowed = function () {
+    if (tale.get(state.active.title).tags.indexOf("nosave") === -1) { 
+       return true; 
+    }
+    return false; 
+};

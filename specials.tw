@@ -1,0 +1,180 @@
+:: Start [nosave]
+<<section "intros" "images/imagetest.jpg">>\
+<<if 
+    SaveSystem.autosaveOK 
+    && storage.getItem("saves").autosave !== null 
+>>\
+You have a session already in progress. Continue where you left off? 
+<<script>> 
+    var resumeBtn = insertElement( 
+        output, 
+        "button", 
+        "resume-button", 
+        "ui-autostart-button", 
+        "Resume where I left off" 
+    ); 
+    var restartBtn = insertElement( 
+        output, 
+        "button", 
+        "restart-button", 
+        "ui-autostart-button", 
+        "Start over" 
+    ); 
+    $(resumeBtn).click(function() {
+        SaveSystem.loadAuto();
+    }); 
+    $(restartBtn).click(function() { 
+        SaveSystem.deleteAuto();
+        state.display("About the Presentation");
+    });
+<</script>>\
+<<else>>\
+	<<display "About the Presentation">>\
+<</if>>\
+
+/%%%%%%%%%%%
+<<timedgoto "About the Presentation" 0 >>
+To open a window without back and forward buttons (for launching the presentation):
+window.open(url,name,"menubar=no,toolbar=no[, additional options]",true)
+
+API info
+
+$variable = state.active.variables.NAME
+print name of active passage = state.active.title
+%%%%%%%%%%%/
+
+
+:: PassageReady [nobr]
+/% Runs just before each passage is rendered. %/
+<<set $autoplaySound to "">>
+<<set $autoplayDestination to "">>
+<<stopAllSounds>>
+<<script>>
+    var passage = tale.get(state.active.title);
+    if (passage.tags.indexOf("sidebar") > -1) {
+        //we are going from main flow to a sidebar
+        $("#passages").addClass("sidebar");
+        $(".passage").addClass("flip");//add class to outgoing passage
+        passage.classes.add("flip");//add class to incoming passage
+    }
+    else if ($("#passages").hasClass("sidebar")) {
+        //we are transitioning from a sidebar to the main flow
+        passage.classes.add("flip");//add class to incoming passage
+        $(".passage").addClass("flip");//add class to outgoing passage
+    }
+<</script>>
+
+
+:: PassageDone [nobr]
+/% Runs once the passage has completely rendered. %/
+<<if options.autoplay>>
+    <<autoplay $autoplaySound $autoplayDestination>>
+<</if>>
+<<script>>
+    var index = state.active.variables.index;
+    var passage = state.active.title;
+    var sectionName = state.active.variables.section;
+    if (!index.hasOwnProperty(passage)) { //if the passage isn't in the index, add it.
+        index[passage] = {};
+        index[passage].section = sectionName;
+    }
+    //update image if necessary
+    var currentImage = getBackgroundImage(".img-anchor");
+    var url = state.active.variables.backgrounds[sectionName].url;
+    url = url.substring(url.lastIndexOf('/', url.lastIndexOf('/') - 1) + 1);
+    if (url !== currentImage) {
+        var $active = $(".img-anchor");
+        var $passive = $(".img-fader");
+        $(".img-container").toggleClass('img-anchor img-fader');
+        $passive.css("background-image", "url(" + url + ")");
+        $passive.removeClass('background-fade');
+        $active.addClass("background-fade");
+    }
+
+    var passage = tale.get(state.active.title);
+    if (passage.tags.indexOf("sidebar") === -1 && $("#passages").hasClass("sidebar")) {
+        //we are going from a sidebar to the main flow of the presentation
+        passage.classes.purge("flip");
+        $("#passages").removeClass("sidebar");
+    }
+    else if (!$("#passages").hasClass("sidebar")) {
+        $(".passage").removeClass("flip");
+    }
+    // Display for controls
+    if (tale.get(state.active.title).tags.indexOf("nosave") === -1 && $("#custom").is(":hidden")) {
+        $("#custom").slideDown("fast");
+    }
+    else if (tale.get(state.active.title).tags.indexOf("nosave") !== -1) {
+        $("#custom").slideUp("fast");
+    }
+<</script>>
+
+
+:: StoryInit [nobr]
+/% Add the header & controls to the document when the story first loads. %/
+<<set options.autoplaydelay to 0>>
+<<script>>
+    var header = insertElement(document.html, "header", "custom");
+    var banner = insertElement(header, "h2", "section-name", "", "GEO Predeparture Information");
+    var controls = insertElement(header, "div", "controls");
+    var label = insertElement(controls, "label", "", "autoplay-switch", "Autoplay + Sound");
+    var toggle = insertElement(controls, "button", "autoplay-switch");
+    var backgrounds = insertElement(document.body, "div", "backgrounds");
+    var image_container_1 = insertElement(backgrounds, "div", "bkgd-1");
+    var image_container_2 = insertElement(backgrounds, "div", "bkgd-2");
+
+    $("body").before(backgrounds);
+    $("body").before(header);
+    $("#custom").css("display","none");
+    $(image_container_1).addClass("img-anchor img-container");
+    $(image_container_2).addClass("img-fader img-container");
+
+    $(toggle)
+        .attr("type", "button")
+        .addClass(function() {
+            if (options.autoplay) { return "switchedon" }
+        })
+        .click(function() {
+            $(toggle).toggleClass("switchedon");
+            if ( $(toggle).hasClass("switchedon") ) {
+                var soundName = state.active.variables.autoplaySound;
+                options.autoplay = true;
+                var sound = macros.get("playSound").soundtracks[soundName.slice(0, soundName.lastIndexOf("."))];
+                if (sound) { sound.play() }
+            }
+            else {
+                options.autoplay = false;
+                var sounds = macros.get("playSound").soundtracks;
+                for (var i in sounds) {
+                    if (sounds.hasOwnProperty(i)) {
+                        sounds[i].pause();
+                        sounds[i].currentTime = 0;
+                    }
+                }
+            }
+        });
+    
+    //Replace text in loading screen
+    $("#loading-screen p").html("Loading&hellip;<br /><progress></progress>");
+    // Prep first background image object with inline CSS for background image
+    $(".img-anchor").css("background-image", "url("+ getBackgroundImage(".img-anchor") +")");
+<</script>>
+
+/% Initialize variables %/
+<<set $index to {}>>
+<<set $section to "">>
+<<set $backgrounds to {}>>
+/% Custom scrollbar %/\
+<<loadJS "jquery.nicescroll.js">>\
+/% CSS Transition commands %/
+<<loadJS "jquery.transit.min.js">>\
+<<script>>
+$(document).ready(
+    function() {  
+        $("body").niceScroll({
+            cursorwidth: "8px", 
+            railpadding:{top:0,right:5,left:0,bottom:0}
+        });
+    }
+);
+<</script>>\

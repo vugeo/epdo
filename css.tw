@@ -1,0 +1,445 @@
+:: Fonts [stylesheet]
+/*@import url(http://fonts.googleapis.com/css?family=Bevan);*/
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700);
+
+:: CSS [stylesheet]
+/* Change box-sizing model for all elements */
+/*
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+}
+*/
+/* Override SugarCube button animations & styles
+button
+{
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    transition-duration: 0s;
+}
+button:hover {
+    background-color: #58e;
+    border: 1px solid #7af;
+}
+button:active {
+    background-color: #f70;
+    border: 1px solid #f92;
+}
+*/
+
+html {
+  height:100%;
+}
+figcaption {
+    font-size:80%;
+    font-style:italic;
+}
+.inline {
+    display: inline-block;
+}
+.left {
+    float: left;
+}
+.right {
+    float:right;
+}
+body {
+    color: #000;
+    font-family: 'Open Sans',serif;
+    margin:0;
+    height:100%;
+    overflow:auto;
+    position:relative;
+    z-index: 3;
+}
+h1 {
+    font-family: 'Arvo',serif;
+    font-weight:700;
+    font-size: 36px;
+    line-height: 38px;
+    margin: 0 0 10px 0;
+    color: #dd3b2a;
+}
+h4 {
+    font-family: 'Arvo',serif;
+    font-weight:700;
+    font-size:18px;
+    margin-top:0;
+}
+h6 {
+    font-family: 'Arvo',serif;
+    font-weight:700;
+    font-size:14px;
+    margin:0;
+}
+.img-container {
+    position:fixed;
+    top:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.img-anchor {
+    background-image: url(images/imagetest.jpg);
+    opacity:1;
+    z-index:1;
+}
+.img-fader {
+    z-index:2;
+    
+}
+.background-fade {
+    opacity:0;
+}
+
+
+/* Make link font slightly smaller to compensate for boldface */
+.content a.link-internal,
+.content a.link-external,
+.content a.link-back,
+.content a.link-return {
+    font-size: 90%;
+}
+.content strong {
+    font-size: 90%;
+}
+#passages {
+    color: #000;
+    font-size:15px;
+    background-color:#fefefe;
+    width:60%;
+    min-height:100%;
+    margin: 0 auto;
+    border-left:none;
+    padding: 3em 2em;
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    padding-top: 34px;
+    position:relative;
+}
+.passage {
+    line-height: 1.75;
+    margin-bottom: 0;
+    text-align: left;
+    height:100%;
+}
+#ui-bar {
+    display:none;
+}
+#passages table.alternating-rows tr:nth-child(odd) {
+    background-color:#EEEEEE;/*Fallback*/
+    background-color:rgba(221,221,221,0.5);
+}
+#passages table.alternating-rows tr:nth-child(even) {
+    background-color:#DDDDDD;/*Fallback*/
+    background-color:rgba(204,204,204,0.5);
+}
+#passages table.box {
+    background-color:#EEEEEE;/*Fallback*/
+    background-color:rgba(221,221,221,0.5);
+}
+#passages table.box th {
+    background-color:#DDDDDD;/*Fallback*/
+    background-color:rgba(204,204,204,0.5);
+}
+#passages table.box tr:first-child td,
+#passages table.box tr:first-child th {
+    padding-top:10px;
+}
+#passages table.box tr:last-child td {
+    padding-bottom:10px;
+}
+#passages table {
+    font-size: 80%;
+    border-collapse: collapse;
+    line-height:145%;
+}
+#passages th, #passages td {
+    padding: 0.5em 1em;
+}
+table a.link-internal, a.link-external, a.link-back, a.link-return {
+    font-size: 100%!important;
+}
+
+
+:: Custom UI styles [stylesheet]
+
+header#custom {
+    position:fixed;
+    top:0;
+    margin:0 auto 0 20%;
+    height:24px;
+    width:60%;
+    background-color:#555;
+    border-bottom:1px solid #333;
+    -moz-box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+    z-index:10;
+    display:none;
+}
+
+#custom h2 {
+    margin:2px 0 0 8px;
+    display:inline-block;
+    font-family: verdana,"dejavu sans",tahoma,arial,sans-serif;
+    color:#bbb;
+    font-size:16px;
+}
+
+#controls {
+    display:inline-block;
+    position:absolute;
+    top:3px;
+    right:5px;
+}
+
+label.autoplay-switch {
+    color: #bbb;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin-right: 6px;
+    font-family: 'Open Sans', serif;
+}
+
+
+button:focus {outline:none;}
+button::-moz-focus-inner {border:0;}
+
+button#autoplay-switch {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(ui/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+    border:none;
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+button.switchedon {
+    background:url(ui/check_radio_sheet.png) -57px top no-repeat!important;
+    border:none;
+}
+
+
+:: Continue arrow & animation [stylesheet]
+span.continue-button {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+    background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+    background-color:#2dabf9;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #c4ccff;
+    display:inline;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:0px 15px 1px 10px;
+    text-decoration:none;
+    text-shadow:0px 1px 5px #2b4487;
+}
+span.continue-button:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+    background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+    background-color:#0688fa;
+}
+.continue-button a {
+    color: #fff!important;
+}
+.continue-button a:hover {
+    text-decoration:none!important;
+}
+.continue-button a.link-internal,
+.continue-button a.link-external,
+.continue-button a.link-back,
+.continue-button a.link-return {
+    font-weight:normal;
+    margin:0;
+    padding:0;
+}
+.onward-arrow {
+    position: relative;
+    left:0;
+    display:inline-block;
+}
+.fade-bounce {
+ -webkit-animation-name: fade-bounce;
+ -moz-animation-name: fade-bounce;
+ -webkit-animation-duration: 1s;
+ -moz-animation-duration: 1s;
+ -webkit-animation-iteration-count: infinite;
+ -moz-animation-iteration-count: infinite;
+ -webkit-animation-direction: normal;
+ -moz-animation-direction: normal;
+ -webkit-animation-timing-function: ease-in;
+ -moz-animation-timing-function: ease-in;
+ }
+ @-webkit-keyframes fade-bounce {
+    0%   { left: 0; opacity:1.0; }
+    35%  { left: 0.75em; opacity:1.0; }
+    100% { left: 0.35em; opacity:0.25; }
+ }
+@-moz-keyframes fade-bounce {
+    0%   { left: 0; opacity:1.0; }
+    35%  { left: 0.75em; opacity:1.0; }
+    100% { left: 0.35em; opacity:0.25; }
+}
+
+#section-title {
+    position: fixed;
+    display:none;
+    background-color:rgba(0,0,0,0.8);
+    padding:15px;
+    z-index:999;
+    color:#fff;
+    font-weight:bold;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+:: Outgoing Passage Transition Config [script]
+// # of milliseconds before outgoing elements are removed
+config.passageTransitionOut = 780; // it's probably best if it's just slightly longer (say 10ms or so) than your outgoing transition delay
+
+:: Passage Transition CSS [stylesheet]
+/* disable SugarCube's default passage transition */
+.passage { transition: none; -webkit-transition: none; }
+
+/* setup the new passage transition(s) */
+/* this is a simple 3-step fade out 
+.transition-in { opacity: 0; position: absolute; }
+.passage:not(.transition-out) { transition: 0s 1100ms; -webkit-transition: 0s 1100ms; }
+.transition-out { opacity:0; position: absolute; transition: 1000ms steps(3); -webkit-transition: 1000ms steps(3); }
+*/
+
+/* Fast scroll (normal flow) */
+
+.transition-in:not(.flip) {
+    opacity:0;
+    transform: translate(0,-100rem);
+    -webkit-transform: translate(0,-100rem);
+    position:absolute;
+}
+.passage {
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+}
+.transition-out:not(.flip) {
+    opacity:0;
+    transform: translate(0,100rem);
+    -webkit-transform: translate(0,100rem);
+    position:absolute;
+}
+
+
+/* Page-flipping for sidebars */
+
+.flip.transition-in {
+    opacity:0;
+    position:absolute;
+    transform: rotateY(90deg);
+    -webkit-transform: rotateY(90deg);    
+}
+
+.flip.transition-out {
+    opacity:0;
+    transform: rotateY(-90deg);
+    -webkit-transform: rotateY(-90deg);
+    position:absolute;
+}
+
+#passages {
+    transition: background-color 0.4s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    -webkit-transition: background-color 0.4s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+
+:: CSS for Sidebars [stylesheet]
+#passages.sidebar {
+    background-color: #FAF3E8;
+}
+
+.passage h1.sidebar {
+    color:black;
+}
+
+.passage h4.sidebar {
+    margin-bottom:0;
+}
+
+.passage h6.sidebar {
+    margin:-0.4em 0 0 0;
+}
+
+.passage h6.sidebar a {
+    color:#a8a8a8;
+}
+
+.passage hr.sidebar {
+    background-color:black;
+}
+
+
+.sidebar-head {
+    background-color:#dd3b2a;
+    border:1px solid #dd3b2a;
+    border-radius:5px 0 0 5px;
+    color:white;
+    padding:3px 10px;
+}
+
+.sidebar-link {
+    border:1px solid #dd3b2a;
+    border-radius:0 5px 5px 0;
+    padding:3px 10px 3px 5px;
+}
+
+.sidebar-link a, sidebar-link a:hover {
+    text-decoration:underline;
+    color:#dd3b2a;
+}
+
+
+:: CSS for replacelinks macros [stylesheet]
+.revision-span-in { opacity: 0; }
+.revision-span:not(.revision-span-out) { transition: 0.4s; -webkit-transition: 0.4s; }
+.revision-span-out { position: absolute; opacity: 0; }
+

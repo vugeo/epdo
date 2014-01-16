@@ -1,0 +1,188 @@
+:: Autoplay interface [widget]
+/%%%%%%%%%%%%%
+<<autoPlay filename [passage]>>
+If you pass the title of a passage into the widget, things will automatically
+forward to that passage when the sound completes playing.
+
+If no passage title is included, then the sound will simply play and stop.
+This should be used for times when the reader has e.g. clicked on an
+optional link, or if some further interaction is called for.
+%%%%%%%%%%%%%%/
+<<widget "autoPlay">>\
+    <<set $autoplaySound to $args[0]>>\
+        <<if  $args[1]>>\
+            <<set $autoplayDestination to $args[1]>>\
+        <</if>>\
+<</widget>>\
+
+
+:: AutoPlay Sound widget [widget]
+/%%%%%%%%%%%%%
+<<autoplay filename [passage]>>
+
+This widget is called automatically during the PassageDone phase
+(i.e., right after the passage has rendered), to prevent the voiceover
+from beginning before there is text on the page. It uses the values
+set by the "autoPlay" widget.
+
+A delay (in milliseconds) can be set in options.autoplaydelay; the sound
+will begin playing only after at least this much time has passed since
+the passage rendered. 
+%%%%%%%%%%%%%%/
+<<widget "autoplay">>\
+    <<if options.autoplay>>\
+            <<if $args[0] neq $autoplaySound>>\
+                <<stopAllSounds>>\
+            <</if>>\
+            <<set $args[2] to options.autoplaydelay>>\
+            <<if $args[1]>>\
+                <<playSoundDelay $args[0] $args[2] $args[1]>>\
+            <<else>>\
+                <<playSoundDelay $args[0] $args[2] >>\
+            <<set $autoplay to $args[0]>>\
+        <</if>>\
+    <</if>>\
+<</widget>>\
+
+
+:: Update Autoplay Button [widget]
+/%%%%%%%%%%%%%
+<<updateAutoplay>>
+
+This updates the on-screen button for autoplay/sounds. Use this macro
+whenever changing the state of the options.autoplay variable. 
+%%%%%%%%%%%%%%/
+<<widget "updateAutoplay">>\
+    <<if options.autoplay>>\
+        <<script>>$("#autoplay-switch").addClass("switchedon");<</script>>\
+    <<else>>\
+        <<script>>$("#autoplay-switch").removeClass("switchedon");<</script>>\
+    <</if>>\
+<</widget>>\
+
+
+
+:: Play Sounds [script]
+//based on http://www.glorioustrainwrecks.com/node/5061
+(function () {
+    macros.add(["playSound", "playSoundDelay", "stopSound", "pauseSound"],  {
+        version: {
+            major: 1,
+            minor: 0,
+            revision: 0
+        },
+        soundtracks: {},
+        handler: function () {
+            try {
+                var soundName = this.args[0];
+                if (soundName) {
+                    soundName = soundName.toString(); //necessary?
+                    var sound = macros.get("playSound").soundtracks[soundName.slice(0, soundName.lastIndexOf("."))];
+                    if (sound) {
+                        if (this.name == "playSoundDelay") {
+                            var delay = this.args[1];
+                            if (delay) {
+                                setTimeout(function() {
+                                    sound.play()
+                                }, delay);
+                            }
+                            else { sound.play() }
+                        }
+                        if (this.name == "playSound") {
+                            sound.play();
+                        }
+                        if (this.name == "playSoundDelay" || this.name == "playSound") {
+                            var passage = this.args.length > 2 ? this.args[2] : undefined;
+                            if (passage) {
+                                $(sound).on("ended", function () {
+                                    state.display(passage)
+                                });
+                            }
+                        }
+                        if (this.name == "pauseSound") {
+                            sound.pause();
+                        }
+                        if (this.name == "stopSound") {
+                            sound.pause();
+                            sound.currentTime = 0;
+                        }
+                    }
+                }
+            } catch (e) {
+                return this.error("Error: " + e.message);
+            }
+        }
+    });
+
+    var div = document.getElementById("store-area").firstChild;
+    var sourceTypes = ["mp3", "ogg"];
+    while (div) {
+        var b = String.fromCharCode(92);
+        var q = '"';
+        var re = "['" + q + "]([^" + q + "']*?)" + b + ".audio['" + q + "]";
+        preloadSounds(new RegExp(re, "gi"));
+        div = div.nextSibling;
+    }
+
+    function preloadSounds(search, e) {
+        do {
+          var fileName = search.exec(div.innerHTML);
+          if (fileName) {
+            var sound = new Audio();
+            if (sound.canPlayType) {
+              for (var i = 0; i < sourceTypes.length; i++) {
+                fileName[2] = sourceTypes[i];
+                if (sound.canPlayType("audio/" + fileName[2])) break;
+              }
+              if (i < sourceTypes.length) {
+                sound.setAttribute("src", fileName[1] + "." + fileName[2]);
+                sound.interval = null;
+                macros.get("playSound").soundtracks[fileName[1]] = sound;
+              } else console.log("Browser can't play '" + fileName[1] + "'");
+            }
+          }
+        } while (fileName);
+    }
+
+}());
+
+
+
+:: Stop All Sounds [script]
+//based on http://www.glorioustrainwrecks.com/node/5061
+(function () {
+    macros.add(["stopAllSounds", "pauseAllSounds"], {
+        version: {
+            major: 1,
+            minor: 0,
+            revision: 0
+        },
+        handler: function () {
+            var sounds = macros.get("playSound").soundtracks;
+            for (var i in sounds) {
+                if (sounds.hasOwnProperty(i)) {
+                    sounds[i].pause();
+                    if (this.name == "stopAllSounds" && sounds[i].currentTime) {
+                        sounds[i].currentTime = 0;
+                    }
+                }
+            }
+        }
+    });
+}());
+
+
+:: Time values support [script]
+//adapted from http://www.glorioustrainwrecks.com/files/TwineMacro-TimedLoop-1.1.0.txt
+String.prototype.cssTimeUnit = function() {
+    if (typeof this == "string") {
+          if (this.slice(-2).toLowerCase() == "ms") {
+            return Number(this.slice(0, -2)) || 0;
+          }
+          else if (this.slice(-1).toLowerCase() == "s") {
+            return Number(this.slice(0, -1)) * 1000 || 0;
+          }
+        }
+        throw new Error(this + " isn't a CSS this unit");
+        return 0;
+}

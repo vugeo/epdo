@@ -102,6 +102,7 @@ $(document).ready(
 <</script>>\
 <<display "Table of Contents">>
 <<script>>
+console.log("CSS Hooks: ");
 //Set up the progress bar
 var fullindex = state.active.variables.fullindex;
 if (fullindex.length > 0) {
@@ -116,10 +117,11 @@ if (fullindex.length > 0) {
         stops.push(fullindex[i].passages.length);
     }
     console.log(stops);
-    var rule = "linear-gradient(left, ";
+    var rule = "linear-gradient(to right, ";
+    console.log("Total length: " + len);
     if (len > 0) {
         rule += colorA + ", ";
-        alert("rule: " + rule);
+        var sum = 0;
         for (i = 0; i < stops.length; i++) {
             //get first color, then choose opposite
             if (i === 0 || i % 2 === 0) {
@@ -130,14 +132,24 @@ if (fullindex.length > 0) {
                 first = colorB;
                 second = colorA;
             }
+            var val = (stops[i]/len)*100;
+            console.log("Stop " + i + ": " + stops[i] + ", sum: " + sum);
             //fix -- percentages too simple, not cumulative.
-            rule += first + " " + (stops[i]/len) + "%, " + second + (stops[i]/len) + "%, ";
+            rule += first + " " + (sum + val);
+            if (i + 1 === stops.length) {
+                rule += "%)";
+            }
+            else {
+                rule += "%, " + second + " " + (sum + val) + "%, ";
+                sum += val;
+            }
         }
-        $("#progress-meter").css("background-image", rule);
+        $("#progress-meter").css("backgroundImage", rule);
     }
+    console.log(rule);
+    console.log($("#progress-meter").css("backgroundImage"));
 }
 <</script>>
-
 
 
 :: PassageReady [nobr]

@@ -369,18 +369,7 @@ header#custom {
   height: 6px;
   display: inline-block;
   box-shadow: 0 5px 5px -5px #888 inset;
-  background-color: blue;
-  background-image: linear-gradient(
-  90deg, 
-  #b0b0b0 5%, 
-  #b0b0b0 15%,
-  #d8d8d8 15%,
-  #d8d8d8 55%,
-  #b0b0b0 55%,
-  #b0b0b0 95%,
-  #d8d8d8 95%, 
-  #d8d8d8 100%
-  );
+  background-color: #d8d8d8;
   background-size: 100% 100%;
   display: block;
   text-indent: -9999px;

@@ -81,7 +81,7 @@
             (rSupportRadialWebkit.test( divStyle.backgroundImage ) ? "-webkit-radial-gradient" :
             (rSupportRadialOpera.test( divStyle.backgroundImage ) ? "-o-radial-gradient" :
             false)));
-            
+        
         if ( $.support.linearGradient && $.support.linearGradient !== "linear-gradient" ) {
 
             $.each( cssPropsArray, function( i, prop ) {

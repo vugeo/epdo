@@ -111,17 +111,18 @@ if (fullindex.length > 0) {
     var colorB = "#d8d8d8";
     var first = colorA;
     var second = colorB;
-    var rule = "linear-gradient(left, ";
     for (var i = 0; i < fullindex.length; i++) {
         len += fullindex[i].passages.length;
         stops.push(fullindex[i].passages.length);
     }
     console.log(stops);
+    var rule = "linear-gradient(left, ";
     if (len > 0) {
         rule += colorA + ", ";
+        alert("rule: " + rule);
         for (i = 0; i < stops.length; i++) {
             //get first color, then choose opposite
-            if (i = 0 || i % 2 === 0) {
+            if (i === 0 || i % 2 === 0) {
                 first = colorA;
                 second = colorB;
             }

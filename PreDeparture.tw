@@ -1,11 +1,20 @@
-
+:: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-Todo:
-Resize all background images to 1440x900 (http://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)
-Use smaller images with an overlay to mask image degradation: http://solemone.de/demos/fullsize-background-image-with-css3-background-size/
-iOS resolutions: http://www.iosres.com/
-Consider conversion of some resources to data URIs: http://css-tricks.com/data-uris/
-Credits page for all images used (final passage?)
+* Make it so that Continue button is fully clickable, not just on "Continue"
+* Add global tracking bar at top of screen
+* Fix sidebar link so that it makes a stackable list
+* Refactor Chapters button so that it must be pressed and blurred, rather than hovered, and so that past slides are shown in a second level
+* Fix nav=[passage name] url handler; currently doesn't load sidebars properly
+* Add ?faculty-led=true url handler
+* Add ?summer=true url handler
+* Add ?insurance=true url handler
+* Remove all console.log references (needed for IE9)
+* Uncomment save options code in specials.tw (macros.get("saveoptions").handler();)
+* Resize all background images to 1440x900 (http://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)
+* Use smaller images with an overlay to mask image degradation: http://solemone.de/demos/fullsize-background-image-with-css3-background-size/
+* iOS resolutions: http://www.iosres.com/
+* Consider conversion of some resources to data URIs: http://css-tricks.com/data-uris/
+* Credits page for all images used (final passage?)
 
 Images
 https://farm8.staticflickr.com/7381/9729745463_1386659d7d_b.jpg
@@ -40,27 +49,8 @@ Joshua LouAllen Grubb - Checkered Lawn - Jardín Japonés (Japanese Garden), Bue
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%/
 
-:: About the Presentation [nosave]
-!About This Presentation
-!!!!Choose mode to continue
-This presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.
 
-You can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" "Passport Check">><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.
-
-<<click "Continue in Automatic Mode" "Passport Check">>\
-	<<set options.autoplay to true>>\
-	<<updateAutoplay>>\
-	<<saveoptions>>\
-<</click>>
-<<click "Continue in Manual Mode" "Passport Check">>\
-	<<set options.autoplay to false>>\
-	<<updateAutoplay>>\
-	<<saveoptions>>\
-<</click>>\
-<<stopAllSounds>>\
-<<set options.autoplaydelay to 1000 >>\
-
-::Passport Check
+::Passport Check [travel bookmark]
 <img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\
 !Passport Check
 !!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.
@@ -72,30 +62,10 @@ Before we begin, take a moment to check your passport's expiration date.
 
 <<continue "Passport Security">>
 <<autoPlay "sounds/Passport Check.audio" "Passport Security">>\
-<<section "Travel Documents" "images/9732976450_d91248889d_h.jpg">>\
 
-:: Passport Acquisition [sidebar]
-<<sidebar "Getting a New Passport">>
-To get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.
 
-U.S. citizens should visit the State Department's website for [[passport services|http://travel.state.gov/passport/]] to view requirements and to check on [[current processing times|http://travel.state.gov/passport/processing/processing_1740.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications!
 
-In Nashville, locations near Vanderbilt where you can apply for a passport include:
-
-|alternating-rows|k
-|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|
-|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|
-|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|
-|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|
-
-You may need to ''call in advance'' for an appointment!
-
-You'll also need to get ''passport photos'' taken before you can apply. FedEx Kinko's, Walgreens, and CVS are locations near to Vandy that can take passport photos.
-
-<<continue "Passport Security">>\
-<<autoPlay "sounds/Passport Acquisition.audio">>\
-
-::Passport Security
+::Passport Security [travel]
 !Passport Security
 !!!!Keep your passport safe
 When you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also be made difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe!
@@ -114,7 +84,7 @@ If you must carry your passport with you, keep it in a special ''passport wallet
 <<continue "Copying Documents">>\
 <<autoPlay "sounds/Passport Security.audio" "Copying Documents">>\
 
-:: Copying Documents
+:: Copying Documents [copying bookmark]
 !Copying Documents
 !!!!A "Plan B" for when you lose your passport or other important documents
 You will be taking every precaution to keep your important documents safe, but also make sure you have a Plan B to fall back on.
@@ -130,4 +100,4 @@ GEO recommends that you:
 If you do lose your passport while abroad, you will need to ''get in touch with the nearest embassy'' or consulate (you may want to program the contact info into your phone). You should also ''notify your resident director'' or designated contact person.
 
 <<autoPlay "sounds/Copying Documents.audio">>\
-<<section "copying" "images/imagetest.jpg">>
+

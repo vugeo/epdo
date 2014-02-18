@@ -1,0 +1,55 @@
+:: Contacts and communications [living]
+!Contacts and communications
+!!!!Subhead goes here
+   * Resident director of program is main contact
+   * Take care to maintain perspective in conversations home, i.e. that venting to parents does not sound to them like a dire situation
+
+<<continue "Special accommodations">>
+
+
+:: Special accommodations [living]
+!Special accommodations
+!!!!Subhead goes here
+   * How to deal with academic, dietary, physical accomodations
+
+<<sidebar-link "How can I make the most of my time with a host family?" "Host families" "Info">>
+
+<<continue "Money">>
+
+
+:: Host families [sidebar living]
+<<sidebar "Making the most of your host family">>
+
+Text to go here!
+
+<<continue "Money">>
+
+
+:: Money [living]
+!Money
+!!!!Subhead goes here
+   * Credit cards, debit cards, ATM (in brief)
+   * _Sidebar_: Budgeting (w/link to existing budgeting materials)
+
+<<sidebar-link "How do I budget for myself?" "Budgeting" "Help!">>
+
+<<continue "Where will you live?">>
+
+
+:: Budgeting [sidebar living]
+<<sidebar "Basics of Budgeting">>
+
+Text goes here!
+
+<<continue "Where will you live?">>
+
+
+
+:: Where will you live? [living]
+!Where will you live?
+!!!!Subhead goes here
+   * Programs offer different sorts of housing, but…
+   * Vanderbilt students have been happiest in homestays
+   * _Link out_ to housing policy
+   
+<<continue "Before you leave">>

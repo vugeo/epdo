@@ -1,37 +1,3 @@
-:: Start [nosave]
-<<section "intros" "images/imagetest.jpg">>\
-<<if 
-    SaveSystem.autosaveOK 
-    && storage.getItem("saves").autosave !== null 
->>\
-You have a session already in progress. Continue where you left off? 
-<<script>> 
-    var resumeBtn = insertElement( 
-        output, 
-        "button", 
-        "resume-button", 
-        "ui-autostart-button", 
-        "Resume where I left off" 
-    ); 
-    var restartBtn = insertElement( 
-        output, 
-        "button", 
-        "restart-button", 
-        "ui-autostart-button", 
-        "Start over" 
-    ); 
-    $(resumeBtn).click(function() {
-        SaveSystem.loadAuto();
-    }); 
-    $(restartBtn).click(function() { 
-        SaveSystem.deleteAuto();
-        state.display("About the Presentation");
-    });
-<</script>>\
-<<else>>\
-	<<display "About the Presentation">>\
-<</if>>\
-
 /%%%%%%%%%%%
 <<timedgoto "About the Presentation" 0 >>
 To open a window without back and forward buttons (for launching the presentation):
@@ -42,6 +8,135 @@ API info
 $variable = state.active.variables.NAME
 print name of active passage = state.active.title
 %%%%%%%%%%%/
+
+
+
+:: StoryInit [nobr]
+/% Add the header & controls to the document when the story first loads. %/
+<<set options.autoplaydelay to 0>>
+<<script>>
+    // Replace text in loading screen
+    $("#loading-screen p").html("Loading&hellip;<br /><progress></progress>");
+
+    // Initialize chapter progress storage
+    if (!options.chapterprogress) {
+        options.chapterprogress = 0;
+    }
+
+    // Set up custom UI
+    var header = insertElement(document.html, "header", "custom");
+    var banner = insertElement(header, "h2", "section-name", "", "GEO Predeparture Information");
+    var controls = insertElement(header, "div", "controls");
+    var story_rewind = insertElement(header, "div", "story-rewind");
+    var progress = insertElement(header, "div", "progress");
+    var label = insertElement(controls, "label", "", "autoplay-switch", "Autoplay + Sound");
+    var toggle = insertElement(controls, "button", "autoplay-switch");
+    var backgrounds = insertElement(document.body, "div", "backgrounds");
+    var image_container_1 = insertElement(backgrounds, "div", "bkgd-1");
+    var image_container_2 = insertElement(backgrounds, "div", "bkgd-2");
+
+    $("body").before(backgrounds);
+    $("body").before(header);
+    $("#custom").css("display","none");
+    $(image_container_1).addClass("img-anchor img-container");
+    $(image_container_2).addClass("img-fader img-container");
+    $(progress).html("<div id='progress-meter'><span id='pb-complete'></span><span id='pb-position'></span></div>");
+
+    $(toggle)
+        .attr("type", "button")
+        .addClass(function() {
+            if (options.autoplay) { return "switchedon" }
+        })
+        .click(function() {
+            $(toggle).toggleClass("switchedon");
+            if ( $(toggle).hasClass("switchedon") ) {
+                var soundName = state.active.variables.autoplaySound;
+                options.autoplay = true;
+                var sound = macros.get("playSound").soundtracks[soundName.slice(0, soundName.lastIndexOf("."))];
+                if (sound) { sound.play() }
+            }
+            else {
+                options.autoplay = false;
+                var sounds = macros.get("playSound").soundtracks;
+                for (var i in sounds) {
+                    if (sounds.hasOwnProperty(i)) {
+                        sounds[i].pause();
+                        sounds[i].currentTime = 0;
+                    }
+                }
+            }
+        });
+
+    // Prep first background image object with inline CSS for background image
+    $(".img-anchor").css("background-image", "url("+ getBackgroundImage(".img-anchor") +")");
+
+    //Process URL substring for options
+    state.active.variables.urlopts = parseQueryString( window.location.search.substring(1) );
+    var opts = state.active.variables.urlopts;
+    for (var key in opts) {
+        if ( opts.hasOwnProperty(key) ) {
+            if (key == "nav") { state.active.variables.urlopts[key] = unescape(opts[key]); }
+        }
+    }
+    if (opts.hasOwnProperty("nav")) {
+        SaveSystem.deleteAuto();
+        config.startPassage = opts["nav"];
+    }   
+<</script>>
+
+/% Initialize variables %/
+<<set $index to {}>>
+<<set $section to "">>
+<<set $backgrounds to {}>>
+/% Custom scrollbar %/\
+<<loadJS "jquery.nicescroll.js">>\
+<<script>>
+$(document).ready(
+    function() {  
+        $("body").niceScroll({
+            cursorwidth: "8px", 
+            railpadding:{top:0,right:5,left:0,bottom:0}
+        });
+    }
+);
+<</script>>\
+<<display "Table of Contents">>
+<<script>>
+//Set up the progress bar
+var fullindex = state.active.variables.fullindex;
+if (fullindex.length > 0) {
+    var len = 0;
+    var stops = [];
+    var colorA = "#b0b0b0";
+    var colorB = "#d8d8d8";
+    var first = colorA;
+    var second = colorB;
+    var rule = "linear-gradient(left, ";
+    for (var i = 0; i < fullindex.length; i++) {
+        len += fullindex[i].passages.length;
+        stops.push(fullindex[i].passages.length);
+    }
+    console.log(stops);
+    if (len > 0) {
+        rule += colorA + ", ";
+        for (i = 0; i < stops.length; i++) {
+            //get first color, then choose opposite
+            if (i = 0 || i % 2 === 0) {
+                first = colorA;
+                second = colorB;
+            }
+            else {
+                first = colorB;
+                second = colorA;
+            }
+            //fix -- percentages too simple, not cumulative.
+            rule += first + " " + (stops[i]/len) + "%, " + second + (stops[i]/len) + "%, ";
+        }
+        $("#progress-meter").css("background-image", rule);
+    }
+}
+<</script>>
+
 
 
 :: PassageReady [nobr]
@@ -73,22 +168,76 @@ print name of active passage = state.active.title
 <<script>>
     var index = state.active.variables.index;
     var passage = state.active.title;
-    var sectionName = state.active.variables.section;
-    if (!index.hasOwnProperty(passage)) { //if the passage isn't in the index, add it.
-        index[passage] = {};
-        index[passage].section = sectionName;
+    var currentPassage = index[passage];
+    var tags = state.active.variables.tags;
+    var sections = state.active.variables.backgrounds;
+    var bookmarks = state.active.variables.bookmarks;
+    var currentTag = tags.indexOf(currentPassage.tag);
+    console.log("current tag: " + currentTag + ", no. " + currentPassage.tag);
+    
+    if (currentTag > 0) { //the user has read enough to need to see the chapter button
+        if (currentTag > options.chapterprogress) {
+                options.chapterprogress = currentTag;
+                //macros.get("saveoptions").handler();
+                $("#story-rewind, a#rewind-icon").addClass("hilight");
+                setTimeout(function() {
+                    $("#story-rewind, a#rewind-icon").removeClass("hilight");
+                }, 1100);
+            }
+        console.log("current tag: " + currentTag);
+        $("#story-rewind").empty().append(function(){
+            var html = "Navigate<div><a id='rewind-icon'></a><ul><li class='sep'>Jump to Section</li>";
+            for (var i = 1; i < (options.chapterprogress + 1); i++) {
+                if (bookmarks[tags[i]] === passage) {
+                    html += "<li class='disable'>" + sections[tags[i]].section + "</li>";
+                }
+                else {
+                    html += "<li><a class='chapter-list' data='" + bookmarks[tags[i]] + "'>" + sections[tags[i]].section + "</a></li>";
+                }
+            }
+            html+="</ul></div>";
+            return html;
+        });
+        $(".chapter-list").click(function(){
+            var $this = $(this);
+            console.log($this);
+            console.log("You clicked on " + $this.attr("data") + ". You are on " + state.active.title + ".");
+            if ($this.attr("data") !== state.active.title) {
+                state.display($this.attr("data"));
+            }
+            return false;
+        });
+        $("#story-rewind").show();
     }
-    //update image if necessary
-    var currentImage = getBackgroundImage(".img-anchor");
-    var url = state.active.variables.backgrounds[sectionName].url;
-    url = url.substring(url.lastIndexOf('/', url.lastIndexOf('/') - 1) + 1);
-    if (url !== currentImage) {
-        var $active = $(".img-anchor");
-        var $passive = $(".img-fader");
-        $(".img-container").toggleClass('img-anchor img-fader');
-        $passive.css("background-image", "url(" + url + ")");
-        $passive.removeClass('background-fade');
-        $active.addClass("background-fade");
+
+    if (index.hasOwnProperty(passage)) { //skip this for passages that aren't in the index
+        //update image if necessary
+        var currentImage = getBackgroundImage(".img-anchor");
+        var url = currentPassage.url;
+        url = url.substring(url.lastIndexOf('/', url.lastIndexOf('/') - 1) + 1);
+        if (url !== currentImage) { //Background image changing is proxy for section change
+            // First, animate the section name change
+            $("#section-name").html(currentPassage.section).addClass("hilight");
+            setTimeout(function() {
+                $("#section-name").removeClass("hilight");
+            }, 1100);
+
+            // Next, change the background image
+            var $active = $(".img-anchor");
+            var $passive = $(".img-fader");
+            $(".img-container").toggleClass('img-anchor img-fader');
+            $passive.css("background-image", "url(" + url + ")");
+            $passive.removeClass('background-fade');
+            $active.addClass("background-fade");
+            //look for next tag: if there is one, cache its background image
+            var nextTag = tags.indexOf(currentTag) + 1;
+            if (nextTag < tags.length) {
+                setTimeout(function() {
+                    var nextUrl = sections[tags[nextTag]].url;
+                    $active.css("background-image", "url(" + nextUrl + ")");
+                }, 1100);
+            }
+        }
     }
 
     var passage = tale.get(state.active.title);
@@ -108,73 +257,3 @@ print name of active passage = state.active.title
         $("#custom").slideUp("fast");
     }
 <</script>>
-
-
-:: StoryInit [nobr]
-/% Add the header & controls to the document when the story first loads. %/
-<<set options.autoplaydelay to 0>>
-<<script>>
-    var header = insertElement(document.html, "header", "custom");
-    var banner = insertElement(header, "h2", "section-name", "", "GEO Predeparture Information");
-    var controls = insertElement(header, "div", "controls");
-    var label = insertElement(controls, "label", "", "autoplay-switch", "Autoplay + Sound");
-    var toggle = insertElement(controls, "button", "autoplay-switch");
-    var backgrounds = insertElement(document.body, "div", "backgrounds");
-    var image_container_1 = insertElement(backgrounds, "div", "bkgd-1");
-    var image_container_2 = insertElement(backgrounds, "div", "bkgd-2");
-
-    $("body").before(backgrounds);
-    $("body").before(header);
-    $("#custom").css("display","none");
-    $(image_container_1).addClass("img-anchor img-container");
-    $(image_container_2).addClass("img-fader img-container");
-
-    $(toggle)
-        .attr("type", "button")
-        .addClass(function() {
-            if (options.autoplay) { return "switchedon" }
-        })
-        .click(function() {
-            $(toggle).toggleClass("switchedon");
-            if ( $(toggle).hasClass("switchedon") ) {
-                var soundName = state.active.variables.autoplaySound;
-                options.autoplay = true;
-                var sound = macros.get("playSound").soundtracks[soundName.slice(0, soundName.lastIndexOf("."))];
-                if (sound) { sound.play() }
-            }
-            else {
-                options.autoplay = false;
-                var sounds = macros.get("playSound").soundtracks;
-                for (var i in sounds) {
-                    if (sounds.hasOwnProperty(i)) {
-                        sounds[i].pause();
-                        sounds[i].currentTime = 0;
-                    }
-                }
-            }
-        });
-    
-    //Replace text in loading screen
-    $("#loading-screen p").html("Loading&hellip;<br /><progress></progress>");
-    // Prep first background image object with inline CSS for background image
-    $(".img-anchor").css("background-image", "url("+ getBackgroundImage(".img-anchor") +")");
-<</script>>
-
-/% Initialize variables %/
-<<set $index to {}>>
-<<set $section to "">>
-<<set $backgrounds to {}>>
-/% Custom scrollbar %/\
-<<loadJS "jquery.nicescroll.js">>\
-/% CSS Transition commands %/
-<<loadJS "jquery.transit.min.js">>\
-<<script>>
-$(document).ready(
-    function() {  
-        $("body").niceScroll({
-            cursorwidth: "8px", 
-            railpadding:{top:0,right:5,left:0,bottom:0}
-        });
-    }
-);
-<</script>>\

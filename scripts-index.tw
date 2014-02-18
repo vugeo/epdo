@@ -1,0 +1,176 @@
+:: Reset index [widget]
+<<widget "contents">>\
+	<<set $index to {}>>
+	<<set $backgrounds to {}>>
+    <<set $tags to []>>
+    <<set $bookmarks to {}>>
+    <<set $fullindex to []>>
+<</widget>>
+
+:: Section record [script]
+//  Use the section macro to mark out one entry in the table of contents
+//    <<section [name of section] [tag name] [path to background image]>>
+//
+//  Three javascript objects store the index information:
+//  1. $backgrounds stores the background image url associated with the tag name,
+//     as well as the section name associated with the tag:
+//          backgrounds = {
+//              "intro": {
+//                          url: "images/imagetest.jpg",
+//                          section: "Introduction",
+//              }
+//          };
+//  2. The $index stores each passage name associated with a passage title, as well as the
+//     long section name and the background image's url:
+//			index = {
+//              "What Study Abroad Is All About": {
+//                  tag: "intro",
+//                  url: "images/imagetest.jpg",
+//                  section: "Introduction",
+//              }
+//  		};
+//  3. $bookmarks stores the bookmarked passage name keyed to each section tag:
+//          bookmarks = {
+//              "intro": "What Study Abroad Is All About"
+//          };
+//
+// There is also the $tags array, which stores the names of the section tags (only, other tags are
+// ignored), e.g. tags = ["intro"]. This allows for us to easily ask "which section tag comes next?"
+
+
+(function () {
+    macros.add("section", {
+        version: {
+            major: 1,
+            minor: 0,
+            revision: 0
+        },
+        handler: function () {
+            try {
+                var backgrounds = state.active.variables.backgrounds;
+                var sectionName = "";
+                var tagName = "";
+                var url = "";
+                if (this.args[2].length < 1) {throw sectionName + ": Supply a section name, a tag name, and the path to a background image.";}
+                sectionName = this.args[0];
+                tagName = this.args[1];
+                url = this.args[2];
+                if (!backgrounds.hasOwnProperty(tagName)) {
+                    backgrounds[tagName] = {};
+                }
+                backgrounds[tagName].section = sectionName;
+                backgrounds[tagName].url = url;
+            } catch(e) {
+                return this.error("Error: " + e.message);
+            }
+        }
+    });
+
+    macros.add("create-index", {
+        version: {
+            major: 1,
+            minor: 0,
+            revision: 0
+        },
+        handler: function () {
+            try {
+            	var index = state.active.variables.index;
+                var backgrounds = state.active.variables.backgrounds;
+                var bookmarks = state.active.variables.bookmarks;
+                state.active.variables.tags = Object.getOwnPropertyNames(backgrounds);
+                console.log(backgrounds);
+                var sectionName = "";
+                var tagName = "";
+                var url = "";
+                var text = '';
+                var num = -1;
+                console.log("Tags: " + state.active.variables.tags);
+                for(var i in backgrounds) {
+					if (backgrounds.hasOwnProperty(i)) {
+						num++;
+						tagName = i;
+						backgrounds[i].enumeration = num;
+						$("#store-area div").each(function() {
+							if ($(this).attr("tags").indexOf(i) > -1) {
+								var passageName = $(this).attr("tiddler");
+								console.log("Found passage: " + passageName);
+								if (!index.hasOwnProperty(passageName)) {
+									index[passageName] = {};
+									index[passageName].tag = tagName;
+									index[passageName].section = backgrounds[i].section;
+									index[passageName].url = backgrounds[i].url;
+									index[passageName].enumeration = backgrounds[i].enumeration;
+								}
+                                if ($(this).attr("tags").indexOf("bookmark") > -1) {
+                                    if (!bookmarks.hasOwnProperty(tagName)) {
+                                        bookmarks[tagName] = [];
+                                    }
+                                    bookmarks[tagName].push(passageName);
+                                }
+							}
+						});
+					}
+				}
+                console.log(backgrounds);
+                console.log(index);
+                console.log(bookmarks);
+
+                var fullindex = state.active.variables.fullindex;
+                var seek = state.active.variables.first;
+                var lastTag = "";
+                var count = -1;
+                while(seek !== null) {
+                    $("#store-area div").each(function() {
+                        if ($(this).attr("tiddler") === seek) {
+                            for(tagName in backgrounds) {
+                                if ($(this).attr("tags") && $(this).attr("tags").indexOf(tagName) > -1 ) {
+                                    if (tagName !== lastTag) {
+                                        count++;
+                                        lastTag = tagName;
+                                        fullindex.push({});
+                                    }
+                                    console.log("fullindex.length = "+fullindex.length+ ", count: "+ count);
+                                    if (fullindex.length < count + 2) {
+                                        console.log("Looking to add " + $(this).attr("tiddler") + " to fullindex");
+                                        if (!fullindex[count].hasOwnProperty("section")) {
+                                            console.log("   Looking to add section.");
+                                            fullindex[count].section = backgrounds[tagName].section;
+                                        }
+                                        if (!fullindex[count].hasOwnProperty("passages")) {
+                                            console.log("   Looking to add passages.");
+                                            fullindex[count].passages = [];
+                                        }
+                                        var passageStore = { passage: $(this).attr("tiddler") };
+                                        var sidebars = $(this).text().match(/&lt;&lt;\s*sidebar-link\s+["'](.*)["']/g);
+                                        console.log("   Looking to add sidebars.");
+                                        if (sidebars !== null) {
+                                            var sidebarStore = [];
+                                            $.each(sidebars, function(index, value) {
+                                                    sidebarStore.push((/["'](.*?)["']/).exec(value)[1]);
+                                                });
+                                            passageStore.sidebars = sidebarStore;
+                                        }
+                                        fullindex[count].passages.push(passageStore);
+                                    }
+                                    
+                                    break;
+                                }
+                            }
+                            seek = (/&lt;&lt;\s*continue\s+["'](.*?)["']\s*&gt;&gt;/g).exec($(this).text());
+                            if (seek != null) {
+                                seek = seek[1]; 
+                            }
+                            return false;
+                        }
+                    });
+
+                    
+                }
+            
+            console.log(fullindex);
+            } catch(e) {
+                return this.error("Error: " + e.message);
+            }
+        }
+    });                
+}());

@@ -1,0 +1,98 @@
+:: Avoid risky behaviors [safety]
+!Avoid risky behaviors
+!!!!Subhead goes here
+   * Driving and road safety are the primary cause of injury
+<<sidebar-link "Give me some tips on road safety" "Road safety" "More">>
+   * AIDS/STDs - avoid unprotected sex
+   * Alcohol/drugs
+<<sidebar-link "Tell me about the dangers of using drugs abroad" "Drug use abroad" "Info">>
+<<sidebar-link "What should I know about street safety?" "Street safety" "Info">>
+   * _Sidebar_: 
+
+<<continue "LGBQTI issues">>
+
+
+:: Road safety [safety sidebar]
+<<sidebar "Road Safety Tips">>
+
+Text here!
+
+<<continue "LGBQTI issues">>
+
+
+:: Drug use abroad [safety sidebar]
+<<sidebar "Legal Dangers of Drug Use Abroad">>
+
+Legal dangers of using drugs abroad.
+
+<<continue "LGBQTI issues">>
+
+
+:: Street safety [safety sidebar]
+<<sidebar "Street Safety">>
+
+Street smarts/common scams, basics about pickpocketing/purse-snatching.
+
+<<continue "LGBQTI issues">>
+
+
+:: LGBQTI issues [safety]
+!LGBQTI issues
+!!!!Subhead goes here [could also be a sidebar]
+   * On being out in a different country / Resources
+<<sidebar-link "Where is it particularly unsafe to be out abroad?" "Being out" "Help">>
+
+<<continue "Sexual harassment and sexual assault">>
+
+
+:: Being out [safety sidebar]
+<<sidebar "Countries Where It Is Particularly Dangerous to Be Out">>
+
+Countries where being out is illegal or particularly dangerous, and/or where speech is legally restricted
+
+<<continue "Sexual harassment and sexual assault">>
+
+
+:: Sexual harassment and sexual assault [safety]
+!Sexual harassment and sexual assault
+!!!!Subhead goes here
+   * Cultural differences and challenges
+<<sidebar-link "How can I avoid unwanted attention" "Avoiding unwanted attention" "Tips">>
+<<sidebar-link "What legal issues around sexual activity should I make myself aware of?" "Sexual activity" "Info">>
+   * Resources
+
+<<continue "Who to Contact">>
+
+
+:: Avoiding unwanted attention [safety sidebar]
+<<sidebar "Tips For Avoiding Unwanted Attention">>
+
+Text will go here one day!
+
+<<continue "Who to Contact">>
+
+
+:: Sexual activity [safety sidebar]
+<<sidebar "Educate Yourself About Legal Issues Regarding Sexual Activity">>
+
+Legal issues surrounding sexual activity
+
+<<continue "Who to Contact">>
+
+
+:: Who to Contact [safety]
+!Who to Contact
+!!!!Subhead goes here
+   * Know local emergency numbers and have them on your cell phone
+   * Contact resident staff before calling home to parents
+   * Contact GEO if you don't feel comfortable talking to resident staff
+
+<<continue "Emergencies">>
+
+
+:: Emergencies [safety]
+!Emergencies
+!!!!Subhead goes here
+    * ISOS and so on
+
+<<continue "Reverse culture shock">>

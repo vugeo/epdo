@@ -1,0 +1,57 @@
+:: Before you leave [health]
+!Before you leave
+!!!!Subhead goes here _(these should be added to our checklist too!)_
+   * Get a clean bill of health; get primary care and dental check-ups
+   * Get vaccinated for any travel you hope to do
+<<sidebar-link "Do I need any vaccinations?" "Vaccination" "Info">>
+   * Learn the generic names and legal status of your meds
+<<sidebar-link "I need help identifying my medications!" "Medications" "Info">>
+   * Disclose any health conditions to program staff via medical forms
+
+<<continue "Medical insurance">>
+
+
+:: Vaccination [sidebar health]
+<<sidebar "Do I Need Any Vaccinations?">>
+
+Travel Medicine Clinic, cdc.gov/travel
+
+<<continue "Medical insurance">>
+
+
+:: Medications [sidebar health]
+<<sidebar "Where to Find Crucial Information About Your Medications">>
+
+If possible, try to guide students to generic names/legal status info
+
+<<continue "Medical insurance">>
+
+
+:: Medical insurance [health]
+!Medical Insurance
+!!!!Subhead goes here
+   * Most domestic insurance does not provide comprehensive international coverage.
+   * You may be enrolled in international health insurance by Vandy, your provider, or both.
+   * Be sure to maintain domestic coverage while you're abroad!
+
+<<continue "Culture shock and coping">>
+
+
+:: Culture shock and coping [health]
+!Culture shock and coping
+!!!!Subhead goes here
+   * Very brief, basic characteristics of "culture shock"
+   * Managing networks abroad (balance new social networks with a relatively small amount of contact back home)
+   * Links to info on culture shock
+
+<<continue "Illness abroad">>
+
+
+:: Illness abroad [health]
+!Illness abroad
+!!!!Subhead goes here
+   * Preexisting conditions
+   * Resources (program staff, HTH or other insurance, PCC, etc.)
+   * Be sure to keep any doctor's notes for your files, and keep program staff in the loop via email when you are ill.
+
+<<continue "Avoid risky behaviors">>

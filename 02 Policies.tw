@@ -1,0 +1,27 @@
+:: Your status as a Vanderbilt student [policies]
+!Your status as a Vanderbilt student
+!!!!Subhead goes here
+   * Registered at Vandy, remain a student while abroad, on-campus resources
+   * You will be billed VU tuition + fees, financial aid applies.
+   * Billing occurs at the normal time via normal channels
+
+<<continue "Conduct and law">>
+
+
+:: Conduct and law [policies]
+!Conduct and law
+!!!!Subhead goes here
+   * You are subject to laws and conduct policies abroad 
+   * You are also subject to Vanderbilt conduct policies + enforcement; _link out_ to policy + handbook.
+   * Be an ambassador for VU and your home country!
+
+<<continue "Vanderbilt conduct policies">>
+
+
+:: Vanderbilt conduct policies [policies]
+!Vanderbilt conduct policies
+!!!!Subhead goes here
+   * When you are abroad on a Vanderbilt program, discipline decisions--including dismissal--rest solely with program leader
+   * _link out_ to policy + student handbook
+
+<<continue "Grades and credits">>

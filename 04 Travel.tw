@@ -1,0 +1,95 @@
+:: Things you need to know about traveling [travel]
+!Things you need to know about traveling
+!!!!Subhead goes here
+   * Traveling is great fun, but it is important to be aware of a few things...
+   * Keep local administrators informed of your independent travel.
+   * Know where the nearest embassy is in every city you visit.
+   * Travel is one of the most expensive activities you can do abroad, be sure to budget appropripriately.
+
+<<continue "Documents">>
+
+:: Documents [travel]
+!Documents
+!!!!Subhead goes here
+   * Keeping your passport safe
+
+   <<sidebar-link "It looks like I need a new passport!" "Passport Acquisition" "Help!">>
+   <<sidebar-link "Where should I start getting a visa?" "Visa Acquisition" "Info">>
+
+<<continue "Traveling with medications">>
+
+
+:: Passport Acquisition [sidebar travel]
+<<sidebar "Getting or Renewing a Passport">>
+To get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.
+
+U.S. citizens should visit the State Department's website for [[passport services|http://travel.state.gov/passport/]] to view requirements and to check on [[current processing times|http://travel.state.gov/passport/processing/processing_1740.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications!
+
+In Nashville, locations near Vanderbilt where you can apply for a passport include:
+
+|alternating-rows|k
+|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|
+|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|
+|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|
+|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|
+
+You may need to ''call in advance'' for an appointment!
+
+You'll also need to get ''passport photos'' taken before you can apply. FedEx Kinko's, Walgreens, and CVS are locations near to Vandy that can take passport photos.
+
+<<continue "Traveling with medications">>\
+
+
+:: Visa Acquisition [sidebar travel]
+<<sidebar "How to Get a Visa">>
+
+Text to go here!
+
+<<continue "Traveling with medications">>\
+
+
+:: Traveling with medications [travel]
+!Traveling with medications
+!!!!Subhead goes here
+   * Keep in original packaging
+   * Carry a full supply if possible
+   * Have a doctor's letter to accompany your prescription
+
+<<sidebar-link "What is customs anyway?" "Customs" "Info">>
+<<sidebar-link "Airport Dangers" "Airport Dangers" "Info">>
+
+<<continue "Tips for packing">>
+
+:: Customs [sidebar travel]
+<<sidebar "Customs: What It Is and How to Navigate It">>
+
+Text goes here!
+
+<<continue "Tips for packing">>
+
+
+:: Airport Dangers [sidebar travel]
+<<sidebar "Airport Dangers">>
+
+Text goes here!
+
+<<continue "Tips for packing">>
+
+
+:: Tips for packing [travel]
+!Tips for packing
+!!!!Subhead goes here
+   * Very brief tips
+   * _Link out_ to power converter info
+
+<<sidebar-link "More packing tips!" "Further packing tips" "More">>
+
+<<continue "Contacts and communications">>
+
+
+:: Further packing tips [sidebar travel]
+<<sidebar "Further Tips for Successful Packing">>
+
+Text goes here!!
+
+<<continue "Contacts and communications">>

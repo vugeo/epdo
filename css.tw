@@ -93,7 +93,7 @@ h6 {
     transition: opacity 1s ease-in-out;
 }
 .img-anchor {
-    background-image: url(images/imagetest.jpg);
+    background-image: url(images/Wheelock_Elizabeth_Rose _Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg);
     opacity:1;
     z-index:1;
 }
@@ -365,7 +365,7 @@ header#custom {
   border-radius: 4px;
   background-color: whiteSmoke;
   box-shadow: 0 5px 5px -5px #222 inset;
-  width: 85%;
+  width: 95%;
   height: 6px;
   display: inline-block;
   box-shadow: 0 5px 5px -5px #888 inset;

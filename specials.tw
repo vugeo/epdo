@@ -102,7 +102,6 @@ $(document).ready(
 <</script>>\
 <<display "Table of Contents">>
 <<script>>
-console.log("CSS Hooks: ");
 //Set up the progress bar
 var fullindex = state.active.variables.fullindex;
 if (fullindex.length > 0) {
@@ -146,8 +145,6 @@ if (fullindex.length > 0) {
         }
         $("#progress-meter").css("backgroundImage", rule);
     }
-    console.log(rule);
-    console.log($("#progress-meter").css("backgroundImage"));
 }
 <</script>>
 
@@ -187,7 +184,7 @@ if (fullindex.length > 0) {
     var bookmarks = state.active.variables.bookmarks;
     var currentTag = tags.indexOf(currentPassage.tag);
     console.log("current tag: " + currentTag + ", no. " + currentPassage.tag);
-    
+
     if (currentTag > 0) { //the user has read enough to need to see the chapter button
         if (currentTag > options.chapterprogress) {
                 options.chapterprogress = currentTag;

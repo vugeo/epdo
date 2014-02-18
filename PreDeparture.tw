@@ -1,5 +1,7 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
+* Doesn't work in Safari 5.1
+* Doesn't work in IE 9
 * Make it so that Continue button is fully clickable, not just on "Continue"
 * Add global tracking bar at top of screen
 * Fix sidebar link so that it makes a stackable list

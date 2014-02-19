@@ -44,3 +44,13 @@ window.parseQueryString = function( queryString ) {
  
     return params;
 };
+
+
+:: Basic shim for IE console.log [script]
+//from https://stackoverflow.com/questions/8785624/how-to-safely-wrap-console-log
+if (typeof console === "undefined"){
+    console={};
+    console.log = function(){
+        return;
+    }
+}

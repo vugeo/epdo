@@ -5,28 +5,31 @@
     <<set $tags to []>>
     <<set $bookmarks to {}>>
     <<set $fullindex to []>>
+    <<set $totalPassages to 0>>
 <</widget>>
 
 :: Section record [script]
 //  Use the section macro to mark out one entry in the table of contents
 //    <<section [name of section] [tag name] [path to background image]>>
 //
-//  Three javascript objects store the index information:
+//  A number of javascript objects store the index information in different forms:
 //  1. $backgrounds stores the background image url associated with the tag name,
 //     as well as the section name associated with the tag:
 //          backgrounds = {
 //              "intro": {
 //                          url: "images/imagetest.jpg",
-//                          section: "Introduction",
+//                          section: "Introduction"
 //              }
 //          };
 //  2. The $index stores each passage name associated with a passage title, as well as the
-//     long section name and the background image's url:
+//     long section name and the background image's url. The enumeration gives the place
+//     in the presentation where the passage lies in linear reading order.
 //			index = {
 //              "What Study Abroad Is All About": {
 //                  tag: "intro",
 //                  url: "images/imagetest.jpg",
 //                  section: "Introduction",
+//                  enumeration: 1
 //              }
 //  		};
 //  3. $bookmarks stores the bookmarked passage name keyed to each section tag:
@@ -34,6 +37,19 @@
 //              "intro": "What Study Abroad Is All About"
 //          };
 //
+//  4. $fullindex stores all sections, passages, and sidebars in a single object.
+//     The names of sections, passages, etc. are stored in arrays so that everything is enumerated.
+//          fullindex[0] = {
+//              section: "Introduction",
+//              passages[0]: {
+//                             passage: "What you will get out of study abroad"
+//                           },
+//              passages[1]: {
+//                             passage: "What we will cover in this presentation",
+//                             sidebars[0]: "Give me some tips!"
+//                           }
+//           }
+
 // There is also the $tags array, which stores the names of the section tags (only, other tags are
 // ignored), e.g. tags = ["intro"]. This allows for us to easily ask "which section tag comes next?"
 
@@ -99,7 +115,7 @@
 									index[passageName].tag = tagName;
 									index[passageName].section = backgrounds[i].section;
 									index[passageName].url = backgrounds[i].url;
-									index[passageName].enumeration = backgrounds[i].enumeration;
+									//index[passageName].enumeration = backgrounds[i].enumeration;
 								}
                                 if ($(this).attr("tags").indexOf("bookmark") > -1) {
                                     if (!bookmarks.hasOwnProperty(tagName)) {
@@ -115,6 +131,7 @@
                 console.log(index);
                 console.log(bookmarks);
 
+                //Build the full index by "reading" the full presentation in order
                 var fullindex = state.active.variables.fullindex;
                 var seek = state.active.variables.first;
                 var lastTag = "";
@@ -168,9 +185,36 @@
                 }
             
             console.log(fullindex);
+
+            //In the $index, number each passage so that we can quickly
+            //identify where we are for the progress meter.
+            count = 0;
+            $.each(fullindex, function(i, part){
+                if (part.passages.length > 0) {
+                    $.each(part.passages, function(j, group) {
+                        count ++;
+                        index[group.passage].enumeration = count;
+                    });
+                }
+            });
+            
+            state.active.variables.totalPassages = count;
+
             } catch(e) {
                 return this.error("Error: " + e.message);
             }
         }
     });                
 }());
+
+
+//          fullindex[0] = {
+//              section: "Introduction",
+//              passages[0]: {
+//                             passage: "What you will get out of study abroad"
+//                           },
+//              passages[1]: {
+//                             passage: "What we will cover in this presentation",
+//                             sidebars[0]: "Give me some tips!"
+//                           }
+//           }

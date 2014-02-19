@@ -9,16 +9,16 @@
 <<set $first to "What you will get out of study abroad">>
 
 <<contents>>
-    <<section "Global Education Office" "nosave" "images/imagetest.jpg">>
-    <<section "Introduction" "intro" "images/9732976450_d91248889d_h.jpg">>
-    <<section "Basic Policy Information" "policies" "images/imagetest.jpg">>
-    <<section "Academic Policies" "academics" "images/9732976450_d91248889d_h.jpg">>
-    <<section "Travel" "travel" "images/imagetest.jpg">>
-    <<section "Living and Learning Abroad" "living" "images/9732976450_d91248889d_h.jpg">>
-    <<section "Health and Wellness" "health" "images/imagetest.jpg">>
-    <<section "Safety and Security" "safety" "images/9732976450_d91248889d_h.jpg">>
-    <<section "Returning Home" "home" "images/imagetest.jpg">>
-    <<section "Finishing Up" "finish" "images/9732976450_d91248889d_h.jpg">>
+    <<section "Global Education Office" "nosave" "images/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg">>
+    <<section "Introduction" "intro" "images/Weinstein_Lori_Ann_Sunrise_at_Byron_Bay_Australia.jpg">>
+    <<section "Basic Policy Information" "policies" "images/Boppana_Sushma_Hillside_Door_Budapest_Hungary.jpg">>
+    <<section "Academic Policies" "academics" "images/Grubb_Joshua_LouAllen_Checkered_Lawn_Buenos_Aires.jpg">>
+    <<section "Travel" "travel" "images/Morrison_Danielle_Antoinette_Rooftop_View_Segovia_Spain.jpg">>
+    <<section "Living and Learning Abroad" "living" "images/Pribish_Abby_Marie_Lake_Geneva_Through_the_Foliage_Switzerland.jpg">>
+    <<section "Health and Wellness" "health" "images/Sims-Jones_John_Fields_and_mountains_of_Moray.jpg">>
+    <<section "Safety and Security" "safety" "images/Tollefsen_Stefanie_Violet_tree_Rome_Italy.jpg">>
+    <<section "Returning Home" "home" "images/Williams_Jon_Beaches_of_Tarifa_Spain.jpg">>
+    <<section "Finishing Up" "finish" "images/Babbitt_Martha_Ann_Lake_Como_Italy.jpg">>
 <<create-index>>
 
 

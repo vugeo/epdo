@@ -93,7 +93,7 @@ h6 {
     transition: opacity 1s ease-in-out;
 }
 .img-anchor {
-    background-image: url(images/Wheelock_Elizabeth_Rose _Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg);
+    background-image: url(images/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg);
     opacity:1;
     z-index:1;
 }
@@ -383,7 +383,7 @@ header#custom {
     top:2px;
     bottom:2px;
     background-color:#008EDB;/*#57C7DE;*/
-    right:75%;
+    right:100%;
     left:0;
 }
 #pb-position {
@@ -391,7 +391,7 @@ header#custom {
     top:1px;
     bottom:2px;
     display:block;
-    left:25%;
+    left:0%;
     width:4px;
     height:4px;
     background-color:#008EDB;/*#45cbe6;*/

@@ -14,7 +14,15 @@ print name of active passage = state.active.title
 :: StoryInit [nobr]
 /% Add the header & controls to the document when the story first loads. %/
 <<set options.autoplaydelay to 0>>
+<<set $csscalc to true>>
 <<script>>
+    // Check CSS3 calc() support
+    $('body').append('<div id="css3-calc"></div>');
+    var css3_calc = parseInt($('#css3-calc').width());
+    if(css3_calc == 10) {
+        state.active.variables.csscalc = false;
+    }
+    $('#css3-calc').remove();
     // Replace text in loading screen
     $("#loading-screen p").html("Loading&hellip;<br /><progress></progress>");
 
@@ -183,7 +191,31 @@ if (fullindex.length > 0) {
     var sections = state.active.variables.backgrounds;
     var bookmarks = state.active.variables.bookmarks;
     var currentTag = tags.indexOf(currentPassage.tag);
+    
+    var totalPassages = state.active.variables.totalPassages;
     console.log("current tag: " + currentTag + ", no. " + currentPassage.tag);
+
+    if (currentPassage.hasOwnProperty("enumeration")) {
+        //The progress marker will appear halfway through the imaginary rectangle
+        //of each passage on the progress meter, except for the last, where we
+        //show it completely filling the bar.
+        var progress = currentPassage.enumeration;
+        if (progress !== totalPassages) { progress = progress - 0.5 }
+    }
+    else if (currentTag < 1) {
+        var progress = 0;
+    }
+    console.log("Current passage: " + progress + " of " + totalPassages);
+    var progressPercent = (progress / totalPassages)* 100;
+    $("#pb-complete").css("right", 100 - progressPercent + "%");
+    if (state.active.variables.csscalc === true) {
+        $("#pb-position").css("left", "calc(" + progressPercent + "% - 2px)");
+    }
+    else { //if CSS calc() isn't supported, we don't try to be as exact
+        $("#pb-position").css("left", progressPercent + "%");
+    }
+    console.log("Set #pb-complete right to: " + (100 - (progress / totalPassages)* 100) + "%");
+    console.log("Set #pb-position left to: " + (progress / totalPassages)* 100 + "%");
 
     if (currentTag > 0) { //the user has read enough to need to see the chapter button
         if (currentTag > options.chapterprogress) {
@@ -219,6 +251,8 @@ if (fullindex.length > 0) {
         });
         $("#story-rewind").show();
     }
+
+
 
     if (index.hasOwnProperty(passage)) { //skip this for passages that aren't in the index
         //update image if necessary

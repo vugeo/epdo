@@ -1,5 +1,8 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
+* Set up config that allows "story" to be renamed.
+* Put header on About this Presentation as well--?
+* tag property is used on something undefined in PassageDone when the user continues a previous session and attempts to use the navigation menu to jump back to material covered in the previous section. Worse, the passage gone to then is said not to exist. This seems to be due to $index not being properly filled in.
 * Doesn't work in Safari 5.1
 * Doesn't work in IE 9
 * Make it so that Continue button is fully clickable, not just on "Continue"

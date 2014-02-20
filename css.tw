@@ -29,6 +29,13 @@ button:active {
 }
 */
 
+/* CSS3 calc() support check */
+#css3-calc {
+    width: 10px;
+    width: calc(10px + 10px);
+    display: none;
+}
+
 html {
   height:100%;
 }

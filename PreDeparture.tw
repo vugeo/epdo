@@ -21,6 +21,11 @@
 * Consider conversion of some resources to data URIs: http://css-tricks.com/data-uris/
 * Credits page for all images used (final passage?)
 
+
+//The URL customizations available are as follows:
+nav : go directly to a given passage in the ePDO, ex.: http://...index.html?nav=Passport Acquisition
+facultyled: sets $facultyled, use for Maymesters etc., ex.: http://...index.html?facultyled=true
+
 Images
 https://farm8.staticflickr.com/7381/9729745463_1386659d7d_b.jpg
 Jonathan C Williams - Beautiful clear beaches of Tarifa, Spain
@@ -68,26 +73,6 @@ Before we begin, take a moment to check your passport's expiration date.
 <<continue "Passport Security">>
 <<autoPlay "sounds/Passport Check.audio" "Passport Security">>\
 
-
-
-::Passport Security [travel]
-!Passport Security
-!!!!Keep your passport safe
-When you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also be made difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe!
-
-In general, you should only keep your passport on your person when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.
-<img src="images/passport wallet.jpg" class="right" style="height: 250px;" />\
-
-If you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.
-
-|box|k
-|!Potentially Good Places to Keep Your Passport|
-|Hidden in the room of your homestay or residence hall|
-|In your hotel's safe (//not// the room safe)|
-|With your study abroad provider, if they offer such a service|
-
-<<continue "Copying Documents">>\
-<<autoPlay "sounds/Passport Security.audio" "Copying Documents">>\
 
 :: Copying Documents [copying bookmark]
 !Copying Documents

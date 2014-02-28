@@ -6,24 +6,13 @@
 <</widget>>\
 
 
-:: New Continue Button [widget]
-/%
-<<widget "continue">>
-    <<script>> 
-        var continueBtn = insertElement( 
-            output, 
-            "span", 
-            "", 
-            "continue-button", 
-            "Continue" 
-        );
-        $(continueBtn).append("<span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&emsp;");
-        $(continueBtn).click(function() {
-            state.display(state.active.variables.args[0]);
-        });
-    <</script>>
-<</widget>>
-%/
+:: Inline head [widget]
+/% Syntax:
+    <<$- [text] [optional: ending punctuation]>>%/\
+<<widget "$-">>\
+    <span class='inline-head'><<print $args[0]>><<if $args.length > 1>><<print $args[1]>><<else>>.<<endif>></span>\
+<</widget>>\
+
 
 :: Goto Passage [script]
 /* Syntax:
@@ -48,7 +37,7 @@
 
 :: Sidebar Button [widget]
 /% Syntax:
-    <<sidebar-link [text] [passage name] [optional:text to replace "more info"]>> %/\
+    <<sidebar-link [text] [passage name] [optional:text to replace "More"]>> %/\
 <<widget "sidebar-link">>\
     <div class="sidebar-box">\
         <span class="sidebar-head">\

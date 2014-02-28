@@ -1,16 +1,50 @@
 :: What you will get out of study abroad [intro]
-!What you will get out of study abroad
-!!!!Subhead goes here
-   * Cultural competencies
-   * Personal growth/self-reliance
+!What you'll get out of study abroad
+!!!!Academics, Cultural Competencies, Personal Growth
+Congratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\
 
- <<continue "What we will cover in this presentation">>
+<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to take classes that are not available at Vanderbilt, broadening your horizons and expanding the breadth of perspectives available to you.</p>\
+<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience!</p>\
+<p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p>\
+<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vanderbubble will help shape you as a person and hone your life skills. You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.</p>\
+<<display "Recent Graduates Survey extract">>\
+ <<continue "What we will cover in this presentation">>\
+
+
+:: Recent Graduates Survey extract [nobr]
+<figure>
+   <table class="box">
+      <thead>
+         <tr><th colspan=2>According to Recent College Graduates Who Studied Abroad...</th></tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td style="text-align:right;"><strong>84%</strong></td>
+            <td>Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills</td>
+         </tr>
+         <tr>
+            <td style="text-align:right;"><strong>80%</strong></td>
+            <td>Studying abroad helped me develop confidence to deal with new skills required for my first job</td>
+         </tr>
+         <tr><td colspan=2><hr><figcaption>Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]</figcaption></td></tr>
+      </tbody>
+   </table>
+</figure>
 
 
 :: What we will cover in this presentation [intro]
-!What we will cover in this presentation
-!!!!Subhead goes here
-
-Some text here!
+!Your PDO guidebook
+!!!!What to expect from this Predeparture Orientation
+Over the next ****half-hour****, you will learn a lot about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas! The chart below shows how your time in this Predeparture Orientation (PDO) will be spent. Keep an eye on the progress meter at the top of the screen to track how far you've come!
+|box|k
+|!Topic|!Description|!Time|
+|''Basic Policy Information''|Everything you need to know about being a Vanderbilt student abroad, conduct, and the law!|X&nbsp;minutes|
+|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|X minutes|
+|''Travel''|What you need to know before you get on the plane and preparing for your journey in a practical sense|X minutes|
+|''Living and Learning Abroad''|Answers to questions about on-the-ground logistics|X minutes|
+|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|X minutes|
+|''Safety and Security''|Information on staying safe abroad and protecting yourself|X minutes|
+|''Returning Home''|An introduction to how your study abroad experience will impact you when you return to Vanderbilt|X minutes|
+|''Finishing Up''|Your next steps, a brief recap, and verifying with GEO that you completed this required module|X minutes|
 
 <<continue "Your status as a Vanderbilt student">>

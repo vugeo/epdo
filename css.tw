@@ -46,11 +46,18 @@ figcaption {
 .inline {
     display: inline-block;
 }
+.inline-head {
+    font-weight:bold;
+}
 .left {
     float: left;
 }
 .right {
     float:right;
+}
+.talkbox {
+  width:85%;
+  margin:auto;
 }
 body {
     color: #000;
@@ -123,6 +130,8 @@ h6 {
 .content strong {
     font-size: 90%;
 }
+
+/* Basic passage styles */
 #passages {
     color: #000;
     font-size:15px;
@@ -182,6 +191,14 @@ h6 {
 }
 table a.link-internal, a.link-external, a.link-back, a.link-return {
     font-size: 100%!important;
+}
+
+
+/* Figures */
+figure {
+  margin-left:auto;
+  margin-right:auto;
+  display:table;
 }
 
 
@@ -648,6 +665,38 @@ config.passageTransitionOut = 780; // it's probably best if it's just slightly l
 .sidebar-link a, sidebar-link a:hover {
     text-decoration:underline;
     color:#dd3b2a;
+}
+
+
+:: CSS for circle graphs [stylesheet]
+.circle-graph {
+  width: 30px;
+  height: 30px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display:inline-block;
+}
+
+.circle-graph-full {
+    background: #0688fa;
+}
+
+.circle-graph-empty {
+    background: #bdbdbd;
+}
+
+.circle-graph-clip-container {
+    position:relative;
+    width:30px;
+    height:30px;
+    display:inline-block;
+}
+
+.circle-graph-clip {
+    position:absolute;
+    top:0;
+    left:0;
 }
 
 

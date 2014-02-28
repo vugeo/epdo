@@ -15,6 +15,7 @@ print name of active passage = state.active.title
 /% Add the header & controls to the document when the story first loads. %/
 <<set options.autoplaydelay to 0>>
 <<set $csscalc to true>>
+<<set $facultyled to false>>
 <<script>>
     // Check CSS3 calc() support
     $('body').append('<div id="css3-calc"></div>');
@@ -84,6 +85,11 @@ print name of active passage = state.active.title
     for (var key in opts) {
         if ( opts.hasOwnProperty(key) ) {
             if (key == "nav") { state.active.variables.urlopts[key] = unescape(opts[key]); }
+            else {
+                if (state.active.variables.hasOwnProperty(key)) {
+                    state.active.variables[key] = state.active.variables.urlopts[key];
+                }
+            }
         }
     }
     if (opts.hasOwnProperty("nav")) {

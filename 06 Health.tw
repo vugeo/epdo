@@ -3,10 +3,13 @@
 !!!!Subhead goes here _(these should be added to our checklist too!)_
    * Get a clean bill of health; get primary care and dental check-ups
    * Get vaccinated for any travel you hope to do
-<<sidebar-link "Do I need any vaccinations?" "Vaccination" "Info">>
    * Learn the generic names and legal status of your meds
-<<sidebar-link "I need help identifying my medications!" "Medications" "Info">>
    * Disclose any health conditions to program staff via medical forms
+
+<<sidebar-box>>
+   [[Do I need any vaccinations?|Vaccination]]
+   [[I need help identifying my medications!|Medications]]
+<</sidebar-box>>
 
 <<continue "Medical insurance">>
 

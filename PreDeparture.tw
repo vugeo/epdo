@@ -60,7 +60,7 @@ Joshua LouAllen Grubb - Checkered Lawn - Jardín Japonés (Japanese Garden), Bue
 %%%%%%%%%%%%%%%%%%%%%%%%%%/
 
 
-::Passport Check [travel bookmark]
+::Passport Check
 <img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\
 !Passport Check
 !!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.
@@ -68,13 +68,14 @@ Before we begin, take a moment to check your passport's expiration date.
 
 <<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you to get a student visa or residence permit if your passport is near its expiration date. Be sure that your passport does not expire until at least 6 months after your program ends!
 
-<<sidebar-link "It looks like I need a new passport!" "Passport Acquisition" "Help!">>
+<<sidebar-box>>
+	[[It looks like I need a new passport!|Passport Acquisition]]
+<</sidebar-box>>
 
 <<continue "Passport Security">>
-<<autoPlay "sounds/Passport Check.audio" "Passport Security">>\
 
 
-:: Copying Documents [copying bookmark]
+:: Copying Documents
 !Copying Documents
 !!!!A "Plan B" for when you lose your passport or other important documents
 You will be taking every precaution to keep your important documents safe, but also make sure you have a Plan B to fall back on.
@@ -89,5 +90,4 @@ GEO recommends that you:
 
 If you do lose your passport while abroad, you will need to ''get in touch with the nearest embassy'' or consulate (you may want to program the contact info into your phone). You should also ''notify your resident director'' or designated contact person.
 
-<<autoPlay "sounds/Copying Documents.audio">>\
 

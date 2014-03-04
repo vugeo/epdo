@@ -35,20 +35,47 @@
     });
 }());
 
-:: Sidebar Button [widget]
-/% Syntax:
-    <<sidebar-link [text] [passage name] [optional:text to replace "More"]>> %/\
-<<widget "sidebar-link">>\
-    <div class="sidebar-box">\
-        <span class="sidebar-head">\
-            <<if $args[2] eq "">><<set $args[2] to "More">><</if>>\
-            <<print $args[2]>>\
-        </span>\
-        <span class="sidebar-link">\
-            <<link $args[0] $args[1]>>\
-        </span>\
-    </div>\
-<</widget>>\
+
+:: Sidebar Stack [script]
+/* Syntax:
+    <<sidebar-box [optional:text to replace "More"]>>
+        [[Link text|Passage Name]]
+        ...
+    <</sidebar-box>> */
+macros.add("sidebar-box", {
+    version: { major: 1, minor: 0, revision: 0 },
+    tags: null,
+    handler: function ()
+    {
+        if (this.payload.length !== 0)
+        {
+            // create the basic elements
+            var   sidebar = document.createElement("div")
+                , header  = document.createElement("div")
+                , links   = document.createElement("ul");
+
+            // setup the basic elements
+            sidebar.className = this.name;
+            header.className  = "sidebar-head";
+            header.innerHTML  = this.args.length !== 0 ? this.args[0] : "More";
+            links.className   = "sidebar-links";
+            sidebar.appendChild(header);
+            sidebar.appendChild(links);
+
+            // process the payload
+            var wikitext = this.payload[0].contents.trim().split(/\s*\n\s*/);
+            for (var i = 0; i < wikitext.length; i++)
+            {
+                var linkEl = document.createElement("li");  // use "p" for paragraph elements
+                new Wikifier(linkEl, wikitext[i]);
+                links.appendChild(linkEl);
+            }
+
+            // append the sidebar to the output buffer
+            this.output.appendChild(sidebar);
+        }
+    }
+});
 
 
 :: Sidebar Title [widget]

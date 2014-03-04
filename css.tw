@@ -648,21 +648,42 @@ config.passageTransitionOut = 780; // it's probably best if it's just slightly l
 }
 
 
+.sidebar-box {
+  display:table;  
+}
+
 .sidebar-head {
     background-color:#dd3b2a;
     border:1px solid #dd3b2a;
     border-radius:5px 0 0 5px;
     color:white;
     padding:3px 10px;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    width:4em;
+    line-height:140%;
 }
 
-.sidebar-link {
+.sidebar-container {
+  margin:0;
+}
+
+ul.sidebar-links {
     border:1px solid #dd3b2a;
     border-radius:0 5px 5px 0;
-    padding:3px 10px 3px 5px;
+    padding:3px 10px 3px 8px;
+    line-height:100%;
+    display:table-cell;
+    vertical-align:middle;
+    list-style-type: none;
 }
 
-.sidebar-link a, sidebar-link a:hover {
+.sidebar-links li {
+  margin:9px 0;
+}
+
+.sidebar-links a, sidebar-link a:hover {
     text-decoration:underline;
     color:#dd3b2a;
 }

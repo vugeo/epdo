@@ -2,12 +2,14 @@
 !Avoid risky behaviors
 !!!!Subhead goes here
    * Driving and road safety are the primary cause of injury
-<<sidebar-link "Give me some tips on road safety" "Road safety" "More">>
    * AIDS/STDs - avoid unprotected sex
    * Alcohol/drugs
-<<sidebar-link "Tell me about the dangers of using drugs abroad" "Drug use abroad" "Info">>
-<<sidebar-link "What should I know about street safety?" "Street safety" "Info">>
-   * _Sidebar_: 
+   
+<<sidebar-box>>
+   [[Give me some tips on road safety|Road safety]]
+   [[Are there special dangers in using drugs abroad?|Drug use abroad]]
+   [[What should I know about street safety?|Street safety]]
+<</sidebar-box>>
 
 <<continue "LGBQTI issues">>
 
@@ -40,7 +42,9 @@ Street smarts/common scams, basics about pickpocketing/purse-snatching.
 !LGBQTI issues
 !!!!Subhead goes here [could also be a sidebar]
    * On being out in a different country / Resources
-<<sidebar-link "Where is it particularly unsafe to be out abroad?" "Being out" "Help">>
+<<sidebar-box>>
+   [[Where is it particularly unsafe to be out abroad?|Being out]]
+<</sidebar-box>>
 
 <<continue "Sexual harassment and sexual assault">>
 
@@ -57,9 +61,13 @@ Countries where being out is illegal or particularly dangerous, and/or where spe
 !Sexual harassment and sexual assault
 !!!!Subhead goes here
    * Cultural differences and challenges
-<<sidebar-link "How can I avoid unwanted attention" "Avoiding unwanted attention" "Tips">>
-<<sidebar-link "What legal issues around sexual activity should I make myself aware of?" "Sexual activity" "Info">>
    * Resources
+
+<<sidebar-box>>
+   [[How can I avoid unwanted attention|Avoiding unwanted attention]]
+   [[What legal issues around sexual activity should I be aware of?|Sexual activity]]
+<</sidebar-box>>
+
 
 <<continue "Who to Contact">>
 

@@ -189,8 +189,24 @@ h6 {
 #passages th, #passages td {
     padding: 0.5em 1em;
 }
-table a.link-internal, a.link-external, a.link-back, a.link-return {
+#passages table a.link-internal, #passages table a.link-external, #passages table a.link-back, #passages table a.link-return {
     font-size: 100%!important;
+}
+#passages table strong {
+    font-size: 100%!important;
+}
+table u {
+  border-radius:50%;
+  width:1.4em;
+  height:1.4em;
+  display:inline-block;
+  text-align:center;
+  font-weight:bold;
+  text-decoration:none;
+  padding-left: 1px;
+  padding-bottom: 1px;
+  color: #ffffff;
+  background-color: #555555;
 }
 
 

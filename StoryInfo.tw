@@ -13,6 +13,7 @@ Predeparture Orientation
 :: Configuration [script]
 config.saves.autosave = true;
 config.saves.slots = 0;
+config.errorName = "presentation";
 //config.disableHistoryControls = true;
 
 config.saves.isAllowed = function () {

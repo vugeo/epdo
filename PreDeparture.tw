@@ -6,13 +6,7 @@
 * Doesn't work in Safari 5.1
 * Doesn't work in IE 9
 * Make it so that Continue button is fully clickable, not just on "Continue"
-* Add global tracking bar at top of screen
-* Fix sidebar link so that it makes a stackable list
 * Refactor Chapters button so that it must be pressed and blurred, rather than hovered, and so that past slides are shown in a second level
-* Fix nav=[passage name] url handler; currently doesn't load sidebars properly
-* Add ?faculty-led=true url handler
-* Add ?summer=true url handler
-* Add ?insurance=true url handler
 * Remove all console.log references (needed for IE9)
 * Uncomment save options code in specials.tw (macros.get("saveoptions").handler();)
 * Resize all background images to 1440x900 (http://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)
@@ -24,7 +18,10 @@
 
 //The URL customizations available are as follows:
 nav : go directly to a given passage in the ePDO, ex.: http://...index.html?nav=Passport Acquisition
-facultyled: sets $facultyled, use for Maymesters etc., ex.: http://...index.html?facultyled=true
+facultyled: sets $facultyled, used for Maymesters etc., ex.: http://...index.html?facultyled=true
+vanderbilt: sets $vanderbilt, used for Vanderbilt In's, ex.: http://...index.html?vanderbilt=true
+summer: sets $summer, used for summer and Maymester programs, ex.: http://...index.html?summer=true
+insurance: sets $insurance, used for programs that include HTH insurance, ex.: http://...index.html?insurance=true
 
 Images
 https://farm8.staticflickr.com/7381/9729745463_1386659d7d_b.jpg

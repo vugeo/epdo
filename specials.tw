@@ -16,6 +16,8 @@ print name of active passage = state.active.title
 <<set options.autoplaydelay to 0>>
 <<set $csscalc to true>>
 <<set $facultyled to false>>
+<<set $vanderbilt to false>>
+<<set $urlopts to {}>>
 <<script>>
     // Check CSS3 calc() support
     $('body').append('<div id="css3-calc"></div>');
@@ -95,7 +97,7 @@ print name of active passage = state.active.title
     if (opts.hasOwnProperty("nav")) {
         SaveSystem.deleteAuto();
         config.startPassage = opts["nav"];
-    }   
+    } 
 <</script>>
 
 /% Initialize variables %/

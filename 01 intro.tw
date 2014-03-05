@@ -7,29 +7,14 @@ Congratulations, you are getting closer to lift-off! Let us take a moment to rem
 <p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience!</p>\
 <p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p>\
 <p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vanderbubble will help shape you as a person and hone your life skills. You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.</p>\
-<<display "Recent Graduates Survey extract">>\
- <<continue "What we will cover in this presentation">>\
-
-
-:: Recent Graduates Survey extract [nobr]
-<figure>
-   <table class="box">
-      <thead>
-         <tr><th colspan=2>According to Recent College Graduates Who Studied Abroad...</th></tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td style="text-align:right;"><strong>84%</strong></td>
-            <td>Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills</td>
-         </tr>
-         <tr>
-            <td style="text-align:right;"><strong>80%</strong></td>
-            <td>Studying abroad helped me develop confidence to deal with new skills required for my first job</td>
-         </tr>
-         <tr><td colspan=2><hr><em>Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]</em></td></tr>
-      </tbody>
-   </table>
+<figure>\
+|box|k
+|>|!According to Recent College Graduates Who Studied Abroad...|
+| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|
+| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|
+|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|
 </figure>
+<<continue "What we will cover in this presentation">>\
 
 
 :: What we will cover in this presentation [intro]
@@ -47,4 +32,4 @@ Over the next ****half-hour****, you will learn a lot about what to expect durin
 |''Returning Home''|An introduction to how your study abroad experience will impact you when you return to Vanderbilt|X minutes|
 |''Finishing Up''|Your next steps, a brief recap, and verifying with GEO that you completed this required module|X minutes|
 
-<<continue "Your status as a Vanderbilt student">>
+<<continue "Your status as a Vanderbilt student">>\

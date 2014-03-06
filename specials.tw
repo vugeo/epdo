@@ -19,6 +19,16 @@ print name of active passage = state.active.title
 <<set $vanderbilt to false>>
 <<set $urlopts to {}>>
 <<script>>
+    // Create new options interface
+    window.setOption = function(name, value) {
+        try {
+            options[name] = value;
+        }
+        catch (e) {
+            throw new Error("Attempted to set nonexistent option " + name + ".");
+        }
+        macros.get("saveoptions").handler();
+    }
     // Check CSS3 calc() support
     $('body').append('<div id="css3-calc"></div>');
     var css3_calc = parseInt($('#css3-calc').width());
@@ -31,7 +41,7 @@ print name of active passage = state.active.title
 
     // Initialize chapter progress storage
     if (!options.chapterprogress) {
-        options.chapterprogress = 0;
+        setOption("chapterprogress", 0);
     }
 
     // Set up custom UI
@@ -62,12 +72,12 @@ print name of active passage = state.active.title
             $(toggle).toggleClass("switchedon");
             if ( $(toggle).hasClass("switchedon") ) {
                 var soundName = state.active.variables.autoplaySound;
-                options.autoplay = true;
+                setOption("autoplay", true);
                 var sound = macros.get("playSound").soundtracks[soundName.slice(0, soundName.lastIndexOf("."))];
                 if (sound) { sound.play() }
             }
             else {
-                options.autoplay = false;
+                setOption("autoplay", false);
                 var sounds = macros.get("playSound").soundtracks;
                 for (var i in sounds) {
                     if (sounds.hasOwnProperty(i)) {
@@ -104,6 +114,7 @@ print name of active passage = state.active.title
 <<set $index to {}>>
 <<set $section to "">>
 <<set $backgrounds to {}>>
+<<set $tags to []>>
 /% Custom scrollbar %/\
 <<loadJS "jquery.nicescroll.js">>\
 <<script>>
@@ -133,7 +144,6 @@ if (fullindex.length > 0) {
     }
     console.log(stops);
     var rule = "linear-gradient(to right, ";
-    console.log("Total length: " + len);
     if (len > 0) {
         rule += colorA + ", ";
         var sum = 0;
@@ -148,8 +158,6 @@ if (fullindex.length > 0) {
                 second = colorA;
             }
             var val = (stops[i]/len)*100;
-            console.log("Stop " + i + ": " + stops[i] + ", sum: " + sum);
-            //fix -- percentages too simple, not cumulative.
             rule += first + " " + (sum + val);
             if (i + 1 === stops.length) {
                 rule += "%)";
@@ -194,6 +202,7 @@ if (fullindex.length > 0) {
 <<script>>
     var index = state.active.variables.index;
     var passage = state.active.title;
+    console.log("passage: " + passage);
     var currentPassage = index[passage];
     var tags = state.active.variables.tags;
     var sections = state.active.variables.backgrounds;
@@ -227,8 +236,8 @@ if (fullindex.length > 0) {
 
     if (currentTag > 0) { //the user has read enough to need to see the chapter button
         if (currentTag > options.chapterprogress) {
-                options.chapterprogress = currentTag;
-                //macros.get("saveoptions").handler();
+                setOption("chapterprogress", currentTag);
+                macros.get("saveoptions").handler();
                 $("#story-rewind, a#rewind-icon").addClass("hilight");
                 setTimeout(function() {
                     $("#story-rewind, a#rewind-icon").removeClass("hilight");

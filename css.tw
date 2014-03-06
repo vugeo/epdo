@@ -195,7 +195,7 @@ h6 {
 #passages table strong {
     font-size: 100%!important;
 }
-table u {
+table li {
   border-radius:50%;
   width:1.4em;
   height:1.4em;

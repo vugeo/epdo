@@ -115,13 +115,13 @@
 									index[passageName].tag = tagName;
 									index[passageName].section = backgrounds[i].section;
 									index[passageName].url = backgrounds[i].url;
-									//index[passageName].enumeration = backgrounds[i].enumeration;
+									index[passageName].enumeration = backgrounds[i].enumeration;
 								}
                                 if ($(this).attr("tags").indexOf("bookmark") > -1) {
                                     if (!bookmarks.hasOwnProperty(tagName)) {
-                                        bookmarks[tagName] = [];
+                                        bookmarks[tagName] = "";
                                     }
-                                    bookmarks[tagName].push(passageName);
+                                    bookmarks[tagName] = passageName;
                                 }
 							}
 						});
@@ -129,6 +129,7 @@
 				}
                 console.log(backgrounds);
                 console.log(index);
+                console.log("Bookmarks");
                 console.log(bookmarks);
 
                 //Build the full index by "reading" the full presentation in order

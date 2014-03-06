@@ -51,3 +51,4 @@ You can always hit the <span class='continue-button' style="clear:both;"><<click
 <</click>>\
 <<stopAllSounds>>\
 <<set options.autoplaydelay to 1000 >>\
+<<saveoptions>>\

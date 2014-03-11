@@ -18,7 +18,8 @@
 //          backgrounds = {
 //              "intro": {
 //                          url: "images/imagetest.jpg",
-//                          section: "Introduction"
+//                          section: "Introduction",
+//                          enumeration: 1
 //              }
 //          };
 //  2. The $index stores each passage name associated with a passage title, as well as the
@@ -159,13 +160,14 @@
                                             fullindex[count].passages = [];
                                         }
                                         var passageStore = { passage: $(this).attr("tiddler") };
-                                        var sidebars = $(this).text().match(/&lt;&lt;\s*sidebar-link\s+["'](.*)["']/g);
                                         console.log("   Looking to add sidebars.");
+                                        var sidebars = $(this).text().match(/&lt;&lt;\s*sidebar-box(?:\s+.*?)&gt;&gt;([\s\S]*?)&lt;&lt;\s*\/sidebar\-box\s*&gt;&gt;/g);
                                         if (sidebars !== null) {
                                             var sidebarStore = [];
-                                            $.each(sidebars, function(index, value) {
-                                                    sidebarStore.push((/["'](.*?)["']/).exec(value)[1]);
-                                                });
+                                            var sought = /\[\[\s*.*?\|(.*?)\s*\]\]/g;
+                                            while ((seek = sought.exec(sidebars[0])) !== null) {
+                                                sidebarStore.push(seek[1]);
+                                            }
                                             passageStore.sidebars = sidebarStore;
                                         }
                                         fullindex[count].passages.push(passageStore);

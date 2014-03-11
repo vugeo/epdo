@@ -237,7 +237,6 @@ if (fullindex.length > 0) {
     if (currentTag > 0) { //the user has read enough to need to see the chapter button
         if (currentTag > options.chapterprogress) {
                 setOption("chapterprogress", currentTag);
-                macros.get("saveoptions").handler();
                 $("#story-rewind, a#rewind-icon").addClass("hilight");
                 setTimeout(function() {
                     $("#story-rewind, a#rewind-icon").removeClass("hilight");

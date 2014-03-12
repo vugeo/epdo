@@ -1,6 +1,5 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Set up config that allows "story" to be renamed.
 * Put header on About this Presentation as well--?
 * tag property is used on something undefined in PassageDone when the user continues a previous session and attempts to use the navigation menu to jump back to material covered in the previous section. Worse, the passage gone to then is said not to exist. This seems to be due to $index not being properly filled in.
 * Doesn't work in Safari 5.1
@@ -53,6 +52,11 @@ Christina Anne Helena Snider - Apartment Buildings in San Telmo Neighborhood, Bu
 
 https://farm4.staticflickr.com/3671/9732835282_7235344936_h.jpg
 Joshua LouAllen Grubb - Checkered Lawn - Jardín Japonés (Japanese Garden), Buenos Aires (Argentina)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+To open a window without back and forward buttons (for launching the presentation):
+window.open(url,name,"menubar=no,toolbar=no[, additional options]",true)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%/
 

@@ -1,0 +1,19 @@
+:: PassageReady [nobr]
+/% Runs just before each passage is rendered. %/
+<<set $autoplaySound to "">>
+<<set $autoplayDestination to "">>
+<<stopAllSounds>>
+<<script>>
+    var passage = tale.get(state.active.title);
+    if (passage.tags.indexOf("sidebar") > -1) {
+        //we are going from main flow to a sidebar
+        $("#passages").addClass("sidebar");
+        $(".passage").addClass("flip");//add class to outgoing passage
+        passage.classes.add("flip");//add class to incoming passage
+    }
+    else if ($("#passages").hasClass("sidebar")) {
+        //we are transitioning from a sidebar to the main flow
+        passage.classes.add("flip");//add class to incoming passage
+        $(".passage").addClass("flip");//add class to outgoing passage
+    }
+<</script>>

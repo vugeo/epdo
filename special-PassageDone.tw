@@ -1,0 +1,123 @@
+:: PassageDone [nobr]
+/% Runs once the passage has completely rendered. %/
+<<if options.autoplay>>
+    <<autoplay $autoplaySound $autoplayDestination>>
+<</if>>
+<<script>>
+    var index = state.active.variables.index;
+    var passage = state.active.title;
+    console.log("passage: " + passage);
+    var currentPassage = index[passage];
+    var tags = state.active.variables.tags;
+    var sections = state.active.variables.backgrounds;
+    var bookmarks = state.active.variables.bookmarks;
+    var currentTag = tags.indexOf(currentPassage.tag);
+    
+    var totalPassages = state.active.variables.totalPassages;
+    console.log("current tag: " + currentTag + ", no. " + currentPassage.tag);
+
+    if (currentPassage.hasOwnProperty("enumeration")) {
+        //The progress marker will appear halfway through the imaginary rectangle
+        //of each passage on the progress meter, except for the last, where we
+        //show it completely filling the bar.
+        var progress = currentPassage.enumeration;
+        if (progress !== totalPassages) { progress = progress - 0.5 }
+    }
+    else if (currentTag < 1) {
+        var progress = 0;
+    }
+    console.log("Current passage: " + progress + " of " + totalPassages);
+    var progressPercent = (progress / totalPassages)* 100;
+    $("#pb-complete").css("right", 100 - progressPercent + "%");
+    if (state.active.variables.csscalc === true) {
+        $("#pb-position").css("left", "calc(" + progressPercent + "% - 2px)");
+    }
+    else { //if CSS calc() isn't supported, we don't try to be as exact
+        $("#pb-position").css("left", progressPercent + "%");
+    }
+    console.log("Set #pb-complete right to: " + (100 - (progress / totalPassages)* 100) + "%");
+    console.log("Set #pb-position left to: " + (progress / totalPassages)* 100 + "%");
+
+    if (currentTag > 0) { //the user has read enough to need to see the chapter button
+        if (currentTag > options.chapterprogress) {
+                setOption("chapterprogress", currentTag);
+                $("#story-rewind, a#rewind-icon").addClass("hilight");
+                setTimeout(function() {
+                    $("#story-rewind, a#rewind-icon").removeClass("hilight");
+                }, 1100);
+            }
+        console.log("current tag: " + currentTag);
+        $("#story-rewind").empty().append(function(){
+            var html = "Navigate<div><a id='rewind-icon'></a><ul><li class='sep'>Jump to Section</li>";
+            for (var i = 1; i < (options.chapterprogress + 1); i++) {
+                if (bookmarks[tags[i]] === passage) {
+                    html += "<li class='disable'>" + sections[tags[i]].section + "</li>";
+                }
+                else {
+                    html += "<li><a class='chapter-list' data='" + bookmarks[tags[i]] + "'>" + sections[tags[i]].section + "</a></li>";
+                }
+            }
+            html+="</ul></div>";
+            return html;
+        });
+        $(".chapter-list").click(function(){
+            var $this = $(this);
+            console.log($this);
+            console.log("You clicked on " + $this.attr("data") + ". You are on " + state.active.title + ".");
+            if ($this.attr("data") !== state.active.title) {
+                state.display($this.attr("data"));
+            }
+            return false;
+        });
+        $("#story-rewind").show();
+    }
+
+
+
+    if (index.hasOwnProperty(passage)) { //skip this for passages that aren't in the index
+        //update image if necessary
+        var currentImage = getBackgroundImage(".img-anchor");
+        var url = currentPassage.url;
+        url = url.substring(url.lastIndexOf('/', url.lastIndexOf('/') - 1) + 1);
+        if (url !== currentImage) { //Background image changing is proxy for section change
+            // First, animate the section name change
+            $("#section-name").html(currentPassage.section).addClass("hilight");
+            setTimeout(function() {
+                $("#section-name").removeClass("hilight");
+            }, 1100);
+
+            // Next, change the background image
+            var $active = $(".img-anchor");
+            var $passive = $(".img-fader");
+            $(".img-container").toggleClass('img-anchor img-fader');
+            $passive.css("background-image", "url(" + url + ")");
+            $passive.removeClass('background-fade');
+            $active.addClass("background-fade");
+            //look for next tag: if there is one, cache its background image
+            var nextTag = tags.indexOf(currentTag) + 1;
+            if (nextTag < tags.length) {
+                setTimeout(function() {
+                    var nextUrl = sections[tags[nextTag]].url;
+                    $active.css("background-image", "url(" + nextUrl + ")");
+                }, 1100);
+            }
+        }
+    }
+
+    var passage = tale.get(state.active.title);
+    if (passage.tags.indexOf("sidebar") === -1 && $("#passages").hasClass("sidebar")) {
+        //we are going from a sidebar to the main flow of the presentation
+        passage.classes.purge("flip");
+        $("#passages").removeClass("sidebar");
+    }
+    else if (!$("#passages").hasClass("sidebar")) {
+        $(".passage").removeClass("flip");
+    }
+    // Display for controls
+    if (tale.get(state.active.title).tags.indexOf("nosave") === -1 && $("#custom").is(":hidden")) {
+        $("#custom").slideDown("fast");
+    }
+    else if (tale.get(state.active.title).tags.indexOf("nosave") !== -1) {
+        $("#custom").slideUp("fast");
+    }
+<</script>>

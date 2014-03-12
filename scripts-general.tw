@@ -66,7 +66,7 @@ macros.add("sidebar-box", {
             var wikitext = this.payload[0].contents.trim().split(/\s*\n\s*/);
             for (var i = 0; i < wikitext.length; i++)
             {
-                var linkEl = document.createElement("li");  // use "p" for paragraph elements
+                var linkEl = document.createElement("li");
                 new Wikifier(linkEl, wikitext[i]);
                 links.appendChild(linkEl);
             }

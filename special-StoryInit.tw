@@ -98,10 +98,10 @@
 <</script>>
 
 /% Initialize variables %/
-<<set $index to {}>>
+/% <<set $index to {}>>
 <<set $section to "">>
 <<set $backgrounds to {}>>
-<<set $tags to []>>
+<<set $tags to []>> %/
 /% Custom scrollbar %/\
 <<loadJS "jquery.nicescroll.js">>\
 <<script>>

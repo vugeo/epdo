@@ -120,4 +120,5 @@
     else if (tale.get(state.active.title).tags.indexOf("nosave") !== -1) {
         $("#custom").slideUp("fast");
     }
+console.log("Passage Done!");
 <</script>>

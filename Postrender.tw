@@ -1,0 +1,19 @@
+:: Postrender [script]
+/*
+postrender.quotes = function(passage, content, task) {
+	function processTextNodes(node) {
+		if (node.nodeType == 3) { // text node
+			node.nodeValue = node.nodeValue
+				.replace(/\b'/g, '&rsquo;')
+				.replace(/'\b/g, '&lsquo;')
+				.replace(/"(?:\s|$)/g, '&rdquo;')
+				.replace(/(?:\s|^)"/g, '&ldquo;');
+		} else {
+			for (var i in node.childNodes) {
+				processTextNodes(node.childNodes[i]);
+			}
+		}
+	}
+	processTextNodes(passage);
+}
+*/

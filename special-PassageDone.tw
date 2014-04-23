@@ -16,15 +16,17 @@
     var totalPassages = state.active.variables.totalPassages;
     console.log("current tag: " + currentTag + ", no. " + currentPassage.tag);
 
+    var progress = 0;
+
     if (currentPassage.hasOwnProperty("enumeration")) {
         //The progress marker will appear halfway through the imaginary rectangle
         //of each passage on the progress meter, except for the last, where we
         //show it completely filling the bar.
         var progress = currentPassage.enumeration;
-        if (progress !== totalPassages) { progress = progress - 0.5 }
+        if (progress !== totalPassages) { progress = progress - 0.5; }
     }
     else if (currentTag < 1) {
-        var progress = 0;
+        //var progress = 0;
     }
     console.log("Current passage: " + progress + " of " + totalPassages);
     var progressPercent = (progress / totalPassages)* 100;
@@ -104,7 +106,7 @@
         }
     }
 
-    var passage = tale.get(state.active.title);
+    passage = tale.get(state.active.title);
     if (passage.tags.indexOf("sidebar") === -1 && $("#passages").hasClass("sidebar")) {
         //we are going from a sidebar to the main flow of the presentation
         passage.classes.purge("flip");

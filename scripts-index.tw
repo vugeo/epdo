@@ -115,7 +115,7 @@
                                         }
                                         var passageStore = { passage: $(this).attr("tiddler") };
                                         console.log("   Looking to add sidebars.");
-                                        var sidebars = $(this).text().match(/&lt;&lt;\s*sidebar-box(?:\s+.*?)&gt;&gt;([\s\S]*?)&lt;&lt;\s*\/sidebar\-box\s*&gt;&gt;/g);
+                                        var sidebars = $(this).text().match(/&lt;&lt;\s*sidebar-box(?:\s*.*?)&gt;&gt;([\s\S]*?)&lt;&lt;\s*\/sidebar\-box\s*&gt;&gt;/g);
                                         if (sidebars !== null) {
                                             var sidebarStore = [];
                                             var sought = /\[\[\s*.*?\|(.*?)\s*\]\]/g;
@@ -123,6 +123,7 @@
                                                 sidebarStore.push(seek[1]);
                                             }
                                             passageStore.sidebars = sidebarStore;
+                                            console.log("   Found sidebars: " + sidebarStore.length);
                                         }
                                         fullindex[count].passages.push(passageStore);
                                     }
@@ -151,10 +152,15 @@
                     $.each(part.passages, function(j, group) {
                         count ++;
                         index[group.passage].enumeration = count;
+                        if (group.hasOwnProperty("sidebars")) {
+                            $.each(group.sidebars, function(k, sides) {
+                                console.log("Enumerating " + sides);
+                                index[sides].enumeration = count;
+                            })
+                        }
                     });
                 }
             });
-            //**** Make sure that enumeration is set for sidebars too!
             
             state.active.variables.totalPassages = count;
 

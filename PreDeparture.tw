@@ -1,18 +1,21 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
 * Put header on About this Presentation as well--?
-* tag property is used on something undefined in PassageDone when the user continues a previous session and attempts to use the navigation menu to jump back to material covered in the previous section. Worse, the passage gone to then is said not to exist. This seems to be due to $index not being properly filled in.
 * Doesn't work in Safari 5.1
 * Doesn't work in IE 9
 * Make it so that Continue button is fully clickable, not just on "Continue"
 * Refactor Chapters button so that it must be pressed and blurred, rather than hovered, and so that past slides are shown in a second level
 * Remove all console.log references (needed for IE9)
 * Uncomment save options code in specials.tw (macros.get("saveoptions").handler();)
-* Resize all background images to 1440x900 (http://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)
+* Credits page for all images used (final passage?)
+* NOW FIXED? tag property is used on something undefined in PassageDone when the user continues a previous session and attempts to use the navigation menu to jump back to material covered in the previous section. Worse, the passage gone to then is said not to exist. This seems to be due to $index not being properly filled in.
+
+NOTES
+* Keep all background images at 1440x900 (http://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)
 * Use smaller images with an overlay to mask image degradation: http://solemone.de/demos/fullsize-background-image-with-css3-background-size/
 * iOS resolutions: http://www.iosres.com/
 * Consider conversion of some resources to data URIs: http://css-tricks.com/data-uris/
-* Credits page for all images used (final passage?)
+
 
 
 //The URL customizations available are as follows:
@@ -60,21 +63,8 @@ window.open(url,name,"menubar=no,toolbar=no[, additional options]",true)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%/
 
-
-::Passport Check
-<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\
-!Passport Check
-!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.
-Before we begin, take a moment to check your passport's expiration date.
-
-<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you to get a student visa or residence permit if your passport is near its expiration date. Be sure that your passport does not expire until at least 6 months after your program ends!
-
-<<sidebar-box>>
-	[[It looks like I need a new passport!|Passport Acquisition]]
-<</sidebar-box>>
-
-<<continue "Passport Security">>
-
+/%%%%%%%%%%%%%%%%%%%%%%%%%%
+OLD VERSIONS
 
 :: Copying Documents
 !Copying Documents
@@ -90,5 +80,5 @@ GEO recommends that you:
 #Leave your original passport in a safe place when you're out and about; carry a photocopy!
 
 If you do lose your passport while abroad, you will need to ''get in touch with the nearest embassy'' or consulate (you may want to program the contact info into your phone). You should also ''notify your resident director'' or designated contact person.
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%/
 

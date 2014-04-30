@@ -1,4 +1,4 @@
-:: StoryInit
+:: RealStoryInit
 /% Add the header & controls to the document when the story first loads. %/
 <<set options.autoplaydelay to 0>>
 <<set $csscalc to true>>
@@ -14,7 +14,7 @@
         catch (e) {
             throw new Error("Attempted to set nonexistent option " + name + ".");
         }
-        macros.get("saveoptions").handler();
+        //macros.get("saveoptions").handler();
     }
     // Check CSS3 calc() support
     $('body').append('<div id="css3-calc"></div>');

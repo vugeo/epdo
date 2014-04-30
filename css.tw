@@ -286,114 +286,167 @@ header#custom {
 }
 
 
-/* Popover menu */
-/* based on http://jsfiddle.net/LPbhS/ */
+/* Show navigation menu when hovered over */
 #story-rewind div:hover ul {
-  visibility: visible;
-  opacity: 1;
-  padding: 4px 0 6px 0;
+  display:block;
 }
-#story-rewind ul {
-  visibility: hidden;
-  padding:0;
-  opacity: 0;
+
+
+/*** Using superfish.js to handle hierarchical navigation menu ***/
+/* ESSENTIAL STYLES from superfish.css */
+.sf-menu, .sf-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sf-menu li {
+  position: relative;
+}
+.sf-menu ul {
   position: absolute;
+  display: none;
   top: 100%;
-  list-style:none;
-  border: 1px solid;
-  border-color: #777 #6c6c6c #666;
-  border-radius: 5px;
-  -webkit-transition-property: opacity, padding, visibility;
-  -moz-transition-property: opacity, padding, visibility;
-  -ms-transition-property: opacity, padding, visibility;
-  -o-transition-property: opacity, padding, visibility;
-  transition-property: opacity, padding, visibility;
-  -webkit-transition: 0.2s ease-out;
-  -moz-transition: 0.2s ease-out;
-  -ms-transition: 0.2s ease-out;
-  -o-transition: 0.2s ease-out;
-  transition: 0.2s ease-out;
-  background-color: #d9e3fa;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eef3fe), color-stop(100%, #d9e3fa));
-  background-image: -webkit-linear-gradient(top, #eef3fe, #d9e3fa);
-  background-image: -moz-linear-gradient(top, #eef3fe, #d9e3fa);
-  background-image: -ms-linear-gradient(top, #eef3fe, #d9e3fa);
-  background-image: -o-linear-gradient(top, #eef3fe, #d9e3fa);
-  background-image: linear-gradient(top, #eef3fe, #d9e3fa);
-  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 2px rgba(0, 0, 0, 0.1);
+  left: 0;
+  z-index: 99;
 }
-#story-rewind ul:before, #story-rewind ul:after, #story-rewind li:first-child:after {
+.sf-menu > li {
+  float: left;
+}
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
   display: block;
-  content: '';
-  width: 0;
-  height: 0;
-  position: absolute;
-  left: 5px;
-  border: 7px outset transparent;
 }
-#story-rewind ul:before {
-  border-bottom: 7px solid #555;
-  top: -14px;
-}
-#story-rewind li:first-child:after {
-  border-bottom: 7px solid #fff;
-  top: -13px;
-}
-#story-rewind ul:after {
-  border-bottom: 7px solid #EEF3FE;
-  top: -12px;
-}
-#story-rewind li {
-  padding: 0 12px;
-  font-size: 11px;
-  color: #838ca2;
-  text-shadow: 0 1px #fff;
-}
-#story-rewind li.sep {
-  border-bottom: 1px solid #b4bbce;
-  padding-bottom: 4px;
-  margin-bottom: 4px;
-}
-#story-rewind li a {
+
+.sf-menu a {
   display: block;
   position: relative;
-  margin: 0 -13px;
-  padding: 0 20px 0 12px;
-  color: #313a4f;
-  border: 1px solid transparent;
 }
-#story-rewind li a:hover {
-  color: #fff;
+.sf-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+/*** Custom skin for superfish nav menu ***/
+/* Based on http://jsfiddle.net/LPbhS/ */
+#nav-sf-menu {
+  display:none;
+}
+
+.sf-menu {
+  float: left;
+  margin-bottom: 1em;
+}
+.sf-menu ul {
+  box-shadow: 2px 2px 6px rgba(0,0,0,.2);
+  min-width: 12em; /* allow long menu items to determine submenu width */
+  *width: 12em; /* no auto sub width for IE7, see white-space comment below */
+}
+.sf-menu a {
+  border-left: 1px solid #fff;
+  border-top: 1px solid #dFeEFF; /* fallback colour must use full shorthand */
+  border-top: 1px solid rgba(255,255,255,.5);
+  padding: .75em 1em;
   text-decoration: none;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  border-color: #5a70b0 #495d98 #42558a;
-  background-color: #5a70b0;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7688bd), color-stop(100%, #4e64a3));
-  background-image: -webkit-linear-gradient(top, #7688bd, #4e64a3);
-  background-image: -moz-linear-gradient(top, #7688bd, #4e64a3);
-  background-image: -ms-linear-gradient(top, #7688bd, #4e64a3);
-  background-image: -o-linear-gradient(top, #7688bd, #4e64a3);
-  background-image: linear-gradient(top, #7688bd, #4e64a3);
+  zoom: 1; /* IE7 */
 }
-#story-rewind li a:hover:after {
-  display: block;
+.sf-menu a {
+  color: #13a;
 }
-#story-rewind li a:after {
-  display: none;
+.sf-menu li {
+  background: #BDD2FF;
+  white-space: nowrap; /* no need for Supersubs plugin */
+  *white-space: normal; /* ...unless you support IE7 (let it wrap) */
+  -webkit-transition: background .2s;
+  transition: background .2s;
+}
+.sf-menu ul li {
+  background: #AABDE6;
+}
+.sf-menu ul ul li {
+  background: #9AAEDB;
+}
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+  background: #CFDEFF;
+  /* only transition out, not in */
+  -webkit-transition: none;
+  transition: none;
+}
+
+/*** arrows (for all except IE7) **/
+.sf-arrows .sf-with-ul {
+  padding-right: 2.5em;
+  *padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
+}
+/* styling for both css and generated arrows */
+.sf-arrows .sf-with-ul:after {
   content: '';
-  width: 0;
-  height: 0;
   position: absolute;
   top: 50%;
-  right: 5px;
-  margin-top: -4px;
-  border: 4px solid transparent;
-  border-left-color: #9facd1;
-  border-left-color: rgba(255, 255, 255, 0.4);
+  right: 1em;
+  margin-top: -3px;
+  height: 0;
+  width: 0;
+  /* order of following 3 rules important for fallbacks to work */
+  border: 5px solid transparent;
+  border-top-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
+  border-top-color: rgba(255,255,255,.5);
 }
-#story-rewind li.disable {
-  color: #838ca2!important;
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+  border-top-color: white; /* IE8 fallback colour */
+}
+/* styling for right-facing arrows */
+.sf-arrows ul .sf-with-ul:after {
+  margin-top: -5px;
+  margin-right: -3px;
+  border-color: transparent;
+  border-left-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
+  border-left-color: rgba(255,255,255,.5);
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+  border-left-color: white;
+}
+
+/* adding sf-vertical class in addition to sf-menu creates a vertical menu */
+/* eg. <ul class="sf-menu sf-vertical"> ... */
+.sf-vertical {
+  width: 12em;
+  /* If you want the width of the closed menu to expand to its
+  widest top-level menu item (like its "Supersubs" submenus do),
+  replace the width rule above with the following two rules. */
+
+  /*
+  min-width: 12em;
+  *width: 12em;
+  */
+}
+.sf-vertical ul {
+  left: 100%;
+  top: 0;
+}
+.sf-vertical > li {
+  float: none;
+}
+.sf-vertical li {
+  width: 100%;
+}
+
+/*** alter arrow directions ***/
+.sf-vertical.sf-arrows > li > .sf-with-ul:after {
+  margin-top: -5px;
+  margin-right: -3px;
+  border-color: transparent;
+  border-left-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
+  border-left-color: rgba(255,255,255,.5);
+}
+.sf-vertical.sf-arrows li > .sf-with-ul:focus:after,
+.sf-vertical.sf-arrows li:hover > .sf-with-ul:after,
+.sf-vertical.sf-arrows .sfHover > .sf-with-ul:after {
+  border-left-color: white;
 }
 
 #progress {

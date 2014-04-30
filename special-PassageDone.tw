@@ -11,6 +11,7 @@
     var tags = state.active.variables.tags;
     var sections = state.active.variables.backgrounds;
     var bookmarks = state.active.variables.bookmarks;
+    var fullindex = state.active.variables.fullindex;
     var currentTag = tags.indexOf(currentPassage.tag);
     
     var totalPassages = state.active.variables.totalPassages;
@@ -50,19 +51,26 @@
             }
         console.log("current tag: " + currentTag);
         $("#story-rewind").empty().append(function(){
-            var html = "Navigate<div><a id='rewind-icon'></a><ul><li class='sep'>Jump to Section</li>";
+            var html = "Navigate<div><a id='rewind-icon'></a><ul id='nav-sf-menu' class='sf-menu sf-vertical'><li class='sep'>Jump to Passage</li>";
             for (var i = 1; i < (options.chapterprogress + 1); i++) {
-                if (bookmarks[tags[i]] === passage) {
-                    html += "<li class='disable'>" + sections[tags[i]].section + "</li>";
-                }
-                else {
-                    html += "<li><a class='chapter-list' data='" + bookmarks[tags[i]] + "'>" + sections[tags[i]].section + "</a></li>";
-                }
+                html += "<li><a class='chapter-list' data='" + bookmarks[tags[i]] + "'>" + sections[tags[i]].section + "</a><ul>";
+                    $.each(fullindex[i-1].passages, function(j, pass) {
+                        html += "<li><a class='passage-list' data='" + pass.passage + "'>" + pass.passage + "</a></li>";
+                        if (index[pass.passage].enumeration === progress ) {return false; }
+                    });
+                html += "</ul></li>";
             }
             html+="</ul></div>";
             return html;
         });
-        $(".chapter-list").click(function(){
+        jQuery('ul.sf-menu').superfish();
+        $("#rewind-icon").click(function () {
+            $("#nav-sf-menu").show();
+        });
+        $("#nav-sf-menu").blur(function () {
+            $("#nav-sf-menu").hide();
+        });
+        $(".passage-list").click(function(){
             var $this = $(this);
             console.log($this);
             console.log("You clicked on " + $this.attr("data") + ". You are on " + state.active.title + ".");

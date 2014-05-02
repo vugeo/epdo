@@ -24,6 +24,7 @@
         //of each passage on the progress meter, except for the last, where we
         //show it completely filling the bar.
         var progress = currentPassage.enumeration;
+        if (progress > options.passageprogress) { options.passageprogress = progress; }
         if (progress !== totalPassages) { progress = progress - 0.5; }
     }
     else if (currentTag < 1) {
@@ -51,21 +52,25 @@
             }
         console.log("current tag: " + currentTag);
         $("#story-rewind").empty().append(function(){
-            var html = "Navigate<div><a id='rewind-icon'></a><ul id='nav-sf-menu' class='sf-menu sf-vertical'><li class='sep'>Jump to Passage</li>";
+            var html = "Navigate<div id='nav-container'><a id='rewind-icon'></a><ul id='nav-sf-menu' class='sf-menu sf-vertical'><li class='sep'>Jump to Passage</li>";
             for (var i = 1; i < (options.chapterprogress + 1); i++) {
                 html += "<li><a class='chapter-list' data='" + bookmarks[tags[i]] + "'>" + sections[tags[i]].section + "</a><ul>";
                     $.each(fullindex[i-1].passages, function(j, pass) {
+                        console.log("Adding " + pass.passage + " to menu: " + index[pass.passage].enumeration + "/" + progress);
                         html += "<li><a class='passage-list' data='" + pass.passage + "'>" + pass.passage + "</a></li>";
-                        if (index[pass.passage].enumeration === progress ) {return false; }
+                        if (index[pass.passage].enumeration === options.passageprogress) {return false; }
                     });
                 html += "</ul></li>";
             }
             html+="</ul></div>";
             return html;
         });
-        jQuery('ul.sf-menu').superfish();
+        jQuery('ul.sf-menu').superfish({
+            cssArrows: false,
+            addArrows: false
+        });
         $("#rewind-icon").click(function () {
-            $("#nav-sf-menu").show();
+            $("#nav-sf-menu").toggle();
         });
         $("#nav-sf-menu").blur(function () {
             $("#nav-sf-menu").hide();

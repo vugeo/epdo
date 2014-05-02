@@ -30,6 +30,9 @@
     if (!options.chapterprogress) {
         setOption("chapterprogress", 0);
     }
+    if (!options.passageprogress) {
+        setOption("passageprogress", 0);
+    }
 
     // Set up custom UI
     var header = insertElement(document.html, "header", "custom");

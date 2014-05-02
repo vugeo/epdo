@@ -52,7 +52,7 @@
             }
         console.log("current tag: " + currentTag);
         $("#story-rewind").empty().append(function(){
-            var html = "Navigate<div id='nav-container'><a id='rewind-icon'></a><ul id='nav-sf-menu' class='sf-menu sf-vertical'><li class='sep'>Jump to Passage</li>";
+            var html = "Navigate<div id='nav-container'><a id='rewind-icon'></a><ul id='nav-sf-menu' class='sf-menu sf-vertical'><li class='sep'><span class='disable'>Jump to Passage</span></li>";
             for (var i = 1; i < (options.chapterprogress + 1); i++) {
                 html += "<li><a class='chapter-list' data='" + bookmarks[tags[i]] + "'>" + sections[tags[i]].section + "</a><ul>";
                     $.each(fullindex[i-1].passages, function(j, pass) {
@@ -69,12 +69,12 @@
             cssArrows: false,
             addArrows: false
         });
-        $("#rewind-icon").click(function () {
-            $("#nav-sf-menu").toggle();
-        });
-        $("#nav-sf-menu").blur(function () {
-            $("#nav-sf-menu").hide();
-        });
+        $("#rewind-icon, #nav-sf-menu").off(".navcontrol").on("mouseenter.navcontrol", function () {
+                $("#nav-sf-menu").show();
+            })
+            .on("mouseleave.navcontrol", function() {
+                $("#nav-sf-menu").hide();
+            });
         $(".passage-list").click(function(){
             var $this = $(this);
             console.log($this);

@@ -1,4 +1,4 @@
-:: RealStoryInit
+:: StoryInit
 /% Add the header & controls to the document when the story first loads. %/
 <<set options.autoplaydelay to 0>>
 <<set $csscalc to true>>

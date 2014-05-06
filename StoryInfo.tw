@@ -1,7 +1,3 @@
-:: StoryTitle
-Predeparture Orientation
-
-
 :: MenuOptions
 <<optiontoggle "autoplay">>Autoplay<</optiontoggle>>
 

@@ -1,5 +1,5 @@
 :: Postrender [script]
-/*
+
 postrender.quotes = function(passage, content, task) {
 	function processTextNodes(node) {
 		if (node.nodeType == 3) { // text node
@@ -16,4 +16,3 @@ postrender.quotes = function(passage, content, task) {
 	}
 	processTextNodes(passage);
 }
-*/

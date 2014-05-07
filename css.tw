@@ -136,7 +136,7 @@ h6 {
     color: #000;
     font-size:15px;
     background-color:#fefefe;
-    width:60%;
+    
     min-height:100%;
     margin: 0 auto;
     border-left:none;
@@ -148,6 +148,16 @@ h6 {
     -webkit-box-sizing: border-box;
     box-sizing:border-box;
     position:relative;
+}
+@media screen {
+  #passages {
+    width:60%;
+  }
+}
+@media print {
+  #passages {
+    width:100%;
+  }
 }
 .passage {
     line-height: 1.75;
@@ -215,6 +225,41 @@ figure {
   margin-left:auto;
   margin-right:auto;
   display:table;
+}
+
+/* Special layout options for full presentation print version */
+.full-print {
+  margin-top: 30px;
+}
+
+h1.full-print {
+  color: black!important;
+  font-size: 42px;
+  border-top: 2px black solid!important;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-bottom: 2px black solid!important;
+  padding-bottom: 10px;
+  background-color: beige!important;
+}
+
+@media print {
+  .full-print {
+    page-break-after:always;
+  }
+}
+
+/* Multicolumn layout for index */
+.index-columns {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 30px; 
+  -webkit-column-rule: 0px dotted black;
+  -moz-column-count: 2;
+  -moz-column-gap: 30px;  
+  -moz-column-rule: 0px dotted black;
+  column-count: 2;
+  column-gap: 30px; 
+  column-rule: 0px dotted black;
 }
 
 

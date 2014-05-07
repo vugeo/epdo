@@ -1,40 +1,45 @@
-:: Print all
-<<displayAll>>
-
 :: Display all [script]
-// Macro that displays all passages at once. Syntax:
-// <<displayAll [element]>>
-// Including the optional element wraps each passage in an element of that type
+// Simple macro that displays all passages at once.
+// The macro *must* be called only from a passage with the tag "nogather"
+// Syntax:
+// <<displayAll>>
 
 macros.add("displayAll", {
     version: { major: 1, minor: 0, revision: 0 },
     handler: function () {
-
         var fullindex = state.active.variables.fullindex;
         var el = this.output;
+        var elem;
+        var pass;
         if (fullindex.length > 0) {
             $.each(fullindex, function(i, part){
-                elem = insertElement(el, "h1");
+                elem = insertElement(el, "h1", null, "full-print");
                 new Wikifier(elem, fullindex[i].section);//Insert section name
+                console.log("h1: " + fullindex[i].section);
                 if (part.passages.length > 0) {
                     $.each(part.passages, function(j, group) {
-                        count ++;
-                        index[group.passage].enumeration = count;
-                        //Look for sidebars too and print them!
+                        if (group.hasOwnProperty("passage")) {
+                            pass = tale.get(group.passage);
+                            if (pass.tags.indexOf("nogather") === -1) {
+                                elem = insertElement(el, "div", pass.domID, "full-print");
+                                elem.setAttribute("data-passage", pass.title);
+                                new Wikifier(elem, pass.processText());
+                                console.log("   " + pass.title);
+                            }
+                        }
+                         if (group.hasOwnProperty("sidebars")) {
+                            group.sidebars.forEach (function (side) {
+                                console.log("state:");
+                                console.log(state);
+                                pass = tale.get(side);
+                                elem = insertElement(el, "div", pass.domID, "full-print");
+                                elem.setAttribute("data-passage", pass.title);
+                                new Wikifier(elem, pass.processText());
+                            });
+                        } 
                     });
                 }
             });
-            
-            var passage;
-
-            passage = tale.get(passage);
-            if (this.args[0]) {
-                el = insertElement(el, this.args[0], null, passage.domId);
-                el.setAttribute("data-passage", passage.title);
-            }
-            new Wikifier(el, passage.processText());
-            }
-
-        
+        }
     }
 });

@@ -1647,8 +1647,8 @@ g12
 I00
 sg13
 (lp527
-F1054.3333333333335
-aF609.9999999999992
+F1049.3333333333344
+aF611.6666666666657
 asg15
 (itiddlywiki
 Tiddler
@@ -2212,14 +2212,14 @@ I00
 sg13
 (lp704
 F1543.3333333333367
-aF744.9999999999995
+aF743.3333333333329
 asg15
 (itiddlywiki
 Tiddler
 p705
 (dp706
 g19
-V!Index\u000a!!!!Bookmark this!\u000a\u000a<<continue "Credits">>
+V!Index\u000a!!!!Bookmark this!\u000a<<continue "Credits">>\u000a<div id="index-list" class="index-columns">Error: Index could not be shown</div>\u000a/% The code that displays the index is in PassageDone and works only when the name of the passage is "Index" %/\u000a
 p707
 sg21
 VIndex
@@ -2228,12 +2228,12 @@ sg23
 g24
 ((I2014
 I5
-I7
-I16
-I35
-I36
+I8
+I17
 I2
-I127
+I1
+I3
+I128
 I1
 tp709
 (dp710

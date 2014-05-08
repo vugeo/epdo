@@ -137,3 +137,6 @@
     }
 console.log("Passage Done!");
 <</script>>
+<<if state.active.title eq "Index">>
+    <<displayIndex>>
+<</if>>

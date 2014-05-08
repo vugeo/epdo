@@ -1,4 +1,44 @@
-:: Display all [script]
+:: Display index [script]
+macros.add("displayIndex", {
+    handler: function () {
+        var fullindex = state.active.variables.fullindex;
+        var html = "";
+        var pass;
+        if (fullindex.length > 0) {
+            console.log("Creating index...");
+            $.each(fullindex, function(i, part){
+                //Insert section name
+                html += "<h1 class='index-section'>" + fullindex[i].section + "</h1>";
+                if (part.passages.length > 0) {
+                    $.each(part.passages, function(j, group) {
+                        if (group.hasOwnProperty("passage")) {
+                            pass = tale.get(group.passage);
+                            if (pass.tags.indexOf("nogather") === -1) {
+                                html += "<p class='index-passage'><a class='index-passage' data-passage='" + pass.title + "'>" + pass.title + "</a></p>";
+                            }
+                        }
+                         if (group.hasOwnProperty("sidebars")) {
+                            group.sidebars.forEach (function (side) {
+                                pass = tale.get(side);
+                                if (pass.tags.indexOf("nogather") === -1) {
+                                    html += "<p class='index-sidebar'><a class='index-passage' data-passage='" + pass.title + "'>" + pass.title + "</a></p>";
+                                }
+                            });
+                        } 
+                    });
+                }
+            });
+        }
+        console.log(html);
+        $("#index-list").html(html);
+        $("a.index-passage").on("click", function () {
+            state.display($(this).attr("data-passage"));
+        });
+    }
+});
+
+
+:: DisplayAll [script]
 // Simple macro that displays all passages at once.
 // The macro *must* be called only from a passage with the tag "nogather"
 // Syntax:
@@ -32,9 +72,11 @@ macros.add("displayAll", {
                                 console.log("state:");
                                 console.log(state);
                                 pass = tale.get(side);
-                                elem = insertElement(el, "div", pass.domID, "full-print");
-                                elem.setAttribute("data-passage", pass.title);
-                                new Wikifier(elem, pass.processText());
+                                if (pass.tags.indexOf("nogather") === -1) {
+                                    elem = insertElement(el, "div", pass.domID, "full-print");
+                                    elem.setAttribute("data-passage", pass.title);
+                                    new Wikifier(elem, pass.processText());
+                                }
                             });
                         } 
                     });

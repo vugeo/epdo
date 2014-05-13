@@ -2,7 +2,7 @@
 /% Syntax:
     <<continue [passage name]>>  %/\
 <<widget "continue">>\
-    <<if tale.get(state.active.title).tags.indexOf("nogather") eq -1>>\
+<<if tale.get(state.active.title).tags.indexOf("nosave") eq -1 >>\
     <span class='continue-button' style="clear:both;"><<link "Continue" $args[0]>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&emsp;</span>\
     <</if>>\
 <</widget>>\

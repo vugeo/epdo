@@ -139,4 +139,5 @@ console.log("Passage Done!");
 <</script>>
 <<if state.active.title eq "Index">>
     <<displayIndex>>
+    /%<<run window.history.replaceState("object or string", "Index Quickload", "?nav=Index;"); >>%/
 <</if>>

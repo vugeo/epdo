@@ -5,10 +5,9 @@ macros.add("displayIndex", {
         var html = "";
         var pass;
         if (fullindex.length > 0) {
-            console.log("Creating index...");
             $.each(fullindex, function(i, part){
                 //Insert section name
-                html += "<h1 class='index-section'>" + fullindex[i].section + "</h1>";
+                html += "<div class='index-item'><h1 class='index-section'>" + fullindex[i].section + "</h1>";
                 if (part.passages.length > 0) {
                     $.each(part.passages, function(j, group) {
                         if (group.hasOwnProperty("passage")) {
@@ -27,10 +26,12 @@ macros.add("displayIndex", {
                         } 
                     });
                 }
+                html += "</div>";
             });
         }
-        console.log(html);
+
         $("#index-list").html(html);
+
         $("a.index-passage").on("click", function () {
             state.display($(this).attr("data-passage"));
         });

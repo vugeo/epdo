@@ -139,5 +139,5 @@ console.log("Passage Done!");
 <</script>>
 <<if state.active.title eq "Index">>
     <<displayIndex>>
-    /%<<run window.history.replaceState("object or string", "Index Quickload", "?nav=Index;"); >>%/
+    <<run window.history.replaceState(window.history.state, document.title, "?nav=Index;"); >>/%****Update URL so that it uses ? or & appropriately depending on previous state of the URL.
 <</if>>

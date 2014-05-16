@@ -139,5 +139,17 @@ console.log("Passage Done!");
 <</script>>
 <<if state.active.title eq "Index">>
     <<displayIndex>>
-    <<run window.history.replaceState(window.history.state, document.title, "?nav=Index;"); >>/%****Update URL so that it uses ? or & appropriately depending on previous state of the URL.
+    <<script>>
+        var query = window.location.search.substring(1);
+        var locus = "nav=Index";
+        if (query.length > 0) {
+            if (query.search(/nav=/) != -1) {
+                query = query.replace(/nav=.*?(?=&|$)/, locus);
+            }
+            else {
+                query += "&" + locus;
+            }
+        }
+        window.history.replaceState(window.history.state, document.title, window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + "?" + query);
+    <</script>>
 <</if>>

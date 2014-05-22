@@ -1,5 +1,6 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
+* Add an admin mode, accessible via url query (e.g., ?mode=admin) that would automatically provide copyable direct links for each passage.
 * Put header on About this Presentation as well--?
 * Doesn't work in Safari 5.1
 * Doesn't work in IE 9

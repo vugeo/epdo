@@ -1004,14 +1004,14 @@ I00
 sg13
 (lp325
 F381.58333333333377
-aF1288.6666666666674
+aF1287.0000000000007
 asg15
 (itiddlywiki
 Tiddler
 p326
 (dp327
 g19
-V!Money\u000a!!!!Subhead goes here\u000a   * Credit cards, debit cards, ATM (in brief)\u000a   * _Sidebar_: Budgeting (w/link to existing budgeting materials)\u000a\u000a<<sidebar-box>>\u000a   [[How do I budget for myself?|Budgeting]]\u000a<</sidebar-box>>\u000a\u000a<<continue "Where will you live?">>
+V!Money\u000a!!!!Use debit and credit cards wisely to save money\u000aThe amount of money you spend while studying abroad will vary depending on the local cost of living, your personal spending habits, independent travel, and so on. //How// you access your money can also play a role in maintaining your budget.\u000a\u000aMany businesses will not accept plastic, especially for smaller purchases, so it's a good idea to have ''cash'' on hand throughout your time abroad. The most cost-effective way to get cash abroad is to use your ''debit card'' (not a credit card!) in an ATM. You can usually find out where the ATMs you might need are before you leave the US--ask your bank how!\u000a\u000aGEO also recommends that you bring a ''credit card''. Be aware that every credit card purchase or debit card withdrawal will likely carry transaction fees. Shop around a bit for the best rates before you leave the US, but also minimize the number of times you use your cards. Take out as much cash as you feel comfortable with each time you use the ATM, and use your credit card only when necessary or when you have an especially large purchase.\u000a\u000aBefore you depart the US, and every time you enter a new country, you should inform your bank(s) of your location. If you don't, you may find your cards canceled as an anti-fraud measure! \u000a\u000a|box|k\u000a|!Summary|\u000a|Before you leave, consider seeking out the US banks with the best currency conversion and transaction fees for your host country.|\u000a|Call your bank(s) to let them know you'll be abroad, and whenever you cross international borders.|\u000a|Use your debit card in an ATM to get cash on a weekly or biweekly basis.|\u000a|Use your credit card for purchases. Do not use your debit card except for ATM withdrawals!|\u000a|Use your credit card for large purchases if possible.|\u000a|Only get cash from an ATM using your credit card in a dire emergency.|\u000a\u000a<<sidebar-box>>\u000a   [[More on credit cards|More on credit cards]]\u000a   [[How do I budget for myself?|Budgeting]]\u000a<</sidebar-box>>\u000a\u000a<<continue "Where will you live?">>\u005c
 p328
 sg21
 VMoney
@@ -1020,12 +1020,12 @@ sg23
 g24
 ((I2014
 I5
-I19
-I9
-I4
-I54
-I0
-I139
+I22
+I16
+I59
+I41
+I3
+I142
 I1
 tp330
 (dp331
@@ -1063,7 +1063,7 @@ Tiddler
 p342
 (dp343
 g19
-V<<sidebar "Basics of Budgeting">>\u000a\u000aText goes here!\u000a\u000a<<continue "Where will you live?">>
+V<<sidebar "Basics of Budgeting">>\u000a\u000aText goes here!\u000a\u000a<<continue "Where will you live?">>\u005c
 p344
 sg21
 VBudgeting
@@ -1072,12 +1072,12 @@ sg23
 g24
 ((I2014
 I5
-I16
-I16
-I50
 I22
-I4
-I136
+I16
+I59
+I53
+I3
+I142
 I1
 tp346
 (dp347
@@ -1431,12 +1431,12 @@ sg23
 g24
 ((I2014
 I5
+I22
 I16
-I16
-I47
-I58
-I4
-I136
+I59
+I33
+I3
+I142
 I1
 tp458
 (dp459
@@ -3397,7 +3397,7 @@ Tiddler
 p1069
 (dp1070
 g19
-V<<sidebar "Gender roles abroad">>\u000aExpectations surrounding gender roles vary from country to country, and even within countries. Because so much of our communication with others is interpreted in terms of gender, it is helpful to learn something about gender roles in your host culture. One of the best things about study abroad is making new friends, and you will want to avoid undue friction due to misunderstanding and miscommunication.\u000a\u000a|box|k\u000a|!Things to think about include:|\u000a|Americans are accustomed to having non-romantic friendships with the opposite sex. How does your host culture view opposite-sex friendships?|\u000a|<hr>If you are considering being sexually active abroad, research safe sex and birth control practices as well as attitudes toward sex outside marriage.|\u000a|<hr>What constitutes sexual harassment under local law or understanding?|\u000a\u000aWhile men studying abroad will certainly see cultural differences in their roles, it is women who will need to adapt most to local norms and values. North American women should be aware that they may face special sets of attitudes and assumptions.\u000a\u000a|box|k\u000a|!Women may want to further research questions like these:|\u000a|In some countries (particularly Latin countries), catcalls or other forms of harassment of women might be common. Is this sort of think likely in your country? How will you deal with it if so?|\u000a|<hr>What behaviors might be construed as sexual? Smiling or greeting strangers? Looking directly at others? Going out at night without a companion of the opposite sex?|\u000a\u000aIt can be useful to talk with [[study abroad alumni|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewDocument&File_ID=9604]] of your host country about what they've experienced. Get in touch with GEO to see if we can find you someone to talk to.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Her Own Way|http://travel.gc.ca/travelling/publications/her-own-way]], a travel guide for women published by the Canadian government|\u000a|[[Tips about appropriate clothing from women travelers|\u000ahttp://www.journeywoman.com/ccc/default.html#women%20clothing]]|\u000a|[[Margaret Cuninggim Women\u2019s Center|http://www.vanderbilt.edu/WomensCenter/]] at Vanderbilt|\u000a\u000a<<continue "Contacts and communications">>\u005c\u000a
+V<<sidebar "Gender roles abroad">>\u000aExpectations surrounding gender roles vary from country to country, and even within countries. Because so much of our communication with others is interpreted in terms of gender, it is helpful to learn something about gender roles in your host culture. One of the best things about study abroad is making new friends, and you will want to avoid undue friction due to misunderstanding and miscommunication.\u000a\u000a|box|k\u000a|!Things to think about include:|\u000a|Americans are accustomed to having non-romantic friendships with the opposite sex. How does your host culture view opposite-sex friendships?|\u000a|<hr>If you are considering being sexually active abroad, research safe sex and birth control practices as well as attitudes toward sex outside marriage.|\u000a|<hr>What constitutes sexual harassment under local law or understanding?|\u000a|<hr>How do locals dress on the street? What might your manner of dress communicate to them about you?|\u000a\u000aWhile men studying abroad will certainly see cultural differences in their roles, it is women who will need to adapt most to local norms and values. North American women should be aware that they may face special sets of attitudes and assumptions.\u000a\u000a|box|k\u000a|!Women may want to further research questions like these:|\u000a|In some countries (particularly Latin countries), catcalls or other forms of harassment of women might be common. Is this sort of think likely in your country? How will you deal with it if so?|\u000a|<hr>What behaviors might be construed as sexual? Smiling or greeting strangers? Looking directly at others? Going out at night without a companion of the opposite sex?|\u000a\u000aIt can be useful to talk with [[study abroad alumni|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewDocument&File_ID=9604]] of your host country about what they've experienced. Get in touch with GEO to see if we can find you someone to talk to.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Her Own Way|http://travel.gc.ca/travelling/publications/her-own-way]], a travel guide for women published by the Canadian government|\u000a|[[Tips about appropriate clothing from women travelers|\u000ahttp://www.journeywoman.com/ccc/default.html#women%20clothing]]|\u000a|[[Margaret Cuninggim Women\u2019s Center|http://www.vanderbilt.edu/WomensCenter/]] at Vanderbilt|\u000a\u000a<<continue "Contacts and communications">>\u005c\u000a
 p1071
 sg21
 VGender roles abroad
@@ -3406,12 +3406,12 @@ sg23
 g24
 ((I2014
 I5
-I22
-I9
-I56
-I6
-I3
-I142
+I23
+I8
+I49
+I55
+I4
+I143
 I1
 tp1073
 (dp1074
@@ -3546,10 +3546,64 @@ tp1114
 (dp1115
 tp1116
 Rp1117
+sbsa(dp1118
+g12
+I00
+sg13
+(lp1119
+F664.9999999999998
+aF1289.9999999999989
+asg15
+(itiddlywiki
+Tiddler
+p1120
+(dp1121
+g19
+V<<sidebar "More on credit cards">>\u000aEurope and much of the rest of the world are moving to chip-and-PIN (or EMV) "smart" credit cards. These cards offer more secure transactions by adding an embedded microchip and replacing easily forged signatures with the entry of a PIN number.\u000a\u000aStudents should be able to function abroad with a regular US swipe card, which are still accepted by most businesses. However, US swipe cards are not likely to work at most self-serve kiosks.\u000a\u000aDepending on your bank, it may be possible for you to get a chip-and-PIN card in the US for use overseas. If you decide to explore this route, be aware that there is a difference between chip-and-PIN and chip-and-signature cards. Chip-and-signature cards will not work in automated kiosks abroad, for example.\u000a\u000aRegardless of whether you choose a chip-embedded card, you may want to shop around for banks and credit card companies before you leave. Seek out cards that carry low foreign transaction fees, as well as debit card providers with overseas partnerships that allow for lower ATM fees.\u000a\u000a<<continue "Where will you live?">>
+p1122
+sg21
+VMore on credit cards
+p1123
+sg23
+g24
+((I2014
+I5
+I23
+I8
+I48
+I47
+I4
+I143
+I1
+tp1124
+(dp1125
+tp1126
+Rp1127
+sg29
+(lp1128
+Vliving
+p1129
+aVsidebar
+p1130
+asg32
+g24
+((I2014
+I5
+I22
+I16
+I47
+I44
+I3
+I142
+I1
+tp1131
+(dp1132
+tp1133
+Rp1134
 sbsasS'scale'
-p1118
+p1135
 F0.6000000000000001
 sS'snapping'
-p1119
+p1136
 I00
 ss.

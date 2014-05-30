@@ -168,6 +168,9 @@ h6 {
 #ui-bar {
     display:none;
 }
+#passages table thead td {
+    font-weight:bold;
+}
 #passages table.alternating-rows tr:nth-child(odd) {
     background-color:#EEEEEE;/*Fallback*/
     background-color:rgba(221,221,221,0.5);
@@ -180,12 +183,13 @@ h6 {
     background-color:#EEEEEE;/*Fallback*/
     background-color:rgba(221,221,221,0.5);
 }
-#passages table.box th {
+#passages table.box th, #passages table.box thead {
     background-color:#DDDDDD;/*Fallback*/
     background-color:rgba(204,204,204,0.5);
 }
 #passages table.box tr:first-child td,
-#passages table.box tr:first-child th {
+#passages table.box tr:first-child th,
+#passages table.box th tr:first-child td {
     padding-top:10px;
 }
 #passages table.box tr:last-child td {

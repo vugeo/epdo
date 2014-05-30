@@ -1,5 +1,6 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
+* Add an emergency plan for download, with blanks that student can fill in for local info.
 * Add manually implemented back + forward buttons, eliminate browser functionality.
 * Investigate feasibility of single-page print. Probably just need to add a media rule that says that control bar doesn't show when media is print. Could do the same with Continue button.
 * Add an admin mode, accessible via url query (e.g., ?mode=admin) that would automatically provide copyable direcTinks for each passage.

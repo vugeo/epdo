@@ -720,6 +720,15 @@ span.continue-button:hover {
     transform: translate(-50%,-50%);
 }
 
+/* Bottom of page Back button */
+h6.page-back-link {
+    margin:0;
+    display:inline;
+}
+.page-back-link a {
+    color:#a8a8a8;
+}
+
 :: Outgoing Passage Transition Config [script]
 // # of milliseconds before outgoing elements are removed
 config.passageTransitionOut = 780; // it's probably best if it's just slightly longer (say 10ms or so) than your outgoing transition delay
@@ -801,7 +810,6 @@ config.passageTransitionOut = 780; // it's probably best if it's just slightly l
 .passage hr.sidebar {
     background-color:black;
 }
-
 
 .sidebar-box {
   display:table;  

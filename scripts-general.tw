@@ -2,8 +2,11 @@
 /% Syntax:
     <<continue [passage name]>>  %/\
 <<widget "continue">>\
-<<if tale.get(state.active.title).tags.indexOf("nosave") eq -1 >>\
-    <span class='continue-button' style="clear:both;"><<link "Continue" $args[0]>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&emsp;</span>\
+    <<if tale.get(state.active.title).tags.indexOf("nosave") eq -1 >>\
+        <span class='continue-button' style="clear:both;"><<link "Continue" $args[0]>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&emsp;</span>\
+        <<if state.length gt 1>>\
+            &nbsp; &nbsp;<h6 class='page-back-link'><<back "Back">></h6>\
+        <</if>>\
     <</if>>\
 <</widget>>\
 
@@ -88,9 +91,9 @@ macros.add("sidebar-box", {
     <h4 class="sidebar">Additional Information</h4>\
     <h1 class="sidebar"><<print $args[0]>></h1>\
     <hr class="sidebar">\
-    <<if state.length gt 1>>\
+    /%<<if state.length gt 1>>\
         <h6 class="sidebar"><<back "Back">></h6>\
-    <</if>>\
+    <</if>>%/\
 <</widget>>\
 
 

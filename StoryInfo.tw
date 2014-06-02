@@ -10,7 +10,7 @@
 config.saves.autosave = true;
 config.saves.slots = 0;
 config.errorName = "presentation";
-//config.disableHistoryControls = true;
+config.disableHistoryControls = true;
 
 config.saves.isAllowed = function () {
     if (tale.get(state.active.title).tags.indexOf("nosave") === -1) { 

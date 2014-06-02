@@ -1,7 +1,7 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
 * Add an emergency plan for download, with blanks that student can fill in for local info.
-* Add manually implemented back + forward buttons, eliminate browser functionality.
+* Add manually implemented back button, eliminate browser functionality.
 * Investigate feasibility of single-page print. Probably just need to add a media rule that says that control bar doesn't show when media is print. Could do the same with Continue button.
 * Add an admin mode, accessible via url query (e.g., ?mode=admin) that would automatically provide copyable direcTinks for each passage.
 * Put header on About this Presentation as well--?
@@ -66,23 +66,3 @@ To open a window without back and forward buttons (for launching the presentatio
 window.open(url,name,"menubar=no,toolbar=no[, additional options]",true)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%/
-
-/%%%%%%%%%%%%%%%%%%%%%%%%%%
-OLD VERSIONS
-
-:: Copying Documents
-!Copying Documents
-!!!!A "Plan B" for when you lose your passport or other important documents
-You will be taking every precaution to keep your important documents safe, but also make sure you have a Plan B to fall back on.
-
-It is much easier to replace a lost passport if you can show a photocopy of your missing document. So keep ''multiple copies'' of your passport and other key documents (visa or residence permit, credit cards, insurance cards, trip itineraries). Never keep a copy in the same place as the original--if one gets stolen, they both will!
-
-GEO recommends that you:
-#Scan your documents and email them to yourself, or store them in the cloud.
-#Leave a photocopy at home with your family.
-#Keep a photocopy in your luggage, in a //different bag// from the original.
-#Leave your original passport in a safe place when you're out and about; carry a photocopy!
-
-If you do lose your passport while abroad, you will need to ''get in touch with the nearest embassy'' or consulate (you may want to program the contact info into your phone). You should also ''notify your resident director'' or designated contact person.
-%%%%%%%%%%%%%%%%%%%%%%%%%%/
-

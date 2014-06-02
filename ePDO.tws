@@ -260,13 +260,13 @@ p92
 sg23
 g24
 ((I2014
-I5
-I22
-I15
-I33
-I8
-I3
-I142
+I6
+I2
+I16
+I43
+I9
+I0
+I153
 I1
 tp93
 (dp94
@@ -676,7 +676,7 @@ Tiddler
 p221
 (dp222
 g19
-V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aFirst, always ''keep your Resident Director or staff informed'' of your travel. Also keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you!\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a visa, it will probably be easier to get the visa while you're in the US (this applies to both international students and US citizens)!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap!\u000a<div class="talkbox">\u005c\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than striking out.|\u000a</div>\u000a<<continue "Passport Check">>\u005c
+V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aFirst, always ''keep your Resident Director or staff informed'' of your travel. Also keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you!\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a visa, it will probably be easier to get the visa while you're in the US (this applies to both international students and US citizens)!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap!\u000a<div class="talkbox">\u005c\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div>\u000a<<continue "Passport Check">>\u005c
 p223
 sg21
 VThings you need to know about traveling
@@ -684,13 +684,13 @@ p224
 sg23
 g24
 ((I2014
-I4
-I29
-I14
-I57
-I8
-I1
-I119
+I6
+I2
+I16
+I56
+I9
+I0
+I153
 I1
 tp225
 (dp226
@@ -792,13 +792,13 @@ p258
 sg23
 g24
 ((I2014
-I5
-I30
-I10
-I59
-I17
+I6
+I2
+I16
+I55
 I4
-I150
+I0
+I153
 I1
 tp259
 (dp260
@@ -2455,7 +2455,7 @@ Tiddler
 p773
 (dp774
 g19
-V!Registration\u000a!!!!Don't forget to register!\u000aPlease fill out the form below to register your participation. It may take a few days before your registration is reflected in your GEO account.\u000a\u000a<html><iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotformpro.com/form/41326113066949" frameborder="0" style="width:100%; height:467px; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script></html>
+V!Registration\u000a!!!!Don't forget to register!\u000aPlease fill out the form below to register your participation. It may take a few days before your registration is reflected in your GEO account.\u000a\u000a<html><iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://secure.jotformpro.com/form/41326113066949" frameborder="0" style="width:100%; height:467px; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script></html>
 p775
 sg21
 VRegistration
@@ -2463,13 +2463,13 @@ p776
 sg23
 g24
 ((I2014
-I5
-I29
-I16
 I6
-I7
-I3
-I149
+I2
+I15
+I13
+I6
+I0
+I153
 I1
 tp777
 (dp778

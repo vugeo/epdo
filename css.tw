@@ -307,6 +307,12 @@ header#custom {
     display:none;
 }
 
+@media print {
+  header#custom {
+    display:none!important;
+  }
+}
+
 #custom h2 {
     margin:2px 0 0 8px;
     display:inline-block;
@@ -702,7 +708,11 @@ span.continue-button:hover {
     35%  { left: 0.75em; opacity:1.0; }
     100% { left: 0.35em; opacity:0.25; }
 }
-
+@media print {
+  .continue-button {
+    display:none!important;
+  }
+}
 #section-title {
     position: fixed;
     display:none;
@@ -727,6 +737,11 @@ h6.page-back-link {
 }
 .page-back-link a {
     color:#a8a8a8;
+}
+@media print {
+  h6.page-back-link {
+    display:none!important;
+  }
 }
 
 :: Outgoing Passage Transition Config [script]

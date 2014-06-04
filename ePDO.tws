@@ -100,13 +100,13 @@ p42
 sg23
 g24
 ((I2014
-I5
-I27
-I14
-I39
-I39
+I6
+I3
+I16
+I34
+I29
 I1
-I147
+I154
 I1
 tp43
 (dp44
@@ -622,7 +622,7 @@ Tiddler
 p204
 (dp205
 g19
-V<<sidebar "How to Get a Travel Visa">>\u000aA ''travel visa'' is not a credit card! It's a stamp or sticker placed in your passport that allows you to visit a foreign country. Depending on your own nationality and your reasons for traveling, ''you may or may not need a visa'' to enter a given country.\u000a\u000aIf you will be taking classes from an institution based in your host country, you will usually need a student-class visa to enter. Entry requirements are often lower when you are simply visiting as a tourist. \u000a\u000aRequirements to get a visa may include photographs, financial information, a letter from your host university, a criminal background check, or even a personal appearance at the foreign consulate. Your own nationality may have a major impact on the requirements you face in getting a visa. For example, US citizens typically face lower barriers than students of other nationalities. \u000a\u000aIn certain cases, students may be able to enter a country without a visa, but will need to obtain a ''residence permit'' after entering.\u000a\u000aYour study abroad provider will inform you about your visa requirements. If you are uncertain or have general questions, please contact GEO! \u000a\u000a|box|k\u000a|>|!Further information|\u000a|[[Travisa|http://www.travisa.com/]]|Easy access to visa requirements for all countries and most nationalities|\u000a|[[Visa @Wikipedia|https://en.wikipedia.org/wiki/Visa_(document)]]|Article providing information about visa policies around the world|\u000a\u000a<<continue "Traveling with medications">>\u005c
+V<<sidebar "How to Get a Travel Visa">>\u000aA ''travel visa'' is not a credit card! It's a stamp or sticker placed in your passport that allows you to visit a foreign country. Depending on your own nationality and your reasons for traveling, ''you may or may not need a visa'' to enter a given country.\u000a\u000aIf you will be taking classes from an institution based in your host country, you will usually need a student-class visa to enter. Entry requirements are often lower when you are simply visiting as a tourist. \u000a\u000aRequirements to get a visa may include photographs, financial information, a letter from your host university, a criminal background check, or even a personal appearance at the foreign consulate. Your own nationality may have a major impact on the requirements you face in getting a visa. For example, US citizens typically face lower barriers than students of other nationalities. \u000a\u000aIn certain cases, students may be able to enter a country without a visa, but will need to obtain a ''residence permit'' after entering.\u000a\u000aYour study abroad provider will inform you about your visa requirements. If you are uncertain or have general questions, please contact GEO. \u000a\u000a|box|k\u000a|>|!Further information|\u000a|[[Travisa|http://www.travisa.com/]]|Easy access to visa requirements for all countries and most nationalities|\u000a|[[Visa @Wikipedia|https://en.wikipedia.org/wiki/Visa_(document)]]|Article providing information about visa policies around the world|\u000a\u000a<<continue "Traveling with medications">>\u005c
 p206
 sg21
 VVisa Acquisition
@@ -630,13 +630,13 @@ p207
 sg23
 g24
 ((I2014
-I5
-I19
-I13
-I48
+I6
 I3
-I0
-I139
+I16
+I25
+I34
+I1
+I154
 I1
 tp208
 (dp209
@@ -1922,7 +1922,7 @@ Tiddler
 p609
 (dp610
 g19
-V!Index\u000a!!!!Quick reference\u000aThis page lists all of the information you have viewed in this presentation. You may ''bookmark'' it now for easy access later.\u000a\u000a<<continue "Credits">>\u000a\u000a<div id="index-list" class="index-columns">Error: Index could not be shown. Try reloading the page.</div>\u000a/% The code that displays the index is in ::PassageDone and works only when the name of the passage is "Index" %/\u000a
+V!Index\u000a!!!!Quick reference\u000aThis page lists all of the information you have viewed in this presentation. You may ''bookmark'' it now for easy access later.\u000a\u000a<<continue "Credits">>\u000a\u000a<div id="index-list" class="index-columns">Error: Index could not be shown. Try reloading the page.</div>\u005c\u000a/% The code that displays the index is in ::PassageDone and works only when the name of the passage is "Index" %/\u005c\u000a
 p611
 sg21
 VIndex
@@ -1930,13 +1930,13 @@ p612
 sg23
 g24
 ((I2014
-I5
-I28
+I6
+I4
 I12
-I49
-I26
+I6
+I32
 I2
-I148
+I155
 I1
 tp613
 (dp614
@@ -2077,13 +2077,13 @@ p658
 sg23
 g24
 ((I2014
-I5
 I6
-I14
 I4
-I15
-I1
-I126
+I11
+I42
+I37
+I2
+I155
 I1
 tp659
 (dp660
@@ -2166,13 +2166,13 @@ p685
 sg23
 g24
 ((I2014
+I6
 I4
-I22
-I15
-I52
-I50
-I1
-I112
+I11
+I30
+I33
+I2
+I155
 I1
 tp686
 (dp687
@@ -2409,13 +2409,13 @@ p759
 sg23
 g24
 ((I2014
-I5
-I22
-I15
-I35
-I22
+I6
 I3
-I142
+I16
+I36
+I39
+I1
+I154
 I1
 tp760
 (dp761
@@ -3722,7 +3722,7 @@ tp1168
 Rp1169
 sbsa(dp1170
 g12
-I00
+I01
 sg13
 (lp1171
 F1118.333333333334
@@ -3774,10 +3774,62 @@ tp1183
 (dp1184
 tp1185
 Rp1186
+sbsa(dp1187
+g12
+I00
+sg13
+(lp1188
+F1335.3333333333333
+aF1875.9999999999995
+asg15
+(itiddlywiki
+Tiddler
+p1189
+(dp1190
+g19
+V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000amacros.get("saveoptions").handler();
+p1191
+sg21
+VOptions
+p1192
+sg23
+g24
+((I2014
+I6
+I4
+I12
+I1
+I3
+I2
+I155
+I1
+tp1193
+(dp1194
+tp1195
+Rp1196
+sg29
+(lp1197
+Vscript
+p1198
+asg32
+g24
+((I2014
+I6
+I4
+I11
+I38
+I41
+I2
+I155
+I1
+tp1199
+(dp1200
+tp1201
+Rp1202
 sbsasS'scale'
-p1187
+p1203
 F0.6000000000000001
 sS'snapping'
-p1188
+p1204
 I00
 ss.

@@ -87,8 +87,6 @@
         $("#story-rewind").show();
     }
 
-
-
     if (index.hasOwnProperty(passage)) { //skip this for passages that aren't in the index
         //update image if necessary
         var currentImage = getBackgroundImage(".img-anchor");
@@ -135,7 +133,6 @@
     else if (tale.get(state.active.title).tags.indexOf("nosave") !== -1) {
         $("#custom").slideUp("fast");
     }
-console.log("Passage Done!");
 <</script>>
 <<if state.active.title eq "Index">>
     <<displayIndex>>
@@ -153,3 +150,12 @@ console.log("Passage Done!");
         window.history.replaceState(window.history.state, document.title, window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + "?" + query);
     <</script>>
 <</if>>
+<<script>>
+    console.log("Tried to display admin info. admin=" + state.active.variables.admin);
+<</script>>
+<<if $admin eq "true">>
+    <<displayAdmin>>
+<</if>>\
+<<script>>
+    console.log("Passage done!");
+<</script>>

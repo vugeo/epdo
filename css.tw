@@ -290,6 +290,14 @@ p.index-sidebar {
 }
 
 
+/*Admin area */
+#admin-area {
+  margin-top:20px;
+  background-color: rgb(200, 224, 245);
+  padding: 5px 8px;
+  font-size:11px;
+}
+
 :: Custom UI styles [stylesheet]
 
 header#custom {

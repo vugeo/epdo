@@ -7,9 +7,8 @@
 * Doesn't work in Safari 5.1
 * Doesn't work in IE 9
 * Make it so that Continue button is fully clickable, not just on "Continue"
-* Refactor Chapters button so that it must be pressed and blurred, rather than hovered, and so that past slides are shown in a second level
 * Remove all console.log references (needed for IE9)
-* Uncomment save options code in specials.tw (macros.get("saveoptions").handler();)
+* Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();)
 * Credits page for all images used (final passage?)
 * NOW FIXED? tag property is used on something undefined in PassageDone when the user continues a previous session and attempts to use the navigation menu to jump back to material covered in the previous section. Worse, the passage gone to then is said not to exist. This seems to be due to $index not being properly filled in.
 
@@ -22,10 +21,12 @@ NOTES
 
 
 //The URL customizations available are as follows:
-nav : go directly to a given passage in the ePDO, ex.: http://...index.html?nav=Passport Acquisition
+nav : go directly to a given passage in the ePDO, ex.: http://...index.html?nav=Passport Acquisition. Special navigation location is nav=Print, which provides a print-ready version of the entire presentation.
+admin: sets $admin, which provides direct links to any page on that page. Ex: ex.: http://...index.html?admin=true
 facultyled: sets $facultyled, used for Maymesters etc., ex.: http://...index.html?facultyled=true
 vanderbilt: sets $vanderbilt, used for Vanderbilt In's, ex.: http://...index.html?vanderbilt=true
-summer: sets $summer, used for summer and Maymester programs, ex.: http://...index.html?summer=true
+summer: sets $summer, used for summer, ex.: http://...index.html?summer=true
+maymester: sets $maymester, used for Maymester programs, ex.: http://...index.html?maymester=true
 insurance: sets $insurance, used for programs that include HTH insurance, ex.: http://...index.html?insurance=true
 
 Images

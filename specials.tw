@@ -86,3 +86,29 @@ macros.add("displayAll", {
         }
     }
 });
+
+::DisplayAdmin [script]
+// Displays direct links for the current page, depending on selected
+// basic PDO types (semester, summer, etc.
+// Syntax: <<displayAdmin>>
+
+macros.add("displayAdmin", {
+    version: { major: 1, minor: 0, revision: 0 },
+    handler: function () {
+        var passage = tale.get(state.active.title);
+        if (passage.tags.indexOf("no save") === -1) {
+            var html = "<div id='admin-area'><h4>Admin area</h4>";
+            var hash = { "Semester": "",
+                         "Summer": "&summer=true",
+                         "Summer faculty-led": "&summer=true&facultyled=true",
+                         "Maymester faculty-led": "&maymester=true&facultyled=true"
+                        };
+            $.each(hash, function(term, query) {
+                var url = window.location.protocol + "//" + window.location.host + window.location.pathname + "?nav=" + encodeURI(state.active.title) + query;
+                html += "<p><strong>" + term + "</strong> : <a href='" + url + "'>"+ url + "</a></p>";
+            });
+            html += "</div>";
+            $("div.body.content").append(html);
+        }
+    }
+});

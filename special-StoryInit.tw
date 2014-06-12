@@ -25,8 +25,6 @@
         state.active.variables.csscalc = false;
     }
     $('#css3-calc').remove();
-    // Replace text in loading screen
-    $("#loading-screen p").html("Loading&hellip;<br /><progress></progress>");
 
     // Initialize chapter progress storage
     if (!options.chapterprogress) {
@@ -88,12 +86,10 @@
     var opts = state.active.variables.urlopts;
     for (var key in opts) {
         if ( opts.hasOwnProperty(key) ) {
-            if (key == "nav") { state.active.variables.urlopts[key] = unescape(opts[key]); }
-            else {
-                if (state.active.variables.hasOwnProperty(key)) {
-                    state.active.variables[key] = state.active.variables.urlopts[key];
-                    console.log("Setting variable $"+ key + " to " + state.active.variables.urlopts[key]);
-                }
+            state.active.variables.urlopts[key] = decodeURIComponent(opts[key]);
+            if (state.active.variables.hasOwnProperty(key)) {
+                state.active.variables[key] = state.active.variables.urlopts[key];
+                console.log("Setting variable $"+ key + " to " + state.active.variables.urlopts[key]);
             }
         }
     }

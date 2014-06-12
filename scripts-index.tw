@@ -131,7 +131,7 @@
                                     break;
                                 }
                             }
-                            seek = (/&lt;&lt;\s*continue\s+["'](.*?)["']\s*&gt;&gt;/g).exec($(this).text());
+                            seek = (/&lt;&lt;\s*segue\s+["'](.*?)["']\s*&gt;&gt;/g).exec($(this).text());
                             if (seek != null) {
                                 seek = seek[1]; 
                             }

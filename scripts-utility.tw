@@ -54,3 +54,26 @@ if (typeof console === "undefined"){
         return;
     }
 }
+
+:: Cross-browser (mobile) screen sizing [script]
+window.isHandheld = function() {
+	var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+	var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+	if (Math.max(w, h) < 900) {
+		return true;
+	}
+	return false;
+};
+//Alternate, principally to account for differences in reporting
+//between mobile Safari and iOS Chrome. Probably not needed.
+/* window.isHandheld = function() {
+	var elem = insertElement(body, "div", "removeMe");
+	var w = $(elem).width();
+	var h = $(elem).height();
+	$(elem).remove();
+	if (Math.max(w, h) < 900) {
+		return true;
+	}
+	return false;
+};
+*/

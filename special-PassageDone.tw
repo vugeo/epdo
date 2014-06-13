@@ -52,12 +52,17 @@
             }
         console.log("current tag: " + currentTag);
         $("#story-rewind").empty().append(function(){
-            var html = "Navigate<div id='nav-container'><a id='rewind-icon'></a><ul id='nav-sf-menu' class='sf-menu sf-vertical'><li class='sep'><span class='disable'>Jump to Passage</span></li>";
+            var html = "<div id='nav-container'><a id='rewind-icon'></a><ul id='nav-sf-menu' class='sf-menu sf-vertical'><li class='sep'><span class='disable'>Jump to Passage</span></li>";
             for (var i = 1; i < (options.chapterprogress + 1); i++) {
                 html += "<li><a class='chapter-list' data='" + bookmarks[tags[i]] + "'>" + sections[tags[i]].section + "</a><ul>";
                     $.each(fullindex[i-1].passages, function(j, pass) {
                         console.log("Adding " + pass.passage + " to menu: " + index[pass.passage].enumeration + "/" + progress);
-                        html += "<li><a class='passage-list' data='" + pass.passage + "'>" + pass.passage + "</a></li>";
+                        if (pass.passage === state.active.title) {
+                            html += "<li><a class='passage-list passage-list-inactive' data='" + pass.passage + "'>" + pass.passage + "</a></li>";
+                        }
+                        else {
+                            html += "<li><a class='passage-list' data='" + pass.passage + "'>" + pass.passage + "</a></li>";
+                        }
                         if (index[pass.passage].enumeration === options.passageprogress) {return false; }
                     });
                 html += "</ul></li>";

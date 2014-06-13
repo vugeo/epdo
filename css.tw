@@ -6,7 +6,7 @@
 :: CSS [stylesheet]
 /* Change box-sizing model for all elements */
 /*
-*, *:before, *:after {
+*, *::before, *::after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing:border-box;
@@ -93,7 +93,7 @@ h6 {
     top:0;
     left:0;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -154,6 +154,36 @@ h6 {
     width:60%;
   }
 }
+
+@media only screen and (max-width : 999px) { 
+  #passages {
+    width:100%;
+    padding:55px 1em 3em 1em;
+  }
+  #custom {
+    width:100%!important;
+    margin:0!important;
+  }
+  #backgrounds {
+    display:none;
+  }
+  .passage h1 {
+    font-size:30px;
+  }
+  .passage h4 {
+    font-size:16px;
+  }
+  .passage table {
+    margin:0.8 em 0;
+  }
+  #story-rewind::before {
+    content:""!important;
+  }
+  #autoplay-switch::before {
+    content:"Sound"!important;
+  }
+}
+
 @media print {
   #passages {
     width:100%;
@@ -302,6 +332,7 @@ p.index-sidebar {
 
 header#custom {
     position:fixed;
+    font-family: "Open Sans", sans-serif;
     top:0;
     margin:0 auto 0 20%;
     height:44px;
@@ -324,26 +355,30 @@ header#custom {
 #custom h2 {
     margin:2px 0 0 8px;
     display:inline-block;
-    font-family: "Open Sans", sans-serif;
     color:#bbb;
     font-size:16px;
 }
 
 #controls {
+  float:right;
+}
+
+#sound-controls {
     display:inline-block;
-    float:right;
     margin-top:3px;
     right:5px;
 }
 
 #story-rewind {
     display: inline-block;
-    font-family: "Open Sans", sans-serif;
     font-size:13px;
-    float:right;
     margin-top:3px;
     margin-right: 10px;
     color:#bbb;
+}
+
+#story-rewind::before {
+  content: "Navigate";
 }
 
 #story-rewind div {
@@ -354,7 +389,7 @@ header#custom {
     margin-left:7px;
 }
 
-#story-rewind a#rewind-icon:after {
+#story-rewind a#rewind-icon::after {
     content: "\e602";
     font-family: 'icomoon-sugarcube-extended';
     font-size: 13px;
@@ -366,9 +401,58 @@ header#custom {
     top:1px;
 }
 
-#story-rewind a#rewind-icon:hover:after {
+#story-rewind a#rewind-icon:hover::after {
     color: #45cbe6;
     text-decoration: none;
+}
+
+.hilight {
+    -webkit-animation-name: hilight;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes hilight {
+    from { color:#bbb; text-shadow:none; }
+    20% { color: #ffffff; text-shadow:0px 0px 16px #ffffff; }
+    to { color:#bbb; text-shadow:none; }
+}
+
+
+label.autoplay-switch {
+    color: #bbb;
+    font-size: 13px;
+    margin-right: 6px;
+}
+
+button:focus {outline:none;}
+button::-moz-focus-inner {border:0;}
+
+button#autoplay-switch {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(ui/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+    border:none;
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+#sound-controls::before {
+  content:"Autoplay + Sound";
+  color: #bbb;
+  font-size: 13px;
+  margin-right: 6px;
+}
+
+button.switchedon {
+    background:url(ui/check_radio_sheet.png) -57px top no-repeat!important;
+    border:none;
 }
 
 /*** Using superfish.js to handle hierarchical navigation menu ***/
@@ -409,6 +493,10 @@ header#custom {
   z-index:1000;
   top: 30px;
 }
+.passage-list-inactive {
+  color: #ddd!important;
+  text-shadow: none!important;
+}
 .sf-menu {
   /*margin-bottom: 1em;*/
   line-height: 160%;
@@ -424,9 +512,10 @@ header#custom {
   background-image: -o-linear-gradient(top, #eef3fe, #d9e3fa);
   background-image: linear-gradient(top, #eef3fe, #d9e3fa);
   -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-.sf-menu:before, .sf-menu:after, .sf-menu li:first-child:after {
+.sf-menu::before, .sf-menu::after, .sf-menu li:first-child::after {
   display: block;
   content: '';
   width: 0;
@@ -435,11 +524,11 @@ header#custom {
   left: 5px;
   border: 7px outset transparent;
 }
-.sf-menu:before {
+.sf-menu::before {
   border-bottom: 7px solid #555;
   top: -14px;
 }
-.sf-menu:after {
+.sf-menu::after {
   border-bottom: 7px solid #EEF3FE;
   top: -12px;
 }
@@ -466,10 +555,10 @@ header#custom {
   text-decoration: inherit;
   text-shadow: none;
 }
-.sf-menu a.chapter-list:hover:before {
+.sf-menu a.chapter-list:hover::before {
   display:block;
 }
-.sf-menu a.chapter-list:before {
+.sf-menu a.chapter-list::before {
   display: none;
   content: '';
   width: 0;
@@ -597,51 +686,6 @@ label.progress-meter {
   font-family: 'Open Sans', serif;
 }
 
-.hilight {
-    -webkit-animation-name: hilight;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
-}
-
-@-webkit-keyframes hilight {
-    from { color:#bbb; text-shadow:none; }
-    20% { color: #ffffff; text-shadow:0px 0px 16px #ffffff; }
-    to { color:#bbb; text-shadow:none; }
-}
-
-
-label.autoplay-switch {
-    color: #bbb;
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    margin-right: 6px;
-    font-family: 'Open Sans', serif;
-}
-
-
-button:focus {outline:none;}
-button::-moz-focus-inner {border:0;}
-
-button#autoplay-switch {
-    display:inline-block;
-    width:19px;
-    height:19px;
-    margin:-1px 4px 0 0;
-    vertical-align:middle;
-    background:url(ui/check_radio_sheet.png) -38px top no-repeat;
-    cursor:pointer;
-    border:none;
-    -webkit-transition-duration: 0s;
-    -moz-transition-duration: 0s;
-    -o-transition-duration: 0s;
-    transition-duration: 0s;
-}
-
-button.switchedon {
-    background:url(ui/check_radio_sheet.png) -57px top no-repeat!important;
-    border:none;
-}
-
 
 :: Continue arrow & animation [stylesheet]
 span.continue-button {
@@ -664,6 +708,12 @@ span.continue-button {
     padding:0px 15px 1px 10px;
     text-decoration:none;
     text-shadow:0px 1px 5px #2b4487;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /*No colored highlight on iOS/Android*/
+    -webkit-tap-highlight-color: transparent;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 span.continue-button:hover {
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));

@@ -1,16 +1,19 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
+* iOS app icon template: http://appicontemplate.com/
+* Navigate menu should grey out current passage.
+* For handhelds, provide alternate CSS for sidebar stack, so that the "More" appears as a bar across the top (rather than at the side), and with more space between links so that they can be more easily distinguished.
 * Add an emergency plan for download, with blanks that student can fill in for local info.
-* Investigate feasibility of single-page print. Probably just need to add a media rule that says that control bar doesn't show when media is print. Could do the same with Continue button.
-* Add an admin mode, accessible via url query (e.g., ?mode=admin) that would automatically provide copyable direcTinks for each passage.
 * Put header on About this Presentation as well--?
+* Add iOS metas:
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="icon.png" /> (icon for users' desktop if saved as webapp)
 * Doesn't work in Safari 5.1
 * Doesn't work in IE 9
 * Make it so that Continue button is fully clickable, not just on "Continue"
 * Remove all console.log references (needed for IE9)
 * Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();)
 * Credits page for all images used (final passage?)
-* NOW FIXED? tag property is used on something undefined in PassageDone when the user continues a previous session and attempts to use the navigation menu to jump back to material covered in the previous section. Worse, the passage gone to then is said not to exist. This seems to be due to $index not being properly filled in.
 
 NOTES
 * Keep all background images at 1440x900 (http://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)
@@ -18,7 +21,20 @@ NOTES
 * iOS resolutions: http://www.iosres.com/
 * Consider conversion of some resources to data URIs: http://css-tricks.com/data-uris/
 
+IPAD issues
+* Vertical mode: too narrow, probably needs to be full-width (no images) COMPLETE
+* Get rid of rubberbanding?
+* Scrolling causes weird delayed jumps in the placement of the background image
+* Control bar seems to be shifted left by a pixel or so.
+* Bizarre control bar behavior during and after zoom ()
 
+Android (probably other small screens)
+* H1 and H4 are too big
+* Not enough space in header controls for longer titles; header does not respond well to having more than 2 lines. Maybe eliminate section name from header? Or shorten the "Autoplay + Sound" and remove "Navigate" text?
+* Too narrow for multicolumn tables
+* Slow initial loading of web fonts
+* Maybe reduce left and right margins, increase width of tables to full width.
+* Too hard to isolate individual links in sidebar stacks for tapping.
 
 //The URL customizations available are as follows:
 nav : go directly to a given passage in the ePDO, ex.: http://...index.html?nav=Passport Acquisition. Special navigation location is nav=Print, which provides a print-ready version of the entire presentation.
@@ -64,5 +80,21 @@ Joshua LouAllen Grubb - Checkered Lawn - Jardín Japonés (Japanese Garden), Bue
 
 To open a window without back and forward buttons (for launching the presentation):
 window.open(url,name,"menubar=no,toolbar=no[, additional options]",true)
+
+
+MEDIA QUERIES
+Basic info/examples: http://css-tricks.com/css-media-queries/
+                     http://verekia.com/initializr/responsive-template
+For testing: http://protofluid.com/
+iOS media queries: http://stephen.io/mediaqueries/
+Android screens: http://www.smashingmagazine.com/2011/06/30/designing-for-android/#more-104030
+Android tablets: http://www.smashingmagazine.com/2011/08/09/designing-for-android-tablets/#more-110062
+Checking media queries in javascript: http://www.javascriptkit.com/dhtmltutors/cssmediaqueries4.shtml
+
+MOBILE
+Code to hide browser chrome on mobile: http://www.html5rocks.com/en/mobile/mobifying/
+
+META (APPLE)
+https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%/

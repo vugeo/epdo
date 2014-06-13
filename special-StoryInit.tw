@@ -38,10 +38,10 @@
     var header = insertElement(document.html, "header", "custom");
     var banner = insertElement(header, "h2", "section-name", "", "GEO Predeparture Information");
     var controls = insertElement(header, "div", "controls");
-    var story_rewind = insertElement(header, "div", "story-rewind");
+    var story_rewind = insertElement(controls, "div", "story-rewind");
+    var sound_controls = insertElement(controls, "div", "sound-controls");
     var progress = insertElement(header, "div", "progress");
-    var label = insertElement(controls, "label", "", "autoplay-switch", "Autoplay + Sound");
-    var toggle = insertElement(controls, "button", "autoplay-switch");
+    var toggle = insertElement(sound_controls, "button", "autoplay-switch");
     var backgrounds = insertElement(document.body, "div", "backgrounds");
     var image_container_1 = insertElement(backgrounds, "div", "bkgd-1");
     var image_container_2 = insertElement(backgrounds, "div", "bkgd-2");
@@ -165,5 +165,10 @@ if (fullindex.length > 0) {
         }
         $("#progress-meter").css("backgroundImage", rule);
     }
+}
+
+
+if (isHandheld() === true) {
+    console.log("You have a handheld device!");
 }
 <</script>>

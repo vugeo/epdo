@@ -802,6 +802,10 @@ h6.page-back-link {
 .page-back-link a {
     color:#a8a8a8;
 }
+.page-back-link::before {
+  content: "\e00a\00a0\00a0";
+  font-family: 'icomoon-sugarcube-extended';
+}
 @media print {
   h6.page-back-link {
     display:none!important;

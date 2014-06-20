@@ -4,11 +4,45 @@
 <<widget "segue">>\
     <<if tale.get(state.active.title).tags.indexOf("nosave") eq -1 >>\
         <span class='continue-button' style="clear:both;"><<link "Continue" $args[0]>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&emsp;</span>\
-        <<if state.length gt 1>>\
-            &nbsp; &nbsp;<h6 class='page-back-link'><<back "Back">></h6>\
+        <<if $index[state.active.title].enumeration gt 1>>\
+            &nbsp; &nbsp;<h6 class='page-back-link'><<click "Previous">><<prevPassage>><</click>></h6>\
         <</if>>\
     <</if>>\
 <</widget>>\
+
+:: Find Previous Passage [script]
+(function () {
+    macros.add("prevPassage", {
+        version: {
+            major: 1,
+            minor: 0,
+            revision: 0
+        },
+        handler: function () {
+            try {
+                var index = state.active.variables.index;
+                var current = index[state.active.title].enumeration;
+                if (current < 1) {return this.error("Already at the first passage");}
+                console.log("Searching for previous passage...");
+                for (var key in index) {
+                    console.log("  Looking at " + key);
+                    if (index[key].enumeration === current - 1) {
+                        console.log("   Found a matching passage.");
+                        if (tale.get(key).tags.indexOf("sidebar") !== -1) {
+                            console.log("    I believe this to be a sidebar.");
+                            continue;
+                        }
+                        state.display(key);
+                        break;
+                    }
+                } 
+            } 
+            catch (e) {
+                return this.error("Previous Passage " + e.message);
+            }
+        }
+    });
+}());
 
 
 :: Inline head [widget]

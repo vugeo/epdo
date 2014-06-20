@@ -82,8 +82,8 @@
 						});
 					}
 				}
+                console.log("Backgrounds");
                 console.log(backgrounds);
-                console.log(index);
                 console.log("Bookmarks");
                 console.log(bookmarks);
 
@@ -161,6 +161,8 @@
                     });
                 }
             });
+            console.log("Index");
+            console.log(index);
             
             state.active.variables.totalPassages = count;
 

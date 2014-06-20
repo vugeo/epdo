@@ -1,5 +1,19 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
+* Need alternate format for Navigate menu on small-screen devices.
+* Move background images to own folder and use that folder to gate whether or not an image is preloaded on handhelds.
+* Add support for arrow keys for forward and backward navigation?
+	//from: https://stackoverflow.com/questions/1402698/binding-arrow-keys-in-js-jquery
+	$(document).keydown(function(e) {
+	    switch(e.which) {
+	        case 37: // left
+	        	break;
+			case 39: // right
+	        	break;
+			default: return; // exit this handler for other keys
+	    }
+	    e.preventDefault(); // prevent the default action (scroll / move caret)
+	});
 * iOS app icon template: http://appicontemplate.com/
 * Navigate menu should grey out current passage.
 * For handhelds, provide alternate CSS for sidebar stack, so that the "More" appears as a bar across the top (rather than at the side), and with more space between links so that they can be more easily distinguished.
@@ -17,6 +31,7 @@
 
 NOTES
 * Keep all background images at 1440x900 (http://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)
+* Change "back" button to a "previous", with functionality that returns you to the previous slide in linear order.
 * Use smaller images with an overlay to mask image degradation: http://solemone.de/demos/fullsize-background-image-with-css3-background-size/
 * iOS resolutions: http://www.iosres.com/
 * Consider conversion of some resources to data URIs: http://css-tricks.com/data-uris/
@@ -29,11 +44,11 @@ IPAD issues
 * Bizarre control bar behavior during and after zoom ()
 
 Android (probably other small screens)
-* H1 and H4 are too big
-* Not enough space in header controls for longer titles; header does not respond well to having more than 2 lines. Maybe eliminate section name from header? Or shorten the "Autoplay + Sound" and remove "Navigate" text?
-* Too narrow for multicolumn tables
-* Slow initial loading of web fonts
-* Maybe reduce left and right margins, increase width of tables to full width.
+[X] H1 and H4 are too big
+[X] Not enough space in header controls for longer titles; header does not respond well to having more than 2 lines. Maybe eliminate section name from header? Or shorten the "Autoplay + Sound" and remove "Navigate" text?
+[X] Too narrow for multicolumn tables
+[X] Slow initial loading of web fonts
+[X] Maybe reduce left and right margins, increase width of tables to full width.
 * Too hard to isolate individual links in sidebar stacks for tapping.
 
 //The URL customizations available are as follows:

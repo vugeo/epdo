@@ -72,7 +72,7 @@ h1 {
     font-family: 'Arvo',serif;
     font-weight:700;
     font-size: 36px;
-    line-height: 38px;
+    line-height: 1.2em;
     margin: 0 0 10px 0;
     color: #dd3b2a;
 }
@@ -107,7 +107,6 @@ h6 {
     transition: opacity 1s ease-in-out;
 }
 .img-anchor {
-    background-image: url(images/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg);
     opacity:1;
     z-index:1;
 }
@@ -174,14 +173,20 @@ h6 {
     font-size:16px;
   }
   .passage table {
-    margin:0.8 em 0;
+    margin:0.8em 0;
   }
   #story-rewind::before {
     content:""!important;
   }
-  #autoplay-switch::before {
+  #sound-controls::before {
     content:"Sound"!important;
   }
+  h1.index-section {
+    margin-top:1em;
+  }
+  .index-columns p {
+  line-height: 120%;
+}
 }
 
 @media print {
@@ -190,7 +195,7 @@ h6 {
   }
 }
 .passage {
-    line-height: 1.75;
+    line-height: 1.75em;
     margin-bottom: 0;
     text-align: left;
     height:100%;
@@ -307,11 +312,12 @@ h1.full-print {
 h1.index-section {
   font-size: 18px;
   color: black;
+  margin-top:0.5em;
 }
 
 .index-columns p {
   -webkit-margin-before: 0;
-  line-height: 90%;
+  line-height: 100%;
 }
 
 p.index-sidebar {

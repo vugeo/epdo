@@ -152,7 +152,7 @@
                 query += "&" + locus;
             }
         }
-        window.history.replaceState(window.history.state, document.title, window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + "?" + query);
+        window.history.replaceState(window.history.state, document.title, window.location.protocol + "//" + window.location.host + window.location.pathname + "?" + query);
     <</script>>
 <</if>>
 <<script>>

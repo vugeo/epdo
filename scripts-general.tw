@@ -23,13 +23,9 @@
                 var index = state.active.variables.index;
                 var current = index[state.active.title].enumeration;
                 if (current < 1) {return this.error("Already at the first passage");}
-                console.log("Searching for previous passage...");
                 for (var key in index) {
-                    console.log("  Looking at " + key);
                     if (index[key].enumeration === current - 1) {
-                        console.log("   Found a matching passage.");
                         if (tale.get(key).tags.indexOf("sidebar") !== -1) {
-                            console.log("    I believe this to be a sidebar.");
                             continue;
                         }
                         state.display(key);

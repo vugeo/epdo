@@ -185,8 +185,19 @@ h6 {
     margin-top:1em;
   }
   .index-columns p {
-  line-height: 120%;
-}
+    line-height: 120%;
+  }
+  .sidebar-box {
+    display:block!important;
+  }
+  .sidebar-head {
+    display: block!important;
+    border-radius: 5px 5px 0 0!important;
+  }
+  ul.sidebar-links {
+    border-radius: 0 0 5px 5px!important;
+    line-height:140%!important;
+  }
 }
 
 @media print {
@@ -802,10 +813,20 @@ h6.page-back-link {
 .page-back-link a {
     color:#a8a8a8;
 }
-.page-back-link::before {
-  content: "\e00a\00a0\00a0";
-  font-family: 'icomoon-sugarcube-extended';
+
+.page-back-link a::before {
+  font-family: 'icomoon-sugarcube';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e00a\00a0\00a0"
 }
+
 @media print {
   h6.page-back-link {
     display:none!important;

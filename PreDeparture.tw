@@ -1,6 +1,5 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Make Previous button on sidebar pages into a back button
 * iOS app icon template: http://appicontemplate.com/
 * Navigate menu should grey out current passage.
 * For handhelds, provide alternate CSS for sidebar stack, so that the "More" appears as a bar across the top (rather than at the side), and with more space between links so that they can be more easily distinguished.

@@ -7,6 +7,7 @@
 <<set $admin to false>>
 <<set $maymester to false>>
 <<set $urlopts to {}>>
+<<set $temp to "">>
 <<script>>
     // Create new options interface
     window.setOption = function(name, value) {

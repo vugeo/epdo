@@ -70,10 +70,24 @@
             html+="</ul></div>";
             return html;
         });
-        jQuery('ul.sf-menu').superfish({
-            cssArrows: false,
-            addArrows: false
-        });
+        if ($("#backgrounds").css("display") === "none") {//proxy for screen width media query
+            jQuery('ul.sf-menu').superfish({
+                animation: {height:'show'}, // slide-down effect without fade-in
+                animationOut: {height:'hide'},
+                delay:     1200,
+                speed:     'fast',
+                speedOut:  'fast',
+                cssArrows: false,
+                addArrows: false
+            });
+        }
+        else {
+            jQuery('ul.sf-menu').superfish({
+                cssArrows: false,
+                addArrows: false,
+            });
+        }
+        
         $("#rewind-icon, #nav-sf-menu").off(".navcontrol").on("mouseenter.navcontrol", function () {
                 $("#nav-sf-menu").show();
             })

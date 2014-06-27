@@ -1,24 +1,21 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
+* Menu bug on Android stock browser and Chrome--superfish (https://github.com/joeldbirch/superfish/issues/119).
 * iOS app icon template: http://appicontemplate.com/
-* Navigate menu should grey out current passage.
-* For handhelds, provide alternate CSS for sidebar stack, so that the "More" appears as a bar across the top (rather than at the side), and with more space between links so that they can be more easily distinguished.
 * Add an emergency plan for download, with blanks that student can fill in for local info.
 * Put header on About this Presentation as well--?
 * Add iOS metas:
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<link rel="apple-touch-icon" href="icon.png" /> (icon for users' desktop if saved as webapp)
-* Doesn't work in Safari 5.1
-* Doesn't work in IE 9
-* Make it so that Continue button is fully clickable, not just on "Continue"
+* Doesn't work in Safari 5.1--something breaks.
+* Console shim in IE 9 seems to *almost* totally fix things--I got a random error that affected nothing substantive about console being undefined.
 * Remove all console.log references (needed for IE9)
+* Make it so that Continue button is fully clickable, not just on "Continue"
 * Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();)
-* Credits page for all images used (final passage?)
 
 NOTES
 * Keep all background images at 1440x900 (http://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)
-* Change "back" button to a "previous", with functionality that returns you to the previous slide in linear order.
-* Use smaller images with an overlay to mask image degradation: http://solemone.de/demos/fullsize-background-image-with-css3-background-size/
+* Use smaller images with an overlay to mask image degradation? --Doesn't seem necessary http://solemone.de/demos/fullsize-background-image-with-css3-background-size/
 * iOS resolutions: http://www.iosres.com/
 * Consider conversion of some resources to data URIs: http://css-tricks.com/data-uris/
 
@@ -28,14 +25,6 @@ IPAD issues
 * Scrolling causes weird delayed jumps in the placement of the background image
 * Control bar seems to be shifted left by a pixel or so.
 * Bizarre control bar behavior during and after zoom ()
-
-Android (probably other small screens)
-[X] H1 and H4 are too big
-[X] Not enough space in header controls for longer titles; header does not respond well to having more than 2 lines. Maybe eliminate section name from header? Or shorten the "Autoplay + Sound" and remove "Navigate" text?
-[X] Too narrow for multicolumn tables
-[X] Slow initial loading of web fonts
-[X] Maybe reduce left and right margins, increase width of tables to full width.
-* Too hard to isolate individual links in sidebar stacks for tapping.
 
 //The URL customizations available are as follows:
 nav : go directly to a given passage in the ePDO, ex.: http://...index.html?nav=Passport Acquisition. Special navigation location is nav=Print, which provides a print-ready version of the entire presentation.

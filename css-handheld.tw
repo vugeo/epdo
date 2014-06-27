@@ -1,0 +1,108 @@
+:: Handhelds [stylesheet]
+
+@media only screen and (max-width : 999px) { 
+  #passages {
+    width:100%;
+    padding:55px 1em 3em 1em;
+  }
+  #custom {
+    width:100%!important;
+    margin:0!important;
+  }
+  #backgrounds {
+    display:none;
+  }
+  .passage h1 {
+    font-size:30px;
+  }
+  .passage h4 {
+    font-size:16px;
+  }
+  .passage table {
+    margin:0.8em 0;
+  }
+  #story-rewind::before {
+    content:""!important;
+  }
+  #sound-controls::before {
+    content:"Sound"!important;
+  }
+  h1.index-section {
+    margin-top:1em;
+    font-size: 18px;
+  }
+  .index-columns p {
+    line-height: 120%;
+  }
+  .sidebar-box {
+    display:block!important;
+  }
+  .sidebar-head {
+    display: inline-block!important;
+    -webkit-border-radius: 5px 5px 0 0!important;
+    -moz-border-radius: 5px 5px 0 0!important;
+    border-radius: 5px 5px 0 0!important;
+    min-width:4em;
+    width: auto!important;
+  }
+  ul.sidebar-links {
+    border-radius: 0 5px 5px 5px!important;
+    line-height:140%!important;
+  }
+  #nav-sf-menu {
+    top:44px;
+  }
+  .sf-menu {
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+    border: none;
+    left:0;
+    width:100%;
+    font-family: 'Open Sans', serif;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.6);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.6);
+    box-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+  .sf-menu, .sf-menu li {
+    font-size: 15px!important;
+  }
+  .sf-menu ul {
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+    position: relative;
+    top: 100%;
+    left: 0;
+    width:100%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .sf-menu ul ul {
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+    position: relative;
+    top:100%;
+    left: 0;
+    width:100%;
+  }
+  .sf-menu a.chapter-list {
+    font-weight: bold;
+  }
+  .sf-menu a.chapter-list::before {
+    display: none!important;
+  }
+  #nav-sf-menu::after {
+    display:none; /* Hide tooltip arrow */
+  }
+  .sf-menu li {
+    text-shadow: none;
+  }
+  .sf-menu li:hover, .sf-menu li.sfHover {
+    background-image: none;
+  }
+}
+
+

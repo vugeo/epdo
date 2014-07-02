@@ -1,6 +1,6 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Menu bug on Android stock browser and Chrome--superfish (https://github.com/joeldbirch/superfish/issues/119).
+* Substitute MeanMenu for SuperFish on handhelds: https://github.com/meanthemes/meanMenu
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.
 * Put header on About this Presentation as well--?

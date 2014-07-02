@@ -1,13 +1,13 @@
 :: Postrender [script]
-
+//from http://twinery.org/forum/index.php/topic,1557.0
 postrender.quotes = function(passage, content, task) {
 	function processTextNodes(node) {
 		if (node.nodeType == 3) { // text node
 			node.nodeValue = node.nodeValue
-				.replace(/\b'/g, '&rsquo;')
-				.replace(/'\b/g, '&lsquo;')
-				.replace(/"(?:\s|$)/g, '&rdquo;')
-				.replace(/(?:\s|^)"/g, '&ldquo;');
+				.replace(/\b'/g, '\u2019')
+				.replace(/'\b/g, '\u2018')
+				.replace(/"(\s|$)/g, '\u201D$1')
+				.replace(/(\s|^)"/g, '$1\u201C');
 		} else {
 			for (var i in node.childNodes) {
 				processTextNodes(node.childNodes[i]);

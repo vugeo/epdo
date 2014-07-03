@@ -507,7 +507,7 @@ button.switchedon {
   /*padding: 0 12px;*/
   font-size: 11px;
   color: #838ca2;
-  text-shadow: 0 1px #fff;
+  /*text-shadow: 0 1px #fff;*/
   white-space: nowrap; /* no need for Supersubs plugin */
   *white-space: normal; /* ...unless you support IE7 (let it wrap) */
   -webkit-transition: background .2s;
@@ -560,7 +560,7 @@ button.switchedon {
 .sf-menu li:hover,
 .sf-menu li.sfHover {
   text-decoration: none;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  /*text-shadow: 0 1px rgba(0, 0, 0, 0.3);*/
   border-color: #5a70b0 #495d98 #42558a;
   background-color: #5a70b0;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7688bd), color-stop(100%, #4e64a3));
@@ -666,16 +666,16 @@ span.continue-button {
     background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
     background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
     background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
     background-color:#2dabf9;
     -moz-border-radius:28px;
     -webkit-border-radius:28px;
     border-radius:28px;
     border:1px solid #c4ccff;
-    display:inline;
+    display:inline-block;
     cursor:pointer;
     color:#ffffff;
-    font-size:17px;
+    font-size:1.1em;
+    font-weight:normal;
     padding:0px 15px 1px 10px;
     text-decoration:none;
     text-shadow:0px 1px 5px #2b4487;
@@ -693,26 +693,12 @@ span.continue-button:hover {
     background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
     background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
     background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
     background-color:#0688fa;
-}
-.continue-button a {
-    color: #fff!important;
-}
-.continue-button a:hover {
-    text-decoration:none!important;
-}
-.continue-button a.link-internal,
-.continue-button a.link-external,
-.continue-button a.link-back,
-.continue-button a.link-return {
-    font-weight:normal;
-    margin:0;
-    padding:0;
 }
 .onward-arrow {
     position: relative;
     left:0;
+    width:0.75em;
     display:inline-block;
 }
 .fade-bounce {
@@ -726,7 +712,12 @@ span.continue-button:hover {
  -moz-animation-direction: normal;
  -webkit-animation-timing-function: ease-in;
  -moz-animation-timing-function: ease-in;
- }
+ animation-name: fade-bounce;
+ animation-duration: 1s;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+ animation-timing-function: ease-in;
+}
  @-webkit-keyframes fade-bounce {
     0%   { left: 0; opacity:1.0; }
     35%  { left: 0.75em; opacity:1.0; }
@@ -737,26 +728,15 @@ span.continue-button:hover {
     35%  { left: 0.75em; opacity:1.0; }
     100% { left: 0.35em; opacity:0.25; }
 }
-@media print {
+@keyframes fade-bounce {
+    0%   { left: 0; opacity:1.0; }
+    35%  { left: 0.75em; opacity:1.0; }
+    100% { left: 0.35em; opacity:0.25; }
+ }
+ @media print {
   .continue-button {
     display:none!important;
   }
-}
-#section-title {
-    position: fixed;
-    display:none;
-    background-color:rgba(0,0,0,0.8);
-    padding:15px;
-    z-index:999;
-    color:#fff;
-    font-weight:bold;
-    margin: auto;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
 }
 
 /* Bottom of page Back button */

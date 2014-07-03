@@ -1,6 +1,6 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Substitute MeanMenu for SuperFish on handhelds: https://github.com/meanthemes/meanMenu
+* Substitute Slicknav for SuperFish on handhelds: http://slicknav.com/
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.
 * Put header on About this Presentation as well--?
@@ -10,7 +10,6 @@
 * Doesn't work in Safari 5.1--something breaks.
 * Console shim in IE 9 seems to *almost* totally fix things--I got a random error that affected nothing substantive about console being undefined.
 * Remove all console.log references (needed for IE9)
-* Make it so that Continue button is fully clickable, not just on "Continue"
 * Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();)
 
 NOTES

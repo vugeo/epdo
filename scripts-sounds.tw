@@ -53,11 +53,11 @@ This updates the on-screen button for autoplay/sounds. Use this macro
 whenever changing the state of the options.autoplay variable. 
 %%%%%%%%%%%%%%/
 <<widget "updateAutoplay">>\
-    <<if options.autoplay>>\
-        <<script>>$("#autoplay-switch").addClass("switchedon");<</script>>\
-    <<else>>\
-        <<script>>$("#autoplay-switch").removeClass("switchedon");<</script>>\
-    <</if>>\
+        <<script>>
+        $("#autoplay-switch").prop("checked", function() {
+            return (options.autoplay ? true : false);
+        });
+        <</script>>\
 <</widget>>\
 
 

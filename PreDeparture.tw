@@ -1,6 +1,11 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Substitute Slicknav for SuperFish on handhelds: http://slicknav.com/
+* Increase size of checkbox in drawer on mobile.
+* Why is input so problematic on Android and iOS? When iScroll is enabled, Safari, Chrome, and Firefox all fail to complete tap events.
+* Consider using iScroll only for desktop machines--if possible.
+* Update URL replacement code on index page to take hash mode into account: https://mail.google.com/mail/u/4/#inbox/146a53697f731793
+* Consider adding fast click to improve responsiveness on mobile: https://github.com/ftlabs/fastclick
+* Check out with adding AppScroll: https://github.com/jakiestfu/AppScroll
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.
 * Put header on About this Presentation as well--?
@@ -74,7 +79,7 @@ window.open(url,name,"menubar=no,toolbar=no[, additional options]",true)
 MEDIA QUERIES
 Basic info/examples: http://css-tricks.com/css-media-queries/
                      http://verekia.com/initializr/responsive-template
-For testing: http://protofluid.com/
+For testing: http://protofluid.com/ or http://www.browserstack.com/responsive
 iOS media queries: http://stephen.io/mediaqueries/
 Android screens: http://www.smashingmagazine.com/2011/06/30/designing-for-android/#more-104030
 Android tablets: http://www.smashingmagazine.com/2011/08/09/designing-for-android-tablets/#more-110062

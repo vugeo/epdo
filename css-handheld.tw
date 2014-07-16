@@ -2,24 +2,23 @@
 
 @media only screen and (max-width : 999px) { 
   #passages {
-    width:100%;
-    padding:55px 1em 3em 1em;
+    width: 100%;
+    padding: 55px 1em 3em 1em;
   }
-  #custom {
-    width:100%!important;
-    margin:0!important;
+  #body-wrap {
+    width: 100%;
   }
   #backgrounds {
-    display:none;
+    display: none;
   }
   .passage h1 {
-    font-size:30px;
+    font-size: 30px;
   }
   .passage h4 {
-    font-size:16px;
+    font-size: 16px;
   }
   .passage table {
-    margin:0.8em 0;
+    margin: 0.8em 0;
   }
   #story-rewind::before {
     content:""!important;
@@ -51,7 +50,7 @@
   }
   #nav-sf-menu {
     top:44px;
-  }
+  } /*
   .sf-menu {
     -webkit-border-radius: 0!important;
     -moz-border-radius: 0!important;
@@ -96,13 +95,13 @@
   }
   #nav-sf-menu::after {
     display:none; /* Hide tooltip arrow */
-  }
+  } /*
   .sf-menu li {
     text-shadow: none;
   }
   .sf-menu li:hover, .sf-menu li.sfHover {
     background-image: none;
-  }
+  } */
 }
 
 

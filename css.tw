@@ -4,14 +4,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700);
 
 :: CSS [stylesheet]
-/* Change box-sizing model for all elements */
-/*
-*, *::before, *::after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing:border-box;
-}
-*/
 /* Override SugarCube button animations & styles
 button
 {
@@ -36,9 +28,161 @@ button:active {
     display: none;
 }
 
-html {
-  height:100%;
+/* Main display and drawers setup */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
 }
+body {
+    color: #000;
+    font-family: 'Open Sans',serif;
+}
+.nicescroll-rails {
+  bottom: 0;
+}
+.nicescroll-rails div{
+  z-index: 1!important;
+}
+
+#body-wrap {
+  position: relative;
+  height:100%;
+  width: 60%;
+  margin: 0 auto;
+  -moz-box-shadow: 0 0 20px black;
+  -webkit-box-shadow: 0 0 20px black;
+  box-shadow: 0 0 20px black;
+  z-index: 5;
+}
+#drawers-wrap {
+  z-index: 4;
+}
+#content-wrap {
+  position: absolute;
+  background-color: white;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: 5;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: translate3d(0, 0, 0);
+     -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+#passages {
+  color: #000;
+  font-size:15px;
+  background-color:#fefefe;
+  min-height:100%;
+  border-left:none;
+  padding: 55px 2em 3em 2em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:border-box;
+  position:relative;
+  z-index: 5;
+  margin:0;
+}
+
+@media screen {
+  #body-wrap {
+    width:60%;
+  }
+}
+@media print {
+  #body-wrap {
+    width:100%;
+  }
+}
+
+.snap-drawers {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.snap-drawer {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: auto;
+  width: 242px; /* Actually 266px after padding */
+  height: auto;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: width 0.3s ease;
+     -moz-transition: width 0.3s ease;
+      -ms-transition: width 0.3s ease;
+       -o-transition: width 0.3s ease;
+          transition: width 0.3s ease;
+}
+
+.snap-drawer-left {
+  left: 0;
+  z-index: 4;
+}
+
+.snap-drawer-right {
+  right: 0;
+  z-index: 4;
+}
+
+.snapjs-left .snap-drawer-right,
+.snapjs-right .snap-drawer-left {
+  display: none;
+}
+
+.snapjs-expand-left .snap-drawer-left,
+.snapjs-expand-right .snap-drawer-right {
+  width: 100%;
+}
+
+/* Scrollbars */
+.iScrollVerticalScrollbar { /*container*/
+  position: absolute;
+  z-index: 9999;
+  width: 3px;
+  bottom: 2px;
+  top: 50px;
+  right: 5px;
+  overflow: hidden;
+}
+
+.iScrollIndicator { /*actual scrollbar*/
+  position: absolute;
+  background: #bbb;
+  width: 100%;
+}
+
+.snap-drawer::-webkit-scrollbar {
+  width: 3px;
+}
+
+.snap-drawer::-webkit-scrollbar-thumb:vertical {
+  margin: 3px;
+  background-color: #999;
+  -webkit-border-radius: 3px;
+}
+
+.snap-drawer::-webkit-scrollbar-button:start:decrement,
+.snap-drawer::-webkit-scrollbar-button:end:increment {
+  height: 3px;
+  display: block;
+}
+
+/* Helpers */
 figcaption {
     font-size:80%;
     font-style:italic;
@@ -58,15 +202,6 @@ figcaption {
 .talkbox {
   width:85%;
   margin:auto;
-}
-body {
-    color: #000;
-    font-family: 'Open Sans',serif;
-    margin:0;
-    height:100%;
-    overflow:auto;
-    position:relative;
-    z-index: 3;
 }
 h1 {
     font-family: 'Arvo',serif;
@@ -124,41 +259,14 @@ h6 {
 .content a.link-external,
 .content a.link-back,
 .content a.link-return {
-    font-size: 90%;
+  font-size: 90%;
 }
 .content strong {
-    font-size: 90%;
+  font-size: 90%;
 }
+
 
 /* Basic passage styles */
-#passages {
-    color: #000;
-    font-size:15px;
-    background-color:#fefefe;
-    
-    min-height:100%;
-    margin: 0 auto;
-    border-left:none;
-    padding: 55px 2em 3em 2em;
-    -moz-box-shadow: 0 0 20px black;
-    -webkit-box-shadow: 0 0 20px black;
-    box-shadow: 0 0 20px black;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing:border-box;
-    position:relative;
-}
-@media screen {
-  #passages {
-    width:60%;
-  }
-}
-
-@media print {
-  #passages {
-    width:100%;
-  }
-}
 .passage {
     line-height: 1.75em;
     margin-bottom: 0;
@@ -302,17 +410,17 @@ p.index-sidebar {
 :: Custom UI styles [stylesheet]
 
 header#custom {
-    position:fixed;
+    position:absolute;
     font-family: "Open Sans", sans-serif;
     top:0;
-    margin:0 auto 0 20%;
+    width: 100%;
+    margin:0;
     height:44px;
-    width:60%;
     background-color:#555;
     border-bottom:1px solid #333;
-    -moz-box-shadow: 0 0 10px black;
-    -webkit-box-shadow: 0 0 10px black;
-    box-shadow: 0 0 10px black;
+    -moz-box-shadow: 0 6px 12px -6px black;
+    -webkit-box-shadow: 0 6px 12px -6px black;
+    box-shadow: 0 6px 12px -6px black;
     z-index:10;
     display:none;
 }
@@ -334,48 +442,36 @@ header#custom {
   float:right;
 }
 
-#sound-controls {
-    display:inline-block;
-    margin-top:3px;
-    right:5px;
+#menu-button {
+  display: inline-block;
+  margin: 7px 10px 0 0;
 }
 
-#story-rewind {
-    display: inline-block;
-    font-size:13px;
-    margin-top:3px;
-    margin-right: 10px;
-    color:#bbb;
+#menu-icon {
+  fill: #bbb;
+  width: 20px;
 }
 
-#story-rewind::before {
-  content: "Navigate";
+#menu-icon:hover {
+  fill: #45cbe6;
 }
 
-#story-rewind div {
-    display: inline-block;
-}
+/*
+#menu-button:after {
+  content: "\e603";
+  font-family: 'icomoon-sugarcube-extended';
+  font-size: 20px!important;
+  color: #bbb;
+  /*text-shadow: 0px 1px 1px #888;*/ /*
+  font-weight:bold;
+  position:relative;
+  top:3px;
+} 
 
-#story-rewind a#rewind-icon {
-    margin-left:7px;
-}
-
-#story-rewind a#rewind-icon::after {
-    content: "\e602";
-    font-family: 'icomoon-sugarcube-extended';
-    font-size: 13px;
-    color: #222;
-    text-shadow: 0px 1px 1px #888;
-    font-weight:bold;
-    font-size:100%!important;
-    position:relative;
-    top:1px;
-}
-
-#story-rewind a#rewind-icon:hover::after {
+#menu-button:hover:after {
     color: #45cbe6;
     text-decoration: none;
-}
+} */
 
 .hilight {
     -webkit-animation-name: hilight;
@@ -389,227 +485,12 @@ header#custom {
     to { color:#bbb; text-shadow:none; }
 }
 
-
-label.autoplay-switch {
-    color: #bbb;
-    font-size: 13px;
-    margin-right: 6px;
-}
-
 button:focus {outline:none;}
 button::-moz-focus-inner {border:0;}
 
-button#autoplay-switch {
-    display:inline-block;
-    width:19px;
-    height:19px;
-    margin:-1px 4px 0 0;
-    vertical-align:middle;
-    background:url(ui/check_radio_sheet.png) -38px top no-repeat;
-    cursor:pointer;
-    border:none;
-    -webkit-transition-duration: 0s;
-    -moz-transition-duration: 0s;
-    -o-transition-duration: 0s;
-    transition-duration: 0s;
-}
 
-#sound-controls::before {
-  content:"Autoplay + Sound";
-  color: #bbb;
-  font-size: 13px;
-  margin-right: 6px;
-}
-
-button.switchedon {
-    background:url(ui/check_radio_sheet.png) -57px top no-repeat!important;
-    border:none;
-}
-
-/*** Using superfish.js to handle hierarchical navigation menu ***/
-/* ESSENTIAL STYLES from superfish.css */
-.sf-menu, .sf-menu * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.sf-menu li {
-  position: relative;
-}
-.sf-menu ul {
-  position: absolute;
-  display: none;
-  top: 100%;
-  right: 0;
-  z-index: 99;
-}
-.sf-menu li:hover > ul,
-.sf-menu li.sfHover > ul {
-  display: block;
-}
-.sf-menu a {
-  display: block;
-  position: relative;
-}
-.sf-menu ul ul {
-  top: 0;
-  right: 0;
-}
-
-/*** Custom skin for superfish nav menu ***/
-/* Based on http://jsfiddle.net/LPbhS/ */
-#nav-sf-menu {
-  display:none;
-  position: absolute;
-  z-index:1000;
-  top: 30px;
-}
-.passage-list-inactive {
-  color: #ddd!important;
-  text-shadow: none!important;
-}
-.sf-menu {
-  /*margin-bottom: 1em;*/
-  line-height: 160%;
-  padding-bottom: 6px;
-  border: 1px solid;
-  border-color: #777 #6c6c6c #666;
-  border-radius: 5px;
-  background-color: #d9e3fa;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eef3fe), color-stop(100%, #d9e3fa));
-  background-image: -webkit-linear-gradient(top, #eef3fe, #d9e3fa);
-  background-image: -moz-linear-gradient(top, #eef3fe, #d9e3fa);
-  background-image: -ms-linear-gradient(top, #eef3fe, #d9e3fa);
-  background-image: -o-linear-gradient(top, #eef3fe, #d9e3fa);
-  background-image: linear-gradient(top, #eef3fe, #d9e3fa);
-  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-.sf-menu::before, .sf-menu::after, .sf-menu li:first-child::after {
-  display: block;
-  content: '';
-  width: 0;
-  height: 0;
-  position: absolute;
-  left: 5px;
-  border: 7px outset transparent;
-}
-.sf-menu::before {
-  border-bottom: 7px solid #555;
-  top: -14px;
-}
-.sf-menu::after {
-  border-bottom: 7px solid #EEF3FE;
-  top: -12px;
-}
-.sf-menu li {
-  /*padding: 0 12px;*/
-  font-size: 11px;
-  color: #838ca2;
-  /*text-shadow: 0 1px #fff;*/
-  white-space: nowrap; /* no need for Supersubs plugin */
-  *white-space: normal; /* ...unless you support IE7 (let it wrap) */
-  -webkit-transition: background .2s;
-  transition: background .2s;
-}
-.sf-menu li.sep {
-  border-bottom: 1px solid #b4bbce;
-  /*padding-top:*/
-  padding-bottom: 4px;
-  margin-bottom: 4px;
-  text-shadow:none;
-}
-.sf-menu li.sep:hover {
-  border-color: #b4bbce;
-  background: none;
-  text-decoration: inherit;
-  text-shadow: none;
-}
-.sf-menu a.chapter-list:hover::before {
-  display:block;
-}
-.sf-menu a.chapter-list::before {
-  display: none;
-  content: '';
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: 50%;
-  left: 2px;
-  margin-top: -4px;
-  border: 4px solid transparent;
-  border-right-color: #9facd1;
-}
-.sf-menu a {
-  display: block;
-  position: relative;
-  padding: 0 20px 0 12px;
-  color: #313a4f;
-  border: 1px solid transparent;
-  text-decoration: none;
-  zoom: 1; /* IE7 */
-}
-.sf-menu a.chapter-list {
-  padding: 0 20px 0 15px;
-}
-.sf-menu a:hover {
-  color: #13a;
-  color: #fff;
-}
-.sf-menu li:hover,
-.sf-menu li.sfHover {
-  text-decoration: none;
-  /*text-shadow: 0 1px rgba(0, 0, 0, 0.3);*/
-  border-color: #5a70b0 #495d98 #42558a;
-  background-color: #5a70b0;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7688bd), color-stop(100%, #4e64a3));
-  background-image: -webkit-linear-gradient(top, #7688bd, #4e64a3);
-  background-image: -moz-linear-gradient(top, #7688bd, #4e64a3);
-  background-image: -ms-linear-gradient(top, #7688bd, #4e64a3);
-  background-image: -o-linear-gradient(top, #7688bd, #4e64a3);
-  background-image: linear-gradient(top, #7688bd, #4e64a3);
-  /* only transition out, not in */
-  -webkit-transition: none;
-  transition: none;
-}
-.sf-menu  span.disable, .sf-menu span.disable:hover {
-  color: #838ca2!important;
-  padding: 6px 20px 0 12px;
-}
-.sf-menu ul {
-  box-shadow: 2px 2px 6px rgba(0,0,0,.2);
-  min-width: 12em; /* allow long menu items to determine submenu width */
-  *width: 12em; /* no auto sub width for IE7, see white-space comment below */
-}
-
-.sf-menu ul li {
-  background: #AABDE6;
-}
-.sf-menu ul ul li {
-  background: #9AAEDB;
-}
-
-/* adding sf-vertical class in addition to sf-menu creates a vertical menu */
-/* eg. <ul class="sf-menu sf-vertical"> ... */
-.sf-vertical {
-  min-width: 12em;
-  *width: 12em;
-}
-.sf-vertical ul {
-  right: 100%;
-  top: 0;
-}
-.sf-vertical > li {
-  float: none;
-}
-.sf-vertical li {
-  width: 100%;
-}
-
-
-
-#progress {
+progress
+# {
   clear:both;
   display:block;
 }
@@ -657,6 +538,123 @@ label.progress-meter {
   font-family: 'Open Sans', serif;
 }
 
+
+:: Drawer styles [stylesheet]
+#right-drawer {
+  -moz-box-shadow: inset 6px 0 8px -6px black;
+  -webkit-box-shadow: inset 6px 0 8px -6px black;
+  box-shadow: inset 6px 0 8px -6px black;
+}
+.snap-drawers {
+  background-color: #555;
+  color: #ccc;
+}
+.snap-drawer {
+  padding: 12px;
+}
+.snap-drawer h4 {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+.snap-drawer h2 {
+  font-size: 18px;
+  font-family: 'Arvo',serif;
+  margin: 0 0 15px 0;
+  color: #ddd;
+  text-align: center;
+}
+a.centered {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+#menu-close-label {
+  font-size: 10px;
+  position: relative;
+  top: -5px;
+  font-weight: bold;
+  color: #bbb;
+}
+#menu-close-label:hover, #menu-close-button:hover, #menu-close-label:hover #menu-close-button, #drawer-header:hover {
+  color: #45cbe6;
+  fill: #45cbe6;
+}
+#menu-close-button {
+  fill: #bbb;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 3px;
+}
+#autoplay-switch {
+  float: right;
+  margin-top: 5px;
+}
+.snap-drawer .menu-legend {
+  font-style: italic;
+  margin: 0;
+}
+.snap-drawer .drawer-section {
+  border-bottom: 1px solid #333;
+  -moz-box-shadow: inset 0 -2px 2px -2px #888;
+  -webkit-box-shadow: inset 0 -2px 2px -2px #888;
+  border-shadow: inset 0 -2px 2px -2px #888;
+  padding: 10px 0;
+}
+.snap-drawer .drawer-section:first-child {
+  padding: 0;
+}
+#nav-container {
+  margin-top: 15px;
+}
+.snap-drawer ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 13px;
+}
+.snap-drawer ul.chapter-list {
+  margin: 10px 0;
+}
+.snap-drawer ul.chapter-list > li {
+  background-color: #333;
+  margin: 2px 0;
+}
+#nav-container a.active {
+  border-color: #45cbe6;
+}
+#nav-container .inactive {
+  border-color: #666;
+}
+#nav-container .passage-list-inactive {
+  font-weight: bold;
+  color: #666!important;
+}
+#nav-container a, #nav-container a:hover {
+  color: inherit;
+}
+.snap-drawer a.chapter-list {
+  padding: 5px 0 5px 3px!important;
+  border-left: solid 6px #333;
+  display: block;
+  font-weight: bold;
+}
+.snap-drawer ul.passage-list {
+  display: none;
+}
+.snap-drawer ul.passage-list li {
+  margin: 0 0 2px 0;
+  font-size: 12px;
+  border-left: 6px solid #434343;
+  background-color: #434343;
+  padding: 5px 0 5px 5px;
+}
+.snap-drawer a.passage-list {
+  display: block;
+  padding: 5px 0 5px 0;
+}
 
 :: Continue arrow & animation [stylesheet]
 span.continue-button {
@@ -748,7 +746,7 @@ h6.page-back-link {
     color:#a8a8a8;
 }
 
-.page-back-link a::before {
+.page-back-link a:before {
   font-family: 'icomoon-sugarcube';
   speak: none;
   font-style: normal;

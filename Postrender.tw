@@ -16,3 +16,9 @@ postrender.quotes = function(passage, content, task) {
 	}
 	processTextNodes(passage);
 }
+
+postrender.scrollbar = function() {
+	setTimeout(function () {
+        customScroll.refresh();
+    }, 100);
+}

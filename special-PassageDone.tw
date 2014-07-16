@@ -27,9 +27,9 @@
         if (progress > options.passageprogress) { options.passageprogress = progress; }
         if (progress !== totalPassages) { progress = progress - 0.5; }
     }
-    else if (currentTag < 1) {
+    //else if (currentTag < 1) {
         //var progress = 0;
-    }
+    //}
     console.log("Current passage: " + progress + " of " + totalPassages);
     var progressPercent = (progress / totalPassages)* 100;
     $("#pb-complete").css("right", 100 - progressPercent + "%");
@@ -45,20 +45,21 @@
     if (currentTag > 0) { //the user has read enough to need to see the chapter button
         if (currentTag > options.chapterprogress) {
                 setOption("chapterprogress", currentTag);
-                $("#story-rewind, a#rewind-icon").addClass("hilight");
+                $("#menu-button").addClass("hilight");
                 setTimeout(function() {
-                    $("#story-rewind, a#rewind-icon").removeClass("hilight");
+                    $("#menu-button").removeClass("hilight");
                 }, 1100);
             }
         console.log("current tag: " + currentTag);
-        $("#story-rewind").empty().append(function(){
-            var html = "<div id='nav-container'><a id='rewind-icon'></a><ul id='nav-sf-menu' class='sf-menu sf-vertical'><li class='sep'><span class='disable'>Jump to Passage</span></li>";
+
+        $("#nav-container").html(function(){
+            var html = "<ul class='chapter-list'>";
             for (var i = 1; i < (options.chapterprogress + 1); i++) {
-                html += "<li><a class='chapter-list' data='" + bookmarks[tags[i]] + "'>" + sections[tags[i]].section + "</a><ul>";
+                html += "<li><a class='chapter-list" + (i === currentTag ? " active" : "") + "' data='" + bookmarks[tags[i]] + "'>" + sections[tags[i]].section + "</a><ul class='passage-list'>";
                     $.each(fullindex[i-1].passages, function(j, pass) {
                         console.log("Adding " + pass.passage + " to menu: " + index[pass.passage].enumeration + "/" + progress);
                         if (pass.passage === state.active.title) {
-                            html += "<li><a class='passage-list passage-list-inactive' data='" + pass.passage + "'>" + pass.passage + "</a></li>";
+                            html += "<li class='inactive'><a class='passage-list passage-list-inactive' data='" + pass.passage + "'>" + pass.passage + "</a></li>";
                         }
                         else {
                             html += "<li><a class='passage-list' data='" + pass.passage + "'>" + pass.passage + "</a></li>";
@@ -70,42 +71,22 @@
             html+="</ul></div>";
             return html;
         });
-        if ($("#backgrounds").css("display") === "none") {//proxy for screen width media query
-            jQuery('ul.sf-menu').superfish({
-                animation: {height:'show'}, // slide-down effect without fade-in
-                animationOut: {height:'hide'},
-                delay:     1200,
-                speed:     'fast',
-                speedOut:  'fast',
-                cssArrows: false,
-                addArrows: false
-            });
-        }
-        else {
-            jQuery('ul.sf-menu').superfish({
-                cssArrows: false,
-                addArrows: false,
-            });
-        }
-        
-        $("#rewind-icon, #nav-sf-menu").off(".navcontrol").on("mouseenter.navcontrol", function () {
-                $("#nav-sf-menu").show();
-            })
-            .on("mouseleave.navcontrol", function() {
-                $("#nav-sf-menu").hide();
-            });
-        $(".passage-list").click(function(){
+        $("#nav-container a.chapter-list").on("click", function(){
+            var $this = $(this);
+            $("#nav-container ul.passage-list").not($this.siblings()).slideUp();
+            $this.next("ul").slideToggle();
+        });
+        $("a.passage-list").click(function(){
             var $this = $(this);
             console.log($this);
             console.log("You clicked on " + $this.attr("data") + ". You are on " + state.active.title + ".");
             if ($this.attr("data") !== state.active.title) {
                 state.display($this.attr("data"));
+                snapper.close();
             }
             return false;
         });
-        $("#story-rewind").show();
     }
-
     if (index.hasOwnProperty(passage)) { //skip this for passages that aren't in the index
         //update image if necessary
         var currentImage = getBackgroundImage(".img-anchor");
@@ -152,9 +133,14 @@
     else if (tale.get(state.active.title).tags.indexOf("nosave") !== -1) {
         $("#custom").slideUp("fast");
     }
+
+    setTimeout(function () {
+        customScroll.refresh();
+        customScroll.scrollTo(0, 0);
+    }, 1); 
 <</script>>
 <<if state.active.title eq "Index">>
-    <<displayIndex>>
+    <<displayIndex>> /%
     <<script>>
         var query = window.location.search.substring(1);
         var locus = "nav=Index";
@@ -166,15 +152,12 @@
                 query += "&" + locus;
             }
         }
+        else {
+            query = locus;
+        }
         window.history.replaceState(window.history.state, document.title, window.location.protocol + "//" + window.location.host + window.location.pathname + "?" + query);
-    <</script>>
+    <</script>> %/
 <</if>>
-<<script>>
-    console.log("Tried to display admin info. admin=" + state.active.variables.admin);
-<</script>>
 <<if $admin eq "true">>
     <<displayAdmin>>
 <</if>>\
-<<script>>
-    console.log("Passage done!");
-<</script>>

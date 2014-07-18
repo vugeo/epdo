@@ -97,9 +97,25 @@ body {
   }
 }
 @media print {
+  body {
+    width:100%;
+    overflow: visible;
+    position: relative;
+    height: auto;
+  }
   #body-wrap {
     width:100%;
-    height: 100%;
+    overflow: visible;
+    position: relative;
+    height: auto;
+  }
+  #content-wrap {
+    overflow:visible;
+    position: relative;
+    height: auto;
+  }
+  #drawers-wrap {
+    display:none;
   }
 }
 
@@ -308,7 +324,6 @@ h6 {
     font-size: 80%;
     border-collapse: collapse;
     line-height:145%;
-    clear:both;
 }
 #passages th, #passages td {
     padding: 0.5em 1em;

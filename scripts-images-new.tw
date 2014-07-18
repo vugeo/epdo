@@ -77,7 +77,6 @@
                 if (d[e].indexOf("backgrounds/") > -1 && isHandheld()) continue;
                 var i = new Image();
                 i.src = d[e];
-                console.log("Preloaded " + i.src);
             }
         } while (d);
     }

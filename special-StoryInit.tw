@@ -40,6 +40,7 @@
     var main = document.getElementById('passages');
     var body_wrap = insertElement(document.body, "div", "body-wrap");
     var content_wrap = insertElement(body_wrap, "div", "content-wrap", "snap-content");
+    //var scroll_wrap = insertElement(content_wrap, "div", "scroll-wrap");
     content_wrap.appendChild(main);
     var drawers = insertElement(body_wrap, "div", "drawers-wrap", "snap-drawers");
     var right_drawer = insertElement(drawers, "div", "right-drawer", "snap-drawer snap-drawer-right");
@@ -120,17 +121,29 @@
         config.startPassage = opts["nav"];
     } 
 <</script>>
+<<loadJS "script/fastclick.js">>
+<<script>>
+    FastClick.attach(document.body);
+<</script>>
 
 <<loadJS "iscroll.js">>
 <<script>>
-    window.customScroll = new IScroll("#content-wrap", {
-        mouseWheel: true,
-        fadeScrollbars: true,
-        scrollbars: 'custom',
-        click:false,
-        preventDefaultException:{tagName:/.*/},
-        momentum: false
-    });
+    if (IScroll.utils.isBadAndroid) {
+        $("#passages").css({overflow: "auto", height: "100%"});
+    }
+    else {
+        window.customScroll = new IScroll("#content-wrap", {
+            mouseWheel: true,
+            fadeScrollbars: true,
+            scrollbars: 'custom',
+            interactiveScrollbars: true,
+            bounce: false,
+            click:false,
+            preventDefaultException:{tagName:/.*/},
+            momentum: false,
+            keyBindings: true
+        });
+    }
 <</script>>
 
 <<loadJS "snap/snap.min.js">>\

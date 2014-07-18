@@ -1974,7 +1974,7 @@ Indicator.prototype = {
 	},
 
 	fade: function (val, hold) {
-		if ( hold && !this.visible ) {
+		if ( hold && !this.visible || /****custom code****/utils.isBadAndroid/****custom code****/ ) {
 			return;
 		}
 

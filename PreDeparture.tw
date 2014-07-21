@@ -1,6 +1,7 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Add sidebars to drawer navigation.
+* Evaluate whether the code that builds the drawer navigation menu needs to account for "nogather" passages.
+* Consider whether sidebars in drawer navigation need a bullet or other symbol.
 * Fix print view so that it allows for multiple pages again.
 * Remove visible sound references.
 * Add browser support information and especially pointer to menu.
@@ -24,7 +25,7 @@ Browser requirements:
 * Firefox 10+
 * Internet Explorer 10 (maybe 9)
 * Safari 5.1
-* Android 2.3
+* Android 4.3
 * Mobile Safari 6.1+
 
 

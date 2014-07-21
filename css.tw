@@ -651,9 +651,13 @@ a.centered {
   background-color: #434343;
   padding: 5px 0 5px 5px;
 }
-.snap-drawer a.passage-list {
+.snap-drawer a.passage-list, .snap-drawer a.sidebar-list {
   display: block;
   padding: 5px 0 5px 0;
+}
+.snap-drawer ul.passage-list li p.sidebar-list {
+  text-indent: 1em;
+  margin: 2px 0 5px 0;
 }
 
 :: Continue arrow & animation [stylesheet]

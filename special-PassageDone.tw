@@ -59,11 +59,17 @@
                     $.each(fullindex[i-1].passages, function(j, pass) {
                         console.log("Adding " + pass.passage + " to menu: " + index[pass.passage].enumeration + "/" + progress);
                         if (pass.passage === state.active.title) {
-                            html += "<li class='inactive'><a class='passage-list passage-list-inactive' data='" + pass.passage + "'>" + pass.passage + "</a></li>";
+                            html += "<li class='inactive'><a class='passage-list passage-list-inactive' data='" + pass.passage + "'>" + pass.passage + "</a>";
                         }
                         else {
-                            html += "<li><a class='passage-list' data='" + pass.passage + "'>" + pass.passage + "</a></li>";
+                            html += "<li><a class='passage-list' data='" + pass.passage + "'>" + pass.passage + "</a>";
                         }
+                        if (pass.hasOwnProperty("sidebars")) {
+                            pass.sidebars.forEach (function (side) {
+                                html += "<p class='sidebar-list'><a class='index-passage' data-passage='" + side + "'>" + side + "</a></p>";
+                            });
+                        }
+                        html += "</li>";
                         if (index[pass.passage].enumeration === options.passageprogress) {return false; }
                     });
                 html += "</ul></li>";

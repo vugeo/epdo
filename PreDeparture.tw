@@ -5,7 +5,6 @@
 * Remove visible sound references.
 * Add browser support information and especially pointer to menu.
 * Why are index items incorrectly ordered in the drawer on Android 4.3?
-* Install 
 * Increase size of checkbox in drawer on mobile.
 * minify iScroll.
 * Update URL replacement code on index page to take hash mode into account: https://mail.google.com/mail/u/4/#inbox/146a53697f731793
@@ -25,6 +24,8 @@ Browser requirements:
 * Firefox 10+
 * Internet Explorer 10 (maybe 9)
 * Safari 5.1
+* Android 2.3
+* Mobile Safari 6.1+
 
 
 NOTES

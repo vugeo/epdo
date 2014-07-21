@@ -126,7 +126,7 @@
     FastClick.attach(document.body);
 <</script>>
 
-<<loadJS "iscroll.js">>
+<<loadJS "script/iscroll.js">>
 <<script>>
     if (IScroll.utils.isBadAndroid) {
         $("#passages").css({overflow: "auto", height: "100%"});
@@ -146,7 +146,7 @@
     }
 <</script>>
 
-<<loadJS "snap/snap.min.js">>\
+<<loadJS "script/snap.min.js">>\
 <<display "Table of Contents">>
 <<script>>
 //Set up the Snap.js side drawer

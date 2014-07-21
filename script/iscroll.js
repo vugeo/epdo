@@ -1054,8 +1054,13 @@ IScroll.prototype = {
 		}, 400);
 
 		if ( 'deltaX' in e ) {
-			wheelDeltaX = -e.deltaX;
-			wheelDeltaY = -e.deltaY;
+			if (e.deltaMode === 1) { //**** custom code https://github.com/BryanTheCrow/iscroll/commit/3480247348392ea44ff6a0b9aec5c6a9043593df  ****//
+				wheelDeltaX = -e.deltaX * this.options.mouseWheelSpeed;
+				wheelDeltaY = -e.deltaY * this.options.mouseWheelSpeed;
+			} else { //**** custom code ****//
+ 				wheelDeltaX = -e.deltaX;
+				wheelDeltaY = -e.deltaY;
+			}
 		} else if ( 'wheelDeltaX' in e ) {
 			wheelDeltaX = e.wheelDeltaX / 120 * this.options.mouseWheelSpeed;
 			wheelDeltaY = e.wheelDeltaY / 120 * this.options.mouseWheelSpeed;

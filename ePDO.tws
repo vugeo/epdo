@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V!Your PDO guidebook\u000a!!!!What to expect from this Predeparture Orientation\u000aOver the next ****half-hour****, you will learn a lot about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas! The chart below shows how your time in this Predeparture Orientation (PDO) will be spent. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a|box|k\u000a|!Topic|!Description|!Time|\u000a|''Basic Policy Information''|Everything you need to know about being a Vanderbilt student abroad, conduct, and the law|X&nbsp;minutes|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|X minutes|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|X minutes|\u000a|''Living and Learning Abroad''|Answers to questions about on-the-ground logistics|X minutes|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|X minutes|\u000a|''Safety and Security''|Information on staying safe abroad and protecting yourself|X minutes|\u000a|''Returning Home''|An introduction to how your study abroad experience will impact you when you return to Vanderbilt|X minutes|\u000a|''Finishing Up''|Your next steps, a brief recap, and verifying with GEO that you completed this required module|X minutes|\u000a\u000a<<segue "Student status and billing">>\u005c
+V!Your PDO guidebook\u000a!!!!What to expect from this Predeparture Orientation\u000aOver the next fifty minutes or so, you will learn much about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas!\u005c\u000a\u000aThe chart below shows how your time in this Predeparture Orientation (PDO) will be spent. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a|box|k\u000a|!Topic|!Description|!Time|\u000a|''Basic Policy Information''|Everything you need to know about being a Vanderbilt student abroad, conduct, and the law|X&nbsp;minutes|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|X minutes|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|X minutes|\u000a|''Living and Learning Abroad''|Answers to questions about on-the-ground logistics|X minutes|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|X minutes|\u000a|''Safety and Security''|Information on staying safe abroad and protecting yourself|X minutes|\u000a|''Returning Home''|An introduction to how your study abroad experience will impact you when you return to Vanderbilt|X minutes|\u000a|''Finishing Up''|Your next steps, a brief recap, and verifying with GEO that you completed this required module|X minutes|\u000a\u000a<<segue "Student status and billing">>\u005c
 p20
 sS'title'
 p21
@@ -48,9 +48,9 @@ p24
 ((I2014
 I7
 I22
-I11
-I54
-I51
+I14
+I22
+I58
 I1
 I203
 I1
@@ -92,7 +92,7 @@ Tiddler
 p39
 (dp40
 g19
-V!What you'll get out of study abroad\u000a!!!!Academics, Cultural Competencies, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to take classes that are not available at Vanderbilt and expand the breadth of perspectives available to you.</p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience! It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vanderbubble will help shape you as a person and hone your life skills. You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.</p>\u005c\u000a<figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure>\u000a<<segue "What we will cover in this presentation">>\u005c
+V!What you'll get out of study abroad\u000a!!!!Academics, Cultural Competence, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to take classes that are not available at Vanderbilt and expand the breadth of perspectives you draw on.</p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience. It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vanderbubble will help shape you as a person and hone your life skills. You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.</p>\u005c\u000a<figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure>\u000a<<segue "What we will cover in this presentation">>\u005c
 p41
 sg21
 VWhat you will get out of study abroad
@@ -102,9 +102,9 @@ g24
 ((I2014
 I7
 I22
-I11
-I53
-I38
+I15
+I44
+I39
 I1
 I203
 I1
@@ -146,7 +146,7 @@ Tiddler
 p56
 (dp57
 g19
-V!Vanderbilt conduct policies\u000a!!!!Vanderbilt policies apply abroad as well as on campus\u000a<<if ($vanderbilt eq "true") or ($facultyled eq "true")>>Your ''trip leader or resident director has sole discretion over all discipline decisions''. They will hold you accountable for the standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]], and they may also dictate other rules as needed. Your Vanderbilt trip leader may impose any disciplinary sanction, up to and including dismissal from the program. You also may face further consequences when you return to Vanderbilt.\u000a<<else>>You are subject to your abroad institution's rules, but you //also// need to abide by Vanderbilt's conduct policies. The standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]] apply while you are abroad. Conduct that violates these codes may result in sanctions when you return to Vanderbilt, //even if you already received sanctions from your program abroad.//<</if>>\u000a\u000aBe sure to read the section in the Student Handbook on [[conduct in study abroad programs|http://www.vanderbilt.edu/student_handbook/student-accountability/#conduct-in-study-abroad-programs]].\u000a\u000a<<sidebar-box>>\u000a	[[Is Vanderbilt's alcohol policy different abroad?|Alcohol Policy]]\u000a	[[What should I know about rules surrounding sexual misconduct abroad?|Sexual Misconduct]]\u000a<</sidebar-box>>\u000a<<segue "Grades and credits">>\u005c
+V!Vanderbilt conduct policies\u000a!!!!Vanderbilt policies apply abroad as well as on campus\u000a<<if ($vanderbilt eq "true") or ($facultyled eq "true")>>Your ''trip leader or resident director has sole discretion over all discipline decisions''. They will hold you accountable for the standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]], and they may also dictate other rules as needed. Your Vanderbilt trip leader may impose any disciplinary sanction, up to and including dismissal from the program. You also may face further consequences when you return to Vanderbilt.\u000a<<else>>You are subject to your abroad institution's rules, but you //also// need to abide by Vanderbilt's conduct policies. The standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]] remain in effect while you are abroad. Conduct that violates these codes may result in sanctions when you return to Vanderbilt, //even if you already received sanctions from your program abroad.//<</if>>\u000a\u000a''Be sure to read the section in the Student Handbook on [[conduct in study abroad programs|http://www.vanderbilt.edu/student_handbook/student-accountability/#conduct-in-study-abroad-programs]].''\u000a\u000a<<sidebar-box>>\u000a	[[Is Vanderbilt's alcohol policy different abroad?|Alcohol Policy]]\u000a	[[What should I know about rules surrounding sexual misconduct abroad?|Sexual Misconduct]]\u000a<</sidebar-box>>\u000a<<segue "Grades and credits">>\u005c
 p58
 sg21
 VVanderbilt conduct policies
@@ -154,13 +154,13 @@ p59
 sg23
 g24
 ((I2014
-I6
-I30
-I16
-I36
-I28
-I0
-I181
+I7
+I22
+I15
+I35
+I11
+I1
+I203
 I1
 tp60
 (dp61
@@ -198,7 +198,7 @@ Tiddler
 p72
 (dp73
 g19
-V<<sidebar "Vanderbilt policy on alcohol abroad">>\u000aVanderbilt does not really treat alcohol use abroad any differently than it does on campus. However, in all of the countries where Vanderbilt has approved study abroad programs, the drinking age is lower than it is here in Nashville. You need to abide by the legal drinking age of the country you're in. Remember that violations of law overseas may also become grounds for disciplinary action both at Vanderbilt and under the rules of your abroad program.\u000a\u000aAt the same time that you are considering the legal implications of drinking, be mindful of cultural norms surrounding alcohol use in your host country. In many countries, for example, American-style "binge drinking" may appear pathological or merely pathetic. Take the opportunity to see cultural practices in a new light. \u000a\u000a|box|k\u000a|!The Student Handbook says:|\u000a|Students are required to abide by the laws of the respective countries in which they reside, study, or travel, with respect to the age at which alcoholic beverages may be consumed. Otherwise, the policies with respect to [[alcoholic beverages and controlled substances|http://www.vanderbilt.edu/student_handbook/alcohol/]] included in the Vanderbilt //Student Handbook// apply. Students are subject to student-accountability sanctions, including expulsion, and referral for prosecution for violation of these policies.|\u000a|<hr>//From// [[VU Student Handbook, Study Abroad|http://www.vanderbilt.edu/student_handbook/university-policies-regulations/#study-abroad]]|\u000a\u000a<<segue "Grades and credits">>\u005c
+V<<sidebar "Vanderbilt policy on alcohol abroad">>\u000aVanderbilt does not really treat alcohol use abroad any differently than it does on campus. You still need to abide by the legal drinking age of the country you're in. In all of the countries where Vanderbilt has approved study abroad programs, the drinking age is lower than it is here in Nashville, so you may find that your legal status is different. Remember that violations of law or of institutional policy overseas may also become grounds for disciplinary action both at Vanderbilt and under the rules of your abroad program.\u000a\u000aAt the same time that you are considering the legal implications of drinking, be mindful of cultural norms surrounding alcohol use in your host country. In many countries, for example, American-style "binge drinking" may appear pathological or merely pathetic. Take the opportunity to see cultural practices in a new light. \u000a\u000a|box|k\u000a|!The Student Handbook says:|\u000a|Students are required to abide by the laws of the respective countries in which they reside, study, or travel, with respect to the age at which alcoholic beverages may be consumed. Otherwise, the policies with respect to [[alcoholic beverages and controlled substances|http://www.vanderbilt.edu/student_handbook/alcohol/]] included in the Vanderbilt //Student Handbook// apply. Students are subject to student-accountability sanctions, including expulsion, and referral for prosecution for violation of these policies.|\u000a|<hr>//From// [[VU Student Handbook, Study Abroad|http://www.vanderbilt.edu/student_handbook/university-policies-regulations/#study-abroad]]|\u000a\u000a<<segue "Grades and credits">>\u005c
 p74
 sg21
 VAlcohol Policy
@@ -206,13 +206,13 @@ p75
 sg23
 g24
 ((I2014
-I6
-I30
-I16
-I37
-I19
-I0
-I181
+I7
+I22
+I15
+I44
+I42
+I1
+I203
 I1
 tp76
 (dp77
@@ -241,7 +241,7 @@ tp85
 Rp86
 sbsa(dp87
 g12
-I01
+I00
 sg13
 (lp88
 F10.33333333333333
@@ -252,7 +252,7 @@ Tiddler
 p89
 (dp90
 g19
-V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you ''remain registered as a Vanderbilt student'' and you retain access to on-campus resources. You can register for classes, log in to YES and other campus applications, and make use of services (including [[counseling|https://medschool.vanderbilt.edu/pcc/]]).\u000a<<if $facultyled neq "true">> \u000aTo make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your transcript arrives from abroad and both GEO and the University Registrar have processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.<</if>>\u000a\u000a''Billing'' works just as it does for on-campus students. Vanderbilt Student Accounts will bill you, and your bill will arrive at the same time as usual, with the same payment terms. You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. Be aware that there are costs that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your program provider or GEO advisor for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Regular Vanderbilt tuition|\u000a|Study-abroad program fee (different for each program)|\u000a|(Reduced) activity fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial Aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
+V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you ''remain registered as a Vanderbilt student'' and you retain access to on-campus resources. You can register for classes, log in to YES and other campus applications, and make use of services.\u000a<<if $facultyled neq "true">> \u000aTo make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your transcript arrives from abroad and both GEO and the University Registrar have processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.<</if>>\u000a\u000a''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will arrive at the same time as usual, with the same payment terms. You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. Be aware that there are costs that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your program provider or GEO advisor for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Regular Vanderbilt tuition|\u000a|Study-abroad program fee (different for each program)|\u000a|(Reduced) activity fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial Aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
 p91
 sg21
 VStudent status and billing
@@ -262,9 +262,9 @@ g24
 ((I2014
 I7
 I22
-I11
-I55
 I14
+I42
+I20
 I1
 I203
 I1
@@ -306,7 +306,7 @@ Tiddler
 p106
 (dp107
 g19
-V!Conduct and law\u000a!!!!Be a good ambassador\u000aWhile you are abroad, be an ambassador for both Vanderbilt and your home country. You are part of a worldwide web of interactions, and the impression you make on the people of your host country reflects on where you came from!\u000a\u000aTake some time to learn about norms in the country you're visiting so that you can attempt to blend in socially. Beyond that, treat those you meet courteously and with sensitivity toward cultural differences. Remember, you are in their world!\u000a\u000aMoreover, you are ''subject to local laws'' while you are abroad. Foreign laws and legal systems may be quite different from those in your home country, and you need to know the differences. If you break local laws while abroad, neither Vanderbilt nor the U.S. Embassy can get you out of jail.\u000a<<if ($vanderbilt neq "true") or ($facultyled neq "true")>>\u000aWhether you are studying abroad at a university or on a smaller program with one of GEO's partners, you must also ''follow that institution's rules and policies''. These institutions may sanction or dismiss you if you violate their rules. //Dismissal from an abroad program will have the same consequences for your GPA and four-year plan as a dismissal from Vanderbilt!//<</if>>\u000a\u000a<<segue "Vanderbilt conduct policies">>\u005c
+V!Conduct and law\u000a!!!!Be a good ambassador\u000aWhile you are abroad, be an ambassador for both Vanderbilt and your home country. You are part of a worldwide web of interactions, and the impression you make on the people of your host country reflects on where you came from.\u000a\u000aTake some time to learn about norms in the country you're visiting so that you can attempt to blend in socially. Beyond that, treat those you meet courteously and with sensitivity toward cultural differences. Remember, you are in their world!\u000a\u000aMoreover, you are ''subject to local laws'' while you are abroad. Foreign laws and legal systems may be quite different from those in your home country, and you need to know the differences. If you break local laws while abroad, neither Vanderbilt nor the U.S. Embassy can get you out of jail.\u000a<<if ($vanderbilt neq "true") or ($facultyled neq "true")>>\u000aWhether you are studying abroad at a university or on a smaller program with one of GEO's partners, you must also ''follow that institution's rules and policies''. These institutions may sanction or dismiss you if you violate their rules. //Dismissal from an abroad program will have the same consequences for your GPA and four-year plan as a dismissal from Vanderbilt!//<</if>>\u000a\u000a<<segue "Vanderbilt conduct policies">>\u005c
 p108
 sg21
 VConduct and law
@@ -314,13 +314,13 @@ p109
 sg23
 g24
 ((I2014
-I5
-I13
-I11
-I13
-I18
+I7
+I22
+I15
+I33
+I48
 I1
-I133
+I203
 I1
 tp110
 (dp111
@@ -358,7 +358,7 @@ Tiddler
 p122
 (dp123
 g19
-V<<sidebar "Financial Aid">>\u000aAll ''semester-long programs available through GEO are eligible for federal and Vanderbilt financial aid''. All types of financial aid, other than work study, are applicable to semester-long study abroad. If you aren't sure about your financial aid package, check with your financial aid officer.\u000a\u000a''Summer and Maymester abroad programs are normally not eligible for Vanderbilt financial aid''. However, there may be some circumstances in which financial aid can apply to summer study. You should speak with your financial aid officer if you think an exception might apply in your case. \u000a\u000aThe Office of Financial Aid disburses funding from the scholarships covered by the ''GEO Common Scholarship Application''. Scholarship funds will be credited to your student account //on or about the day that your account is billed for your abroad program//. Please feel free to contact the Global Education Office's [[scholarship coordinator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]] with questions about this process.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
+V<<sidebar "Financial Aid">>\u000aAll ''semester-long programs available through GEO are eligible for US federal and Vanderbilt financial aid''. All types of financial aid other than work study are applicable to semester-long study abroad. If you aren't sure about your financial aid package, check with your financial aid officer.\u000a\u000a''Summer and Maymester abroad programs are normally not eligible for Vanderbilt financial aid''. However, there may be some circumstances in which financial aid can apply to summer study. You should speak with your financial aid officer if you think an exception might apply in your case. \u000a\u000aThe [[Office of Financial Aid|http://www.vanderbilt.edu/financialaid/]] disburses funding from the scholarships covered by the ''GEO Common Scholarship Application''. Scholarship funds will be credited to your student account //on or about the day that your account is billed for your abroad program//. Please feel free to contact the Global Education Office's [[scholarship coordinator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]] with questions about this process.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
 p124
 sg21
 VFinancial Aid
@@ -366,13 +366,13 @@ p125
 sg23
 g24
 ((I2014
-I5
-I19
-I10
-I11
-I3
-I0
-I139
+I7
+I22
+I15
+I27
+I42
+I1
+I203
 I1
 tp126
 (dp127
@@ -412,7 +412,7 @@ Tiddler
 p139
 (dp140
 g19
-V!Course equivalency evaluations\u000a!!!!Making sure your courses count for Vanderbilt credit\u000aEvery course you take abroad needs to be evaluated by Vanderbilt faculty to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about course equivalency evaluations is that ''you are responsible''! GEO facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[list of evaluated courses|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=AF72ED87-FAA3-E8FD-08D54FEDDC87FB10&pID=4&lID=31]] for your program. Are all of your courses already on the list? Great, you're done! Skip to Step 5.|\u000a|<li>2</li>|If not: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=AF6994DC-E918-C4B1-439DAF6CA2C9B451&pID=4&lID=30]] for each course|\u000a|<li>4</li>|GEO will do the rest! We contact faculty and find out how the course will count, and then we email you the result.|\u000a|<li>5</li>|Relax. Enjoy life.|\u000a\u000aNeed more information? Check out our very detailed [[guide|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=D9D0A705-07C6-4CA3-2AE838FCDC41A39E&pID=4&lID=29]], or talk with your [[GEO advisor|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a\u000a<<segue "Things you need to know about traveling">>\u005c
+V!Course equivalency evaluations\u000a!!!!Making sure your courses count for Vanderbilt credit\u000aEvery course you take abroad needs to be evaluated by Vanderbilt faculty to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about course equivalency evaluations is that ''you are responsible'' for making sure it gets done! GEO facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[list of evaluated courses|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=AF72ED87-FAA3-E8FD-08D54FEDDC87FB10&pID=4&lID=31]] for your program. Are all of your courses already on the list? Great, you're done! Skip to Step 5.|\u000a|<li>2</li>|If not: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=AF6994DC-E918-C4B1-439DAF6CA2C9B451&pID=4&lID=30]] for each course|\u000a|<li>4</li>|GEO will do the rest! We contact faculty and find out how the course will count, and then we email you the result.|\u000a|<li>5</li>|Relax. Enjoy life.|\u000a\u000aNeed more information? Check out our very detailed [[guide|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=D9D0A705-07C6-4CA3-2AE838FCDC41A39E&pID=4&lID=29]], or talk with your [[GEO advisor|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a\u000a<<segue "Things you need to know about traveling">>\u005c
 p141
 sg21
 VCourse equivalency evaluations
@@ -420,13 +420,13 @@ p142
 sg23
 g24
 ((I2014
+I7
+I22
+I16
 I5
-I19
-I13
-I54
-I15
-I0
-I139
+I25
+I1
+I203
 I1
 tp143
 (dp144
@@ -464,7 +464,7 @@ Tiddler
 p155
 (dp156
 g19
-V!Grades and Credits\u000a!!!!You're earning Vanderbilt credit abroad\u000aCourses you take on programs offered through GEO earn you ''direct Vanderbilt credit''. This means that your grades will appear on your Vanderbilt transcript and will factor into your GPA, almost exactly as if you had taken them at VU.\u000a\u000aJust as at Vanderbilt, you must take the equivalent of 12-18 hours of credit. Courses taken on GEO programs can count toward majors and minors, or as hours toward graduation. However, they //do not// count toward AXLE requirements.\u000a\u000aStudy abroad courses come with some special rules:\u000a#You cannot take courses pass/fail. \u000a#You cannot retake classes abroad that you have already taken on campus (and vice versa). If you do take a course abroad that is equivalent to a course you've already taken on campus, you may well get //no credit// for it!\u000a#You cannot opt out of a course you took abroad. Withdraw from courses you don't want to take during the drop/add period!\u000a#Vanderbilt cannot change the grade you earned abroad. If a grade is incorrect, work with your program provider abroad to get it changed and to issue a new transcript.\u000a#You must monitor prerequisites and other requirements for courses you take abroad. Consult with your VU academic advisor, but understand that ultimately you are responsible for taking appropriate courses abroad!\u000a\u000a<<sidebar-box "Academics Abroad">>\u000a   [[How might academic systems abroad differ from Vanderbilt?|Academic systems abroad]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Course equivalency evaluations">>\u005c
+V!Grades and Credits\u000a!!!!You're earning Vanderbilt credit abroad\u000aCourses you take on programs offered through GEO earn ''direct Vanderbilt credit''. This means that your grades will appear on your Vanderbilt transcript and will factor into your GPA, almost exactly as if you had taken them at VU.\u000a\u000aJust as at Vanderbilt, you must take the equivalent of 12-18 hours of credit. Courses taken on GEO programs can count toward majors and minors, or as hours toward graduation. However, they //do not// count toward AXLE requirements.\u000a\u000aStudy abroad courses come with some special rules:\u000a#You may not take courses pass/fail. \u000a#You cannot retake classes abroad that you have already taken on campus (and vice versa). If you do take a course abroad that is equivalent to a course you've already taken on campus, you may get //no credit// for it!\u000a#You cannot opt out of credit for a course you took abroad. Withdraw from courses you don't want to take during the drop/add period!\u000a#Vanderbilt cannot change any grades you earned abroad. If a grade is incorrect, you will need to work with your program provider abroad to get it changed and to issue a new transcript.\u000a#You must monitor prerequisites and other requirements for courses you take abroad. Consult with your VU academic advisor, but understand that ultimately you are responsible for taking appropriate courses abroad!\u000a\u000a<<sidebar-box "Academics Abroad">>\u000a   [[How might academic systems abroad differ from Vanderbilt?|Academic systems abroad]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Course equivalency evaluations">>\u005c
 p157
 sg21
 VGrades and credits
@@ -472,13 +472,13 @@ p158
 sg23
 g24
 ((I2014
-I5
-I19
-I13
-I45
-I40
-I0
-I139
+I7
+I22
+I15
+I53
+I57
+I1
+I203
 I1
 tp159
 (dp160
@@ -2069,7 +2069,7 @@ Tiddler
 p655
 (dp656
 g19
-Vcss.tw\u000acss-handheld.tw\u000ascripts-general.tw\u000ascripts-images-new.tw\u000ascripts-index.tw\u000ascripts-sounds.tw\u000ascripts-utility.tw\u000aspecials.tw\u000aspecial-PassageDone.tw\u000aspecial-PassageReady.tw\u000aspecial-StoryInit.tw\u000aStoryInfo.tw
+Vcss.tw\u000acss-handheld.tw\u000ascripts-general.tw\u000ascripts-images-new.tw\u000ascripts-index.tw\u000ascripts-sounds.tw\u000ascripts-utility.tw\u000aspecials.tw\u000aspecial-PassageDone.tw\u000aspecial-PassageReady.tw\u000aspecial-StoryInit.tw\u000aPostrender.tw\u000aStoryInfo.tw
 p657
 sg21
 VStoryIncludes
@@ -2078,12 +2078,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I10
-I24
-I45
-I0
-I202
+I22
+I15
+I43
+I22
+I1
+I203
 I1
 tp659
 (dp660
@@ -2325,7 +2325,7 @@ Tiddler
 p733
 (dp734
 g19
-V!Preparation and responsibilities\u000a!!!!Get ready to go abroad, and to take advantage of opportunities when you return\u000aThere are many things that you need to do to prepare to go abroad. GEO can't help you manage all of them, of course, but we have prepared a checklist of things to do not only before you leave, but also while you're abroad and after you return to the US. (Later in this presentation, we'll also discuss tips for packing, traveling with prescription drugs, and other topics.)\u000a\u000aIn addition to responsibilities, the checklist also highlights opportunities you can prepare for or take advantage of.\u000a\u000a<<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]\u000a<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]\u000a<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]\u000a<</if>>\u000a<<segue "Conduct and law">>\u005c
+V!Preparation and responsibilities\u000a!!!!Getting ready and seizing opportunities\u000aThere are many things that you need to do to prepare to go abroad. What should you do about your on-campus housing? Your meal plan? Your Commodore Card? What if you would like additional funding? \u000a\u000aGEO can't help you manage everything, of course, but we have put together a checklist of things to do not only before you leave, but also while you're abroad and after you return to the US. (Later in this presentation, we'll also discuss tips for packing, getting a passport/visa, traveling with prescription drugs, and other topics.)\u000a\u000aIn addition to responsibilities, the checklist also highlights opportunities you can prepare for or take advantage of while you are abroad. Download it here:\u005c\u000a\u000a<<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]\u000a<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]\u000a<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]\u000a<</if>>\u000a<<segue "Conduct and law">>\u005c
 p735
 sg21
 VPreparation and responsibilities
@@ -2333,13 +2333,13 @@ p736
 sg23
 g24
 ((I2014
-I5
-I19
-I10
-I9
-I10
-I0
-I139
+I7
+I22
+I15
+I31
+I56
+I1
+I203
 I1
 tp737
 (dp738
@@ -2691,7 +2691,7 @@ Tiddler
 p846
 (dp847
 g19
-V<<sidebar "Academic systems abroad">>\u000aHigher education and academic systems abroad can vary greatly from what you are used to in the United States. Here are some things that might be different depending on the country.\u000a\u000a|box|k\u000a|!Differences in academic systems abroad|\u000a|There are fewer hours spent in the classroom, and students are expected to spend more time studying on their own. This doesn't mean that there will be assigned homework! A lot of responsibility for deciding how best to spend your homework hours may be left up to you.|\u000a|Depending on the course and level you are taking, and whether you are taking it in a foreign language, you may need to spend extra time learning and mastering the material.|\u000a|There are fewer tests and quizzes, and students may earn a grade based on just one final exam, or a mid-term and a final. This means you'll have less chance to gauge how a professor grades in the weeks or months before an exam.|\u000a|Professors are less accessible for office hours, and by email.|\u000a|Classes may be more lecture-style than discussion-based. This may leave fewer opportunities to ask questions or express your opinions.|\u000a|There may not be much sense of privacy attached to grades. For example, the instructor might post all exam grades publicly. In some places, individual grades may be discussed openly in class.|\u000a|The prevailing academic culture may well be very different. For example, students may not be as concerned--or concerned at all--about getting high grade point averages.|\u000a|In some places, such as Latin America, students pursue something like a strict professional degree, without a liberal arts component. They may have a much more focused academic experience.|\u000a|Students likely do not live on campus, which may mean that you need to meet people through academics at first, or join a club.|\u000a|<hr>//Every country is different! If you want to know more about systems in your host country, talk to your GEO advisor!//|\u000a\u000a<<segue "Course equivalency evaluations">>
+V<<sidebar "Academic systems abroad">>\u000aHigher education and academic systems abroad can vary greatly from what you are used to in the United States. Here are some things that might be different depending on the country. Talk to your GEO advisor to find out more about what you might encounter on your program.\u000a\u000a|box|k\u000a|!Differences in academic systems abroad|\u000a|There are fewer hours spent in the classroom, and students are expected to spend more time studying on their own. This doesn't mean that there will be assigned homework! A lot of responsibility for deciding how best to spend your homework hours may be left up to you.|\u000a|Depending on the course and level you are taking, and whether you are taking it in a foreign language, you may need to spend extra time learning and mastering the material.|\u000a|There are fewer tests and quizzes, and students may earn a grade based on just one final exam, or a mid-term and a final. This means you'll have little opportunity to gauge how a professor grades in the weeks or months before an exam.|\u000a|Professors are less accessible for office hours as well as by email.|\u000a|Classes may be more lecture-style than discussion-based. This may leave fewer opportunities to ask questions or express your opinions.|\u000a|There may not be much sense of privacy attached to grades. For example, the instructor might post all exam grades publicly. In some places, individual grades may be discussed openly in class.|\u000a|The prevailing academic culture may be very different. For example, students may not be as concerned--or concerned at all--about getting high grade point averages.|\u000a|In some places, such as Latin America, students pursue something like a strict professional degree, without a liberal arts component. They may have a much more focused academic experience.|\u000a|Students likely do not live on campus, which may mean that you need to meet people through academics at first, or by joining a club or other activity.|\u000a|<hr>//Every country is different! If you want to know more about systems in your host country, talk to your GEO advisor.//|\u000a\u000a<<segue "Course equivalency evaluations">>
 p848
 sg21
 VAcademic systems abroad
@@ -2699,13 +2699,13 @@ p849
 sg23
 g24
 ((I2014
-I5
-I19
-I13
-I51
-I49
-I0
-I139
+I7
+I22
+I15
+I58
+I3
+I1
+I203
 I1
 tp850
 (dp851

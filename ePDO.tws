@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V!Your PDO guidebook\u000a!!!!What to expect from this Predeparture Orientation\u000aOver the next ****half-hour****, you will learn a lot about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas! The chart below shows how your time in this Predeparture Orientation (PDO) will be spent. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a|box|k\u000a|!Topic|!Description|!Time|\u000a|''Basic Policy Information''|Everything you need to know about being a Vanderbilt student abroad, conduct, and the law!|X&nbsp;minutes|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|X minutes|\u000a|''Travel''|What you need to know before you get on the plane and preparing for your journey in a practical sense|X minutes|\u000a|''Living and Learning Abroad''|Answers to questions about on-the-ground logistics|X minutes|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|X minutes|\u000a|''Safety and Security''|Information on staying safe abroad and protecting yourself|X minutes|\u000a|''Returning Home''|An introduction to how your study abroad experience will impact you when you return to Vanderbilt|X minutes|\u000a|''Finishing Up''|Your next steps, a brief recap, and verifying with GEO that you completed this required module|X minutes|\u000a\u000a<<segue "Student status and billing">>\u005c
+V!Your PDO guidebook\u000a!!!!What to expect from this Predeparture Orientation\u000aOver the next ****half-hour****, you will learn a lot about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas! The chart below shows how your time in this Predeparture Orientation (PDO) will be spent. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a|box|k\u000a|!Topic|!Description|!Time|\u000a|''Basic Policy Information''|Everything you need to know about being a Vanderbilt student abroad, conduct, and the law|X&nbsp;minutes|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|X minutes|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|X minutes|\u000a|''Living and Learning Abroad''|Answers to questions about on-the-ground logistics|X minutes|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|X minutes|\u000a|''Safety and Security''|Information on staying safe abroad and protecting yourself|X minutes|\u000a|''Returning Home''|An introduction to how your study abroad experience will impact you when you return to Vanderbilt|X minutes|\u000a|''Finishing Up''|Your next steps, a brief recap, and verifying with GEO that you completed this required module|X minutes|\u000a\u000a<<segue "Student status and billing">>\u005c
 p20
 sS'title'
 p21
@@ -46,13 +46,13 @@ ctime
 struct_time
 p24
 ((I2014
-I5
+I7
 I22
-I15
-I28
-I13
-I3
-I142
+I11
+I54
+I51
+I1
+I203
 I1
 tp25
 (dp26
@@ -84,15 +84,15 @@ g12
 I00
 sg13
 (lp38
-I7
-aI7
+F7.0
+aF7.0
 asg15
 (itiddlywiki
 Tiddler
 p39
 (dp40
 g19
-V!What you'll get out of study abroad\u000a!!!!Academics, Cultural Competencies, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to take classes that are not available at Vanderbilt, broadening your horizons and expanding the breadth of perspectives available to you.</p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience! It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vanderbubble will help shape you as a person and hone your life skills. You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.</p>\u005c\u000a<figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure>\u000a<<segue "What we will cover in this presentation">>\u005c
+V!What you'll get out of study abroad\u000a!!!!Academics, Cultural Competencies, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to take classes that are not available at Vanderbilt and expand the breadth of perspectives available to you.</p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience! It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vanderbubble will help shape you as a person and hone your life skills. You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.</p>\u005c\u000a<figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure>\u000a<<segue "What we will cover in this presentation">>\u005c
 p41
 sg21
 VWhat you will get out of study abroad
@@ -100,13 +100,13 @@ p42
 sg23
 g24
 ((I2014
-I6
-I12
-I15
-I56
-I43
-I3
-I163
+I7
+I22
+I11
+I53
+I38
+I1
+I203
 I1
 tp43
 (dp44
@@ -241,7 +241,7 @@ tp85
 Rp86
 sbsa(dp87
 g12
-I00
+I01
 sg13
 (lp88
 F10.33333333333333
@@ -252,7 +252,7 @@ Tiddler
 p89
 (dp90
 g19
-V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you ''remain registered as a Vanderbilt student'' and you retain access to on-campus resources. You can register for classes, log in to YES and other campus applications, and make use of services (including [[counseling|https://medschool.vanderbilt.edu/pcc/]]).\u000a<<if $facultyled neq "true">> \u000aTo make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earned, will eventually replace the placeholder. This will occur only after your transcript arrives from abroad and both GEO and the University Registrar have processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.<</if>>\u000a\u000a''Billing'' works just as it does for on-campus students. Vanderbilt Student Accounts will bill you, and your bill will arrive at the same time as usual, with the same payment terms. You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. Be aware that there are costs that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your program provider or GEO advisor for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Regular Vanderbilt tuition|\u000a|Study-abroad program fee (different for each program)|\u000a|(Reduced) activity fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial Aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
+V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you ''remain registered as a Vanderbilt student'' and you retain access to on-campus resources. You can register for classes, log in to YES and other campus applications, and make use of services (including [[counseling|https://medschool.vanderbilt.edu/pcc/]]).\u000a<<if $facultyled neq "true">> \u000aTo make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your transcript arrives from abroad and both GEO and the University Registrar have processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.<</if>>\u000a\u000a''Billing'' works just as it does for on-campus students. Vanderbilt Student Accounts will bill you, and your bill will arrive at the same time as usual, with the same payment terms. You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. Be aware that there are costs that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your program provider or GEO advisor for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Regular Vanderbilt tuition|\u000a|Study-abroad program fee (different for each program)|\u000a|(Reduced) activity fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial Aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
 p91
 sg21
 VStudent status and billing
@@ -260,13 +260,13 @@ p92
 sg23
 g24
 ((I2014
-I6
-I12
-I15
-I58
-I32
-I3
-I163
+I7
+I22
+I11
+I55
+I14
+I1
+I203
 I1
 tp93
 (dp94
@@ -2078,12 +2078,12 @@ sg23
 g24
 ((I2014
 I7
+I21
 I10
-I15
-I2
-I35
-I3
-I191
+I24
+I45
+I0
+I202
 I1
 tp659
 (dp660

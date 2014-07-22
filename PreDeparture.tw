@@ -1,10 +1,9 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
 * Evaluate whether the code that builds the drawer navigation menu needs to account for "nogather" passages.
-* Consider whether sidebars in drawer navigation need a bullet or other symbol.
-* Fix print view so that it allows for multiple pages again.
 * Remove visible sound references.
-* Add browser support information and especially pointer to menu.
+* Add browser support information and especially pointer to menu. Also, logos.
+* Add logos to "continue where you left off?" page.
 * Why are index items incorrectly ordered in the drawer on Android 4.3?
 * Increase size of checkbox in drawer on mobile.
 * minify iScroll.

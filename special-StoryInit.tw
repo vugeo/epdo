@@ -45,10 +45,11 @@
     var drawers = insertElement(body_wrap, "div", "drawers-wrap", "snap-drawers");
     var right_drawer = insertElement(drawers, "div", "right-drawer", "snap-drawer snap-drawer-right");
     var drawer_header = insertElement(right_drawer, "div", "drawer-header", "drawer-section");
+    /**** Sound interface ****
     var sound_control = insertElement(right_drawer, "div", "sound-control", "drawer-section");
     var toggle = insertElement(sound_control, "input", "autoplay-switch");
     var sound_label = insertElement(sound_control, "label");
-    
+    ****/
     body_wrap.insertBefore(drawers, content_wrap);
     var header = insertElement(content_wrap, "header", "custom");
     var banner = insertElement(header, "h2", "section-name", "", "GEO Predeparture Information");
@@ -64,11 +65,13 @@
     $(image_container_1).addClass("img-anchor img-container");
     $(image_container_2).addClass("img-fader img-container");
     $(progress).html("<div id='progress-meter'><span id='pb-complete'></span><span id='pb-position'></span></div>");
-    $(right_drawer).append("<div id='nav-control' class='drawer-section'><h4>Navigation</h4><p class='menu-legend'>Use this menu to quickly navigate to any section you have already read.</p><div id='nav-container'></div></div>");
+    $(right_drawer).append("<div id='nav-control' class='drawer-section'><p class='menu-legend'>Use this menu to quickly navigate to any section you have already read.</p><div id='nav-container'></div></div>"); 
+    /**** Sound interface **** $(right_drawer).append("<div id='nav-control' class='drawer-section'><h4>Navigation</h4><p class='menu-legend'>Use this menu to quickly navigate to any section you have already read.</p><div id='nav-container'></div></div>"); ****/
 
-    $(drawer_header).html('<a id="menu-close-label" class="centered">Close <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="menu-close-button" class="drawer-close" x="0px" y="0px" width="23px" height="15.12px" viewBox="0 0 23 15.12" enable-background="new 0 0 23 15.12" xml:space="preserve"><g><path d="M16.297 14.385L4.743 2.897C4.17 2.3 4.2 1.4 4.7 0.83c0.57-0.572 1.495-0.574 2.068-0.005l11.554 11.5 c0.572 0.6 0.6 1.5 0 2.068C17.796 15 16.9 15 16.3 14.385z"/></g><g><path d="M4.771 12.35L16.258 0.796c0.568-0.572 1.494-0.575 2.068-0.006c0.572 0.6 0.6 1.5 0 2.068L6.845 14.4 c-0.571 0.572-1.497 0.574-2.068 0.008C4.203 13.8 4.2 12.9 4.8 12.35z"/></g></svg></a><h2>Settings and Navigation</h2>');
+    $(drawer_header).html('<a id="menu-close-label" class="centered">Close <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="menu-close-button" class="drawer-close" x="0px" y="0px" width="23px" height="15.12px" viewBox="0 0 23 15.12" enable-background="new 0 0 23 15.12" xml:space="preserve"><g><path d="M16.297 14.385L4.743 2.897C4.17 2.3 4.2 1.4 4.7 0.83c0.57-0.572 1.495-0.574 2.068-0.005l11.554 11.5 c0.572 0.6 0.6 1.5 0 2.068C17.796 15 16.9 15 16.3 14.385z"/></g><g><path d="M4.771 12.35L16.258 0.796c0.568-0.572 1.494-0.575 2.068-0.006c0.572 0.6 0.6 1.5 0 2.068L6.845 14.4 c-0.571 0.572-1.497 0.574-2.068 0.008C4.203 13.8 4.2 12.9 4.8 12.35z"/></g></svg></a><h2>Navigation</h2>');
 
     $(menu_button).html('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="menu-icon" x="0px" y="0px" width="23px" height="15.12px" viewBox="0 0 23 15.12" enable-background="new 0 0 23 15.12" xml:space="preserve"><g><path d="M21.25 3.5H1.75C0.784 3.5 0 2.7 0 1.75S0.784 0 1.8 0h19.5C22.217 0 23 0.8 23 1.75S22.217 3.5 21.2 3.5z"/></g><g><path d="M21.25 9.31H1.75C0.784 9.3 0 8.5 0 7.56s0.784-1.75 1.75-1.75h19.5c0.967 0 1.8 0.8 1.8 1.8 S22.217 9.3 21.2 9.31z"/></g><g><path d="M21.25 15.12H1.75C0.784 15.1 0 14.3 0 13.37s0.784-1.75 1.75-1.75h19.5c0.967 0 1.8 0.8 1.8 1.8 S22.217 15.1 21.2 15.12z"/></g></svg>');
+    /**** Sound interface ****
     $(sound_label)
         .html("<h4>Narration On</h4><p class='menu-legend'>Presentation plays automatically, with spoken narration.</p>")
         .attr("for", "autoplay-switch");
@@ -95,6 +98,7 @@
                 }
             }
         });
+    ****/
 
     // Prep first background image object with inline CSS for background image
     $(".img-anchor").css("background-image", "url("+ getBackgroundImage(".img-anchor") +")");

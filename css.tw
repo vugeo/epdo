@@ -37,8 +37,11 @@ html, body {
   overflow:hidden;
 }
 body {
-    color: #000;
-    font-family: 'Open Sans',serif;
+  color: #000;
+  font-family: 'Open Sans',serif;
+  /* Disable webkit tap-highlighting on non-links */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  tap-highlight-color: rgba(0,0,0,0);
 }
 
 #body-wrap {
@@ -499,7 +502,7 @@ progress
   border-radius: 4px;
   background-color: whiteSmoke;
   box-shadow: 0 5px 5px -5px #222 inset;
-  width: 95%;
+  width: 98%;
   height: 6px;
   display: inline-block;
   box-shadow: 0 5px 5px -5px #888 inset;
@@ -656,9 +659,25 @@ a.centered {
   padding: 5px 0 5px 0;
 }
 .snap-drawer ul.passage-list li p.sidebar-list {
-  text-indent: 1em;
+  text-indent: 1.5em;
   margin: 2px 0 5px 0;
+  position: relative;
 }
+
+.snap-drawer ul.passage-list p.sidebar-list a {
+  color: #aaa!important;
+}
+/* triangle 
+.snap-drawer p.sidebar-list a:before { 
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-left-color: #aaa;
+  left: 2px;
+  top: 1px;
+} */
 
 :: Continue arrow & animation [stylesheet]
 span.continue-button {

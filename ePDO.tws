@@ -412,7 +412,7 @@ Tiddler
 p139
 (dp140
 g19
-V!Course equivalency evaluations\u000a!!!!Making sure your courses count for Vanderbilt credit\u000aEvery course you take abroad needs to be evaluated by Vanderbilt faculty to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about course equivalency evaluations is that ''you are responsible'' for making sure it gets done! GEO facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[list of evaluated courses|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=AF72ED87-FAA3-E8FD-08D54FEDDC87FB10&pID=4&lID=31]] for your program. Are all of your courses already on the list? Great, you're done! Skip to Step 5.|\u000a|<li>2</li>|If not: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=AF6994DC-E918-C4B1-439DAF6CA2C9B451&pID=4&lID=30]] for each course|\u000a|<li>4</li>|GEO will do the rest! We contact faculty and find out how the course will count, and then we email you the result.|\u000a|<li>5</li>|Relax. Enjoy life.|\u000a\u000aNeed more information? Check out our very detailed [[guide|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=D9D0A705-07C6-4CA3-2AE838FCDC41A39E&pID=4&lID=29]], or talk with your [[GEO advisor|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a\u000a<<segue "Things you need to know about traveling">>\u005c
+V!Course equivalency evaluations\u000a!!!!Making sure your courses count for Vanderbilt credit\u000aEvery course you take abroad needs to be evaluated by Vanderbilt faculty to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about course equivalency evaluations is that ''you are responsible'' for making sure it gets done! GEO facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[list of evaluated courses|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=AF72ED87-FAA3-E8FD-08D54FEDDC87FB10&pID=4&lID=31]] for your program. Are all of your courses already on the list? Great, you're done! Skip to Step 5.|\u000a|<li>2</li>|If not: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=AF6994DC-E918-C4B1-439DAF6CA2C9B451&pID=4&lID=30]] for each course.|\u000a|<li>4</li>|GEO will do the rest! We contact faculty and find out how the course will count, and then we email you the result.|\u000a|<li>5</li>|Relax. Enjoy life.|\u000a\u000aNeed more information? Check out our very detailed [[guide|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=57CE127F-D56A-6FB1-6E26BBF5FD3E8308&Link_ID=D9D0A705-07C6-4CA3-2AE838FCDC41A39E&pID=4&lID=29]], or talk with your [[GEO advisor|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a\u000a<<segue "Traveling while abroad">>\u005c
 p141
 sg21
 VCourse equivalency evaluations
@@ -421,12 +421,12 @@ sg23
 g24
 ((I2014
 I7
-I22
+I23
 I16
-I5
+I18
 I25
-I1
-I203
+I2
+I204
 I1
 tp143
 (dp144
@@ -457,7 +457,7 @@ I00
 sg13
 (lp154
 F21.666666666666664
-aF1162.3333333333326
+aF1163.9999999999993
 asg15
 (itiddlywiki
 Tiddler
@@ -473,12 +473,12 @@ sg23
 g24
 ((I2014
 I7
-I22
-I15
-I53
-I57
-I1
-I203
+I23
+I16
+I18
+I5
+I2
+I204
 I1
 tp159
 (dp160
@@ -511,14 +511,14 @@ I00
 sg13
 (lp171
 F375.33333333333354
-aF540.9999999999995
+aF542.6666666666662
 asg15
 (itiddlywiki
 Tiddler
 p172
 (dp173
 g19
-V!Tips for packing\u000a!!!!Pack light and pack smart!\u000aIn GEO's experience, students experience two primary difficulties with packing: They bring too much stuff, and they often don't plan well enough for their specific destination. Here are some tips to help!\u000a\u000a''Research your location's climate'' and the prevailing weather patterns for the time you will be there, and pack accordingly! Wikipedia is a good source for basic climate data on nearly every city in the world (just search for your city), but commercial guidebooks are probably the single best source of information. \u000a\u000a''Bring only //one// suitcase'' that you can lift and maneuver without help. If you bring a backpack as your carry-on, it can double as a weekend travel bag.\u000a\u000a''Consider bringing a light duffel bag'' that you can fold up and put in your large suitcase. You may need it to carry the things you buy abroad!\u000a\u000aOnly ''pack wardrobe pieces that are interchangeable'' and are good for layering. If it can\u2019t be used to make multiple outfits, it doesn\u2019t belong in your suitcase! Items that can be dressed up or dressed down are ideal.\u000a\u000aFor more tips and a detailed list of suggestions, download GEO's [[packing checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14068]].\u000a\u000a<<segue "Identity and diversity">>\u005c
+V!Tips for packing\u000a!!!!Pack light and pack smart\u000aIn GEO's experience, students experience two primary difficulties with packing: They bring too much stuff, and they often don't plan well enough for their specific destination. Here are some tips to help out.\u000a\u000a''Research your location's climate'' and the prevailing weather patterns for the time you will be there, and pack accordingly. Wikipedia is a good source for basic climate data on nearly every city in the world (just search for your city), but commercial guidebooks are probably the single best source of information. \u000a\u000a''Bring only //one// suitcase,'' one you can lift and maneuver without help. If you bring a backpack as your carry-on, it can double as a weekend travel bag.\u000a\u000a''Consider bringing a light duffel bag'' that you can fold up and put in your large suitcase. You may need it to bring the things you buy abroad back home.\u000a\u000aOnly ''pack wardrobe pieces that are interchangeable'' and are good for layering. If it can\u2019t be used to make multiple outfits, it doesn\u2019t belong in your suitcase! Items that can be dressed up or dressed down are ideal.\u000a\u000aFor more tips and a detailed list of suggestions, download GEO's [[packing checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14068]].\u000a\u000a<<segue "Identity and diversity">>\u005c
 p174
 sg21
 VTips for packing
@@ -526,13 +526,13 @@ p175
 sg23
 g24
 ((I2014
-I5
-I30
-I11
-I0
-I33
-I4
-I150
+I7
+I23
+I16
+I1
+I2
+I2
+I204
 I1
 tp176
 (dp177
@@ -570,7 +570,7 @@ Tiddler
 p188
 (dp189
 g19
-V!Passport and Document Security\u000a!!!!Keep your passport and other key documents safe\u000aWhen you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also be made difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe!\u000a\u000aIn general, you should only keep your passport on your person when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.\u000a<img src="images/passport wallet.jpg" class="right" style="height: 250px;" />\u005c\u000a\u000aIf you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.\u000a\u000a|box|k\u000a|!(Potentially) Good Places to Keep Your Passport|\u000a|Hidden in the room of your homestay or residence hall|\u000a|In your hotel's safe (//not// the room safe)|\u000a|With your study abroad provider, if they offer such a service|\u000a|<hr>//In some situations, even these options may not be secure. Use your common sense and evaluate the situation. If in doubt, talk to your Resident Director for advice.//|\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|Visa Acquisition]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Traveling with medications">>
+V!Passport and Document Security\u000a!!!!Keep your passport and other key documents safe\u000aWhen you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also become difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe.\u000a\u000aIn general, you should okeep your passport on your person only when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.\u000a<img src="images/passport wallet.jpg" class="right" style="height: 250px;" />\u005c\u000a\u000aIf you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.\u000a\u000a|box|k\u000a|!(Potentially) Good Places to Keep Your Passport|\u000a|Hidden in the room of your homestay or residence hall|\u000a|In your hotel's safe (//not// the room safe)|\u000a|With your study abroad provider, if they offer such a service|\u000a|<hr>//In some situations, even these options may not be secure. Use your common sense and evaluate the situation. If in doubt, talk to your Resident Director for advice.//|\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|Visa Acquisition]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Traveling with medications">>
 p190
 sg21
 VDocuments
@@ -578,13 +578,13 @@ p191
 sg23
 g24
 ((I2014
-I5
-I30
-I10
-I13
+I7
+I23
 I14
-I4
-I150
+I42
+I18
+I2
+I204
 I1
 tp192
 (dp193
@@ -622,7 +622,7 @@ Tiddler
 p204
 (dp205
 g19
-V<<sidebar "How to Get a Travel Visa">>\u000aA ''travel visa'' is not a credit card! It's a stamp or sticker placed in your passport that allows you to visit a foreign country. Depending on your own nationality and your reasons for traveling, ''you may or may not need a visa'' to enter a given country.\u000a\u000aIf you will be taking classes from an institution based in your host country, you will usually need a student-class visa to enter. Entry requirements are often lower when you are simply visiting as a tourist. \u000a\u000aRequirements to get a visa may include photographs, financial information, a letter from your host university, a criminal background check, or even a personal appearance at the foreign consulate. Your own nationality may have a major impact on the requirements you face in getting a visa. For example, US citizens typically face lower barriers than students of other nationalities. \u000a\u000aIn certain cases, students may be able to enter a country without a visa, but will need to obtain a ''residence permit'' after entering.\u000a\u000aYour study abroad provider will inform you about your visa requirements. If you are uncertain or have general questions, please contact GEO. \u000a\u000a|box|k\u000a|>|!Further information|\u000a|[[Travisa|http://www.travisa.com/]]|Easy access to visa requirements for all countries and most nationalities|\u000a|[[Visa @Wikipedia|https://en.wikipedia.org/wiki/Visa_(document)]]|Article providing information about visa policies around the world|\u000a\u000a<<segue "Traveling with medications">>\u005c
+V<<sidebar "How to Get a Travel Visa">>\u000aA ''travel visa'' is not a credit card! It's a stamp or sticker placed in your passport that allows you to enter a foreign country. Depending on your own nationality and your reasons for traveling, ''you may or may not need a visa'' to visit a given country.\u000a\u000aIf you will be taking classes from an institution based in your host country, you will usually need a student-class visa to enter. Entry requirements are often lower when you are simply visiting as a tourist. \u000a\u000aRequirements to get a visa may include photographs, financial information, a letter from your host university, a criminal background check, an HIV test, or even a personal appearance at the foreign consulate. Your own nationality may have a major impact on the requirements you face in getting a visa. For example, US citizens typically face lower barriers than students of other nationalities. \u000a\u000aIn certain cases, students may be able to enter a country without a visa, but will need to obtain a ''residence permit'' after entering.\u000a\u000aYour study abroad provider will inform you about your visa requirements. If you are uncertain or have general questions, please contact GEO. \u000a\u000a|box|k\u000a|>|!Further information|\u000a|[[Travisa|http://www.travisa.com/]]|Easy access to visa requirements for all countries and most nationalities|\u000a|[[Visa @Wikipedia|https://en.wikipedia.org/wiki/Visa_(document)]]|Article providing information about visa policies around the world|\u000a\u000a<<segue "Traveling with medications">>\u005c
 p206
 sg21
 VVisa Acquisition
@@ -630,13 +630,13 @@ p207
 sg23
 g24
 ((I2014
-I6
-I3
-I16
-I25
-I34
-I1
-I154
+I7
+I23
+I14
+I7
+I39
+I2
+I204
 I1
 tp208
 (dp209
@@ -668,7 +668,7 @@ g12
 I00
 sg13
 (lp220
-F378.66666666666686
+F382.00000000000017
 aF13.0
 asg15
 (itiddlywiki
@@ -676,21 +676,21 @@ Tiddler
 p221
 (dp222
 g19
-V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aFirst, always ''keep your Resident Director or staff informed'' of your travel. Also keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you!\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a visa, it will probably be easier to get the visa while you're in the US (this applies to both international students and US citizens)!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap!\u000a<div class="talkbox">\u005c\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div>\u000a<<segue "Passport Check">>\u005c
+V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aFirst, always ''keep your Resident Director or program staff informed'' of your travel. Also keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you.\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a visa, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div>\u000a<<segue "Passport Check">>\u005c
 p223
 sg21
-VThings you need to know about traveling
+VTraveling while abroad
 p224
 sg23
 g24
 ((I2014
-I6
-I13
+I7
+I23
 I16
-I10
-I8
-I4
-I164
+I18
+I21
+I2
+I204
 I1
 tp225
 (dp226
@@ -730,7 +730,7 @@ Tiddler
 p238
 (dp239
 g19
-V<<sidebar "Getting or Renewing a Passport">>\u000aTo get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.\u000a\u000aUS citizens should visit the State Department's website for [[passport services|http://travel.state.gov/content/passports/english/passports.html]] to view requirements and to check on [[current processing times|http://travel.state.gov/content/passports/english/passports/information/processing-times.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications!\u000a\u000aIn Nashville, locations near Vanderbilt where you can apply for a passport include:\u000a\u000a|alternating-rows|k\u000a|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|\u000a|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|\u000a|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|\u000a|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|\u000a\u000aYou may need to ''call in advance'' for an appointment!\u000a\u000aYou'll also need to get ''passport photos'' taken before you can apply. FedEx Kinko's, Walgreens, and CVS are locations near Vandy that can take passport photos.\u000a\u000a<<segue "Documents">>\u005c
+V<<sidebar "Getting or Renewing a Passport">>\u000aTo get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.\u000a\u000aUS citizens should visit the State Department's website for [[passport services|http://travel.state.gov/content/passports/english/passports.html]] to view requirements and to check on [[current processing times|http://travel.state.gov/content/passports/english/passports/information/processing-times.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications.\u000a\u000aIn Nashville, locations near Vanderbilt where you can apply for a passport include:\u000a\u000a|alternating-rows|k\u000a|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|\u000a|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|\u000a|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|\u000a|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|\u000a\u000aYou may need to ''call in advance'' for an appointment.\u000a\u000aYou'll also need to get ''passport photos'' taken before you can apply. FedEx Kinko's, Walgreens, and CVS are locations near Vandy that can take passport photos.\u000a\u000a<<segue "Documents">>\u005c
 p240
 sg21
 VPassport Acquisition
@@ -738,13 +738,13 @@ p241
 sg23
 g24
 ((I2014
-I5
-I19
-I13
-I48
-I22
+I7
+I23
+I14
 I0
-I139
+I55
+I2
+I204
 I1
 tp242
 (dp243
@@ -784,7 +784,7 @@ Tiddler
 p255
 (dp256
 g19
-V!Traveling with medications\u000a!!!!Ensure continuity in your medical care\u000aDrugs that are regularly prescribed in the US can sometimes be more restricted abroad. Even some over-the-counter drugs may be interdicted overseas. Take precautions when traveling to ensure that your medications don't get you in trouble.\u000a\u000a''Keep all of your medications in their original packaging'' when traveling. This will trigger less suspicion from customs agents and law enforcement.\u000a\u000aTo find out if any of your medications are restricted or banned in your host country, [[contact the country's embassy|http://www.state.gov/s/cpr/rls/dpl/32122.htm]]. Ask about over-the-counter drugs too if they are a part of your regular care regime.\u000a\u000aWhatever the legal status of your medications, ''request a letter from your physician'' explaining why the drugs you are transporting have been prescribed to you. Also include over-the-counter drugs if needed. You will want to take this letter with you //whenever you travel!// Request that your doctor use the local brand names or generic/chemical names for your drugs.\u000a\u000aWhen possible, ''take enough medicine with you to cover your entire stay abroad''. If your medicine is only available in limited supply, please discuss with your physician and program staff how you will obtain enough  for your stay. \u000a\u000aBe aware that medications ''cannot be sent through the mail!''\u000a\u000a|box|k\u000a|!Resources|\u000a|[[MedlinePlus|http://www.nlm.nih.gov/medlineplus/druginformation.html]], information on prescription and over-the-counter drugs, including generic/chemical names|\u000a|[[HTH Drug Translation Guide|https://www.hthstudents.com/drug/index1.cfm]], offers equivalent brand names and availability for frequently visited countries/destinations|\u000a|[[Directory of Foreign Embassies|http://www.state.gov/s/cpr/rls/dpl/32122.htm]], US Department of State|\u000a\u000a<<segue "Tips for packing">>\u005c
+V!Traveling with medications\u000a!!!!Ensure continuity in your medical care\u000aDrugs that are regularly prescribed in the US can sometimes be more restricted abroad. Even some over-the-counter drugs may be interdicted overseas. Take precautions when traveling to ensure that your medications don't get you in trouble.\u000a\u000a''Keep all of your medications in their original packaging'' when traveling. This will trigger less suspicion from customs agents and law enforcement.\u000a\u000aTo find out if any of your medications are restricted or banned in your host country, [[contact the country's embassy|http://www.state.gov/s/cpr/rls/dpl/32122.htm]]. Ask about over-the-counter drugs too if they are a part of your regular care regime.\u000a\u000aWhatever the legal status of your medications, ''request a letter from your physician'' explaining why the drugs you are transporting have been prescribed to you. Also include over-the-counter drugs if needed. You will want to take this letter with you //whenever you travel!// Request that your doctor use the local brand names or generic/chemical names for your drugs (see resources below).\u000a\u000aWhen possible, ''take enough medicine with you to cover your entire stay abroad''. If your medicine is only available in limited supply, please discuss with your physician and program staff how you will obtain enough  for your stay. \u000a\u000aBe aware that medications ''cannot be sent through the mail!''\u000a\u000a|box|k\u000a|!Resources|\u000a|[[MedlinePlus|http://www.nlm.nih.gov/medlineplus/druginformation.html]], information on prescription and over-the-counter drugs, including generic/chemical names|\u000a|[[HTH Drug Translation Guide|https://www.hthstudents.com/drug/index1.cfm]], offers equivalent brand names and availability for frequently visited countries/destinations|\u000a|[[Directory of Foreign Embassies|http://www.state.gov/s/cpr/rls/dpl/32122.htm]], US Department of State|\u000a\u000a<<segue "Tips for packing">>\u005c
 p257
 sg21
 VTraveling with medications
@@ -792,13 +792,13 @@ p258
 sg23
 g24
 ((I2014
-I6
+I7
+I23
+I14
+I9
+I50
 I2
-I16
-I55
-I4
-I0
-I153
+I204
 I1
 tp259
 (dp260
@@ -836,21 +836,21 @@ Tiddler
 p271
 (dp272
 g19
-V!Communicating with home\u000a!!!!Striking a balance\u000aYou will need to strike an appropriate balance between the folks back home and your new life abroad. Your family wants to know you are safe and having a good time, and your friends want to keep in touch--so don\u2019t cut them off completely!\u000a\u000aAt the same time, be careful not to spend //all// your time chatting back home. Constant contact might be tempting, but will ultimately make culture shock harder to bear and prevent you from experiencing your host country to the fullest. Our suggestion for keeping a healthy balance: get out and explore, make new friends, and set up a weekly schedule for contacting home.\u000a\u000aAlso keep your experiences in perspective when you call home. What you report from abroad can seem much more serious to family who aren't around to assess the situation for themselves. Beware of venting; you don\u2019t want to alarm anyone if you are only battling a head cold! Work with your on-site staff to remedy problems, and make sure your family knows you are safe and happy.\u000a\u000a<<sidebar-box>>\u000a   [[Phones and internet abroad|Phones and internet abroad]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Disabilities and accommodations">>
+V!Communicating with home\u000a!!!!Striking a balance\u000aYou will need to strike an appropriate balance between the folks back home and your new life abroad. Your family wants to know you are safe and having a good time, and your friends want to keep in touch--so don\u2019t cut them off completely!\u000a\u000aAt the same time, be careful not to spend //all// your time chatting back home. Constant contact might be tempting, but it will ultimately make culture shock harder to bear and prevent you from experiencing your host country to the fullest. Our suggestion for keeping a healthy balance: get out and explore, make new friends, and set up a weekly schedule for contacting home.\u000a\u000aAlso keep your experiences in perspective when you call home. What you report from abroad can seem much more serious to family who aren't around to assess the situation for themselves. Beware of venting: You don\u2019t want to alarm anyone if you are only battling a head cold! Work with your on-site staff to remedy problems, and make sure your family knows you are safe and happy.\u000a\u000a<<sidebar-box>>\u000a   [[Phones and internet abroad|Phones and internet abroad]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Disabilities and accommodations">>
 p273
 sg21
-VBalancing Contact
+VCommunicating with home
 p274
 sg23
 g24
 ((I2014
-I5
-I27
-I15
-I22
+I7
 I23
-I1
-I147
+I16
+I20
+I52
+I2
+I204
 I1
 tp275
 (dp276
@@ -888,7 +888,7 @@ Tiddler
 p287
 (dp288
 g19
-V!Money\u000a!!!!Use debit and credit cards wisely to save money\u000aThe amount of money you spend while studying abroad will vary depending on the local cost of living, your personal spending habits, independent travel, and so on. //How// you access your money can also play a role in maintaining your budget.\u000a\u000aMany businesses will not accept plastic, especially for smaller purchases, so it's a good idea to have ''cash'' on hand throughout your time abroad. The most cost-effective way to get cash abroad is to use your ''debit card'' (not a credit card!) in an ATM. You can usually find out where the ATMs you might need are before you leave the US--ask your bank how!\u000a\u000aGEO also recommends that you bring a ''credit card''. Be aware that every credit card purchase or debit card withdrawal will likely carry transaction fees. Shop around a bit for the best rates before you leave the US, but also minimize the number of times you use your cards. Take out as much cash as you feel comfortable with each time you use the ATM, and use your credit card only when necessary or when you have an especially large purchase.\u000a\u000aBefore you depart the US, and every time you enter a new country, you should inform your bank(s) of your location. If you don't, you may find your cards canceled as an anti-fraud measure! \u000a\u000a|box|k\u000a|!Summary|\u000a|Before you leave, consider seeking out the US banks with the best currency conversion and transaction fees for your host country.|\u000a|Call your bank(s) to let them know you'll be abroad, and whenever you cross international borders.|\u000a|Use your debit card in an ATM to get cash on a weekly or biweekly basis.|\u000a|Use your credit card for purchases. Do not use your debit card except for ATM withdrawals!|\u000a|Use your credit card for large purchases if possible.|\u000a|Only get cash from an ATM using your credit card in a dire emergency. Cash advances carry high fees.|\u000a\u000a<<sidebar-box>>\u000a   [[More on credit cards|More on credit cards]]\u000a   [[How do I budget for myself?|Budgeting]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Where will you live?">>\u005c
+V!Money\u000a!!!!Use debit and credit cards wisely to save money\u000aThe amount of money you spend while studying abroad will vary depending on the local cost of living, your personal spending habits, independent travel, and so on. //How// you access your money can also play a role in maintaining your budget.\u000a\u000aMany businesses will not accept plastic, especially for smaller purchases, so it's a good idea to have ''cash'' on hand throughout your time abroad. The most cost-effective way to get cash abroad is to use your ''debit card'' (not a credit card!) in an ATM. You can usually find out where the ATMs you might need are before you leave the US--ask your bank how.\u000a\u000aGEO also recommends that you bring a ''credit card''. Be aware that every credit card purchase or debit card withdrawal will likely carry transaction fees. Shop around a bit for the best rates before you leave the US, but also minimize the number of times you use your cards. Take out as much cash as you feel comfortable with each time you use the ATM, and use your credit card only when necessary or when you have an especially large purchase.\u000a\u000aBefore you depart the US, and every time you enter a new country, you should inform your bank(s) of your location. If you don't, you may find your cards canceled as an anti-fraud measure! \u000a\u000a|box|k\u000a|!Summary|\u000a|Before you leave, consider seeking out the US banks with the best currency conversion and transaction fees for your host country.|\u000a|Call your bank(s) to let them know you'll be abroad. Don't forget to call again whenever you cross an international border.|\u000a|Use your debit card in an ATM to get cash on a weekly or biweekly basis.|\u000a|Use your credit card for purchases. Do not use your debit card except for ATM withdrawals!|\u000a|Use your credit card for large purchases if possible.|\u000a|Only get cash from an ATM using your credit card in a dire emergency. Cash advances carry high fees.|\u000a\u000a<<sidebar-box>>\u000a   [[More on credit cards|More on credit cards]]\u000a   [[How do I budget for myself?|Budgeting]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Where will you live?">>\u005c
 p289
 sg21
 VMoney
@@ -896,13 +896,13 @@ p290
 sg23
 g24
 ((I2014
-I5
+I7
 I23
-I10
-I27
-I32
-I4
-I143
+I16
+I55
+I21
+I2
+I204
 I1
 tp291
 (dp292
@@ -932,15 +932,15 @@ g12
 I00
 sg13
 (lp302
-F528.5833333333329
-aF1291.3333333333333
+F656.9166666666663
+aF1291.3333333333328
 asg15
 (itiddlywiki
 Tiddler
 p303
 (dp304
 g19
-V<<sidebar "Basics of Budgeting">>\u000aBudgeting can be crucial to ensuring you have enough money to fund your study abroad experience. There are really two levels of budgeting that you need to keep in mind.\u000a\u000aFirst is the ''overall budget for your study abroad experience''. Getting a ballpark figure for this will help you and your family determine an appropriate monthly budget for you while you are abroad. Be sure to include not only the costs that are billed through Vanderbilt, but also the clear, fixed costs that you will pay out of pocket. Examples include: passport fees, visa fees, airfare, luggage fees, and purchase of clothing or other travel needs.\u000a\u000aTo this, you need to add an estimate of what you will spend on living expenses and entertainment and enrichment activities. This can be tricky to estimate, especially because a sudden change in currency exchange rates can alter it substantially. GEO offers rough estimates in our cost calculator, but your program provider can give you a better idea of your costs on the ground. You can also use online cost of living calculators (see Resources section below). \u000a\u000aNow that you have a blanket estimate of costs, you and your family can determine how much you should aim to spend per month. Here is where you will need to figure out how to maintain your month-to-month budget while you are abroad. \u000a\u000aA ''month-to-month budget'' is a detailed plan of the money you plan to spend, divided into categories: so much for food, so much for travel, and so on. You may need to revise it as you go. For example, you may overspend one month and need to cut back on future months. Keep in mind that students often spend more money the first few weeks while becoming acquainted with the new surroundings. [[More tips on budgeting from GEO|http://prezi.com/hkf9icfmogbd/budgeting-while-abroad/]].\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Numbeo|http://www.numbeo.com/cost-of-living/]], international cost of living database and calculator|\u000a|[[Expatistan|http://www.expatistan.com/cost-of-living]], international cost of living database and calculator|\u000a|[[OANDA|http://www.oanda.com/currency/converter/]] currency exchange converter, including historical trends|\u000a|[[Maintain a Personal Budget|http://www.wikihow.com/Maintain-a-Budget-for-Personal-Use]], a general budget |\u000a|[[Budgeting While Abroad|http://prezi.com/hkf9icfmogbd/budgeting-while-abroad/]], GEO's tips for maintaining a budget while abroad|\u000a|[[Budget tracking sheet|https://docs.google.com/spreadsheet/ccc?key=0Alj5J4V4xlpIdEx2Q0ZWME9ISnlEQms1ZzRLenkyNlE#gid=0]], a Google spreadsheet that helps automate budget tracking|\u000a\u000a<<segue "Where will you live?">>\u005c
+V<<sidebar "Basics of Budgeting">>\u000aBudgeting can be crucial to ensuring you have enough money to fund your study abroad experience. There are really two levels of budgeting that you need to keep in mind.\u000a\u000aFirst is the ''overall budget for your study abroad experience''. Getting a ballpark figure for this will help you and your family determine an appropriate monthly budget for you while you are abroad. Be sure to include not only the costs that are billed through Vanderbilt, but also the clear, fixed costs that you will pay out of pocket. Examples include: passport fees, visa fees, airfare, luggage fees, and purchase of clothing or other travel needs.\u000a\u000aTo this, you need to add an estimate of what you will spend on living expenses and entertainment and enrichment activities. These can be tricky to estimate, especially because a sudden change in currency exchange rates can alter the calculation substantially. GEO offers rough estimates in our cost calculator, but your program provider can give you a better idea of your costs on the ground. You can also use online cost-of-living calculators (see the Resources section below). \u000a\u000aNow that you have a blanket estimate of costs, you and your family can determine how much you should aim to spend per month. Here is where you will need to figure out how to maintain your month-to-month budget while you are abroad. \u000a\u000aA ''month-to-month budget'' is a detailed plan of the money you plan to spend, divided into categories: so much for food, so much for travel, and so on. You may need to revise it as you go. For example, you may overspend one month and need to cut back on future months. Keep in mind that students often spend more money the first few weeks while becoming acquainted with their new surroundings. [[More tips on budgeting from GEO|http://prezi.com/hkf9icfmogbd/budgeting-while-abroad/]].\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Numbeo|http://www.numbeo.com/cost-of-living/]], international cost of living database and calculator|\u000a|[[Expatistan|http://www.expatistan.com/cost-of-living]], international cost of living database and calculator|\u000a|[[OANDA|http://www.oanda.com/currency/converter/]] currency exchange converter, including historical trends|\u000a|[[Maintain a Personal Budget|http://www.wikihow.com/Maintain-a-Budget-for-Personal-Use]], a general budgeting guide|\u000a|[[Budgeting While Abroad|http://prezi.com/hkf9icfmogbd/budgeting-while-abroad/]], GEO's tips for maintaining a budget while abroad|\u000a|[[Budget tracking sheet|https://docs.google.com/spreadsheet/ccc?key=0Alj5J4V4xlpIdEx2Q0ZWME9ISnlEQms1ZzRLenkyNlE#gid=0]], a Google spreadsheet that helps automate budget tracking|\u000a\u000a<<segue "Where will you live?">>\u005c
 p305
 sg21
 VBudgeting
@@ -948,13 +948,13 @@ p306
 sg23
 g24
 ((I2014
-I5
+I7
 I23
-I10
-I6
-I58
-I4
-I143
+I16
+I59
+I39
+I2
+I204
 I1
 tp307
 (dp308
@@ -994,7 +994,7 @@ Tiddler
 p320
 (dp321
 g19
-V<<sidebar "Phones and internet abroad">>\u000a****Incomplete****\u000aGEO can\u2019t tell you what cell phone company is the most reliable in your home away from home, but we can help you figure out who is your best person to ask!\u000a\u000a<<$- "Dialing Telephones.">> The details of dialing internationally vary depending on which countries you're trying to connect. Bookmark [[How To Call Abroad|http://www.howtocallabroad.com/]] to share with family and friends.\u000a\u000a<<segue "Disabilities and accommodations">>\u005c
+V<<sidebar "Phones and internet abroad">>\u000a<<$- "Cell phones">> GEO doesn't recommend one cell phone provider over another, but there are some resources to help you figure out what is best for you.\u000a\u000aYou may consider leaving your cell phone home and purchasing a cheap phone when you arrive. In fact, that is what we at GEO recommend you do. Or you could buy a cheap unlocked phone before you leave and get the appropriate SIM card when you arrive in your host country. (Some airports sell SIMs in the international arrivals section, so they can be quite easy to come by.)\u000a\u000aIf you do plan to take your own phone abroad, be sure to check with your phone company about their international plans and rates. Also check their data-roaming fees, since those can rack up fast!\u000a\u000aYou may want to talk to your provider (or look at their predeparture materials) to see if they have specific recommendations on how to handle phones abroad. You can also visit the Independent Traveler [[international cell phone guide|http://www.independenttraveler.com/travel-tips/stay-connected/international-cell-phone-guide]] to get a good overview of the options.\u000a\u000a<<$- "Dialing Telephones">> The details of dialing internationally vary depending on which countries you're trying to connect. Check out [[How To Call Abroad|http://www.howtocallabroad.com/]] and share it with family and friends.\u000a\u000a<<$- "Internet">> Internet access abroad is typically not the same as in the US. While you will have access, prepare yourself for slower connections. Depending on your host location, you might have a weekly usage limit in your room or at your college, or you may need to pay for internet access at a cafe. Talk with your program provider or host university to find out what to expect.\u000a\u000a<<segue "Disabilities and accommodations">>\u005c
 p322
 sg21
 VPhones and internet abroad
@@ -1002,13 +1002,13 @@ p323
 sg23
 g24
 ((I2014
-I5
-I29
+I7
+I23
 I16
-I1
-I14
-I3
-I149
+I20
+I58
+I2
+I204
 I1
 tp324
 (dp325
@@ -1056,13 +1056,13 @@ p340
 sg23
 g24
 ((I2014
-I5
-I19
-I15
 I7
-I39
-I0
-I139
+I23
+I15
+I29
+I27
+I2
+I204
 I1
 tp341
 (dp342
@@ -1102,7 +1102,7 @@ Tiddler
 p354
 (dp355
 g19
-V!Contacts and communications\u000a!!!!Who should I contact for help abroad?\u000aCommunications abroad can seem difficult at first! You need to learn who are your best resources, as well as figure out the most convenient methods of communication within your host country and back home.\u000a\u000aYour ''Resident Director'' will be your most reliable contact person: he or she is knowledgeable about the program, the host country, and the city--and he/she is //right there!// Whether you have a basic question, a scheduling conundrum, or you are in the midst of an emergency, your Resident Director and on-site staff should be the ''first people you contact.'' You will find out more about who your contact(s) should be in your program-specific predeparture orientation.\u000a\u000a''Remember this:'' Problems will be resolved faster if you work with someone who is on the ground with you, rather than contacting someone back home who is a few time zones and thousands of miles away.\u000a\u000a<<sidebar-box "Hm...">>\u000a   [[When should I contact GEO?|When should I contact GEO]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Balancing Contact">>
+V!Contacts and communications\u000a!!!!Who should I contact for help abroad?\u000aCommunications abroad can seem difficult at first. You need to learn who your best resources are, as well as figure out the most convenient methods of communication within your host country and back home.\u000a\u000aYour ''Resident Director'' will be your most reliable contact person: he or she is knowledgeable about the program, the host country, and the city--and he/she is //right there!// Whether you have a basic question, a scheduling conundrum, or you are in the midst of an emergency, your Resident Director and on-site staff should be the ''first people you contact.'' You will find out more about who your contact(s) should be in your program-specific predeparture orientation.\u000a\u000a''Remember this:'' Problems will be resolved faster if you work with someone who is on the ground with you rather than contacting someone back home who is a few time zones and thousands of miles away.\u000a\u000a<<sidebar-box "Hm...">>\u000a   [[When should I contact Vanderbilt's Global Education Office?|When should I contact GEO]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Communicating with home">>
 p356
 sg21
 VContacts and communications
@@ -1110,13 +1110,13 @@ p357
 sg23
 g24
 ((I2014
-I5
-I19
-I15
+I7
+I23
+I16
+I16
+I56
 I2
-I36
-I0
-I139
+I204
 I1
 tp358
 (dp359
@@ -1206,7 +1206,7 @@ Tiddler
 p386
 (dp387
 g19
-V!Disabilities and accommodations\u000a!!!!Getting physical and academic accommodations\u000aIf you have registered with the [[Office of Equal Opportunity, Affirmative Action, and Disability Services|http://www.vanderbilt.edu/ead/index.html]] (EAD) to receive academic or physical accommodations at Vanderbilt, you will want to learn whether you can get similar accommodations on your program abroad.\u000a\u000aConsult with the EAD staff and request that they send your accommodations letter to your program advisor or  on-site staff. Do this //before// you depart! Program staff will use this letter in researching what accommodations are possible on site.\u000a\u000aIf you have a disability or challenge that you have so far managed without the EAD, you may want to meet with them before you study abroad. In addition to providing you with a letter, they can help you think through what you might need to ask of your program abroad.\u000a\u000aDo understand that while most requests will be honored, laws in other countries regarding required or reasonable accommodations often differ from what is mandated by law in the United States.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt Office of Equal Opportunity, Affirmative Action, and Disability Services|http://www.vanderbilt.edu/ead/index.html]]|\u000a|[[Mobility International USA|http://www.miusa.org/]], resources for travelers with disabilities|\u000a|[[Travelers with Disabilities|http://wwwnc.cdc.gov/travel/yellowbook/2014/chapter-8-advising-travelers-with-specific-needs/travelers-with-disabilities]], excellent information on traveling with physical disabilities|\u000a\u000a<<segue "Money">>\u005c
+V!Disabilities and accommodations\u000a!!!!Getting physical and academic accommodations\u000aIf you have registered with the [[Office of Equal Opportunity, Affirmative Action, and Disability Services|http://www.vanderbilt.edu/ead/index.html]] (EAD) to receive academic or physical accommodations at Vanderbilt, you will want to learn whether you can get similar accommodations on your program abroad.\u000a\u000aConsult with the EAD staff and request that they send your accommodations letter to your program advisor or  on-site staff. Do this //before// you depart! Program staff will use this letter in researching what accommodations are possible on site.\u000a\u000aIf you have a disability or challenge that you have so far managed without the EAD, you may want to meet with them before you study abroad. In addition to providing you with a letter, they can help you think through what you might need to ask of your program staff abroad.\u000a\u000aDo understand that while most requests will be honored, laws in other countries regarding required or reasonable accommodations often differ from what is mandated by law in the United States.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt Office of Equal Opportunity, Affirmative Action, and Disability Services|http://www.vanderbilt.edu/ead/index.html]]|\u000a|[[Mobility International USA|http://www.miusa.org/]], resources for travelers with disabilities|\u000a|[[Travelers with Disabilities|http://wwwnc.cdc.gov/travel/yellowbook/2014/chapter-8-advising-travelers-with-specific-needs/travelers-with-disabilities]], excellent information on traveling with physical disabilities|\u000a\u000a<<segue "Money">>\u005c
 p388
 sg21
 VDisabilities and accommodations
@@ -1214,13 +1214,13 @@ p389
 sg23
 g24
 ((I2014
-I5
-I27
-I15
-I48
-I24
-I1
-I147
+I7
+I23
+I16
+I47
+I39
+I2
+I204
 I1
 tp390
 (dp391
@@ -2273,7 +2273,7 @@ Tiddler
 p717
 (dp718
 g19
-V<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any farther, take a moment to check your passport's expiration date.\u000a\u000a/%<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>%/Most countries will not allow you to get a student visa or residence permit if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Passport Acquisition]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Documents">>
+V<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any farther, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you to get a student visa or residence permit if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Passport Acquisition]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Documents">>
 p719
 sg21
 VPassport Check
@@ -2281,13 +2281,13 @@ p720
 sg23
 g24
 ((I2014
-I5
+I7
+I23
+I13
+I59
+I38
 I2
-I16
-I56
-I25
-I4
-I122
+I204
 I1
 tp721
 (dp722
@@ -2691,7 +2691,7 @@ Tiddler
 p846
 (dp847
 g19
-V<<sidebar "Academic systems abroad">>\u000aHigher education and academic systems abroad can vary greatly from what you are used to in the United States. Here are some things that might be different depending on the country. Talk to your GEO advisor to find out more about what you might encounter on your program.\u000a\u000a|box|k\u000a|!Differences in academic systems abroad|\u000a|There are fewer hours spent in the classroom, and students are expected to spend more time studying on their own. This doesn't mean that there will be assigned homework! A lot of responsibility for deciding how best to spend your homework hours may be left up to you.|\u000a|Depending on the course and level you are taking, and whether you are taking it in a foreign language, you may need to spend extra time learning and mastering the material.|\u000a|There are fewer tests and quizzes, and students may earn a grade based on just one final exam, or a mid-term and a final. This means you'll have little opportunity to gauge how a professor grades in the weeks or months before an exam.|\u000a|Professors are less accessible for office hours as well as by email.|\u000a|Classes may be more lecture-style than discussion-based. This may leave fewer opportunities to ask questions or express your opinions.|\u000a|There may not be much sense of privacy attached to grades. For example, the instructor might post all exam grades publicly. In some places, individual grades may be discussed openly in class.|\u000a|The prevailing academic culture may be very different. For example, students may not be as concerned--or concerned at all--about getting high grade point averages.|\u000a|In some places, such as Latin America, students pursue something like a strict professional degree, without a liberal arts component. They may have a much more focused academic experience.|\u000a|Students likely do not live on campus, which may mean that you need to meet people through academics at first, or by joining a club or other activity.|\u000a|<hr>//Every country is different! If you want to know more about systems in your host country, talk to your GEO advisor.//|\u000a\u000a<<segue "Course equivalency evaluations">>
+V<<sidebar "Academic systems abroad">>\u000aHigher education and academic systems abroad can vary greatly from what you are used to in the United States. Here are some things that might be different depending on the country. Talk to your GEO advisor to find out more about what you might encounter on your program.\u000a\u000a|box|k\u000a|!Differences in academic systems abroad|\u000a|There are fewer hours spent in the classroom, and students are expected to spend more time studying on their own. This doesn't mean that there will be assigned homework! A lot of responsibility for deciding how best to spend your homework hours may be left up to you.|\u000a|Depending on the course and level you are taking, and whether you are taking it in a foreign language, you may need to spend extra time learning and mastering the material.|\u000a|There are fewer tests and quizzes, and students may earn a grade based on just one final exam, or a mid-term and a final. This means you'll have little opportunity to gauge how a professor grades in the weeks or months before an exam.|\u000a|Professors are less accessible for office hours and by email.|\u000a|Classes may be more lecture-style than discussion-based. This may leave fewer opportunities to ask questions or express your opinions.|\u000a|There may not be much sense of privacy attached to grades. For example, the instructor might post all exam grades publicly. In some places, individual grades may be discussed openly in class.|\u000a|The prevailing academic culture may be very different. For example, students may not be as concerned--or concerned at all--about getting high grade point averages.|\u000a|In some places, such as Latin America, students pursue something like a strict professional degree, without a liberal arts component. They may have a much more focused academic experience.|\u000a|Students likely do not live on campus, which may mean that you need to meet people through academics at first, or by joining a club or other activity.|\u000a|<hr>//Every country is different! If you want to know more about systems in your host country, talk to your GEO advisor.//|\u000a\u000a<<segue "Course equivalency evaluations">>
 p848
 sg21
 VAcademic systems abroad
@@ -2700,12 +2700,12 @@ sg23
 g24
 ((I2014
 I7
-I22
-I15
-I58
-I3
-I1
-I203
+I23
+I16
+I18
+I11
+I2
+I204
 I1
 tp850
 (dp851
@@ -2745,7 +2745,7 @@ Tiddler
 p863
 (dp864
 g19
-V!Identity and diversity\u000a!!!!Research beliefs, attitudes, and experiences\u000aOur surroundings shape us and help to define who we are. Living in another cultural context will give you the chance to explore many facets of your identity, and to consider them in light of new surroundings. Students overwhelmingly tell us that this process leads to increased personal growth and insight. However, it often carries difficulties too.\u000a\u000aAs you gear up for your time abroad, prepare yourself for how people in your new culture will perceive your identity. Just as in the US, people abroad will have beliefs, myths, stereotypes, and prejudices about aspects of personal identity. You may also find that the way(s) in which you identify yourself in the US differ from how others will identify you abroad.\u000a\u000a|box|k\u000a|!You might be surprised to learn...|\u000a|The components of identity that most impact the treatment of students abroad are ''nationality'' and ''gender'', no matter what their background.|\u000a\u000aResearch the viewpoints held by people of your host country, including beliefs, laws, and customs that revolve around nationality, race and ethnicity, gender, religion, sexual orientation, age, mobility, and more. You may be able to prevent or at least alleviate cultural misunderstandings by learning as much as you can about your host culture before leaving. But also prepare for how your time abroad might change, challenge, and strengthen your identity. \u000a\u000a<<sidebar-box "More Specific Topics">>\u000a   [[Being American abroad|Being American abroad]]\u000a   [[Gender roles abroad|Gender roles abroad]]\u000a   [[Race and ethnicity abroad|Race and ethnicity abroad]]\u000a   [[Sexual and gender identity abroad|Sexual and gender identity abroad]]\u000a   [[Religious identity abroad|Religious identity abroad]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Contacts and communications">>\u005c
+V!Identity and diversity\u000a!!!!Research beliefs, attitudes, and experiences\u000aOur surroundings shape us and help to define who we are. Living in another cultural context will give you the chance to explore many facets of your identity, and to do so in light of new surroundings. Students overwhelmingly tell us that this process leads to increased personal growth and insight. However, it often carries difficulties too.\u000a\u000aAs you gear up for your time abroad, prepare yourself for how people in your new culture will perceive you. Just as in the US, people abroad will have beliefs, myths, stereotypes, and prejudices about aspects of personal identity. You may also find that the way(s) in which you identify yourself in the US differ from how others will identify you abroad.\u000a\u000a|box|k\u000a|!You might be surprised to learn...|\u000a|The components of identity that most impact the treatment of students abroad are ''nationality'' and ''gender'', no matter what their background.|\u000a\u000aResearch the viewpoints held by people of your host country, including beliefs, laws, and customs that revolve around nationality, race and ethnicity, gender, religion, sexual orientation, age, mobility, and more. You may be able to prevent or at least alleviate cultural misunderstandings by learning as much as you can about your host culture before leaving. But also prepare for how your time abroad might change, challenge, and strengthen your identity. \u000a\u000a<<sidebar-box "More Specific Topics">>\u000a   [[Being American abroad|Being American abroad]]\u000a   [[Gender roles abroad|Gender roles abroad]]\u000a   [[Race and ethnicity abroad|Race and ethnicity abroad]]\u000a   [[Sexual and gender identity abroad|Sexual and gender identity abroad]]\u000a   [[Religious identity abroad|Religious identity abroad]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Contacts and communications">>\u005c
 p865
 sg21
 VIdentity and diversity
@@ -2753,13 +2753,13 @@ p866
 sg23
 g24
 ((I2014
-I5
-I30
-I9
-I19
-I31
-I4
-I150
+I7
+I23
+I15
+I10
+I40
+I2
+I204
 I1
 tp867
 (dp868
@@ -2799,7 +2799,7 @@ Tiddler
 p880
 (dp881
 g19
-V<<sidebar "Race and ethnicity abroad">>\u000aDepending on who you are and where you are going, you may feel a part of a racial or ethnic majority for the first time in your life. Or you may have the opposite experience, becoming a racial minority in one fell swoop. Either way, you will likely find that your ethnic or racial identity has different implications in your new host country than it has at home. \u000a\u000aThese new vantage points on self and identity can be exciting, but they can also be difficult. People may consistently misidentify you based on physical appearance, for example. Or you may be surprised at how freely people comment on appearance. If your appearance is very exotic for your host culture, you may find that you are stared at, or that people want to touch your hair or skin.\u000a\u000aOr, it's possible that your physical appearance and racial or ethnic identity is almost totally ignored, and all that really seems to matter is your nationality and gender.\u000a\u000aIf you are traveling to a location that is part of your own heritage, be aware that people there may not see your heritage as the most important thing about you. If you are from the US, you may find that people there identify you as an American first. You should be prepared to be considered an outsider.   \u000a\u000aFor all of these reasons, it will be wise to prepare yourself in advance for the attitudes on race and ethnicity held by people of your host country. Do some research, and also see whether talking with alums of the program might help. GEO can help you find alums to talk to, just ask!\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Diversity Issues in Study Abroad|http://www.smith.edu/studyabroad/docs/diversity_st_abroad01.pdf]]: A booklet that collects statements of Brown University students about their experiences of identity abroad. A bit dated now, but many comments remain reflective of realities today.|\u000a|[[AllAbroad.us|http://allabroad.us/diversity-resources.php]], which has a wide variety of specific information for African American, Asian/Pacific Island, Latino/Hispanic American, and Native American students|\u000a|[[Diversity Abroad|http://www.diversityabroad.com/]], a collection of resources for underrepresented students traveling abroad|\u000a|[[Heritage seekers|http://www.diversityabroad.com/Heritage-Seekers]], thoughts and resources for students interested in exploring their own heritage through study abroad|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
+V<<sidebar "Race and ethnicity abroad">>\u000aDepending on who you are and where you are going, you may feel a part of a racial or ethnic majority for the first time in your life. Or you may have the opposite experience, becoming a racial minority in one fell swoop. Either way, you will likely find that your ethnic or racial identity has different implications in your new host country than it has at home. \u000a\u000aThese new vantage points on self and identity can be exciting, but they can also be difficult. People may consistently misidentify you based on physical appearance, for example. Or you may be surprised at how freely people comment on appearance. If your appearance is very exotic for your host culture, you may find that you are stared at, or that people want to touch your hair or skin.\u000a\u000aOr, it's possible that your physical appearance and racial or ethnic identity is almost totally ignored, and all that really seems to matter is your nationality or gender.\u000a\u000aIf you are traveling to a location that is part of your own heritage, be aware that people there may not see your heritage as the most important thing about you. If you are from the US, you may find that people there identify you as an American first. You should be prepared to be considered an outsider.   \u000a\u000aFor all of these reasons, it will be wise to prepare yourself in advance for the attitudes on race and ethnicity held by people of your host country. Do some research, and also see whether talking with alums of the program might help. GEO can help you find alums to talk to, just ask!\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Diversity Issues in Study Abroad|http://www.smith.edu/studyabroad/docs/diversity_st_abroad01.pdf]]: A booklet that collects statements of Brown University students about their experiences of identity abroad. A bit dated now, but many comments remain reflective of realities today.|\u000a|[[AllAbroad.us|http://allabroad.us/diversity-resources.php]], which has a wide variety of specific information for African American, Asian/Pacific Island, Latino/Hispanic American, and Native American students|\u000a|[[Diversity Abroad|http://www.diversityabroad.com/]], a collection of resources for underrepresented students traveling abroad|\u000a|[[Heritage seekers|http://www.diversityabroad.com/Heritage-Seekers]], thoughts and resources for students interested in exploring their own heritage through study abroad|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
 p882
 sg21
 VRace and ethnicity abroad
@@ -2808,12 +2808,12 @@ sg23
 g24
 ((I2014
 I7
+I23
+I15
+I7
+I17
 I2
-I13
-I27
-I37
-I2
-I183
+I204
 I1
 tp884
 (dp885
@@ -2853,7 +2853,7 @@ Tiddler
 p897
 (dp898
 g19
-V<<sidebar "Sexual and gender identity abroad">>\u000aIf you identify as lesbian, gay, bisexual, transgender, queer/questioning, or intersex, you will want to take time to consider whether and how you plan to be out abroad. Depending on where you are traveling, your destination may provide you with either a more open environment than the US, or a much less welcoming one. Either way, be prepared: make yourself aware in advance of local attitudes, beliefs, and understandings. Ask yourself questions like the following:\u000a\u000a|box|k\u000a|!Questions for LGBTQI Students to Consider:|\u000a|What behaviors are legal in my host country? If I am interested in activism, are there ways to practice it both safely and legally?|\u000a|<hr>Is it safe for me to be out in my host country and city?|\u000a|<hr>How open do I want or need to be about my gender or sexual identity while abroad? Do I plan to be out? How specifically will I reconcile my human rights with the cultural values of my host country?|\u000a|<hr>If my destination is one where I need to conceal my identity, how will this impact my experience?|\u000a|<hr>What are the cultural norms surrounding friendship and dating in my host culture?|\u000a|<hr>What norms surround publicly identifying as LGBTQI in my host culture? How does my self-presentation "read" in my host culture's system of gendered norms and expectations?|\u000a|<hr>What is the LGBTQI community in my host city like? How is it different from the community at home?|\u000a|<hr>What on-site resources will I have if I experience any issues/concerns while I am abroad? Are there LGBTQI organizations or other resources at my host university or in my host city?|\u000a|<hr>Do I have concerns about my housing situation? (If living with a host family, consider making the housing coordinator aware that you would like a host family that has hosted LGBQTI students in the past.)|\u000a|<hr>Might I face challenges with travel and documents due to my gender presentation?|\u000a\u000aRegardless of self-identification, all students should be aware not only of local attitudes and beliefs surrounding sex and sexual identity, but also of local laws. Some countries criminalize speech as well as behavior, and you need to be well informed about matters that could affect your safety and well-being. The [[ILGA website|http://ilga.org/]] is a good resource for checking on legal regimes around the world. \u000a\u000aStudy abroad is often a time when students explore identity and selfhood. If you are not out at home and are considering being out abroad, please make doubly sure that you do your research and ensure that your safety and well-being are provided for. If you will live with a homestay family and want to be out to them, consider telling the housing coordinator in advance that you would like an LGBQTI-friendly family. You can stipulate that they keep your request confidential, including from the family.\u000a\u000aThe local LGBQTI community will likely be quite different from that in your home country. Coming to know and understand this new culture will likely be exciting and rewarding, but like any process of cultural adaptation it may also be trying at times. Learn as much as you can in advance, but also adopt the attitude that difficulties are challenges to overcome rather than merely obstacles in your way.\u000a\u000aIt may be helpful to talk with others who have studied or traveled in your host country. You may be able to take advantage of welcoming contexts on campus, such as the [[Office of LGBQTI Life|http://www.vanderbilt.edu/lgbtqi/]], to help you network with past participants. Your study abroad provider may be able to connect you with LGBQTI alumni of your specific program, and can also serve as an excellent resource both before you leave and while you're abroad.\u000a\u000aIf you would like to talk about any aspect of your program with the Global Education Office, please do not hesitate to [[contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]].\u000a\u000a|box|k\u000a|!Resources|\u000a|Vanderbilt's [[Office of LGBQTI Life|http://www.vanderbilt.edu/lgbtqi/]], a cultural center and resource for information and support about gender and sexuality|\u000a|[[International Lesbian, Gay, Bisexual, Trans and Intersex Association|http://ilga.org/]] provides legal information on every country, as well as news and reports on the state of LGBTQI rights around the world|\u000a|[[International Gay & Lesbian Human Rights Commission|http://iglhrc.org/]] has extensive country-specific resources.|\u000a|[[Rainbow SIG bibliography|http://overseas.iu.edu/living/glbt_biblio.shtml]], bibliography of LGBQTI literature with an international perspective|\u000a|[[Rainbow SIG|http://www.rainbowsig.org/]], an organization of study abroad professionals|\u000a|[[ILGA-Europe|http://www.ilga-europe.org/]], the website of the International Lesbian, Gay, Bisexual, Trans and Intersex Association's European chapter, provides multiple resources, including a Guide to Europe|\u000a|[[Utopia|http://www.utopia-asia.com/]], an online guide to Asia-Pacific gay and lesbian resources, including legal and cultural information as well as links to country-specific resources|\u000a|[[Travel at Transgender Equality|http://transequality.org/Issues/travel.html]]: air travel tips for transgender people|\u000a|[[US passport requirements|http://travel.state.gov/content/passports/english/passports/information/gender.html]] for transgender students|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
+V<<sidebar "Sexual and gender identity abroad">>\u000aIf you identify as lesbian, gay, bisexual, transgender, queer/questioning, or intersex, you will want to take time to consider whether and how you plan to be out abroad. Depending on where you are traveling, your destination may provide you with either a more open environment than the US, or a much less welcoming one. Either way, be prepared: make yourself aware in advance of local attitudes, beliefs, and understandings. Ask yourself questions like the following:\u000a\u000a|box|k\u000a|!Questions for LGBTQI Students to Consider:|\u000a|What behaviors are legal in my host country? If I am interested in activism, are there ways to practice it both safely and legally?|\u000a|<hr>Is it safe for me to be out in my host country and city?|\u000a|<hr>How open do I want or need to be about my gender or sexual identity while abroad? Do I plan to be out? How specifically will I reconcile my human rights with the cultural values of my host country?|\u000a|<hr>If my destination is one where I need to conceal my identity, how will this impact my experience?|\u000a|<hr>What are the cultural norms surrounding friendship and dating in my host culture?|\u000a|<hr>What norms surround publicly identifying as LGBTQI in my host culture? How does my self-presentation "read" in my host culture's system of gendered norms and expectations?|\u000a|<hr>What is the LGBTQI community in my host city like? How is it different from the community at home?|\u000a|<hr>What on-site resources will I have if I experience any issues/concerns while I am abroad? Are there LGBTQI organizations or other resources at my host university or in my host city?|\u000a|<hr>Do I have concerns about my housing situation? (If living with a host family, consider making the housing coordinator aware that you would like a host family that has hosted LGBQTI students in the past.)|\u000a|<hr>Might I face challenges with travel and documents due to my gender presentation?|\u000a\u000aRegardless of self-identification, all students should be aware not only of local attitudes and beliefs surrounding sex and sexual identity, but also of local laws. Some countries criminalize speech as well as behavior, and you need to be well informed about matters that could affect your safety and well-being. The [[ILGA website|http://ilga.org/]] is a good resource for checking on legal regimes around the world. \u000a\u000aStudy abroad is often a time when students explore identity and selfhood. If you are not out at home and are considering being out abroad, please make doubly sure that you do your research and ensure that your safety and well-being are provided for. If you will live with a homestay family and want to be out to them, consider telling the housing coordinator in advance that you would like an LGBQTI-friendly family. You can stipulate that they keep your request confidential, including from the family.\u000a\u000aThe local LGBQTI community will likely be quite different from that in your home country. Coming to know and understand this new culture will likely be exciting and rewarding, but like any process of cultural adaptation it may also be trying at times. Learn as much as you can in advance, but also adopt the attitude that difficulties are challenges to overcome rather than merely obstacles in your way.\u000a\u000aIt may be helpful to talk with others who have studied or traveled in your host country. You may be able to take advantage of welcoming contexts on campus, such as the [[Office of LGBQTI Life|http://www.vanderbilt.edu/lgbtqi/]], to help you network with past participants. Your study abroad provider may be able to connect you with LGBQTI alumni of your specific program. Your program staff can also serve as an excellent resource both before you leave and while you're abroad.\u000a\u000aIf you would like to talk about any aspect of your program with the Global Education Office, please do not hesitate to [[contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]].\u000a\u000a|box|k\u000a|!Resources|\u000a|Vanderbilt's [[Office of LGBQTI Life|http://www.vanderbilt.edu/lgbtqi/]], a cultural center and resource for information and support about gender and sexuality|\u000a|[[International Lesbian, Gay, Bisexual, Trans and Intersex Association|http://ilga.org/]] provides legal information on every country, as well as news and reports on the state of LGBTQI rights around the world|\u000a|[[International Gay & Lesbian Human Rights Commission|http://iglhrc.org/]] has extensive country-specific resources.|\u000a|[[Rainbow SIG bibliography|http://overseas.iu.edu/living/glbt_biblio.shtml]], bibliography of LGBQTI literature with an international perspective|\u000a|[[Rainbow SIG|http://www.rainbowsig.org/]], an organization of study abroad professionals knowledgeable about LGBQTI issues|\u000a|[[ILGA-Europe|http://www.ilga-europe.org/]], the website of the International Lesbian, Gay, Bisexual, Trans and Intersex Association's European chapter, provides multiple resources, including a Guide to Europe|\u000a|[[Utopia|http://www.utopia-asia.com/]], an online guide to Asia-Pacific gay and lesbian resources, including legal and cultural information as well as links to country-specific resources|\u000a|[[Travel at Transgender Equality|http://transequality.org/Issues/travel.html]]: air travel tips for transgender people|\u000a|[[US passport requirements|http://travel.state.gov/content/passports/english/passports/information/gender.html]] for transgender students|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
 p899
 sg21
 VSexual and gender identity abroad
@@ -2861,13 +2861,13 @@ p900
 sg23
 g24
 ((I2014
-I5
-I22
-I13
-I14
-I27
-I3
-I142
+I7
+I23
+I15
+I12
+I59
+I2
+I204
 I1
 tp901
 (dp902
@@ -2907,7 +2907,7 @@ Tiddler
 p914
 (dp915
 g19
-V<<sidebar "Gender roles abroad">>\u000aExpectations surrounding gender roles vary from country to country, and even within countries. Because so much of our communication with others is interpreted in terms of gender, it is helpful to learn something about gender roles in your host culture. One of the best things about study abroad is making new friends, and you will want to avoid undue friction due to misunderstanding and miscommunication.\u000a\u000a|box|k\u000a|!Things to think about include:|\u000a|Americans are accustomed to having non-romantic friendships with the opposite sex. How does your host culture view opposite-sex friendships?|\u000a|<hr>If you are considering being sexually active abroad, research safe sex and birth control practices as well as attitudes toward sex outside marriage.|\u000a|<hr>What constitutes sexual harassment under local law or understanding?|\u000a|<hr>How do locals dress on the street? What might your manner of dress communicate to them about you?|\u000a\u000aWhile men studying abroad will certainly see cultural differences in their roles, it is women who will need to adapt most to local norms and values. North American women should be aware that they may face special sets of attitudes and assumptions.\u000a\u000a|box|k\u000a|!Women may want to further research questions like these:|\u000a|In some countries (particularly Latin countries), catcalls or other forms of harassment of women might be common. Is this sort of think likely in your country? How will you deal with it if so?|\u000a|<hr>What behaviors might be construed as sexual? Smiling or greeting strangers? Looking directly at others? Going out at night without a companion of the opposite sex?|\u000a\u000aIt can be useful to talk with [[study abroad alumni|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewDocument&File_ID=9604]] of your host country about what they've experienced. Get in touch with GEO to see if we can find you someone to talk to.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Women: What You Need to Know Abroad|http://www.ciee.org/gap-year-abroad/downloads/school-resources/Women.pdf]], a pamphlet for women traveling abroad|\u000a|[[Her Own Way|http://travel.gc.ca/travelling/publications/her-own-way]], a travel guide for women published by the Canadian government|\u000a|[[Tips about appropriate clothing from women travelers|\u000ahttp://www.journeywoman.com/ccc/default.html#women%20clothing]]|\u000a|[[Margaret Cuninggim Women\u2019s Center|http://www.vanderbilt.edu/WomensCenter/]] at Vanderbilt|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
+V<<sidebar "Gender roles abroad">>\u000aExpectations surrounding gender roles vary from country to country, and even within countries. Because so much of our communication with others is interpreted in terms of gender, it is helpful to learn something about gender roles in your host culture. One of the best things about study abroad is making new friends, and you will want to avoid undue friction due to misunderstanding and miscommunication.\u000a\u000a|box|k\u000a|!Things to think about include:|\u000a|Americans are accustomed to having non-romantic friendships with the opposite sex. How does your host culture view opposite-sex friendships?|\u000a|<hr>If you are considering being sexually active abroad, research safe sex and birth control practices as well as attitudes toward sex outside marriage.|\u000a|<hr>What constitutes sexual harassment under local law or understanding?|\u000a|<hr>How do locals dress on the street? What might your manner of dress communicate to them about you?|\u000a\u000aWhile men studying abroad will certainly see cultural differences in their roles, it is women who will need to adapt most to local norms and values. North American women should be aware that they may face special sets of attitudes and assumptions.\u000a\u000a|box|k\u000a|!Women may want to further research questions like these:|\u000a|In some countries (particularly Latin countries), catcalls or other forms of harassment of women might be common. Is this sort of thing likely in your host country? How will you deal with it if so?|\u000a|<hr>Are there stereotypes about North American women in particular? In many places, women from the US and Canada may be seen as "easy" or out for sexual adventure.|\u000a|<hr>What behaviors might be construed as sexual? Smiling or greeting strangers? Looking directly at others? Going out at night without a companion of the opposite sex?|\u000a\u000aIt can be useful to talk with [[study abroad alumni|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewDocument&File_ID=9604]] of your host country about what they've experienced. Get in touch with GEO to see if we can find you someone to talk to.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Women: What You Need to Know Abroad|http://www.ciee.org/gap-year-abroad/downloads/school-resources/Women.pdf]], a pamphlet for women traveling abroad|\u000a|[[Her Own Way|http://travel.gc.ca/travelling/publications/her-own-way]], a travel guide for women published by the Canadian government|\u000a|[[Tips about appropriate clothing from women travelers|\u000ahttp://www.journeywoman.com/ccc/default.html#women%20clothing]]|\u000a|[[Margaret Cuninggim Women\u2019s Center|http://www.vanderbilt.edu/WomensCenter/]] at Vanderbilt|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
 p916
 sg21
 VGender roles abroad
@@ -2916,12 +2916,12 @@ sg23
 g24
 ((I2014
 I7
+I23
+I14
+I54
+I24
 I2
-I13
-I27
-I59
-I2
-I183
+I204
 I1
 tp918
 (dp919
@@ -2961,7 +2961,7 @@ Tiddler
 p931
 (dp932
 g19
-V<<sidebar "Religious identity abroad">>\u000aReligion is a prominent feature of cultures around the world, even in countries that are officially atheist. During your time abroad, you will likely encounter fascinating and enriching ideas and practices. You may also experience things that challenge your notions of spiritual truth or even basic fairness. \u000a\u000aIf you plan to practice your own religion abroad, do some research first. You'll want to know whether there are convenient houses of worship, of course. But depending on where you are going, there may be safety issues to consider as well.\u000a\u000aIn some countries, there may be little commitment to religious pluralism. The state may sanction a religion. Or laws may restrict religious speech, particularly as it relates to political activism. In China, for example, it is illegal to use religion to "disrupt social order, impair the health of citizens, or interfere with the educational system of the state."\u000a\u000aEven if the society is generally an open one, be aware that safety concerns may still exist. Just as in the US, wearing symbols of some religions, or even frequenting houses of worship, may make you a target for passionate violence from other groups. \u000a\u000aWhatever your personal beliefs and circumstances, remember that your primary purpose is studying abroad. Consider your experiences an opportunity to understand the historical and social dimensions of religion in your host country. Be open-minded, save critical impulses for later, and open your own beliefs and practices to the same degree of scrutiny. If you approach your time in your host country as a time to learn about others' beliefs and attitudes, you can avoid many opportunities for conflict.\u000a\u000a|box|k\u000a|!Questions to ask yourself|\u000a|Is there a dominant religion in my host country?|\u000a|<hr>What laws exist pertaining to religion? Are there strong societal practices that, while not codified in law, might shape religious practice?|\u000a|<hr>How tolerant is my host country of religious diversity?|\u000a|<hr>How tolerant is my host country of nonbelief (i.e. atheism, agnosticism)?|\u000a|<hr>Where can I practice my religion?|\u000a|<hr>How safe is it for me to wear symbolic expressions of my religion in public?|\u000a|<hr>How can I accommodate my dietary requirements abroad?|\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Pluralism Project|http://www.pluralism.org/reports/links]], bibliography of research and websites on world religions|\u000a|[[International Religious Freedom|http://www.state.gov/j/drl/rls/irf/religiousfreedom/index.htm#wrapper]], the most recent report from the US State Department on religious freedom around the world|\u000a|[[Jewish Travel Advisor|http://jewishtraveladvisor.com/]], world-wide listing of kosher hotels and restaurants, synagogues, mikvaot, and Jewish communities around the world |\u000a|[[Halal Trip|http://www.halaltrip.com/city-guide-all]], website focused on Muslim travelers and including city guides with a focus on halal dining|\u000a\u000a<<segue "Contacts and communications">>\u005c
+V<<sidebar "Religious identity abroad">>\u000aReligion is a prominent feature of cultures around the world, even in countries that are officially atheist. During your time abroad, you will likely encounter fascinating and enriching ideas and practices. You may also experience things that challenge your notions of spiritual truth or even basic fairness. \u000a\u000aIf you plan to practice your own religion abroad, do some research first. You'll want to know whether there are convenient houses of worship, of course. But depending on where you are going, there may be safety issues to consider as well.\u000a\u000aIn some countries, there may be little commitment to religious pluralism. The state may sanction a religion. Or laws may restrict religious speech, particularly as it relates to political activism. In China, for example, it is a violation of the state constitution to use religion to "disrupt social order, impair the health of citizens, or interfere with the educational system of the state."\u000a\u000aEven if the society is generally an open one, be aware that safety concerns may still exist. Just as in the US, wearing symbols of some religions or frequenting houses of worship may make you a target for passionate violence from other groups. \u000a\u000aWhatever your personal beliefs and circumstances, remember that your primary purpose is studying abroad. Consider your experiences an opportunity to understand the historical and social dimensions of religion in your host country. Be open-minded, save critical impulses for later, and open your own beliefs and practices to the same degree of scrutiny. If you approach your time in your host country as a time to learn about others' beliefs and attitudes, you can avoid many opportunities for conflict.\u000a\u000a|box|k\u000a|!Questions to ask yourself|\u000a|Is there a dominant religion in my host country?|\u000a|<hr>What laws exist pertaining to religion? Are there strong societal practices that, while not codified in law, might shape religious practice?|\u000a|<hr>How tolerant is my host country of religious diversity? How tolerant am I of beliefs and practices in my host country?|\u000a|<hr>How tolerant is my host country of nonbelief (i.e. atheism, agnosticism)?|\u000a|<hr>Where can I practice my religion?|\u000a|<hr>How safe is it for me to wear symbolic expressions of my religion in public?|\u000a|<hr>How can I accommodate my dietary requirements abroad?|\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Pluralism Project|http://www.pluralism.org/reports/links]], bibliography of research and websites on world religions|\u000a|[[International Religious Freedom|http://www.state.gov/j/drl/rls/irf/religiousfreedom/index.htm#wrapper]], the most recent report from the US State Department on religious freedom around the world|\u000a|[[Jewish Travel Advisor|http://jewishtraveladvisor.com/]], world-wide listing of kosher hotels and restaurants, synagogues, mikvaot, and Jewish communities around the world |\u000a|[[Halal Trip|http://www.halaltrip.com/city-guide-all]], website focused on Muslim travelers and including city guides with a focus on halal dining|\u000a\u000a<<segue "Contacts and communications">>\u005c
 p933
 sg21
 VReligious identity abroad
@@ -2969,13 +2969,13 @@ p934
 sg23
 g24
 ((I2014
-I5
+I7
+I23
+I15
 I27
-I16
-I38
-I9
-I1
-I147
+I43
+I2
+I204
 I1
 tp935
 (dp936
@@ -3015,7 +3015,7 @@ Tiddler
 p948
 (dp949
 g19
-V<<sidebar "Being American abroad">>\u000aIf you grew up in the US and identify as American, your American-ness will probably be the most important factor in how natives of your host country relate to you. (This is true no matter what your background.) While other components of your identity may well be important factors, the fact that you are American will be a critical component of your identity abroad.\u000a\u000aBe prepared to encounter curiosity and interest. America's unique economic, political, and cultural position in the world mean that people all around the world take an interest. You may be asked all sorts of questions, from what it's like to live in America to what you think of politics and other issues in the US. (The FBI has recently warned that American students abroad may also be the target of espionage recruitment.)\u000a\u000aMost interest you receive will probably be friendly, even if frankly or passionately expressed! But do prepare yourself to encounter actual hostility as well, and to consider how you might handle it.\u000a\u000aIn many places, people may assume that because you are American, you are also rich. Or they may have other assumptions, based on media portrayals, local history with US policies or intervention, or other sources. Do some research before you go so that you can have some idea of what being an American might mean in your host country.\u000a\u000a|box|k\u000a|!Quick tip|\u000a|In some parts of the world, you should be careful about referring to yourself as "American." The entire Western Hemisphere is properly called America, and in Central and South America people may find the term "American" arrogant when used for just one country. Plan on referring to yourself as North American (//norteamericano//) instead.|\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Diversity Issues in Study Abroad|http://www.smith.edu/studyabroad/docs/diversity_st_abroad01.pdf]]: A booklet that collects statements of Brown University students about their experiences of identity abroad. A bit dated now, but many comments remain reflective of realities today.|\u000a|''A Student Guide to Study Abroad'', a guide to many aspects of the process of study abroad, is a physical volume that you are welcome to reference by visiting GEO's reading library.|\u000a\u000a<<segue "Contacts and communications">>\u005c
+V<<sidebar "Being American abroad">>\u000aIf you grew up in the US and identify as American, your American-ness will probably be the most important factor in how natives of your host country relate to you. (This is true no matter what your background.) While other components of your identity may be important factors, the fact that you are American will be a critical component of your identity abroad.\u000a\u000aBe prepared to encounter curiosity and interest. America's unique economic, political, and cultural position in the world means that people all around the world feel like they have a stake in what the US does. You may be asked all sorts of questions, from what it's like to live in America to what you think of politics and other issues in the US. (The FBI has recently warned that American students abroad may also be the target of espionage recruitment.)\u000a\u000aMost interest you receive will probably be friendly, even if frankly or passionately expressed. But do prepare yourself to encounter actual hostility as well, and to consider how you might handle it.\u000a\u000aIn many places, people may assume that because you are American, you are also rich. Or they may have other assumptions, based on media portrayals, local history with US policies or intervention, or other sources. Do some research before you go so that you can have some idea of what being an American might mean in your host country.\u000a\u000a|box|k\u000a|!Quick tip|\u000a|In some parts of the world, you should be careful about referring to yourself as "American." The entire Western Hemisphere is properly called America, and in Central and South America people may find the term "American" arrogant when used for just one country. Plan on referring to yourself as North American (//norteamericano//) instead.|\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Diversity Issues in Study Abroad|http://www.smith.edu/studyabroad/docs/diversity_st_abroad01.pdf]]: A booklet that collects statements of Brown University students about their experiences of identity abroad. A bit dated now, but many comments remain reflective of realities today.|\u000a|''A Student Guide to Study Abroad'', a guide to many aspects of the process of study abroad, is a physical volume that you are welcome to reference by visiting GEO's reading library.|\u000a\u000a<<segue "Contacts and communications">>\u005c
 p950
 sg21
 VBeing American abroad
@@ -3023,13 +3023,13 @@ p951
 sg23
 g24
 ((I2014
-I5
-I21
-I8
-I58
-I35
+I7
+I23
+I14
+I49
+I14
 I2
-I141
+I204
 I1
 tp952
 (dp953
@@ -3061,7 +3061,7 @@ g12
 I00
 sg13
 (lp964
-F665.0
+F521.666666666667
 aF1291.6666666666647
 asg15
 (itiddlywiki
@@ -3069,7 +3069,7 @@ Tiddler
 p965
 (dp966
 g19
-V<<sidebar "More on credit cards">>\u000aEurope and much of the rest of the world are moving to chip-and-PIN (or EMV) "smart" credit cards. These cards offer more secure transactions by adding an embedded microchip and replacing easily forged signatures with the entry of a PIN number.\u000a\u000aStudents should be able to function abroad with a regular US swipe card, which are still accepted by most businesses. However, US swipe cards are not likely to work at most self-serve kiosks.\u000a\u000aDepending on your bank, it may be possible for you to get a chip-and-PIN card in the US for use overseas. If you decide to explore this route, be aware that there is a difference between chip-and-PIN and chip-and-signature cards. Chip-and-signature cards will not work in automated kiosks abroad, for example.\u000a\u000aRegardless of whether you choose a chip-embedded card, you may want to shop around for banks and credit card companies before you leave. Seek out cards that carry low foreign transaction fees, as well as debit card providers with overseas partnerships that allow for lower ATM fees.\u000a\u000a<<segue "Where will you live?">>
+V<<sidebar "More on credit cards">>\u000aEurope and much of the rest of the world are moving to chip-and-PIN (or EMV) "smart" credit cards. These cards offer more secure transactions by adding an embedded microchip and replacing easily forged signatures with the entry of a PIN number.\u000a\u000aYou should be able to function abroad with a regular US swipe card, which are still accepted by most businesses. However, US swipe cards are not likely to work at most self-serve kiosks.\u000a\u000aDepending on your bank, it may be possible for you to get a chip-and-PIN card in the US for use overseas. If you decide to explore this route, be aware that there is a difference between "chip-and-PIN" and "chip-and-signature" cards. Chip-and-signature cards will not work in automated kiosks abroad, for example.\u000a\u000aRegardless of whether you choose a chip-embedded card, you may want to shop around for banks and credit card companies before you leave. Seek out cards that carry low foreign transaction fees, as well as debit card providers with overseas partnerships that allow for lower ATM fees.\u000a\u000a<<segue "Where will you live?">>
 p967
 sg21
 VMore on credit cards
@@ -3077,13 +3077,13 @@ p968
 sg23
 g24
 ((I2014
-I5
+I7
 I23
-I8
-I48
-I47
-I4
-I143
+I16
+I57
+I5
+I2
+I204
 I1
 tp969
 (dp970

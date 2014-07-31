@@ -949,12 +949,12 @@ sg23
 g24
 ((I2014
 I7
+I31
+I15
 I23
-I16
-I59
-I39
-I2
-I204
+I14
+I3
+I212
 I1
 tp307
 (dp308
@@ -1162,13 +1162,13 @@ p373
 sg23
 g24
 ((I2014
-I5
-I27
+I7
+I31
 I15
-I49
-I6
-I1
-I147
+I25
+I34
+I3
+I212
 I1
 tp374
 (dp375
@@ -1258,7 +1258,7 @@ Tiddler
 p402
 (dp403
 g19
-V!Where will you live?\u000a!!!!What choices do you have in your housing abroad?\u000aSome programs offer you the opportunity to select from multiple housing options. <<if $facultyled eq false>>Which should you choose? (If you're not sure about your housing options, talk to the GEO advisor for your program.)\u000a\u000aThe answer, of course, depends on what you are hoping to get out of your time overseas. \u000a\u000aBut since you may be facing a choice soon, we want to share with you what alumni of Vanderbilt study abroad tell us in their program evaluations: Students who live with natives of their host country typically report greater satisfaction with their housing and integration into the local culture than students who live with Americans. This is true whether students lived with a homestay family or with native roommates of their own age.\u000a<<display "Housing chart">>\u005c\u000a<<else>>You will receive more information from your instructor about housing abroad. If your program has a component in Nashville, you may want to ask your instructor about housing here on campus.\u000a<</if>>\u000aPlease note that [[Vanderbilt University policy|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=65#housing]] does not allow you to find your own housing, //unless// your program doesn't offer prearranged housing.\u000a   \u000a<<segue "Eating and diet">>\u005c
+V!Where will you live?\u000a!!!!What choices do you have in your housing abroad?\u000aSome programs offer you the opportunity to select from multiple housing options. <<if $facultyled eq false>>Which should you choose? (If you're not sure about your housing options, talk to the GEO advisor for your program.)\u000a\u000aThe answer, of course, depends on what you are hoping to get out of your time overseas. \u000a\u000aBut since you may be facing a choice soon, we want to share with you what alumni of Vanderbilt study abroad tell us in their program evaluations: Students who live with natives of their host country typically report greater satisfaction with their housing and integration into the local culture than students who live with Americans. This is true whether students lived with a homestay family or with native roommates of their own age.\u000a<<display "Housing chart">>\u005c\u000a<<else>>You will receive more information from your instructor about housing abroad. If your program has a component in Nashville, you may want to ask your instructor about housing here on campus.\u000a<</if>>\u000aPlease note that [[Vanderbilt University policy|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=65#housing]] does not allow you to find your own housing. The only exception to this rule is programs that don't offer prearranged housing.\u000a   \u000a<<segue "Eating and diet">>\u005c
 p404
 sg21
 VWhere will you live?
@@ -1266,13 +1266,13 @@ p405
 sg23
 g24
 ((I2014
-I5
-I27
+I7
+I31
 I15
-I48
-I57
-I1
-I147
+I25
+I12
+I3
+I212
 I1
 tp406
 (dp407
@@ -1310,21 +1310,21 @@ Tiddler
 p418
 (dp419
 g19
-V<<sidebar "Where to Find Crucial Information About Your Medications">>\u000aThere are two pieces of information that it will be useful or even critical for you to know about your medications: the legal status of the drug in your host country, and the generic/chemical name and/or the local brand names it goes by.\u000a\u000aTo ''find the generic or chemical name'' of a drug, you can check the National Institutes of Health's [[MedlinePlus website|http://www.nlm.nih.gov/medlineplus/druginformation.html]]. It may be somewhat trickier to find out the brand name the drug might be sold under in your host country, but [[this tool from HTH Worldwide Insurance|https://www.hthstudents.com/drug/index1.cfm]] will provide answers in most cases.\u000a\u000aTo ''find out if any of your medications are restricted or banned'' in your host country, contact the country's embassy here in the US. The US Department of State provides a [[directory of foreign embassies|http://www.state.gov/s/cpr/rls/dpl/32122.htm]]. Even some over-the-counter drugs may be more restricted abroad, so ask if you have doubts.\u000a\u000aWhatever the legal status of your medications, ''request a letter from your physician'' explaining why the drugs you are transporting have been prescribed to you. Also include over-the-counter drugs if needed. You will want to take this letter with you //whenever you travel!// Request that your doctor use the local brand names or generic/chemical names for your drugs.\u000a\u000aWhen possible, ''take enough medicine with you to cover your entire stay abroad''. If your medicine is only available in limited supply, please discuss with your physician and program staff how you will obtain enough  for your stay. Please be aware that medications //cannot be sent through the mail!//\u000a\u000a|box|k\u000a|!Resources|\u000a|[[MedlinePlus|http://www.nlm.nih.gov/medlineplus/druginformation.html]], information on prescription and over-the-counter drugs, including generic/chemical names|\u000a|[[HTH Drug Translation Guide|https://www.hthstudents.com/drug/index1.cfm]], offers equivalent brand names and availability for frequently visited countries/destinations|\u000a|[[Directory of Foreign Embassies|http://www.state.gov/s/cpr/rls/dpl/32122.htm]], US Department of State|\u000a|[[Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]] from the US Department of State|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a\u000a<<segue "Medical insurance">>\u005c
+V<<sidebar "Where to Find Crucial Information About Your Medications">>\u000aThere are two pieces of information that it will be useful or even critical for you to know about your medications: the legal status of the drug in your host country, and the generic/chemical name and/or the local brand names it goes by.\u000a\u000aTo ''find out if any of your medications are restricted or banned'' in your host country, contact the country's embassy here in the US. The US Department of State provides a [[directory of foreign embassies|http://www.state.gov/s/cpr/rls/dpl/32122.htm]]. Even some over-the-counter drugs may be more restricted abroad, so ask if you have doubts.\u000a\u000aTo ''find the generic or chemical name'' of a drug, you can check the National Institutes of Health's [[MedlinePlus website|http://www.nlm.nih.gov/medlineplus/druginformation.html]]. It may be somewhat trickier to find out the brand name the drug might be sold under in your host country, but [[this tool from HTH Worldwide Insurance|https://www.hthstudents.com/drug/index1.cfm]] will provide answers in most cases.\u000a\u000aWhatever the legal status of your medications, ''request a letter from your physician'' explaining why the drugs you are transporting have been prescribed to you. Also include over-the-counter drugs if needed. You will want to take this letter with you //whenever you travel!// Request that your doctor use the local brand names or generic/chemical names for your drugs.\u000a\u000aWhen possible, ''take enough medicine with you to cover your entire stay abroad''. If your medicine is only available in limited supply, please discuss with your physician and program staff how you will obtain enough  for your stay. Please be aware that medications //cannot be sent through the mail!//\u000a\u000a|box|k\u000a|!Resources|\u000a|[[MedlinePlus|http://www.nlm.nih.gov/medlineplus/druginformation.html]], information on prescription and over-the-counter drugs, including generic/chemical names|\u000a|[[HTH Drug Translation Guide|https://www.hthstudents.com/drug/index1.cfm]], offers equivalent brand names and availability for frequently visited countries/destinations|\u000a|[[Directory of Foreign Embassies|http://www.state.gov/s/cpr/rls/dpl/32122.htm]], US Department of State|\u000a|[[Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]] from the US Department of State|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a\u000a<<segue "Medical insurance">>\u005c
 p420
 sg21
-VMedications
+VInformation about medications
 p421
 sg23
 g24
 ((I2014
-I5
-I30
-I10
-I59
-I29
-I4
-I150
+I7
+I31
+I15
+I45
+I19
+I3
+I212
 I1
 tp422
 (dp423
@@ -1364,7 +1364,7 @@ Tiddler
 p435
 (dp436
 g19
-V!Before you leave\u000a!!!!Know where you are medically before you depart\u000aRegardless of whether you have an existing medical condition, there are a few things you should do before you go abroad.\u000a\u000aFirst, consult with a travel medicine clinic about any ''vaccinations'' that might be necessary or advisable. You should do this as soon as possible!\u000a\u000aMeet with your medical, dental, and other care providers for a ''full checkup''. You don't want to be blindsided by an unnoticed condition when you arrive in your new location!\u000a\u000aIf you have an existing medical condition, have an honest discussion with your care providers about your current history and ''how study abroad will fit into your care plan''.\u000a\u000aWhile you know your history, your program staff does not. In an emergency, you may not be able to relay information that is critical to your care. //Please// ''disclose any physical or mental health conditions'' to your program staff prior to arrival. You can use the program's medical history form, or send an email detailing your history and current care plan.\u000a\u000aLearn the generic names and legal status of any ''prescription medications'' you take //before// you leave the US. Request a letter from your physician explaining your use of prescription and over-the-counter drugs to ensure that you will be allowed entry to your host country.\u000a\u000a<<sidebar-box>>\u000a   [[Do I need any vaccinations?|Vaccination]]\u000a   [[How do I find out more about my medications?|Medications]]\u000a   [[Should I really disclose my medical information?|Disclosing medical information]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Medical insurance">>
+V!Before you leave\u000a!!!!Know where you are medically before you depart\u000aRegardless of whether you have an existing medical condition, there are a few things you should do before you go abroad.\u000a\u000aFirst, consult with a travel medicine clinic about any ''vaccinations'' that might be necessary or advisable. You should do this as soon as possible!\u000a\u000aMeet with your medical, dental, and other care providers for a ''full checkup''. You don't want to be blindsided by an unnoticed condition when you arrive in your new location.\u000a\u000aIf you have an existing medical condition, have an honest discussion with your care providers about your current history and ''how study abroad will fit into your care plan''.\u000a\u000aWhile you know your history, your program staff does not. In an emergency, you may not be able to relay information that is critical to your care. //Please// ''disclose any physical or mental health conditions'' to your program staff prior to arrival. You can use the program's medical history form, or send an email detailing your history and current care plan.\u000a\u000aLearn the generic names and legal status of any ''prescription medications'' you take //before// you leave the US. Request a letter from your physician explaining your use of prescription and over-the-counter drugs to ensure that you will be allowed entry into your host country.\u000a\u000a<<sidebar-box>>\u000a   [[Do I need any vaccinations?|Vaccinations]]\u000a   [[How do I find out more about my medications?|Information about medications]]\u000a   [[Should I really disclose my medical information?|Disclosing medical information]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Medical insurance">>
 p437
 sg21
 VBefore you leave
@@ -1372,13 +1372,13 @@ p438
 sg23
 g24
 ((I2014
-I5
-I27
-I16
-I48
-I25
-I1
-I147
+I7
+I31
+I15
+I40
+I0
+I3
+I212
 I1
 tp439
 (dp440
@@ -1411,14 +1411,14 @@ I00
 sg13
 (lp451
 F980.9999999999984
-aF274.33333333333337
+aF272.6666666666667
 asg15
 (itiddlywiki
 Tiddler
 p452
 (dp453
 g19
-V!Culture shock\u000a!!!!The process of adjusting to a new culture\u000aStudy abroad is an amazing time in the lives of students. However, it is natural to have difficulty adjusting to a new culture. We call the feelings associated with this adaptation process "culture shock," and they take a variety of forms. These may include homesickness, sadness, loneliness, frustration, anxiety, difficulty concentrating, and more.\u000a\u000aCulture shock is usually not sudden or "shocking." Instead, it is part of a continuum of feelings. Usually, there is a period of excitement when you first arrive--there is so much to see and do! Feelings of culture shock typically come soon after. The good news is that culture shock is temporary. Nearly all students will, after a few weeks, adjust to and thrive in their new surroundings.\u000a\u000aHow long culture shock lasts and how difficult it is, of course, differs depending on the person. If you are having a hard time adjusting, especially if others on your program seem to be doing fine, reach out to your resident staff or director to explain what you are feeling.\u000a\u000aKeep in mind that you will likely experience a similar adjustment period when you return home and back to Vanderbilt. Students often tell us that this "shock" is harder than going abroad. \u000a\u000a<<sidebar-box>>\u000a   [[How should I cope with culture shock or other stress abroad?|Coping with stress and culture shock]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Illness abroad">>\u005c
+V!Culture shock\u000a!!!!The process of adjusting to a new culture\u000aStudy abroad is an amazing time in the lives of students. Yet it is natural to have difficulty adjusting to a new culture. We call the feelings associated with this adaptation process "culture shock," and they take a variety of forms. These may include homesickness, sadness, loneliness, frustration, anxiety, difficulty concentrating, and more.\u000a\u000aCulture shock is usually not sudden or "shocking." Instead, it is part of a continuum of feelings. Usually, there is a period of excitement when you first arrive--there is so much to see and do! Feelings of culture shock typically come soon after. The good news is that culture shock is temporary. Nearly all students will, after a few weeks, adjust to and thrive in their new surroundings.\u000a\u000aHow long culture shock lasts and how difficult it is, of course, differs depending on the person. If you are having a hard time adjusting--especially if others on your program seem to be doing fine--reach out to your resident staff or director to explain what you are feeling.\u000a\u000aKeep in mind that you will likely experience a similar adjustment period when you return home and back to Vanderbilt. Students often tell us that this "shock" is harder than going abroad. \u000a\u000a<<sidebar-box>>\u000a   [[How should I cope with culture shock or other stress abroad?|Coping with stress and culture shock]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Illness abroad">>\u005c
 p454
 sg21
 VCulture shock
@@ -1426,13 +1426,13 @@ p455
 sg23
 g24
 ((I2014
-I5
-I28
-I13
-I1
-I0
-I2
-I148
+I7
+I31
+I15
+I50
+I52
+I3
+I212
 I1
 tp456
 (dp457
@@ -1470,21 +1470,21 @@ Tiddler
 p468
 (dp469
 g19
-V<<sidebar "Do I Need Any Vaccinations?">>\u000aTo find out whether any vaccinations are required or recommended for your trip abroad, you may visit the [[Vanderbilt Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]]. You are also, of course, welcome to see a travel medicine provider of your choice.\u000a\u000aRegardless of who you consult, schedule your initial appointment ''at least 6 weeks before your departure''. Think about //all// of the countries you hope to visit and discuss them all with your travel clinician.   \u000a\u000aBe aware that most ''medical insurance usually does not cover immunizations'' or other medications needed for travel!\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Centers for Disease Control travel website|http://wwwnc.cdc.gov/travel]], an excellent resource with country-specific information|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[VU Student Health Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]], information including list of documents to bring to your consultation|\u000a|[[List of information about vaccines|https://medschool.vanderbilt.edu/student-health/files/student-health/public_files/TravelImmunizations.pdf]] offered at VU Student Health, including approximate cost|\u000a\u000a<<segue "Medical insurance">>
+V<<sidebar "Do I Need Any Vaccinations?">>\u000aTo find out whether any vaccinations are required or recommended for your trip abroad, you may visit the [[Vanderbilt Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]]. You are also, of course, welcome to see a travel medicine provider of your choice.\u000a\u000aRegardless of who you consult, schedule your initial appointment ''at least 6 weeks before your departure''. Think about //all// of the countries you hope to visit and discuss them all with your travel clinician.   \u000a\u000aBe aware that most ''medical insurance usually does not cover immunizations'' or other medications needed for travel.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Centers for Disease Control travel website|http://wwwnc.cdc.gov/travel]], an excellent resource with country-specific information|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[VU Student Health Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]], information including list of documents to bring to your consultation|\u000a|[[List of information about vaccines|https://medschool.vanderbilt.edu/student-health/files/student-health/public_files/TravelImmunizations.pdf]] offered at VU Student Health, including approximate cost|\u000a\u000a<<segue "Medical insurance">>
 p470
 sg21
-VVaccination
+VVaccinations
 p471
 sg23
 g24
 ((I2014
-I5
-I29
-I9
-I35
-I34
+I7
+I31
+I15
+I39
+I49
 I3
-I149
+I212
 I1
 tp472
 (dp473
@@ -1524,7 +1524,7 @@ Tiddler
 p485
 (dp486
 g19
-V!Medical Insurance\u000a!!!!You are covered by international insurance\u000aYou will be enrolled in international health insurance by your program provider, Vanderbilt GEO, or both (depending on the scope of the provider's coverage). Be sure to read your insurance benefits and know how to access health care providers in your host country. Also ''know what your insurance covers'' and how to file and pay claims.\u000a\u000a''This insurance only covers you for the official dates of your program and //outside the United States//.'' GEO strongly encourages all students to maintain health insurance in their home country. If unforeseen circumstances force you to return home, you want subsidized care to be available.\u000a\u000aIf you are currently under medical care, your international health insurance can help in locating an appropriate care provider in your host country. Plan ahead!  If you know you want to continue care overseas, contact your international insurance //before// you leave the US.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Medical Care and Insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]], a brief guide|\u000a|[[Brief plan info for HTH Worldwide Health Insurance|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]: If you have HTH health insurance through GEO, this is basic description of your plan. You may contact HTH for more information on particulars.|\u000a\u000a<<segue "Culture shock">>\u005c
+V!Medical Insurance\u000a!!!!You are covered by international insurance\u000aYou will be enrolled in international health insurance by your program provider, Vanderbilt GEO, or both (depending on the scope of the provider's coverage). Be sure to read your insurance benefits and know how to access health care providers in your host country. Also ''know what your insurance covers'' and how to file and pay claims.\u000a\u000a''This insurance only covers you outside the United States.'' GEO strongly encourages all students to maintain health insurance in their home country. If unforeseen circumstances force you to return home, you want subsidized care to be available.\u000a\u000aInternational health insurance usually ''only covers you for the official dates of your program.'' If you are planning to travel before or after your program begins, GEO recommends that you purchase additional short-term coverage. You are free to select any provider, but [[HTH Worldwide Insurance|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=E83863BD-9A32-7CA0-B92DCF0450860B55&Link_ID=C8CB82A5-C1FE-003A-1004174A4A63A5FD&pID=13&lID=69]] is readily available at reasonable prices. \u000a\u000aIf you are currently under medical care, your international health insurance can help in locating an appropriate care provider in your host country. Plan ahead!  If you know you want to continue care overseas, contact your international insurance //before// you leave the US.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Medical Care and Insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]], a brief guide|\u000a|[[Brief plan info for HTH Worldwide Health Insurance|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]: If you have HTH health insurance through Vanderbilt GEO, this is a basic description of your plan. You may contact HTH for more information on particulars.|\u000a\u000a<<segue "Culture shock">>\u005c
 p487
 sg21
 VMedical insurance
@@ -1532,13 +1532,13 @@ p488
 sg23
 g24
 ((I2014
-I5
-I30
-I9
-I10
-I0
-I4
-I150
+I7
+I31
+I15
+I48
+I52
+I3
+I212
 I1
 tp489
 (dp490
@@ -1576,7 +1576,7 @@ Tiddler
 p501
 (dp502
 g19
-V!Illness abroad\u000a!!!!Know attendance policies and who to contact\u000aIf you become sick while abroad think about who can best help you. It will usually be someone on site, with your program's resident director or staff at the top of the list. Don't contact home for help unless you've exhausted all your local contacts.\u000a\u000aWhen you arrive at your program site, you should receive a list of all appropriate emergency contacts for your program or host university, as well as for emergency services (police, ambulance, etc.). If you don't receive this information, ask for it! Also consider recording it on a [[handy wallet-sized card|http://studentsabroad.com/handbook/emergency-card.php?country=General]].\u000a\u000aRemember that phone numbers for emergency services will be different in each country you might visit. Get that information before you take a side trip!\u000a\u000aBe aware of the absence and illness policies for your program or host university. They may differ drastically from Vanderbilt policies! Always keep your program staff in the loop while ill (via email or phone). \u000a\u000aBe sure to keep any doctor's notes for your files! You may need them later for academic or medical reasons.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[Emergency services numbers abroad|http://studentsabroad.state.gov/content/pdfs/911_ABROAD.pdf]], the US Department of State's list of 911 equivalents around the world|\u000a|[[Vanderbilt's Psychological Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]] As a Vanderbilt student, the PCC is available to you wherever you are in the world|\u000a\u000a<<segue "Preparing for safety">>\u005c
+V!Illness abroad\u000a!!!!Know attendance policies and who to contact\u000aThink about who can best help you if you become sick while abroad. It will usually be someone on site, with your program's resident director or staff at the top of the list. Don't contact home for help unless you've exhausted all your local contacts.\u000a\u000aWhen you arrive at your program site, you should receive a list of all appropriate emergency contacts for your program or host university, as well as for emergency services (police, ambulance, etc.). If you don't receive this information, ask for it! Also consider recording it on a [[handy wallet-sized card|http://studentsabroad.com/handbook/emergency-card.php?country=General]].\u000a\u000aRemember that phone numbers for emergency services will be different in each country you might visit. Get that information before you take a side trip.\u000a\u000aBe aware of the absence and illness policies for your program or host university. They may differ drastically from Vanderbilt policies. Always keep your program staff in the loop while ill (via email or phone). \u000a\u000aBe sure to keep any doctor's notes for your files. You may need them later for academic or medical reasons.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[Emergency services numbers abroad|http://studentsabroad.state.gov/content/pdfs/911_ABROAD.pdf]], the US Department of State's list of 911 equivalents around the world|\u000a|[[Vanderbilt's Psychological Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]]|\u000a\u000a<<segue "Preparing for safety">>\u005c
 p503
 sg21
 VIllness abroad
@@ -1584,13 +1584,13 @@ p504
 sg23
 g24
 ((I2014
-I5
-I30
-I10
-I26
-I33
-I4
-I150
+I7
+I31
+I15
+I59
+I40
+I3
+I212
 I1
 tp505
 (dp506
@@ -2585,7 +2585,7 @@ Tiddler
 p813
 (dp814
 g19
-V!Making __local__ friends\u000a!!!!Get involved--outside your comfort zone!\u000aGEO strongly encourages our students to get to know local people and students in more than superficial ways. Not only does this provide the greatest opportunities for building cross-cultural and language skills, it will also give you a more meaningful experience. But getting to know locals can seem daunting. Here are some tips!\u000a\u000aIn most countries, your visa or residence permit will allow you to ''volunteer'' in the community or even do an ''internship'' or other paid work: fantastic ways to immerse yourself in the local community while also beefing up your resume! If you have questions about whether you can volunteer in your country, [[contact GEO|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]].\u000a\u000aIf you will be living with a ''host family'', explore the opportunities provided by their wider social network. They likely know people that you might like to get to know!\u000a\u000aIf you are enrolled in or taking classes at a university, join ''student organizations'' on campus. Your campus probably has many clubs and intramural sports, and joining up is a great way to find locals who share your interests.\u000a\u000aVisit your university's ''office of international student services''. In addition to local knowledge about bus routes and student discounts, they may offer inexpensive excursions and other social opportunities.\u000a\u000aMost important, ''put yourself out there!'' It may be uncomfortable at first, but it will pay off in the long run!\u000a\u000a<<sidebar-box "Homestays">>\u000a   [[Gifts and relationships|Gifts and relationships]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Before you leave">>\u000a
+V!Making __local__ friends\u000a!!!!Get involved--outside your comfort zone\u000aGEO strongly encourages our students to get to know local people and students in more than superficial ways. Not only does this provide the greatest opportunities for building cross-cultural and language skills, it will also give you a more meaningful experience. But getting to know locals can seem daunting. Here are some tips.\u000a\u000aIn most countries, your visa or residence permit will allow you to ''volunteer'' in the community or even do an ''internship'': fantastic ways to immerse yourself in the local culture while also beefing up your resume. If you have questions about whether you can volunteer in your country, [[contact GEO|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]] or your program provider.\u000a\u000aIf you will be living with a ''host family'', explore the opportunities provided by their wider social network. They likely know people that you might like to get to know!\u000a\u000aIf you are enrolled in or taking classes at a university, join ''student organizations'' on campus. Your campus probably has many clubs and intramural sports, and joining up is a great way to find locals who share your interests.\u000a\u000aVisit your university's ''office of international student services''. In addition to local knowledge about bus routes and student discounts, they may offer inexpensive excursions and other social opportunities.\u000a\u000aMost important, ''put yourself out there!'' It may be uncomfortable at first, but it will pay off in the long run.\u000a\u000a<<sidebar-box "Homestays">>\u000a   [[Gifts and relationships|Gifts and relationships]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Before you leave">>\u000a
 p815
 sg21
 VMaking local friends
@@ -2593,13 +2593,13 @@ p816
 sg23
 g24
 ((I2014
-I5
-I19
-I9
-I46
-I23
-I0
-I139
+I7
+I31
+I15
+I36
+I53
+I3
+I212
 I1
 tp817
 (dp818
@@ -2637,7 +2637,7 @@ Tiddler
 p829
 (dp830
 g19
-V<<sidebar "Gifts and Relationships">>\u000aPresenting a gift shows that you place importance on a relationship. Consider a gift to start off your more important relationships abroad, such as with your homestay family or a host-country roommate.\u000a\u000aIn a cross-cultural setting, the best gifts can be those that let you bring a little of where you're from to the relationship. Examples might include a Vanderbilt mug or pendant, a photo book about Nashville or your hometown, maple syrup if you're from Vermont, or maybe biscuit or grits mix if you're from the South. Not only are gifts like these polite, positive, well-meaning gestures, they can also spur conversations ("Is a biscuit the same thing as a scone?")\u000a\u000aPhotos of home are another great conversation starter. Make sure you have along some photos of your family, your house, your campus, your hobbies, etc. It's a great way for people to feel like they are getting to know you and where you come from. \u000a\u000a<<segue "Before you leave">>\u005c
+V<<sidebar "Gifts and Relationships">>\u000aPresenting a gift shows that you place importance on a relationship. Consider a gift to start off your more important relationships abroad, such as with your homestay family or a host-country roommate.\u000a\u000aIn a cross-cultural setting, the best gifts can be those that let you bring a little of where you're from to the relationship. Examples might include a Vanderbilt mug or pendant, a photo book about Nashville or your hometown, maple syrup if you're from Vermont, or maybe biscuit or grits mix if you're from the South. Not only are gifts like these polite, positive, well-meaning gestures, they can also spur conversations ("Is a biscuit the same thing as a scone?").\u000a\u000aPhotos of home are another great conversation starter. Make sure you bring along some photos of your family, your house, your campus, your hobbies, and so on. It's a great way for people to feel like they are getting to know you and where you come from. \u000a\u000a<<segue "Before you leave">>\u005c
 p831
 sg21
 VGifts and relationships
@@ -2645,13 +2645,13 @@ p832
 sg23
 g24
 ((I2014
-I5
-I19
-I9
-I43
-I28
-I0
-I139
+I7
+I31
+I15
+I37
+I35
+I3
+I212
 I1
 tp833
 (dp834
@@ -3123,7 +3123,7 @@ Tiddler
 p982
 (dp983
 g19
-V<<sidebar "Disclosing medical information">>\u000aGEO strongly recommends that you disclose all medical conditions to your program staff. Even if you are diligent in the management of your health, studying abroad can present challenges you may not have foreseen. You or your body may react in unexpected ways. It is in your best interest to give your on-site staff the tools necessary to ensure you have a safe and successful time abroad. \u000a\u000aAny health-related history you provide is used to support your stay. It would only be shared in the case of a medical or mental health emergency--and only with the appropriate clinicians or staff on site. \u000a\u000aYou might even consider signing a Release of Information (ROI) form with your physician. This document would grant your doctor permission to share your medical history with the person(s) named in the ROI. This would enable you to be cared for in the event that you were incapacitated and unable to grant the permission yourself.\u000a\u000a<<segue "Medical insurance">>\u005c\u000a
+V<<sidebar "Disclosing medical information">>\u000aGEO strongly recommends that you disclose all medical and mental health conditions to your program staff. Even if you are diligent in the management of your health, studying abroad can present challenges you may not have foreseen. You or your body may react in unexpected ways. It is in your best interest to give your on-site staff the tools necessary to ensure you have a safe and successful time abroad. \u000a\u000aAny health-related history you provide is used to support your stay. It would only be shared in the case of a medical or mental health emergency--and only with the appropriate clinicians or staff on site. It will definitely //not// be used to determine your eligibility to participate in the program!\u000a\u000aYou might even consider signing a Release of Information (ROI) form with your physician. This document would grant your doctor permission to share your medical history with the person(s) named in the ROI. This would enable you to be cared for in the event that you were incapacitated and unable to grant the permission yourself.\u000a\u000a<<segue "Medical insurance">>\u005c\u000a
 p984
 sg21
 VDisclosing medical information
@@ -3131,13 +3131,13 @@ p985
 sg23
 g24
 ((I2014
-I5
-I29
-I9
-I35
-I28
+I7
+I31
+I15
+I31
+I56
 I3
-I149
+I212
 I1
 tp986
 (dp987
@@ -3177,7 +3177,7 @@ Tiddler
 p999
 (dp1000
 g19
-V<<sidebar "Coping with stress & culture shock">>\u000aCulture shock is one expression of stress, but even after culture shock passes, living and studying abroad may sometimes be stressful. Stress may be harder to manage when you are far from your normal support group of family and friends. Learn to recognize the signs of stress and take steps to cope with the situation and make yourself more resilient.\u000a\u000a|box|k\u000a|>|>|Common signs of stress|h\u000a|exhaustion|fatigue|change in appetite|\u000a|anxiety|isolation|alienation|\u000a|frustration|extreme homesickness|increased use of nicotine, alcohol or drugs|\u000a|loneliness|change in behavior|self-harming|\u000a|>|>|new or more frequent physical symptoms, e.g. headaches, stomachaches, etc.|\u000a\u000aOne of the best ways to combat stress in a new environment is to prepare for the new location. ''Learn as much as you can about your host city'' before you go. Read up on climate, foods, politics, culture, religion, and more. Buy a phrasebook and try to learn some of the basics of the language.\u000a\u000a''Take a step back.'' Analyze your situation and study your own reactions. Where exactly is the stress coming from? Ask yourself if cultural differences might be a contributing factor, and how you can work with or around them. Focus on what you can change or control, not on what you can't: If you can't change the situation, work on changing your reactions to it.\u000a\u000a''Take care of your body.'' Be sure that you are staying active, eating well, and getting enough sleep. Work on being positive, and be active--get out of your room.\u000a\u000a''Identify what helps you //healthfully// manage stress.'' Avoid using pills, drugs, alcohol, cigarettes, over- or under-eating, and oversleeping to manage stress. Instead, focus on healthy antidotes and find the ones that work for you. Ideas include exercise, keeping a journal, regular social contact with //positive// people, hobbies, other leisure activities, or cultural activities.\u000a\u000a''Find your social support.'' Identify your support groups both locally and at home. These might include program staff, housing staff, homestay family, friends, home university staff, or family. Ask yourself who can best offer you the support you need, and ask for it!\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Life in a Foreign Culture|http://www.northwestern.edu/studyabroad/outbound-students/life-in-a-foreign-culture-tips-for-cultural-adjustment-while-abroad.html]], tips to ease your cultural adjustment|\u000a|[[Culture Shock, Homesickness, and the "Aha Moment"|http://thestudyabroadblog.com/culture-shock-and-homesickness/]], firsthand description of culture shock, and of both failed and successful coping|\u000a|[[HelpGuide: Stress Management|http://collegelife.about.com/od/healthwellness/ht/Stress.htm]], practical tips for handling stress|\u000a|[[How Stress Affects Your Health|http://www.apa.org/helpcenter/stress.aspx]], info from the American Psychological Association|\u000a|[[Vanderbilt's Psychological Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]] As a student at Vanderbilt, the PCC is available to you wherever you are in the world|\u000a\u000a<<segue "Illness abroad">>\u005c
+V<<sidebar "Coping with stress & culture shock">>\u000aCulture shock is one expression of stress, but even after culture shock passes, living and studying abroad may sometimes be stressful. Stress may be harder to manage when you are far from your normal support group of family and friends. Learn to recognize the signs of stress and take steps to cope with the situation and make yourself more resilient.\u000a\u000a|box|k\u000a|>|>|Common signs of stress|h\u000a|exhaustion|fatigue|change in appetite|\u000a|anxiety|isolation|alienation|\u000a|frustration|extreme homesickness|increased use of nicotine, alcohol, or drugs|\u000a|loneliness|change in behavior|self-harming|\u000a|>|>|new or more frequent physical symptoms, e.g. headaches, stomachaches, etc.|\u000a\u000aOne of the best ways to combat stress in a new environment is to prepare for the new location. ''Learn as much as you can about your host city'' before you go. Read up on climate, foods, politics, culture, religion, and more. Buy a phrasebook and try to learn some of the basics of the language.\u000a\u000a''Take a step back.'' Analyze your situation and study your own reactions. Where exactly is the stress coming from? Ask yourself if cultural differences might be a contributing factor, and how you can work with or around them. Focus on what you can change or control, not on what you can't: If you can't change the situation, work on changing your reactions to it.\u000a\u000a''Take care of your body.'' Be sure that you are staying active, eating well, and getting enough sleep. Work on being positive, and be active--get out of your room.\u000a\u000a''Identify what helps you //healthfully// manage stress.'' Avoid using pills, drugs, alcohol, cigarettes, overeating, undereating, or oversleeping to manage stress. Instead, focus on healthy antidotes and find the ones that work for you. Ideas include exercise, keeping a journal, regular social contact with //positive// people, hobbies, other leisure activities, or cultural activities.\u000a\u000a''Find your social support.'' Identify your support groups both locally and at home. These might include program staff, housing staff, homestay family, friends, home university staff, or family. Ask yourself who can best offer you the support you need, and then ask them for it!\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Life in a Foreign Culture|http://www.northwestern.edu/studyabroad/outbound-students/life-in-a-foreign-culture-tips-for-cultural-adjustment-while-abroad.html]], tips to ease your cultural adjustment|\u000a|[[Culture Shock, Homesickness, and the "Aha Moment"|http://thestudyabroadblog.com/culture-shock-and-homesickness/]], firsthand description of culture shock, and of both failed and successful coping|\u000a|[[HelpGuide: Stress Management|http://collegelife.about.com/od/healthwellness/ht/Stress.htm]], practical tips for handling stress|\u000a|[[How Stress Affects Your Health|http://www.apa.org/helpcenter/stress.aspx]], info from the American Psychological Association|\u000a|[[Vanderbilt's Psychological Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]] As a student at Vanderbilt, the PCC is available to you wherever you are in the world|\u000a\u000a<<segue "Illness abroad">>\u005c
 p1001
 sg21
 VCoping with stress and culture shock
@@ -3185,13 +3185,13 @@ p1002
 sg23
 g24
 ((I2014
-I5
-I29
-I9
-I35
-I19
+I7
+I31
+I15
+I56
+I1
 I3
-I149
+I212
 I1
 tp1003
 (dp1004
@@ -3231,7 +3231,7 @@ Tiddler
 p1016
 (dp1017
 g19
-V!Eating and diet\u000a!!!!Balancing dietary requirements with cultural exploration\u000aPeople everywhere eat differently because they are different--they have different cultures. Exploring another culture means exploring its food. GEO recommends that you keep an open mind, accept cultural differences, and try everything you (safely!) can. Have a gastronomic adventure!\u000a\u000aIf you have dietary restrictions, eating well while fully experiencing your host culture may be a challenge. Whether you maintain your diet for medical, religious, philosophical, or other reasons, be sure to share the details with your program staff //before// you arrive on site. They will use this information to help identify appropriate housing for you. They may also be able to research restaurants, grocery stores, and useful vocabulary.\u000a\u000aIf you have a food allergy, be very detailed in what is safe for you.  For example, if you have a nut allergy, can you be around nuts? can you eat food processed on the same equipment as nuts? are all nuts harmful for you? Let your program and host family know.\u000a\u000aLearn as much as you can about your host culture's food, food culture, and food vocabulary before you go. Your diet and the terms you use for it may not be well understood there, so be prepared to explain why you can\u2019t, or choose not to, eat certain foods--ideally before someone cooks you a meal! \u000a\u000a|box|k\u000a|!Resources|\u000a|[[Food|http://www.ciee.org/gap-year-abroad/downloads/school-resources/Food.pdf]], a pamphlet on "the edible part of culture"|\u000a|[[International Vegetarian Union|http://www.worldvegfest.org/]], information and recipes for vegetarians and vegans worldwide|\u000a|[[VegGuide|http://www.vegguide.org/]], a searchable guide to vegetarian restaurants worldwide|\u000a|[[SelectWisely|http://www.selectwisely.com/Resources/]], a library of links to information about traveling abroad with dietary restrictions|\u000a|[[Jewish Travel Advisor|http://jewishtraveladvisor.com/]], world-wide listing of kosher hotels and restaurants, synagogues, mikvaot, and Jewish communities around the world |\u000a|[[Halal Trip|http://www.halaltrip.com/city-guide-all]], website focused on Muslim travelers and including city guides with a focus on halal dining|\u000a\u000a<<segue "Making friends">>\u005c
+V!Eating and diet\u000a!!!!Balancing dietary requirements with cultural exploration\u000aPeople everywhere eat differently because they //are// different--they have different cultures. Exploring another culture means exploring its food. GEO recommends that you keep an open mind, accept cultural differences, and try everything you (safely) can. Have a gastronomic adventure!\u000a\u000aIf you have dietary restrictions, eating well while fully experiencing your host culture may be a challenge. Whether you maintain your diet for medical, religious, philosophical, or other reasons, be sure to share the details with your program staff //before// you arrive on site. They will use this information to help identify appropriate housing for you. They may also be able to research restaurants, grocery stores, and useful vocabulary.\u000a\u000aIf you have a food allergy, be very detailed in disclosing what is safe for you.  For example, if you have a nut allergy, can you be around nuts? can you eat food processed on the same equipment as nuts? are all nuts harmful for you? Let your program and host family know.\u000a\u000aLearn as much as you can about your host culture's food, food culture, and food vocabulary before you go. Your diet and the terms you use for it may not be well understood there, so be prepared to explain why you can\u2019t, or choose not to, eat certain foods--ideally before someone cooks you a meal.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Food|http://www.ciee.org/gap-year-abroad/downloads/school-resources/Food.pdf]], a pamphlet on "the edible part of culture"|\u000a|[[International Vegetarian Union|http://www.worldvegfest.org/]], information and recipes for vegetarians and vegans worldwide|\u000a|[[VegGuide|http://www.vegguide.org/]], a searchable guide to vegetarian restaurants worldwide|\u000a|[[SelectWisely|http://www.selectwisely.com/Resources/]], a library of links to information about traveling abroad with dietary restrictions|\u000a|[[Jewish Travel Advisor|http://jewishtraveladvisor.com/]], world-wide listing of kosher hotels and restaurants, synagogues, mikvaot, and Jewish communities around the world |\u000a|[[Halal Trip|http://www.halaltrip.com/city-guide-all]], website focused on Muslim travelers and including city guides with a focus on halal dining|\u000a\u000a<<segue "Making friends">>\u005c
 p1018
 sg21
 VEating and diet
@@ -3239,13 +3239,13 @@ p1019
 sg23
 g24
 ((I2014
-I5
-I29
-I16
-I2
-I9
+I7
+I31
+I15
+I34
+I25
 I3
-I149
+I212
 I1
 tp1020
 (dp1021
@@ -3283,7 +3283,7 @@ Tiddler
 p1032
 (dp1033
 g19
-V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhile not generally more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. You should register not only your main trip, but also any side trips you take while abroad! If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt's safety efforts]]\u000a<</sidebar-box>>\u000a\u000aDownload GEO's [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]].\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhil generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. //You should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt's safety efforts]]\u000a<</sidebar-box>>\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1034
 sg21
 VPreparing for safety
@@ -3291,13 +3291,13 @@ p1035
 sg23
 g24
 ((I2014
-I5
-I30
-I10
-I26
-I48
-I4
-I150
+I7
+I31
+I16
+I21
+I52
+I3
+I212
 I1
 tp1036
 (dp1037
@@ -3389,7 +3389,7 @@ Tiddler
 p1065
 (dp1066
 g19
-V!Personal emergencies\u000a!!!!What to do after experiencing a personal emergency\u000aPersonal emergencies may arise from illness, accidents, behavioral health crises, or criminal/negligent behavior. They generally require immediate assistance, whether from a health professional, law enforcement, a counselor, or some combination of these. If you encounter a personal emergency abroad, follow these steps:\u000a\u000a''Request help immediately''. Know the local [[emergency number or numbers|http://studentsabroad.state.gov/content/pdfs/911_ABROAD.pdf]] (911 doesn't work abroad!) and have your phone with you at all times.\u000a\u000a''Notify your program's emergency contact''. At least one member of your program's staff will be available to you around the clock. On-site personnel are best positioned to provide timely and appropriate emergency support. If you are reporting an emergency on behalf of a friend, be sure to identify yourself as well as your friend.\u000a\u000aIf you are in immediate danger, or have been in a serious accident or the victim of a criminal act, ''contact law enforcement as soon as possible''. Your program staff may be in a better position to talk with law enforcement, and will also know the proper protocols. Work with him or her if at all possible.\u000a\u000a''Contact your insurance provider'' if the emergency requires medical attention of any kind. Depending on the nature of the emergency, it may also be appropriate to contact International SOS (ISOS). See information later in this presentation.\u000a\u000a''Notify the Vanderbilt Global Education Office''. A direct notification from you will help us coordinate support services. We can often provide additional assistance or help streamline communications.\u000a\u000a''Contact the nearest embassy''. Consular agents at US embassies are available 24/7 to help US citizens with emergencies. If you are not a US citizen, contact both the US embassy and your home country's embassy.\u000a\u000a''Contact your family''. Your family will be anxious and concerned about your well-being. Your program staff and GEO are both limited in the information they can share, so be sure to communicate with your family directly.\u000a\u000aDownload GEO's [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]].\u000a\u000a<<segue "Large-scale emergencies">>\u005c
+V!Personal emergencies\u000a!!!!What to do after experiencing a personal emergency\u000aPersonal emergencies may arise from illness, accidents, behavioral health crises, or criminal/negligent behavior. They generally require immediate assistance, whether from a health professional, law enforcement, a counselor, or some combination of these. If you encounter a personal emergency abroad, follow these steps:\u000a\u000a''Request help immediately''. Know the local [[emergency number or numbers|http://studentsabroad.state.gov/content/pdfs/911_ABROAD.pdf]] (911 doesn't work abroad!) and have your phone with you at all times.\u000a\u000a''Notify your program's emergency contact''. At least one member of your program's staff will be available to you around the clock. On-site personnel are best positioned to provide timely and appropriate emergency support. If you are reporting an emergency on behalf of a friend, be sure to identify yourself as well as your friend.\u000a\u000aIf you are in immediate danger, or have been in a serious accident or the victim of a criminal act, ''contact law enforcement as soon as possible''. Your program staff may be in a better position to talk with law enforcement, and will also know the proper protocols. Work with him or her if at all possible.\u000a\u000a''Contact your insurance provider'' if the emergency requires medical attention of any kind. Depending on the nature of the emergency, it may also be appropriate to contact International SOS (ISOS). See information later in this presentation.\u000a\u000a''Notify the Vanderbilt Global Education Office''. A direct notification from you will help us coordinate support services. We can often provide additional assistance or help streamline communications.\u000a\u000a''Contact the nearest embassy''. Consular agents at US embassies are available 24/7 to help US citizens with emergencies. If you are not a US citizen, contact both the US embassy and your home country's embassy.\u000a\u000a''Contact your family''. Your family will be anxious and concerned about your well-being. Your program staff and GEO are both limited in the information they can share, so be sure to communicate with your family directly.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Large-scale emergencies">>\u005c
 p1067
 sg21
 VPersonal emergencies
@@ -3397,13 +3397,13 @@ p1068
 sg23
 g24
 ((I2014
-I5
-I30
-I10
+I7
+I31
+I16
 I27
-I13
-I4
-I150
+I43
+I3
+I212
 I1
 tp1069
 (dp1070
@@ -3441,7 +3441,7 @@ Tiddler
 p1081
 (dp1082
 g19
-V!Large-scale emergencies\u000a!!!!Procedures for dealing with large-scale disaster\u000aLarge-scale emergencies take many forms. Massive accidents, civil strife, acts of terrorism, natural disasters... They are hard to predict and proper response depends heavily on local circumstances. \u000a\u000aIn general, your program staff will brief you soon after arrival on emergency protocols. Local emergency plans typically include the following elements:\u000a\u000a*a pre-established location where students and staff will assemble after a large-scale disaster;\u000a*communications protocols designed to account for all program participants;\u000a*an evacuation plan;\u000a*contingency plans short of full evacuation.\u000a\u000aThe most important general advice that Vanderbilt can offer is that you know the protocols of your site's emergency plan. Keep calm, follow those protocols, and act with common sense and your best knowledge of the local situation.\u000a\u000aIf you are traveling independently or are unable to reach your rally point, contact International SOS (ISOS). Vanderbilt contracts with ISOS to provide emergency services around the globe. They can provide you with information as well as direct aid. See the information on the next page.\u000a\u000aDownload GEO's [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]].\u000a\u000a|box|k\u000a|!Resources|\u000a|[[FAQ on the US Department of State's role in crises overseas|http://travel.state.gov/content/passports/english/emergencies/crisis-support.html]]|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], includes contact information|\u000a\u000a<<segue "International SOS">>\u005c
+V!Large-scale emergencies\u000a!!!!Procedures for dealing with large-scale disaster\u000aLarge-scale emergencies take many forms. Massive accidents, civil strife, acts of terrorism, natural disasters.... They are hard to predict and proper response depends heavily on local circumstances. \u000a\u000aIn general, your program staff will brief you soon after arrival on emergency protocols. Local emergency plans typically include the following elements:\u005c\u000a\u000a*a pre-established location where students and staff will assemble after a large-scale disaster;\u000a*communications protocols designed to account for all program participants;\u000a*an evacuation plan;\u000a*contingency plans short of full evacuation.\u005c\u000a\u000aThe most important general advice that Vanderbilt can offer is this: ''Know the protocols of your site's emergency plan.'' Keep calm, follow those protocols, and act with common sense and your best knowledge of the local situation.\u000a\u000aIf you are traveling independently or are unable to reach your rally point, contact International SOS (ISOS). Vanderbilt contracts with ISOS to provide emergency services around the globe. They can provide you with information as well as direct aid. See the information on the next page.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[FAQ on the US Department of State's role in crises overseas|http://travel.state.gov/content/passports/english/emergencies/crisis-support.html]]|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], includes contact information|\u000a\u000a<<segue "International SOS">>\u005c
 p1083
 sg21
 VLarge-scale emergencies
@@ -3449,13 +3449,13 @@ p1084
 sg23
 g24
 ((I2014
-I5
-I30
-I10
+I7
+I31
+I16
 I27
-I29
-I4
-I150
+I46
+I3
+I212
 I1
 tp1085
 (dp1086
@@ -3493,7 +3493,7 @@ Tiddler
 p1097
 (dp1098
 g19
-V<<sidebar "Vanderbilt's safety efforts">>\u000aThe safety and security of students studying abroad are primary concerns of Vanderbilt University. Vanderbilt takes care to minimize the risks students face abroad through several measures, including:\u000a\u000a*selecting responsible partners and organizations to provide educational opportunities abroad;\u000a*assessing the risks associated with all study abroad sites both when approving programs and over the program's lifetime;\u000a*assuring a high standard of personal health insurance coverage for all students studying abroad;\u000a*retaining emergency evacuation services and full-spectrum travel assistance for all students;\u000a*providing program-specific training to help students identify and mitigate potential risks;\u000a*providing access to on-site support staff and organizations trained to handle emergencies of all types;\u000a*training on-campus personnel to respond to crises and provide support where possible;\u000a*keeping abreast of conditions and events where students abroad are based;\u000a*training students in preventive as well as remedial strategies to avoid trouble abroad.\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V<<sidebar "Vanderbilt's safety efforts">>\u000aThe safety and security of students studying abroad are primary concerns of Vanderbilt University. Vanderbilt takes care to minimize the risks students face abroad through several measures, including:\u000a\u000a*Selecting responsible partners and organizations to provide educational opportunities abroad;\u000a*Assessing the risks associated with all study abroad sites both when approving programs and throughout the program's lifetime;\u000a*Assuring a high standard of personal health insurance coverage for all students studying abroad;\u000a*Retaining emergency evacuation services and full-spectrum travel assistance for all students;\u000a*Providing program-specific training to help students identify and mitigate potential risks;\u000a*Providing access to on-site support staff and organizations trained to handle emergencies of all types;\u000a*Training on-campus personnel to respond to crises and provide support where possible;\u000a*Keeping abreast of conditions and events where students abroad are based;\u000a*Training students in preventive as well as remedial strategies to avoid trouble abroad.\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1099
 sg21
 VVanderbilt's safety efforts
@@ -3501,13 +3501,13 @@ p1100
 sg23
 g24
 ((I2014
-I5
-I30
-I10
-I28
-I34
-I4
-I150
+I7
+I31
+I16
+I20
+I12
+I3
+I212
 I1
 tp1101
 (dp1102
@@ -3547,7 +3547,7 @@ Tiddler
 p1114
 (dp1115
 g19
-V!International SOS\u000a!!!!Emergency and travel assistance for Vanderbilt students\u000aVanderbilt contracts with International SOS (ISOS) primarily to handle responses to major emergencies overseas. ISOS also offers other services, and as a Vanderbilt student, you have access to all of them. But you should be aware that not all are free to you.\u000a\u000aThe primary role of ISOS is to aid in response to large-scale disasters and crises. For example, during the "Arab Spring," ISOS evacuated a Vanderbilt student from Egypt. The organization runs a worldwide network of centers, clinics, and ambulances to deal with ill or wounded people. If you use ISOS in such an emergency, Vanderbilt will cover the cost.\u000a\u000aISOS can also help you with medical, personal, security, legal, or travel problems. Examples might include dealing with a lost passport, a critical missed airline connection, medical help, or other issues. ISOS provides these services on a fee-for-service basis (it is //not// a health insurer). While Vanderbilt may cover the up-front charges in non-emergency circumstances, ''you may be billed for these services after the fact!'' \u000a\u000aISOS also offers excellent safety information both on its [[website|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]] and via emailed updates, which you must register your travel in order to receive.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], up-to-date risk ratings and travel security advisories. Register your travel here!|\u000a\u000a<<segue "Reverse culture shock">>\u005c
+V!International SOS\u000a!!!!Emergency and travel assistance for Vanderbilt students\u000aVanderbilt contracts with International SOS (ISOS) primarily to handle responses to major emergencies overseas. ISOS also offers other services, and as a Vanderbilt student, you have access to all of them. But you should be aware that //not all are free// to you.\u000a\u000aThe primary role of ISOS is to aid in response to large-scale disasters and crises. For example, during the "Arab Spring," ISOS evacuated a Vanderbilt student from Egypt. The organization runs a worldwide network of centers, clinics, and ambulances to deal with ill or wounded people. If you use ISOS in such an emergency, Vanderbilt will cover the cost.\u000a\u000aISOS can also help you with medical, personal, security, legal, or travel problems. Examples might include dealing with a lost passport, a critical missed airline connection, medical help, or other issues. ISOS provides these services on a fee-for-service basis (it is //not// a health insurer). While Vanderbilt may cover the up-front charges in non-emergency circumstances, ''you may be billed for these services after the fact!'' \u000a\u000aISOS also offers excellent safety information both on its [[website|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]] and via emailed updates, but you must register your travel with ISOS to receive this information. You are required to register with ISOS and will receive instructions for how to do so via your online GEO account. Generally this information appears in the month before the end of the semester.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], up-to-date risk ratings and travel security advisories. Register your travel here!|\u000a\u000a<<segue "Reverse culture shock">>\u005c
 p1116
 sg21
 VInternational SOS
@@ -3555,13 +3555,13 @@ p1117
 sg23
 g24
 ((I2014
-I5
-I29
-I15
-I22
+I7
+I31
+I16
+I30
+I2
 I3
-I3
-I149
+I212
 I1
 tp1118
 (dp1119
@@ -3599,7 +3599,7 @@ Tiddler
 p1130
 (dp1131
 g19
-V<<sidebar "Resources for monitoring safety">>\u000aYou should keep an eye on the safety situation in all the places you are planning to travel. This includes the program site, but also countries you might visit on independent weekend travel, or on breaks and holidays.\u000a\u000aPotential resources include local and international media, as well as the websites of governmental and nongovernmental agencies. It can be a good idea to look at the advice of multiple sources, as they may have different perspectives and emphases. The resources here include country-specific resources from many governments to facilitate this sort of comparison.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Learn About Your Destination|http://travel.state.gov/content/passports/english/country.html]], country-specific resources from the US Department of State|\u000a|[[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?content=faqs]], up-to-date risk ratings and travel security advisories|\u000a|[[US Department of State Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]]|\u000a|[[US Department of State's site for student travelers|http://studentsabroad.state.gov/]]|\u000a|[[US Department of State's STEP program|https://step.state.gov/step/]] (Smart Traveler Enrollment Program)|\u000a|[[Canadian Foreign Affairs and Int'l Trade Office|http://travel.gc.ca/travelling/advisories]], country-specific travel advisories (English and French)|\u000a|[[UK Foreign & Commonwealth Office|https://www.gov.uk/foreign-travel-advice]], country-specific travel advisories|\u000a|[[Republic of Ireland Department of Foreign Affairs and Trade|http://dfa.ie/home/index.aspx?id=275]], country-specific travel advisories|\u000a|[[German Federal Foreign Office|http://www.auswaertiges-amt.de/DE/Laenderinformationen/LaenderReiseinformationen_node.html]], country-specific travel advisories (German only)|\u000a|[[Australian Department of Foreign Affairs and Trade|http://www.smartraveller.gov.au/]], country-specific travel advisories|\u000a|[[French Ministry of Foreign Affairs and International Development|http://www.diplomatie.gouv.fr/en/]], country-specific travel advisories (English, French, German, Spanish, Arabic, and Chinese)|\u000a|[[Israeli Ministry of Foreign Affairs|http://www.mfa.gov.il/MFA]], country-specific travel advisories (English, Hebrew, Arabic, Russian)|\u000a|[[Egyptian Ministry of Foreign Affairs|http://www.mfa.gov.eg/english/Pages/default.aspx]], country-specific travel advisories (English, French, Arabic)|\u000a|[[Indian Ministry of External Affairs|http://www.mea.gov.in/]], country-specific travel advisories (English, Hindi, other)|\u000a|[[Japanese Ministry of Foreign Affairs|http://www.mofa.go.jp/]], country-specific travel advisories (English, Japanese, others)|\u000a|[[People's Republic of China Ministry of Foreign Affairs|http://www.fmprc.gov.cn/eng/]], country-specific travel advisories (English, Chinese, French, Russian, and Arabic)|\u000a|[[Russian Ministry of Foreign Affairs|http://www.mid.ru/brp_4.nsf/main_eng]], country-specific travel advisories (English, Russian, French, German, Spanish)|\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V<<sidebar "Resources for monitoring safety">>\u000aYou should keep an eye on the safety situation in all the places you are planning to travel. This includes the program site, but also countries you might visit on independent weekend travel, breaks, or holidays.\u000a\u000aPotential resources include local and international media, as well as the websites of governmental and nongovernmental agencies. It can be a good idea to look at the advice of multiple sources, as they may have different perspectives and emphases. The resources here include country-specific resources from many governments to facilitate this sort of comparison.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Learn About Your Destination|http://travel.state.gov/content/passports/english/country.html]], country-specific resources from the US Department of State|\u000a|[[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?content=faqs]], up-to-date risk ratings and travel security advisories|\u000a|[[US Department of State Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]]|\u000a|[[US Department of State's site for student travelers|http://studentsabroad.state.gov/]]|\u000a|[[US Department of State's STEP program|https://step.state.gov/step/]] (Smart Traveler Enrollment Program)|\u000a|[[Canadian Foreign Affairs and Int'l Trade Office|http://travel.gc.ca/travelling/advisories]], country-specific travel advisories (English and French)|\u000a|[[UK Foreign & Commonwealth Office|https://www.gov.uk/foreign-travel-advice]], country-specific travel advisories|\u000a|[[Republic of Ireland Department of Foreign Affairs and Trade|http://dfa.ie/home/index.aspx?id=275]], country-specific travel advisories|\u000a|[[German Federal Foreign Office|http://www.auswaertiges-amt.de/DE/Laenderinformationen/LaenderReiseinformationen_node.html]], country-specific travel advisories (German only)|\u000a|[[Australian Department of Foreign Affairs and Trade|http://www.smartraveller.gov.au/]], country-specific travel advisories|\u000a|[[French Ministry of Foreign Affairs and International Development|http://www.diplomatie.gouv.fr/en/]], country-specific travel advisories (English, French, German, Spanish, Arabic, and Chinese)|\u000a|[[Israeli Ministry of Foreign Affairs|http://www.mfa.gov.il/MFA]], country-specific travel advisories (English, Hebrew, Arabic, Russian)|\u000a|[[Egyptian Ministry of Foreign Affairs|http://www.mfa.gov.eg/english/Pages/default.aspx]], country-specific travel advisories (English, French, Arabic)|\u000a|[[Indian Ministry of External Affairs|http://www.mea.gov.in/]], country-specific travel advisories (English, Hindi, other)|\u000a|[[Japanese Ministry of Foreign Affairs|http://www.mofa.go.jp/]], country-specific travel advisories (English, Japanese, others)|\u000a|[[People's Republic of China Ministry of Foreign Affairs|http://www.fmprc.gov.cn/eng/]], country-specific travel advisories (English, Chinese, French, Russian, and Arabic)|\u000a|[[Russian Ministry of Foreign Affairs|http://www.mid.ru/brp_4.nsf/main_eng]], country-specific travel advisories (English, Russian, French, German, Spanish)|\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1132
 sg21
 VResources for monitoring safety
@@ -3607,13 +3607,13 @@ p1133
 sg23
 g24
 ((I2014
-I5
-I30
-I10
-I26
-I55
-I4
-I150
+I7
+I31
+I16
+I15
+I34
+I3
+I212
 I1
 tp1134
 (dp1135
@@ -3645,7 +3645,7 @@ g12
 I00
 sg13
 (lp1146
-F1115.3333333333335
+F1112.0000000000002
 aF754.6666666666672
 asg15
 (itiddlywiki
@@ -3653,7 +3653,7 @@ Tiddler
 p1147
 (dp1148
 g19
-V<<sidebar "Road safety overseas">>\u000aMovies and media reporting have conditioned us to think that the greatest threats to safety abroad are dramatic, "foreign," and of the "third world." The reality is that the ''number one cause of injury and death for American students abroad is traffic accidents''. And the vast majority of these occur in wealthy, industrialized countries.\u000a\u000aGEO suggests that you train yourself to pay maximum attention at all times. Avoid earbuds as well as drinking--both can impair perception! Know the basic patterns of traffic, and remember to pay attention to the right side of the road in countries where traffic flow is reversed!\u000a\u000aAvoid traveling late at night, and always choose the safest form of transportation available. If you have a choice between riding in a taxicab or on the roof of a crowded bus--choose the cab! If walking is your safest option, do that whenever possible.\u000a\u000aJust as in the US, if you are a passenger, you should always wear a seatbelt. Avoid riding with anyone who appears intoxicated, over-tired, or emotionally distraught. Always sit in the back seat of a taxi.\u000a\u000aDeveloping countries present other risks, including shady taxi drivers, unsafe vehicles, overcrowded transport, etc. Your program staff will provide you with information about your options and help you assess risk. Don't be afraid to ask questions! \u000a\u000aVanderbilt strongly advises against renting a vehicle while abroad. Cars, SUVs, motorcycles, and mopeds are equally poor choices. The risks of driving when the rules of the road are unfamiliar are just too great.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Road Safety Overseas|http://travel.state.gov/content/passports/english/go/safety/road.html]], US Department of State|\u000a|[[Country-specific information from US Department of State|http://travel.state.gov/content/passports/english/country.html]], includes information on road safety for every country in the world|\u000a\u000a<<segue "Personal emergencies">>\u005c
+V<<sidebar "Road safety overseas">>\u000aMovies and media reporting have conditioned us to think that the greatest threats to safety abroad are dramatic, "foreign," and of the "third world." The reality is that the ''number one cause of injury and death for American students abroad is traffic accidents''. And the vast majority of these occur in wealthy, industrialized countries.\u000a\u000aGEO suggests that you train yourself to pay maximum attention at all times. Avoid earbuds as well as drinking--both can impair perception! Know the basic patterns of traffic, and remember to pay attention to the right side of the road in countries where traffic flow is reversed!\u000a\u000aAvoid traveling late at night, and always choose the safest form of transportation available. If you have a choice between riding in a taxicab or on the roof of a crowded bus--choose the cab! If walking is your safest option, do that whenever possible.\u000a\u000aJust as in the US, you should always wear a seatbelt. Avoid riding with anyone who appears intoxicated, over-tired, or emotionally distraught. Always sit in the back seat of a taxi.\u000a\u000aDeveloping countries present other risks, including shady taxi drivers, unsafe vehicles, overcrowded transport, and more. Your program staff will provide you with information about your options and help you assess risk. Don't be afraid to ask questions! \u000a\u000aVanderbilt strongly advises against renting a vehicle while abroad. Cars, SUVs, motorcycles, and mopeds are equally poor choices. The risks of driving when the rules of the road are unfamiliar are just too great.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Road Safety Overseas|http://travel.state.gov/content/passports/english/go/safety/road.html]], US Department of State|\u000a|[[Country-specific information from US Department of State|http://travel.state.gov/content/passports/english/country.html]], includes information on road safety for every country in the world|\u000a\u000a<<segue "Personal emergencies">>\u005c
 p1149
 sg21
 VRoad safety overseas
@@ -3661,13 +3661,13 @@ p1150
 sg23
 g24
 ((I2014
-I5
-I29
-I15
+I7
+I31
+I16
 I18
-I38
+I16
 I3
-I149
+I212
 I1
 tp1151
 (dp1152

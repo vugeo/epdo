@@ -8,11 +8,11 @@
     var passage = state.active.title;
     console.log("passage: " + passage);
     var currentPassage = index[passage];
-    var tags = state.active.variables.tags;
+    var passageTags = state.active.variables.tags;
     var sections = state.active.variables.backgrounds;
     var bookmarks = state.active.variables.bookmarks;
     var fullindex = state.active.variables.fullindex;
-    var currentTag = tags.indexOf(currentPassage.tag);
+    var currentTag = passageTags.indexOf(currentPassage.tag);
     
     var totalPassages = state.active.variables.totalPassages;
     console.log("current tag: " + currentTag + ", no. " + currentPassage.tag);
@@ -28,7 +28,7 @@
         if (progress !== totalPassages) { progress = progress - 0.5; }
     }
     //else if (currentTag < 1) {
-        //var progress = 0;
+        //progress = 0;
     //}
     console.log("Current passage: " + progress + " of " + totalPassages);
     var progressPercent = (progress / totalPassages)* 100;
@@ -41,6 +41,8 @@
     }
     console.log("Set #pb-complete right to: " + (100 - (progress / totalPassages)* 100) + "%");
     console.log("Set #pb-position left to: " + (progress / totalPassages)* 100 + "%");
+
+    $("#pb-complete,#pb-position").css("display", progressPercent > 0 ? "block" : "none");
 
     if (currentTag > 0) { //the user has read enough to need to see the chapter button
         if (currentTag > options.chapterprogress) {
@@ -55,7 +57,7 @@
         $("#nav-container").html(function(){
             var html = "<ul class='chapter-list'>";
             for (var i = 1; i < (options.chapterprogress + 1); i++) {
-                html += "<li><a class='chapter-list" + (i === currentTag ? " active" : "") + "' data='" + bookmarks[tags[i]] + "'>" + sections[tags[i]].section + "</a><ul class='passage-list'>";
+                html += "<li><a class='chapter-list" + (i === currentTag ? " active" : "") + "' data='" + bookmarks[passageTags[i]] + "'>" + sections[passageTags[i]].section + "</a><ul class='passage-list'>";
                     $.each(fullindex[i-1].passages, function(j, pass) {
                         console.log("Adding " + pass.passage + " to menu: " + index[pass.passage].enumeration + "/" + progress);
                         if (pass.passage === state.active.title) {
@@ -115,10 +117,10 @@
             $passive.removeClass('background-fade');
             $active.addClass("background-fade");
             //look for next tag: if there is one, cache its background image
-            var nextTag = tags.indexOf(currentTag) + 1;
-            if (nextTag < tags.length) {
+            var nextTag = passageTags.indexOf(currentTag) + 1;
+            if (nextTag < passageTags.length) {
                 setTimeout(function() {
-                    var nextUrl = sections[tags[nextTag]].url;
+                    var nextUrl = sections[passageTags[nextTag]].url;
                     $active.css("background-image", "url(" + nextUrl + ")");
                 }, 1100);
             }
@@ -134,11 +136,12 @@
     else if (!$("#passages").hasClass("sidebar")) {
         $(".passage").removeClass("flip");
     }
+
     // Display for controls
-    if (tale.get(state.active.title).tags.indexOf("nosave") === -1 && $("#custom").is(":hidden")) {
+    if (!tags().contains("nosave") && $("#custom").is(":hidden")) {
         $("#custom").slideDown("fast");
     }
-    else if (tale.get(state.active.title).tags.indexOf("nosave") !== -1) {
+    else if (tags().contains("nosave")) {
         $("#custom").slideUp("fast");
     }
     if (typeof customScroll != "undefined") {
@@ -149,8 +152,11 @@
     }
 <</script>>
 <<if state.active.title eq "Index">>
-    <<displayIndex>> /%
+    <<displayIndex>>
     <<script>>
+        // Once the user reaches the index, we want her to be able to
+        // be able to bookmark the page and return. So, we replace
+        // the URL to allow that.
         var query = window.location.search.substring(1);
         var locus = "nav=Index";
         if (query.length > 0) {
@@ -164,8 +170,22 @@
         else {
             query = locus;
         }
-        window.history.replaceState(window.history.state, document.title, window.location.protocol + "//" + window.location.host + window.location.pathname + "?" + query);
-    <</script>> %/
+        if (config.historyMode === HistoryMode.Hash) {
+            window.location.replace(
+                window.location.protocol + "//" + window.location.host
+                + window.location.pathname
+                + "?" + query
+                + window.location.hash
+            );
+        } else {
+            window.history.replaceState(
+                window.history.state,
+                document.title,
+                window.location.protocol + "//" + window.location.host + window.location.pathname
+                + "?" + query
+            );
+        }
+    <</script>>
 <</if>>
 <<if $admin eq "true">>
     <<displayAdmin>>

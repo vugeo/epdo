@@ -2,18 +2,18 @@
 /% Syntax:
     <<segue [passage name]>>  %/\
 <<widget "segue">>\
-    <<if tale.get(state.active.title).tags.indexOf("nosave") eq -1 >>\
+    /%<<if tale.get(state.active.title).tags.indexOf("nosave") eq -1 >> %/\
         <<script>>
             var passage = state.active.variables.args[0];
             var el = document.createElement("a");
-            if (passage != null) {
-                el.setAttribute("data-passage", passage);
-                $(el).addClass("continue-link");
-                $(el).addClass(tale.has(passage) ? "link-internal" : "link-broken");
-                el.innerHTML = "<span class='continue-button'>Continue<span class='onward-arrow fade-bounce'>&raquo;</span></span>";
-                $(el).click(function () {
-                    state.display(passage, el);
-                });
+            if (passage !== null) {
+                $(el).attr("data-passage", passage)
+                    .addClass("continue-link")
+                    .addClass(tale.has(passage) ? "link-internal" : "link-broken")
+                    .html("<span class='continue-button'>Continue<span class='onward-arrow fade-bounce'>&raquo;</span></span>")
+                    .click(function () {
+                        state.display(passage, el);
+                    });
             }
             this.output.appendChild(el);
         <</script>>
@@ -29,7 +29,7 @@
                 &nbsp; &nbsp;<h6 class='page-back-link'><<click "Back">><<prevPassage 0>><</click>></h6>\
             <</if>>\
         <</if>>\
-    <</if>>\
+    /% <</if>> %/\
 <</widget>>\
 
 :: Find Previous Passage [script]

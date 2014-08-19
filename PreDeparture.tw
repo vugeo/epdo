@@ -2,7 +2,7 @@
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
 * Evaluate whether the code that builds the drawer navigation menu needs to account for "nogather" passages.
 * Lots of problems with the implementation of the back button on sidebars if the user doesn't get to the sidebar via the standard route.
-* Put download link for PDF in drawer as well.
+* Put download link for PDF in drawer as well. Use a variable so that there is one place where URL lives.
 * Add browser support information and especially pointer to menu. Also, logos.
 * Add logos to "continue where you left off?" page.
 * Why are index items incorrectly ordered in the drawer on Android 4.3?

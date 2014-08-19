@@ -968,6 +968,32 @@ ul.sidebar-links {
     font-style: normal;
 }
 
+
+:: Inset shadows for images [stylesheet]
+/* Used for Survival Training logo-image */
+
+.inset-shadow {
+  display: block;
+  position: relative;
+}
+
+.inset-shadow img {
+  display: block;
+  width: 100%;
+}
+
+.inset-shadow::before {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -moz-box-shadow: inset 0px 0px 8px #333;
+  -webkit-box-shadow: inset 0px 0px 8px #333;
+  box-shadow: inset 0px 0px 8px #333;
+}
+
+
 :: Browser icon sprites [stylesheet]
 #browsers {
   width: 100%;

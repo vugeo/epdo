@@ -2056,7 +2056,7 @@ Tiddler
 p651
 (dp652
 g19
-V!Credits\u000a!!!!Content to come!\u000a\u000aBrowser icons from C\u0103t\u0103lin Mari\u0219's open [[GitHub project|https://github.com/alrra/browser-logos#readme]].\u000a\u000a<<segue "Registration">>
+V!Credits\u000a!!!!Content to come!\u000a\u000aPhoto from Study Abroad Survival Training header: Bonnie Renee Williamson - Inside the Grotta Azzurra ("Blue Cave"), Capri, Italy\u000a\u000aBrowser icons from C\u0103t\u0103lin Mari\u0219's open [[GitHub project|https://github.com/alrra/browser-logos#readme]].\u000a\u000a<<segue "Registration">>
 p653
 sg21
 VCredits
@@ -2065,12 +2065,12 @@ sg23
 g24
 ((I2014
 I8
-I15
-I10
-I36
-I41
-I4
-I227
+I18
+I13
+I52
+I39
+I0
+I230
 I1
 tp655
 (dp656
@@ -2147,7 +2147,7 @@ tp678
 Rp679
 sbsa(dp680
 g12
-I01
+I00
 sg13
 (lp681
 F15.248071457572053
@@ -2158,7 +2158,7 @@ Tiddler
 p682
 (dp683
 g19
-V!About This Presentation\u000a!!!!Getting oriented\u000a* Tooltips to show & explain menu and progress bar: place "Next" in each one to allow the user to move on to the next.\u000a* Instructions for if it doesn't work well on your browser\u000a* Download for PDF\u000a* GEO logo\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|#]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
+V<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a!!!!Getting oriented\u000a* Tooltips to show & explain menu and progress bar: place "Next" in each one to allow the user to move on to the next.\u000a* GEO logo\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|#]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
 p684
 sg21
 VAbout the Presentation
@@ -2167,12 +2167,12 @@ sg23
 g24
 ((I2014
 I8
-I15
+I19
 I16
-I43
-I58
-I4
-I227
+I56
+I6
+I1
+I231
 I1
 tp686
 (dp687
@@ -3960,7 +3960,7 @@ Tiddler
 p1243
 (dp1244
 g19
-V<div id="browsers">\u005c\u000a	<div class="browser"><span class="sprite sprite-chrome_64x64"></span><p>''Chrome''</p><p>v20+<br />Android/iOS</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-firefox_64x64"></span><p>''Firefox''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-internet-explorer_64x64"></span><p>''Internet Explorer''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari_64x64"></span><p>''Safari''</p><p>v5.1+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari-ios_64x64"></span><p>''Mobile Safari''</p><p>iOS 6.1+</p></div>\u005c\u000a</div>\u005c
+V<div id="browsers">\u005c\u000a	<div class="browser"><span class="sprite sprite-chrome_64x64"></span><p>''Chrome''</p><p>v20+<br />Android<br />iOS</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-firefox_64x64"></span><p>''Firefox''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-internet-explorer_64x64"></span><p>''Internet Explorer''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari_64x64"></span><p>''Safari''</p><p>v5.1+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari-ios_64x64"></span><p>''Mobile Safari''</p><p>iOS 6.1+</p></div>\u005c\u000a</div>\u005c
 p1245
 sg21
 VBrowsers
@@ -3969,12 +3969,12 @@ sg23
 g24
 ((I2014
 I8
-I15
-I16
-I15
 I19
-I4
-I227
+I16
+I56
+I19
+I1
+I231
 I1
 tp1247
 (dp1248

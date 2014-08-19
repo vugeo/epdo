@@ -43,6 +43,14 @@
     border-radius: 0 5px 5px 5px!important;
     line-height:140%!important;
   }
+  .browser {
+    width:41px;
+  }
+  .sprite {
+    zoom:0.64;
+    -moz-transform:scale(0.64);
+    -moz-transform-origin: 0 0;
+  }
 }
 
 

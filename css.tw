@@ -993,6 +993,128 @@ ul.sidebar-links {
   box-shadow: inset 0px 0px 8px #333;
 }
 
+/* To switch to drop shadow, start experimenting with:
+           box-shadow: 0px 3px 6px #333;
+*/
+
+
+:: Help system [stylesheet]
+.help-box {
+  box-sizing: border-box;
+  background: #fbe5bf;
+  color: #000;
+  display: block;
+  opacity: 0;
+  padding: 20px;
+  pointer-events: none;
+  position: absolute;
+  width: 200px;
+  z-index: 10000;
+  border-radius: 10px;
+  -webkit-transform: translateY(10px);
+     -moz-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+       -o-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: all .25s ease-out;
+     -moz-transition: all .25s ease-out;
+      -ms-transition: all .25s ease-out;
+       -o-transition: all .25s ease-out;
+          transition: all .25s ease-out;
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+     -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+      -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+       -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+
+.help-box:before {
+  content: "";
+  position: absolute;
+  border-width: 10px;
+  border-style: solid;
+  height: 0;
+  width: 0;
+}
+
+.help-box.arrow-down:before {
+  left: 50%;
+  top: 100%;
+  border-color: #fbe5bf transparent transparent transparent;
+  margin-left: -10px;
+}
+
+.help-box.arrow-up:before {
+  left: 50%;
+  top: -20px;
+  border-color: transparent transparent #fbe5bf transparent;
+  margin-left: -10px;
+}
+
+.help-box.arrow-left:before {
+  top: 50%;
+  left: -20px;
+  border-color: transparent #fbe5bf transparent transparent;
+  margin-top: -10px;
+}
+
+.help-box.arrow-right:before {
+  top: 50%;
+  right: -20px;
+  border-color: transparent transparent transparent #fbe5bf;
+  margin-top: -10px;
+}
+
+.help-box-show {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+     -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+       -o-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.help-box h1 {
+  font-size: 13px;
+  color: #000;
+}
+
+.help-box-callout {
+  box-shadow: 0px 0px 6px 6px #fff!important;
+  border-radius: 10%;
+  background-color: #fff;
+}
+
+.occluder {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all .25s ease-out;
+     -moz-transition: all .25s ease-out;
+      -ms-transition: all .25s ease-out;
+       -o-transition: all .25s ease-out;
+          transition: all .25s ease-out;
+}
+
+#content-occluder {
+  z-index: 999;
+}
+
+#background-occluder {
+  z-index: 1;
+}
+
+.occluder-show {
+  opacity: 0.4;
+}
+
 
 :: Browser icon sprites [stylesheet]
 #browsers {

@@ -65,7 +65,10 @@
     $(image_container_1).addClass("img-anchor img-container");
     $(image_container_2).addClass("img-fader img-container");
     $(progress).html("<div id='progress-meter'><span id='pb-complete'></span><span id='pb-position'></span></div>");
-    $(right_drawer).append("<div id='nav-control' class='drawer-section'><p class='menu-legend'>Use this menu to quickly navigate to any section you have already read.</p><div id='nav-container'></div></div>"); 
+    $(right_drawer).append("<div id='nav-control' class='drawer-section'><p class='menu-legend'>Use this menu to quickly navigate to any section you have already read.</p><div id='nav-container'></div></div><div id='drawer-help' class='drawer-section'><p class='menu-legend'>Not sure what all the bells and whistles do? Take the quick tour.</p><p><a id='drawer-help-link'>Quick Tour</a></p></div>");
+    $("#drawer-help-link").click(function() {
+        activateHelp();
+    });
     /**** Sound interface **** $(right_drawer).append("<div id='nav-control' class='drawer-section'><h4>Navigation</h4><p class='menu-legend'>Use this menu to quickly navigate to any section you have already read.</p><div id='nav-container'></div></div>"); ****/
 
     $(drawer_header).html('<a id="menu-close-label" class="centered">Close <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="menu-close-button" class="drawer-close" x="0px" y="0px" width="23px" height="15.12px" viewBox="0 0 23 15.12" enable-background="new 0 0 23 15.12" xml:space="preserve"><g><path d="M16.297 14.385L4.743 2.897C4.17 2.3 4.2 1.4 4.7 0.83c0.57-0.572 1.495-0.574 2.068-0.005l11.554 11.5 c0.572 0.6 0.6 1.5 0 2.068C17.796 15 16.9 15 16.3 14.385z"/></g><g><path d="M4.771 12.35L16.258 0.796c0.568-0.572 1.494-0.575 2.068-0.006c0.572 0.6 0.6 1.5 0 2.068L6.845 14.4 c-0.571 0.572-1.497 0.574-2.068 0.008C4.203 13.8 4.2 12.9 4.8 12.35z"/></g></svg></a><h2>Navigation</h2>');

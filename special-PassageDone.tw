@@ -95,7 +95,7 @@
             return false;
         });
         //show the current section on opening the drawer
-        //$("a.chapter-list.active").next("ul").slideDown();
+        $("a.chapter-list.active").next("ul").slideDown();
     }
     if (index.hasOwnProperty(passage)) { //skip this for passages that aren't in the index
         //update image if necessary

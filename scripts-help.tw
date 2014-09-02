@@ -7,23 +7,24 @@ window.activateHelp = function() {
 		// TODO: For mobile, offset arrow instead of box if offsetting box
 		// would put it outside of the content area. Do the same for drawer tips
 		// regardless of device.
+		// TODO: Must figure out how to manage scrolling to the target with proper offset.
+		//    Currently, the 100ms it takes to scroll will cause an error with the offset calc.
 		var tip = Help.tips[box];
-		// add properties to store target and its z-index, if not already present
-		if (!tip.hasOwnProperty("targetElem")) { tip.targetElem = ""; }
+		// Check to see whether the target element exists on the page
+		var $target = $(tip.element);
 		// determine whether this help box belongs to the content area or the drawer
 		var parent = "#content-wrap";
 		if (tip.hasOwnProperty("parent")) { parent = tip.parent; }
+		var $parent = $(parent);
 		// Close or open the drawer as needed
-		if (parent === "#content-wrap") {
+		if (parent === "#content-wrap" || $("#content-wrap").has($parent).length > 0) {
 			snapper.close();
 		}
 		else {
 			snapper.open("right");
 		}
 		// Position help box in relation to item pointed to
-		var $parent = $(parent);
-		var $target = $(tip.element);
-		tip.targetElem = $target.attr("id");
+		
 		var arrowClass = "arrow-up";
 		if (tip.hasOwnProperty("arrow")) { arrowClass = tip.arrow; }
 		var $helpBox = $(tip.html).attr("id", box).addClass(arrowClass);
@@ -33,43 +34,75 @@ window.activateHelp = function() {
 		if (tip.hasOwnProperty("top")) { topOffset = tip.top; }
 		var offset = $target.offset();
 		var adjust = $parent.offset();
-		offset.top = ~~( offset.top + topOffset + (($target.height() + 10) - adjust.top) ); //need to adjust for other arrow directions
+		console.log("target: " + tip.element + ", top: " + offset.top + ", left: " + offset.left + "adjustment (" + parent + "), top: " + adjust.top + ", left: " + adjust.left);
+		/* var scroll = false;
+		if (tip.hasOwnProperty("scroll")) { scroll = tip.scroll; }
+		if (scroll === true) { customScroll.scrollToElement(tip.element, 100, 0, 20); } */
+		if (arrowClass === "arrow-down") {
+			offset.bottom = ~~( (screen.availHeight - offset.top) - topOffset + adjust.top );
+			$helpBox.css("bottom", offset.bottom + "px");
+		}
+		else {
+			offset.top = ~~( offset.top + topOffset + (($target.height() + 10) - adjust.top) );
+			$helpBox.css("top", offset.top + "px");
+		}
 		offset.left = ~~( (offset.left - adjust.left) + leftOffset + ($target.width() / 2) - 100 );
-		$helpBox.css("top", offset.top + "px");
+		
 		$helpBox.css("left", offset.left + "px");
 		$helpBox.appendTo($(parent));
 		// Show help box and highlight target
 		setTimeout(function() {
 			$helpBox.addClass("help-box-show");
 			$target.addClass("help-box-callout");
-		}, 1);
+			if (tip.hasOwnProperty("addedClass")) {
+				$target.addClass(tip.addedClass);
+			}
+		}, 100);
 
-		$("a.help-box-next").off().on("click", function(event) {
-			var parent = $(this).closest("div");
+		$("a.help-box-next, a.help-box-prev").off().on("click", function(event) {
+			var $this = $(this);
 			var current = Help.current;
 			var tip = Help.tips["help" + current];
-			$(this).closest(".help-box").removeClass("help-box-show");
-			//event.stopImmediatePropagation();
-			var $target = $("#" + tip.targetElem);
+			var $target = $(tip.element);
+			// Hide any existing tooltip
+			var parent = $this.closest("div");
+			$this.closest(".help-box").removeClass("help-box-show");
+			// Remove any highlighting effect on tooltip targets
 			$target.removeClass("help-box-callout");
-			if (current >= Object.keys(Help.tips).length) {
+			var maxTips = Object.keys(Help.tips).length;
+			// Find the next valid tooltip
+			while (true) {
+				if ($this.hasClass("help-box-prev")) { //user is going backward through tips
+					current--;
+				}
+				else {
+					current++;
+				}
+				if (current > maxTips || current < 0) { break; }
+				// go ahead only if the next tip's target exists on the page 
+				tip = Help.tips["help" + current];
+				$target = $(tip.element);
+				if ($target.length > 0) { break; }
+			}
+			Help.current = current;
+			
+			// If we've gone farther than the start or end, turn help off
+			if (current > maxTips || current < 1) {
 				deactivateHelp();
+				return;
 			}
-			else {
-				Help.current++;
-				activateHelp();
+			// Otherwise, activate help again, targeting the next tooltip
+			if (tip.hasOwnProperty("scroll") && tip.scroll === true) { 
+				customScroll.scrollToElement(tip.element, 100, 0, 20);
 			}
+			activateHelp();
 		});
 
 		$("a.help-box-close").off().on("click", function(event) {
 			deactivateHelp();
 		});
 	}
-	$(document).on('click', function(event) {
-  		if (!$(event.target).closest('.help-box').length) {
-		    deactivateHelp();
-		}
-	})
+	
 	/*$( "*", document.body ).click(function( event ) {
 		var offset = $(this).offset();
 		event.stopPropagation();
@@ -77,40 +110,71 @@ window.activateHelp = function() {
 	});*/
 }
 
+$(document).on('click', function(event) {
+	if (!$(event.target).closest('.help-box').length) {
+	    deactivateHelp();
+	}
+});
+
 window.deactivateHelp = function() {
-	if (Help.current >= Object.keys(Help.tips).length) {
+	if (Help.current >= Object.keys(Help.tips).length || Help.current < 1) {
 		Help.current = 1;
 	};
 	$(".help-box").removeClass("help-box-show");
 	$(".help-box-callout").removeClass("help-box-callout");
 }
 
-
+window.HelpIMGs = {
+	close: "<a class='help-box-close'><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' class='help-box-close' x='0px' y='0px' width='23px' height='15.12px' viewBox='0 0 23 15.12' enable-background='new 0 0 23 15.12' xml:space='preserve'><g><path d='M16.297 14.385L4.743 2.897C4.17 2.3 4.2 1.4 4.7 0.83c0.57-0.572 1.495-0.574 2.068-0.005l11.554 11.5 c0.572 0.6 0.6 1.5 0 2.068C17.796 15 16.9 15 16.3 14.385z'/></g><g><path d='M4.771 12.35L16.258 0.796c0.568-0.572 1.494-0.575 2.068-0.006c0.572 0.6 0.6 1.5 0 2.068L6.845 14.4 c-0.571 0.572-1.497 0.574-2.068 0.008C4.203 13.8 4.2 12.9 4.8 12.35z'/></g></svg></a>",
+	right: "<a class='help-box-next'><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' class='help-box-next' x='0px' y='0px' width='32px' height='32px' viewBox='0 0 48 48' enable-background='new 0 0 48 48' xml:space='preserve'><g><path d='M2.014 11.873v24.04h18.124V48L48 24.084L19.972 0v11.879L2.014 11.873z'/></g></svg></a>",
+	left: "<a class='help-box-prev'><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' class='help-box-prev' x='0px' y='0px' width='32px' height='32px' viewBox='0 0 48 48' enable-background='new 0 0 48 48' xml:space='preserve'><g><path d='M28.028 11.879V0L0 24.084L27.862 48V35.912h18.124v-24.04L28.028 11.879z'/></g></svg></a>"
+}
 
 window.Help = {
 	current: 1,
 	tips:	 {
 		help1: {
-			html: "<div class='help-box'><h1>Section Heading</h1><p>This presentation is divided into sections, each containing a number of passages for you to read. The text here tells you the name of the section you are currently reading.</p><p><a class='help-box-next'>Next</a><br /><a class='help-box-close'>Close</a></p></div>",
+			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Section Heading</h1><hr /><p>This presentation is divided into sections, each containing a number of pages for you to read. The text here tells you the name of the section you are currently reading.</p><div class='help-box-nav'>" + HelpIMGs.right + "</div></div>",
 			element: "#section-name"
 		},
 		help2: {
-			html: "<div class='help-box'><h1>Progress Meter</h1><p>The blue spark on the meter shows how far you've advanced and how much further you have to go. If you have a recent web browser, differently shaded bands will mark each section of the presentation.</p><p><a class='help-box-next'>Next</a><br /><a class='help-box-close'>Close</a></p></div>",
+			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Progress Meter</h1><hr /><p>The blue spark in the meter shows how far you've advanced and how much further you have to go. If you have a recent web browser, differently shaded bands will mark each section of the presentation.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: "#progress-meter"
 		},
 		help3: {
-			html: "<div class='help-box'><h1>Menu Button</h1><p>Tap this button to </p><p><a class='help-box-next'>Next</a><br /><a class='help-box-close'>Close</a></p></div>",
+			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Menu Button</h1><p>Tap this button to open the Navigation menu, which provides an index of all of the pages you've read so far.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: "#menu-button"
 		},
 		help4: {
-			html: "<div class='help-box'><h1>Index</h1><p>As you read through the presentation, each new page you read will appear here. Click on the title of a section to see the pages inside, and click on the name of a page to visit it.</p><p><a class='help-box-next'>Next</a><br /><a class='help-box-close'>Close</a></p></div>",
+			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Index</h1><p>As you read through the presentation, each new page you read will appear here. Click on the title of a section to see the pages inside, and click on the name of a page to visit it.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			parent: "#drawers-wrap",
 			element: "#nav-container" 
 		},
 		help5: {
-			html: "<div class='help-box'><h1>Quick Tour</h1><p>Anytime you want to see these helpful tips again, just open the menu and click on this link.</p><p><a class='help-box-next'>Next</a><br /><a class='help-box-close'>Close</a></p></div>",
+			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Quick Tour</h1><p>Anytime you want to see these helpful tips again, just open the menu and click on this link.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			parent: "#drawers-wrap",
 			element: "#drawer-help-link"
+		},
+		help6: {
+			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>In-Depth Information</h1><p>Red boxes like this one contain links to more detailed info on related topics. Click on a link to read more. You'll be able to return to this page easily.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			element: ".sidebar-box",
+			parent: "#passages",
+			addedClass: "alternate"
+		},
+		help7: {
+			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Back Button</h1><p>Click here to go back to the previous page.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			element: ".page-back-link",
+			scroll: true,
+			parent: "#passages",
+			addedClass: "alternate"
+		},
+		help8: {
+			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Continue Button</h1><p>This friendly blue button will take you to the next page in the presentation.</p><div class='help-box-nav'>" + HelpIMGs.left + "<a class='help-box-next' style='bottom:21px; font-size:14px;'>Finish</a></div></div>",
+			element: "a.continue-link",
+			addedClass: "alternate",
+			scroll: true,
+			parent: "#passages",
+			arrow: "arrow-down"
 		}
 	}
 }

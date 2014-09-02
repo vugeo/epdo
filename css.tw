@@ -1001,7 +1001,7 @@ ul.sidebar-links {
 :: Help system [stylesheet]
 .help-box {
   box-sizing: border-box;
-  background: #fbe5bf;
+  background: #ffce0d;
   color: #000;
   display: block;
   opacity: 0;
@@ -1035,33 +1035,42 @@ ul.sidebar-links {
   border-style: solid;
   height: 0;
   width: 0;
+  border-color: #ffce0d;
 }
 
 .help-box.arrow-down:before {
   left: 50%;
   top: 100%;
-  border-color: #fbe5bf transparent transparent transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
   margin-left: -10px;
 }
 
 .help-box.arrow-up:before {
   left: 50%;
   top: -20px;
-  border-color: transparent transparent #fbe5bf transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
   margin-left: -10px;
 }
 
 .help-box.arrow-left:before {
   top: 50%;
   left: -20px;
-  border-color: transparent #fbe5bf transparent transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
   margin-top: -10px;
 }
 
 .help-box.arrow-right:before {
   top: 50%;
   right: -20px;
-  border-color: transparent transparent transparent #fbe5bf;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
   margin-top: -10px;
 }
 
@@ -1080,10 +1089,64 @@ ul.sidebar-links {
   color: #000;
 }
 
+.help-box hr {
+  background: #fff;
+  height: 1px;
+  border: none;
+}
+
 .help-box-callout {
   box-shadow: 0px 0px 6px 6px #fff!important;
-  border-radius: 10%;
+  border-radius: none;
   background-color: #fff;
+}
+
+.help-box-callout.alternate {
+  box-shadow: 0px 0px 6px 6px yellow!important;
+}
+
+.help-box-nav {
+  height: 16px;
+  display: block;
+}
+
+a.help-box-close {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  width: 12px;
+  height: 12px;
+}
+
+svg.help-box-close {
+  fill: #666;
+  width: 12px;
+  height: 12px;
+}
+
+a.help-box-next {
+  display: block;
+  right: 20px;
+  bottom: 10px;
+  position: absolute;
+  font-weight: bold;
+  color: #fff;
+}
+
+svg.help-box-next {
+  fill: #fff;
+}
+
+a.help-box-prev {
+  display: block;
+  left: 20px;
+  bottom: 10px;
+  position: absolute;
+}
+
+svg.help-box-prev {
+  fill: #fff;
 }
 
 .occluder {

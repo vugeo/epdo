@@ -24,8 +24,8 @@ I00
 sS'pos'
 p13
 (lp14
-F15.32521315468938
-aF391.3349573690617
+F10.66260657734469
+aF538.9841656516442
 asS'passage'
 p15
 (itiddlywiki
@@ -84,8 +84,8 @@ g12
 I00
 sg13
 (lp38
-F16.32521315468938
-aF260.33495736906144
+F8.55420219244823
+aF407.9841656516444
 asg15
 (itiddlywiki
 Tiddler
@@ -138,8 +138,8 @@ g12
 I00
 sg13
 (lp55
-F10.670726755988643
-aF1038.527405602923
+F16.887535525781562
+aF1169.0803897685732
 asg15
 (itiddlywiki
 Tiddler
@@ -190,8 +190,8 @@ g12
 I00
 sg13
 (lp71
-F143.33739342265525
-aF1039.1940722695897
+F149.55420219244817
+aF1169.74705643524
 asg15
 (itiddlywiki
 Tiddler
@@ -244,8 +244,8 @@ g12
 I00
 sg13
 (lp88
-F5.670726755988639
-aF629.1940722695899
+F11.887535525781558
+aF759.7470564352416
 asg15
 (itiddlywiki
 Tiddler
@@ -298,8 +298,8 @@ g12
 I00
 sg13
 (lp105
-F10.670726755988643
-aF910.5274056029242
+F16.887535525781562
+aF1041.0803897685755
 asg15
 (itiddlywiki
 Tiddler
@@ -350,8 +350,8 @@ g12
 I00
 sg13
 (lp121
-F141.00406008932197
-aF631.1940722695899
+F147.2208688591149
+aF761.7470564352416
 asg15
 (itiddlywiki
 Tiddler
@@ -1513,7 +1513,7 @@ tp481
 Rp482
 sbsa(dp483
 g12
-I01
+I00
 sg13
 (lp484
 F983.5542021924465
@@ -2158,7 +2158,7 @@ Tiddler
 p682
 (dp683
 g19
-V<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a!!!!Getting oriented\u000a* Tooltips to show & explain menu and progress bar: place "Next" in each one to allow the user to move on to the next.\u000a* GEO logo\u000a\u000aThis presentation is a really cool introduction to things you //need// to know about study abroad. Click here for <<button "help">><<script>>activateHelp();<</script>><</button>> navigating it.\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|#]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
+V<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a!!!!Getting oriented\u000a* Tooltips to show & explain menu and progress bar: place "Next" in each one to allow the user to move on to the next.\u000a* GEO logo\u000a\u000aThis presentation is a really cool introduction to things you //need// to know about study abroad. Click here for <<button "help">><<script>>activateHelp();<</script>><</button>> navigating it.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample.|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|#]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
 p684
 sg21
 VAbout the Presentation
@@ -2167,12 +2167,12 @@ sg23
 g24
 ((I2014
 I8
-I21
-I15
-I47
-I27
-I3
-I233
+I29
+I13
+I7
+I53
+I4
+I241
 I1
 tp686
 (dp687
@@ -2322,13 +2322,13 @@ p733
 sg23
 g24
 ((I2014
-I7
-I23
-I13
-I59
-I38
-I2
-I204
+I8
+I26
+I14
+I20
+I6
+I1
+I238
 I1
 tp734
 (dp735
@@ -2358,8 +2358,8 @@ g12
 I00
 sg13
 (lp745
-F5.337393422655312
-aF769.1940722695895
+F11.554202192448232
+aF899.7470564352411
 asg15
 (itiddlywiki
 Tiddler
@@ -2794,13 +2794,13 @@ p879
 sg23
 g24
 ((I2014
-I7
-I23
-I15
-I10
-I40
-I2
-I204
+I8
+I29
+I12
+I47
+I43
+I4
+I241
 I1
 tp880
 (dp881
@@ -2956,13 +2956,13 @@ p930
 sg23
 g24
 ((I2014
-I7
-I23
-I14
+I8
+I29
+I12
+I53
 I54
-I24
-I2
-I204
+I4
+I241
 I1
 tp931
 (dp932
@@ -3898,8 +3898,8 @@ g12
 I00
 sg13
 (lp1225
-F145.67072675598862
-aF1174.1940722695888
+F151.88753552578154
+aF1304.747056435239
 asg15
 (itiddlywiki
 Tiddler
@@ -3997,10 +3997,64 @@ tp1252
 (dp1253
 tp1254
 Rp1255
+sbsa(dp1256
+g12
+I00
+sg13
+(lp1257
+F155.42021924482304
+aF156.97442143727127
+asg15
+(itiddlywiki
+Tiddler
+p1258
+(dp1259
+g19
+V<<sidebar "In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can either tap on the back button to go back to the previous page, or press the big Continue button to go on to the presentation's next page.
+p1260
+sg21
+VSample
+p1261
+sg23
+g24
+((I2014
+I8
+I29
+I13
+I10
+I57
+I4
+I241
+I1
+tp1262
+(dp1263
+tp1264
+Rp1265
+sg29
+(lp1266
+Vsidebar
+p1267
+aVabout
+p1268
+asg32
+g24
+((I2014
+I8
+I29
+I12
+I50
+I49
+I4
+I241
+I1
+tp1269
+(dp1270
+tp1271
+Rp1272
 sbsasS'scale'
-p1256
+p1273
 F0.643416927899688
 sS'snapping'
-p1257
+p1274
 I00
 ss.

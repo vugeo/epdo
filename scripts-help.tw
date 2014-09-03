@@ -1,5 +1,12 @@
 :: Help interface [script]
 // The tooltips themselves are defined at the bottom of this script.
+$.fn.removeClassRegex = function(regex) {
+  return $(this).removeClass(function(index, classes) {
+    return classes.split(/\s+/).filter(function(c) {
+      return regex.test(c);
+    }).join(' ');
+  });
+};
 
 window.activateHelp = function() {
 	var box = "help" + Help.current;
@@ -7,8 +14,7 @@ window.activateHelp = function() {
 		// TODO: For mobile, offset arrow instead of box if offsetting box
 		// would put it outside of the content area. Do the same for drawer tips
 		// regardless of device.
-		// TODO: Must figure out how to manage scrolling to the target with proper offset.
-		//    Currently, the 100ms it takes to scroll will cause an error with the offset calc.
+		// TODO: Put scroll code in timer callback.
 		var tip = Help.tips[box];
 		// Check to see whether the target element exists on the page
 		var $target = $(tip.element);
@@ -23,23 +29,27 @@ window.activateHelp = function() {
 		else {
 			snapper.open("right");
 		}
+		if (tip.element === "#nav-container") {
+			// If target is the drawer index nav panel, switch to the current section
+			$("#nav-container a.chapter-list").not(".active").next("ul").hide();
+			$("a.chapter-list.active").next("ul").show();
+		}
 		// Position help box in relation to item pointed to
-		
 		var arrowClass = "arrow-up";
 		if (tip.hasOwnProperty("arrow")) { arrowClass = tip.arrow; }
 		var $helpBox = $(tip.html).attr("id", box).addClass(arrowClass);
-		var leftOffset = 0;
+		/* var leftOffset = 0;
 		if (tip.hasOwnProperty("left")) { leftOffset = tip.left; }
 		var topOffset = 0;
-		if (tip.hasOwnProperty("top")) { topOffset = tip.top; }
+		if (tip.hasOwnProperty("top")) { topOffset = tip.top; } */
+		var leftOffset = tip.hasOwnProperty("left") ? tip.left : 0;
+		var topOffset = tip.hasOwnProperty("top") ? tip.top : 0;
 		var offset = $target.offset();
 		var adjust = $parent.offset();
-		console.log("target: " + tip.element + ", top: " + offset.top + ", left: " + offset.left + "adjustment (" + parent + "), top: " + adjust.top + ", left: " + adjust.left);
-		/* var scroll = false;
-		if (tip.hasOwnProperty("scroll")) { scroll = tip.scroll; }
-		if (scroll === true) { customScroll.scrollToElement(tip.element, 100, 0, 20); } */
+		var test = $target.position();
+		console.log("target: " + tip.element + ", top: " + offset.top + ", left: " + offset.left + " :: adjustment (" + parent + "), top: " + adjust.top + ", left: " + adjust.left + ":: target.position(): top: " + test.top + ", left: " + test.left + ":: parent height: " + $parent.outerHeight(true) + " :: screen height: " + screen.availHeight);
 		if (arrowClass === "arrow-down") {
-			offset.bottom = ~~( (screen.availHeight - offset.top) - topOffset + adjust.top );
+			offset.bottom = ~~(($parent.outerHeight(true) - offset.top) + topOffset + adjust.top );
 			$helpBox.css("bottom", offset.bottom + "px");
 		}
 		else {
@@ -57,6 +67,10 @@ window.activateHelp = function() {
 			if (tip.hasOwnProperty("addedClass")) {
 				$target.addClass(tip.addedClass);
 			}
+			if (tip.hasOwnProperty("scroll") && tip.scroll === true) { 
+				// Change this so that the value in tip.scroll is the element to scroll to
+				customScroll.scrollToElement(tip.element, 200, 0, 20);
+			}
 		}, 100);
 
 		$("a.help-box-next, a.help-box-prev").off().on("click", function(event) {
@@ -69,6 +83,9 @@ window.activateHelp = function() {
 			$this.closest(".help-box").removeClass("help-box-show");
 			// Remove any highlighting effect on tooltip targets
 			$target.removeClass("help-box-callout");
+			if (tip.hasOwnProperty("addedClass")) {
+				$target.removeClass(tip.addedClass);
+			}
 			var maxTips = Object.keys(Help.tips).length;
 			// Find the next valid tooltip
 			while (true) {
@@ -92,9 +109,6 @@ window.activateHelp = function() {
 				return;
 			}
 			// Otherwise, activate help again, targeting the next tooltip
-			if (tip.hasOwnProperty("scroll") && tip.scroll === true) { 
-				customScroll.scrollToElement(tip.element, 100, 0, 20);
-			}
 			activateHelp();
 		});
 
@@ -117,11 +131,11 @@ $(document).on('click', function(event) {
 });
 
 window.deactivateHelp = function() {
+	$(".help-box").removeClass("help-box-show");
+	$(".help-box-callout").removeClassRegex(/^help-box-callout/);
 	if (Help.current >= Object.keys(Help.tips).length || Help.current < 1) {
 		Help.current = 1;
 	};
-	$(".help-box").removeClass("help-box-show");
-	$(".help-box-callout").removeClass("help-box-callout");
 }
 
 window.HelpIMGs = {
@@ -148,7 +162,8 @@ window.Help = {
 		help4: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Index</h1><p>As you read through the presentation, each new page you read will appear here. Click on the title of a section to see the pages inside, and click on the name of a page to visit it.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			parent: "#drawers-wrap",
-			element: "#nav-container" 
+			element: "#nav-container",
+			addedClass: "help-box-callout-nav" 
 		},
 		help5: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Quick Tour</h1><p>Anytime you want to see these helpful tips again, just open the menu and click on this link.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
@@ -159,19 +174,19 @@ window.Help = {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>In-Depth Information</h1><p>Red boxes like this one contain links to more detailed info on related topics. Click on a link to read more. You'll be able to return to this page easily.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: ".sidebar-box",
 			parent: "#passages",
-			addedClass: "alternate"
+			addedClass: "help-box-callout-alt"
 		},
 		help7: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Back Button</h1><p>Click here to go back to the previous page.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: ".page-back-link",
 			scroll: true,
 			parent: "#passages",
-			addedClass: "alternate"
+			addedClass: "help-box-callout-alt"
 		},
 		help8: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Continue Button</h1><p>This friendly blue button will take you to the next page in the presentation.</p><div class='help-box-nav'>" + HelpIMGs.left + "<a class='help-box-next' style='bottom:21px; font-size:14px;'>Finish</a></div></div>",
 			element: "a.continue-link",
-			addedClass: "alternate",
+			addedClass: "help-box-callout-alt",
 			scroll: true,
 			parent: "#passages",
 			arrow: "arrow-down"

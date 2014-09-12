@@ -40,8 +40,10 @@
     width: auto!important;
   }
   ul.sidebar-links {
+    display: block!important;
     border-radius: 0 5px 5px 5px!important;
     line-height:140%!important;
+    margin: 0;
   }
   .browser {
     width:41px;

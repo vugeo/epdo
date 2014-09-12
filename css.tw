@@ -910,6 +910,7 @@ ul.sidebar-links {
     display:table-cell;
     vertical-align:middle;
     list-style-type: none;
+    background-color: #fff;
 }
 
 .sidebar-links li {
@@ -1016,11 +1017,11 @@ ul.sidebar-links {
       -ms-transform: translateY(10px);
        -o-transform: translateY(10px);
           transform: translateY(10px);
-  -webkit-transition: all .25s ease-out;
-     -moz-transition: all .25s ease-out;
-      -ms-transition: all .25s ease-out;
-       -o-transition: all .25s ease-out;
-          transition: all .25s ease-out;
+  -webkit-transition: opacity .25s ease-out, transform .25s ease-out;
+     -moz-transition: opacity .25s ease-out, transform .25s ease-out;
+      -ms-transition: opacity .25s ease-out, transform .25s ease-out;
+       -o-transition: opacity .25s ease-out, transform .25s ease-out;
+          transition: opacity .25s ease-out, transform .25s ease-out;
   -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
      -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
       -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
@@ -1028,8 +1029,7 @@ ul.sidebar-links {
           box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
 }
 
-.help-box:before {
-  content: "";
+.help-box .arrow {
   position: absolute;
   border-width: 10px;
   border-style: solid;
@@ -1038,7 +1038,7 @@ ul.sidebar-links {
   border-color: #ffce0d;
 }
 
-.help-box.arrow-down:before {
+.arrow.arrow-down {
   left: 50%;
   top: 100%;
   border-right-color: transparent;
@@ -1047,31 +1047,13 @@ ul.sidebar-links {
   margin-left: -10px;
 }
 
-.help-box.arrow-up:before {
+.arrow.arrow-up {
   left: 50%;
   top: -20px;
   border-right-color: transparent;
   border-left-color: transparent;
   border-top-color: transparent;
   margin-left: -10px;
-}
-
-.help-box.arrow-left:before {
-  top: 50%;
-  left: -20px;
-  border-top-color: transparent;
-  border-left-color: transparent;
-  border-bottom-color: transparent;
-  margin-top: -10px;
-}
-
-.help-box.arrow-right:before {
-  top: 50%;
-  right: -20px;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  border-bottom-color: transparent;
-  margin-top: -10px;
 }
 
 .help-box-show {
@@ -1107,6 +1089,7 @@ ul.sidebar-links {
 
 .help-box-callout.help-box-callout-alt {
   box-shadow: 0px 0px 6px 6px yellow!important;
+  background-color: yellow;
 }
 
 .help-box-nav {

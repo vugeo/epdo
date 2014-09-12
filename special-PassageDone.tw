@@ -81,8 +81,8 @@
         });
         $("#nav-container a.chapter-list").on("click", function(){
             var $this = $(this);
-            $("#nav-container ul.passage-list").not($this.siblings()).slideUp();
-            $this.next("ul").slideToggle();
+            $("#nav-container ul.passage-list").not($this.siblings()).slideUp(10);
+            $this.next("ul").slideToggle(10);
         });
         $("a.passage-list, a.index-passage").click(function(){
             var $this = $(this);

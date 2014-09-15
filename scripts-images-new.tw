@@ -4,7 +4,7 @@
     window.isHandheld = function() {
         var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
         var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-        if (Math.max(w, h) < 900) {
+        if (Math.max(w, h) < 1000) {
             return true;
         }
         return false;
@@ -18,7 +18,7 @@
         $(elem).remove();
         if (Math.max(w, h) < 900) {
             return true;
-        }
+        } 
         return false;
     };
     */

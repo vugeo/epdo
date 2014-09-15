@@ -1048,7 +1048,7 @@ Tiddler
 p337
 (dp338
 g19
-V<<sidebar "When should I contact GEO?">>\u000aMost of the time, your most appropriate contact abroad will be your Resident Director, or if you are an exchange student, an advisor in your host university's international office. But there may also be times when it makes more sense to phone home to Vanderbilt and GEO. See the chart for things that GEO is well prepared to help you with!\u000a\u000a|box|k\u000a|!What GEO Can Help You With|\u000a|You are uncomfortable discussing an issue with your on-site staff|\u000a|Questions about specific Vanderbilt policies|\u000a|Questions about billing|\u000a|Questions about your transcript|\u000a|You want to remain abroad for another term|\u000a|You're just not sure who to talk to!|\u000a\u000a<<segue "Balancing Contact">>
+V<<sidebar "When should I contact GEO?">>\u000aMost of the time, your most appropriate contact abroad will be your Resident Director, or if you are an exchange student, an advisor in your host university's international office. But there may also be times when it makes more sense to phone home to Vanderbilt and GEO. See the chart for things that GEO is well prepared to help you with!\u000a\u000a|box|k\u000a|!What GEO Can Help You With|\u000a|You are uncomfortable discussing an issue with your on-site staff|\u000a|Questions about specific Vanderbilt policies|\u000a|Questions about billing|\u000a|Questions about your transcript|\u000a|You want to remain abroad for another term|\u000a|You're just not sure who to talk to!|\u000a\u000a<<segue "Communicating with home">>
 p339
 sg21
 VWhen should I contact GEO
@@ -1056,13 +1056,13 @@ p340
 sg23
 g24
 ((I2014
-I7
-I23
+I9
 I15
-I29
-I27
-I2
-I204
+I14
+I28
+I8
+I0
+I258
 I1
 tp341
 (dp342
@@ -1628,7 +1628,7 @@ Tiddler
 p517
 (dp518
 g19
-V<<sidebar "More Ideas and Resources for Getting Involved After Returning Home">>\u000aWhether you're interested in publishing your experiences, submitting photos to the GEO photo contest, or getting involved with the international communities of Vanderbilt and Nashville, GEO has information for you. In fact, there's an [[entire section of our website|http://vanderbi.lt/rusg8]] dedicated to giving you ideas for post-study abroad involvement. Check it out!
+V<<sidebar "More Ideas and Resources for Getting Involved After Returning Home">>\u000aWhether you're interested in publishing your experiences, submitting photos to the GEO photo contest, or getting involved with the international communities of Vanderbilt and Nashville, GEO has information for you. In fact, there's an [[entire section of our website|http://vanderbi.lt/rusg8]] dedicated to giving you ideas for post-study abroad involvement. Check it out!\u000a\u000a<<segue "GEO Photo Contest">>\u005c
 p519
 sg21
 VReturnee resources
@@ -1636,13 +1636,13 @@ p520
 sg23
 g24
 ((I2014
-I7
-I31
-I16
-I40
-I22
-I3
-I212
+I9
+I15
+I14
+I33
+I21
+I0
+I258
 I1
 tp521
 (dp522
@@ -1690,13 +1690,13 @@ p537
 sg23
 g24
 ((I2014
-I7
-I31
-I16
-I43
-I54
-I3
-I212
+I9
+I15
+I14
+I33
+I17
+I0
+I258
 I1
 tp538
 (dp539
@@ -1991,7 +1991,7 @@ tp630
 Rp631
 sbsa(dp632
 g12
-I00
+I01
 sg13
 (lp633
 F1615.0000000000034
@@ -2150,7 +2150,7 @@ g12
 I00
 sg13
 (lp681
-F15.248071457572053
+F12.139667072675593
 aF18.84206252537203
 asg15
 (itiddlywiki
@@ -2158,7 +2158,7 @@ Tiddler
 p682
 (dp683
 g19
-V<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a!!!!Getting oriented\u000a* Tooltips to show & explain menu and progress bar: place "Next" in each one to allow the user to move on to the next.\u000a* GEO logo\u000a\u000aThis presentation is a really cool introduction to things you //need// to know about study abroad. Click here for <<button "help">><<script>>activateHelp();<</script>><</button>> navigating it.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample.|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|#]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
+V<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information, information that you will need to know to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the Quick Tour now for a very brief introduction to the Training interface. It will very quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides more detailed information on a topic or topics. Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aWhen you're ready to move on, hit the big blue Continue button at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|#]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
 p684
 sg21
 VAbout the Presentation
@@ -2166,13 +2166,13 @@ p685
 sg23
 g24
 ((I2014
-I8
-I29
-I13
-I7
-I53
-I4
-I241
+I9
+I15
+I14
+I22
+I6
+I0
+I258
 I1
 tp686
 (dp687
@@ -2212,7 +2212,7 @@ Tiddler
 p699
 (dp700
 g19
-V<<if \u000a    SaveSystem.autosaveOK \u000a    && storage.getItem("saves").autosave !== null \u000a>>\u005c\u000aYou have a session already in progress. Continue where you left off? \u000a<<script>> \u000a    var resumeBtn = insertElement( \u000a        output, \u000a        "button", \u000a        "resume-button", \u000a        "ui-autostart-button", \u000a        "Resume where I left off" \u000a    ); \u000a    var restartBtn = insertElement( \u000a        output, \u000a        "button", \u000a        "restart-button", \u000a        "ui-autostart-button", \u000a        "Start over" \u000a    ); \u000a    $(resumeBtn).click(function() {\u000a        SaveSystem.loadAuto();\u000a    }); \u000a    $(restartBtn).click(function() { \u000a        SaveSystem.deleteAuto();\u000a        state.display("About the Presentation");\u000a    });\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		state.display("About the Presentation");\u000a	<</script>>\u005c\u000a<</if>>\u005c
+V<<if \u000a    SaveSystem.autosaveOK \u000a    && storage.getItem("saves").autosave !== null \u000a>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a\u000aYou have a session already in progress. Continue where you left off? \u000a<<script>> \u000a    var resumeBtn = insertElement( \u000a        output, \u000a        "button", \u000a        "resume-button", \u000a        "ui-autostart-button", \u000a        "Resume where I left off" \u000a    ); \u000a    var restartBtn = insertElement( \u000a        output, \u000a        "button", \u000a        "restart-button", \u000a        "ui-autostart-button", \u000a        "Start over" \u000a    ); \u000a    $(resumeBtn).click(function() {\u000a        SaveSystem.loadAuto();\u000a    }); \u000a    $(restartBtn).click(function() { \u000a        SaveSystem.deleteAuto();\u000a        state.display("About the Presentation");\u000a    });\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		state.display("About the Presentation");\u000a	<</script>>\u005c\u000a<</if>>\u005c
 p701
 sg21
 VStart
@@ -2220,13 +2220,13 @@ p702
 sg23
 g24
 ((I2014
-I8
+I9
 I15
-I15
-I42
-I30
-I4
-I227
+I12
+I53
+I17
+I0
+I258
 I1
 tp703
 (dp704
@@ -2264,7 +2264,7 @@ Tiddler
 p715
 (dp716
 g19
-V/% \u000a	Each passage can be part of only one section,\u000a	sections cannot overlap. Sections must be listed\u000a	*in order* of their appearance in the presentation.\u000a%/\u000a\u000a/% Where should we begin? Give first passage's name here. %/\u000a<<set $first to "About the Presentation">>\u000a\u000a<<contents>>\u000a    <<section "Global Education Office" "nosave" "backgrounds/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg">>\u000a	<<section "About" "about" "backgrounds/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg">>\u000a    <<section "Introduction" "intro" "backgrounds/Weinstein_Lori_Ann_Sunrise_at_Byron_Bay_Australia.jpg">>\u000a    <<section "Basic Policy Information" "policies" "backgrounds/Boppana_Sushma_Hillside_Door_Budapest_Hungary.jpg">>\u000a    <<section "Academic Policies" "academics" "backgrounds/Grubb_Joshua_LouAllen_Checkered_Lawn_Buenos_Aires.jpg">>\u000a    <<section "Travel" "travel" "backgrounds/Morrison_Danielle_Antoinette_Rooftop_View_Segovia_Spain.jpg">>\u000a    <<section "Living and Learning Abroad" "living" "backgrounds/Pribish_Abby_Marie_Lake_Geneva_Through_the_Foliage_Switzerland.jpg">>\u000a    <<section "Health and Wellness" "health" "backgrounds/Sims-Jones_John_Fields_and_mountains_of_Moray.jpg">>\u000a    <<section "Safety and Security" "safety" "backgrounds/Tollefsen_Stefanie_Violet_tree_Rome_Italy.jpg">>\u000a    <<section "Returning Home" "home" "backgrounds/Williams_Jon_Beaches_of_Tarifa_Spain.jpg">>\u000a    <<section "Finishing Up" "finish" "backgrounds/Babbitt_Martha_Ann_Lake_Como_Italy.jpg">>\u000a<<create-index>>
+V/% \u000a	Each passage can be part of only one section,\u000a	sections cannot overlap. Sections must be listed\u000a	*in order* of their appearance in the presentation.\u000a%/\u000a\u000a/% Where should we begin? Give first passage's name here. %/\u000a<<set $first to "About the Presentation">>\u000a\u000a<<contents>>\u000a    <<section "Global Education Office" "nosave" "backgrounds/Babbitt_Martha_Ann_Lake_Como_Italy.jpg">>\u000a	<<section "About" "about" "backgrounds/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg">>\u000a    <<section "Introduction" "intro" "backgrounds/Weinstein_Lori_Ann_Sunrise_at_Byron_Bay_Australia.jpg">>\u000a    <<section "Basic Policy Information" "policies" "backgrounds/Boppana_Sushma_Hillside_Door_Budapest_Hungary.jpg">>\u000a    <<section "Academic Policies" "academics" "backgrounds/Grubb_Joshua_LouAllen_Checkered_Lawn_Buenos_Aires.jpg">>\u000a    <<section "Travel" "travel" "backgrounds/Morrison_Danielle_Antoinette_Rooftop_View_Segovia_Spain.jpg">>\u000a    <<section "Living and Learning Abroad" "living" "backgrounds/Pribish_Abby_Marie_Lake_Geneva_Through_the_Foliage_Switzerland.jpg">>\u000a    <<section "Health and Wellness" "health" "backgrounds/Sims-Jones_John_Fields_and_mountains_of_Moray.jpg">>\u000a    <<section "Safety and Security" "safety" "backgrounds/Tollefsen_Stefanie_Violet_tree_Rome_Italy.jpg">>\u000a    <<section "Returning Home" "home" "backgrounds/Williams_Jon_Beaches_of_Tarifa_Spain.jpg">>\u000a    <<section "Finishing Up" "finish" "backgrounds/Babbitt_Martha_Ann_Lake_Como_Italy.jpg">>\u000a<<create-index>>
 p717
 sg21
 VTable of Contents
@@ -2272,13 +2272,13 @@ p718
 sg23
 g24
 ((I2014
-I8
-I21
-I15
-I59
-I23
-I3
-I233
+I9
+I12
+I11
+I42
+I37
+I4
+I255
 I1
 tp719
 (dp720
@@ -3324,7 +3324,7 @@ Tiddler
 p1045
 (dp1046
 g19
-V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhil generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. //You should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt's safety efforts]]\u000a<</sidebar-box>>\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhil generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. //You should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt's safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1047
 sg21
 VPreparing for safety
@@ -3332,13 +3332,13 @@ p1048
 sg23
 g24
 ((I2014
-I7
-I31
-I16
-I21
-I52
-I3
-I212
+I9
+I15
+I14
+I30
+I23
+I0
+I258
 I1
 tp1049
 (dp1050

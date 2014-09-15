@@ -81,8 +81,8 @@
         });
         $("#nav-container a.chapter-list").on("click", function(){
             var $this = $(this);
-            $("#nav-container ul.passage-list").not($this.siblings()).slideUp(10);
-            $this.next("ul").slideToggle(10);
+            $("#nav-container ul.passage-list").not($this.siblings()).slideUp(200);
+            $this.next("ul").slideToggle(200);
         });
         $("a.passage-list, a.index-passage").click(function(){
             var $this = $(this);
@@ -95,7 +95,7 @@
             return false;
         });
         //show the current section on opening the drawer
-        $("a.chapter-list.active").next("ul").slideDown();
+        $("a.chapter-list.active").next("ul").slideDown(200);
     }
     if (index.hasOwnProperty(passage)) { //skip this for passages that aren't in the index
         //update image if necessary

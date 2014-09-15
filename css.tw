@@ -202,6 +202,7 @@ body {
   display: block;
 }
 
+
 /* Helpers */
 figcaption {
     font-size:80%;
@@ -577,6 +578,17 @@ label.progress-meter {
   margin: 0 0 15px 0;
   color: #ddd;
   text-align: center;
+}
+.snap-drawer button {
+  background-color: #888;
+  border-color: #bbb;
+}
+.snap-drawer button:hover {
+  background-color: #9A9A9A;
+}
+.snap-drawer button:active {
+  background-color: #f70;
+  border-color: #f92;
 }
 a.centered {
   display: block;
@@ -1135,7 +1147,11 @@ a.help-box-prev {
 svg.help-box-prev {
   fill: #fff;
 }
-
+.help-external-link-icon:before {
+  font-family: 'icomoon-sugarcube';
+  content: "\00a0\e010";
+}
+/*
 #nav-container.help-box-callout-nav .chapter-list.active:after {
   content: "Current Section";
   font-size: 80%;
@@ -1184,7 +1200,7 @@ svg.help-box-prev {
   font-weight: bold;
   text-indent: 0;
 }
-
+*/
 
 :: Browser icon sprites [stylesheet]
 #browsers {

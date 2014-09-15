@@ -46,13 +46,13 @@ ctime
 struct_time
 p24
 ((I2014
-I7
+I9
+I15
+I15
 I22
-I14
-I22
-I58
-I1
-I203
+I43
+I0
+I258
 I1
 tp25
 (dp26
@@ -1940,15 +1940,15 @@ g12
 I00
 sg13
 (lp616
-F1613.3333333333371
-aF744.9999999999995
+F1614.8875355257865
+aF894.2034104750294
 asg15
 (itiddlywiki
 Tiddler
 p617
 (dp618
 g19
-V!Index\u000a!!!!Quick reference\u000aThis page lists all of the information you have viewed in this presentation. You may ''bookmark'' it now for easy access later.\u000a\u000a<<segue "Credits">>\u000a\u000a<div id="index-list" class="index-columns">Error: Index could not be shown. Try reloading the page.</div>\u005c\u000a/% The code that displays the index is in ::PassageDone and works only when the name of the passage is "Index" %/\u005c\u000a
+V!Index\u000a!!!!Quick reference\u000aThis page lists all of the information you have viewed in this presentation. You may ''bookmark'' it now for easy access later.\u000a\u000a<div id="index-list" class="index-columns">Error: Index could not be shown. Try reloading the page.</div>\u005c\u000a/% The code that displays the index is in ::PassageDone and works only when the name of the passage is "Index" %/\u005c\u000a
 p619
 sg21
 VIndex
@@ -1956,13 +1956,13 @@ p620
 sg23
 g24
 ((I2014
-I8
-I8
+I9
 I15
-I8
-I28
-I4
-I220
+I16
+I33
+I25
+I0
+I258
 I1
 tp621
 (dp622
@@ -1991,7 +1991,7 @@ tp630
 Rp631
 sbsa(dp632
 g12
-I01
+I00
 sg13
 (lp633
 F1615.0000000000034
@@ -2002,7 +2002,7 @@ Tiddler
 p634
 (dp635
 g19
-V!What to do next\u000a!!!!Subhead goes here\u000a   * Link to checklist of responsibilities\u000a   * Visa/Passport\u000a\u000a<<segue "Index">>
+V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aThere are a few things you may need to do now:\u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training! Note that it may take a few days before your registration is reflected in your GEO account. Please fill out this form to register:\u000a\u000a<html><iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://secure.jotformpro.com/form/41326113066949" frameborder="0" style="width:100%; height:487px; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script></html>\u005c\u000a<<segue "Credits">>
 p636
 sg21
 VWhat to do next
@@ -2010,13 +2010,13 @@ p637
 sg23
 g24
 ((I2014
-I8
-I8
+I9
 I15
-I8
-I37
-I4
-I220
+I16
+I33
+I7
+I0
+I258
 I1
 tp638
 (dp639
@@ -2048,15 +2048,15 @@ g12
 I00
 sg13
 (lp650
-F1616.6666666666704
-aF881.6666666666702
+F1615.1124644742222
+aF752.667884693467
 asg15
 (itiddlywiki
 Tiddler
 p651
 (dp652
 g19
-V!Credits\u000a!!!!Content to come!\u000a\u000aPhoto from Study Abroad Survival Training header: Bonnie Renee Williamson - Inside the Grotta Azzurra ("Blue Cave"), Capri, Italy\u000a\u000aBrowser icons from C\u0103t\u0103lin Mari\u0219's open [[GitHub project|https://github.com/alrra/browser-logos#readme]].\u000a\u000a<<segue "Registration">>
+V!Credits\u000a!!!!Content to come!\u000a\u000aPhoto from Study Abroad Survival Training header: Bonnie Renee Williamson - Inside the Grotta Azzurra ("Blue Cave"), Capri, Italy\u000a\u000aBrowser icons from C\u0103t\u0103lin Mari\u0219's open [[GitHub project|https://github.com/alrra/browser-logos#readme]].\u000a\u000a<<segue "Index">>\u005c
 p653
 sg21
 VCredits
@@ -2064,13 +2064,13 @@ p654
 sg23
 g24
 ((I2014
-I8
-I18
-I13
-I52
-I39
+I9
+I15
+I16
+I33
+I14
 I0
-I230
+I258
 I1
 tp655
 (dp656
@@ -2168,9 +2168,9 @@ g24
 ((I2014
 I9
 I15
-I14
-I22
-I6
+I15
+I23
+I29
 I0
 I258
 I1
@@ -2374,13 +2374,13 @@ p749
 sg23
 g24
 ((I2014
-I7
-I22
+I9
 I15
-I31
-I56
-I1
-I203
+I15
+I24
+I26
+I0
+I258
 I1
 tp750
 (dp751
@@ -2514,71 +2514,19 @@ g12
 I00
 sg13
 (lp793
-F1621.9999999999998
-aF1013.0000000000001
+F383.6666666666671
+aF1686.3333333333342
 asg15
 (itiddlywiki
 Tiddler
 p794
 (dp795
 g19
-V!Registration\u000a!!!!Don't forget to register!\u000aPlease fill out the form below to register your participation. It may take a few days before your registration is reflected in your GEO account.\u000a\u000a<html><iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://secure.jotformpro.com/form/41326113066949" frameborder="0" style="width:100%; height:467px; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script></html>
+V!Making friends\u000a!!!!Consider your goals as well as your opportunities\u000aStarting off in a foreign country is in some ways like being a first-year student again. //Everything// is new, including all of the other students. Most study abroad programs offer orientation activities at the beginning of the semester. Take advantage of social opportunities during this orientation. It's your best chance to get to know the other participants, and it's not hard--luckily, they happen to be in the market for new friends too!\u000a\u000aWhile it will be great to have friends in your program, you should be aware of the disadvantages of spending too much time with other Americans. If your goals include meeting local people, learning the language, or becoming something more than a long-stay tourist, you will need to look beyond the American crowd.\u000a\u000a<<segue "Making local friends">>\u005c
 p796
 sg21
-VRegistration
-p797
-sg23
-g24
-((I2014
-I8
-I15
-I10
-I36
-I27
-I4
-I227
-I1
-tp798
-(dp799
-tp800
-Rp801
-sg29
-(lp802
-Vfinish
-p803
-asg32
-g24
-((I2014
-I5
-I13
-I13
-I52
-I27
-I1
-I133
-I1
-tp804
-(dp805
-tp806
-Rp807
-sbsa(dp808
-g12
-I00
-sg13
-(lp809
-F383.6666666666671
-aF1686.3333333333342
-asg15
-(itiddlywiki
-Tiddler
-p810
-(dp811
-g19
-V!Making friends\u000a!!!!Consider your goals as well as your opportunities\u000aStarting off in a foreign country is in some ways like being a first-year student again. //Everything// is new, including all of the other students. Most study abroad programs offer orientation activities at the beginning of the semester. Take advantage of social opportunities during this orientation. It's your best chance to get to know the other participants, and it's not hard--luckily, they happen to be in the market for new friends too!\u000a\u000aWhile it will be great to have friends in your program, you should be aware of the disadvantages of spending too much time with other Americans. If your goals include meeting local people, learning the language, or becoming something more than a long-stay tourist, you will need to look beyond the American crowd.\u000a\u000a<<segue "Making local friends">>\u005c
-p812
-sg21
 VMaking friends
-p813
+p797
 sg23
 g24
 ((I2014
@@ -2589,6 +2537,58 @@ I5
 I27
 I0
 I139
+I1
+tp798
+(dp799
+tp800
+Rp801
+sg29
+(lp802
+Vliving
+p803
+asg32
+g24
+((I2014
+I5
+I16
+I14
+I20
+I47
+I4
+I136
+I1
+tp804
+(dp805
+tp806
+Rp807
+sbsa(dp808
+g12
+I00
+sg13
+(lp809
+F383.66666666666663
+aF1816.3333333333337
+asg15
+(itiddlywiki
+Tiddler
+p810
+(dp811
+g19
+V!Making __local__ friends\u000a!!!!Get involved--outside your comfort zone\u000aGEO strongly encourages our students to get to know local people and students in more than superficial ways. Not only does this provide the greatest opportunities for building cross-cultural and language skills, it will also give you a more meaningful experience. But getting to know locals can seem daunting. Here are some tips.\u000a\u000aIn most countries, your visa or residence permit will allow you to ''volunteer'' in the community or even do an ''internship'': fantastic ways to immerse yourself in the local culture while also beefing up your resume. If you have questions about whether you can volunteer in your country, [[contact GEO|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]] or your program provider.\u000a\u000aIf you will be living with a ''host family'', explore the opportunities provided by their wider social network. They likely know people that you might like to get to know!\u000a\u000aIf you are enrolled in or taking classes at a university, join ''student organizations'' on campus. Your campus probably has many clubs and intramural sports, and joining up is a great way to find locals who share your interests.\u000a\u000aVisit your university's ''office of international student services''. In addition to local knowledge about bus routes and student discounts, they may offer inexpensive excursions and other social opportunities.\u000a\u000aMost important, ''put yourself out there!'' It may be uncomfortable at first, but it will pay off in the long run.\u000a\u000a<<sidebar-box "Homestays">>\u000a   [[Gifts and relationships|Gifts and relationships]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Before you leave">>\u000a
+p812
+sg21
+VMaking local friends
+p813
+sg23
+g24
+((I2014
+I7
+I31
+I15
+I36
+I53
+I3
+I212
 I1
 tp814
 (dp815
@@ -2604,8 +2604,8 @@ g24
 I5
 I16
 I14
-I20
-I47
+I26
+I5
 I4
 I136
 I1
@@ -2618,71 +2618,19 @@ g12
 I00
 sg13
 (lp825
-F383.66666666666663
-aF1816.3333333333337
+F525.3333333333329
+aF1820.0
 asg15
 (itiddlywiki
 Tiddler
 p826
 (dp827
 g19
-V!Making __local__ friends\u000a!!!!Get involved--outside your comfort zone\u000aGEO strongly encourages our students to get to know local people and students in more than superficial ways. Not only does this provide the greatest opportunities for building cross-cultural and language skills, it will also give you a more meaningful experience. But getting to know locals can seem daunting. Here are some tips.\u000a\u000aIn most countries, your visa or residence permit will allow you to ''volunteer'' in the community or even do an ''internship'': fantastic ways to immerse yourself in the local culture while also beefing up your resume. If you have questions about whether you can volunteer in your country, [[contact GEO|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]] or your program provider.\u000a\u000aIf you will be living with a ''host family'', explore the opportunities provided by their wider social network. They likely know people that you might like to get to know!\u000a\u000aIf you are enrolled in or taking classes at a university, join ''student organizations'' on campus. Your campus probably has many clubs and intramural sports, and joining up is a great way to find locals who share your interests.\u000a\u000aVisit your university's ''office of international student services''. In addition to local knowledge about bus routes and student discounts, they may offer inexpensive excursions and other social opportunities.\u000a\u000aMost important, ''put yourself out there!'' It may be uncomfortable at first, but it will pay off in the long run.\u000a\u000a<<sidebar-box "Homestays">>\u000a   [[Gifts and relationships|Gifts and relationships]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Before you leave">>\u000a
+V<<sidebar "Gifts and Relationships">>\u000aPresenting a gift shows that you place importance on a relationship. Consider a gift to start off your more important relationships abroad, such as with your homestay family or a host-country roommate.\u000a\u000aIn a cross-cultural setting, the best gifts can be those that let you bring a little of where you're from to the relationship. Examples might include a Vanderbilt mug or pendant, a photo book about Nashville or your hometown, maple syrup if you're from Vermont, or maybe biscuit or grits mix if you're from the South. Not only are gifts like these polite, positive, well-meaning gestures, they can also spur conversations ("Is a biscuit the same thing as a scone?").\u000a\u000aPhotos of home are another great conversation starter. Make sure you bring along some photos of your family, your house, your campus, your hobbies, and so on. It's a great way for people to feel like they are getting to know you and where you come from. \u000a\u000a<<segue "Before you leave">>\u005c
 p828
 sg21
-VMaking local friends
-p829
-sg23
-g24
-((I2014
-I7
-I31
-I15
-I36
-I53
-I3
-I212
-I1
-tp830
-(dp831
-tp832
-Rp833
-sg29
-(lp834
-Vliving
-p835
-asg32
-g24
-((I2014
-I5
-I16
-I14
-I26
-I5
-I4
-I136
-I1
-tp836
-(dp837
-tp838
-Rp839
-sbsa(dp840
-g12
-I00
-sg13
-(lp841
-F525.3333333333329
-aF1820.0
-asg15
-(itiddlywiki
-Tiddler
-p842
-(dp843
-g19
-V<<sidebar "Gifts and Relationships">>\u000aPresenting a gift shows that you place importance on a relationship. Consider a gift to start off your more important relationships abroad, such as with your homestay family or a host-country roommate.\u000a\u000aIn a cross-cultural setting, the best gifts can be those that let you bring a little of where you're from to the relationship. Examples might include a Vanderbilt mug or pendant, a photo book about Nashville or your hometown, maple syrup if you're from Vermont, or maybe biscuit or grits mix if you're from the South. Not only are gifts like these polite, positive, well-meaning gestures, they can also spur conversations ("Is a biscuit the same thing as a scone?").\u000a\u000aPhotos of home are another great conversation starter. Make sure you bring along some photos of your family, your house, your campus, your hobbies, and so on. It's a great way for people to feel like they are getting to know you and where you come from. \u000a\u000a<<segue "Before you leave">>\u005c
-p844
-sg21
 VGifts and relationships
-p845
+p829
 sg23
 g24
 ((I2014
@@ -2694,16 +2642,16 @@ I35
 I3
 I212
 I1
-tp846
-(dp847
-tp848
-Rp849
+tp830
+(dp831
+tp832
+Rp833
 sg29
-(lp850
+(lp834
 Vliving
-p851
+p835
 aVsidebar
-p852
+p836
 asg32
 g24
 ((I2014
@@ -2715,28 +2663,28 @@ I14
 I4
 I136
 I1
-tp853
-(dp854
-tp855
-Rp856
-sbsa(dp857
+tp837
+(dp838
+tp839
+Rp840
+sbsa(dp841
 g12
 I00
 sg13
-(lp858
+(lp842
 F152.00406008932194
 aF1450.860738936256
 asg15
 (itiddlywiki
 Tiddler
-p859
-(dp860
+p843
+(dp844
 g19
 V<<sidebar "Academic systems abroad">>\u000aHigher education and academic systems abroad can vary greatly from what you are used to in the United States. Here are some things that might be different depending on the country. Talk to your GEO advisor to find out more about what you might encounter on your program.\u000a\u000a|box|k\u000a|!Differences in academic systems abroad|\u000a|There are fewer hours spent in the classroom, and students are expected to spend more time studying on their own. This doesn't mean that there will be assigned homework! A lot of responsibility for deciding how best to spend your homework hours may be left up to you.|\u000a|Depending on the course and level you are taking, and whether you are taking it in a foreign language, you may need to spend extra time learning and mastering the material.|\u000a|There are fewer tests and quizzes, and students may earn a grade based on just one final exam, or a mid-term and a final. This means you'll have little opportunity to gauge how a professor grades in the weeks or months before an exam.|\u000a|Professors are less accessible for office hours and by email.|\u000a|Classes may be more lecture-style than discussion-based. This may leave fewer opportunities to ask questions or express your opinions.|\u000a|There may not be much sense of privacy attached to grades. For example, the instructor might post all exam grades publicly. In some places, individual grades may be discussed openly in class.|\u000a|The prevailing academic culture may be very different. For example, students may not be as concerned--or concerned at all--about getting high grade point averages.|\u000a|In some places, such as Latin America, students pursue something like a strict professional degree, without a liberal arts component. They may have a much more focused academic experience.|\u000a|Students likely do not live on campus, which may mean that you need to meet people through academics at first, or by joining a club or other activity.|\u000a|<hr>//Every country is different! If you want to know more about systems in your host country, talk to your GEO advisor.//|\u000a\u000a<<segue "Course equivalency evaluations">>
-p861
+p845
 sg21
 VAcademic systems abroad
-p862
+p846
 sg23
 g24
 ((I2014
@@ -2748,16 +2696,16 @@ I11
 I2
 I204
 I1
-tp863
-(dp864
-tp865
-Rp866
+tp847
+(dp848
+tp849
+Rp850
 sg29
-(lp867
+(lp851
 Vacademics
-p868
+p852
 aVsidebar
-p869
+p853
 asg32
 g24
 ((I2014
@@ -2769,28 +2717,28 @@ I53
 I0
 I139
 I1
-tp870
-(dp871
-tp872
-Rp873
-sbsa(dp874
+tp854
+(dp855
+tp856
+Rp857
+sbsa(dp858
 g12
 I00
 sg13
-(lp875
+(lp859
 F378.3333333333332
 aF754.9999999999999
 asg15
 (itiddlywiki
 Tiddler
-p876
-(dp877
+p860
+(dp861
 g19
 V!Identity and diversity\u000a!!!!Research beliefs, attitudes, and experiences\u000aOur surroundings shape us and help to define who we are. Living in another cultural context will give you the chance to explore many facets of your identity, and to do so in light of new surroundings. Students overwhelmingly tell us that this process leads to increased personal growth and insight. However, it often carries difficulties too.\u000a\u000aAs you gear up for your time abroad, prepare yourself for how people in your new culture will perceive you. Just as in the US, people abroad will have beliefs, myths, stereotypes, and prejudices about aspects of personal identity. You may also find that the way(s) in which you identify yourself in the US differ from how others will identify you abroad.\u000a\u000a|box|k\u000a|!You might be surprised to learn...|\u000a|The components of identity that most impact the treatment of students abroad are ''nationality'' and ''gender'', no matter what their background.|\u000a\u000aResearch the viewpoints held by people of your host country, including beliefs, laws, and customs that revolve around nationality, race and ethnicity, gender, religion, sexual orientation, age, mobility, and more. You may be able to prevent or at least alleviate cultural misunderstandings by learning as much as you can about your host culture before leaving. But also prepare for how your time abroad might change, challenge, and strengthen your identity. \u000a\u000a<<sidebar-box "More Specific Topics">>\u000a   [[Being American abroad|Being American abroad]]\u000a   [[Gender roles abroad|Gender roles abroad]]\u000a   [[Race and ethnicity abroad|Race and ethnicity abroad]]\u000a   [[Sexual and gender identity abroad|Sexual and gender identity abroad]]\u000a   [[Religious identity abroad|Religious identity abroad]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Contacts and communications">>\u005c
-p878
+p862
 sg21
 VIdentity and diversity
-p879
+p863
 sg23
 g24
 ((I2014
@@ -2802,16 +2750,16 @@ I43
 I4
 I241
 I1
-tp880
-(dp881
-tp882
-Rp883
+tp864
+(dp865
+tp866
+Rp867
 sg29
-(lp884
+(lp868
 Vliving
-p885
+p869
 aVbookmark
-p886
+p870
 asg32
 g24
 ((I2014
@@ -2823,28 +2771,28 @@ I30
 I0
 I139
 I1
-tp887
-(dp888
-tp889
-Rp890
-sbsa(dp891
+tp871
+(dp872
+tp873
+Rp874
+sbsa(dp875
 g12
 I00
 sg13
-(lp892
+(lp876
 F652.0000000000002
 aF756.6666666666663
 asg15
 (itiddlywiki
 Tiddler
-p893
-(dp894
+p877
+(dp878
 g19
 V<<sidebar "Race and ethnicity abroad">>\u000aDepending on who you are and where you are going, you may feel a part of a racial or ethnic majority for the first time in your life. Or you may have the opposite experience, becoming a racial minority in one fell swoop. Either way, you will likely find that your ethnic or racial identity has different implications in your new host country than it has at home. \u000a\u000aThese new vantage points on self and identity can be exciting, but they can also be difficult. People may consistently misidentify you based on physical appearance, for example. Or you may be surprised at how freely people comment on appearance. If your appearance is very exotic for your host culture, you may find that you are stared at, or that people want to touch your hair or skin.\u000a\u000aOr, it's possible that your physical appearance and racial or ethnic identity is almost totally ignored, and all that really seems to matter is your nationality or gender.\u000a\u000aIf you are traveling to a location that is part of your own heritage, be aware that people there may not see your heritage as the most important thing about you. If you are from the US, you may find that people there identify you as an American first. You should be prepared to be considered an outsider.   \u000a\u000aFor all of these reasons, it will be wise to prepare yourself in advance for the attitudes on race and ethnicity held by people of your host country. Do some research, and also see whether talking with alums of the program might help. GEO can help you find alums to talk to, just ask!\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Diversity Issues in Study Abroad|http://www.smith.edu/studyabroad/docs/diversity_st_abroad01.pdf]]: A booklet that collects statements of Brown University students about their experiences of identity abroad. A bit dated now, but many comments remain reflective of realities today.|\u000a|[[AllAbroad.us|http://allabroad.us/diversity-resources.php]], which has a wide variety of specific information for African American, Asian/Pacific Island, Latino/Hispanic American, and Native American students|\u000a|[[Diversity Abroad|http://www.diversityabroad.com/]], a collection of resources for underrepresented students traveling abroad|\u000a|[[Heritage seekers|http://www.diversityabroad.com/Heritage-Seekers]], thoughts and resources for students interested in exploring their own heritage through study abroad|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
-p895
+p879
 sg21
 VRace and ethnicity abroad
-p896
+p880
 sg23
 g24
 ((I2014
@@ -2856,16 +2804,16 @@ I17
 I2
 I204
 I1
-tp897
-(dp898
-tp899
-Rp900
+tp881
+(dp882
+tp883
+Rp884
 sg29
-(lp901
+(lp885
 Vliving
-p902
+p886
 aVsidebar
-p903
+p887
 asg32
 g24
 ((I2014
@@ -2877,28 +2825,28 @@ I7
 I0
 I139
 I1
-tp904
-(dp905
-tp906
-Rp907
-sbsa(dp908
+tp888
+(dp889
+tp890
+Rp891
+sbsa(dp892
 g12
 I00
 sg13
-(lp909
+(lp893
 F786.9999999999994
 aF758.3333333333325
 asg15
 (itiddlywiki
 Tiddler
-p910
-(dp911
+p894
+(dp895
 g19
 V<<sidebar "Sexual and gender identity abroad">>\u000aIf you identify as lesbian, gay, bisexual, transgender, queer/questioning, or intersex, you will want to take time to consider whether and how you plan to be out abroad. Depending on where you are traveling, your destination may provide you with either a more open environment than the US, or a much less welcoming one. Either way, be prepared: make yourself aware in advance of local attitudes, beliefs, and understandings. Ask yourself questions like the following:\u000a\u000a|box|k\u000a|!Questions for LGBTQI Students to Consider:|\u000a|What behaviors are legal in my host country? If I am interested in activism, are there ways to practice it both safely and legally?|\u000a|<hr>Is it safe for me to be out in my host country and city?|\u000a|<hr>How open do I want or need to be about my gender or sexual identity while abroad? Do I plan to be out? How specifically will I reconcile my human rights with the cultural values of my host country?|\u000a|<hr>If my destination is one where I need to conceal my identity, how will this impact my experience?|\u000a|<hr>What are the cultural norms surrounding friendship and dating in my host culture?|\u000a|<hr>What norms surround publicly identifying as LGBTQI in my host culture? How does my self-presentation "read" in my host culture's system of gendered norms and expectations?|\u000a|<hr>What is the LGBTQI community in my host city like? How is it different from the community at home?|\u000a|<hr>What on-site resources will I have if I experience any issues/concerns while I am abroad? Are there LGBTQI organizations or other resources at my host university or in my host city?|\u000a|<hr>Do I have concerns about my housing situation? (If living with a host family, consider making the housing coordinator aware that you would like a host family that has hosted LGBQTI students in the past.)|\u000a|<hr>Might I face challenges with travel and documents due to my gender presentation?|\u000a\u000aRegardless of self-identification, all students should be aware not only of local attitudes and beliefs surrounding sex and sexual identity, but also of local laws. Some countries criminalize speech as well as behavior, and you need to be well informed about matters that could affect your safety and well-being. The [[ILGA website|http://ilga.org/]] is a good resource for checking on legal regimes around the world. \u000a\u000aStudy abroad is often a time when students explore identity and selfhood. If you are not out at home and are considering being out abroad, please make doubly sure that you do your research and ensure that your safety and well-being are provided for. If you will live with a homestay family and want to be out to them, consider telling the housing coordinator in advance that you would like an LGBQTI-friendly family. You can stipulate that they keep your request confidential, including from the family.\u000a\u000aThe local LGBQTI community will likely be quite different from that in your home country. Coming to know and understand this new culture will likely be exciting and rewarding, but like any process of cultural adaptation it may also be trying at times. Learn as much as you can in advance, but also adopt the attitude that difficulties are challenges to overcome rather than merely obstacles in your way.\u000a\u000aIt may be helpful to talk with others who have studied or traveled in your host country. You may be able to take advantage of welcoming contexts on campus, such as the [[Office of LGBQTI Life|http://www.vanderbilt.edu/lgbtqi/]], to help you network with past participants. Your study abroad provider may be able to connect you with LGBQTI alumni of your specific program. Your program staff can also serve as an excellent resource both before you leave and while you're abroad.\u000a\u000aIf you would like to talk about any aspect of your program with the Global Education Office, please do not hesitate to [[contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]].\u000a\u000a|box|k\u000a|!Resources|\u000a|Vanderbilt's [[Office of LGBQTI Life|http://www.vanderbilt.edu/lgbtqi/]], a cultural center and resource for information and support about gender and sexuality|\u000a|[[International Lesbian, Gay, Bisexual, Trans and Intersex Association|http://ilga.org/]] provides legal information on every country, as well as news and reports on the state of LGBTQI rights around the world|\u000a|[[International Gay & Lesbian Human Rights Commission|http://iglhrc.org/]] has extensive country-specific resources.|\u000a|[[Rainbow SIG bibliography|http://overseas.iu.edu/living/glbt_biblio.shtml]], bibliography of LGBQTI literature with an international perspective|\u000a|[[Rainbow SIG|http://www.rainbowsig.org/]], an organization of study abroad professionals knowledgeable about LGBQTI issues|\u000a|[[ILGA-Europe|http://www.ilga-europe.org/]], the website of the International Lesbian, Gay, Bisexual, Trans and Intersex Association's European chapter, provides multiple resources, including a Guide to Europe|\u000a|[[Utopia|http://www.utopia-asia.com/]], an online guide to Asia-Pacific gay and lesbian resources, including legal and cultural information as well as links to country-specific resources|\u000a|[[Travel at Transgender Equality|http://transequality.org/Issues/travel.html]]: air travel tips for transgender people|\u000a|[[US passport requirements|http://travel.state.gov/content/passports/english/passports/information/gender.html]] for transgender students|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
-p912
+p896
 sg21
 VSexual and gender identity abroad
-p913
+p897
 sg23
 g24
 ((I2014
@@ -2910,16 +2858,16 @@ I59
 I2
 I204
 I1
-tp914
-(dp915
-tp916
-Rp917
+tp898
+(dp899
+tp900
+Rp901
 sg29
-(lp918
+(lp902
 Vliving
-p919
+p903
 aVsidebar
-p920
+p904
 asg32
 g24
 ((I2014
@@ -2931,28 +2879,28 @@ I7
 I0
 I139
 I1
-tp921
-(dp922
-tp923
-Rp924
-sbsa(dp925
+tp905
+(dp906
+tp907
+Rp908
+sbsa(dp909
 g12
 I00
 sg13
-(lp926
+(lp910
 F518.6666666666667
 aF755.9999999999993
 asg15
 (itiddlywiki
 Tiddler
-p927
-(dp928
+p911
+(dp912
 g19
 V<<sidebar "Gender roles abroad">>\u000aExpectations surrounding gender roles vary from country to country, and even within countries. Because so much of our communication with others is interpreted in terms of gender, it is helpful to learn something about gender roles in your host culture. One of the best things about study abroad is making new friends, and you will want to avoid undue friction due to misunderstanding and miscommunication.\u000a\u000a|box|k\u000a|!Things to think about include:|\u000a|Americans are accustomed to having non-romantic friendships with the opposite sex. How does your host culture view opposite-sex friendships?|\u000a|<hr>If you are considering being sexually active abroad, research safe sex and birth control practices as well as attitudes toward sex outside marriage.|\u000a|<hr>What constitutes sexual harassment under local law or understanding?|\u000a|<hr>How do locals dress on the street? What might your manner of dress communicate to them about you?|\u000a\u000aWhile men studying abroad will certainly see cultural differences in their roles, it is women who will need to adapt most to local norms and values. North American women should be aware that they may face special sets of attitudes and assumptions.\u000a\u000a|box|k\u000a|!Women may want to further research questions like these:|\u000a|In some countries (particularly Latin countries), catcalls or other forms of harassment of women might be common. Is this sort of thing likely in your host country? How will you deal with it if so?|\u000a|<hr>Are there stereotypes about North American women in particular? In many places, women from the US and Canada may be seen as "easy" or out for sexual adventure.|\u000a|<hr>What behaviors might be construed as sexual? Smiling or greeting strangers? Looking directly at others? Going out at night without a companion of the opposite sex?|\u000a\u000aIt can be useful to talk with [[study abroad alumni|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewDocument&File_ID=9604]] of your host country about what they've experienced. Get in touch with GEO to see if we can find you someone to talk to.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Women: What You Need to Know Abroad|http://www.ciee.org/gap-year-abroad/downloads/school-resources/Women.pdf]], a pamphlet for women traveling abroad|\u000a|[[Her Own Way|http://travel.gc.ca/travelling/publications/her-own-way]], a travel guide for women published by the Canadian government|\u000a|[[Tips about appropriate clothing from women travelers|\u000ahttp://www.journeywoman.com/ccc/default.html#women%20clothing]]|\u000a|[[Margaret Cuninggim Women\u2019s Center|http://www.vanderbilt.edu/WomensCenter/]] at Vanderbilt|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
-p929
+p913
 sg21
 VGender roles abroad
-p930
+p914
 sg23
 g24
 ((I2014
@@ -2964,16 +2912,16 @@ I54
 I4
 I241
 I1
-tp931
-(dp932
-tp933
-Rp934
+tp915
+(dp916
+tp917
+Rp918
 sg29
-(lp935
+(lp919
 Vliving
-p936
+p920
 aVsidebar
-p937
+p921
 asg32
 g24
 ((I2014
@@ -2985,28 +2933,28 @@ I7
 I0
 I139
 I1
-tp938
-(dp939
-tp940
-Rp941
-sbsa(dp942
+tp922
+(dp923
+tp924
+Rp925
+sbsa(dp926
 g12
 I00
 sg13
-(lp943
+(lp927
 F790.333333333333
 aF890.0000000000002
 asg15
 (itiddlywiki
 Tiddler
-p944
-(dp945
+p928
+(dp929
 g19
 V<<sidebar "Religious identity abroad">>\u000aReligion is a prominent feature of cultures around the world, even in countries that are officially atheist. During your time abroad, you will likely encounter fascinating and enriching ideas and practices. You may also experience things that challenge your notions of spiritual truth or even basic fairness. \u000a\u000aIf you plan to practice your own religion abroad, do some research first. You'll want to know whether there are convenient houses of worship, of course. But depending on where you are going, there may be safety issues to consider as well.\u000a\u000aIn some countries, there may be little commitment to religious pluralism. The state may sanction a religion. Or laws may restrict religious speech, particularly as it relates to political activism. In China, for example, it is a violation of the state constitution to use religion to "disrupt social order, impair the health of citizens, or interfere with the educational system of the state."\u000a\u000aEven if the society is generally an open one, be aware that safety concerns may still exist. Just as in the US, wearing symbols of some religions or frequenting houses of worship may make you a target for passionate violence from other groups. \u000a\u000aWhatever your personal beliefs and circumstances, remember that your primary purpose is studying abroad. Consider your experiences an opportunity to understand the historical and social dimensions of religion in your host country. Be open-minded, save critical impulses for later, and open your own beliefs and practices to the same degree of scrutiny. If you approach your time in your host country as a time to learn about others' beliefs and attitudes, you can avoid many opportunities for conflict.\u000a\u000a|box|k\u000a|!Questions to ask yourself|\u000a|Is there a dominant religion in my host country?|\u000a|<hr>What laws exist pertaining to religion? Are there strong societal practices that, while not codified in law, might shape religious practice?|\u000a|<hr>How tolerant is my host country of religious diversity? How tolerant am I of beliefs and practices in my host country?|\u000a|<hr>How tolerant is my host country of nonbelief (i.e. atheism, agnosticism)?|\u000a|<hr>Where can I practice my religion?|\u000a|<hr>How safe is it for me to wear symbolic expressions of my religion in public?|\u000a|<hr>How can I accommodate my dietary requirements abroad?|\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Pluralism Project|http://www.pluralism.org/reports/links]], bibliography of research and websites on world religions|\u000a|[[International Religious Freedom|http://www.state.gov/j/drl/rls/irf/religiousfreedom/index.htm#wrapper]], the most recent report from the US State Department on religious freedom around the world|\u000a|[[Jewish Travel Advisor|http://jewishtraveladvisor.com/]], world-wide listing of kosher hotels and restaurants, synagogues, mikvaot, and Jewish communities around the world |\u000a|[[Halal Trip|http://www.halaltrip.com/city-guide-all]], website focused on Muslim travelers and including city guides with a focus on halal dining|\u000a\u000a<<segue "Contacts and communications">>\u005c
-p946
+p930
 sg21
 VReligious identity abroad
-p947
+p931
 sg23
 g24
 ((I2014
@@ -3018,16 +2966,16 @@ I43
 I2
 I204
 I1
-tp948
-(dp949
-tp950
-Rp951
+tp932
+(dp933
+tp934
+Rp935
 sg29
-(lp952
+(lp936
 Vliving
-p953
+p937
 aVsidebar
-p954
+p938
 asg32
 g24
 ((I2014
@@ -3039,28 +2987,28 @@ I27
 I1
 I140
 I1
-tp955
-(dp956
-tp957
-Rp958
-sbsa(dp959
+tp939
+(dp940
+tp941
+Rp942
+sbsa(dp943
 g12
 I00
 sg13
-(lp960
+(lp944
 F786.9999999999994
 aF625.0
 asg15
 (itiddlywiki
 Tiddler
-p961
-(dp962
+p945
+(dp946
 g19
 V<<sidebar "Being American abroad">>\u000aIf you grew up in the US and identify as American, your American-ness will probably be the most important factor in how natives of your host country relate to you. (This is true no matter what your background.) While other components of your identity may be important factors, the fact that you are American will be a critical component of your identity abroad.\u000a\u000aBe prepared to encounter curiosity and interest. America's unique economic, political, and cultural position in the world means that people all around the world feel like they have a stake in what the US does. You may be asked all sorts of questions, from what it's like to live in America to what you think of politics and other issues in the US. (The FBI has recently warned that American students abroad may also be the target of espionage recruitment.)\u000a\u000aMost interest you receive will probably be friendly, even if frankly or passionately expressed. But do prepare yourself to encounter actual hostility as well, and to consider how you might handle it.\u000a\u000aIn many places, people may assume that because you are American, you are also rich. Or they may have other assumptions, based on media portrayals, local history with US policies or intervention, or other sources. Do some research before you go so that you can have some idea of what being an American might mean in your host country.\u000a\u000a|box|k\u000a|!Quick tip|\u000a|In some parts of the world, you should be careful about referring to yourself as "American." The entire Western Hemisphere is properly called America, and in Central and South America people may find the term "American" arrogant when used for just one country. Plan on referring to yourself as North American (//norteamericano//) instead.|\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Diversity Issues in Study Abroad|http://www.smith.edu/studyabroad/docs/diversity_st_abroad01.pdf]]: A booklet that collects statements of Brown University students about their experiences of identity abroad. A bit dated now, but many comments remain reflective of realities today.|\u000a|''A Student Guide to Study Abroad'', a guide to many aspects of the process of study abroad, is a physical volume that you are welcome to reference by visiting GEO's reading library.|\u000a\u000a<<segue "Contacts and communications">>\u005c
-p963
+p947
 sg21
 VBeing American abroad
-p964
+p948
 sg23
 g24
 ((I2014
@@ -3072,16 +3020,16 @@ I14
 I2
 I204
 I1
-tp965
-(dp966
-tp967
-Rp968
+tp949
+(dp950
+tp951
+Rp952
 sg29
-(lp969
+(lp953
 Vliving
-p970
+p954
 aVsidebar
-p971
+p955
 asg32
 g24
 ((I2014
@@ -3093,28 +3041,28 @@ I15
 I1
 I140
 I1
-tp972
-(dp973
-tp974
-Rp975
-sbsa(dp976
+tp956
+(dp957
+tp958
+Rp959
+sbsa(dp960
 g12
 I00
 sg13
-(lp977
+(lp961
 F521.666666666667
 aF1291.6666666666647
 asg15
 (itiddlywiki
 Tiddler
-p978
-(dp979
+p962
+(dp963
 g19
 V<<sidebar "More on credit cards">>\u000aEurope and much of the rest of the world are moving to chip-and-PIN (or EMV) "smart" credit cards. These cards offer more secure transactions by adding an embedded microchip and replacing easily forged signatures with the entry of a PIN number.\u000a\u000aYou should be able to function abroad with a regular US swipe card, which are still accepted by most businesses. However, US swipe cards are not likely to work at most self-serve kiosks.\u000a\u000aDepending on your bank, it may be possible for you to get a chip-and-PIN card in the US for use overseas. If you decide to explore this route, be aware that there is a difference between "chip-and-PIN" and "chip-and-signature" cards. Chip-and-signature cards will not work in automated kiosks abroad, for example.\u000a\u000aRegardless of whether you choose a chip-embedded card, you may want to shop around for banks and credit card companies before you leave. Seek out cards that carry low foreign transaction fees, as well as debit card providers with overseas partnerships that allow for lower ATM fees.\u000a\u000a<<segue "Where will you live?">>
-p980
+p964
 sg21
 VMore on credit cards
-p981
+p965
 sg23
 g24
 ((I2014
@@ -3126,16 +3074,16 @@ I5
 I2
 I204
 I1
-tp982
-(dp983
-tp984
-Rp985
+tp966
+(dp967
+tp968
+Rp969
 sg29
-(lp986
+(lp970
 Vliving
-p987
+p971
 aVsidebar
-p988
+p972
 asg32
 g24
 ((I2014
@@ -3147,28 +3095,28 @@ I44
 I3
 I142
 I1
-tp989
-(dp990
-tp991
-Rp992
-sbsa(dp993
+tp973
+(dp974
+tp975
+Rp976
+sbsa(dp977
 g12
 I00
 sg13
-(lp994
+(lp978
 F1245.0
 aF143.33333333333337
 asg15
 (itiddlywiki
 Tiddler
-p995
-(dp996
+p979
+(dp980
 g19
 V<<sidebar "Disclosing medical information">>\u000aGEO strongly recommends that you disclose all medical and mental health conditions to your program staff. Even if you are diligent in the management of your health, studying abroad can present challenges you may not have foreseen. You or your body may react in unexpected ways. It is in your best interest to give your on-site staff the tools necessary to ensure you have a safe and successful time abroad. \u000a\u000aAny health-related history you provide is used to support your stay. It would only be shared in the case of a medical or mental health emergency--and only with the appropriate clinicians or staff on site. It will definitely //not// be used to determine your eligibility to participate in the program!\u000a\u000aYou are encouraged to discuss with your medical provider whether you should sign a Release of Information (ROI). This document would allow your doctor to discuss your medical needs with the person(s) named in the ROI. An ROI allows you to be cared for in the event that you are incapacitated and unable to grant the permission yourself.\u000a\u000a<<segue "Medical insurance">>\u005c\u000a
-p997
+p981
 sg21
 VDisclosing medical information
-p998
+p982
 sg23
 g24
 ((I2014
@@ -3180,16 +3128,16 @@ I57
 I4
 I213
 I1
-tp999
-(dp1000
-tp1001
-Rp1002
+tp983
+(dp984
+tp985
+Rp986
 sg29
-(lp1003
+(lp987
 Vhealth
-p1004
+p988
 aVsidebar
-p1005
+p989
 asg32
 g24
 ((I2014
@@ -3201,28 +3149,28 @@ I10
 I4
 I143
 I1
-tp1006
-(dp1007
-tp1008
-Rp1009
-sbsa(dp1010
+tp990
+(dp991
+tp992
+Rp993
+sbsa(dp994
 g12
 I00
 sg13
-(lp1011
+(lp995
 F1120.333333333332
 aF275.333333333333
 asg15
 (itiddlywiki
 Tiddler
-p1012
-(dp1013
+p996
+(dp997
 g19
 V<<sidebar "Coping with stress & culture shock">>\u000aCulture shock is one expression of stress, but even after culture shock passes, living and studying abroad may sometimes be stressful. Stress may be harder to manage when you are far from your normal support group of family and friends. Learn to recognize the signs of stress and take steps to cope with the situation and make yourself more resilient.\u000a\u000a|box|k\u000a|>|>|Common signs of stress|h\u000a|exhaustion|fatigue|change in appetite|\u000a|anxiety|isolation|alienation|\u000a|frustration|extreme homesickness|increased use of nicotine, alcohol, or drugs|\u000a|loneliness|change in behavior|self-harming|\u000a|>|>|new or more frequent physical symptoms, e.g. headaches, stomachaches, etc.|\u000a\u000aOne of the best ways to combat stress in a new environment is to prepare for the new location. ''Learn as much as you can about your host city'' before you go. Read up on climate, foods, politics, culture, religion, and more. Buy a phrasebook and try to learn some of the basics of the language.\u000a\u000a''Take a step back.'' Analyze your situation and study your own reactions. Where exactly is the stress coming from? Ask yourself if cultural differences might be a contributing factor, and how you can work with or around them. Focus on what you can change or control, not on what you can't: If you can't change the situation, work on changing your reactions to it.\u000a\u000a''Take care of your body.'' Be sure that you are staying active, eating well, and getting enough sleep. Work on being positive, and be active--get out of your room.\u000a\u000a''Identify what helps you //healthfully// manage stress.'' Avoid using pills, drugs, alcohol, cigarettes, overeating, undereating, or oversleeping to manage stress. Instead, focus on healthy antidotes and find the ones that work for you. Ideas include exercise, keeping a journal, regular social contact with //positive// people, hobbies, other leisure activities, or cultural activities.\u000a\u000a''Find your social support.'' Identify your support groups both locally and at home. These might include program staff, housing staff, homestay family, friends, home university staff, or family. Ask yourself who can best offer you the support you need, and then ask them for it!\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Life in a Foreign Culture|http://www.northwestern.edu/studyabroad/outbound-students/life-in-a-foreign-culture-tips-for-cultural-adjustment-while-abroad.html]], tips to ease your cultural adjustment|\u000a|[[Culture Shock, Homesickness, and the "Aha Moment"|http://thestudyabroadblog.com/culture-shock-and-homesickness/]], firsthand description of culture shock, and of both failed and successful coping|\u000a|[[HelpGuide: Stress Management|http://collegelife.about.com/od/healthwellness/ht/Stress.htm]], practical tips for handling stress|\u000a|[[How Stress Affects Your Health|http://www.apa.org/helpcenter/stress.aspx]], info from the American Psychological Association|\u000a|[[Vanderbilt Mind-Body Lab|https://medschool.vanderbilt.edu/pcc/mind-body-lab]], includes self-help modules for stress management|\u000a|[[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]] Wherever you are in the world, the PCC can help you identify local resources. When you contact PCC, request the GEO resource provider.|\u000a\u000a<<segue "Illness abroad">>\u005c
-p1014
+p998
 sg21
 VCoping with stress and culture shock
-p1015
+p999
 sg23
 g24
 ((I2014
@@ -3234,16 +3182,16 @@ I26
 I4
 I213
 I1
-tp1016
-(dp1017
-tp1018
-Rp1019
+tp1000
+(dp1001
+tp1002
+Rp1003
 sg29
-(lp1020
+(lp1004
 Vhealth
-p1021
+p1005
 aVsidebar
-p1022
+p1006
 asg32
 g24
 ((I2014
@@ -3252,6 +3200,58 @@ I27
 I11
 I7
 I50
+I1
+I147
+I1
+tp1007
+(dp1008
+tp1009
+Rp1010
+sbsa(dp1011
+g12
+I00
+sg13
+(lp1012
+F380.3333333333329
+aF1557.999999999999
+asg15
+(itiddlywiki
+Tiddler
+p1013
+(dp1014
+g19
+V!Eating and diet\u000a!!!!Balancing dietary requirements with cultural exploration\u000aPeople everywhere eat differently because they //are// different--they have different cultures. Exploring another culture means exploring its food. GEO recommends that you keep an open mind, accept cultural differences, and try everything you (safely) can. Have a gastronomic adventure!\u000a\u000aIf you have dietary restrictions, eating well while fully experiencing your host culture may be a challenge. Whether you maintain your diet for medical, religious, philosophical, or other reasons, be sure to share the details with your program staff //before// you arrive on site. They will use this information to help identify appropriate housing for you. They may also be able to research restaurants, grocery stores, and useful vocabulary.\u000a\u000aIf you have a food allergy, be very detailed in disclosing what is safe for you.  For example, if you have a nut allergy, can you be around nuts? can you eat food processed on the same equipment as nuts? are all nuts harmful for you? Let your program and host family know.\u000a\u000aLearn as much as you can about your host culture's food, food culture, and food vocabulary before you go. Your diet and the terms you use for it may not be well understood there, so be prepared to explain why you can\u2019t, or choose not to, eat certain foods--ideally before someone cooks you a meal.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Food|http://www.ciee.org/gap-year-abroad/downloads/school-resources/Food.pdf]], a pamphlet on "the edible part of culture"|\u000a|[[International Vegetarian Union|http://www.worldvegfest.org/]], information and recipes for vegetarians and vegans worldwide|\u000a|[[VegGuide|http://www.vegguide.org/]], a searchable guide to vegetarian restaurants worldwide|\u000a|[[SelectWisely|http://www.selectwisely.com/Resources/]], a library of links to information about traveling abroad with dietary restrictions|\u000a|[[Jewish Travel Advisor|http://jewishtraveladvisor.com/]], world-wide listing of kosher hotels and restaurants, synagogues, mikvaot, and Jewish communities around the world |\u000a|[[Halal Trip|http://www.halaltrip.com/city-guide-all]], website focused on Muslim travelers and including city guides with a focus on halal dining|\u000a\u000a<<segue "Making friends">>\u005c
+p1015
+sg21
+VEating and diet
+p1016
+sg23
+g24
+((I2014
+I7
+I31
+I15
+I34
+I25
+I3
+I212
+I1
+tp1017
+(dp1018
+tp1019
+Rp1020
+sg29
+(lp1021
+Vliving
+p1022
+asg32
+g24
+((I2014
+I5
+I27
+I15
+I21
+I3
 I1
 I147
 I1
@@ -3264,71 +3264,19 @@ g12
 I00
 sg13
 (lp1028
-F380.3333333333329
-aF1557.999999999999
+F973.3333333333333
+aF618.3333333333333
 asg15
 (itiddlywiki
 Tiddler
 p1029
 (dp1030
 g19
-V!Eating and diet\u000a!!!!Balancing dietary requirements with cultural exploration\u000aPeople everywhere eat differently because they //are// different--they have different cultures. Exploring another culture means exploring its food. GEO recommends that you keep an open mind, accept cultural differences, and try everything you (safely) can. Have a gastronomic adventure!\u000a\u000aIf you have dietary restrictions, eating well while fully experiencing your host culture may be a challenge. Whether you maintain your diet for medical, religious, philosophical, or other reasons, be sure to share the details with your program staff //before// you arrive on site. They will use this information to help identify appropriate housing for you. They may also be able to research restaurants, grocery stores, and useful vocabulary.\u000a\u000aIf you have a food allergy, be very detailed in disclosing what is safe for you.  For example, if you have a nut allergy, can you be around nuts? can you eat food processed on the same equipment as nuts? are all nuts harmful for you? Let your program and host family know.\u000a\u000aLearn as much as you can about your host culture's food, food culture, and food vocabulary before you go. Your diet and the terms you use for it may not be well understood there, so be prepared to explain why you can\u2019t, or choose not to, eat certain foods--ideally before someone cooks you a meal.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Food|http://www.ciee.org/gap-year-abroad/downloads/school-resources/Food.pdf]], a pamphlet on "the edible part of culture"|\u000a|[[International Vegetarian Union|http://www.worldvegfest.org/]], information and recipes for vegetarians and vegans worldwide|\u000a|[[VegGuide|http://www.vegguide.org/]], a searchable guide to vegetarian restaurants worldwide|\u000a|[[SelectWisely|http://www.selectwisely.com/Resources/]], a library of links to information about traveling abroad with dietary restrictions|\u000a|[[Jewish Travel Advisor|http://jewishtraveladvisor.com/]], world-wide listing of kosher hotels and restaurants, synagogues, mikvaot, and Jewish communities around the world |\u000a|[[Halal Trip|http://www.halaltrip.com/city-guide-all]], website focused on Muslim travelers and including city guides with a focus on halal dining|\u000a\u000a<<segue "Making friends">>\u005c
+V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhil generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. //You should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt's safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1031
 sg21
-VEating and diet
-p1032
-sg23
-g24
-((I2014
-I7
-I31
-I15
-I34
-I25
-I3
-I212
-I1
-tp1033
-(dp1034
-tp1035
-Rp1036
-sg29
-(lp1037
-Vliving
-p1038
-asg32
-g24
-((I2014
-I5
-I27
-I15
-I21
-I3
-I1
-I147
-I1
-tp1039
-(dp1040
-tp1041
-Rp1042
-sbsa(dp1043
-g12
-I00
-sg13
-(lp1044
-F973.3333333333333
-aF618.3333333333333
-asg15
-(itiddlywiki
-Tiddler
-p1045
-(dp1046
-g19
-V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhil generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. //You should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt's safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
-p1047
-sg21
 VPreparing for safety
-p1048
+p1032
 sg23
 g24
 ((I2014
@@ -3340,16 +3288,16 @@ I23
 I0
 I258
 I1
-tp1049
-(dp1050
-tp1051
-Rp1052
+tp1033
+(dp1034
+tp1035
+Rp1036
 sg29
-(lp1053
+(lp1037
 Vsafety
-p1054
+p1038
 aVbookmark
-p1055
+p1039
 asg32
 g24
 ((I2014
@@ -3358,6 +3306,58 @@ I28
 I12
 I47
 I24
+I2
+I148
+I1
+tp1040
+(dp1041
+tp1042
+Rp1043
+sbsa(dp1044
+g12
+I00
+sg13
+(lp1045
+F975.0
+aF749.9999999999999
+asg15
+(itiddlywiki
+Tiddler
+p1046
+(dp1047
+g19
+V!Basic safety abroad\u000a!!!!Tips for staying safe while out and about\u000aYou are the best guarantor of your own safety! While abroad, commit yourself to being an alert and observant traveler at all times. Anticipate problems by learning to read the local environment, and by knowing where and when to be hypervigilant. If you aren't paying attention, you can easily become the victim of opportunistic crime.\u000a\u000a''Know where you are going and look like you belong''. Definitely bring your map along, but don't check it in the open street, where looking lost could get you robbed. Be friendly, but don't hesitate to refuse offers of help from strangers, especially near ATMs, ticket machines, train and metro stations, and baggage lines. See a [[list of common travel scams|http://www.justtheflight.co.uk/blog/16-40-tourist-scams-to-avoid-this-summer.html]].\u000a\u000a''Avoid demonstrations and political disturbances'' of all kinds. Crowd behavior is unpredictable, and even peaceful marches can turn violent.\u000a\u000a''Get a working cell phone'' and carry it with you. Some programs require students to have a phone, and most will provide you information on getting a cheap phone that works locally. A phone can be a literal lifeline in an emergency--carry one!\u000a\u000aSecure your travel and identification documents at all times, and store duplicate copies in multiple places. ''Know your local emergency numbers'', particularly for your resident director or program staff and for the local equivalent of 911. \u000a\u000aLearn local traffic patterns and traffic laws, as well as safe pedestrian habits. Road safety issues and driving accidents are the //primary// cause of injury to students abroad. Given the risks of traffic accidents, ''Vanderbilt does //not// recommend the rental of motor vehicles while studying abroad''.\u000a\u000a<<sidebar-box>>\u000a   [[Road safety overseas|Road safety overseas]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Personal emergencies">>\u005c
+p1048
+sg21
+VBasic safety abroad
+p1049
+sg23
+g24
+((I2014
+I8
+I14
+I14
+I30
+I6
+I3
+I226
+I1
+tp1050
+(dp1051
+tp1052
+Rp1053
+sg29
+(lp1054
+Vsafety
+p1055
+asg32
+g24
+((I2014
+I5
+I28
+I12
+I56
+I46
 I2
 I148
 I1
@@ -3370,29 +3370,29 @@ g12
 I00
 sg13
 (lp1061
-F975.0
-aF749.9999999999999
+F981.666666666666
+aF1008.3333333333339
 asg15
 (itiddlywiki
 Tiddler
 p1062
 (dp1063
 g19
-V!Basic safety abroad\u000a!!!!Tips for staying safe while out and about\u000aYou are the best guarantor of your own safety! While abroad, commit yourself to being an alert and observant traveler at all times. Anticipate problems by learning to read the local environment, and by knowing where and when to be hypervigilant. If you aren't paying attention, you can easily become the victim of opportunistic crime.\u000a\u000a''Know where you are going and look like you belong''. Definitely bring your map along, but don't check it in the open street, where looking lost could get you robbed. Be friendly, but don't hesitate to refuse offers of help from strangers, especially near ATMs, ticket machines, train and metro stations, and baggage lines. See a [[list of common travel scams|http://www.justtheflight.co.uk/blog/16-40-tourist-scams-to-avoid-this-summer.html]].\u000a\u000a''Avoid demonstrations and political disturbances'' of all kinds. Crowd behavior is unpredictable, and even peaceful marches can turn violent.\u000a\u000a''Get a working cell phone'' and carry it with you. Some programs require students to have a phone, and most will provide you information on getting a cheap phone that works locally. A phone can be a literal lifeline in an emergency--carry one!\u000a\u000aSecure your travel and identification documents at all times, and store duplicate copies in multiple places. ''Know your local emergency numbers'', particularly for your resident director or program staff and for the local equivalent of 911. \u000a\u000aLearn local traffic patterns and traffic laws, as well as safe pedestrian habits. Road safety issues and driving accidents are the //primary// cause of injury to students abroad. Given the risks of traffic accidents, ''Vanderbilt does //not// recommend the rental of motor vehicles while studying abroad''.\u000a\u000a<<sidebar-box>>\u000a   [[Road safety overseas|Road safety overseas]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Personal emergencies">>\u005c
+V!Personal emergencies\u000a!!!!What to do after experiencing a personal emergency\u000aPersonal emergencies may arise from illness, accidents, behavioral health crises, or criminal/negligent behavior. They generally require immediate assistance, whether from a health professional, law enforcement, a counselor, or some combination of these. If you encounter a personal emergency abroad, follow these steps:\u000a\u000a''Request help immediately''. Know the local [[emergency number or numbers|http://studentsabroad.state.gov/content/pdfs/911_ABROAD.pdf]] (911 doesn't work abroad!) and have your phone with you at all times.\u000a\u000a''Notify your program's emergency contact''. At least one member of your program's staff will be available to you around the clock. On-site personnel are best positioned to provide timely and appropriate emergency support. If you are reporting an emergency on behalf of a friend, be sure to identify yourself as well as your friend.\u000a\u000aIf you are in immediate danger, or have been in a serious accident or the victim of a criminal act, ''contact law enforcement as soon as possible''. Your program staff may be in a better position to talk with law enforcement, and will also know the proper protocols. Work with him or her if at all possible.\u000a\u000a''Contact your insurance provider'' if the emergency requires medical attention of any kind. Depending on the nature of the emergency, it may also be appropriate to contact International SOS (ISOS). See information later in this presentation.\u000a\u000a''Notify the Vanderbilt Global Education Office''. A direct notification from you will help us coordinate support services. We can often provide additional assistance or help streamline communications.\u000a\u000a''Contact the nearest embassy''. Consular agents at US embassies are available 24/7 to help US citizens with emergencies. If you are not a US citizen, contact both the US embassy and your home country's embassy.\u000a\u000a''Contact your family''. Your family will be anxious and concerned about your well-being. Your program staff and GEO are both limited in the information they can share, so be sure to communicate with your family directly.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Large-scale emergencies">>\u005c
 p1064
 sg21
-VBasic safety abroad
+VPersonal emergencies
 p1065
 sg23
 g24
 ((I2014
-I8
-I14
-I14
-I30
-I6
+I7
+I31
+I16
+I27
+I43
 I3
-I226
+I212
 I1
 tp1066
 (dp1067
@@ -3408,8 +3408,8 @@ g24
 I5
 I28
 I12
-I56
-I46
+I57
+I33
 I2
 I148
 I1
@@ -3422,18 +3422,18 @@ g12
 I00
 sg13
 (lp1077
-F981.666666666666
-aF1008.3333333333339
+F978.6666666666671
+aF1141.333333333332
 asg15
 (itiddlywiki
 Tiddler
 p1078
 (dp1079
 g19
-V!Personal emergencies\u000a!!!!What to do after experiencing a personal emergency\u000aPersonal emergencies may arise from illness, accidents, behavioral health crises, or criminal/negligent behavior. They generally require immediate assistance, whether from a health professional, law enforcement, a counselor, or some combination of these. If you encounter a personal emergency abroad, follow these steps:\u000a\u000a''Request help immediately''. Know the local [[emergency number or numbers|http://studentsabroad.state.gov/content/pdfs/911_ABROAD.pdf]] (911 doesn't work abroad!) and have your phone with you at all times.\u000a\u000a''Notify your program's emergency contact''. At least one member of your program's staff will be available to you around the clock. On-site personnel are best positioned to provide timely and appropriate emergency support. If you are reporting an emergency on behalf of a friend, be sure to identify yourself as well as your friend.\u000a\u000aIf you are in immediate danger, or have been in a serious accident or the victim of a criminal act, ''contact law enforcement as soon as possible''. Your program staff may be in a better position to talk with law enforcement, and will also know the proper protocols. Work with him or her if at all possible.\u000a\u000a''Contact your insurance provider'' if the emergency requires medical attention of any kind. Depending on the nature of the emergency, it may also be appropriate to contact International SOS (ISOS). See information later in this presentation.\u000a\u000a''Notify the Vanderbilt Global Education Office''. A direct notification from you will help us coordinate support services. We can often provide additional assistance or help streamline communications.\u000a\u000a''Contact the nearest embassy''. Consular agents at US embassies are available 24/7 to help US citizens with emergencies. If you are not a US citizen, contact both the US embassy and your home country's embassy.\u000a\u000a''Contact your family''. Your family will be anxious and concerned about your well-being. Your program staff and GEO are both limited in the information they can share, so be sure to communicate with your family directly.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Large-scale emergencies">>\u005c
+V!Large-scale emergencies\u000a!!!!Procedures for dealing with large-scale disaster\u000aLarge-scale emergencies take many forms. Massive accidents, civil strife, acts of terrorism, natural disasters.... They are hard to predict and proper response depends heavily on local circumstances. \u000a\u000aIn general, your program staff will brief you soon after arrival on emergency protocols. Local emergency plans typically include the following elements:\u005c\u000a\u000a*a pre-established location where students and staff will assemble after a large-scale disaster;\u000a*communications protocols designed to account for all program participants;\u000a*an evacuation plan;\u000a*contingency plans short of full evacuation.\u005c\u000a\u000aThe most important general advice that Vanderbilt can offer is this: ''Know the protocols of your site's emergency plan.'' Keep calm, follow those protocols, and act with common sense and your best knowledge of the local situation.\u000a\u000aIf you are traveling independently or are unable to reach your rally point, contact International SOS (ISOS). Vanderbilt contracts with ISOS to provide emergency services around the globe. They can provide you with information as well as direct aid. See the information on the next page.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[FAQ on the US Department of State's role in crises overseas|http://travel.state.gov/content/passports/english/emergencies/crisis-support.html]]|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], includes contact information|\u000a\u000a<<segue "International SOS">>\u005c
 p1080
 sg21
-VPersonal emergencies
+VLarge-scale emergencies
 p1081
 sg23
 g24
@@ -3442,7 +3442,7 @@ I7
 I31
 I16
 I27
-I43
+I46
 I3
 I212
 I1
@@ -3461,7 +3461,7 @@ I5
 I28
 I12
 I57
-I33
+I54
 I2
 I148
 I1
@@ -3474,71 +3474,19 @@ g12
 I00
 sg13
 (lp1093
-F978.6666666666671
-aF1141.333333333332
+F1245.3333333333333
+aF620.0000000000003
 asg15
 (itiddlywiki
 Tiddler
 p1094
 (dp1095
 g19
-V!Large-scale emergencies\u000a!!!!Procedures for dealing with large-scale disaster\u000aLarge-scale emergencies take many forms. Massive accidents, civil strife, acts of terrorism, natural disasters.... They are hard to predict and proper response depends heavily on local circumstances. \u000a\u000aIn general, your program staff will brief you soon after arrival on emergency protocols. Local emergency plans typically include the following elements:\u005c\u000a\u000a*a pre-established location where students and staff will assemble after a large-scale disaster;\u000a*communications protocols designed to account for all program participants;\u000a*an evacuation plan;\u000a*contingency plans short of full evacuation.\u005c\u000a\u000aThe most important general advice that Vanderbilt can offer is this: ''Know the protocols of your site's emergency plan.'' Keep calm, follow those protocols, and act with common sense and your best knowledge of the local situation.\u000a\u000aIf you are traveling independently or are unable to reach your rally point, contact International SOS (ISOS). Vanderbilt contracts with ISOS to provide emergency services around the globe. They can provide you with information as well as direct aid. See the information on the next page.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[FAQ on the US Department of State's role in crises overseas|http://travel.state.gov/content/passports/english/emergencies/crisis-support.html]]|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], includes contact information|\u000a\u000a<<segue "International SOS">>\u005c
+V<<sidebar "Vanderbilt's safety efforts">>\u000aThe safety and security of students studying abroad are primary concerns of Vanderbilt University. Vanderbilt takes care to minimize the risks students face abroad through several measures, including:\u000a\u000a*Selecting responsible partners and organizations to provide educational opportunities abroad;\u000a*Assessing the risks associated with all study abroad sites both when approving programs and throughout the program's lifetime;\u000a*Assuring a high standard of personal health insurance coverage for all students studying abroad;\u000a*Retaining emergency evacuation services and full-spectrum travel assistance for all students;\u000a*Providing program-specific training to help students identify and mitigate potential risks;\u000a*Providing access to on-site support staff and organizations trained to handle emergencies of all types;\u000a*Training on-campus personnel to respond to crises and provide support where possible;\u000a*Keeping abreast of conditions and events where students abroad are based;\u000a*Training students in preventive as well as remedial strategies to avoid trouble abroad.\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1096
 sg21
-VLarge-scale emergencies
-p1097
-sg23
-g24
-((I2014
-I7
-I31
-I16
-I27
-I46
-I3
-I212
-I1
-tp1098
-(dp1099
-tp1100
-Rp1101
-sg29
-(lp1102
-Vsafety
-p1103
-asg32
-g24
-((I2014
-I5
-I28
-I12
-I57
-I54
-I2
-I148
-I1
-tp1104
-(dp1105
-tp1106
-Rp1107
-sbsa(dp1108
-g12
-I00
-sg13
-(lp1109
-F1245.3333333333333
-aF620.0000000000003
-asg15
-(itiddlywiki
-Tiddler
-p1110
-(dp1111
-g19
-V<<sidebar "Vanderbilt's safety efforts">>\u000aThe safety and security of students studying abroad are primary concerns of Vanderbilt University. Vanderbilt takes care to minimize the risks students face abroad through several measures, including:\u000a\u000a*Selecting responsible partners and organizations to provide educational opportunities abroad;\u000a*Assessing the risks associated with all study abroad sites both when approving programs and throughout the program's lifetime;\u000a*Assuring a high standard of personal health insurance coverage for all students studying abroad;\u000a*Retaining emergency evacuation services and full-spectrum travel assistance for all students;\u000a*Providing program-specific training to help students identify and mitigate potential risks;\u000a*Providing access to on-site support staff and organizations trained to handle emergencies of all types;\u000a*Training on-campus personnel to respond to crises and provide support where possible;\u000a*Keeping abreast of conditions and events where students abroad are based;\u000a*Training students in preventive as well as remedial strategies to avoid trouble abroad.\u000a\u000a<<segue "Basic safety abroad">>\u005c
-p1112
-sg21
 VVanderbilt's safety efforts
-p1113
+p1097
 sg23
 g24
 ((I2014
@@ -3550,16 +3498,16 @@ I12
 I3
 I212
 I1
-tp1114
-(dp1115
-tp1116
-Rp1117
+tp1098
+(dp1099
+tp1100
+Rp1101
 sg29
-(lp1118
+(lp1102
 Vsafety
-p1119
+p1103
 aVsidebar
-p1120
+p1104
 asg32
 g24
 ((I2014
@@ -3568,6 +3516,58 @@ I28
 I13
 I1
 I41
+I2
+I148
+I1
+tp1105
+(dp1106
+tp1107
+Rp1108
+sbsa(dp1109
+g12
+I00
+sg13
+(lp1110
+F978.3333333333322
+aF1273.3333333333305
+asg15
+(itiddlywiki
+Tiddler
+p1111
+(dp1112
+g19
+V!International SOS\u000a!!!!Emergency and travel assistance for Vanderbilt students\u000aVanderbilt contracts with International SOS (ISOS) primarily to handle responses to major emergencies overseas. ISOS also offers other services, and as a Vanderbilt student, you have access to all of them. But you should be aware that //not all are free// to you.\u000a\u000aThe primary role of ISOS is to aid in response to large-scale disasters and crises. For example, during the "Arab Spring," ISOS evacuated a Vanderbilt student from Egypt. The organization runs a worldwide network of centers, clinics, and ambulances to deal with ill or wounded people. If you use ISOS in such an emergency, Vanderbilt will cover the cost.\u000a\u000aISOS can also help you with medical, personal, security, legal, or travel problems. Examples might include dealing with a lost passport, a critical missed airline connection, medical help, or other issues. ISOS provides these services on a fee-for-service basis (it is //not// a health insurer). While Vanderbilt may cover the up-front charges in non-emergency circumstances, ''you may be billed for these services after the fact!'' \u000a\u000aISOS also offers excellent safety information both on its [[website|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]] and via emailed updates, but you must register your travel with ISOS to receive this information. You are required to register with ISOS and will receive instructions for how to do so via your online GEO account. Generally this information appears in the month before the end of the semester.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], up-to-date risk ratings and travel security advisories. Register your travel here!|\u000a\u000a<<segue "Reverse culture shock">>\u005c
+p1113
+sg21
+VInternational SOS
+p1114
+sg23
+g24
+((I2014
+I7
+I31
+I16
+I30
+I2
+I3
+I212
+I1
+tp1115
+(dp1116
+tp1117
+Rp1118
+sg29
+(lp1119
+Vsafety
+p1120
+asg32
+g24
+((I2014
+I5
+I28
+I13
+I34
+I39
 I2
 I148
 I1
@@ -3580,18 +3580,18 @@ g12
 I00
 sg13
 (lp1126
-F978.3333333333322
-aF1273.3333333333305
+F1111.9999999999998
+aF618.3333333333337
 asg15
 (itiddlywiki
 Tiddler
 p1127
 (dp1128
 g19
-V!International SOS\u000a!!!!Emergency and travel assistance for Vanderbilt students\u000aVanderbilt contracts with International SOS (ISOS) primarily to handle responses to major emergencies overseas. ISOS also offers other services, and as a Vanderbilt student, you have access to all of them. But you should be aware that //not all are free// to you.\u000a\u000aThe primary role of ISOS is to aid in response to large-scale disasters and crises. For example, during the "Arab Spring," ISOS evacuated a Vanderbilt student from Egypt. The organization runs a worldwide network of centers, clinics, and ambulances to deal with ill or wounded people. If you use ISOS in such an emergency, Vanderbilt will cover the cost.\u000a\u000aISOS can also help you with medical, personal, security, legal, or travel problems. Examples might include dealing with a lost passport, a critical missed airline connection, medical help, or other issues. ISOS provides these services on a fee-for-service basis (it is //not// a health insurer). While Vanderbilt may cover the up-front charges in non-emergency circumstances, ''you may be billed for these services after the fact!'' \u000a\u000aISOS also offers excellent safety information both on its [[website|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]] and via emailed updates, but you must register your travel with ISOS to receive this information. You are required to register with ISOS and will receive instructions for how to do so via your online GEO account. Generally this information appears in the month before the end of the semester.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], up-to-date risk ratings and travel security advisories. Register your travel here!|\u000a\u000a<<segue "Reverse culture shock">>\u005c
+V<<sidebar "Resources for monitoring safety">>\u000aYou should keep an eye on the safety situation in all the places you are planning to travel. This includes the program site, but also countries you might visit on independent weekend travel, breaks, or holidays.\u000a\u000aPotential resources include local and international media, as well as the websites of governmental and nongovernmental agencies. It can be a good idea to look at the advice of multiple sources, as they may have different perspectives and emphases. The resources here include country-specific resources from many governments to facilitate this sort of comparison.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Learn About Your Destination|http://travel.state.gov/content/passports/english/country.html]], country-specific resources from the US Department of State|\u000a|[[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?content=faqs]], up-to-date risk ratings and travel security advisories|\u000a|[[US Department of State Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]]|\u000a|[[US Department of State's site for student travelers|http://studentsabroad.state.gov/]]|\u000a|[[US Department of State's STEP program|https://step.state.gov/step/]] (Smart Traveler Enrollment Program)|\u000a|[[Canadian Foreign Affairs and Int'l Trade Office|http://travel.gc.ca/travelling/advisories]], country-specific travel advisories (English and French)|\u000a|[[UK Foreign & Commonwealth Office|https://www.gov.uk/foreign-travel-advice]], country-specific travel advisories|\u000a|[[Republic of Ireland Department of Foreign Affairs and Trade|http://dfa.ie/home/index.aspx?id=275]], country-specific travel advisories|\u000a|[[German Federal Foreign Office|http://www.auswaertiges-amt.de/DE/Laenderinformationen/LaenderReiseinformationen_node.html]], country-specific travel advisories (German only)|\u000a|[[Australian Department of Foreign Affairs and Trade|http://www.smartraveller.gov.au/]], country-specific travel advisories|\u000a|[[French Ministry of Foreign Affairs and International Development|http://www.diplomatie.gouv.fr/en/]], country-specific travel advisories (English, French, German, Spanish, Arabic, and Chinese)|\u000a|[[Israeli Ministry of Foreign Affairs|http://www.mfa.gov.il/MFA]], country-specific travel advisories (English, Hebrew, Arabic, Russian)|\u000a|[[Egyptian Ministry of Foreign Affairs|http://www.mfa.gov.eg/english/Pages/default.aspx]], country-specific travel advisories (English, French, Arabic)|\u000a|[[Indian Ministry of External Affairs|http://www.mea.gov.in/]], country-specific travel advisories (English, Hindi, other)|\u000a|[[Japanese Ministry of Foreign Affairs|http://www.mofa.go.jp/]], country-specific travel advisories (English, Japanese, others)|\u000a|[[People's Republic of China Ministry of Foreign Affairs|http://www.fmprc.gov.cn/eng/]], country-specific travel advisories (English, Chinese, French, Russian, and Arabic)|\u000a|[[Russian Ministry of Foreign Affairs|http://www.mid.ru/brp_4.nsf/main_eng]], country-specific travel advisories (English, Russian, French, German, Spanish)|\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1129
 sg21
-VInternational SOS
+VResources for monitoring safety
 p1130
 sg23
 g24
@@ -3599,8 +3599,8 @@ g24
 I7
 I31
 I16
-I30
-I2
+I15
+I34
 I3
 I212
 I1
@@ -3612,60 +3612,8 @@ sg29
 (lp1135
 Vsafety
 p1136
-asg32
-g24
-((I2014
-I5
-I28
-I13
-I34
-I39
-I2
-I148
-I1
-tp1137
-(dp1138
-tp1139
-Rp1140
-sbsa(dp1141
-g12
-I00
-sg13
-(lp1142
-F1111.9999999999998
-aF618.3333333333337
-asg15
-(itiddlywiki
-Tiddler
-p1143
-(dp1144
-g19
-V<<sidebar "Resources for monitoring safety">>\u000aYou should keep an eye on the safety situation in all the places you are planning to travel. This includes the program site, but also countries you might visit on independent weekend travel, breaks, or holidays.\u000a\u000aPotential resources include local and international media, as well as the websites of governmental and nongovernmental agencies. It can be a good idea to look at the advice of multiple sources, as they may have different perspectives and emphases. The resources here include country-specific resources from many governments to facilitate this sort of comparison.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Learn About Your Destination|http://travel.state.gov/content/passports/english/country.html]], country-specific resources from the US Department of State|\u000a|[[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?content=faqs]], up-to-date risk ratings and travel security advisories|\u000a|[[US Department of State Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]]|\u000a|[[US Department of State's site for student travelers|http://studentsabroad.state.gov/]]|\u000a|[[US Department of State's STEP program|https://step.state.gov/step/]] (Smart Traveler Enrollment Program)|\u000a|[[Canadian Foreign Affairs and Int'l Trade Office|http://travel.gc.ca/travelling/advisories]], country-specific travel advisories (English and French)|\u000a|[[UK Foreign & Commonwealth Office|https://www.gov.uk/foreign-travel-advice]], country-specific travel advisories|\u000a|[[Republic of Ireland Department of Foreign Affairs and Trade|http://dfa.ie/home/index.aspx?id=275]], country-specific travel advisories|\u000a|[[German Federal Foreign Office|http://www.auswaertiges-amt.de/DE/Laenderinformationen/LaenderReiseinformationen_node.html]], country-specific travel advisories (German only)|\u000a|[[Australian Department of Foreign Affairs and Trade|http://www.smartraveller.gov.au/]], country-specific travel advisories|\u000a|[[French Ministry of Foreign Affairs and International Development|http://www.diplomatie.gouv.fr/en/]], country-specific travel advisories (English, French, German, Spanish, Arabic, and Chinese)|\u000a|[[Israeli Ministry of Foreign Affairs|http://www.mfa.gov.il/MFA]], country-specific travel advisories (English, Hebrew, Arabic, Russian)|\u000a|[[Egyptian Ministry of Foreign Affairs|http://www.mfa.gov.eg/english/Pages/default.aspx]], country-specific travel advisories (English, French, Arabic)|\u000a|[[Indian Ministry of External Affairs|http://www.mea.gov.in/]], country-specific travel advisories (English, Hindi, other)|\u000a|[[Japanese Ministry of Foreign Affairs|http://www.mofa.go.jp/]], country-specific travel advisories (English, Japanese, others)|\u000a|[[People's Republic of China Ministry of Foreign Affairs|http://www.fmprc.gov.cn/eng/]], country-specific travel advisories (English, Chinese, French, Russian, and Arabic)|\u000a|[[Russian Ministry of Foreign Affairs|http://www.mid.ru/brp_4.nsf/main_eng]], country-specific travel advisories (English, Russian, French, German, Spanish)|\u000a\u000a<<segue "Basic safety abroad">>\u005c
-p1145
-sg21
-VResources for monitoring safety
-p1146
-sg23
-g24
-((I2014
-I7
-I31
-I16
-I15
-I34
-I3
-I212
-I1
-tp1147
-(dp1148
-tp1149
-Rp1150
-sg29
-(lp1151
-Vsafety
-p1152
 aVsidebar
-p1153
+p1137
 asg32
 g24
 ((I2014
@@ -3677,28 +3625,28 @@ I7
 I2
 I148
 I1
-tp1154
-(dp1155
-tp1156
-Rp1157
-sbsa(dp1158
+tp1138
+(dp1139
+tp1140
+Rp1141
+sbsa(dp1142
 g12
 I00
 sg13
-(lp1159
+(lp1143
 F1112.0000000000002
 aF754.6666666666672
 asg15
 (itiddlywiki
 Tiddler
-p1160
-(dp1161
+p1144
+(dp1145
 g19
 V<<sidebar "Road safety overseas">>\u000aMovies and media reporting have conditioned us to think that the greatest threats to safety abroad are dramatic, "foreign," and of the "third world." The reality is that the ''number one cause of injury and death for American students abroad is traffic accidents''. And the vast majority of these occur in wealthy, industrialized countries.\u000a\u000aGEO suggests that you train yourself to pay maximum attention at all times. Avoid earbuds as well as drinking--both can impair perception! Know the basic patterns of traffic, and remember to pay attention to the right side of the road in countries where traffic flow is reversed!\u000a\u000aAvoid traveling late at night, and always choose the safest form of transportation available. If you have a choice between riding in a taxicab or on the roof of a crowded bus--choose the cab! If walking is your safest option, do that whenever possible.\u000a\u000aJust as in the US, you should always wear a seatbelt. Avoid riding with anyone who appears intoxicated, over-tired, or emotionally distraught. Always sit in the back seat of a taxi.\u000a\u000aDeveloping countries present other risks, including shady taxi drivers, unsafe vehicles, overcrowded transport, and more. Your program staff will provide you with information about your options and help you assess risk. Don't be afraid to ask questions! \u000a\u000aVanderbilt strongly advises against renting a vehicle while abroad. Cars, SUVs, motorcycles, and mopeds are equally poor choices. The risks of driving when the rules of the road are unfamiliar are just too great.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Road Safety Overseas|http://travel.state.gov/content/passports/english/go/safety/road.html]], US Department of State|\u000a|[[Country-specific information from US Department of State|http://travel.state.gov/content/passports/english/country.html]], includes information on road safety for every country in the world|\u000a\u000a<<segue "Personal emergencies">>\u005c
-p1162
+p1146
 sg21
 VRoad safety overseas
-p1163
+p1147
 sg23
 g24
 ((I2014
@@ -3710,16 +3658,16 @@ I16
 I3
 I212
 I1
-tp1164
-(dp1165
-tp1166
-Rp1167
+tp1148
+(dp1149
+tp1150
+Rp1151
 sg29
-(lp1168
+(lp1152
 Vsafety
-p1169
+p1153
 aVsidebar
-p1170
+p1154
 asg32
 g24
 ((I2014
@@ -3728,6 +3676,58 @@ I28
 I16
 I44
 I24
+I2
+I148
+I1
+tp1155
+(dp1156
+tp1157
+Rp1158
+sbsa(dp1159
+g12
+I00
+sg13
+(lp1160
+F975.0000000000007
+aF876.6666666666666
+asg15
+(itiddlywiki
+Tiddler
+p1161
+(dp1162
+g19
+V!Alcohol and drugs\u000a!!!!Intoxication is a major contributor to injury abroad\u000aVanderbilt recommends that you avoid the use of alcohol and controlled substances while overseas, even if you are of legal age. Intoxication is a factor is the major factor in injuries and deaths experienced by American students abroad. Physical and mental impairment also make it difficult for you to take precautions for your own safety--including your sexual well-being.\u000a\u000aIf you do drink, do so in moderation. Be careful what you consume, and always watch your drink to avoid having it spiked with a dangerous substance. \u000a\u000aRemember that your behavior is subject to local laws, to policies set by your program provider and/or university, //and// to [[Vanderbilt policy|http://www.vanderbilt.edu/student_handbook/alcohol/]]. Laws governing controlled substances may differ greatly from those in your home country, and it is your responsibility to be aware. Public intoxication is always inappropriate, may be illegal, and can lead to serious--even fatal--consequences.\u000a\u000aIf you are uncertain about specific policies or laws abroad, please consult with a local program representative. GEO staff can also help you clarify policies.\u000a\u000a<<sidebar-box>>\u000a   [[Can I be arrested abroad?|Your legal status in your host country]]\u000a<</sidebar-box>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt Office of Wellness Programs and Alcohol Education|http://www.vanderbilt.edu/alcohol/]] provides information, resources, and referrals|\u000a|[[Vanderbilt Psychological and Counseling Center|https://medschool.vanderbilt.edu/pcc/student-services]], available for counseling, assessment, and treatment during and after your stay abroad|\u000a|[[Alcoholics Anonymous international meeting resources|http://www.aa.org/lang/en/aa_international.cfm?origpage=31]]|\u000a|[[Vanderbilt Student Handbook Alcohol Policy|http://www.vanderbilt.edu/student_handbook/alcohol/]]|\u000a\u000a<<segue "Personal emergencies">>\u005c
+p1163
+sg21
+VAlcohol and drugs
+p1164
+sg23
+g24
+((I2014
+I5
+I29
+I15
+I50
+I31
+I3
+I149
+I1
+tp1165
+(dp1166
+tp1167
+Rp1168
+sg29
+(lp1169
+Vsafety
+p1170
+asg32
+g24
+((I2014
+I5
+I28
+I17
+I2
+I25
 I2
 I148
 I1
@@ -3740,71 +3740,19 @@ g12
 I00
 sg13
 (lp1176
-F975.0000000000007
-aF876.6666666666666
+F1118.333333333334
+aF880.0000000000001
 asg15
 (itiddlywiki
 Tiddler
 p1177
 (dp1178
 g19
-V!Alcohol and drugs\u000a!!!!Intoxication is a major contributor to injury abroad\u000aVanderbilt recommends that you avoid the use of alcohol and controlled substances while overseas, even if you are of legal age. Intoxication is a factor is the major factor in injuries and deaths experienced by American students abroad. Physical and mental impairment also make it difficult for you to take precautions for your own safety--including your sexual well-being.\u000a\u000aIf you do drink, do so in moderation. Be careful what you consume, and always watch your drink to avoid having it spiked with a dangerous substance. \u000a\u000aRemember that your behavior is subject to local laws, to policies set by your program provider and/or university, //and// to [[Vanderbilt policy|http://www.vanderbilt.edu/student_handbook/alcohol/]]. Laws governing controlled substances may differ greatly from those in your home country, and it is your responsibility to be aware. Public intoxication is always inappropriate, may be illegal, and can lead to serious--even fatal--consequences.\u000a\u000aIf you are uncertain about specific policies or laws abroad, please consult with a local program representative. GEO staff can also help you clarify policies.\u000a\u000a<<sidebar-box>>\u000a   [[Can I be arrested abroad?|Your legal status in your host country]]\u000a<</sidebar-box>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt Office of Wellness Programs and Alcohol Education|http://www.vanderbilt.edu/alcohol/]] provides information, resources, and referrals|\u000a|[[Vanderbilt Psychological and Counseling Center|https://medschool.vanderbilt.edu/pcc/student-services]], available for counseling, assessment, and treatment during and after your stay abroad|\u000a|[[Alcoholics Anonymous international meeting resources|http://www.aa.org/lang/en/aa_international.cfm?origpage=31]]|\u000a|[[Vanderbilt Student Handbook Alcohol Policy|http://www.vanderbilt.edu/student_handbook/alcohol/]]|\u000a\u000a<<segue "Personal emergencies">>\u005c
+V<<sidebar "Your legal status in your host country">>\u000aMany US citizens are under the impression that their US passport acts as a "get out of jail free" card overseas. Nothing could be further from the truth. Whatever your nationality, if you are arrested, you will be subject to the entire foreign legal process--including imprisonment. Neither Vanderbilt or your government can do anything to get you out of prison!\u000a\u000aKnow the laws of your host country! Be aware that conditions in foreign jails and prisons may be very different from those in your home country. The legal system will also be difficult to understand and navigate. Your home country's consular officials can provide a wide array of services, but they //cannot extricate you from the situation//.\u000a\u000aDrug arrests can be particularly bad in many places. Harsh sentences, no bail, and dire conditions characterize many countries. Know the local laws and think twice before making a jail stay part of your time abroad. Do not carry packages or baggage for anyone else, and keep your own baggage under observation while traveling. If illegal sentences are found in your suitcase, //you// will pay the price.\u000a\u000aIf you are arrested, your embassy cannot hire legal counsel or pay your fines or legal fees. They can only notify your family, provide you with information, and ask that you be treated humanely and according to local laws.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Arrest or Detention of a US Citizen Abroad|http://travel.state.gov/content/passports/english/emergencies/arrest.html]]|\u000a|[[Country-Specific Information|http://travel.state.gov/content/passports/english/country.html]], includes information on noteworth aspects of the legal system for countries around the world|\u000a\u000a<<segue "Personal emergencies">>\u005c
 p1179
 sg21
-VAlcohol and drugs
-p1180
-sg23
-g24
-((I2014
-I5
-I29
-I15
-I50
-I31
-I3
-I149
-I1
-tp1181
-(dp1182
-tp1183
-Rp1184
-sg29
-(lp1185
-Vsafety
-p1186
-asg32
-g24
-((I2014
-I5
-I28
-I17
-I2
-I25
-I2
-I148
-I1
-tp1187
-(dp1188
-tp1189
-Rp1190
-sbsa(dp1191
-g12
-I00
-sg13
-(lp1192
-F1118.333333333334
-aF880.0000000000001
-asg15
-(itiddlywiki
-Tiddler
-p1193
-(dp1194
-g19
-V<<sidebar "Your legal status in your host country">>\u000aMany US citizens are under the impression that their US passport acts as a "get out of jail free" card overseas. Nothing could be further from the truth. Whatever your nationality, if you are arrested, you will be subject to the entire foreign legal process--including imprisonment. Neither Vanderbilt or your government can do anything to get you out of prison!\u000a\u000aKnow the laws of your host country! Be aware that conditions in foreign jails and prisons may be very different from those in your home country. The legal system will also be difficult to understand and navigate. Your home country's consular officials can provide a wide array of services, but they //cannot extricate you from the situation//.\u000a\u000aDrug arrests can be particularly bad in many places. Harsh sentences, no bail, and dire conditions characterize many countries. Know the local laws and think twice before making a jail stay part of your time abroad. Do not carry packages or baggage for anyone else, and keep your own baggage under observation while traveling. If illegal sentences are found in your suitcase, //you// will pay the price.\u000a\u000aIf you are arrested, your embassy cannot hire legal counsel or pay your fines or legal fees. They can only notify your family, provide you with information, and ask that you be treated humanely and according to local laws.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Arrest or Detention of a US Citizen Abroad|http://travel.state.gov/content/passports/english/emergencies/arrest.html]]|\u000a|[[Country-Specific Information|http://travel.state.gov/content/passports/english/country.html]], includes information on noteworth aspects of the legal system for countries around the world|\u000a\u000a<<segue "Personal emergencies">>\u005c
-p1195
-sg21
 VYour legal status in your host country
-p1196
+p1180
 sg23
 g24
 ((I2014
@@ -3816,16 +3764,16 @@ I28
 I4
 I150
 I1
-tp1197
-(dp1198
-tp1199
-Rp1200
+tp1181
+(dp1182
+tp1183
+Rp1184
 sg29
-(lp1201
+(lp1185
 Vsafety
-p1202
+p1186
 aVsidebar
-p1203
+p1187
 asg32
 g24
 ((I2014
@@ -3837,28 +3785,28 @@ I17
 I3
 I149
 I1
-tp1204
-(dp1205
-tp1206
-Rp1207
-sbsa(dp1208
+tp1188
+(dp1189
+tp1190
+Rp1191
+sbsa(dp1192
 g12
 I00
 sg13
-(lp1209
+(lp1193
 F1335.3333333333333
 aF1875.9999999999995
 asg15
 (itiddlywiki
 Tiddler
-p1210
-(dp1211
+p1194
+(dp1195
 g19
 V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000amacros.get("saveoptions").handler();
-p1212
+p1196
 sg21
 VOptions
-p1213
+p1197
 sg23
 g24
 ((I2014
@@ -3870,14 +3818,14 @@ I3
 I2
 I155
 I1
-tp1214
-(dp1215
-tp1216
-Rp1217
+tp1198
+(dp1199
+tp1200
+Rp1201
 sg29
-(lp1218
+(lp1202
 Vscript
-p1219
+p1203
 asg32
 g24
 ((I2014
@@ -3889,28 +3837,28 @@ I41
 I2
 I155
 I1
-tp1220
-(dp1221
-tp1222
-Rp1223
-sbsa(dp1224
+tp1204
+(dp1205
+tp1206
+Rp1207
+sbsa(dp1208
 g12
 I00
 sg13
-(lp1225
+(lp1209
 F151.88753552578154
 aF1304.747056435239
 asg15
 (itiddlywiki
 Tiddler
-p1226
-(dp1227
+p1210
+(dp1211
 g19
 V<<sidebar "Sexual misconduct abroad">>\u000aSocial norms--and civil and criminal laws--vary from country to country.  Even so, Vanderbilt\u2019s policies, including the university\u2019s Student Accountability and Sexual Misconduct and Power-Based Violence policies, apply in all study abroad programs in which Vanderbilt students participate, whether those programs are administered by Vanderbilt or a third party.  Vanderbilt students, faculty and staff participating in study abroad programs must comply with local laws, the rules and regulations of their study abroad program, and with Vanderbilt\u2019s policies.\u000a\u000aIf you are a victim of sexual misconduct while abroad, contact the resident director of your program for help. If your program is directly administered by Vanderbilt faculty, you should consult with your program leader. If you are unable or unwilling to discuss the issue with program staff, please contact Vanderbilt's [[Equal Opportunity, Affirmative Action, and Disability Services Department|http://www.vanderbilt.edu/ead/]] (EAD) or [[Project Safe|http://www.vanderbilt.edu/projectsafe/]]. Project Safe has someone available around the clock every day of the year. The Student Handbook\u2019s [[policy on Sexual Misconduct|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]] identifies confidential resources (see also [[Project Safe|http://www.vanderbilt.edu/projectsafe/manage/wp-content/uploads/VU-Resource-List-2013.pdf]]).\u000a\u000aThe range of sanctions for violations of Vanderbilt\u2019s Student Accountability and Sexual Misconduct and Power-Based Violence Policies are set forth in the Student Handbook. Individuals who engage in gender-based or sexual misconduct--or other forms of misconduct--may also be subject to local laws, and the civil and criminal consequences may be severe.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[VU Student Accountability Policy|http://www.vanderbilt.edu/student_handbook/student-conduct/]], from the Student Handbook|\u000a|[[Sexual Misconduct and Other Forms of Power-Based Violence Policy|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]], fromt the Student Handbook|\u000a|[[VU Equal Opportunity, Affirmative Action, and Disability Services Department|http://www.vanderbilt.edu/ead/]]|\u000a|[[VU Project Safe|http://www.vanderbilt.edu/projectsafe/]]|\u000a|[[Vanderbilt Sexual Assault Support and Resources List|http://www.vanderbilt.edu/projectsafe/manage/wp-content/uploads/VU-Resource-List-2013.pdf]]|\u000a\u000a<<segue "Grades and credits">>\u005c
-p1228
+p1212
 sg21
 VSexual Misconduct
-p1229
+p1213
 sg23
 g24
 ((I2014
@@ -3922,16 +3870,16 @@ I44
 I0
 I216
 I1
-tp1230
-(dp1231
-tp1232
-Rp1233
+tp1214
+(dp1215
+tp1216
+Rp1217
 sg29
-(lp1234
+(lp1218
 Vsidebar
-p1235
+p1219
 aVpolicies
-p1236
+p1220
 asg32
 g24
 ((I2014
@@ -3943,28 +3891,28 @@ I28
 I0
 I181
 I1
-tp1237
-(dp1238
-tp1239
-Rp1240
-sbsa(dp1241
+tp1221
+(dp1222
+tp1223
+Rp1224
+sbsa(dp1225
 g12
 I00
 sg13
-(lp1242
+(lp1226
 F155.51766138855047
 aF21.75883069427522
 asg15
 (itiddlywiki
 Tiddler
-p1243
-(dp1244
+p1227
+(dp1228
 g19
 V<div id="browsers">\u005c\u000a	<div class="browser"><span class="sprite sprite-chrome_64x64"></span><p>''Chrome''</p><p>v20+<br />Android<br />iOS</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-firefox_64x64"></span><p>''Firefox''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-internet-explorer_64x64"></span><p>''Internet Explorer''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari_64x64"></span><p>''Safari''</p><p>v5.1+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari-ios_64x64"></span><p>''Mobile Safari''</p><p>iOS 6.1+</p></div>\u005c\u000a</div>\u005c
-p1245
+p1229
 sg21
 VBrowsers
-p1246
+p1230
 sg23
 g24
 ((I2014
@@ -3976,12 +3924,12 @@ I19
 I1
 I231
 I1
-tp1247
-(dp1248
-tp1249
-Rp1250
+tp1231
+(dp1232
+tp1233
+Rp1234
 sg29
-(lp1251
+(lp1235
 sg32
 g24
 ((I2014
@@ -3993,49 +3941,49 @@ I17
 I4
 I227
 I1
-tp1252
-(dp1253
-tp1254
-Rp1255
-sbsa(dp1256
+tp1236
+(dp1237
+tp1238
+Rp1239
+sbsa(dp1240
 g12
 I00
 sg13
-(lp1257
-F155.42021924482304
+(lp1241
+F153.86601705237481
 aF156.97442143727127
 asg15
 (itiddlywiki
 Tiddler
-p1258
-(dp1259
+p1242
+(dp1243
 g19
-V<<sidebar "In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can either tap on the back button to go back to the previous page, or press the big Continue button to go on to the presentation's next page.
-p1260
+V<<sidebar "In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can either tap on the back button to go back to the previous page, or press the big Continue button to go on to the presentation's next page.\u000a\u000a<<segue "What you will get out of study abroad">>\u005c
+p1244
 sg21
 VSample
-p1261
+p1245
 sg23
 g24
 ((I2014
-I8
-I29
-I13
-I10
-I57
-I4
-I241
+I9
+I15
+I15
+I23
+I33
+I0
+I258
 I1
-tp1262
-(dp1263
-tp1264
-Rp1265
+tp1246
+(dp1247
+tp1248
+Rp1249
 sg29
-(lp1266
+(lp1250
 Vsidebar
-p1267
+p1251
 aVabout
-p1268
+p1252
 asg32
 g24
 ((I2014
@@ -4047,14 +3995,14 @@ I49
 I4
 I241
 I1
-tp1269
-(dp1270
-tp1271
-Rp1272
+tp1253
+(dp1254
+tp1255
+Rp1256
 sbsasS'scale'
-p1273
+p1257
 F0.643416927899688
 sS'snapping'
-p1274
+p1258
 I00
 ss.

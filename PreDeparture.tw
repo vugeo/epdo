@@ -1,6 +1,6 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Add Google Analytics
+* Add Google Analytics: https://groups.google.com/forum/#!topic/tweecode/ENbun6TbfiI
 * Add "Show all" button to index in drawer.
 * Evaluate whether the code that builds the drawer navigation menu needs to account for "nogather" passages.
 * Lots of problems with the implementation of the back button on sidebars if the user doesn't get to the sidebar via the standard route.
@@ -10,7 +10,6 @@
 * Update URL replacement code on index page to take hash mode into account: https://mail.google.com/mail/u/4/#inbox/146a53697f731793
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.
-* Put header on About this Presentation as well--?
 * Add iOS metas:
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<link rel="apple-touch-icon" href="icon.png" /> (icon for users' desktop if saved as webapp)

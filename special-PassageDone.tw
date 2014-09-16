@@ -79,17 +79,16 @@
             html+="</ul></div>";
             return html;
         });
-        $("#nav-container a.chapter-list").on("click", function(){
+        $("#nav-container a.chapter-list").off().on("click", function(){
             var $this = $(this);
             $("#nav-container ul.passage-list").not($this.siblings()).slideUp(200);
             $this.next("ul").slideToggle(200);
         });
-        $("a.passage-list, a.index-passage").click(function(){
-            var $this = $(this);
-            console.log($this);
-            console.log("You clicked on " + $this.attr("data") + ". You are on " + state.active.title + ".");
-            if ($this.attr("data") !== state.active.title) {
-                state.display($this.attr("data"));
+        $("a.passage-list, a.index-passage").off().click(function(){
+            var passage = $(this).attr("data");
+            if (passage !== state.active.title) {
+                ga('send', 'event', 'help', 'index', 'navigated to ' + passage + ' using index');
+                state.display(passage);
                 snapper.close();
             }
             return false;

@@ -2056,7 +2056,7 @@ Tiddler
 p651
 (dp652
 g19
-V!Credits\u000a!!!!Content to come!\u000a\u000aPhoto from Study Abroad Survival Training header: Bonnie Renee Williamson - Inside the Grotta Azzurra ("Blue Cave"), Capri, Italy\u000a\u000aBrowser icons from C\u0103t\u0103lin Mari\u0219's open [[GitHub project|https://github.com/alrra/browser-logos#readme]].\u000a\u000a<<segue "Index">>\u005c
+V!Credits\u000a!!!!Thanks to all for their contributions!\u000a\u000a''Study Abroad Survival Training logo image''\u000aDetail, Bonnie Renee Williamson '15, [[Inside the Grotta Azzurra ("Blue Cave"), Capri, Italy|https://secure.flickr.com/photos/100718964@N02/9732982312/in/photolist-fQ52w7-fQ55Hq-fPMxpV-fQ55T1-fQ55xS]]\u000a\u000a''Background Images (visible on wider screens only)''\u000a* Ben Woods '10, [[Sand Dunes in Sossusvlei, Namibia|https://secure.flickr.com/photos/100718964@N02/9727615368/in/set-72157635498587057]]\u000a*Elizabeth Rose Wheelock '15, [[Tulips at the Keukenhof Gardens, outside of Amsterdam|https://secure.flickr.com/photos/100718964@N02/9729747873/in/photolist-fPMuZP-fQ53bA-fQ53j9-fPMvdx-fPMv4F]]\u000a*Lori Ann Weinstein '14, [[Sunrise at the lighthouse in Byron Bay, Australia|https://secure.flickr.com/photos/100718964@N02/9732976450/in/photolist-fQ54do-fQ54ej-fPMvVM-fQ53NN-fPMvUz]]\u000a*Sushma Boppana '14, [[Hillside Door in Budapest, Hungary|https://secure.flickr.com/photos/100718964@N02/9732659004/in/photolist-fQ3qrA-fQ3qg5-fQ3qkY-fQ3md3-fQ3qbG]]\u000a*Joshua Grubb '14, [[Checkered Lawn at the Jardín Japonés (Japanese Garden), Buenos Aires, Argentina|https://secure.flickr.com/photos/100718964@N02/9732835282/in/photolist-fPLMWv-fQ4a8L-fQ4jWW-fQ4jQS-fQ4jS7]]\u000a*Danielle Antoinette Morrison '14, [[Rooftop View, Segovia, Spain|https://secure.flickr.com/photos/100718964@N02/9732971742/in/photolist-fPLR8c-fQ5dfb-fQ52pC-fPMEAc-fQ5d9Q-fPMEFe]]\u000a*Abby Marie Pribish '14, [[Lake Geneva Through the Foliage, Switzerland|https://secure.flickr.com/photos/100718964@N02/9729769853/in/photolist-fPMBu4-fQ59DW-fPMBpR-fPMBAD-fQ59QG]]\u000a*John Franklin Sims-Jones '14, [[Fields and mountains near the Inca ruins of Moray, Peru|https://secure.flickr.com/photos/100718964@N02/9729744099/in/photolist-oiPuiG-fPMtWB]]\u000a*Stefanie Tollefsen '13, [[Violet tree in Rome, Italy|https://secure.flickr.com/photos/100718964@N02/9732678988/in/photolist-fPKZh2-fPKZwi-fPKMBX-fQ3wyb-fQ3wo9]]\u000a*Jonathan C. Williams '14, [[Beautiful clear beaches of Tarifa, Spain|https://secure.flickr.com/photos/100718964@N02/9729745463/in/photolist-fPP9QD-fPMuu2-fPMum8-fPMukr-fPMurt-fQ52GE-fPkVZg-fPkW4H-fPkW4R-fPkW4a-fPCtXY-fPLDQR-fQ4bRW-fPLDLB-fPjmMv]]\u000a*Martha Ann Babbitt '14, [[Looking out onto Lake Como, Italy|https://secure.flickr.com/photos/100718964@N02/9732663006/in/photolist-fQ3rAb-fQ3rCA-fPKUAD-fPKUwF-fQ3mfh]]\u000a\u000a''Other Images''\u000aBrowser icons from C\u0103t\u0103lin Mari\u0219's open [[GitHub project|https://github.com/alrra/browser-logos#readme]].\u000a\u000a<<segue "Index">>\u005c
 p653
 sg21
 VCredits
@@ -2065,12 +2065,12 @@ sg23
 g24
 ((I2014
 I9
-I15
 I16
-I33
 I14
-I0
-I258
+I25
+I58
+I1
+I259
 I1
 tp655
 (dp656
@@ -2264,7 +2264,7 @@ Tiddler
 p715
 (dp716
 g19
-V/% \u000a	Each passage can be part of only one section,\u000a	sections cannot overlap. Sections must be listed\u000a	*in order* of their appearance in the presentation.\u000a%/\u000a\u000a/% Where should we begin? Give first passage's name here. %/\u000a<<set $first to "About the Presentation">>\u000a\u000a<<contents>>\u000a    <<section "Global Education Office" "nosave" "backgrounds/Babbitt_Martha_Ann_Lake_Como_Italy.jpg">>\u000a	<<section "About" "about" "backgrounds/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg">>\u000a    <<section "Introduction" "intro" "backgrounds/Weinstein_Lori_Ann_Sunrise_at_Byron_Bay_Australia.jpg">>\u000a    <<section "Basic Policy Information" "policies" "backgrounds/Boppana_Sushma_Hillside_Door_Budapest_Hungary.jpg">>\u000a    <<section "Academic Policies" "academics" "backgrounds/Grubb_Joshua_LouAllen_Checkered_Lawn_Buenos_Aires.jpg">>\u000a    <<section "Travel" "travel" "backgrounds/Morrison_Danielle_Antoinette_Rooftop_View_Segovia_Spain.jpg">>\u000a    <<section "Living and Learning Abroad" "living" "backgrounds/Pribish_Abby_Marie_Lake_Geneva_Through_the_Foliage_Switzerland.jpg">>\u000a    <<section "Health and Wellness" "health" "backgrounds/Sims-Jones_John_Fields_and_mountains_of_Moray.jpg">>\u000a    <<section "Safety and Security" "safety" "backgrounds/Tollefsen_Stefanie_Violet_tree_Rome_Italy.jpg">>\u000a    <<section "Returning Home" "home" "backgrounds/Williams_Jon_Beaches_of_Tarifa_Spain.jpg">>\u000a    <<section "Finishing Up" "finish" "backgrounds/Babbitt_Martha_Ann_Lake_Como_Italy.jpg">>\u000a<<create-index>>
+V/% \u000a	Each passage can be part of only one section,\u000a	sections cannot overlap. Sections must be listed\u000a	*in order* of their appearance in the presentation.\u000a%/\u000a\u000a/% Where should we begin? Give first passage's name here. %/\u000a<<set $first to "About the Presentation">>\u000a\u000a<<contents>>\u000a    <<section "Global Education Office" "nosave" "backgrounds/Sand_Dunes_Sossusvlei_Namibia.jpg">>\u000a	<<section "About" "about" "backgrounds/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg">>\u000a    <<section "Introduction" "intro" "backgrounds/Weinstein_Lori_Ann_Sunrise_at_Byron_Bay_Australia.jpg">>\u000a    <<section "Basic Policy Information" "policies" "backgrounds/Boppana_Sushma_Hillside_Door_Budapest_Hungary.jpg">>\u000a    <<section "Academic Policies" "academics" "backgrounds/Grubb_Joshua_LouAllen_Checkered_Lawn_Buenos_Aires.jpg">>\u000a    <<section "Travel" "travel" "backgrounds/Morrison_Danielle_Antoinette_Rooftop_View_Segovia_Spain.jpg">>\u000a    <<section "Living and Learning Abroad" "living" "backgrounds/Pribish_Abby_Marie_Lake_Geneva_Through_the_Foliage_Switzerland.jpg">>\u000a    <<section "Health and Wellness" "health" "backgrounds/Sims-Jones_John_Fields_and_mountains_of_Moray.jpg">>\u000a    <<section "Safety and Security" "safety" "backgrounds/Tollefsen_Stefanie_Violet_tree_Rome_Italy.jpg">>\u000a    <<section "Returning Home" "home" "backgrounds/Williams_Jon_Beaches_of_Tarifa_Spain.jpg">>\u000a    <<section "Finishing Up" "finish" "backgrounds/Babbitt_Martha_Ann_Lake_Como_Italy.jpg">>\u000a<<create-index>>
 p717
 sg21
 VTable of Contents
@@ -2273,12 +2273,12 @@ sg23
 g24
 ((I2014
 I9
-I12
-I11
-I42
-I37
-I4
-I255
+I16
+I14
+I25
+I41
+I1
+I259
 I1
 tp719
 (dp720
@@ -3967,12 +3967,12 @@ sg23
 g24
 ((I2014
 I9
-I15
-I15
-I23
-I33
-I0
-I258
+I16
+I12
+I55
+I3
+I1
+I259
 I1
 tp1246
 (dp1247

@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V!Your PDO guidebook\u000a!!!!What to expect from this Predeparture Orientation\u000aOver the next fifty minutes or so, you will learn much about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas!\u005c\u000a\u000aThe chart below shows how your time in this Predeparture Orientation (PDO) will be spent. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a|box|k\u000a|!Topic|!Description|!Time|\u000a|''Basic Policy Information''|Everything you need to know about being a Vanderbilt student abroad, conduct, and the law|X&nbsp;minutes|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|X minutes|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|X minutes|\u000a|''Living and Learning Abroad''|Answers to questions about on-the-ground logistics|X minutes|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|X minutes|\u000a|''Safety and Security''|Information on staying safe abroad and protecting yourself|X minutes|\u000a|''Returning Home''|An introduction to how your study abroad experience will impact you when you return to Vanderbilt|X minutes|\u000a|''Finishing Up''|Your next steps, a brief recap, and verifying with GEO that you completed this required module|X minutes|\u000a\u000a<<segue "Student status and billing">>\u005c
+V!Your PDO guidebook\u000a!!!!What to expect from this Predeparture Orientation\u000aOver the next hour or so, you will learn much about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas!\u005c\u000a\u000aThe chart below shows the modules included in this training. You can expect to spend 5 to 10 minutes per module. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a|box|k\u000a|!Module|!Description|\u000a|''Basic Policy Information''|Everything you need to know about being a Vanderbilt student abroad, conduct, and the law|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|\u000a|''Living and Learning Abroad''|Answers to questions about on-the-ground logistics|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|\u000a|''Safety and Security''|Information on staying safe abroad and protecting yourself|\u000a|''Returning Home''|An introduction to how your study abroad experience will impact you when you return to Vanderbilt|\u000a|''Finishing Up''|Your next steps including verifying with GEO that you completed this required module|\u000a\u000a<<segue "Student status and billing">>\u005c
 p20
 sS'title'
 p21
@@ -47,12 +47,12 @@ struct_time
 p24
 ((I2014
 I9
-I15
-I15
-I22
-I43
-I0
-I258
+I16
+I14
+I31
+I52
+I1
+I259
 I1
 tp25
 (dp26
@@ -146,7 +146,7 @@ Tiddler
 p56
 (dp57
 g19
-V!Vanderbilt conduct policies\u000a!!!!Vanderbilt policies apply abroad as well as on campus\u000a<<if ($vanderbilt eq "true") or ($facultyled eq "true")>>Your ''trip leader or resident director has sole discretion over all discipline decisions''. They will hold you accountable for the standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]], and they may also dictate other rules as needed. Your Vanderbilt trip leader may impose any disciplinary sanction, up to and including dismissal from the program. You also may face further consequences when you return to Vanderbilt.\u000a<<else>>You are subject to your abroad institution's rules, but you //also// need to abide by Vanderbilt's conduct policies. The standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]] remain in effect while you are abroad. Conduct that violates these codes may result in sanctions when you return to Vanderbilt, //even if you already received sanctions from your program abroad.//<</if>>\u000a\u000a''Be sure to read the section in the Student Handbook on [[conduct in study abroad programs|http://www.vanderbilt.edu/student_handbook/student-accountability/#conduct-in-study-abroad-programs]].''\u000a\u000a<<sidebar-box>>\u000a	[[Is Vanderbilt's alcohol policy different abroad?|Alcohol Policy]]\u000a	[[What should I know about rules surrounding sexual misconduct abroad?|Sexual Misconduct]]\u000a<</sidebar-box>>\u000a<<segue "Grades and credits">>\u005c
+V!Vanderbilt conduct policies\u000a!!!!Vanderbilt policies apply abroad as well as on campus\u000a<<if ($vanderbilt eq "true") or ($facultyled eq "true")>>Your ''trip leader or resident director has sole discretion over all discipline decisions''. They will hold you accountable for the standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]], and they may also dictate other rules as needed. Your Vanderbilt trip leader may impose any disciplinary sanction, up to and including dismissal from the program. You also may face further consequences when you return to Vanderbilt.\u000a<<else>>You are subject to your abroad institution's rules, but you //also// need to abide by Vanderbilt's conduct policies. The standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]] remain in effect while you are abroad. Conduct that violates these codes may result in sanctions when you return to Vanderbilt, //even if you already received sanctions from your program abroad.//<</if>>\u000a\u000a''Be sure to read the section in the Student Handbook on'' [[conduct in study abroad programs|http://www.vanderbilt.edu/student_handbook/student-conduct/#conduct-in-study-abroad-programs]].\u000a\u000a<<sidebar-box>>\u000a	[[Is Vanderbilt's alcohol policy different abroad?|Alcohol Policy]]\u000a	[[What should I know about rules surrounding sexual misconduct abroad?|Sexual Misconduct]]\u000a<</sidebar-box>>\u000a<<segue "Grades and credits">>\u005c
 p58
 sg21
 VVanderbilt conduct policies
@@ -154,13 +154,13 @@ p59
 sg23
 g24
 ((I2014
-I7
-I22
-I15
-I35
-I11
+I9
+I16
+I14
+I38
+I39
 I1
-I203
+I259
 I1
 tp60
 (dp61
@@ -252,7 +252,7 @@ Tiddler
 p89
 (dp90
 g19
-V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you ''remain registered as a Vanderbilt student'' and you retain access to on-campus resources. You can register for classes, log in to YES and other campus applications, and make use of services.\u000a<<if $facultyled neq "true">> \u000aTo make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your transcript arrives from abroad and both GEO and the University Registrar have processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.<</if>>\u000a\u000a''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will arrive at the same time as usual, with the same payment terms. You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. Be aware that there are costs that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your program provider or GEO advisor for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Regular Vanderbilt tuition|\u000a|Study-abroad program fee (different for each program)|\u000a|(Reduced) activity fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial Aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
+V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you ''remain registered as a Vanderbilt student'' and you retain access to on-campus resources. You can register for the next term's classes, log in to YES and other campus applications, and make use of services.\u000a<<if $facultyled neq "true">> \u000aTo make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your transcript arrives from abroad and both GEO and the University Registrar have processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.<</if>>\u000a\u000a''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will arrive at the same time as usual, with the same payment terms. You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. Be aware that there are costs that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your program provider or GEO advisor for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Regular Vanderbilt tuition|\u000a|Study-abroad program fee (different for each program)|\u000a|(Reduced) activity fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial Aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
 p91
 sg21
 VStudent status and billing
@@ -260,13 +260,13 @@ p92
 sg23
 g24
 ((I2014
-I7
-I22
+I9
+I16
 I14
-I42
-I20
+I34
 I1
-I203
+I1
+I259
 I1
 tp93
 (dp94
@@ -570,21 +570,21 @@ Tiddler
 p188
 (dp189
 g19
-V!Passport and Document Security\u000a!!!!Keep your passport and other key documents safe\u000aWhen you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also become difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe.\u000a\u000aIn general, you should okeep your passport on your person only when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.\u000a<img src="images/passport wallet.jpg" class="right" style="height: 250px;" />\u005c\u000a\u000aIf you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.\u000a\u000a|box|k\u000a|!(Potentially) Good Places to Keep Your Passport|\u000a|Hidden in the room of your homestay or residence hall|\u000a|In your hotel's safe (//not// the room safe)|\u000a|With your study abroad provider, if they offer such a service|\u000a|<hr>//In some situations, even these options may not be secure. Use your common sense and evaluate the situation. If in doubt, talk to your Resident Director for advice.//|\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|Visa Acquisition]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Traveling with medications">>
+V!Passport and Document Security\u000a!!!!Keep your passport and other key documents safe\u000aWhen you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also become difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe.\u000a\u000aIn general, you should keep your passport on your person only when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.\u000a<img src="images/passport wallet.jpg" class="right" style="height: 250px;" />\u005c\u000a\u000aIf you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.\u000a\u000a|box|k\u000a|!(Potentially) Good Places to Keep Your Passport|\u000a|Hidden in the room of your homestay or residence hall|\u000a|In your hotel's safe (//not// the room safe)|\u000a|With your study abroad provider, if they offer such a service|\u000a|<hr>//In some situations, even these options may not be secure. Use your common sense and evaluate the situation. If in doubt, talk to your Resident Director for advice.//|\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|Visa Acquisition]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Traveling with medications">>
 p190
 sg21
-VDocuments
+VDocument security
 p191
 sg23
 g24
 ((I2014
-I7
-I23
+I9
+I16
 I14
-I42
-I18
-I2
-I204
+I46
+I10
+I1
+I259
 I1
 tp192
 (dp193
@@ -722,7 +722,7 @@ g12
 I00
 sg13
 (lp237
-F514.3333333333337
+F515.8875355257819
 aF145.3333333333336
 asg15
 (itiddlywiki
@@ -730,7 +730,7 @@ Tiddler
 p238
 (dp239
 g19
-V<<sidebar "Getting or Renewing a Passport">>\u000aTo get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.\u000a\u000aUS citizens should visit the State Department's website for [[passport services|http://travel.state.gov/content/passports/english/passports.html]] to view requirements and to check on [[current processing times|http://travel.state.gov/content/passports/english/passports/information/processing-times.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications.\u000a\u000aIn Nashville, locations near Vanderbilt where you can apply for a passport include:\u000a\u000a|alternating-rows|k\u000a|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|\u000a|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|\u000a|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|\u000a|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|\u000a\u000aYou may need to ''call in advance'' for an appointment.\u000a\u000aYou'll also need to get ''passport photos'' taken before you can apply. FedEx Kinko's, Walgreens, and CVS are locations near Vandy that can take passport photos.\u000a\u000a<<segue "Documents">>\u005c
+V<<sidebar "Getting or Renewing a Passport">>\u000aTo get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.\u000a\u000aUS citizens should visit the State Department's website for [[passport services|http://travel.state.gov/content/passports/english/passports.html]] to view requirements and to check on [[current processing times|http://travel.state.gov/content/passports/english/passports/information/processing-times.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications.\u000a\u000aIn Nashville, locations near Vanderbilt where you can apply for a passport include:\u000a\u000a|alternating-rows|k\u000a|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|\u000a|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|\u000a|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|\u000a|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|\u000a\u000aYou may need to ''call in advance'' for an appointment.\u000a\u000aYou'll also need to get ''passport photos'' taken before you can apply. FedEx-Kinko's, Walgreens, and CVS are locations near Vandy that can take passport photos.\u000a\u000a<<segue "Document security">>\u005c
 p240
 sg21
 VPassport Acquisition
@@ -738,13 +738,13 @@ p241
 sg23
 g24
 ((I2014
-I7
-I23
+I9
+I16
 I14
-I0
-I55
-I2
-I204
+I45
+I58
+I1
+I259
 I1
 tp242
 (dp243
@@ -1576,7 +1576,7 @@ Tiddler
 p501
 (dp502
 g19
-V!Illness abroad\u000a!!!!Know attendance policies and who to contact\u000aThink about who can best help you if you become sick while abroad. It will usually be someone on site, with your program's resident director or staff at the top of the list. Don't contact home for help unless you've exhausted all your local contacts.\u000a\u000aWhen you arrive at your program site, you should receive a list of all appropriate emergency contacts for your program or host university, as well as for emergency services (police, ambulance, etc.). If you don't receive this information, ask for it! Also consider recording it on a [[handy wallet-sized card|http://studentsabroad.com/handbook/emergency-card.php?country=General]].\u000a\u000aRemember that phone numbers for emergency services will be different in each country you might visit. Get that information before you take a side trip.\u000a\u000aBe aware of the absence and illness policies for your program or host university. They may differ drastically from Vanderbilt policies. Always keep your program staff in the loop while ill (via email or phone). \u000a\u000aBe sure to keep any doctor's notes for your files. You may need them later for academic or medical reasons.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[Emergency services numbers abroad|http://studentsabroad.state.gov/content/pdfs/911_ABROAD.pdf]], the US Department of State's list of 911 equivalents around the world|\u000a|[[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]] Wherever you are in the world, the PCC can help you identify local resources. When you contact PCC, request the GEO resource provider.|\u000a\u000a<<segue "Preparing for safety">>\u005c
+V!Illness abroad\u000a!!!!Know attendance policies and who to contact\u000aThink about who can best help you if you become sick while abroad. It will usually be someone on site, with your program's resident director or staff at the top of the list. Don't contact home for help unless you've exhausted all your local contacts.\u000a\u000aWhen you arrive at your program site, you should receive a list of all appropriate emergency contacts for your program or host university, as well as for emergency services (police, ambulance, etc.). If you don't receive this information, ask for it! Also consider recording it on a [[handy wallet-sized card|http://studentsabroad.com/handbook/emergency-card.php?country=General]].\u000a\u000aRemember that phone numbers for emergency services will be different in each country you might visit. Get that information before you take a side trip.\u000a\u000aBe aware of the absence and illness policies for your program or host university. They may differ drastically from Vanderbilt policies. Always keep your program staff in the loop while ill (via email or phone). \u000a\u000aBe sure to keep any doctor's notes for your files. You may need them later for academic or medical reasons.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[Emergency services numbers abroad|http://travel.state.gov/content/dam/students-abroad/pdfs/911_ABROAD.pdf]], the US Department of State's list of 911 equivalents around the world|\u000a|[[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]] Wherever you are in the world, the PCC can help you identify local resources. When you contact PCC, request the GEO resource provider.|\u000a\u000a<<segue "Preparing for safety">>\u005c
 p503
 sg21
 VIllness abroad
@@ -1584,13 +1584,13 @@ p504
 sg23
 g24
 ((I2014
-I8
-I1
+I9
 I16
-I39
-I39
-I4
-I213
+I14
+I49
+I58
+I1
+I259
 I1
 tp505
 (dp506
@@ -2314,7 +2314,7 @@ Tiddler
 p730
 (dp731
 g19
-V<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any farther, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you to get a student visa or residence permit if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Passport Acquisition]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Documents">>
+V<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any farther, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you to get a student visa or residence permit if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Passport Acquisition]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Document security">>
 p732
 sg21
 VPassport Check
@@ -2322,13 +2322,13 @@ p733
 sg23
 g24
 ((I2014
-I8
-I26
+I9
+I16
 I14
-I20
-I6
+I45
+I51
 I1
-I238
+I259
 I1
 tp734
 (dp735
@@ -2375,12 +2375,12 @@ sg23
 g24
 ((I2014
 I9
-I15
-I15
-I24
-I26
-I0
-I258
+I16
+I14
+I33
+I2
+I1
+I259
 I1
 tp750
 (dp751
@@ -2680,7 +2680,7 @@ Tiddler
 p843
 (dp844
 g19
-V<<sidebar "Academic systems abroad">>\u000aHigher education and academic systems abroad can vary greatly from what you are used to in the United States. Here are some things that might be different depending on the country. Talk to your GEO advisor to find out more about what you might encounter on your program.\u000a\u000a|box|k\u000a|!Differences in academic systems abroad|\u000a|There are fewer hours spent in the classroom, and students are expected to spend more time studying on their own. This doesn't mean that there will be assigned homework! A lot of responsibility for deciding how best to spend your homework hours may be left up to you.|\u000a|Depending on the course and level you are taking, and whether you are taking it in a foreign language, you may need to spend extra time learning and mastering the material.|\u000a|There are fewer tests and quizzes, and students may earn a grade based on just one final exam, or a mid-term and a final. This means you'll have little opportunity to gauge how a professor grades in the weeks or months before an exam.|\u000a|Professors are less accessible for office hours and by email.|\u000a|Classes may be more lecture-style than discussion-based. This may leave fewer opportunities to ask questions or express your opinions.|\u000a|There may not be much sense of privacy attached to grades. For example, the instructor might post all exam grades publicly. In some places, individual grades may be discussed openly in class.|\u000a|The prevailing academic culture may be very different. For example, students may not be as concerned--or concerned at all--about getting high grade point averages.|\u000a|In some places, such as Latin America, students pursue something like a strict professional degree, without a liberal arts component. They may have a much more focused academic experience.|\u000a|Students likely do not live on campus, which may mean that you need to meet people through academics at first, or by joining a club or other activity.|\u000a|<hr>//Every country is different! If you want to know more about systems in your host country, talk to your GEO advisor.//|\u000a\u000a<<segue "Course equivalency evaluations">>
+V<<sidebar "Academic systems abroad">>\u000aHigher education and academic systems abroad can vary greatly from what you are used to in the United States. Here are some things that might be different depending on the country. Talk to your GEO advisor to find out more about what you might encounter on your program.\u000a\u000a!!!!!!Potential differences in academic systems abroad\u000a*There are fewer hours spent in the classroom, and students are expected to spend more time studying on their own. This doesn't mean that there will be assigned homework! A lot of responsibility for deciding how best to spend your homework hours may be left up to you.\u000a*Depending on the course and level you are taking, and whether you are taking it in a foreign language, you may need to spend extra time learning and mastering the material.\u000a*There are fewer tests and quizzes, and students may earn a grade based on just one final exam, or a mid-term and a final. This means you'll have little opportunity to gauge how a professor grades in the weeks or months before an exam.\u000a*Professors are less accessible for office hours and by email.\u000a*Classes may be more lecture-style than discussion-based. This may leave fewer opportunities to ask questions or express your opinions.\u000a*There may not be much sense of privacy attached to grades. For example, the instructor might post all exam grades publicly. In some places, individual grades may be discussed openly in class.\u000a*The prevailing academic culture may be very different. For example, students may not be as concerned--or concerned at all--about getting high grade point averages.\u000a*In some places, such as Latin America, students pursue something like a strict professional degree, without a liberal arts component. They may have a much more focused academic experience.\u000a*Students likely do not live on campus, which may mean that you need to meet people through academics at first, or by joining a club or other activity.\u000a<hr>//Every country is different! If you want to know more about systems in your host country, talk to your GEO advisor.//\u000a\u000a<<segue "Course equivalency evaluations">>
 p845
 sg21
 VAcademic systems abroad
@@ -2688,13 +2688,13 @@ p846
 sg23
 g24
 ((I2014
-I7
-I23
+I9
 I16
-I18
-I11
-I2
-I204
+I14
+I44
+I41
+I1
+I259
 I1
 tp847
 (dp848
@@ -3378,7 +3378,7 @@ Tiddler
 p1062
 (dp1063
 g19
-V!Personal emergencies\u000a!!!!What to do after experiencing a personal emergency\u000aPersonal emergencies may arise from illness, accidents, behavioral health crises, or criminal/negligent behavior. They generally require immediate assistance, whether from a health professional, law enforcement, a counselor, or some combination of these. If you encounter a personal emergency abroad, follow these steps:\u000a\u000a''Request help immediately''. Know the local [[emergency number or numbers|http://studentsabroad.state.gov/content/pdfs/911_ABROAD.pdf]] (911 doesn't work abroad!) and have your phone with you at all times.\u000a\u000a''Notify your program's emergency contact''. At least one member of your program's staff will be available to you around the clock. On-site personnel are best positioned to provide timely and appropriate emergency support. If you are reporting an emergency on behalf of a friend, be sure to identify yourself as well as your friend.\u000a\u000aIf you are in immediate danger, or have been in a serious accident or the victim of a criminal act, ''contact law enforcement as soon as possible''. Your program staff may be in a better position to talk with law enforcement, and will also know the proper protocols. Work with him or her if at all possible.\u000a\u000a''Contact your insurance provider'' if the emergency requires medical attention of any kind. Depending on the nature of the emergency, it may also be appropriate to contact International SOS (ISOS). See information later in this presentation.\u000a\u000a''Notify the Vanderbilt Global Education Office''. A direct notification from you will help us coordinate support services. We can often provide additional assistance or help streamline communications.\u000a\u000a''Contact the nearest embassy''. Consular agents at US embassies are available 24/7 to help US citizens with emergencies. If you are not a US citizen, contact both the US embassy and your home country's embassy.\u000a\u000a''Contact your family''. Your family will be anxious and concerned about your well-being. Your program staff and GEO are both limited in the information they can share, so be sure to communicate with your family directly.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Large-scale emergencies">>\u005c
+V!Personal emergencies\u000a!!!!What to do after experiencing a personal emergency\u000aPersonal emergencies may arise from illness, accidents, behavioral health crises, or criminal/negligent behavior. They generally require immediate assistance, whether from a health professional, law enforcement, a counselor, or some combination of these. If you encounter a personal emergency abroad, follow these steps:\u000a\u000a''Request help immediately''. Know the local [[emergency number or numbers|http://travel.state.gov/content/dam/students-abroad/pdfs/911_ABROAD.pdf]] (911 doesn't work abroad!) and have your phone with you at all times.\u000a\u000a''Notify your program's emergency contact''. At least one member of your program's staff will be available to you around the clock. On-site personnel are best positioned to provide timely and appropriate emergency support. If you are reporting an emergency on behalf of a friend, be sure to identify yourself as well as your friend.\u000a\u000aIf you are in immediate danger, or have been in a serious accident or the victim of a criminal act, ''contact law enforcement as soon as possible''. Your program staff may be in a better position to talk with law enforcement, and will also know the proper protocols. Work with him or her if at all possible.\u000a\u000a''Contact your insurance provider'' if the emergency requires medical attention of any kind. Depending on the nature of the emergency, it may also be appropriate to contact International SOS (ISOS). See information later in this presentation.\u000a\u000a''Notify the Vanderbilt Global Education Office''. A direct notification from you will help us coordinate support services. We can often provide additional assistance or help streamline communications.\u000a\u000a''Contact the nearest embassy''. Consular agents at US embassies are available 24/7 to help US citizens with emergencies. If you are not a US citizen, contact both the US embassy and your home country's embassy.\u000a\u000a''Contact your family''. Your family will be anxious and concerned about your well-being. Your program staff and GEO are both limited in the information they can share, so be sure to communicate with your family directly.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Large-scale emergencies">>\u005c
 p1064
 sg21
 VPersonal emergencies
@@ -3386,13 +3386,13 @@ p1065
 sg23
 g24
 ((I2014
-I7
-I31
+I9
 I16
-I27
-I43
-I3
-I212
+I14
+I50
+I10
+I1
+I259
 I1
 tp1066
 (dp1067

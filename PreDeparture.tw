@@ -1,22 +1,18 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Add Google Analytics: https://groups.google.com/forum/#!topic/tweecode/ENbun6TbfiI
-* Add "Show all" button to index in drawer.
-* Evaluate whether the code that builds the drawer navigation menu needs to account for "nogather" passages.
 * Lots of problems with the implementation of the back button on sidebars if the user doesn't get to the sidebar via the standard route.
 * Why are index items incorrectly ordered in the drawer on Android 4.3?
-* Increase size of checkbox in drawer on mobile.
 * minify iScroll.
-* Update URL replacement code on index page to take hash mode into account: https://mail.google.com/mail/u/4/#inbox/146a53697f731793
+* Update URL replacement code on index page to take hash mode into account: https://mail.google.com/mail/u/4/#inbox/146a53697f731793 DONE, I think
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.
 * Add iOS metas:
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<link rel="apple-touch-icon" href="icon.png" /> (icon for users' desktop if saved as webapp)
-* Doesn't work in Safari 5.1--something breaks.
+* Doesn't work in Safari 5.1--something breaks. It may just be that the Dropbox favicon is not found by Safari; everything loads, but the script is stopped before the first passage is displayed. Display any other passage (e.g., via the Index) and it works fine. See what happens once uploaded to the final location.
 * Console shim in IE 9 seems to *almost* totally fix things--I got a random error that affected nothing substantive about console being undefined.
 * Remove all console.log references (needed for IE9)
-* Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();)
+* Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();) DONE
 
 Browser requirements:
 * Firefox 10+

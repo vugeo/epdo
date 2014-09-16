@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V!Your PDO guidebook\u000a!!!!What to expect from this Predeparture Orientation\u000aOver the next hour or so, you will learn much about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas!\u000a\u000aThe chart below shows the modules included in this training. You can expect to spend 5 to 10 minutes per module. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a\u000a|box|k\u000a|!Module|!Description|\u000a|''Basic Policy Information''|Things you need to know about being a Vanderbilt student abroad, conduct, and the law|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|\u000a|''Living and Learning Abroad''|Answers to questions about on-the-ground logistics|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|\u000a|''Safety and Security''|Information on staying safe and protecting yourself abroad|\u000a|''Returning Home''|How your study abroad experience will impact you when you return to Vanderbilt|\u000a|''Finishing Up''|Your next steps including verifying with GEO that you completed this required module|\u000a\u000a<<segue "Student status and billing">>\u005c
+V!Your Survival Training guidebook\u000a!!!!What to expect from this training\u000aOver the next hour or so, you will learn much about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas!\u000a\u000aThe chart below shows the modules included in this training. You can expect to spend 5 to 10 minutes per module. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a\u000a|box|k\u000a|!Module|!Description|\u000a|''Basic Policy Information''|Things you need to know about being a Vanderbilt student abroad, conduct, and the law|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|\u000a|''Living and Learning Abroad''|Answers to questions about on-the-ground logistics|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|\u000a|''Safety and Security''|Information on staying safe and protecting yourself abroad|\u000a|''Returning Home''|How your study abroad experience will impact you when you return to Vanderbilt|\u000a|''Finishing Up''|Your next steps including verifying with GEO that you completed this required module|\u000a\u000a<<segue "Student status and billing">>\u005c
 p20
 sS'title'
 p21
@@ -48,9 +48,9 @@ p24
 ((I2014
 I9
 I16
-I14
-I52
-I52
+I16
+I45
+I10
 I1
 I259
 I1
@@ -1948,7 +1948,7 @@ Tiddler
 p617
 (dp618
 g19
-V!Index\u000a!!!!Quick reference\u000aThis page lists all of the information you have viewed in this presentation. You may ''bookmark'' it now for easy access later.\u000a\u000a<div id="index-list" class="index-columns">Error: Index could not be shown. Try reloading the page.</div>\u005c\u000a<<script>>\u000a/*Google Analytics reporting is generally automatically handled by the code for the Continue button. Because there is no continue button on the last page (this one), we fire the event here.*/\u000aga('send', 'event', 'passage', 'loaded', state.active.title);\u000a<</script>>\u005c\u000a/% The code that displays the index is in ::PassageDone and works only when the name of the passage is "Index" %/\u005c\u000a
+V!Index\u000a!!!!Quick reference\u000aThis page lists all of the information you have viewed in this presentation. You may ''bookmark'' it now for easy access later.\u000a\u000a<div id="index-list" class="index-columns">Error: Index could not be shown. Try reloading the page.</div>\u005c\u000a<<script>>\u000a/*Google Analytics reporting is generally automatically handled by the code for the Continue button. Because there is no continue button on the last page (this one), we fire the event here.*/\u000aga('send', 'pageview', {'page': "/" + encodeURIComponent(state.active.title), 'title': state.active.title});\u000a<</script>>\u005c\u000a/% The code that displays the index is in ::PassageDone and works only when the name of the passage is "Index" %/\u005c\u000a
 p619
 sg21
 VIndex
@@ -1958,9 +1958,9 @@ g24
 ((I2014
 I9
 I16
-I12
-I36
-I42
+I15
+I49
+I44
 I1
 I259
 I1

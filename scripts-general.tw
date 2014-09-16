@@ -5,7 +5,7 @@
     /%<<if tale.get(state.active.title).tags.indexOf("nosave") eq -1 >> %/\
         <<script>>
             var passage = state.active.variables.args[0];
-            ga('send', 'event', 'passage', 'loaded', state.active.title);
+            ga('send', 'pageview', {'page': "/" + encodeURIComponent(state.active.title), 'title': state.active.title});
             var el = document.createElement("a");
             if (passage !== null) {
                 $(el).attr("data-passage", passage)
@@ -19,7 +19,7 @@
             this.output.appendChild(el);
         <</script>>
         <<if $index[state.active.title].enumeration gt 1>>\
-            <<if tale.get(state.active.title).tags.indexOf("sidebar") eq -1>>\
+            <<if !tags().contains("sidebar")>>\
                 &nbsp; &nbsp;<h6 class='page-back-link'><<click "Previous">><<prevPassage>><</click>></h6>\
             <<elseif state.length gt 1>>\
                 <<set $temp to state.peek(1).title>>\

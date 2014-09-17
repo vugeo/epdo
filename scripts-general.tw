@@ -18,16 +18,11 @@
             }
             this.output.appendChild(el);
         <</script>>
-        <<if $index[state.active.title].enumeration gt 1>>\
-            <<if !tags().contains("sidebar")>>\
-                &nbsp; &nbsp;<h6 class='page-back-link'><<click "Previous">><<prevPassage>><</click>></h6>\
-            <<elseif state.length gt 1>>\
-                <<set $temp to state.peek(1).title>>\
-                &nbsp; &nbsp;<h6 class="sidebar page-back-link">[['Back to "' + state.peek(1).title + '"'|$temp]]</h6>\
+        <<if $index[state.active.title].enumeration gt 1 || ($index[state.active.title].enumeration lt 2 && tags().contains("sidebar")) >>\
+            <<if tags().contains("sidebar") >>\
+                &nbsp; &nbsp;<h6 class='page-back-link'><<click "Back">><<prevPassage 0>><</click>></h6>\            
             <<else>>\
-                /%Fallback for finding the passage\
-                before the current sidebar when state fails%/\
-                &nbsp; &nbsp;<h6 class='page-back-link'><<click "Back">><<prevPassage 0>><</click>></h6>\
+                &nbsp; &nbsp;<h6 class='page-back-link'><<click "Previous">><<prevPassage>><</click>></h6>\                
             <</if>>\
         <</if>>\
     /% <</if>> %/\
@@ -61,7 +56,7 @@
                 }
                 for (var key in index) {
                     if (index[key].enumeration === current - offset) {
-                        if (tale.get(key).tags.indexOf("sidebar") !== -1) {
+                        if (tags(key).contains("sidebar")) {
                             continue;
                         }
                         state.display(key);
@@ -157,10 +152,7 @@ macros.add("sidebar-box", {
     <h4 class="sidebar">Additional Information</h4>\
     <h1 class="sidebar"><<print $args[0]>></h1>\
     <hr class="sidebar">\
-    <<if state.length gt 1>>\
-        <<set $temp to state.peek(1).title>>\
-        <h6 class="sidebar page-back-link">[['Back to "' + state.peek(1).title + '"'|$temp]]</h6>
-    <</if>>\
+    <h6 class='page-back-link'><<click "Back">><<prevPassage 0>><</click>></h6>\
 <</widget>>\
 
 

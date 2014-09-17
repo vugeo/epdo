@@ -138,8 +138,8 @@
 <<script>>
     /* if (IScroll.utils.isBadAndroid) {
         $("#passages").css({overflow: "auto", height: "100%"});
-    } */ Since there are many issues with "bad Android" browsers, it's best to throw an error there, so we don't preserve the illusion of functionality.
-    else {
+    }  Since there are many issues with "bad Android" browsers, it's best to throw an error there, so we don't preserve the illusion of functionality. */
+    //else {
         window.customScroll = new IScroll("#content-wrap", {
             mouseWheel: true,
             fadeScrollbars: true,
@@ -151,7 +151,7 @@
             momentum: false,
             keyBindings: true
         });
-    }
+    //}
 <</script>>
 
 <<loadJS "script/snap.min.js">>\

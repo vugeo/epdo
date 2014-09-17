@@ -104,7 +104,7 @@
 
 :: Sidebar Stack [script]
 /* Syntax:
-    <<sidebar-box [optional:text to replace "More"]>>
+    <<sidebar-box [optional:text to replace "In-Depth Information"]>>
         [[Link text|Passage Name]]
         ...
     <</sidebar-box>> */
@@ -123,7 +123,7 @@ macros.add("sidebar-box", {
             // setup the basic elements
             sidebar.className = this.name;
             header.className  = "sidebar-head";
-            header.innerHTML  = this.args.length !== 0 ? this.args[0] : "More";
+            header.innerHTML  = this.args.length !== 0 ? this.args[0] : "In-Depth Information";
             links.className   = "sidebar-links";
             sidebar.appendChild(header);
             sidebar.appendChild(links);

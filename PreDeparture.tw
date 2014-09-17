@@ -1,6 +1,5 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* add prefixes to all CSS!
 * minify iScroll.
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.
@@ -14,6 +13,7 @@
 * Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();) DONE
 * Scrolling doesn't work on iPad on first page until after rotating the screen. Other pages work fine. Fixed by increasing timeout value to 300 in PassageDone: if (typeof customScroll != "undefined") { setTimeout(function () { customScroll.refresh(); customScroll.scrollTo(0, 0); }, 300); DONE
 * Lots of problems with the implementation of the back button on sidebars if the user doesn't get to the sidebar via the standard route. DONE - simplified 
+* DONE add prefixes to all CSS! Use http://pleeease.io/play/, browser string: Opera >=12, Chrome >= 20, Firefox >= 10, iOS > 6.0, Explorer > 10, FirefoxAndroid > 1, ChromeAndroid >= 20, Safari > 5.1 
 * Update URL replacement code on index page to take hash mode into account: https://mail.google.com/mail/u/4/#inbox/146a53697f731793 DONE, I think
 
 

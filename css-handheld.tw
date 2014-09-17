@@ -33,8 +33,6 @@
   }
   .sidebar-head {
     display: inline-block!important;
-    -webkit-border-radius: 5px 5px 0 0!important;
-    -moz-border-radius: 5px 5px 0 0!important;
     border-radius: 5px 5px 0 0!important;
     min-width:4em;
     width: auto!important;
@@ -50,7 +48,7 @@
   }
   .sprite {
     zoom:0.64;
-    -moz-transform:scale(0.64);
+    -moz-transform: scale(0.64);
     -moz-transform-origin: 0 0;
   }
 }

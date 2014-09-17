@@ -147,7 +147,7 @@
         setTimeout(function () {
             customScroll.refresh();
             customScroll.scrollTo(0, 0);// Android in particular doesn't rescroll properly
-        }, 1);
+        }, 300);
     }
 <</script>>
 <<if state.active.title eq "Index">>

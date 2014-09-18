@@ -161,8 +161,6 @@ window.activateHelp = function() {
 			}
 		}
 		
-		
-		
 		// Show help box and highlight target
 		setTimeout(function() {
 			$helpBox.addClass("help-box-show");
@@ -227,12 +225,6 @@ window.activateHelp = function() {
 			deactivateHelp();
 		});
 	}
-	
-	/*$( "*", document.body ).click(function( event ) {
-		var offset = $(this).offset();
-		event.stopPropagation();
-		alert(this.tagName + " coords ( " + offset.left + ", " + offset.top + " )" );
-	});*/
 }
 
 window.addEventListener("orientationchange", function() {

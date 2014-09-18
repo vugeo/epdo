@@ -67,7 +67,9 @@
     $(progress).html("<div id='progress-meter'><span id='pb-complete'></span><span id='pb-position'></span></div>");
     $(right_drawer).append("<div id='nav-control' class='drawer-section'><p class='menu-legend'>Use this menu to quickly navigate to any page or module that you have already read. More items will be added to the menu as you progress through the training.</p><div id='nav-container'></div></div><div id='drawer-help' class='drawer-section'><p class='menu-legend'>Not sure what all the bells and whistles do? Take the quick tour.</p><p><button id='drawer-help-link'>Quick Tour</button></p></div><div id='drawer-download' class='drawer-section'><p class='menu-legend'>Download this training website as a PDF file.</p><p><button id='drawer-download-link' href='#''>Download PDF</button></p></div>");
     $("#drawer-help-link").click(function() {
-        ga('send', 'event', 'help', 'tour', 'launched tour from drawer');
+        if (typeof ga != "undefined") {
+            ga('send', 'event', 'help', 'tour', 'launched tour from drawer');
+        }
         activateHelp();
     });
     /**** Sound interface **** $(right_drawer).append("<div id='nav-control' class='drawer-section'><h4>Navigation</h4><p class='menu-legend'>Use this menu to quickly navigate to any section you have already read.</p><div id='nav-container'></div></div>"); ****/
@@ -172,7 +174,9 @@ $("#menu-button").on("click", function() {
         snapper.close();
     } else {
         snapper.open('right');
-        ga('send', 'event', 'help', 'opened', 'opened help drawer');
+        if (typeof ga != "undefined") {
+            ga('send', 'event', 'help', 'opened', 'opened help drawer');
+        }
     }
 });
 

@@ -1,6 +1,5 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Embed Jotform on page, instead of via iFrame.
 * minify iScroll.
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.
@@ -8,7 +7,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<link rel="apple-touch-icon" href="icon.png" /> (icon for users' desktop if saved as webapp)
 	http://davidbcalhoun.com/2010/using-mobile-specific-html-css-javascript/
-* Doesn't work in Safari 5.1--something breaks. It may just be that the Dropbox favicon is not found by Safari; everything loads, but the script is stopped before the first passage is displayed. Display any other passage (e.g., via the Index) and it works fine. See what happens once uploaded to the final location.
+* Safari 5.1: Sometimes(?) the menu help tooltip stays onscreen when the following tip is shown. This may have been fixed, though.
 * Console shim in IE 9 seems to *almost* totally fix things--I got a random error that affected nothing substantive about console being undefined.
 * Remove all console.log references (needed for IE9)
 * Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();) DONE

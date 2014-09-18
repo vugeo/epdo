@@ -87,7 +87,9 @@
         $("a.passage-list, a.index-passage").off().click(function(){
             var passage = $(this).attr("data");
             if (passage !== state.active.title) {
-                ga('send', 'event', 'help', 'index', 'navigated to ' + passage + ' using index');
+                if (typeof ga != "undefined") {
+                    ga('send', 'event', 'help', 'index', 'navigated to ' + passage + ' using index');
+                }
                 state.display(passage);
                 snapper.close();
             }

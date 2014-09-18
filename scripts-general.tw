@@ -5,7 +5,9 @@
     /%<<if tale.get(state.active.title).tags.indexOf("nosave") eq -1 >> %/\
         <<script>>
             var passage = state.active.variables.args[0];
-            ga('send', 'pageview', {'page': "/" + encodeURIComponent(state.active.title), 'title': state.active.title});
+            if (typeof ga != "undefined") {
+                ga('send', 'pageview', {'page': "/" + encodeURIComponent(state.active.title), 'title': state.active.title});
+            }
             var el = document.createElement("a");
             if (passage !== null) {
                 $(el).attr("data-passage", passage)

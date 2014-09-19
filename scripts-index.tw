@@ -49,13 +49,13 @@
                 var backgrounds = state.active.variables.backgrounds;
                 var bookmarks = state.active.variables.bookmarks;
                 state.active.variables.tags = Object.getOwnPropertyNames(backgrounds);
-                console.log(backgrounds);
+                //console.log(backgrounds);
                 var sectionName = "";
                 var tagName = "";
                 var url = "";
                 var text = '';
                 var num = -1;
-                console.log("Tags: " + state.active.variables.tags);
+                //console.log("Tags: " + state.active.variables.tags);
                 for(var i in backgrounds) {
 					if (backgrounds.hasOwnProperty(i)) {
 						num++;
@@ -64,7 +64,7 @@
 						$("#store-area div").each(function() {
 							if ($(this).attr("tags").indexOf(i) > -1) {
 								var passageName = $(this).attr("tiddler");
-								console.log("Found passage: " + passageName);
+								//console.log("Found passage: " + passageName);
 								if (!index.hasOwnProperty(passageName)) {
 									index[passageName] = {};
 									index[passageName].tag = tagName;
@@ -82,10 +82,10 @@
 						});
 					}
 				}
-                console.log("Backgrounds");
-                console.log(backgrounds);
-                console.log("Bookmarks");
-                console.log(bookmarks);
+                //console.log("Backgrounds");
+                //console.log(backgrounds);
+                //console.log("Bookmarks");
+                //console.log(bookmarks);
 
                 //Build the full index by "reading" the full presentation in order
                 var fullindex = state.active.variables.fullindex;
@@ -102,19 +102,19 @@
                                         lastTag = tagName;
                                         fullindex.push({});
                                     }
-                                    console.log("fullindex.length = "+fullindex.length+ ", count: "+ count);
+                                    //console.log("fullindex.length = "+fullindex.length+ ", count: "+ count);
                                     if (fullindex.length < count + 2) {
-                                        console.log("Looking to add " + $(this).attr("tiddler") + " to fullindex");
+                                        //console.log("Looking to add " + $(this).attr("tiddler") + " to fullindex");
                                         if (!fullindex[count].hasOwnProperty("section")) {
-                                            console.log("   Looking to add section.");
+                                            //console.log("   Looking to add section.");
                                             fullindex[count].section = backgrounds[tagName].section;
                                         }
                                         if (!fullindex[count].hasOwnProperty("passages")) {
-                                            console.log("   Looking to add passages.");
+                                            //console.log("   Looking to add passages.");
                                             fullindex[count].passages = [];
                                         }
                                         var passageStore = { passage: $(this).attr("tiddler") };
-                                        console.log("   Looking to add sidebars.");
+                                        //console.log("   Looking to add sidebars.");
                                         var sidebars = $(this).text().match(/&lt;&lt;\s*sidebar-box(?:\s*.*?)&gt;&gt;([\s\S]*?)&lt;&lt;\s*\/sidebar\-box\s*&gt;&gt;/g);
                                         if (sidebars !== null) {
                                             var sidebarStore = [];
@@ -123,7 +123,7 @@
                                                 sidebarStore.push(seek[1]);
                                             }
                                             passageStore.sidebars = sidebarStore;
-                                            console.log("   Found sidebars: " + sidebarStore.length);
+                                            //console.log("   Found sidebars: " + sidebarStore.length);
                                         }
                                         fullindex[count].passages.push(passageStore);
                                     }
@@ -142,7 +142,7 @@
                     
                 }
             
-            console.log(fullindex);
+            //console.log(fullindex);
 
             //In the $index, number each passage so that we can quickly
             //identify where we are for the progress meter.
@@ -154,15 +154,15 @@
                         index[group.passage].enumeration = count;
                         if (group.hasOwnProperty("sidebars")) {
                             $.each(group.sidebars, function(k, sides) {
-                                console.log("Enumerating " + sides);
+                                //console.log("Enumerating " + sides);
                                 index[sides].enumeration = count;
                             })
                         }
                     });
                 }
             });
-            console.log("Index");
-            console.log(index);
+            //console.log("Index");
+            //console.log(index);
             
             state.active.variables.totalPassages = count;
 

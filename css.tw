@@ -80,24 +80,30 @@ body {
 }
 @media print {
   body {
-    width:100%;
+    width: 100%;
     overflow: visible;
     position: relative;
     height: auto;
   }
   #body-wrap {
-    width:100%;
+    width: 100%;
     overflow: visible;
     position: relative;
     height: auto;
   }
   #content-wrap {
-    overflow:visible;
+    overflow: visible;
     position: relative;
     height: auto;
   }
   #drawers-wrap {
-    display:none;
+    display: none;
+  }
+  #browsers {
+    display: none;
+  }
+  #JotFormIFrame {
+    display: none;
   }
 }
 

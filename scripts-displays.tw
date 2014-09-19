@@ -56,7 +56,7 @@ macros.add("displayAll", {
             $.each(fullindex, function(i, part){
                 elem = insertElement(el, "h1", null, "full-print");
                 new Wikifier(elem, fullindex[i].section);//Insert section name
-                console.log("h1: " + fullindex[i].section);
+                //console.log("h1: " + fullindex[i].section);
                 if (part.passages.length > 0) {
                     $.each(part.passages, function(j, group) {
                         if (group.hasOwnProperty("passage")) {
@@ -65,13 +65,13 @@ macros.add("displayAll", {
                                 elem = insertElement(el, "div", pass.domID, "full-print");
                                 elem.setAttribute("data-passage", pass.title);
                                 new Wikifier(elem, pass.processText());
-                                console.log("   " + pass.title);
+                                //console.log("   " + pass.title);
                             }
                         }
                          if (group.hasOwnProperty("sidebars")) {
                             group.sidebars.forEach (function (side) {
-                                console.log("state:");
-                                console.log(state);
+                                //console.log("state:");
+                                //console.log(state);
                                 pass = tale.get(side);
                                 if (pass.tags.indexOf("nogather") === -1) {
                                     elem = insertElement(el, "div", pass.domID, "full-print");

@@ -198,7 +198,7 @@ Tiddler
 p72
 (dp73
 g19
-V<<sidebar "Vanderbilt policy on alcohol abroad">>\u000aVanderbilt does not really treat alcohol use abroad any differently than it does on campus. You still need to abide by the legal drinking age of the country you're in. In all of the countries where Vanderbilt has approved study abroad programs, the drinking age is lower than it is here in Nashville, so you may find that your legal status is different. Remember that violations of law or of institutional policy overseas may also become grounds for disciplinary action both at Vanderbilt and under the rules of your abroad program.\u000a\u000aAt the same time that you are considering the legal implications of drinking, be mindful of cultural norms surrounding alcohol use in your host country. In many countries, for example, American-style "binge drinking" may appear pathological or merely pathetic. Take the opportunity to see cultural practices in a new light. \u000a\u000a|box|k\u000a|!The Student Handbook says:|\u000a|Students are required to abide by the laws of the respective countries in which they reside, study, or travel, with respect to the age at which alcoholic beverages may be consumed. Otherwise, the policies with respect to [[alcoholic beverages and controlled substances|http://www.vanderbilt.edu/student_handbook/alcohol/]] included in the Vanderbilt //Student Handbook// apply. Students are subject to student-accountability sanctions, including expulsion, and referral for prosecution for violation of these policies.|\u000a|<hr>//From// [[VU Student Handbook, Study Abroad|http://www.vanderbilt.edu/student_handbook/university-policies-regulations/#study-abroad]]|\u000a\u000a<<segue "Grades and credits">>\u005c
+V<<sidebar "Vanderbilt policy on alcohol abroad">>\u000aVanderbilt does not really treat alcohol use abroad any differently than it does on campus. You still need to abide by the legal drinking age of the country you're in. In all of the countries where Vanderbilt has approved study abroad programs, the drinking age is lower than it is here in Nashville, so you may find that your legal status is different. Remember that violations of law or of institutional policy overseas may also become grounds for disciplinary action both at Vanderbilt and under the rules of your abroad program.\u000a\u000aAt the same time that you are considering the legal implications of drinking, be mindful of cultural norms surrounding alcohol use in your host country. In many countries, for example, American-style "binge drinking" may appear pathological or merely pathetic. Take the opportunity to see cultural practices in a new light. \u000a\u000a|box|k\u000a|!The Student Handbook says:|\u000a|Students are required to abide by the laws of the respective countries in which they reside, study, or travel, with respect to the age at which alcoholic beverages may be consumed. Otherwise, the policies with respect to [[alcoholic beverages and controlled substances|http://www.vanderbilt.edu/student_handbook/alcohol/]] included in the Vanderbilt //Student Handbook// apply. Students are subject to student-accountability sanctions, including expulsion, and referral for prosecution for violation of these policies.|\u000a|<hr>//From// [[VU Student Handbook, Study Abroad|http://www.vanderbilt.edu/student_handbook/university-policies-and-regulations/#study-abroad]]|\u000a\u000a<<segue "Grades and credits">>\u005c
 p74
 sg21
 VAlcohol Policy
@@ -206,13 +206,13 @@ p75
 sg23
 g24
 ((I2014
-I7
-I22
+I9
+I19
 I15
-I44
-I42
-I1
-I203
+I21
+I43
+I4
+I262
 I1
 tp76
 (dp77
@@ -261,12 +261,12 @@ sg23
 g24
 ((I2014
 I9
-I16
-I14
-I34
-I1
-I1
-I259
+I19
+I15
+I17
+I24
+I4
+I262
 I1
 tp93
 (dp94
@@ -1995,14 +1995,14 @@ I00
 sg13
 (lp633
 F1615.0000000000034
-aF611.6666666666661
+aF610.1124644742179
 asg15
 (itiddlywiki
 Tiddler
 p634
 (dp635
 g19
-V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training! Note that it may take a few days before your registration is reflected in your GEO account. Please fill out the form below to register. if you have trouble submitting the form, you can [[fill it out here instead|https://secure.jotformpro.com/form/41326113066949]].\u000a\u000a<html><iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://secure.jotformpro.com/form/41326113066949" frameborder="0" style="margin: 0 auto; width:352px; height:487px; display:block; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script></html>\u005c\u000a\u000a<<segue "Credits">>
+V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training! Note that it may take a few days before your registration is reflected in your GEO account. Please fill out the form below to register. if you have trouble submitting the form, you can [[fill it out here instead|https://secure.jotformpro.com/form/41326113066949]].\u000a\u000a<html><iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://secure.jotformpro.com/form/41326113066949" frameborder="0" style="margin: 0 auto; width:352px; height:487px; display:block; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script></html>\u005c\u000a<<segue "Credits">>
 p636
 sg21
 VWhat to do next
@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2014
 I9
-I18
-I15
-I56
-I18
-I3
-I261
+I19
+I11
+I24
+I0
+I4
+I262
 I1
 tp638
 (dp639
@@ -2117,12 +2117,12 @@ sg23
 g24
 ((I2014
 I9
-I18
-I16
-I45
-I15
-I3
-I261
+I19
+I13
+I24
+I7
+I4
+I262
 I1
 tp671
 (dp672
@@ -2158,7 +2158,7 @@ Tiddler
 p682
 (dp683
 g19
-V<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information, information that you will need to know to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the Quick Tour now for a very brief introduction to the Training interface. It will very quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides more detailed information on a topic or topics. Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aWhen you're ready to move on, hit the big blue Continue button at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|#]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
+V<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information, information that you will need to know to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the Quick Tour now for a very brief introduction to the Training interface. It will very quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides more detailed information on a topic or topics. Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aWhen you're ready to move on, hit the big blue Continue button at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
 p684
 sg21
 VAbout the Presentation
@@ -2167,12 +2167,12 @@ sg23
 g24
 ((I2014
 I9
-I18
-I14
-I40
-I23
-I3
-I261
+I19
+I11
+I24
+I35
+I4
+I262
 I1
 tp686
 (dp687
@@ -2212,7 +2212,7 @@ Tiddler
 p699
 (dp700
 g19
-V<<if \u000a    SaveSystem.autosaveOK \u000a    && storage.getItem("saves").autosave !== null \u000a>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a\u000aYou have a session already in progress. Continue where you left off? \u000a<<script>> \u000a    var resumeBtn = insertElement( \u000a        output, \u000a        "button", \u000a        "resume-button", \u000a        "ui-autostart-button", \u000a        "Resume where I left off" \u000a    ); \u000a    var restartBtn = insertElement( \u000a        output, \u000a        "button", \u000a        "restart-button", \u000a        "ui-autostart-button", \u000a        "Start over" \u000a    ); \u000a    $(resumeBtn).click(function() {\u000a        SaveSystem.loadAuto();\u000a    }); \u000a    $(restartBtn).click(function() { \u000a        SaveSystem.deleteAuto();\u000a        state.display(state.active.variables.first);\u000a    });\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		state.display(state.active.variables.first);\u000a	<</script>>\u005c\u000a<</if>>\u005c
+V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a\u000aYou have a session already in progress. Continue where you left off? \u000a<<script>> \u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button",\u000a		"Resume where I left off"\u000a	);\u000a	insertText(output, " ");\u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start over"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		SaveSystem.deleteAuto();\u000a		state.display(state.active.variables.first);\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>\u005c
 p701
 sg21
 VStart
@@ -2221,12 +2221,12 @@ sg23
 g24
 ((I2014
 I9
-I18
-I16
-I31
-I37
-I3
-I261
+I19
+I9
+I9
+I26
+I4
+I262
 I1
 tp703
 (dp704
@@ -2734,7 +2734,7 @@ Tiddler
 p860
 (dp861
 g19
-V!Identity and diversity\u000a!!!!Research beliefs, attitudes, and experiences\u000aOur surroundings shape us and help to define who we are. Living in another cultural context will give you the chance to explore many facets of your identity, and to do so in light of new surroundings. Students overwhelmingly tell us that this process leads to increased personal growth and insight. However, it often carries difficulties too.\u000a\u000aAs you gear up for your time abroad, prepare yourself for how people in your new culture will perceive you. Just as in the US, people abroad will have beliefs, myths, stereotypes, and prejudices about aspects of personal identity. You may also find that the way(s) in which you identify yourself in the US differ from how others will identify you abroad.\u000a\u000a|box|k\u000a|!You might be surprised to learn...|\u000a|No matter what their background, the components of identity that most impact the experience of students abroad are ''nationality'' and ''gender''.|\u000a\u000aResearch the viewpoints held by people of your host country, including beliefs, laws, and customs that revolve around nationality, race and ethnicity, gender, religion, sexual orientation, age, mobility, and more. You may be able to prevent or at least alleviate cultural misunderstandings by learning as much as you can about your host culture before leaving. But also prepare for how your time abroad might change, challenge, and strengthen your identity. \u000a\u000a<<sidebar-box "More Specific Topics">>\u000a   [[Being American abroad|Being American abroad]]\u000a   [[Gender roles abroad|Gender roles abroad]]\u000a   [[Race and ethnicity abroad|Race and ethnicity abroad]]\u000a   [[Sexual and gender identity abroad|Sexual and gender identity abroad]]\u000a   [[Religious identity abroad|Religious identity abroad]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Contacts and communications">>\u005c
+V!Identity and diversity\u000a!!!!Research beliefs, attitudes, and experiences\u000aOur surroundings shape us and help to define who we are. Living in another cultural context will give you the chance to explore many facets of your identity, and to do so in light of new surroundings. Students overwhelmingly tell us that this process leads to increased personal growth and insight. However, it often carries difficulties too.\u000a\u000aAs you gear up for your time abroad, prepare yourself for how people in your new culture will perceive you. Just as in the US, people abroad will have beliefs, myths, stereotypes, and prejudices about aspects of personal identity. You may also find that the way(s) in which you identify yourself in the US differ from how others will identify you abroad.\u000a\u000a|box|k\u000a|!You might be surprised to learn...|\u000a|No matter what their background, the components of identity that most impact the experience of students abroad are ''nationality'' and ''gender''.|\u000a\u000aResearch the viewpoints held by people of your host country, including beliefs, laws, and customs that revolve around nationality, race and ethnicity, gender, religion, sexual orientation, age, mobility, and more. You may be able to prevent or at least alleviate cultural misunderstandings by learning as much as you can about your host culture before leaving. But also prepare for how your time abroad might change, challenge, and strengthen your identity. \u000a\u000a<<sidebar-box>>\u000a   [[Being American abroad|Being American abroad]]\u000a   [[Gender roles abroad|Gender roles abroad]]\u000a   [[Race and ethnicity abroad|Race and ethnicity abroad]]\u000a   [[Sexual and gender identity abroad|Sexual and gender identity abroad]]\u000a   [[Religious identity abroad|Religious identity abroad]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Contacts and communications">>\u005c
 p862
 sg21
 VIdentity and diversity
@@ -2743,12 +2743,12 @@ sg23
 g24
 ((I2014
 I9
-I17
-I11
-I47
-I49
-I2
-I260
+I19
+I10
+I39
+I43
+I4
+I262
 I1
 tp864
 (dp865
@@ -3811,12 +3811,12 @@ sg23
 g24
 ((I2014
 I9
-I18
-I14
-I35
-I1
-I3
-I261
+I19
+I10
+I47
+I42
+I4
+I262
 I1
 tp1198
 (dp1199
@@ -3916,13 +3916,13 @@ p1230
 sg23
 g24
 ((I2014
-I8
+I9
 I19
-I16
-I56
-I19
-I1
-I231
+I10
+I33
+I34
+I4
+I262
 I1
 tp1231
 (dp1232
@@ -3958,7 +3958,7 @@ Tiddler
 p1242
 (dp1243
 g19
-V<<sidebar "In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can either tap on the back button to go back to the previous page, or press the big Continue button to go on to the presentation's next page.\u000a\u000a<<segue "What you will get out of study abroad">>\u005c
+V<<sidebar "In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can either tap on the "Back" link below to go back and finish reading the previous page, or press the big "Continue" button to go on to the next page of the Survival Guide.\u000a\u000a<<segue "What you will get out of study abroad">>\u005c
 p1244
 sg21
 VSample
@@ -3967,12 +3967,12 @@ sg23
 g24
 ((I2014
 I9
+I19
+I15
 I16
-I12
-I55
-I3
-I1
-I259
+I58
+I4
+I262
 I1
 tp1246
 (dp1247

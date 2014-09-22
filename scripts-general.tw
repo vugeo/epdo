@@ -13,7 +13,7 @@
                     var section = state.active.variables.backgrounds[currentPassage.tag].enumeration - 1;
                     //console.log("Section: " + section);
                     var full = state.active.variables.fullindex[section];
-                   //console.log(full);
+                    //console.log(full);
                     var target = [];
                     if (full) {
                     //console.log("Found this section in the full index!");
@@ -24,7 +24,7 @@
                                 $.each(pass.sidebars, function(k, side) {
                                 //console.log("Checking side " + k);
                                 //console.log(side);
-                                    if (side = currentTitle) {
+                                    if (side === currentTitle) {
                                         //We found our sidebar!
                                         //console.log("We found our sidebar!");
                                         if (pass.sidebars.length > 1) {
@@ -33,15 +33,15 @@
                                             //console.log(pass.sidebars);
                                             target = pass.sidebars.slice(0); //clone sidebar list
                                             //console.log(target);
-                                            var loc = target.indexOf(currentTitle);
-                                            if (loc > -1) { target.splice(loc, 1) }
+                                            //var loc = target.indexOf(currentTitle);
+                                            //if (loc > -1) { target.splice(loc, 1) }
                                             return false;
                                         }
                                     }
                                 });
                             }
                             //Avoid unnecessary further iterations
-                            if (target.length) { return false; }
+                            if (target.length > 0) { return false; }
                         });
                         if (target.length) {
                             var   sidebar = document.createElement("div")
@@ -58,7 +58,15 @@
                             // create links
                             $.each(target, function(i, link) {
                                 var linkEl = document.createElement("li");
-                                new Wikifier(linkEl, "[[" + link + "|" + link + "]]");
+                                if (link === currentTitle) {
+                                    // Create 'inactive link' for current page
+                                    linkEl.className = "sidebar-link-inactive";
+                                    linkEl.setAttribute('title', 'You are currently reading "' + link + '." Select one of the other red links here to read a different In-Depth Information section, or hit the Continue button below to move on.');
+                                    linkEl.innerHTML = link;
+                                }
+                                else {
+                                    new Wikifier(linkEl, "[[" + link + "|" + link + "]]");
+                                }
                                 links.appendChild(linkEl);
                             });
                             // append the sidebar to the output buffer

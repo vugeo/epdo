@@ -956,9 +956,16 @@ ul.sidebar-links {
 margin:9px 0;
 }
 
-.sidebar-links a, sidebar-link a:hover {
+.sidebar-links a, .sidebar-link a:hover {
   text-decoration:underline;
   color:#dd3b2a;
+}
+
+.sidebar-link-inactive {
+  color: #DB9891;
+  font-size: 90%;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 

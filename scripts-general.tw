@@ -2,8 +2,72 @@
 /% Syntax:
     <<segue [passage name]>>  %/\
 <<widget "segue">>\
-    /%<<if tale.get(state.active.title).tags.indexOf("nosave") eq -1 >> %/\
         <<script>>
+            if (tags().contains("sidebar")) {
+                // For sidebars, we check to see whether it makes sense to provide
+                // a "See also" box listing its sibling sidebars
+                var currentTitle = state.active.title;
+                var currentPassage = state.active.variables.index[currentTitle];
+                if (currentPassage) {
+                    //console.log("Found this sidebar in the index...");
+                    var section = state.active.variables.backgrounds[currentPassage.tag].enumeration - 1;
+                    //console.log("Section: " + section);
+                    var full = state.active.variables.fullindex[section];
+                   //console.log(full);
+                    var target = [];
+                    if (full) {
+                    //console.log("Found this section in the full index!");
+                        $.each(full.passages, function(j, pass) {
+                            //console.log("Checking pass " + j);
+                            //console.log(pass);
+                            if (pass.hasOwnProperty("sidebars")) {
+                                $.each(pass.sidebars, function(k, side) {
+                                //console.log("Checking side " + k);
+                                //console.log(side);
+                                    if (side = currentTitle) {
+                                        //We found our sidebar!
+                                        //console.log("We found our sidebar!");
+                                        if (pass.sidebars.length > 1) {
+                                            //And this sidebar has at least one sibling!
+                                            //console.log("To be cloned: ");
+                                            //console.log(pass.sidebars);
+                                            target = pass.sidebars.slice(0); //clone sidebar list
+                                            //console.log(target);
+                                            var loc = target.indexOf(currentTitle);
+                                            if (loc > -1) { target.splice(loc, 1) }
+                                            return false;
+                                        }
+                                    }
+                                });
+                            }
+                            //Avoid unnecessary further iterations
+                            if (target.length) { return false; }
+                        });
+                        if (target.length) {
+                            var   sidebar = document.createElement("div")
+                                , header  = document.createElement("div")
+                                , links   = document.createElement("ul");
+
+                            // setup the basic elements
+                            sidebar.className = "sidebar-box";
+                            header.className  = "sidebar-head";
+                            header.innerHTML  = "See Also";
+                            links.className   = "sidebar-links";
+                            sidebar.appendChild(header);
+                            sidebar.appendChild(links);
+                            // create links
+                            $.each(target, function(i, link) {
+                                var linkEl = document.createElement("li");
+                                new Wikifier(linkEl, "[[" + link + "|" + link + "]]");
+                                links.appendChild(linkEl);
+                            });
+                            // append the sidebar to the output buffer
+                            this.output.appendChild(sidebar);
+                            this.output.appendChild(document.createElement("br"));
+                        }
+                    }               
+                }
+            }
             var passage = state.active.variables.args[0];
             if (typeof ga != "undefined") {
                 ga('send', 'pageview', {'page': "/" + encodeURIComponent(state.active.title), 'title': state.active.title});
@@ -22,9 +86,9 @@
         <</script>>
         <<if $index[state.active.title].enumeration gt 1 || ($index[state.active.title].enumeration lt 2 && tags().contains("sidebar")) >>\
             <<if tags().contains("sidebar") >>\
-                &nbsp; &nbsp;<h6 class='page-back-link'><<click "Back">><<prevPassage 0>><</click>></h6>\            
+                &nbsp; &nbsp;<h6 class='page-back-link main'><<click "Back">><<prevPassage 0>><</click>></h6>\            
             <<else>>\
-                &nbsp; &nbsp;<h6 class='page-back-link'><<click "Previous">><<prevPassage>><</click>></h6>\                
+                &nbsp; &nbsp;<h6 class='page-back-link main'><<click "Previous">><<prevPassage>><</click>></h6>\                
             <</if>>\
         <</if>>\
     /% <</if>> %/\

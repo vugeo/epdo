@@ -937,6 +937,10 @@ display:table;
 margin:0;
 }
 
+#passages.sidebar ul.sidebar-links {
+  background-color: #FAF3E8;
+}
+
 ul.sidebar-links {
   border:1px solid #dd3b2a;
   border-radius:0 5px 5px 0;

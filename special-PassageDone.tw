@@ -13,7 +13,6 @@
     var bookmarks = state.active.variables.bookmarks;
     var fullindex = state.active.variables.fullindex;
     var currentTag = passageTags.indexOf(currentPassage.tag);
-    
     var totalPassages = state.active.variables.totalPassages;
     //console.log("current tag: " + currentTag + ", no. " + currentPassage.tag);
 

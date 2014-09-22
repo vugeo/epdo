@@ -58,7 +58,7 @@ window.Help = {
 		},
 		help6: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Back Button</h1><p>Click here to go back to the previous page.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
-			element: ".page-back-link",
+			element: ".page-back-link.main",
 			scroll: true,
 			parent: "#passages",
 			addedClass: "help-box-callout-alt"

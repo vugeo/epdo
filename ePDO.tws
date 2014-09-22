@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005cepdo.html
+VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005ctest.html
 p2
 sS'saveDestination'
 p3
@@ -2201,7 +2201,7 @@ tp695
 Rp696
 sbsa(dp697
 g12
-I00
+I01
 sg13
 (lp698
 F1192.9959399106758
@@ -2212,7 +2212,7 @@ Tiddler
 p699
 (dp700
 g19
-V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a\u000aYou have a session already in progress. Do you want to resume where you left off?\u000a<<script>> \u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start Over"\u000a	);\u000a	insertText(output, " ");\u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button default",\u000a		"Resume"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		var ret = confirm("Are you sure you want to start over? Your progress will be erased.");\u000a		if (ret === true) {\u000a			SaveSystem.deleteAuto();\u000a			state.display(state.active.variables.first);\u000a		}\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>\u005c
+V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a\u000aYou have a session already in progress. Do you want to resume where you left off?\u000a<<script>> \u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start Over"\u000a	);\u000a	insertText(output, " ");\u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button default",\u000a		"Resume"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		var ret = confirm("Are you sure you want to start over? Your progress will be erased.");\u000a		if (ret === true) {\u000a			SaveSystem.deleteAuto();\u000a			state.display(state.active.variables.first);\u000a		}\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>\u000a<div style="margin-top:100px;"><a href="http://vanderbilt.edu/" target="_blank"><img style="position:relative; height:70px;" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img style="position:relative; height:99px; top:13px;" src="images/GEO.4c.web.png" /></a></div>
 p701
 sg21
 VStart
@@ -2222,9 +2222,9 @@ g24
 ((I2014
 I9
 I22
-I15
-I27
-I27
+I17
+I5
+I18
 I0
 I265
 I1

@@ -81,7 +81,7 @@
                 ga('send', 'pageview', {'page': "/" + encodeURIComponent(state.active.title), 'title': state.active.title});
             }
             var el = document.createElement("a");
-            if (passage !== null) {
+            if (passage !== null && !tags().contains("sidebar")) {
                 $(el).attr("data-passage", passage)
                     .addClass("continue-link")
                     .addClass(tale.has(passage) ? "link-internal" : "link-broken")
@@ -89,12 +89,12 @@
                     .click(function () {
                         state.display(passage, el);
                     });
-            }
-            this.output.appendChild(el);
-        <</script>>
+                this.output.appendChild(el);
+            } 
+        <</script>>\
         <<if $index[state.active.title].enumeration gt 1 || ($index[state.active.title].enumeration lt 2 && tags().contains("sidebar")) >>\
             <<if tags().contains("sidebar") >>\
-                &nbsp; &nbsp;<h6 class='page-back-link main'><<click "Back">><<prevPassage 0>><</click>></h6>\            
+                /%&nbsp; &nbsp;%/<h6 class='page-back-link main'><<click "Back">><<prevPassage 0>><</click>></h6>\            
             <<else>>\
                 &nbsp; &nbsp;<h6 class='page-back-link main'><<click "Previous">><<prevPassage>><</click>></h6>\                
             <</if>>\

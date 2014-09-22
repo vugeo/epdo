@@ -1048,21 +1048,21 @@ Tiddler
 p337
 (dp338
 g19
-V<<sidebar "When should I contact GEO?">>\u000aMost of the time, your most appropriate contact abroad will be your Resident Director, or if you are an exchange student, an advisor in your host university's international office. But there may also be times when it makes more sense to phone home to Vanderbilt and GEO. See the chart for things that GEO is well prepared to help you with!\u000a\u000a|box|k\u000a|!What GEO Can Help You With|\u000a|You are uncomfortable discussing an issue with your on-site staff|\u000a|Questions about specific Vanderbilt policies|\u000a|Questions about billing|\u000a|Questions about your transcript|\u000a|You want to remain abroad for another term|\u000a|You're just not sure who to talk to!|\u000a\u000a<<segue "Communicating with home">>
+V<<sidebar "When to contact GEO">>\u000aMost of the time, your most appropriate contact abroad will be your Resident Director, or if you are an exchange student, an advisor in your host university's international office. But there may also be times when it makes more sense to phone home to Vanderbilt and GEO. See the chart for things that GEO is well prepared to help you with!\u000a\u000a|box|k\u000a|!What GEO Can Help You With|\u000a|You are uncomfortable discussing an issue with your on-site staff|\u000a|Questions about specific Vanderbilt policies|\u000a|Questions about billing|\u000a|Questions about your transcript|\u000a|You want to remain abroad for another term|\u000a|You're just not sure who to talk to!|\u000a\u000a<<segue "Communicating with home">>
 p339
 sg21
-VWhen should I contact GEO
+VWhen to contact GEO
 p340
 sg23
 g24
 ((I2014
 I9
+I22
 I15
-I14
-I28
-I8
+I17
+I58
 I0
-I258
+I265
 I1
 tp341
 (dp342
@@ -1102,7 +1102,7 @@ Tiddler
 p354
 (dp355
 g19
-V!Contacts and communications\u000a!!!!Who should I contact for help abroad?\u000aCommunications abroad can seem difficult at first. You need to learn who your best resources are, as well as figure out the most convenient methods of communication within your host country and back home.\u000a\u000aYour ''Resident Director'' will be your most reliable contact person: he or she is knowledgeable about the program, the host country, and the city--and he/she is //right there!// Whether you have a basic question, a scheduling conundrum, or you are in the midst of an emergency, your Resident Director and on-site staff should be the ''first people you contact.'' You will find out more about who your contact(s) should be in your program-specific predeparture orientation.\u000a\u000a''Remember this:'' Problems will be resolved faster if you work with someone who is on the ground with you rather than contacting someone back home who is a few time zones and thousands of miles away.\u000a\u000a<<sidebar-box "Hm...">>\u000a   [[When should I contact Vanderbilt's Global Education Office?|When should I contact GEO]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Communicating with home">>
+V!Contacts and communications\u000a!!!!Who should I contact for help abroad?\u000aCommunications abroad can seem difficult at first. You need to learn who your best resources are, as well as figure out the most convenient methods of communication within your host country and back home.\u000a\u000aYour ''Resident Director'' will be your most reliable contact person: he or she is knowledgeable about the program, the host country, and the city--and he/she is //right there!// Whether you have a basic question, a scheduling conundrum, or you are in the midst of an emergency, your Resident Director and on-site staff should be the ''first people you contact.'' You will find out more about who your contact(s) should be in your program-specific predeparture orientation.\u000a\u000a''Remember this:'' Problems will be resolved faster if you work with someone who is on the ground with you rather than contacting someone back home who is a few time zones and thousands of miles away.\u000a\u000a<<sidebar-box "Hm...">>\u000a   [[When should I contact Vanderbilt's Global Education Office?|When to contact GEO]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Communicating with home">>
 p356
 sg21
 VContacts and communications
@@ -1110,13 +1110,13 @@ p357
 sg23
 g24
 ((I2014
-I7
-I23
-I16
-I16
-I56
-I2
-I204
+I9
+I22
+I15
+I18
+I5
+I0
+I265
 I1
 tp358
 (dp359
@@ -2212,7 +2212,7 @@ Tiddler
 p699
 (dp700
 g19
-V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a\u000aYou have a session already in progress. Do you want to resume where you left off?\u000a\u000a<<script>> \u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start Over"\u000a	);\u000a	insertText(output, " ");\u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button default",\u000a		"Resume"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		var ret = confirm("Are you sure you want to start over? Your progress will be erased.");\u000a		if (ret === true) {\u000a			SaveSystem.deleteAuto();\u000a			state.display(state.active.variables.first);\u000a		}\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>\u005c
+V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a\u000aYou have a session already in progress. Do you want to resume where you left off?\u000a<<script>> \u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start Over"\u000a	);\u000a	insertText(output, " ");\u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button default",\u000a		"Resume"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		var ret = confirm("Are you sure you want to start over? Your progress will be erased.");\u000a		if (ret === true) {\u000a			SaveSystem.deleteAuto();\u000a			state.display(state.active.variables.first);\u000a		}\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>\u005c
 p701
 sg21
 VStart
@@ -2223,8 +2223,8 @@ g24
 I9
 I22
 I15
-I11
-I55
+I27
+I27
 I0
 I265
 I1
@@ -3958,7 +3958,7 @@ Tiddler
 p1242
 (dp1243
 g19
-V<<sidebar "In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can either tap on the "Back" link below to go back and finish reading the previous page, or press the big "Continue" button to go on to the next page of the Survival Guide.\u000a\u000a<<segue "What you will get out of study abroad">>\u005c
+V<<sidebar "In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can /%either %/tap on the "Back" link below to go back and finish reading the previous page/%, or press the big "Continue" button to go on to the next page of the Survival Guide%/.\u000a\u000a<<segue "What you will get out of study abroad">>\u005c
 p1244
 sg21
 VSample
@@ -3967,12 +3967,12 @@ sg23
 g24
 ((I2014
 I9
-I19
+I22
 I15
-I16
-I58
-I4
-I262
+I37
+I17
+I0
+I265
 I1
 tp1246
 (dp1247

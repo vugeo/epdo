@@ -61,7 +61,7 @@
                                 if (link === currentTitle) {
                                     // Create 'inactive link' for current page
                                     linkEl.className = "sidebar-link-inactive";
-                                    linkEl.setAttribute('title', 'You are currently reading "' + link + '." Select one of the other red links here to read a different In-Depth Information section, or hit the Continue button below to move on.');
+                                    linkEl.setAttribute('title', 'You are currently reading this section, "' + link + '." Select one of the other red links here to read a different In-Depth Information section, or hit the Continue button below to move on.');
                                     linkEl.innerHTML = link;
                                 }
                                 else {

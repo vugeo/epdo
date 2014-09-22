@@ -266,6 +266,10 @@ h6 {
 }
 
 
+button.default {
+  border: 3px solid #7af;
+}
+
 /* Make link font slightly smaller to compensate for boldface */
 .content a.link-internal,
 .content a.link-external,

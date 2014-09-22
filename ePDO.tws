@@ -146,7 +146,7 @@ Tiddler
 p56
 (dp57
 g19
-V!Vanderbilt conduct policies\u000a!!!!Vanderbilt policies apply abroad as well as on campus\u000a<<if ($vanderbilt eq "true") or ($facultyled eq "true")>>Your ''trip leader or resident director has sole discretion over all discipline decisions''. They will hold you accountable for the standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]], and they may also dictate other rules as needed. Your Vanderbilt trip leader may impose any disciplinary sanction, up to and including dismissal from the program. You also may face further consequences when you return to Vanderbilt.\u000a<<else>>You are subject to your abroad institution's rules, but you //also// need to abide by Vanderbilt's conduct policies. The standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]] remain in effect while you are abroad. Conduct that violates these codes may result in sanctions when you return to Vanderbilt, //even if you already received sanctions from your program abroad.//<</if>>\u000a\u000a''Be sure to read the section in the Student Handbook on'' [[conduct in study abroad programs|http://www.vanderbilt.edu/student_handbook/student-conduct/#conduct-in-study-abroad-programs]].\u000a\u000a<<sidebar-box>>\u000a	[[Is Vanderbilt's alcohol policy different abroad?|Alcohol Policy]]\u000a	[[What should I know about rules surrounding sexual misconduct abroad?|Sexual Misconduct Policy]]\u000a<</sidebar-box>>\u000a<<segue "Grades and credits">>\u005c
+V!Vanderbilt conduct policies\u000a!!!!Vanderbilt policies apply abroad as well as on campus\u000a<<if ($vanderbilt eq "true") or ($facultyled eq "true")>>Your ''trip leader or resident director has sole discretion over all discipline decisions''. They will hold you accountable for the standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]], and they may also dictate other rules as needed. Your Vanderbilt trip leader may impose any disciplinary sanction, up to and including dismissal from the program. You also may face further consequences when you return to Vanderbilt.\u000a<<else>>You are subject to your abroad institution's rules, but you //also// need to abide by Vanderbilt's conduct policies. The standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]] remain in effect while you are abroad. Conduct that violates these codes may result in sanctions when you return to Vanderbilt, //even if you already received sanctions from your program abroad.//<</if>>\u000a\u000a''Be sure to read the section in the Student Handbook on'' [[conduct in study abroad programs|http://www.vanderbilt.edu/student_handbook/student-conduct/#conduct-in-study-abroad-programs]].\u000a\u000a<<sidebar-box>>\u000a	[[Is Vanderbilt's alcohol policy different abroad?|Alcohol policy]]\u000a	[[What should I know about rules surrounding sexual misconduct abroad?|Sexual misconduct policy]]\u000a<</sidebar-box>>\u000a<<segue "Grades and credits">>\u005c
 p58
 sg21
 VVanderbilt conduct policies
@@ -157,8 +157,8 @@ g24
 I9
 I22
 I14
-I18
-I34
+I42
+I11
 I0
 I265
 I1
@@ -201,18 +201,18 @@ g19
 V<<sidebar "Vanderbilt policy on alcohol abroad">>\u000aVanderbilt does not really treat alcohol use abroad any differently than it does on campus. You still need to abide by the legal drinking age of the country you're in. In all of the countries where Vanderbilt has approved study abroad programs, the drinking age is lower than it is here in Nashville, so you may find that your legal status is different. Remember that violations of law or of institutional policy overseas may also become grounds for disciplinary action both at Vanderbilt and under the rules of your abroad program.\u000a\u000aAt the same time that you are considering the legal implications of drinking, be mindful of cultural norms surrounding alcohol use in your host country. In many countries, for example, American-style "binge drinking" may appear pathological or merely pathetic. Take the opportunity to see cultural practices in a new light. \u000a\u000a|box|k\u000a|!The Student Handbook says:|\u000a|Students are required to abide by the laws of the respective countries in which they reside, study, or travel, with respect to the age at which alcoholic beverages may be consumed. Otherwise, the policies with respect to [[alcoholic beverages and controlled substances|http://www.vanderbilt.edu/student_handbook/alcohol/]] included in the Vanderbilt //Student Handbook// apply. Students are subject to student-accountability sanctions, including expulsion, and referral for prosecution for violation of these policies.|\u000a|<hr>//From// [[VU Student Handbook, Study Abroad|http://www.vanderbilt.edu/student_handbook/university-policies-and-regulations/#study-abroad]]|\u000a\u000a<<segue "Grades and credits">>\u005c
 p74
 sg21
-VAlcohol Policy
+VAlcohol policy
 p75
 sg23
 g24
 ((I2014
 I9
-I19
-I15
-I21
-I43
-I4
-I262
+I22
+I14
+I42
+I5
+I0
+I265
 I1
 tp76
 (dp77
@@ -252,7 +252,7 @@ Tiddler
 p89
 (dp90
 g19
-V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you ''remain registered as a Vanderbilt student'' and you retain access to on-campus resources. You can register for the next term's classes, log in to YES and other campus applications, and make use of services.\u000a<<if $facultyled neq "true">> \u000aTo make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your transcript arrives from abroad and both GEO and the University Registrar have processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.<</if>>\u000a\u000a''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will arrive at the same time as usual, with the same payment terms. You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. Be aware that there are costs that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your program provider or GEO advisor for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Regular Vanderbilt tuition|\u000a|Study-abroad program fee (different for each program)|\u000a|(Reduced) activity fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial Aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
+V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you ''remain registered as a Vanderbilt student'' and you retain access to on-campus resources. You can register for the next term's classes, log in to YES and other campus applications, and make use of services.\u000a<<if $facultyled neq "true">> \u000aTo make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your transcript arrives from abroad and both GEO and the University Registrar have processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.<</if>>\u000a\u000a''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will arrive at the same time as usual, with the same payment terms. You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. Be aware that there are costs that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your program provider or GEO advisor for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Regular Vanderbilt tuition|\u000a|Study-abroad program fee (different for each program)|\u000a|(Reduced) activity fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
 p91
 sg21
 VStudent status and billing
@@ -261,12 +261,12 @@ sg23
 g24
 ((I2014
 I9
-I19
-I15
-I17
-I24
-I4
-I262
+I22
+I14
+I42
+I27
+I0
+I265
 I1
 tp93
 (dp94
@@ -358,21 +358,21 @@ Tiddler
 p122
 (dp123
 g19
-V<<sidebar "Financial Aid">>\u000aAll ''semester-long programs available through GEO are eligible for US federal and Vanderbilt financial aid''. All types of financial aid other than work study are applicable to semester-long study abroad. If you aren't sure about your financial aid package, check with your financial aid officer.\u000a\u000a''Summer and Maymester abroad programs are normally not eligible for Vanderbilt financial aid''. However, there may be some circumstances in which financial aid can apply to summer study. You should speak with your financial aid officer if you think an exception might apply in your case. \u000a\u000aThe [[Office of Financial Aid|http://www.vanderbilt.edu/financialaid/]] disburses funding from the scholarships covered by the ''GEO Common Scholarship Application''. Scholarship funds will be credited to your student account //on or about the day that your account is billed for your abroad program//. Please feel free to contact the Global Education Office's [[scholarship coordinator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]] with questions about this process.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
+V<<sidebar "Financial aid">>\u000aAll ''semester-long programs available through GEO are eligible for US federal and Vanderbilt financial aid''. All types of financial aid other than work study are applicable to semester-long study abroad. If you aren't sure about your financial aid package, check with your financial aid officer.\u000a\u000a''Summer and Maymester abroad programs are normally not eligible for Vanderbilt financial aid''. However, there may be some circumstances in which financial aid can apply to summer study. You should speak with your financial aid officer if you think an exception might apply in your case. \u000a\u000aThe [[Office of Financial Aid|http://www.vanderbilt.edu/financialaid/]] disburses funding from the scholarships covered by the ''GEO Common Scholarship Application''. Scholarship funds will be credited to your student account //on or about the day that your account is billed for your abroad program//. Please feel free to contact the Global Education Office's [[scholarship coordinator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]] with questions about this process.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
 p124
 sg21
-VFinancial Aid
+VFinancial aid
 p125
 sg23
 g24
 ((I2014
-I7
+I9
 I22
-I15
-I27
+I14
 I42
-I1
-I203
+I19
+I0
+I265
 I1
 tp126
 (dp127
@@ -472,13 +472,13 @@ p158
 sg23
 g24
 ((I2014
-I7
-I23
-I16
-I18
-I5
-I2
-I204
+I9
+I22
+I14
+I42
+I46
+I0
+I265
 I1
 tp159
 (dp160
@@ -2212,7 +2212,7 @@ Tiddler
 p699
 (dp700
 g19
-V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a\u000aYou have a session already in progress. Continue where you left off? \u000a<<script>> \u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button",\u000a		"Resume where I left off"\u000a	);\u000a	insertText(output, " ");\u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start over"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		SaveSystem.deleteAuto();\u000a		state.display(state.active.variables.first);\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>\u005c
+V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u000a\u000aYou have a session already in progress. Do you want to resume where you left off?\u000a\u000a<<script>> \u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start Over"\u000a	);\u000a	insertText(output, " ");\u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button default",\u000a		"Resume"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		var ret = confirm("Are you sure you want to start over? Your progress will be erased.");\u000a		if (ret === true) {\u000a			SaveSystem.deleteAuto();\u000a			state.display(state.active.variables.first);\u000a		}\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>\u005c
 p701
 sg21
 VStart
@@ -2221,12 +2221,12 @@ sg23
 g24
 ((I2014
 I9
-I19
-I9
-I9
-I26
-I4
-I262
+I22
+I15
+I11
+I55
+I0
+I265
 I1
 tp703
 (dp704
@@ -2689,12 +2689,12 @@ sg23
 g24
 ((I2014
 I9
-I16
+I22
 I14
-I44
-I41
-I1
-I259
+I42
+I37
+I0
+I265
 I1
 tp847
 (dp848
@@ -3272,7 +3272,7 @@ Tiddler
 p1029
 (dp1030
 g19
-V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhil generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. //You should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt's safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhil generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. This is ''mandatory'', and //you should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt's safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1031
 sg21
 VPreparing for safety
@@ -3281,12 +3281,12 @@ sg23
 g24
 ((I2014
 I9
-I15
+I22
 I14
-I30
-I23
+I45
+I10
 I0
-I258
+I265
 I1
 tp1033
 (dp1034
@@ -3857,7 +3857,7 @@ g19
 V<<sidebar "Sexual misconduct abroad">>\u000aSocial norms--and civil and criminal laws--vary from country to country.  Even so, Vanderbilt\u2019s policies, including the university\u2019s Student Accountability and Sexual Misconduct and Power-Based Violence policies, apply in all study abroad programs in which Vanderbilt students participate, whether those programs are administered by Vanderbilt or a third party.  Vanderbilt students, faculty and staff participating in study abroad programs must comply with local laws, the rules and regulations of their study abroad program, and with Vanderbilt\u2019s policies.\u000a\u000aIf you are a victim of sexual misconduct while abroad, contact the resident director of your program for help. If your program is directly administered by Vanderbilt faculty, you should consult with your program leader. If you are unable or unwilling to discuss the issue with program staff, please contact Vanderbilt's [[Equal Opportunity, Affirmative Action, and Disability Services Department|http://www.vanderbilt.edu/ead/]] (EAD) or [[Project Safe|http://www.vanderbilt.edu/projectsafe/]]. Project Safe has someone available around the clock every day of the year. The Student Handbook\u2019s [[policy on Sexual Misconduct|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]] identifies confidential resources (see also [[Project Safe|http://www.vanderbilt.edu/projectsafe/manage/wp-content/uploads/VU-Resource-List-2013.pdf]]).\u000a\u000aThe range of sanctions for violations of Vanderbilt\u2019s Student Accountability and Sexual Misconduct and Power-Based Violence Policies are set forth in the Student Handbook. Individuals who engage in gender-based or sexual misconduct--or other forms of misconduct--may also be subject to local laws, and the civil and criminal consequences may be severe.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[VU Student Accountability Policy|http://www.vanderbilt.edu/student_handbook/student-conduct/]], from the Student Handbook|\u000a|[[Sexual Misconduct and Other Forms of Power-Based Violence Policy|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]], fromt the Student Handbook|\u000a|[[VU Equal Opportunity, Affirmative Action, and Disability Services Department|http://www.vanderbilt.edu/ead/]]|\u000a|[[VU Project Safe|http://www.vanderbilt.edu/projectsafe/]]|\u000a|[[Vanderbilt Sexual Assault Support and Resources List|http://www.vanderbilt.edu/projectsafe/manage/wp-content/uploads/VU-Resource-List-2013.pdf]]|\u000a\u000a<<segue "Grades and credits">>\u005c
 p1212
 sg21
-VSexual Misconduct Policy
+VSexual misconduct policy
 p1213
 sg23
 g24
@@ -3865,8 +3865,8 @@ g24
 I9
 I22
 I14
-I18
-I27
+I41
+I56
 I0
 I265
 I1

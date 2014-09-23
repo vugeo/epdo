@@ -785,6 +785,13 @@ span.continue-button:hover {
     display:none!important;
   }
 }
+/* Sidebar headline Back button */
+.page-back-link.headline {
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: 5px;
+}
 
 /* Bottom of page Back button */
 h6.page-back-link {
@@ -906,6 +913,7 @@ h6.page-back-link {
 
 .passage h4.sidebar {
   margin-bottom:0;
+  position: relative;
 }
 
 .passage h6.sidebar {
@@ -1236,6 +1244,18 @@ a.passage-list:after {
   border-radius: 2px 0;
 }
 */
+
+
+:: VU and GEO logos [stylesheet]
+#VU-logo {
+  position: relative;
+  height: 60px;
+}
+#GEO-logo {
+  position: relative;
+  height: 85px;
+  top: 11px;
+}
 
 
 :: Browser icon sprites [stylesheet]

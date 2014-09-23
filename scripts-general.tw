@@ -95,7 +95,7 @@
         <<if $index[state.active.title].enumeration gt 1 || ($index[state.active.title].enumeration lt 2 && tags().contains("sidebar")) >>\
             <<if tags().contains("sidebar") >>\
                 /%&nbsp; &nbsp;%/<h6 class='page-back-link main'><<click "Back">><<prevPassage 0>><</click>></h6>\            
-            <<else>>\
+            <<else>>
                 &nbsp; &nbsp;<h6 class='page-back-link main'><<click "Previous">><<prevPassage>><</click>></h6>\                
             <</if>>\
         <</if>>\
@@ -223,10 +223,9 @@ macros.add("sidebar-box", {
     <<sidebar [text]>> %/\
 <<widget "sidebar">>\
     <hr class="sidebar">\
-    <h4 class="sidebar">Additional Information</h4>\
+    <h4 class="sidebar">Additional Information<h6 class='page-back-link headline'><<click "Back">><<prevPassage 0>><</click>></h6></h4>\
     <h1 class="sidebar"><<print $args[0]>></h1>\
     <hr class="sidebar">\
-    <h6 class='page-back-link'><<click "Back">><<prevPassage 0>><</click>></h6>\
 <</widget>>\
 
 

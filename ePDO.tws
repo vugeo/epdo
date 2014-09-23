@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005ctest.html
+VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005cepdo.html
 p2
 sS'saveDestination'
 p3
@@ -252,7 +252,7 @@ Tiddler
 p89
 (dp90
 g19
-V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you ''remain registered as a Vanderbilt student'' and you retain access to on-campus resources. You can register for the next term's classes, log in to YES and other campus applications, and make use of services.\u000a<<if $facultyled neq "true">> \u000aTo make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your transcript arrives from abroad and both GEO and the University Registrar have processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.<</if>>\u000a\u000a''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will arrive at the same time as usual, with the same payment terms. You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. Be aware that there are costs that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your program provider or GEO advisor for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Regular Vanderbilt tuition|\u000a|Study-abroad program fee (different for each program)|\u000a|(Reduced) activity fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
+V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you remain registered as a Vanderbilt student and you retain access to on-campus resources. You can register for the next term's classes, log in to YES and other campus applications, and make use of services.\u000a<<if $facultyled neq "true">> \u000aTo make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your transcript arrives from abroad and both GEO and the University Registrar have processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.<</if>>\u000a\u000a''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will arrive at the same time as usual, with the same payment terms. You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. Be aware that there are costs that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your program provider or GEO advisor for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Regular Vanderbilt tuition|\u000a|Study-abroad program fee (different for each program)|\u000a|(Reduced) activity fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
 p91
 sg21
 VStudent status and billing
@@ -261,12 +261,12 @@ sg23
 g24
 ((I2014
 I9
-I22
-I14
-I42
-I27
-I0
-I265
+I23
+I13
+I25
+I38
+I1
+I266
 I1
 tp93
 (dp94
@@ -2158,7 +2158,7 @@ Tiddler
 p682
 (dp683
 g19
-V<div class="inset-shadow"><img src="images/Survival_Training.png"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information, information that you will need to know to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the Quick Tour now for a very brief introduction to the Training interface. It will very quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides more detailed information on a topic or topics. Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aWhen you're ready to move on, hit the big blue Continue button at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
+V<div class="inset-shadow"><img src="images/Survival_Training.png"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information, information that you will need to know to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the Quick Tour now for a very brief introduction to the Training interface. It will quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides more detailed information on a topic or topics. Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aWhen you're ready to move on, hit the big blue Continue button at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
 p684
 sg21
 VAbout the Presentation
@@ -2168,9 +2168,9 @@ g24
 ((I2014
 I9
 I23
-I11
-I31
-I37
+I13
+I24
+I53
 I1
 I266
 I1
@@ -2212,7 +2212,7 @@ Tiddler
 p699
 (dp700
 g19
-V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a\u000aYou have a session already in progress. Do you want to resume where you left off?\u000a<<script>> \u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start Over"\u000a	);\u000a	insertText(output, " ");\u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button default",\u000a		"Resume"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		var ret = confirm("Are you sure you want to start over? Your progress will be erased.");\u000a		if (ret === true) {\u000a			SaveSystem.deleteAuto();\u000a			state.display(state.active.variables.first);\u000a		}\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>
+V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u005c\u000a\u000aYou have a session already in progress. Do you want to resume where you left off?\u000a<<script>> \u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start Over"\u000a	);\u000a	insertText(output, " ");\u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button default",\u000a		"Resume"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		var ret = confirm("Are you sure you want to start over? Your progress will be erased.");\u000a		if (ret === true) {\u000a			SaveSystem.deleteAuto();\u000a			state.display(state.active.variables.first);\u000a		}\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>
 p701
 sg21
 VStart
@@ -2222,9 +2222,9 @@ g24
 ((I2014
 I9
 I23
-I11
-I31
-I26
+I13
+I17
+I55
 I1
 I266
 I1
@@ -3897,7 +3897,7 @@ tp1223
 Rp1224
 sbsa(dp1225
 g12
-I01
+I00
 sg13
 (lp1226
 F155.51766138855047

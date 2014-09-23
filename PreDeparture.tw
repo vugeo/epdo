@@ -1,5 +1,6 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
+* Find source of the "none" image that the presentation attempts to load.
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.
 * Add iOS metas:
@@ -16,8 +17,8 @@
 
 
 Browser requirements:
-* Firefox 10+
-* Internet Explorer 10 (maybe 9)
+* Firefox 5+
+* Internet Explorer 10
 * Safari 5.1
 * Android 4.3
 * Mobile Safari 6.1+

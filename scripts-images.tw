@@ -82,7 +82,7 @@
     }
 }());
 
-
+/*
 jQuery.preloadCssImages = function(){
     var allImgs = [];//new array for all the image urls  
     var k = 0; //iterator for adding images
@@ -118,5 +118,5 @@ jQuery.preloadCssImages = function(){
     }//loop
     return allImgs;
 }
-
+*/
 

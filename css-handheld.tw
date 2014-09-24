@@ -44,12 +44,20 @@
     margin: 0;
   }
   .browser {
-    width:41px;
+    width: 41px;
+    margin-right: 12px;
   }
   .sprite {
     zoom:0.64;
     -moz-transform: scale(0.64);
     -moz-transform-origin: 0 0;
+  }
+  #VU-logo {
+    height: 50px;
+  }
+  #GEO-logo {
+    height: 70px;
+    top: 9px;
   }
 }
 

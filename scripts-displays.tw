@@ -32,7 +32,7 @@ macros.add("displayIndex", {
 
         $("#index-list").html(html);
 
-        $("a.index-passage").on("click", function () {
+        $("#index-list a.index-passage").off().on("click", function () {
             state.display($(this).attr("data-passage"));
         });
     }

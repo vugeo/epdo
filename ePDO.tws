@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2014
 I9
-I23
-I13
-I35
-I55
-I1
-I266
+I25
+I16
+I6
+I28
+I3
+I268
 I1
 tp638
 (dp639
@@ -3272,7 +3272,7 @@ Tiddler
 p1029
 (dp1030
 g19
-V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhil generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. This is ''mandatory'', and //you should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt's safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. This is ''mandatory'', and //you should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt\u2019s safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1031
 sg21
 VPreparing for safety
@@ -3281,12 +3281,12 @@ sg23
 g24
 ((I2014
 I9
-I22
-I14
-I45
-I10
+I25
+I16
+I8
 I0
-I265
+I3
+I268
 I1
 tp1033
 (dp1034
@@ -3475,7 +3475,7 @@ I00
 sg13
 (lp1093
 F1245.3333333333333
-aF620.0000000000003
+aF618.4457978075521
 asg15
 (itiddlywiki
 Tiddler
@@ -3485,18 +3485,18 @@ g19
 V<<sidebar "Vanderbilt's safety efforts">>\u000aThe safety and security of students studying abroad are primary concerns of Vanderbilt University. Vanderbilt takes care to minimize the risks students face abroad through several measures, including:\u000a\u000a*Selecting responsible partners and organizations to provide educational opportunities abroad;\u000a*Assessing the risks associated with all study abroad sites both when approving programs and throughout the program's lifetime;\u000a*Assuring a high standard of personal health insurance coverage for all students studying abroad;\u000a*Retaining emergency evacuation services and full-spectrum travel assistance for all students;\u000a*Providing program-specific training to help students identify and mitigate potential risks;\u000a*Providing access to on-site support staff and organizations trained to handle emergencies of all types;\u000a*Training on-campus personnel to respond to crises and provide support where possible;\u000a*Keeping abreast of conditions and events where students abroad are based;\u000a*Training students in preventive as well as remedial strategies to avoid trouble abroad.\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1096
 sg21
-VVanderbilt's safety efforts
+VVanderbilt\u2019s safety efforts
 p1097
 sg23
 g24
 ((I2014
-I7
-I31
+I9
+I25
 I16
-I20
-I12
+I8
+I36
 I3
-I212
+I268
 I1
 tp1098
 (dp1099
@@ -3650,13 +3650,13 @@ p1147
 sg23
 g24
 ((I2014
-I7
-I31
-I16
-I18
-I16
+I9
+I25
+I15
+I34
+I14
 I3
-I212
+I268
 I1
 tp1148
 (dp1149

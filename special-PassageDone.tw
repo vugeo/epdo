@@ -56,18 +56,18 @@
         $("#nav-container").html(function(){
             var html = "<ul class='chapter-list'>";
             for (var i = 1; i < (options.chapterprogress + 1); i++) {
-                html += "<li><a class='chapter-list" + (i === currentTag ? " active" : "") + "' data='" + bookmarks[passageTags[i]] + "'>" + sections[passageTags[i]].section + "</a><ul class='passage-list'>";
+                html += "<li><a class='chapter-list" + (i === currentTag ? " active" : "") + "' data-passage='" + bookmarks[passageTags[i]] + "'>" + sections[passageTags[i]].section + "</a><ul class='passage-list'>";
                     $.each(fullindex[i-1].passages, function(j, pass) {
                         //console.log("Adding " + pass.passage + " to menu: " + index[pass.passage].enumeration + "/" + progress);
                         if (pass.passage === state.active.title) {
-                            html += "<li class='inactive'><a class='passage-list passage-list-inactive' data='" + pass.passage + "'>" + pass.passage + "</a>";
+                            html += "<li class='inactive'><a class='passage-list passage-list-inactive' data-passage='" + pass.passage + "'>" + pass.passage + "</a>";
                         }
                         else {
-                            html += "<li><a class='passage-list' data='" + pass.passage + "'>" + pass.passage + "</a>";
+                            html += "<li><a class='passage-list' data-passage='" + pass.passage + "'>" + pass.passage + "</a>";
                         }
                         if (pass.hasOwnProperty("sidebars")) {
                             pass.sidebars.forEach (function (side) {
-                                html += "<p class='sidebar-list'><a class='index-passage' data='" + side + "'>" + side + "</a></p>";
+                                html += "<p class='sidebar-list'><a class='index-passage' data-passage='" + side + "'>" + side + "</a></p>";
                             });
                         }
                         html += "</li>";
@@ -83,8 +83,8 @@
             $("#nav-container ul.passage-list").not($this.siblings()).slideUp(200);
             $this.next("ul").slideToggle(200);
         });
-        $("a.passage-list, a.index-passage").off().click(function(){
-            var passage = $(this).attr("data");
+        $("#nav-container a.passage-list, a.index-passage").off().on("click", function(){
+            var passage = $(this).attr("data-passage");
             if (passage !== state.active.title) {
                 if (typeof ga != "undefined") {
                     ga('send', 'event', 'help', 'index', 'navigated to ' + passage + ' using index');

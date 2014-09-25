@@ -1,5 +1,6 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
+* Make registration form submission set a flag so that it won't appear again after you've submitted it once.
 * Find source of the "none" image that the presentation attempts to load. Difficult to find so far. All indications are that this is not actually an image, but from the snap.js external javascript.
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.
@@ -14,6 +15,7 @@
 * Lots of problems with the implementation of the back button on sidebars if the user doesn't get to the sidebar via the standard route. DONE - simplified 
 * DONE add prefixes to all CSS! Use http://pleeease.io/play/, browser string: Opera >=12, Chrome >= 20, Firefox >= 10, iOS > 6.0, Explorer > 10, FirefoxAndroid > 1, ChromeAndroid >= 20, Safari > 5.1 
 * Update URL replacement code on index page to take hash mode into account: https://mail.google.com/mail/u/4/#inbox/146a53697f731793 DONE, I think
+* Trevor reports possible issue with nav menu and continue button after submitting registration form. (He also says that Continue button appears on last page, which it shouldn't.) Safari 7.0.6 FIXED, I think. Was actually a problem with multiple click handlers being attached on the index page.
 
 
 Browser requirements:

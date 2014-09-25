@@ -3387,12 +3387,12 @@ sg23
 g24
 ((I2014
 I9
-I16
-I14
-I50
+I25
 I10
-I1
-I259
+I58
+I29
+I3
+I268
 I1
 tp1066
 (dp1067
@@ -3438,13 +3438,13 @@ p1081
 sg23
 g24
 ((I2014
-I7
+I9
+I25
+I10
+I58
 I31
-I16
-I27
-I46
 I3
-I212
+I268
 I1
 tp1082
 (dp1083
@@ -3536,7 +3536,7 @@ Tiddler
 p1111
 (dp1112
 g19
-V!International SOS\u000a!!!!Emergency and travel assistance for Vanderbilt students\u000aVanderbilt contracts with International SOS (ISOS) primarily to handle responses to major emergencies overseas. ISOS also offers other services, and as a Vanderbilt student, you have access to all of them. But you should be aware that //not all are free// to you.\u000a\u000aThe primary role of ISOS is to aid in response to large-scale disasters and crises. For example, during the "Arab Spring," ISOS evacuated a Vanderbilt student from Egypt. The organization runs a worldwide network of centers, clinics, and ambulances to deal with ill or wounded people. If you use ISOS in such an emergency, Vanderbilt will cover the cost.\u000a\u000aISOS can also help you with medical, personal, security, legal, or travel problems. Examples might include dealing with a lost passport, a critical missed airline connection, medical help, or other issues. ISOS provides these services on a fee-for-service basis (it is //not// a health insurer). While Vanderbilt may cover the up-front charges in non-emergency circumstances, ''you may be billed for these services after the fact!'' \u000a\u000aISOS also offers excellent safety information both on its [[website|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]] and via emailed updates, but you must register your travel with ISOS to receive this information. You are required to register with ISOS and will receive instructions for how to do so via your online GEO account. Generally this information appears in the month before the end of the semester.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], up-to-date risk ratings and travel security advisories. Register your travel here!|\u000a\u000a<<segue "Reverse culture shock">>\u005c
+V!International SOS\u000a!!!!Emergency and travel assistance for Vanderbilt students\u000aGEO will automatically register you with International SOS (ISOS) during the time span of your abroad program. Vanderbilt contracts with ISOS primarily to handle responses to major emergencies overseas. ISOS also offers other services, and as a Vanderbilt student, you have access to all of them. But you should be aware that //not all are free// to you.\u000a\u000aThe primary role of ISOS is to aid in response to large-scale disasters and crises. For example, during the "Arab Spring," ISOS evacuated a Vanderbilt student from Egypt. The organization runs a worldwide network of centers, clinics, and ambulances to deal with ill or wounded people. If you use ISOS in such an emergency, Vanderbilt will cover the cost.\u000a\u000aISOS can also help you with medical, personal, security, legal, or travel problems. Examples might include dealing with a lost passport, a critical missed airline connection, medical help, or other issues. ISOS provides these services on a fee-for-service basis (it is //not// a health or travel insurer). While Vanderbilt may cover the up-front charges in non-emergency circumstances, ''you may be billed for these services after the fact.'' \u000a\u000aISOS also offers excellent safety information both on its [[website|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]] and via emailed updates. You'll need to [[sign up for email updates|https://www.travelsecurity.com/Alerts.aspx?MembershipNo=11BSGM000066&Colour=cccccc&Logo=https://www.internationalsos.com/MasterPortal/images/ClientAssets/logos/182_logo.jpg]] yourself (it's quick and painless).\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], up-to-date risk ratings and travel security advisories.|\u000a\u000a<<segue "Reverse culture shock">>\u005c
 p1113
 sg21
 VInternational SOS
@@ -3544,13 +3544,13 @@ p1114
 sg23
 g24
 ((I2014
-I7
-I31
-I16
-I30
-I2
+I9
+I25
+I14
+I57
+I9
 I3
-I212
+I268
 I1
 tp1115
 (dp1116

@@ -1,6 +1,5 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Test Google Analytics external links to be sure they are capturing.
 * Find source of the "none" image that the presentation attempts to load. Difficult to find so far. All indications are that this is not actually an image, but from the snap.js external javascript.
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.

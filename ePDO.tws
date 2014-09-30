@@ -2161,18 +2161,18 @@ g19
 V<div class="inset-shadow"><img src="images/Survival_Training.png"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information, information that you will need to know to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the ''Quick Tour'' now for a very brief introduction to the Training interface. It will quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides ''In-Depth Information'' on a topic or topics. We recommend that you read these links in all cases where a topic could conceivably apply to you! Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aThroughout the training, ''blue hyperlinks'' will direct you to external sites with useful information or further resources. For example, this link will take you to the [[Global Education Office's home page|http://vanderbilt.edu/geo]].\u000a\u000aWhen you're ready to move on, hit the ''big blue Continue button'' at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
 p684
 sg21
-VAbout the Presentation
+VAbout Survival Training
 p685
 sg23
 g24
 ((I2014
 I9
-I29
-I10
-I5
-I54
-I0
-I272
+I30
+I15
+I58
+I27
+I1
+I273
 I1
 tp686
 (dp687
@@ -2221,12 +2221,12 @@ sg23
 g24
 ((I2014
 I9
-I29
-I17
-I4
-I0
-I0
-I272
+I30
+I16
+I16
+I3
+I1
+I273
 I1
 tp703
 (dp704
@@ -2264,7 +2264,7 @@ Tiddler
 p715
 (dp716
 g19
-V/% \u000a	Each passage can be part of only one section,\u000a	sections cannot overlap. Sections must be listed\u000a	*in order* of their appearance in the presentation.\u000a%/\u000a\u000a/% Where should we begin? Give first passage's name here. %/\u000a<<set $first to "About the Presentation">>\u000a\u000a<<contents>>\u000a    <<section "Global Education Office" "nosave" "backgrounds/Sand_Dunes_Sossusvlei_Namibia.jpg">>\u000a	<<section "About" "about" "backgrounds/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg">>\u000a    <<section "Introduction" "intro" "backgrounds/Weinstein_Lori_Ann_Sunrise_at_Byron_Bay_Australia.jpg">>\u000a    <<section "Basic Policy Information" "policies" "backgrounds/Boppana_Sushma_Hillside_Door_Budapest_Hungary.jpg">>\u000a    <<section "Academic Policies" "academics" "backgrounds/Grubb_Joshua_LouAllen_Checkered_Lawn_Buenos_Aires.jpg">>\u000a    <<section "Travel" "travel" "backgrounds/Morrison_Danielle_Antoinette_Rooftop_View_Segovia_Spain.jpg">>\u000a    <<section "Living and Learning Abroad" "living" "backgrounds/Pribish_Abby_Marie_Lake_Geneva_Through_the_Foliage_Switzerland.jpg">>\u000a    <<section "Health and Wellness" "health" "backgrounds/Sims-Jones_John_Fields_and_mountains_of_Moray.jpg">>\u000a    <<section "Safety and Security" "safety" "backgrounds/Tollefsen_Stefanie_Violet_tree_Rome_Italy.jpg">>\u000a    <<section "Returning Home" "home" "backgrounds/Williams_Jon_Beaches_of_Tarifa_Spain.jpg">>\u000a    <<section "Finishing Up" "finish" "backgrounds/Babbitt_Martha_Ann_Lake_Como_Italy.jpg">>\u000a<<create-index>>
+V/% \u000a	Each passage can be part of only one section,\u000a	sections cannot overlap. Sections must be listed\u000a	*in order* of their appearance in the presentation.\u000a%/\u000a\u000a/% Where should we begin? Give first passage's name here. %/\u000a<<set $first to "About Survival Training">>\u000a\u000a<<contents>>\u000a    <<section "Global Education Office" "nosave" "backgrounds/Sand_Dunes_Sossusvlei_Namibia.jpg">>\u000a	<<section "About" "about" "backgrounds/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg">>\u000a    <<section "Introduction" "intro" "backgrounds/Weinstein_Lori_Ann_Sunrise_at_Byron_Bay_Australia.jpg">>\u000a    <<section "Basic Policy Information" "policies" "backgrounds/Boppana_Sushma_Hillside_Door_Budapest_Hungary.jpg">>\u000a    <<section "Academic Policies" "academics" "backgrounds/Grubb_Joshua_LouAllen_Checkered_Lawn_Buenos_Aires.jpg">>\u000a    <<section "Travel" "travel" "backgrounds/Morrison_Danielle_Antoinette_Rooftop_View_Segovia_Spain.jpg">>\u000a    <<section "Living and Learning Abroad" "living" "backgrounds/Pribish_Abby_Marie_Lake_Geneva_Through_the_Foliage_Switzerland.jpg">>\u000a    <<section "Health and Wellness" "health" "backgrounds/Sims-Jones_John_Fields_and_mountains_of_Moray.jpg">>\u000a    <<section "Safety and Security" "safety" "backgrounds/Tollefsen_Stefanie_Violet_tree_Rome_Italy.jpg">>\u000a    <<section "Returning Home" "home" "backgrounds/Williams_Jon_Beaches_of_Tarifa_Spain.jpg">>\u000a    <<section "Finishing Up" "finish" "backgrounds/Babbitt_Martha_Ann_Lake_Como_Italy.jpg">>\u000a<<create-index>>
 p717
 sg21
 VTable of Contents
@@ -2273,12 +2273,12 @@ sg23
 g24
 ((I2014
 I9
-I18
-I14
-I35
-I19
-I3
-I261
+I30
+I15
+I57
+I34
+I1
+I273
 I1
 tp719
 (dp720
@@ -2566,7 +2566,7 @@ g12
 I00
 sg13
 (lp809
-F383.66666666666663
+F385.2208688591149
 aF1816.3333333333337
 asg15
 (itiddlywiki
@@ -3802,7 +3802,7 @@ Tiddler
 p1194
 (dp1195
 g19
-V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000amacros.get("saveoptions").handler();
+V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000amacros.get("saveoptions").handler();\u000a\u000aconfig.startPassage = "About Survival Training"
 p1196
 sg21
 VOptions
@@ -3811,12 +3811,12 @@ sg23
 g24
 ((I2014
 I9
-I19
-I10
-I47
-I42
-I4
-I262
+I30
+I15
+I57
+I54
+I1
+I273
 I1
 tp1198
 (dp1199

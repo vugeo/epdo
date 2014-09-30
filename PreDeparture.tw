@@ -1,5 +1,12 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
+* Move the ability to reset progress to the drawer. Also set start page config to About the Presentation.
+* Set up robots.txt in new web directory: http://www.robotstxt.org/robotstxt.html
+* Check out iPad sometime failure to display background image when animating title.
+* Look at recording history of what was actually read along with visible data in JotForm
+* Add full list of resources to What To Do Next (Mei's suggestion).
+* Add warning dialogue for Android phones.
+* Add an index button to appear in the header after finishing the registration or hitting the Credits page.
 * Make registration form submission set a flag so that it won't appear again after you've submitted it once.
 * Find source of the "none" image that the presentation attempts to load. Difficult to find so far. All indications are that this is not actually an image, but from the snap.js external javascript.
 * iOS app icon template: http://appicontemplate.com/
@@ -12,6 +19,7 @@
 * Comment out all console.log references DONE
 * Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();) DONE
 * Scrolling doesn't work on iPad on first page until after rotating the screen. Other pages work fine. Fixed by increasing timeout value to 300 in PassageDone: if (typeof customScroll != "undefined") { setTimeout(function () { customScroll.refresh(); customScroll.scrollTo(0, 0); }, 300); DONE
+* Fix continued iPad failure to autoscroll/auto-calculate height correctly. UPPED THE DELAY TO 600MS
 * Lots of problems with the implementation of the back button on sidebars if the user doesn't get to the sidebar via the standard route. DONE - simplified 
 * DONE add prefixes to all CSS! Use http://pleeease.io/play/, browser string: Opera >=12, Chrome >= 20, Firefox >= 10, iOS > 6.0, Explorer > 10, FirefoxAndroid > 1, ChromeAndroid >= 20, Safari > 5.1 
 * Update URL replacement code on index page to take hash mode into account: https://mail.google.com/mail/u/4/#inbox/146a53697f731793 DONE, I think

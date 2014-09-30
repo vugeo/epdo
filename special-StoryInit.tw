@@ -58,6 +58,7 @@
     var menu_button = insertElement(controls, "a", "menu-button");
     var progress = insertElement(header, "div", "progress");
     var backgrounds = insertElement(document.body, "div", "backgrounds");
+    var background_title = insertElement(backgrounds, "div", "bkgd-title");
     var image_container_1 = insertElement(backgrounds, "div", "bkgd-1");
     var image_container_2 = insertElement(backgrounds, "div", "bkgd-2");
 

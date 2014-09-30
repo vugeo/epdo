@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005cepdo.html
+VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005ctest.html
 p2
 sS'saveDestination'
 p3
@@ -84,15 +84,15 @@ g12
 I00
 sg13
 (lp38
-F8.55420219244823
-aF407.9841656516444
+F8.554202192448226
+aF414.20097442143725
 asg15
 (itiddlywiki
 Tiddler
 p39
 (dp40
 g19
-V!What you'll get out of study abroad\u000a!!!!Academics, Cultural Competence, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to take classes that are not available at Vanderbilt and expand the breadth of perspectives you draw on.</p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience. It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vanderbubble will help shape you as a person and hone your life skills. You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.</p>\u005c\u000a<figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure>\u000a<<segue "What we will cover in this presentation">>\u005c
+V!What you'll get out of study abroad\u000a!!!!Academics, Cultural Competence, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to take classes that are not available at Vanderbilt and expand the breadth of perspectives you draw on.</p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience. It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vandybubble will help shape you as a person and hone your life skills. You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.</p>\u005c\u000a<figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure>\u000a<<segue "What we will cover in this presentation">>\u005c
 p41
 sg21
 VWhat you will get out of study abroad
@@ -100,13 +100,13 @@ p42
 sg23
 g24
 ((I2014
-I8
-I15
-I16
-I19
-I43
-I4
-I227
+I9
+I29
+I9
+I56
+I3
+I0
+I272
 I1
 tp43
 (dp44
@@ -146,7 +146,7 @@ Tiddler
 p56
 (dp57
 g19
-V!Vanderbilt conduct policies\u000a!!!!Vanderbilt policies apply abroad as well as on campus\u000a<<if ($vanderbilt eq "true") or ($facultyled eq "true")>>Your ''trip leader or resident director has sole discretion over all discipline decisions''. They will hold you accountable for the standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]], and they may also dictate other rules as needed. Your Vanderbilt trip leader may impose any disciplinary sanction, up to and including dismissal from the program. You also may face further consequences when you return to Vanderbilt.\u000a<<else>>You are subject to your abroad institution's rules, but you //also// need to abide by Vanderbilt's conduct policies. The standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]] remain in effect while you are abroad. Conduct that violates these codes may result in sanctions when you return to Vanderbilt, //even if you already received sanctions from your program abroad.//<</if>>\u000a\u000a''Be sure to read the section in the Student Handbook on'' [[conduct in study abroad programs|http://www.vanderbilt.edu/student_handbook/student-conduct/#conduct-in-study-abroad-programs]].\u000a\u000a<<sidebar-box>>\u000a	[[Is Vanderbilt's alcohol policy different abroad?|Alcohol policy]]\u000a	[[What should I know about rules surrounding sexual misconduct abroad?|Sexual misconduct policy]]\u000a<</sidebar-box>>\u000a<<segue "Grades and credits">>\u005c
+V!Vanderbilt conduct policies\u000a!!!!Vanderbilt policies apply abroad as well as on campus\u000a<<if ($vanderbilt eq "true") or ($facultyled eq "true")>>Your ''trip leader or resident director has sole discretion over all discipline decisions''. They will hold you accountable for the standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]], and they may also dictate other rules as needed. Your Vanderbilt trip leader may impose any disciplinary sanction, up to and including dismissal from the program. You also may face further consequences when you return to Vanderbilt.\u000a<<else>>You are subject to your abroad institution's rules, but you //also// need to abide by Vanderbilt's conduct policies. The standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]] remain in effect while you are abroad. Conduct that violates these codes may result in sanctions when you return to Vanderbilt, //even if you already received sanctions from your program abroad.//<</if>>\u000a\u000a''Be sure to read the section in the Student Handbook on'' [[conduct in study abroad programs|http://www.vanderbilt.edu/student_handbook/student-conduct/#conduct-in-study-abroad-programs]].\u000a\u000aWe also highly recommend that you read the In-Depth Information sections below!\u000a\u000a<<sidebar-box>>\u000a	[[Is Vanderbilt's alcohol policy different abroad?|Alcohol policy]]\u000a	[[What should I know about rules surrounding sexual misconduct abroad?|Sexual misconduct policy]]\u000a<</sidebar-box>>\u000a<<segue "Grades and credits">>\u005c
 p58
 sg21
 VVanderbilt conduct policies
@@ -155,12 +155,12 @@ sg23
 g24
 ((I2014
 I9
-I22
-I14
-I42
-I11
+I29
+I10
+I26
+I50
 I0
-I265
+I272
 I1
 tp60
 (dp61
@@ -473,12 +473,12 @@ sg23
 g24
 ((I2014
 I9
-I22
+I29
+I11
 I14
-I42
-I46
+I11
 I0
-I265
+I272
 I1
 tp159
 (dp160
@@ -614,8 +614,8 @@ g12
 I00
 sg13
 (lp203
-F514.9999999999999
-aF282.33333333333354
+F516.5542021924481
+aF283.8875355257818
 asg15
 (itiddlywiki
 Tiddler
@@ -2002,7 +2002,7 @@ Tiddler
 p634
 (dp635
 g19
-V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account. If you have trouble submitting the form, you can [[fill it out here instead|https://secure.jotformpro.com/form/41326113066949]].\u000a\u000a<html><iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://secure.jotformpro.com/form/41326113066949" frameborder="0" style="margin: 0 auto; width:352px; height:487px; display:block; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script></html>\u005c\u000a<<segue "Credits">>
+V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account. If you have trouble submitting the form, you can [[complete it here instead|https://secure.jotformpro.com/form/41326113066949]].\u000a\u000a<html><iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://secure.jotformpro.com/form/41326113066949" frameborder="0" style="margin: 0 auto; width:352px; height:487px; display:block; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script></html>\u005c\u000a<<segue "Credits">>
 p636
 sg21
 VWhat to do next
@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2014
 I9
-I25
-I16
-I6
-I28
-I3
-I268
+I29
+I10
+I20
+I12
+I0
+I272
 I1
 tp638
 (dp639
@@ -2158,7 +2158,7 @@ Tiddler
 p682
 (dp683
 g19
-V<div class="inset-shadow"><img src="images/Survival_Training.png"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information, information that you will need to know to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the ''Quick Tour'' now for a very brief introduction to the Training interface. It will quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides more detailed information on a topic or topics. Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aWhen you're ready to move on, hit the ''big blue Continue button'' at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
+V<div class="inset-shadow"><img src="images/Survival_Training.png"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information, information that you will need to know to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the ''Quick Tour'' now for a very brief introduction to the Training interface. It will quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides ''In-Depth Information'' on a topic or topics. We recommend that you read these links in all cases where a topic could conceivably apply to you! Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aThroughout the training, ''blue hyperlinks'' will direct you to external sites with useful information or further resources. For example, this link will take you to the [[Global Education Office's home page|http://vanderbilt.edu/geo]].\u000a\u000aWhen you're ready to move on, hit the ''big blue Continue button'' at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
 p684
 sg21
 VAbout the Presentation
@@ -2167,12 +2167,12 @@ sg23
 g24
 ((I2014
 I9
-I24
-I17
-I3
-I1
-I2
-I267
+I29
+I10
+I5
+I54
+I0
+I272
 I1
 tp686
 (dp687
@@ -2221,12 +2221,12 @@ sg23
 g24
 ((I2014
 I9
-I23
-I13
+I29
 I17
-I55
-I1
-I266
+I4
+I0
+I0
+I272
 I1
 tp703
 (dp704
@@ -2323,12 +2323,12 @@ sg23
 g24
 ((I2014
 I9
-I16
-I14
-I45
-I51
-I1
-I259
+I29
+I10
+I19
+I31
+I0
+I272
 I1
 tp734
 (dp735
@@ -2582,13 +2582,13 @@ p813
 sg23
 g24
 ((I2014
-I7
-I31
-I15
-I36
-I53
-I3
-I212
+I9
+I29
+I10
+I0
+I21
+I0
+I272
 I1
 tp814
 (dp815

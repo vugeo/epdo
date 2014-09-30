@@ -601,7 +601,7 @@ h1.full-print {
   -webkit-column-fill: balance;
      -moz-column-fill: balance;
           column-fill: balance;
-  /*display: inline-block;*/ /*needed for webkit to balance columns properly */
+  display: inline-block; /*needed for webkit to balance columns properly */
 }
 
 .index-item {

@@ -1,20 +1,22 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Move the ability to reset progress to the drawer. Also set start page config to About the Presentation.
+* Move Safety and Security section toward front of training.
 * Set up robots.txt in new web directory: http://www.robotstxt.org/robotstxt.html
 * Check out iPad sometime failure to display background image when animating title.
+* Make registration form submission set a flag so that it won't appear again after you've submitted it once.
 * Look at recording history of what was actually read along with visible data in JotForm
 * Add full list of resources to What To Do Next (Mei's suggestion).
 * Add warning dialogue for Android phones.
 * Add an index button to appear in the header after finishing the registration or hitting the Credits page.
-* Make registration form submission set a flag so that it won't appear again after you've submitted it once.
-* Find source of the "none" image that the presentation attempts to load. Difficult to find so far. All indications are that this is not actually an image, but from the snap.js external javascript.
-* iOS app icon template: http://appicontemplate.com/
-* Add an emergency plan for download, with blanks that student can fill in for local info.
+* Fix index display on wider aspect ratio Chrome.
 * Add iOS metas:
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<link rel="apple-touch-icon" href="icon.png" /> (icon for users' desktop if saved as webapp)
 	http://davidbcalhoun.com/2010/using-mobile-specific-html-css-javascript/
+
+* Find source of the "none" image that the presentation attempts to load. Difficult to find so far. All indications are that this is not actually an image, but from the snap.js external javascript.
+* iOS app icon template: http://appicontemplate.com/
+* Add an emergency plan for download, with blanks that student can fill in for local info.
 * Safari 5.1: Sometimes(?) the menu help tooltip stays onscreen when the following tip is shown. This may have been fixed, though.
 * Comment out all console.log references DONE
 * Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();) DONE

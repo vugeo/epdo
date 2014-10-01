@@ -96,6 +96,7 @@
                     $("#store-area div").each(function() {
                         if ($(this).attr("tiddler") === seek) {
                             for(tagName in backgrounds) {
+                                //console.log("Exploring section: " + tagName + "...");
                                 if ($(this).attr("tags") && $(this).attr("tags").indexOf(tagName) > -1 ) {
                                     if (tagName !== lastTag) {
                                         count++;
@@ -126,6 +127,7 @@
                                             //console.log("   Found sidebars: " + sidebarStore.length);
                                         }
                                         fullindex[count].passages.push(passageStore);
+                                        //console.log(fullindex);
                                     }
                                     
                                     break;

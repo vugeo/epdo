@@ -110,20 +110,17 @@
             setTimeout(function() {
                 $("#section-name").removeClass("hilight");
             }, 1100);
-            if (advancing && $("#backgrounds").css("display") !== "none") {
+            if (advancing && $("#backgrounds").css("display") !== "none" && !tags().contains("nodrama")) {
                 //If we are here for the first time, we also want to
                 //dramatically show the module title
-                if (currentPassage.enumeration > 1) {
-                    //But, don't show title dramatically on the first page
-                    $("#body-wrap").addClass("title");
-                    $("#bkgd-title").html("<h1>" + currentPassage.section + "</h1>").addClass("title");
-                    setTimeout(function() {
-                        $("#bkgd-title").removeClass("title");
-                        $("#body-wrap").removeClass("title");
-                        customScroll.refresh();
-                        customScroll.scrollTo(0, 0);// Android in particular doesn't rescroll properly
-                    }, 5500);
-                }
+                $("#body-wrap").addClass("title");
+                $("#bkgd-title").html("<h1>" + currentPassage.section + "</h1>").addClass("title");
+                setTimeout(function() {
+                    $("#bkgd-title").removeClass("title");
+                    $("#body-wrap").removeClass("title");
+                    customScroll.refresh();
+                    customScroll.scrollTo(0, 0);// Android in particular doesn't rescroll properly
+                }, 5500);
             }
             // Next, change the background image
             var $active = $(".img-anchor");
@@ -163,8 +160,8 @@
     if (typeof customScroll != "undefined") {
         setTimeout(function () {
             customScroll.refresh();
-            customScroll.scrollTo(0, 0);// Android in particular doesn't rescroll properly
-        }, 600);
+            customScroll.scrollTo(0, 0);
+        }, 600);// Android and iPad in particular don't rescroll properly
     }
 <</script>>
 <<if state.active.title eq "Index">>

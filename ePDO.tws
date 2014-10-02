@@ -1991,7 +1991,7 @@ tp630
 Rp631
 sbsa(dp632
 g12
-I01
+I00
 sg13
 (lp633
 F1610.3373934226588
@@ -2002,7 +2002,7 @@ Tiddler
 p634
 (dp635
 g19
-V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account. If you have trouble submitting the form, you can [[complete it here instead|https://secure.jotformpro.com/form/41326113066949]].\u000a\u000a<html><iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="Register/ePDO%20Registration.html" frameborder="0" style="margin: 0 auto; width:352px; height:487px; display:block; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script></html>\u005c\u000a<<segue "Credits">>
+V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account. If you have trouble submitting the form, you can [[complete it here instead|http://form.jotformpro.com/form/41326113066949]].\u000a<<if $registration neq true>><html><iframe id="JotFormIFrame" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:352px; height:487px; display:block; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">\u000a    window.handleIFrameMessage = function(e) {\u000a        console.log("Received a message...");\u000a        var args = e.data.split(":");\u000a        console.log(args[0]);\u000a        var iframe = document.getElementById("JotFormIFrame");\u000a        if (!iframe) return;\u000a        switch (args[0]) {\u000a            case "scrollIntoView":\u000a                iframe.scrollIntoView();\u000a                break;\u000a            case "setHeight":\u000a                iframe.style.height = args[1] + "px";\u000a                break;\u000a        }\u000a    };\u000a    if (window.addEventListener) {\u000a        window.addEventListener("message", handleIFrameMessage, false);\u000a    } else if (window.attachEvent) {\u000a        window.attachEvent("onmessage", handleIFrameMessage);\u000a    }\u000a</script>\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="checkmark"></div><span>&nbsp;&nbsp;You have successfully registered your participation.</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
 p636
 sg21
 VWhat to do next
@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2014
 I10
-I1
-I13
-I38
-I26
 I2
-I274
+I15
+I58
+I46
+I3
+I275
 I1
 tp638
 (dp639
@@ -2168,9 +2168,9 @@ g24
 ((I2014
 I10
 I1
-I13
-I37
-I22
+I16
+I10
+I15
 I2
 I274
 I1
@@ -2844,7 +2844,7 @@ Tiddler
 p895
 (dp896
 g19
-V<<sidebar "Sexual and gender identity abroad">>\u000aIf you identify as lesbian, gay, bisexual, transgender, queer/questioning, or intersex, you will want to take time to consider whether and how you plan to be out abroad. Depending on where you are traveling, your destination may provide you with either a more open environment than the US, or a much less welcoming one. Either way, be prepared: make yourself aware in advance of local attitudes, beliefs, and understandings. Ask yourself questions like the following:\u000a\u000a|box|k\u000a|!Questions for LGBTQI Students to Consider:|\u000a|What behaviors are legal in my host country? If I am interested in activism, are there ways to practice it both safely and legally?|\u000a|<hr>Is it safe for me to be out in my host country and city?|\u000a|<hr>How open do I want or need to be about my gender or sexual identity while abroad? Do I plan to be out? How specifically will I reconcile my human rights with the cultural values of my host country?|\u000a|<hr>If my destination is one where I need to conceal my identity, how will this impact my experience?|\u000a|<hr>What are the cultural norms surrounding friendship and dating in my host culture?|\u000a|<hr>What norms surround publicly identifying as LGBTQI in my host culture? How does my self-presentation "read" in my host culture's system of gendered norms and expectations?|\u000a|<hr>What is the LGBTQI community in my host city like? How is it different from the community at home?|\u000a|<hr>What on-site resources will I have if I experience any issues/concerns while I am abroad? Are there LGBTQI organizations or other resources at my host university or in my host city?|\u000a|<hr>Do I have concerns about my housing situation? (If living with a host family, consider making the housing coordinator aware that you would like a host family that has hosted LGBQTI students in the past.)|\u000a|<hr>Might I face challenges with travel and documents due to my gender presentation?|\u000a\u000aRegardless of self-identification, all students should be aware not only of local attitudes and beliefs surrounding sex and sexual identity, but also of local laws. Some countries criminalize speech as well as behavior, and you need to be well informed about matters that could affect your safety and well-being. The [[ILGA website|http://ilga.org/]] is a good resource for checking on legal regimes around the world. \u000a\u000aStudy abroad is often a time when students explore identity and selfhood. If you are not out at home and are considering being out abroad, please make doubly sure that you do your research and ensure that your safety and well-being are provided for. If you will live with a homestay family and want to be out to them, consider telling the housing coordinator in advance that you would like an LGBQTI-friendly family. You can stipulate that they keep your request confidential, including from the family.\u000a\u000aThe local LGBQTI community will likely be quite different from that in your home country. Coming to know and understand this new culture will likely be exciting and rewarding, but like any process of cultural adaptation it may also be trying at times. Learn as much as you can in advance, but also adopt the attitude that difficulties are challenges to overcome rather than merely obstacles in your way.\u000a\u000aIt may be helpful to talk with others who have studied or traveled in your host country. You may be able to take advantage of welcoming contexts on campus, such as the [[Office of LGBQTI Life|http://www.vanderbilt.edu/lgbtqi/]], to help you network with past participants. Your study abroad provider may be able to connect you with LGBQTI alumni of your specific program. Your program staff can also serve as an excellent resource both before you leave and while you're abroad.\u000a\u000aIf you would like to talk about any aspect of your program with the Global Education Office, please do not hesitate to [[contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]].\u000a\u000a|box|k\u000a|!Resources|\u000a|Vanderbilt's [[Office of LGBQTI Life|http://www.vanderbilt.edu/lgbtqi/]], a cultural center and resource for information and support about gender and sexuality|\u000a|[[International Lesbian, Gay, Bisexual, Trans and Intersex Association|http://ilga.org/]] provides legal information on every country, as well as news and reports on the state of LGBTQI rights around the world|\u000a|[[International Gay & Lesbian Human Rights Commission|http://iglhrc.org/]] has extensive country-specific resources.|\u000a|[[Rainbow SIG bibliography|http://overseas.iu.edu/living/glbt_biblio.shtml]], bibliography of LGBQTI literature with an international perspective|\u000a|[[Rainbow SIG|http://www.rainbowsig.org/]], an organization of study abroad professionals knowledgeable about LGBQTI issues|\u000a|[[ILGA-Europe|http://www.ilga-europe.org/]], the website of the International Lesbian, Gay, Bisexual, Trans and Intersex Association's European chapter, provides multiple resources, including a Guide to Europe|\u000a|[[Utopia|http://www.utopia-asia.com/]], an online guide to Asia-Pacific gay and lesbian resources, including legal and cultural information as well as links to country-specific resources|\u000a|[[Travel at Transgender Equality|http://transequality.org/Issues/travel.html]]: air travel tips for transgender people|\u000a|[[US passport requirements|http://travel.state.gov/content/passports/english/passports/information/gender.html]] for transgender students|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
+V<<sidebar "Sexual and gender identity abroad">>\u000aIf you identify as lesbian, gay, bisexual, transgender, queer/questioning, or intersex, you will want to take time to consider whether and how you plan to be out abroad. Depending on where you are traveling, your destination may provide you with either a more open environment than the US, or a much less welcoming one. Either way, be prepared: make yourself aware in advance of local attitudes, beliefs, and understandings. Ask yourself questions like the following:\u000a\u000a|box|k\u000a|!Questions for LGBTQI Students to Consider:|\u000a|What behaviors are legal in my host country? If I am interested in activism, are there ways to practice it both safely and legally?|\u000a|<hr>Is it safe for me to be out in my host country and city?|\u000a|<hr>How open do I want or need to be about my gender or sexual identity while abroad? Do I plan to be out? How specifically will I reconcile my human rights with the cultural values of my host country?|\u000a|<hr>If my destination is one where I need to conceal my identity, how will this impact my experience?|\u000a|<hr>What are the cultural norms surrounding friendship and dating in my host culture?|\u000a|<hr>What norms surround publicly identifying as LGBTQI in my host culture? How does my self-presentation "read" in my host culture's system of gendered norms and expectations?|\u000a|<hr>What is the LGBTQI community in my host city like? How is it different from the community at home?|\u000a|<hr>What on-site resources will I have if I experience any issues/concerns while I am abroad? Are there LGBTQI organizations or other resources at my host university or in my host city?|\u000a|<hr>Do I have concerns about my housing situation? (If living with a host family, consider making the housing coordinator aware that you would like a host family that has hosted LGBTQI students in the past.)|\u000a|<hr>Might I face challenges with travel and documents due to my gender presentation?|\u000a\u000aRegardless of self-identification, all students should be aware not only of local attitudes and beliefs surrounding sex and sexual identity, but also of local laws. Some countries criminalize speech as well as behavior, and you need to be well informed about matters that could affect your safety and well-being. The [[ILGA website|http://ilga.org/]] is a good resource for checking on legal regimes around the world. \u000a\u000aStudy abroad is often a time when students explore identity and selfhood. If you are not out at home and are considering being out abroad, please make doubly sure that you do your research and ensure that your safety and well-being are provided for. If you will live with a homestay family and want to be out to them, consider telling the housing coordinator in advance that you would like an LGBTQI-friendly family. You can stipulate that they keep your request confidential, including from the family.\u000a\u000aThe local LGBTQI community will likely be quite different from that in your home country. Coming to know and understand this new culture will likely be exciting and rewarding, but like any process of cultural adaptation it may also be trying at times. Learn as much as you can in advance, but also adopt the attitude that difficulties are challenges to overcome rather than merely obstacles in your way.\u000a\u000aIt may be helpful to talk with others who have studied or traveled in your host country. You may be able to take advantage of welcoming contexts on campus, such as the [[Office of LGBTQI Life|http://www.vanderbilt.edu/lgbtqi/]], to help you network with past participants. Your study abroad provider may be able to connect you with LGBTQI alumni of your specific program. Your program staff can also serve as an excellent resource both before you leave and while you're abroad.\u000a\u000aIf you would like to talk about any aspect of your program with the Global Education Office, please do not hesitate to [[contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5]].\u000a\u000a|box|k\u000a|!Resources|\u000a|Vanderbilt's [[Office of LGBTQI Life|http://www.vanderbilt.edu/lgbtqi/]], a cultural center and resource for information and support about gender and sexuality|\u000a|[[International Lesbian, Gay, Bisexual, Trans and Intersex Association|http://ilga.org/]] provides legal information on every country, as well as news and reports on the state of LGBTQI rights around the world|\u000a|[[International Gay & Lesbian Human Rights Commission|http://iglhrc.org/]] has extensive country-specific resources.|\u000a|[[Rainbow SIG bibliography|http://overseas.iu.edu/living/glbt_biblio.shtml]], bibliography of LGBTQI literature with an international perspective|\u000a|[[Rainbow SIG|http://www.rainbowsig.org/]], an organization of study abroad professionals knowledgeable about LGBTQI issues|\u000a|[[ILGA-Europe|http://www.ilga-europe.org/]], the website of the International Lesbian, Gay, Bisexual, Trans and Intersex Association's European chapter, provides multiple resources, including a Guide to Europe|\u000a|[[Utopia|http://www.utopia-asia.com/]], an online guide to Asia-Pacific gay and lesbian resources, including legal and cultural information as well as links to country-specific resources|\u000a|[[Travel at Transgender Equality|http://transequality.org/Issues/travel.html]]: air travel tips for transgender people|\u000a|[[US passport requirements|http://travel.state.gov/content/passports/english/passports/information/gender.html]] for transgender students|\u000a\u000a<<segue "Contacts and communications">>\u005c
 p897
 sg21
 VSexual and gender identity abroad
@@ -2852,13 +2852,13 @@ p898
 sg23
 g24
 ((I2014
-I7
-I23
-I15
-I12
-I59
+I10
 I2
-I204
+I16
+I1
+I20
+I3
+I275
 I1
 tp899
 (dp900
@@ -3908,7 +3908,7 @@ Tiddler
 p1227
 (dp1228
 g19
-V<div id="browsers">\u005c\u000a	<div class="browser"><span class="sprite sprite-chrome_64x64"></span><p>''Chrome''</p><p>v20+<br />Android<br />iOS</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-firefox_64x64"></span><p>''Firefox''</p><p>v5+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-internet-explorer_64x64"></span><p>''Internet Explorer''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari_64x64"></span><p>''Safari''</p><p>v5.1+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari-ios_64x64"></span><p>''Mobile Safari''</p><p>iOS 6.1+</p></div>\u005c\u000a</div>\u005c
+V<div id="browsers">\u005c\u000a	<div class="browser"><span class="sprite sprite-chrome_64x64"></span><p>''Chrome''</p><p>v20+<br />Android<br />iOS</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-firefox_64x64"></span><p>''Firefox''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-internet-explorer_64x64"></span><p>''Internet Explorer''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari_64x64"></span><p>''Safari''</p><p>v5.1+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari-ios_64x64"></span><p>''Mobile Safari''</p><p>iOS 6.1+</p></div>\u005c\u000a</div>\u005c
 p1229
 sg21
 VBrowsers
@@ -3918,9 +3918,9 @@ g24
 ((I2014
 I10
 I1
+I16
 I10
-I4
-I48
+I25
 I2
 I274
 I1
@@ -4049,10 +4049,62 @@ tp1268
 (dp1269
 tp1270
 Rp1271
+sbsa(dp1272
+g12
+I00
+sg13
+(lp1273
+F1821.622411693053
+aF1891.4640682094964
+asg15
+(itiddlywiki
+Tiddler
+p1274
+(dp1275
+g19
+Vsetup.version = "0.8";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000a}
+p1276
+sg21
+VVersion & Reset
+p1277
+sg23
+g24
+((I2014
+I10
+I2
+I12
+I34
+I45
+I3
+I275
+I1
+tp1278
+(dp1279
+tp1280
+Rp1281
+sg29
+(lp1282
+Vscript
+p1283
+asg32
+g24
+((I2014
+I10
+I1
+I14
+I32
+I19
+I2
+I274
+I1
+tp1284
+(dp1285
+tp1286
+Rp1287
 sbsasS'scale'
-p1272
+p1288
 F0.643416927899688
 sS'snapping'
-p1273
+p1289
 I00
 ss.

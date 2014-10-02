@@ -32,7 +32,7 @@ var JotForm = {
      * Progress bar object above form
      * @var Object
      */
-    progressBar: false,    
+    progressBar: true,    
     /**
      * All JotForm forms on the page
      * @var Array

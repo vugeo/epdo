@@ -9,6 +9,7 @@
 <<set $pdfURL to "https://dl.dropboxusercontent.com/u/8434146/GitHub/epdo/PDF/Global%20Education%20Office%20Survival%20Training.pdf">>
 <<set $urlopts to {}>>
 <<set $temp to "">>
+<<set $registration to false>>
 <<script>>
     // Create new options interface
     window.setOption = function(name, value) {
@@ -36,8 +37,13 @@
         setOption("passageprogress", 0);
     }
 
-    // Set up custom UI
+    // Set flag if registration succeeds
+    window.registrationSubmit = function() {
+        console.log("Submitted!");
+        state.active.variables.registration = true;
+    }
 
+    // Set up custom UI
     var main = document.getElementById('passages');
     var body_wrap = insertElement(document.body, "div", "body-wrap");
     var content_wrap = insertElement(body_wrap, "div", "content-wrap", "snap-content");

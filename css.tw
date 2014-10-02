@@ -633,6 +633,29 @@ p.index-sidebar {
   font-size:11px;
 }
 
+/*Success box*/
+.message-box {
+  border: 1px solid;
+  margin: 10px 5%;
+  padding:15px 10px;
+}
+.message-box span {
+  height: 32px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.success {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+}
+.checkmark {
+  float: left;
+  background: url(ui/checkmark-green.svg);
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
 :: Custom UI styles [stylesheet]
 header#custom {
     position:absolute;

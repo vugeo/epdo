@@ -1,11 +1,13 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* When new versions that rearrange, delete, or add passages come out, it is necessary to delete SugarCube's saves and options.
+* When new versions that rearrange, delete, or add passages come out, it is necessary to delete SugarCube's saves and options. Test new code in ::Version & Reset.
+* Make registration form submission set a flag so that it won't appear again after you've submitted it once. NEARLY COMPLETE: Change flag to be directly stored, rather than a variable.
+* Convert checkmark .svg into a .png.
+* Add to credits, including Twine and SugarCube folks.
 * Incorporate Ruth's content images.
 * Incorporate Ruth's background images.
 * Set up robots.txt in new web directory: http://www.robotstxt.org/robotstxt.html
 * Check out iPad sometime failure to display background image when animating title.
-* Make registration form submission set a flag so that it won't appear again after you've submitted it once.
 * Look at recording history of what was actually read along with visible data in JotForm
 * Add full list of resources to What To Do Next (Mei's suggestion).
 * Add warning dialogue for Android default browser, maybe iPads (or prevent dramatic titles on iPads).

@@ -119,7 +119,7 @@
                     $("#bkgd-title").removeClass("title");
                     $("#body-wrap").removeClass("title");
                     customScroll.refresh();
-                    customScroll.scrollTo(0, 0);// Android in particular doesn't rescroll properly
+                    //customScroll.scrollTo(0, 0);// Android in particular doesn't rescroll properly
                 }, 5500);
             }
             // Next, change the background image

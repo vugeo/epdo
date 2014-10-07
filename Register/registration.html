@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="HandheldFriendly" content="true" />
 <title>Form</title>
-<link type="text/css" rel="stylesheet" href="css/styles/form.css?v3.2.3847"/>
-<link href="css/calendarview.css?v3.2.3847" rel="stylesheet" type="text/css" />
-<link type="text/css" media="print" rel="stylesheet" href="http://max.jotfor.ms/css/printForm.css?3.2.3847" />
+<link type="text/css" rel="stylesheet" href="css/styles/form.css?v3.2.3870"/>
+<link href="css/calendarview.css?v3.2.3870" rel="stylesheet" type="text/css" />
+<link type="text/css" media="print" rel="stylesheet" href="http://max.jotfor.ms/css/printForm.css?3.2.3870" />
 <style type="text/css">
     .form-label-left{
         width:90px !important;
@@ -43,9 +43,10 @@ border:1px solid #aaa;
 .form-label-left:hover span{
 color:#0459b7;
 }
-.form-label-left:hover span:after{
+/* .form-label-left:hover span:after{
 content:" »";
-}.form-submit-button{
+}*/
+.form-submit-button{
 background:#ddd;
 background:-moz-linear-gradient(90deg, #0459b7, #08adff); /* Firefox */
 background:-webkit-gradient(linear, left top, left bottom, from(#08adff), to(#0459b7)); /* Webkit */
@@ -103,8 +104,8 @@ background:none repeat scroll 0 0;
 }/*--submit button move slightly left--*/
 .form-textarea{
 font-size:11px;
-width:300px !important;
-max-width:300px !important;
+width:299px !important;
+max-width:299px !important;
 }/*--add red border on error--*/
 .form-validation-error {
 border: 1px solid red !important;
@@ -112,12 +113,12 @@ border: 1px solid red !important;
     /* Injected CSS Code */
 </style>
 
-<script src="js/prototype.js?v=3.2.3847" type="text/javascript"></script>
-<script src="js/vendor/json2.js?v=3.2.3847" type="text/javascript"></script>
-<script src="js/protoplus.js?v=3.2.3847" type="text/javascript"></script>
-<script src="js/protoplus-ui-form.js?v=3.2.3847" type="text/javascript"></script>
-<script src="js/jotform.js?v=3.2.3847" type="text/javascript"></script>
-<script src="js/calendarview.js?v=3.2.3847" type="text/javascript"></script>
+<script src="js/prototype.js?v=3.2.3870" type="text/javascript"></script>
+<script src="js/vendor/json2.js?v=3.2.3870" type="text/javascript"></script>
+<script src="js/protoplus.js?v=3.2.3870" type="text/javascript"></script>
+<script src="js/protoplus-ui-form.js?v=3.2.3870" type="text/javascript"></script>
+<script src="js/jotform.js?v=3.2.3870" type="text/javascript"></script>
+<script src="js/calendarview.js?v=3.2.3870" type="text/javascript"></script>
 <script type="text/javascript">
    JotForm.init(function(){
       JotForm.highlightInputs = false;
@@ -126,10 +127,26 @@ border: 1px solid red !important;
 </script>
 </head>
 <body>
-<form class="jotform-form" action="https://submit.jotformpro.com/submit.php" method="post" name="form_41326113066949" id="41326113066949" accept-charset="utf-8">
+<form class="jotform-form" action="http://submit.jotformpro.com/submit.php" method="post" name="form_41326113066949" id="41326113066949" accept-charset="utf-8">
   <input type="hidden" name="formID" value="41326113066949" />
   <div class="form-all">
-    <ul class="form-section">
+    <ul class="form-section"> <!--
+      <li id="cid_9" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group">
+          <div class="header-text httal htvam">
+            <h2 id="header_9" class="form-header">
+              Vanderbilt GEO Survival Training Registration
+            </h2>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_7">
+        <div id="cid_7" class="form-input-wide">
+          <div id="text_7" class="form-html">
+            <p>Students, in order to register your participation in the training, please provide your name and email address.</p>
+          </div>
+        </div>
+      </li> -->
       <li class="form-line" data-type="control_fullname" id="id_5">
         <label class="form-label form-label-left form-label-auto" id="label_5" for="input_5">
           Your Name
@@ -171,6 +188,12 @@ border: 1px solid red !important;
           </span>
         </div>
       </li>
+      <li class="form-line always-hidden" data-type="control_textarea" id="id_8">
+        <label class="form-label form-label-left form-label-auto" id="label_8" for="input_8"> Progress </label>
+        <div id="cid_8" class="form-input always-hidden">
+          <textarea id="input_8" class="form-textarea" name="q8_progress" cols="40" rows="6"></textarea>
+        </div>
+      </li>
       <li class="form-line" data-type="control_button" id="id_2">
         <div id="cid_2" class="form-input-wide">
           <div style="text-align:left" class="form-buttons-wrapper">
@@ -191,5 +214,10 @@ border: 1px solid red !important;
   document.getElementById("si" + "mple" + "_spc").value = "41326113066949-41326113066949";
   </script>
 </form><img src="//tracking.jotform.com/form/41326113066949" style="display:none" />
+<script>
+window.onload = function() {
+  console.log("iFrame loaded.");
+}
+</script>
 </body>
 </html>

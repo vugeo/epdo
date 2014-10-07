@@ -13,14 +13,14 @@ macros.add("displayIndex", {
                         if (group.hasOwnProperty("passage")) {
                             pass = tale.get(group.passage);
                             if (pass.tags.indexOf("nogather") === -1) {
-                                html += "<p class='index-passage'><a class='index-passage' data-passage='" + pass.title + "'>" + pass.title + "</a></p>";
+                                html += "<p class='index-passage'><a class='index-passage link-internal' data-passage='" + pass.title + "'>" + pass.title + "</a></p>";
                             }
                         }
                          if (group.hasOwnProperty("sidebars")) {
                             group.sidebars.forEach (function (side) {
                                 pass = tale.get(side);
                                 if (pass.tags.indexOf("nogather") === -1) {
-                                    html += "<p class='index-sidebar'><a class='index-passage' data-passage='" + pass.title + "'>" + pass.title + "</a></p>";
+                                    html += "<p class='index-sidebar'><a class='index-passage link-internal' data-passage='" + pass.title + "'>" + pass.title + "</a></p>";
                                 }
                             });
                         } 

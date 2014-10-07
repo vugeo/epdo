@@ -71,6 +71,8 @@
 									index[passageName].section = backgrounds[i].section;
 									index[passageName].url = backgrounds[i].url;
 									index[passageName].enumeration = backgrounds[i].enumeration;
+                                    index[passageName].seconds = 0;
+                                    index[passageName].sidebar = tags(passageName).contains("sidebar");
 								}
                                 if ($(this).attr("tags").indexOf("bookmark") > -1) {
                                     if (!bookmarks.hasOwnProperty(tagName)) {

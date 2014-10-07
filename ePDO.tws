@@ -402,8 +402,8 @@ g12
 I00
 sg13
 (lp137
-F18.783191230207066
-aF1865.0629313844856
+F12.566382460414147
+aF1793.569630531867
 asg15
 (itiddlywiki
 Tiddler
@@ -454,8 +454,8 @@ g12
 I00
 sg13
 (lp153
-F21.666666666666664
-aF1732.838002436051
+F15.449857896873745
+aF1661.3447015834324
 asg15
 (itiddlywiki
 Tiddler
@@ -1468,7 +1468,7 @@ Tiddler
 p467
 (dp468
 g19
-V<<sidebar "Do I Need Any Vaccinations?">>\u000aTo find out whether any vaccinations are required or recommended for your trip abroad, you may visit the [[Vanderbilt Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]]. You are also, of course, welcome to see a travel medicine provider of your choice.\u000a\u000aRegardless of who you consult, schedule your initial appointment ''at least 6 weeks before your departure''. Think about //all// of the countries you hope to visit and discuss them all with your travel clinician.   \u000a\u000aBe aware that most ''medical insurance usually does not cover immunizations'' or other medications needed for travel.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Centers for Disease Control travel website|http://wwwnc.cdc.gov/travel]], an excellent resource with country-specific information|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[VU Student Health Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]], information including list of documents to bring to your consultation|\u000a|[[List of information about vaccines|https://medschool.vanderbilt.edu/student-health/files/student-health/public_files/TravelImmunizations.pdf]] offered at VU Student Health, including approximate cost|\u000a\u000a<<segue "Medical insurance">>
+V<<sidebar "Do I Need Any Vaccinations?">>\u000aTo find out whether any vaccinations are required or recommended for your trip abroad, you may visit the [[Vanderbilt Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]]. You are also, of course, welcome to see a travel medicine provider of your choice.\u000a\u000aRegardless of who you consult, schedule your initial appointment ''at least 6 weeks before your departure''. Think about //all// of the countries you hope to visit and discuss them all with your travel clinician.   \u000a\u000aBe aware that most ''medical insurance usually does not cover immunizations'' or other medications needed for travel.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Centers for Disease Control travel website|http://wwwnc.cdc.gov/travel]], an excellent resource with country-specific information|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[VU Student Health Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]], information including list of documents to bring to your consultation|\u000a|[[List of information about vaccines|https://medschool.vanderbilt.edu/student-health/files/student-health/public_files/TravelImmunizations.pdf]] offered at VU Student Health, including approximate cost|\u000a\u000a<<segue "Medical insurance">>\u005c
 p469
 sg21
 VVaccinations
@@ -1476,13 +1476,13 @@ p470
 sg23
 g24
 ((I2014
-I7
-I31
-I15
-I39
-I49
+I10
 I3
-I212
+I14
+I48
+I2
+I4
+I276
 I1
 tp471
 (dp472
@@ -1991,7 +1991,7 @@ tp630
 Rp631
 sbsa(dp632
 g12
-I00
+I01
 sg13
 (lp633
 F1610.3373934226588
@@ -2002,7 +2002,7 @@ Tiddler
 p634
 (dp635
 g19
-V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account. If you have trouble submitting the form, you can [[complete it here instead|http://form.jotformpro.com/form/41326113066949]].\u000a<<if $registration neq true>><html><iframe id="JotFormIFrame" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:352px; height:487px; display:block; border:none;" scrolling="no"></iframe>\u000a<script type="text/javascript">\u000a    window.handleIFrameMessage = function(e) {\u000a        console.log("Received a message...");\u000a        var args = e.data.split(":");\u000a        console.log(args[0]);\u000a        var iframe = document.getElementById("JotFormIFrame");\u000a        if (!iframe) return;\u000a        switch (args[0]) {\u000a            case "scrollIntoView":\u000a                iframe.scrollIntoView();\u000a                break;\u000a            case "setHeight":\u000a                iframe.style.height = args[1] + "px";\u000a                break;\u000a        }\u000a    };\u000a    if (window.addEventListener) {\u000a        window.addEventListener("message", handleIFrameMessage, false);\u000a    } else if (window.attachEvent) {\u000a        window.attachEvent("onmessage", handleIFrameMessage);\u000a    }\u000a</script>\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="checkmark"></div><span>&nbsp;&nbsp;You have successfully registered your participation.</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
+V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account.\u000a<<script>>\u000awindow.registrationUpdate = function() {\u000a	console.log("Updating registration...");\u000a	var submitIndex = state.active.variables.index;\u000a	for (var passage in submitIndex) {\u000a  		if (!submitIndex.hasOwnProperty(passage)) { continue; }\u000a  		console.log("Checking time for " + passage);\u000a    	if (tags(passage).contains("bookmark") && $("#backgrounds").css("display") !== "none" && !tags().contains("nodrama")) {\u000a    		console.log("   Looks like a chapter starter!");\u000a    		console.log("   Saved time: " + submitIndex[passage].seconds);\u000a    		// Here we correct the record if the user has seen the dramatic titles\u000a    		submitIndex[passage].seconds = Math.max(0, parseFloat(submitIndex[passage].seconds - 4).toFixed(3));\u000a    		console.log("   Final time: " + submitIndex[passage].seconds);\u000a  		}\u000a	}\u000a	var json = JSON.stringify(submitIndex, function(key, value) {\u000a			if (key === "tag" || key === "url") {\u000a				return undefined;\u000a			}\u000a			return value;\u000a		});\u000a	console.log(submitIndex);\u000a	//console.log(json);\u000a	console.log(state.active.variables.index);\u000a	$("#JotFormIFrame").contents().find("#input_8").val(json);\u000a	$("#JotFormIFrame").removeAttr("onload");// Prevent this script from being called a second time\u000a}\u000a<</script>>\u005c\u000a<<if $registration neq true>><iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:352px; height:487px; display:block; border:none;" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="checkmark"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
 p636
 sg21
 VWhat to do next
@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2014
 I10
-I2
-I15
-I58
-I46
-I3
-I275
+I7
+I17
+I14
+I19
+I1
+I280
 I1
 tp638
 (dp639
@@ -2116,13 +2116,13 @@ p670
 sg23
 g24
 ((I2014
+I10
+I6
 I9
-I19
-I13
-I24
-I7
-I4
-I262
+I31
+I2
+I0
+I279
 I1
 tp671
 (dp672
@@ -2428,13 +2428,13 @@ p766
 sg23
 g24
 ((I2014
-I9
-I18
-I14
-I35
-I8
+I10
+I6
+I10
 I3
-I261
+I10
+I0
+I279
 I1
 tp767
 (dp768
@@ -2674,8 +2674,8 @@ g12
 I00
 sg13
 (lp843
-F156.66666666666663
-aF1732.1713357693852
+F150.4498578968737
+aF1660.6780349167666
 asg15
 (itiddlywiki
 Tiddler
@@ -3804,7 +3804,7 @@ Tiddler
 p1195
 (dp1196
 g19
-V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000amacros.get("saveoptions").handler();\u000a\u000aconfig.startPassage = "About Survival Training"
+V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000amacros.get("saveoptions").handler();\u000a\u000a//config.saves.autoload = true;\u000a//config.startPassage = "About Survival Training";
 p1197
 sg21
 VOptions
@@ -3813,12 +3813,12 @@ sg23
 g24
 ((I2014
 I10
-I1
-I10
-I4
-I36
-I2
-I274
+I6
+I17
+I15
+I12
+I0
+I279
 I1
 tp1199
 (dp1200
@@ -4071,12 +4071,12 @@ sg23
 g24
 ((I2014
 I10
-I2
-I12
-I34
-I45
+I6
+I10
 I3
-I275
+I22
+I0
+I279
 I1
 tp1278
 (dp1279

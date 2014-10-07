@@ -9,6 +9,7 @@
     //console.log("passage: " + passage);
     var currentPassage = index[passage];
     var advancing = false; //Have we advanced to a new page for the first time?
+    var dramaticTitle = false;
     var passageTags = state.active.variables.tags;
     var sections = state.active.variables.backgrounds;
     var bookmarks = state.active.variables.bookmarks;
@@ -58,18 +59,18 @@
         $("#nav-container").html(function(){
             var html = "<ul class='chapter-list'>";
             for (var i = 1; i < (options.chapterprogress + 1); i++) {
-                html += "<li><a class='chapter-list" + (i === currentTag ? " active" : "") + "' data-passage='" + bookmarks[passageTags[i]] + "'>" + sections[passageTags[i]].section + "</a><ul class='passage-list'>";
+                html += "<li><a class='chapter-list link-internal" + (i === currentTag ? " active" : "") + "' data-passage='" + bookmarks[passageTags[i]] + "'>" + sections[passageTags[i]].section + "</a><ul class='passage-list'>";
                     $.each(fullindex[i-1].passages, function(j, pass) {
                         //console.log("Adding " + pass.passage + " to menu: " + index[pass.passage].enumeration + "/" + progress);
                         if (pass.passage === state.active.title) {
                             html += "<li class='inactive'><a class='passage-list passage-list-inactive' data-passage='" + pass.passage + "'>" + pass.passage + "</a>";
                         }
                         else {
-                            html += "<li><a class='passage-list' data-passage='" + pass.passage + "'>" + pass.passage + "</a>";
+                            html += "<li><a class='passage-list link-internal' data-passage='" + pass.passage + "'>" + pass.passage + "</a>";
                         }
                         if (pass.hasOwnProperty("sidebars")) {
                             pass.sidebars.forEach (function (side) {
-                                html += "<p class='sidebar-list'><a class='index-passage' data-passage='" + side + "'>" + side + "</a></p>";
+                                html += "<p class='sidebar-list'><a class='index-passage link-internal' data-passage='" + side + "'>" + side + "</a></p>";
                             });
                         }
                         html += "</li>";
@@ -111,10 +112,11 @@
                 $("#section-name").removeClass("hilight");
             }, 1100);
             if (advancing && $("#backgrounds").css("display") !== "none" && !tags().contains("nodrama")) {
-                //If we are here for the first time, we also want to
-                //dramatically show the module title
+                // If we are here for the first time, we also want to
+                // dramatically show the module title
                 $("#body-wrap").addClass("title");
                 $("#bkgd-title").html("<h1>" + currentPassage.section + "</h1>").addClass("title");
+                dramaticTitle = true;
                 setTimeout(function() {
                     $("#bkgd-title").removeClass("title");
                     $("#body-wrap").removeClass("title");
@@ -163,6 +165,25 @@
             customScroll.scrollTo(0, 0);
         }, 600);// Android and iPad in particular don't rescroll properly
     }
+    // Log current time for later extraction
+    var timestamp = Date.now();
+    // Remove any previously attached handlers
+    $(".link-internal").off("click.timeHandler");
+    // ...And set up a click handler to calculate elapsed time when we move on
+    var passage = state.active.title;
+    $(".link-internal").on("click.timeHandler", function() {
+        console.log("Received click while in " + passage);
+        var preTime = state.active.variables.index[passage].seconds;
+        console.log("   Pre-time = " + preTime);
+        var time = Date.now();
+        var elapsedTime = (time - timestamp) / 1000;
+        console.log("   Elapsed Time: " + elapsedTime);
+        console.log("   Time: " + time);
+        console.log("   Timestamp: " + timestamp);
+        if (elapsedTime > 0) {
+            state.active.variables.index[passage].seconds = parseFloat((elapsedTime + preTime)).toFixed(3);
+    }
+});
 <</script>>
 <<if state.active.title eq "Index">>
     <<displayIndex>>

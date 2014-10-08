@@ -2002,7 +2002,7 @@ Tiddler
 p634
 (dp635
 g19
-V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account.\u000a<<if true>><iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:352px; height:437px; display:block; border:none;" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="checkmark"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
+V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account.\u000a<<if storage.getItem("registration") neq true>><iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:352px; height:437px; display:block; border:none;" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="checkmark"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
 p636
 sg21
 VWhat to do next
@@ -2012,9 +2012,9 @@ g24
 ((I2014
 I10
 I8
-I16
-I28
-I22
+I17
+I6
+I1
 I2
 I281
 I1
@@ -3804,7 +3804,7 @@ Tiddler
 p1195
 (dp1196
 g19
-V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000amacros.get("saveoptions").handler();\u000a\u000a//config.saves.autoload = true;\u000a//config.startPassage = "About Survival Training";
+V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000amacros.get("saveoptions").handler();\u000a\u000aconfig.saves.autoload = true;\u000aconfig.startPassage = "About Survival Training";
 p1197
 sg21
 VOptions
@@ -3813,12 +3813,12 @@ sg23
 g24
 ((I2014
 I10
-I6
+I8
 I17
-I15
-I12
-I0
-I279
+I14
+I55
+I2
+I281
 I1
 tp1199
 (dp1200
@@ -4062,7 +4062,7 @@ Tiddler
 p1274
 (dp1275
 g19
-Vsetup.version = "0.82";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000a}
+Vsetup.version = "0.83";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000a}
 p1276
 sg21
 VVersion & Reset
@@ -4072,9 +4072,9 @@ g24
 ((I2014
 I10
 I8
-I16
-I26
-I37
+I17
+I14
+I45
 I2
 I281
 I1

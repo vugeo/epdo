@@ -1,6 +1,7 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%.
-* Chrome on Android may reset weirdly when using Continue. May also be misdirected clicks. Try making previous button go on same line for mobile.
+* Style of Jotform commit button has changed... Fix?
+* Chrome on Android *may* reset weirdly when using Continue. May also be misdirected clicks. Try making previous button go on same line for mobile.
 * Upgrade to latest SugarCube and fix resulting CSS issues.
 * When new versions that rearrange, delete, or add passages come out, it is necessary to delete SugarCube's saves and options. Test new code in ::Version & Reset. SEEMS TO WORK WELL!
 * Convert checkmark .svg into a .png.

@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="HandheldFriendly" content="true" />
 <title>Form</title>
-<link type="text/css" rel="stylesheet" href="css/styles/form.css?v3.2.3870"/>
-<link href="css/calendarview.css?v3.2.3870" rel="stylesheet" type="text/css" />
-<link type="text/css" media="print" rel="stylesheet" href="http://max.jotfor.ms/css/printForm.css?3.2.3870" />
+<link type="text/css" rel="stylesheet" href="css/styles/form.css?v3.2.3943"/>
+<link href="css/calendarview.css?v3.2.3943" rel="stylesheet" type="text/css" />
+<link type="text/css" media="print" rel="stylesheet" href="http://max.jotfor.ms/css/printForm.css?3.2.3943" />
 <style type="text/css">
     .form-label-left{
         width:90px !important;
@@ -43,10 +43,10 @@ border:1px solid #aaa;
 .form-label-left:hover span{
 color:#0459b7;
 }
-/* .form-label-left:hover span:after{
+/*.form-label-left:hover span:after{
 content:" »";
-}*/
-.form-submit-button{
+}.*/
+form-submit-button{
 background:#ddd;
 background:-moz-linear-gradient(90deg, #0459b7, #08adff); /* Firefox */
 background:-webkit-gradient(linear, left top, left bottom, from(#08adff), to(#0459b7)); /* Webkit */
@@ -104,8 +104,8 @@ background:none repeat scroll 0 0;
 }/*--submit button move slightly left--*/
 .form-textarea{
 font-size:11px;
-width:299px !important;
-max-width:299px !important;
+width:149px !important;
+max-width:149px !important;
 }/*--add red border on error--*/
 .form-validation-error {
 border: 1px solid red !important;
@@ -113,12 +113,12 @@ border: 1px solid red !important;
     /* Injected CSS Code */
 </style>
 
-<script src="js/prototype.js?v=3.2.3870" type="text/javascript"></script>
-<script src="js/vendor/json2.js?v=3.2.3870" type="text/javascript"></script>
-<script src="js/protoplus.js?v=3.2.3870" type="text/javascript"></script>
-<script src="js/protoplus-ui-form.js?v=3.2.3870" type="text/javascript"></script>
-<script src="js/jotform.js?v=3.2.3870" type="text/javascript"></script>
-<script src="js/calendarview.js?v=3.2.3870" type="text/javascript"></script>
+<script src="js/prototype.js?v=3.2.3943" type="text/javascript"></script>
+<script src="js/vendor/json2.js?v=3.2.3943" type="text/javascript"></script>
+<script src="js/protoplus.js?v=3.2.3943" type="text/javascript"></script>
+<script src="js/protoplus-ui-form.js?v=3.2.3943" type="text/javascript"></script>
+<script src="js/jotform.js?v=3.2.3943" type="text/javascript"></script>
+<script src="js/calendarview.js?v=3.2.3943" type="text/javascript"></script>
 <script type="text/javascript">
    JotForm.init(function(){
       JotForm.highlightInputs = false;
@@ -186,6 +186,24 @@ border: 1px solid red !important;
             <textarea id="input_4" class="form-textarea" name="q4_comments4" cols="30" rows="5"></textarea>
             <label class="form-sub-label" for="input_4"> Optional </label>
           </span>
+        </div>
+      </li>
+      <li class="form-line always-hidden" data-type="control_textbox" id="id_13">
+        <label class="form-label form-label-left form-label-auto" id="label_13" for="input_13"> Referrer </label>
+        <div id="cid_13" class="form-input always-hidden">
+          <input type="text" class=" form-textbox" data-type="input-textbox" id="input_13" name="q13_referrer" size="40" value="http://vanderbilt.edu/geo/training/Register/registration.html" maxlength="150" />
+        </div>
+      </li>
+      <li class="form-line always-hidden" data-type="control_textbox" id="id_11">
+        <label class="form-label form-label-left form-label-auto" id="label_11" for="input_11"> Browser </label>
+        <div id="cid_11" class="form-input always-hidden">
+          <input type="text" class=" form-textbox" data-type="input-textbox" id="input_11" name="q11_browser" size="40" value="" maxlength="150" />
+        </div>
+      </li>
+      <li class="form-line always-hidden" data-type="control_textbox" id="id_12">
+        <label class="form-label form-label-left form-label-auto" id="label_12" for="input_12"> System </label>
+        <div id="cid_12" class="form-input always-hidden">
+          <input type="text" class=" form-textbox" data-type="input-textbox" id="input_12" name="q12_system" size="40" value="" maxlength="150" />
         </div>
       </li>
       <li class="form-line always-hidden" data-type="control_textarea" id="id_8">

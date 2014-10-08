@@ -90,7 +90,8 @@
         var ret = confirm("Are you sure you want to start over? Your progress will be erased.");
         if (ret === true) {
             if (SaveSystem.autosaveOK() && SaveSystem.hasAuto()) {
-                SaveSystem.deleteAuto();
+                storage.removeItem("registration");
+                SaveSystem.purge();
             }
             state.restart();
         }
@@ -161,7 +162,10 @@
 <<script>>
     FastClick.attach(document.body);
 <</script>>
-
+<<loadJS "script/ua-parser.min.js">>
+<<script>>
+    state.active.variables.UAinfo = new UAParser().getResult();
+<</script>>
 <<loadJS "script/iscroll.js">>
 <<script>>
     /* if (IScroll.utils.isBadAndroid) {

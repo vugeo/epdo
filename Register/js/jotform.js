@@ -32,7 +32,7 @@ var JotForm = {
      * Progress bar object above form
      * @var Object
      */
-    progressBar: true,    
+    progressBar: false,    
     /**
      * All JotForm forms on the page
      * @var Array
@@ -115,6 +115,7 @@ var JotForm = {
         currency:           'This field can only contain currency values.',
         fillMask:           'Field value must fill mask.',
         uploadExtensions:   'You can only upload following files:',
+        noUploadExtensions: 'File has no extension file type (e.g. .txt, .png, .jpeg)', 
         uploadFilesize:     'File size cannot be bigger than:',
         gradingScoreError:  'Score total should only be less than or equal to',
         inputCarretErrorA:  'Input should not less than the minimum value:',
@@ -2110,7 +2111,9 @@ var JotForm = {
     getInputType: function(id){  
         if(JotForm.typeCache[id]){ return JotForm.typeCache[id]; }
         var type = false;
-        if($('input_'+id)){
+        if($('id_'+id) && $('id_'+id).readAttribute('data-type') == "control_text") {
+            type = 'html';
+        } else if($('input_'+id)){
             type = $('input_'+id).nodeName.toLowerCase() == 'input'? $('input_'+id).readAttribute('type').toLowerCase() : $('input_'+id).nodeName.toLowerCase();
             if($('input_'+id).hasClassName("form-radio-other-input")){
                 type = "radio";
@@ -2480,8 +2483,24 @@ var JotForm = {
                         }
                     break;
 
-                    default:
+                    case "textarea":
+                        value = $('input_'+term.field).value;
+                        if($('input_'+term.field).hinted){
+                            value = "";
+                        }
+                        if(value === undefined){return;/* continue; */}
+                        var rich = $('id_'+term.field).down('.nicEdit-main');
+                        if(rich) {
+                            value = value.stripTags().replace(/\s/g, ' ').replace(/&nbsp;/g, ' ');
+                        }
 
+                        if(JotForm.checkValueByOperator(term.operator, term.value, value, term.field)){
+                            any = true;
+                        }else{
+                            all = false;
+                        }
+                    break;
+                    default:
                         value = $('input_'+term.field).value;
                         if($('input_'+term.field).hinted){
                             value = "";
@@ -2617,11 +2636,13 @@ var JotForm = {
             } else {
                 calc.conditionTrue = false;
                 //check if any other conditions are true for this result field
-                setTimeout(function() {
+
+                setTimeout(function(calc) {
                     var matchForThisResult = false;
                     for(var i=0; i < calcs.length; i++) {
-                        if(condition.action[0].resultField == calcs[i].resultField && calcs[i].hasOwnProperty('conditionTrue') && calcs[i].conditionTrue) {
-                            matchForThisResult = true;
+                        if((condition.action[0].resultField == calcs[i].resultField && calcs[i].hasOwnProperty('conditionTrue') && calcs[i].conditionTrue)
+                            && !(JotForm.getInputType(condition.action[0].resultField) === "html" && condition.action[0].replaceText !== calcs[i].replaceText)){
+                                matchForThisResult = true;
                         }
                     }
                     if(!matchForThisResult) {
@@ -2639,15 +2660,32 @@ var JotForm = {
                             if(triggerMe && triggerMe.triggerEvent) {
                                 triggerMe.triggerEvent('keyup');
                             }
+                        } else if(type === "html") {
+                            try {
+                                var output = calc.defaultValue ? calc.defaultValue : "";
+                                var spans = $$("." + resultField + "_" + calc.replaceText);
+                                if(spans.length == 0) {
+                                    var contents = $('text_' + resultField).innerHTML;
+                                    var re = new RegExp("\{"+calc.replaceText+"\\[?.*?\\]?\}","g");
+                                    contents = contents.replace(re, '<span class="'+resultField + "_" + calc.replaceText+'">'+output+'</span>');
+                                    $('text_' + resultField).update(contents);
+                                } else {
+                                    spans.each(function(span) {
+                                        span.update(output);
+                                    });
+                                }
+                            } catch(e) {
+                                console.log(e);
+                            }
                         } else {
                             if($('input_' + resultField)) {
-                            $('input_' + resultField).value = '';
-                            $('input_' + resultField).triggerEvent('keyup');
-                            if($('input_' + resultField).hintClear) $('input_' + resultField).hintClear(); //ie8&9
+                                $('input_' + resultField).value = '';
+                                $('input_' + resultField).triggerEvent('keyup');
+                                if($('input_' + resultField).hintClear) $('input_' + resultField).hintClear(); //ie8&9
+                            }
                         }
                     }
-                    }
-                }, 50);
+                }, 50, calc);
             }
         } else { // Page condition
         
@@ -2887,10 +2925,10 @@ var JotForm = {
         var result = calc.resultField;
         var showBeforeInput = calc.showBeforeInput;
         var ignoreHidden = calc.ignoreHiddenFields;
-
+ 
         if(!$('id_' + result)) return;
         try {
-            if(!['text', 'email', 'textarea', 'calculation', 'combined', 'address', 'datetime', 'time'].include(JotForm.getInputType(result))) return;
+            if(!['text', 'email', 'textarea', 'calculation', 'combined', 'address', 'datetime', 'time', 'html'].include(JotForm.getInputType(result))) return;
         } catch(e) {
             console.log(e);
         }
@@ -2960,7 +2998,7 @@ var JotForm = {
                         });
                         val = valArr.join(' ');
                     } else {
-                        if(!$('input_' + data).value.empty()) {
+                        if(!$('input_' + data).value.empty() && !isNaN($('input_' + data).value)) {
                             val = parseFloat($('input_' + data).value);
                         }
                     }
@@ -3116,6 +3154,15 @@ var JotForm = {
                     val = val.substring(val.lastIndexOf("\\") + 1);
                     break;
 
+                case 'textarea':
+                    if($('input_' + data) && typeof $('input_' + data).value !== 'undefined') {
+                        val = $('input_' + data).value;
+                        var rich = $('id_'+data).down('.nicEdit-main');
+                        if(rich) {
+                            val = val.stripTags().replace(/\s/g, ' ').replace(/&nbsp;/g, ' ');
+                        }
+                    }
+                    break;
                 default:
                     if($('input_' + data) && typeof $('input_' + data).value !== 'undefined') {
                         val = $('input_' + data).value;
@@ -3291,6 +3338,30 @@ var JotForm = {
 
         var resultFieldType = JotForm.getInputType(result);
         switch(resultFieldType) {
+            case "html":
+                try {
+
+                    if(output.empty() && calc.defaultValue) {
+                        output = calc.defaultValue;
+                    }
+
+                    var spans = $$("." + result + "_" + calc.replaceText);
+                    if(spans.length == 0) {
+                        var contents = $('text_' + result).innerHTML;
+                        var re = new RegExp("\{"+calc.replaceText+"\(\\[.*?\\]\){0,1}\}","g");
+
+                        contents = contents.replace(re, '<span class="'+result + "_" + calc.replaceText+'">'+output+'</span>');
+                        $('text_' + result).update(contents);
+                    } else {
+                        spans.each(function(span) {
+                            span.update(output);
+                        });
+                    }
+                } catch(e) {
+                    console.log(e);
+                }
+
+                break;
             case "address":
             case "combined":
             case "datetime":
@@ -4505,6 +4576,12 @@ var JotForm = {
      */
     setStripeSettings: function( pubkey, add_qid )
     {
+        // skip on edit mode (b#439725)
+        if (["edit", "inlineEdit", "submissionToPDF"].indexOf(document.get.mode) > -1 
+            && document.get.sid) 
+        {
+            return;
+        }
         //check if the Stripe v1 library is loaded
         if (
             (pubkey || add_qid) && typeof Stripe === 'function' &&
@@ -5167,7 +5244,7 @@ var JotForm = {
             //check if hidden, if so return its valid
             if( _this.hasHiddenValidationConflicts(item) ) return JotForm.corrected(item);
 
-            if( item.value && !numeric.test( item.value ) && !numericDotStart.test( item.value ) )
+            if( item.value && !numeric.test( item.value ) && !numericDotStart.test( item.value ) && input.hinted !== true) 
             {
                 return JotForm.errored( item, JotForm.texts.numeric );
             }
@@ -5883,6 +5960,17 @@ var JotForm = {
                     if (!JotForm.validateAll(form)) {
                         JotForm.enableButtons();
                         JotForm.showButtonMessage();
+                        // scroll into view the latest visible submit button (b#434086)
+                        var visSubmit = [];
+                        $$('.form-submit-button').each(function(but){
+                            if (JotForm.isVisible(but)) {
+                                visSubmit.push(but);
+                            };
+                        });
+                        if (visSubmit.length > 0) {
+                            visSubmit[visSubmit.length-1].scrollIntoView();
+                        }
+
                         e.stop();
                         return;
                     }
@@ -6016,7 +6104,7 @@ var JotForm = {
                             var acceptString = upload.readAttribute('accept') || upload.readAttribute('file-accept') || "";
                             var maxsizeString = upload.readAttribute('maxsize') || upload.readAttribute('file-maxsize') || "";
                             
-                            var accept = acceptString.strip().split(/\s*\,\s*/gim);
+                            var accept = acceptString.strip().toLowerCase().split(/\s*\,\s*/gim);
                             var maxsize = parseInt(maxsizeString, 10) * 1024;
                             
                             var file = upload.files[0];
@@ -6032,6 +6120,10 @@ var JotForm = {
                                 ext = JotForm.getFileExtension(file.fileName);
                             }
                             
+                            if (!ext){
+                                return JotForm.errored(upload, JotForm.texts.noUploadExtensions);
+                            }
+
                             if ( acceptString != "*" && !accept.include(ext) && !accept.include(ext.toLowerCase())) {
                                 return JotForm.errored(upload, JotForm.texts.uploadExtensions + '<br/>' + acceptString);
                             }
@@ -6803,6 +6895,22 @@ var JotForm = {
         updateProgress();
     },
 
+    updateAreaFromRich: function(id) {
+        try {
+            var rich = $('id_'+id).down('.nicEdit-main');
+            var txtarea = $('id_'+id).down('textarea');
+            if(rich && txtarea) {
+                rich.observe('keyup', function(){
+                    txtarea.value = rich.innerHTML;
+                    if(txtarea.triggerEvent) txtarea.triggerEvent('keyup');
+                });
+            }
+        }catch(e){
+            console.error(e);
+        }
+    },
+
+
     /**
      * Responsible on handling AutoFill feature,
      * this will also help to ensure that it will not conflict
@@ -6883,6 +6991,17 @@ var JotForm = {
 
             $("grade_point_" + id).innerHTML = total;
           }
+        },
+        /*
+        * Move text from textfield to rich text div
+        */
+        _handleRichText: function(data) {
+            $$('.nicEdit-main').each(function(richArea) {
+                var txtarea = richArea.up('.form-line').down('textarea');
+                if(txtarea) {
+                    richArea.innerHTML = txtarea.value;
+                }
+            });
         }
       };
 
@@ -6908,6 +7027,8 @@ var JotForm = {
 
             //resolve grading total computation if any
             _conflicts._handleGradingTotal( restoredDatas );
+
+            _conflicts._handleRichText( restoredDatas );
           }
         }
       });

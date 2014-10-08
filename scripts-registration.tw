@@ -1,0 +1,22 @@
+:: Registration form [script]
+
+window.registrationUpdate = function() {
+	// Get browser and device info
+	var UAinfo = state.active.variables.UAinfo;
+	var browser = UAinfo.browser.name + " " + UAinfo.browser.version + " (" + UAinfo.engine.name + " " + UAinfo.engine.version + ")";
+	var system = UAinfo.os.name + " " + UAinfo.os.version + " (" + UAinfo.cpu.architecture + ")";
+	// Creat JSON string from $index
+	var submitIndex = state.active.variables.index;
+	var json = JSON.stringify(submitIndex, function(key, value) {
+			if (key === "tag" || key === "url") {
+				return undefined;
+			}
+			return value;
+		});
+	// Update form
+	$("#JotFormIFrame").contents().find("#input_8").val(json);
+	$("#JotFormIFrame").contents().find("#input_11").val(browser);
+	$("#JotFormIFrame").contents().find("#input_12").val(system);
+	$("#JotFormIFrame").contents().find("#input_13").val(window.location.href);
+	$("#JotFormIFrame").removeAttr("onload");// Prevent this script from being called a second time
+}

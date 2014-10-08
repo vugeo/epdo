@@ -1,10 +1,8 @@
 :: Todo
-/%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Remove console.logs related to the registration submission work.
-* Add a hidden field to the Jotform to receive the referring page.
-* Add index URL to Thank You HTML page.
+/%%%%%%%%%%%%%%%%%%%%%%%%%%.
+* Chrome on Android may reset weirdly when using Continue. May also be misdirected clicks. Try making previous button go on same line for mobile.
 * Upgrade to latest SugarCube and fix resulting CSS issues.
-* When new versions that rearrange, delete, or add passages come out, it is necessary to delete SugarCube's saves and options. Test new code in ::Version & Reset.
+* When new versions that rearrange, delete, or add passages come out, it is necessary to delete SugarCube's saves and options. Test new code in ::Version & Reset. SEEMS TO WORK WELL!
 * Convert checkmark .svg into a .png.
 * Add to credits, including Twine and SugarCube folks.
 * Incorporate Ruth's content images.

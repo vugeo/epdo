@@ -2,10 +2,9 @@
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
 * Remove console.logs related to the registration submission work.
 * Add a hidden field to the Jotform to receive the referring page.
-* Add index URL to Thank You HRML page.
+* Add index URL to Thank You HTML page.
 * Upgrade to latest SugarCube and fix resulting CSS issues.
 * When new versions that rearrange, delete, or add passages come out, it is necessary to delete SugarCube's saves and options. Test new code in ::Version & Reset.
-* Make registration form submission set a flag so that it won't appear again after you've submitted it once. NEARLY COMPLETE: Change flag to be directly stored, rather than a variable.
 * Convert checkmark .svg into a .png.
 * Add to credits, including Twine and SugarCube folks.
 * Incorporate Ruth's content images.
@@ -34,6 +33,7 @@
 * DONE add prefixes to all CSS! Use http://pleeease.io/play/, browser string: Opera >=12, Chrome >= 20, Firefox >= 10, iOS > 6.0, Explorer > 10, FirefoxAndroid > 1, ChromeAndroid >= 20, Safari > 5.1 
 * Update URL replacement code on index page to take hash mode into account: https://mail.google.com/mail/u/4/#inbox/146a53697f731793 DONE, I think
 * Trevor reports possible issue with nav menu and continue button after submitting registration form. (He also says that Continue button appears on last page, which it shouldn't.) Safari 7.0.6 FIXED, I think. Was actually a problem with multiple click handlers being attached on the index page.
+* Make registration form submission set a flag so that it won't appear again after you've submitted it once. NEARLY COMPLETE: Change flag to be directly stored, rather than a variable. http://twinery.org/forum/index.php/topic,1932.msg5202.html#msg5202 DONE
 
 
 Browser requirements:

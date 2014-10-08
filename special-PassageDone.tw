@@ -172,14 +172,14 @@
     // ...And set up a click handler to calculate elapsed time when we move on
     var passage = state.active.title;
     $(".link-internal").on("click.timeHandler", function() {
-        console.log("Received click while in " + passage);
+        //console.log("Received click while in " + passage);
         var preTime = state.active.variables.index[passage].seconds;
-        console.log("   Pre-time = " + preTime);
+        //console.log("   Pre-time = " + preTime);
         var time = Date.now();
         var elapsedTime = (time - timestamp) / 1000;
-        console.log("   Elapsed Time: " + elapsedTime);
-        console.log("   Time: " + time);
-        console.log("   Timestamp: " + timestamp);
+        //console.log("   Elapsed Time: " + elapsedTime);
+        //console.log("   Time: " + time);
+        //console.log("   Timestamp: " + timestamp);
         if (elapsedTime > 0) {
             state.active.variables.index[passage].seconds = parseFloat((elapsedTime + preTime)).toFixed(3);
     }

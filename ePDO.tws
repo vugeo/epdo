@@ -1991,7 +1991,7 @@ tp630
 Rp631
 sbsa(dp632
 g12
-I00
+I01
 sg13
 (lp633
 F1610.3373934226588
@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2014
 I10
-I8
+I22
 I17
-I6
-I1
+I12
+I20
 I2
-I281
+I295
 I1
 tp638
 (dp639
@@ -2056,7 +2056,7 @@ Tiddler
 p651
 (dp652
 g19
-V!Credits\u000a!!!!Thanks to all for their contributions!\u000a\u000a''Study Abroad Survival Training logo image''\u000aDetail, Bonnie Renee Williamson '15, [[Inside the Grotta Azzurra ("Blue Cave"), Capri, Italy|https://secure.flickr.com/photos/100718964@N02/9732982312/in/photolist-fQ52w7-fQ55Hq-fPMxpV-fQ55T1-fQ55xS]]\u000a\u000a''Background Images (visible on wider screens only)''\u000a* Ben Woods '10, [[Sand Dunes in Sossusvlei, Namibia|https://secure.flickr.com/photos/100718964@N02/9727615368/in/set-72157635498587057]]\u000a*Elizabeth Rose Wheelock '15, [[Tulips at the Keukenhof Gardens, outside of Amsterdam|https://secure.flickr.com/photos/100718964@N02/9729747873/in/photolist-fPMuZP-fQ53bA-fQ53j9-fPMvdx-fPMv4F]]\u000a*Lori Ann Weinstein '14, [[Sunrise at the lighthouse in Byron Bay, Australia|https://secure.flickr.com/photos/100718964@N02/9732976450/in/photolist-fQ54do-fQ54ej-fPMvVM-fQ53NN-fPMvUz]]\u000a*Sushma Boppana '14, [[Hillside Door in Budapest, Hungary|https://secure.flickr.com/photos/100718964@N02/9732659004/in/photolist-fQ3qrA-fQ3qg5-fQ3qkY-fQ3md3-fQ3qbG]]\u000a*Joshua Grubb '14, [[Checkered Lawn at the Jardín Japonés (Japanese Garden), Buenos Aires, Argentina|https://secure.flickr.com/photos/100718964@N02/9732835282/in/photolist-fPLMWv-fQ4a8L-fQ4jWW-fQ4jQS-fQ4jS7]]\u000a*Danielle Antoinette Morrison '14, [[Rooftop View, Segovia, Spain|https://secure.flickr.com/photos/100718964@N02/9732971742/in/photolist-fPLR8c-fQ5dfb-fQ52pC-fPMEAc-fQ5d9Q-fPMEFe]]\u000a*Abby Marie Pribish '14, [[Lake Geneva Through the Foliage, Switzerland|https://secure.flickr.com/photos/100718964@N02/9729769853/in/photolist-fPMBu4-fQ59DW-fPMBpR-fPMBAD-fQ59QG]]\u000a*John Franklin Sims-Jones '14, [[Fields and mountains near the Inca ruins of Moray, Peru|https://secure.flickr.com/photos/100718964@N02/9729744099/in/photolist-oiPuiG-fPMtWB]]\u000a*Stefanie Tollefsen '13, [[Violet tree in Rome, Italy|https://secure.flickr.com/photos/100718964@N02/9732678988/in/photolist-fPKZh2-fPKZwi-fPKMBX-fQ3wyb-fQ3wo9]]\u000a*Jonathan C. Williams '14, [[Beautiful clear beaches of Tarifa, Spain|https://secure.flickr.com/photos/100718964@N02/9729745463/in/photolist-fPP9QD-fPMuu2-fPMum8-fPMukr-fPMurt-fQ52GE-fPkVZg-fPkW4H-fPkW4R-fPkW4a-fPCtXY-fPLDQR-fQ4bRW-fPLDLB-fPjmMv]]\u000a*Martha Ann Babbitt '14, [[Looking out onto Lake Como, Italy|https://secure.flickr.com/photos/100718964@N02/9732663006/in/photolist-fQ3rAb-fQ3rCA-fPKUAD-fPKUwF-fQ3mfh]]\u000a\u000a''Other Images''\u000aBrowser icons from C\u0103t\u0103lin Mari\u0219's open [[GitHub project|https://github.com/alrra/browser-logos#readme]].\u000a\u000a<<segue "Index">>\u005c
+V!Credits\u000a!!!!Thanks to all for their contributions!\u000a\u000a''Created using [[Twine|http://twinery.org/]] and [[SugarCube|http://www.motoslave.net/sugarcube/]].''\u000a\u000a''Study Abroad Survival Training logo image''\u000aDetail, Bonnie Renee Williamson '15, [[Inside the Grotta Azzurra ("Blue Cave"), Capri, Italy|https://secure.flickr.com/photos/100718964@N02/9732982312/in/photolist-fQ52w7-fQ55Hq-fPMxpV-fQ55T1-fQ55xS]]\u000a\u000a''Background Images (visible on wider screens only)''\u000a* Ben Woods '10, [[Sand Dunes in Sossusvlei, Namibia|https://secure.flickr.com/photos/100718964@N02/9727615368/in/set-72157635498587057]]\u000a*Elizabeth Rose Wheelock '15, [[Tulips at the Keukenhof Gardens, outside of Amsterdam|https://secure.flickr.com/photos/100718964@N02/9729747873/in/photolist-fPMuZP-fQ53bA-fQ53j9-fPMvdx-fPMv4F]]\u000a*Lori Ann Weinstein '14, [[Sunrise at the lighthouse in Byron Bay, Australia|https://secure.flickr.com/photos/100718964@N02/9732976450/in/photolist-fQ54do-fQ54ej-fPMvVM-fQ53NN-fPMvUz]]\u000a*Sushma Boppana '14, [[Hillside Door in Budapest, Hungary|https://secure.flickr.com/photos/100718964@N02/9732659004/in/photolist-fQ3qrA-fQ3qg5-fQ3qkY-fQ3md3-fQ3qbG]]\u000a*Joshua Grubb '14, [[Checkered Lawn at the Jardín Japonés (Japanese Garden), Buenos Aires, Argentina|https://secure.flickr.com/photos/100718964@N02/9732835282/in/photolist-fPLMWv-fQ4a8L-fQ4jWW-fQ4jQS-fQ4jS7]]\u000a*Danielle Antoinette Morrison '14, [[Rooftop View, Segovia, Spain|https://secure.flickr.com/photos/100718964@N02/9732971742/in/photolist-fPLR8c-fQ5dfb-fQ52pC-fPMEAc-fQ5d9Q-fPMEFe]]\u000a*Abby Marie Pribish '14, [[Lake Geneva Through the Foliage, Switzerland|https://secure.flickr.com/photos/100718964@N02/9729769853/in/photolist-fPMBu4-fQ59DW-fPMBpR-fPMBAD-fQ59QG]]\u000a*John Franklin Sims-Jones '14, [[Fields and mountains near the Inca ruins of Moray, Peru|https://secure.flickr.com/photos/100718964@N02/9729744099/in/photolist-oiPuiG-fPMtWB]]\u000a*Stefanie Tollefsen '13, [[Violet tree in Rome, Italy|https://secure.flickr.com/photos/100718964@N02/9732678988/in/photolist-fPKZh2-fPKZwi-fPKMBX-fQ3wyb-fQ3wo9]]\u000a*Jonathan C. Williams '14, [[Beautiful clear beaches of Tarifa, Spain|https://secure.flickr.com/photos/100718964@N02/9729745463/in/photolist-fPP9QD-fPMuu2-fPMum8-fPMukr-fPMurt-fQ52GE-fPkVZg-fPkW4H-fPkW4R-fPkW4a-fPCtXY-fPLDQR-fQ4bRW-fPLDLB-fPjmMv]]\u000a*Martha Ann Babbitt '14, [[Looking out onto Lake Como, Italy|https://secure.flickr.com/photos/100718964@N02/9732663006/in/photolist-fQ3rAb-fQ3rCA-fPKUAD-fPKUwF-fQ3mfh]]\u000a\u000a''Other Images''\u000aBrowser icons from C\u0103t\u0103lin Mari\u0219's open [[GitHub project|https://github.com/alrra/browser-logos#readme]].\u000a\u000a<<segue "Index">>\u005c
 p653
 sg21
 VCredits
@@ -2064,13 +2064,13 @@ p654
 sg23
 g24
 ((I2014
-I9
-I18
-I15
-I54
-I59
-I3
-I261
+I10
+I10
+I16
+I26
+I16
+I4
+I283
 I1
 tp655
 (dp656
@@ -2108,7 +2108,7 @@ Tiddler
 p667
 (dp668
 g19
-Vcss.tw\u000acss-handheld.tw\u000ascripts-general.tw\u000ascripts-help.tw\u000ascripts-images.tw\u000ascripts-style-management.tw\u000ascripts-index.tw\u000ascripts-registration.tw\u000ascripts-sounds.tw\u000ascripts-utility.tw\u000ascripts-analytics.tw\u000ascripts-displays.tw\u000aspecial-PassageDone.tw\u000aspecial-PassageReady.tw\u000aspecial-StoryInit.tw\u000aPostrender.tw\u000aStoryInfo.tw
+Vcss.tw\u000ascripts-general.tw\u000ascripts-help.tw\u000ascripts-images.tw\u000ascripts-style-management.tw\u000ascripts-index.tw\u000ascripts-registration.tw\u000ascripts-sounds.tw\u000ascripts-utility.tw\u000ascripts-analytics.tw\u000ascripts-displays.tw\u000aspecial-PassageDone.tw\u000aspecial-PassageReady.tw\u000aspecial-StoryInit.tw\u000aPostrender.tw
 p669
 sg21
 VStoryIncludes
@@ -2117,12 +2117,12 @@ sg23
 g24
 ((I2014
 I10
-I8
-I16
-I34
-I25
+I20
+I15
+I12
 I2
-I281
+I0
+I293
 I1
 tp671
 (dp672
@@ -2167,12 +2167,12 @@ sg23
 g24
 ((I2014
 I10
-I1
-I16
 I10
-I15
-I2
-I274
+I16
+I50
+I24
+I4
+I283
 I1
 tp686
 (dp687
@@ -2222,13 +2222,13 @@ p703
 sg23
 g24
 ((I2014
-I9
-I30
+I10
+I22
 I16
-I16
-I3
-I1
-I273
+I34
+I38
+I2
+I295
 I1
 tp704
 (dp705
@@ -3804,7 +3804,7 @@ Tiddler
 p1195
 (dp1196
 g19
-V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000amacros.get("saveoptions").handler();\u000a\u000aconfig.saves.autoload = true;\u000aconfig.startPassage = "About Survival Training";
+V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000a\u000aconfig.startPassage = "About Survival Training";\u000aconfig.saves.autosave = true;\u000aconfig.saves.autoload = true;\u000aconfig.saves.slots = 0;\u000aconfig.errorName = "presentation";\u000aconfig.disableHistoryControls = true;\u000aconfig.loadDelay = 1000;\u000a\u000aconfig.saves.isAllowed = function () {\u000a    if (tale.get(state.active.title).tags.indexOf("nosave") === -1) { \u000a       return true; \u000a    }\u000a    return false; \u000a};
 p1197
 sg21
 VOptions
@@ -3813,12 +3813,12 @@ sg23
 g24
 ((I2014
 I10
-I8
-I17
-I14
-I55
+I22
+I16
+I34
+I46
 I2
-I281
+I295
 I1
 tp1199
 (dp1200
@@ -4071,12 +4071,12 @@ sg23
 g24
 ((I2014
 I10
-I8
-I17
-I14
-I45
-I2
-I281
+I21
+I16
+I34
+I51
+I1
+I294
 I1
 tp1278
 (dp1279
@@ -4101,10 +4101,62 @@ tp1284
 (dp1285
 tp1286
 Rp1287
+sbsa(dp1288
+g12
+I00
+sg13
+(lp1289
+F1538.6601705237488
+aF1597.7198538367809
+asg15
+(itiddlywiki
+Tiddler
+p1290
+(dp1291
+g19
+V(function () {\u000a        var lastSeen;\u000a        setInterval(function () {\u000a                if (window.history.state !== lastSeen) { // compare the serialized forms\u000a                        console.log("[window.history.state] ---------------------------------------------");\u000a                        console.log("  <  last seen:", (lastSeen != null) ? History.deserializeWindowState(lastSeen) : lastSeen);\u000a                        console.log("  >  currently:", History.getWindowState());\u000a                        lastSeen = window.history.state;\u000a                }\u000a        }, 250);\u000a}());
+p1292
+sg21
+VHistory Test
+p1293
+sg23
+g24
+((I2014
+I10
+I21
+I15
+I24
+I11
+I1
+I294
+I1
+tp1294
+(dp1295
+tp1296
+Rp1297
+sg29
+(lp1298
+Vscript
+p1299
+asg32
+g24
+((I2014
+I10
+I21
+I15
+I23
+I54
+I1
+I294
+I1
+tp1300
+(dp1301
+tp1302
+Rp1303
 sbsasS'scale'
-p1288
+p1304
 F0.643416927899688
 sS'snapping'
-p1289
+p1305
 I00
 ss.

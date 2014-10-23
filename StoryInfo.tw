@@ -7,10 +7,13 @@
 
 
 :: Configuration [script]
+config.startPassage = "About Survival Training";
 config.saves.autosave = true;
+config.saves.autoload = true;
 config.saves.slots = 0;
 config.errorName = "presentation";
 config.disableHistoryControls = true;
+config.loadDelay = 1000;
 
 config.saves.isAllowed = function () {
     if (tale.get(state.active.title).tags.indexOf("nosave") === -1) { 

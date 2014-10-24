@@ -1991,7 +1991,7 @@ tp630
 Rp631
 sbsa(dp632
 g12
-I01
+I00
 sg13
 (lp633
 F1610.3373934226588
@@ -2002,7 +2002,7 @@ Tiddler
 p634
 (dp635
 g19
-V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account.\u000a<<if storage.getItem("registration") neq true>><iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:352px; height:437px; display:block; border:none;" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="checkmark"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
+V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account.\u000a<<if storage.getItem("registration") neq true>><iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:320px; height:437px; display:block; border:none;" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a/*\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0] + t[1]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a*/\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="checkmark"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
 p636
 sg21
 VWhat to do next
@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2014
 I10
-I22
-I17
-I12
-I20
-I2
-I295
+I24
+I15
+I44
+I42
+I4
+I297
 I1
 tp638
 (dp639
@@ -2167,12 +2167,12 @@ sg23
 g24
 ((I2014
 I10
-I10
-I16
-I50
 I24
+I15
+I46
+I54
 I4
-I283
+I297
 I1
 tp686
 (dp687
@@ -2223,12 +2223,12 @@ sg23
 g24
 ((I2014
 I10
-I22
-I16
-I34
-I38
-I2
-I295
+I24
+I15
+I44
+I56
+I4
+I297
 I1
 tp704
 (dp705
@@ -3813,12 +3813,12 @@ sg23
 g24
 ((I2014
 I10
-I22
-I16
-I34
-I46
-I2
-I295
+I24
+I15
+I45
+I3
+I4
+I297
 I1
 tp1199
 (dp1200
@@ -4062,7 +4062,7 @@ Tiddler
 p1274
 (dp1275
 g19
-Vsetup.version = "0.83";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000a}
+Vsetup.version = "0.85";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000a}
 p1276
 sg21
 VVersion & Reset
@@ -4071,12 +4071,12 @@ sg23
 g24
 ((I2014
 I10
-I21
-I16
-I34
-I51
-I1
-I294
+I24
+I15
+I45
+I31
+I4
+I297
 I1
 tp1278
 (dp1279
@@ -4106,7 +4106,7 @@ g12
 I00
 sg13
 (lp1289
-F1538.6601705237488
+F1540.214372716197
 aF1597.7198538367809
 asg15
 (itiddlywiki
@@ -4114,7 +4114,7 @@ Tiddler
 p1290
 (dp1291
 g19
-V(function () {\u000a        var lastSeen;\u000a        setInterval(function () {\u000a                if (window.history.state !== lastSeen) { // compare the serialized forms\u000a                        console.log("[window.history.state] ---------------------------------------------");\u000a                        console.log("  <  last seen:", (lastSeen != null) ? History.deserializeWindowState(lastSeen) : lastSeen);\u000a                        console.log("  >  currently:", History.getWindowState());\u000a                        lastSeen = window.history.state;\u000a                }\u000a        }, 250);\u000a}());
+V/* (function () {\u000a        var lastSeen;\u000a        setInterval(function () {\u000a                if (window.history.state !== lastSeen) { // compare the serialized forms\u000a                        console.log("[window.history.state] ---------------------------------------------");\u000a                        console.log("  <  last seen:", (lastSeen != null) ? History.deserializeWindowState(lastSeen) : lastSeen);\u000a                        console.log("  >  currently:", History.getWindowState());\u000a                        lastSeen = window.history.state;\u000a                }\u000a        }, 250);\u000a}());\u000a*/
 p1292
 sg21
 VHistory Test
@@ -4123,12 +4123,12 @@ sg23
 g24
 ((I2014
 I10
-I21
-I15
-I24
-I11
-I1
-I294
+I23
+I16
+I41
+I17
+I3
+I296
 I1
 tp1294
 (dp1295

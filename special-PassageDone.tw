@@ -6,7 +6,8 @@
 <<script>>
     var index = state.active.variables.index;
     var passage = state.active.title;
-    //console.log("passage: " + passage);
+    console.log("passage: " + passage);
+    console.log("nodrama? " + tags().contains("nodrama"));
     var currentPassage = index[passage];
     var advancing = false; //Have we advanced to a new page for the first time?
     var dramaticTitle = false;
@@ -25,7 +26,7 @@
         //of each passage on the progress meter, except for the last, where we
         //show it completely filling the bar.
         var progress = currentPassage.enumeration;
-        if (progress > options.passageprogress) { options.passageprogress = progress; }
+        if (progress > state.active.variables.passageprogress) { state.active.variables.passageprogress = progress; }
         if (progress !== totalPassages) { progress = progress - 0.5; }
     }
     //else if (currentTag < 1) {
@@ -46,8 +47,8 @@
     $("#pb-complete,#pb-position").css("display", progressPercent > 0 ? "block" : "none");
 
     if (currentTag > 0) { //the user has read enough to need to see the chapter button
-        if (currentTag > options.chapterprogress) {
-            setOption("chapterprogress", currentTag);
+        if (currentTag > state.active.variables.chapterprogress) {
+            state.active.variables.chapterprogress = currentTag;
             advancing = true;
             $("#menu-button").addClass("hilight");
             setTimeout(function() {
@@ -58,7 +59,7 @@
 
         $("#nav-container").html(function() {
             var html = "<ul class='chapter-list'>";
-            for (var i = 1; i < (options.chapterprogress + 1); i++) {
+            for (var i = 1; i < (state.active.variables.chapterprogress + 1); i++) {
                 html += "<li><a class='chapter-list link-internal" + (i === currentTag ? " active" : "") + "' data-passage='" + bookmarks[passageTags[i]] + "'>" + sections[passageTags[i]].section + "</a><ul class='passage-list'>";
                     $.each(fullindex[i-1].passages, function(j, pass) {
                         //console.log("Adding " + pass.passage + " to menu: " + index[pass.passage].enumeration + "/" + progress);
@@ -74,7 +75,7 @@
                             });
                         }
                         html += "</li>";
-                        if (index[pass.passage].enumeration === options.passageprogress) {return false; }
+                        if (index[pass.passage].enumeration === state.active.variables.passageprogress) {return false; }
                     });
                 html += "</ul></li>";
             }
@@ -111,7 +112,7 @@
             setTimeout(function() {
                 $("#section-name").removeClass("hilight");
             }, 1100);
-            if (advancing && $("#backgrounds").css("display") !== "none" && !tags().contains("nodrama" && state.active.variables.UAinfo.device.name !== "iPad")) {
+            if (advancing && $("#backgrounds").css("display") !== "none" && !tags().contains("nodrama") && state.active.variables.UAinfo.device.name !== "iPad") {
                 // If we are here for the first time, we also want to
                 // dramatically show the module title
                 $("#body-wrap").addClass("title");
@@ -165,7 +166,7 @@
         setTimeout(function () {
             customScroll.refresh();
             customScroll.scrollTo(0, 0);
-        }, 600);// Android and iPad in particular don't rescroll properly
+        }, 1000);// Android and iPad in particular don't rescroll properly
     }
     // Log current time for later extraction
     var timestamp = Date.now();

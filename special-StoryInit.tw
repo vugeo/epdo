@@ -9,6 +9,8 @@
 <<set $pdfURL to "https://dl.dropboxusercontent.com/u/8434146/GitHub/epdo/PDF/Global%20Education%20Office%20Survival%20Training.pdf">>
 <<set $urlopts to {}>>
 <<set $temp to "">>
+<<set $chapterprogress to 0>>
+<<set $passageprogress to 0>>
 <<script>>
     // Create new options interface
     window.setOption = function(name, value) {
@@ -28,13 +30,6 @@
     }
     $('#css3-calc').remove();
 
-    // Initialize chapter progress storage
-    if (!options.chapterprogress) {
-        setOption("chapterprogress", 0);
-    }
-    if (!options.passageprogress) {
-        setOption("passageprogress", 0);
-    }
     // Create registration flag if needed
     var storedRegistration = storage.getItem("registration");
     if (storedRegistration === null) {
@@ -44,6 +39,7 @@
     window.registrationSubmit = function() {
         //console.log("Submitted!");
         storage.setItem("registration", true);
+        customScroll.refresh();
     }
 
     // Set up custom UI

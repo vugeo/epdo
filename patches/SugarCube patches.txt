@@ -1,0 +1,67 @@
+Changes to SugarCube header.html file (v1.0.5):
+
+line 81: Replaced #init-screen p { display: none; width: 75%; margin: 2em auto; font-family: verdana,"dejavu sans",tahoma,arial,sans-serif; font-size: 28px; font-weight: bold; font-style: italic; } with 
+#init-screen p { display: none; width: 75%; margin: 2em auto; font-family: verdana,"dejavu sans",tahoma,arial,sans-serif; font-size: 28px; font-weight: bold; } 
+
+line 88: Inserted (minimized version) progress bar CSS:
+/* :: Loading progress */
+#init-loading progress:not(value) {
+  /* Get rid of the default appearance */
+  appearance: none;
+  /* Firefox and Opera.*/
+  border: none;
+  /* WebKit bug(?) requires border-radius or style reverts to default */
+  border-radius: 3px;
+  width: 50%;
+  height: 20px;
+  margin: 1.5em 0; 
+}
+
+/* -webkit-progress-bar -> Style the progress element container */
+#init-loading progress:not(value)::-webkit-progress-bar {
+  background-image: 
+  -webkit-linear-gradient(315deg, transparent, transparent 33%, rgba(0,0,0,.1) 33%, rgba(0,0,0,.1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0,0,0,.2));
+  background-image: 
+  -o-linear-gradient(315deg, transparent, transparent 33%, rgba(0,0,0,.1) 33%, rgba(0,0,0,.1) 66%, transparent 66%), -o-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0,0,0,.2));
+  background-image: 
+  linear-gradient( 135deg,
+   transparent,
+   transparent 33%,
+   rgba(0,0,0,.1) 33%,
+   rgba(0,0,0,.1) 66%,
+   transparent 66%),
+    linear-gradient( top,
+   rgba(255, 255, 255, .25),
+   rgba(0,0,0,.2));
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+  border-radius:3px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+  background-color: #09c;
+  -webkit-animation: animate-stripes 5s linear infinite;
+          animation: animate-stripes 5s linear infinite;
+}
+
+/* Firefox provides a single pseudo class: -moz-progress-bar */
+#init-loading progress:not(value)::-moz-progress-bar {
+  /* Gradient background with Stripes */
+  background-image:
+  -moz-linear-gradient( 135deg,
+   transparent,
+   transparent 33%,
+   rgba(0,0,0,.1) 33%,
+   rgba(0,0,0,.1) 66%,
+   transparent 66%),
+    -moz-linear-gradient( top,
+   rgba(255, 255, 255, .25),
+   rgba(0,0,0,.2));
+    background-color: #09c;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+  border-radius:3px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+  
+  /* Firefox doesn't support keyframe animations on the progress element */
+}
+
+@-webkit-keyframes animate-stripes { 100% { background-position: -100px 0; } }
+@-o-keyframes animate-stripes { 100% { background-position: -100px 0; } }
+@keyframes animate-stripes { 100% { background-position: -100px 0; } }

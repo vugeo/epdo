@@ -1955,12 +1955,12 @@ sg23
 g24
 ((I2014
 I10
-I1
-I13
-I37
-I13
+I28
+I15
+I14
 I2
-I274
+I1
+I301
 I1
 tp620
 (dp621
@@ -2223,12 +2223,12 @@ sg23
 g24
 ((I2014
 I10
-I24
+I28
 I15
-I44
-I56
-I4
-I297
+I14
+I8
+I1
+I301
 I1
 tp704
 (dp705
@@ -2258,7 +2258,7 @@ g12
 I00
 sg13
 (lp715
-F1540.042224928946
+F1538.488022736498
 aF1763.4254973609404
 asg15
 (itiddlywiki
@@ -2275,12 +2275,12 @@ sg23
 g24
 ((I2014
 I10
+I28
+I15
+I7
+I19
 I1
-I10
-I9
-I2
-I2
-I274
+I301
 I1
 tp720
 (dp721
@@ -2478,13 +2478,13 @@ p781
 sg23
 g24
 ((I2014
-I9
+I10
+I28
+I15
+I14
 I18
-I16
-I44
-I43
-I3
-I261
+I1
+I301
 I1
 tp782
 (dp783
@@ -3813,12 +3813,12 @@ sg23
 g24
 ((I2014
 I10
-I24
+I28
 I15
-I45
-I3
-I4
-I297
+I23
+I56
+I1
+I301
 I1
 tp1199
 (dp1200
@@ -4062,7 +4062,7 @@ Tiddler
 p1274
 (dp1275
 g19
-Vsetup.version = "0.85";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000a}
+Vsetup.version = "0.86b";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1276
 sg21
 VVersion & Reset
@@ -4071,12 +4071,12 @@ sg23
 g24
 ((I2014
 I10
-I24
+I28
 I15
-I45
-I31
-I4
-I297
+I34
+I36
+I1
+I301
 I1
 tp1278
 (dp1279

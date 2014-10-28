@@ -121,8 +121,10 @@
                 setTimeout(function() {
                     $("#bkgd-title").removeClass("title");
                     $("#body-wrap").removeClass("title");
-                    customScroll.refresh();
-                    //customScroll.scrollTo(0, 0);// Android in particular doesn't rescroll properly
+                    if (typeof customScroll != "undefined") {
+                        customScroll.refresh();
+                        //customScroll.scrollTo(0, 0);// Android in particular doesn't rescroll properly
+                    }
                 }, 5500);
             }
             // Next, change the background image
@@ -154,19 +156,17 @@
     }
 
     // Display for controls
-    if (!tags().contains("nosave") && $("#custom").is(":hidden")) {
-    console.log("Showing header. tags().contains(nosave) = " + tags().contains("nosave") + "; $(#custom).is(:hidden)" + $("#custom").is(":hidden"));
-        $("#custom").slideDown("fast");
-    }
-    else if (tags().contains("nosave")) {
-    console.log("Hiding header. tags().contains(nosave)");
+    if (tags().contains("nosave")) {
         $("#custom").slideUp("fast");
+    }
+    else if ($("#custom").is(":hidden")) {
+        $("#custom").slideDown("fast");
     }
     if (typeof customScroll != "undefined") {
         setTimeout(function () {
             customScroll.refresh();
             customScroll.scrollTo(0, 0);
-        }, 1000);// Android and iPad in particular don't rescroll properly
+        }, 2000);// Android and iPad in particular don't rescroll properly
     }
     // Log current time for later extraction
     var timestamp = Date.now();

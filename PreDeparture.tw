@@ -1,13 +1,7 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Registration form needs to be narrower.
-* Refactor progress so that it no longer uses options store.
-* Restyle the loading bar, cross-platform. Based on this CSS: http://css-tricks.com/html5-progress-element/
 * Android Chrome is not having trouble with window history after submitting the registration form. However, it is not forwarding it properly!! The passage text gets replaced with it, not just the frame contents. (How could that even happen?)
-* Header bar doesn't come down on reload anymore like it should (cross-platform)--at least sometimes!
-* On Firefox and IE10, tags().contains("nodrama") doesn't seem to be evaluating correctly in PassageDone. In other words, the About title shows up on the first slide.
-* On smaller screens, it's too easy to misdirect clicks to . Try making previous button go on same line for mobile.
-* Possible buginess on iPad related to autosave autoload code.
+* On smaller screens, it's too easy to misdirect clicks to the Back button. Try making previous button go on same line for mobile.
 * Add to credits.
 * Incorporate Ruth's content images.
 * Incorporate Ruth's background images.
@@ -37,6 +31,7 @@
 * Trevor reports possible issue with nav menu and continue button after submitting registration form. (He also says that Continue button appears on last page, which it shouldn't.) Safari 7.0.6 FIXED, I think. Was actually a problem with multiple click handlers being attached on the index page.
 * Make registration form submission set a flag so that it won't appear again after you've submitted it once. NEARLY COMPLETE: Change flag to be directly stored, rather than a variable. http://twinery.org/forum/index.php/topic,1932.msg5202.html#msg5202 DONE
 * When new versions that rearrange, delete, or add passages come out, it is necessary to delete SugarCube's saves and options. Test new code in ::Version & Reset. SEEMS TO WORK WELL!
+* Header bar doesn't come down on reload anymore like it should (cross-platform)--at least sometimes! FIXED, I think.
 
 
 Browser requirements:

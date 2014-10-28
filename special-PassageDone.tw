@@ -6,8 +6,6 @@
 <<script>>
     var index = state.active.variables.index;
     var passage = state.active.title;
-    console.log("passage: " + passage);
-    console.log("nodrama? " + tags().contains("nodrama"));
     var currentPassage = index[passage];
     var advancing = false; //Have we advanced to a new page for the first time?
     var dramaticTitle = false;
@@ -161,6 +159,12 @@
     }
     else if ($("#custom").is(":hidden")) {
         $("#custom").slideDown("fast");
+    }
+    if (storage.getItem("registration") === true || state.active.variables.passageprogress >= state.active.variables.totalPassages - 1) {
+        $("#index-button").show();
+    }
+    else {
+        $("#index-button").hide();
     }
     if (typeof customScroll != "undefined") {
         setTimeout(function () {

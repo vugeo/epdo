@@ -689,6 +689,19 @@ header#custom {
   float:right;
 }
 
+#index-button {
+  color: #efefef;
+  font-size: 11px;
+  display: inline-block;
+  margin: 0 12px 0 0;
+  vertical-align: 3px;
+  padding: 2px 3px;
+  background-color: #aaa;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-shadow: none;
+}
+
 #menu-button {
   display: inline-block;
   margin: 7px 10px 0 0;

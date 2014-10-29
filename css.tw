@@ -686,7 +686,9 @@ header#custom {
 }
 
 #controls {
-  float:right;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 #index-button {

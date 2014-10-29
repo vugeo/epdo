@@ -6,17 +6,14 @@
 * Add to credits.
 * Incorporate Ruth's content images.
 * Incorporate Ruth's background images.
-* Set up robots.txt in new web directory: http://www.robotstxt.org/robotstxt.html
-* Check out iPad sometime failure to display background image when animating title.
-* Look at recording history of what was actually read along with visible data in JotForm
+* Check out iPad sometime failure to display background image when animating title. SEEMS TO BE OK ON IPAD 3, CHECK OUT IPAD 2.
 * Add full list of resources to What To Do Next (Mei's suggestion).
 * Add warning dialogue for Android default browser, maybe iPads (or prevent dramatic titles on iPads).
-* Add an index button to appear in the header after finishing the registration or hitting the Credits page.
 * Fix index display on wider aspect ratio Chrome.
 * Add iOS metas:
-	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes"> ADDED
 	<link rel="apple-touch-icon" href="icon.png" /> (icon for users' desktop if saved as webapp)
-	http://davidbcalhoun.com/2010/using-mobile-specific-html-css-javascript/
+	http://davidbcalhoun.com/2010/using-mobile-specific-html-css-javascript/ NOT SURE WHETHER TO BOTHER.
 
 * Find source of the "none" image that the presentation attempts to load. Difficult to find so far. All indications are that this is not actually an image, but from the snap.js external javascript.
 * iOS app icon template: http://appicontemplate.com/

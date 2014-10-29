@@ -110,7 +110,7 @@
             setTimeout(function() {
                 $("#section-name").removeClass("hilight");
             }, 1100);
-            if (advancing && $("#backgrounds").css("display") !== "none" && !tags().contains("nodrama") && state.active.variables.UAinfo.device.name !== "iPad") {
+            if (advancing && $("#backgrounds").css("display") !== "none" && !tags().contains("nodrama") && state.active.variables.UAinfo.os.name !== "iOS" && state.active.variables.UAinfo.os.name !== "Android") {
                 // If we are here for the first time, we also want to
                 // dramatically show the module title
                 $("#body-wrap").addClass("title");

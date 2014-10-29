@@ -9,6 +9,7 @@
 <<set $pdfURL to "https://dl.dropboxusercontent.com/u/8434146/GitHub/epdo/PDF/Global%20Education%20Office%20Survival%20Training.pdf">>
 <<set $urlopts to {}>>
 <<set $temp to "">>
+<<set $UAinfo to {}>>
 <<set $chapterprogress to 0>>
 <<set $passageprogress to 0>>
 <<script>>

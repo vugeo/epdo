@@ -4062,7 +4062,7 @@ Tiddler
 p1274
 (dp1275
 g19
-Vsetup.version = "0.90a";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "0.90b";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1276
 sg21
 VVersion & Reset
@@ -4072,9 +4072,9 @@ g24
 ((I2014
 I10
 I29
-I9
-I36
-I7
+I14
+I12
+I40
 I2
 I302
 I1
@@ -4101,62 +4101,10 @@ tp1284
 (dp1285
 tp1286
 Rp1287
-sbsa(dp1288
-g12
-I00
-sg13
-(lp1289
-F1540.214372716197
-aF1597.7198538367809
-asg15
-(itiddlywiki
-Tiddler
-p1290
-(dp1291
-g19
-V/* (function () {\u000a        var lastSeen;\u000a        setInterval(function () {\u000a                if (window.history.state !== lastSeen) { // compare the serialized forms\u000a                        console.log("[window.history.state] ---------------------------------------------");\u000a                        console.log("  <  last seen:", (lastSeen != null) ? History.deserializeWindowState(lastSeen) : lastSeen);\u000a                        console.log("  >  currently:", History.getWindowState());\u000a                        lastSeen = window.history.state;\u000a                }\u000a        }, 250);\u000a}());\u000a*/
-p1292
-sg21
-VHistory Test
-p1293
-sg23
-g24
-((I2014
-I10
-I23
-I16
-I41
-I17
-I3
-I296
-I1
-tp1294
-(dp1295
-tp1296
-Rp1297
-sg29
-(lp1298
-Vscript
-p1299
-asg32
-g24
-((I2014
-I10
-I21
-I15
-I23
-I54
-I1
-I294
-I1
-tp1300
-(dp1301
-tp1302
-Rp1303
 sbsasS'scale'
-p1304
+p1288
 F0.643416927899688
 sS'snapping'
-p1305
+p1289
 I00
 ss.

@@ -176,7 +176,7 @@
         setTimeout(function () {
             customScroll.refresh();
             customScroll.scrollTo(0, 0);
-        }, 2000);// Android and iPad in particular don't rescroll properly
+        }, 2500);// Android and iPad in particular don't rescroll properly
     }
     // Log current time for later extraction
     var timestamp = Date.now();

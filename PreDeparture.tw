@@ -1,8 +1,6 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Need to hide/disable Index button on the Index page to prevent abuse. Pressing multiple times causes issues!
 * Android Chrome is not having trouble with window history after submitting the registration form. However, it is not forwarding it properly!! The passage text gets replaced with it, not just the frame contents. (How could that even happen?)
-* On smaller screens, it's too easy to misdirect clicks to the Back button. Try making previous button go on same line for mobile.
 * Add to credits.
 * Incorporate Ruth's content images.
 * Incorporate Ruth's background images.

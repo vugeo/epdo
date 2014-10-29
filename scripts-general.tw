@@ -94,8 +94,9 @@
         <</script>>\
         <<if $index[state.active.title].enumeration gt 1 || ($index[state.active.title].enumeration lt 2 && tags().contains("sidebar")) >>\
             <<if tags().contains("sidebar") >>\
-                /%&nbsp; &nbsp;%/<h6 class='page-back-link main'><<click "Back">><<prevPassage 0>><</click>></h6>\            
-            <<else>>
+                <h6 class='page-back-link main'><<click "Back">><<prevPassage 0>><</click>></h6>\            
+            <<else>>\
+                <<if isHandheld() neq true>><br /><</if>>\
                 &nbsp; &nbsp;<h6 class='page-back-link main'><<click "Previous">><<prevPassage>><</click>></h6>\                
             <</if>>\
         <</if>>\

@@ -192,10 +192,17 @@ $("#drawer-header").click(function(){
     snapper.close();
 });
 $("#index-button").on("click", function() {
-    if (typeof ga != "undefined") {
-        ga('send', 'event', 'help', 'index', 'navigated to Index using header button');
+    if ($(this).hasClass("disabled")) {
+        if (typeof ga != "undefined") {
+            ga('send', 'event', 'help', 'index', 'attempted to use disabled Index button');
+        }
     }
-    state.display("Index");
+    else {
+        if (typeof ga != "undefined") {
+            ga('send', 'event', 'help', 'index', 'navigated to Index using header button');
+        }
+        state.display("Index");
+    }
 });
 $("#menu-button").on("click", function() {
     if( snapper.state().state == "right" ){

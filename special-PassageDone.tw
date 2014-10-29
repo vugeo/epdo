@@ -161,7 +161,13 @@
         $("#custom").slideDown("fast");
     }
     if (storage.getItem("registration") === true || state.active.variables.passageprogress >= state.active.variables.totalPassages - 1) {
-        $("#index-button").show();
+        if (state.active.title === "Index") {
+            // Disable the index button on the index page
+            $("#index-button").addClass("disabled").show();
+        }
+        else {
+            $("#index-button").removeClass("disabled").show();
+        }
     }
     else {
         $("#index-button").hide();

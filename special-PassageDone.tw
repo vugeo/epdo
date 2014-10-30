@@ -173,10 +173,14 @@
         $("#index-button").hide();
     }
     if (typeof customScroll != "undefined") {
-        setTimeout(function () {
-            customScroll.refresh();
-            customScroll.scrollTo(0, 0);
-        }, 2500);// Android and iPad in particular don't rescroll properly
+        var refresh = setInterval(function() {
+                console.log($(".content").css("height"));
+                if (parseInt($(".content").css("height")) > 0) {
+                    customScroll.refresh();
+                    customScroll.scrollTo(0, 0);
+                    clearInterval(refresh);
+                }
+            }, 200);
     }
     // Log current time for later extraction
     var timestamp = Date.now();

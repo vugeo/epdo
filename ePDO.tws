@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2014
 I10
-I28
+I29
 I16
-I18
-I32
-I1
-I301
+I26
+I21
+I2
+I302
 I1
 tp638
 (dp639
@@ -2167,12 +2167,12 @@ sg23
 g24
 ((I2014
 I10
-I24
-I15
-I46
-I54
-I4
-I297
+I29
+I16
+I30
+I22
+I2
+I302
 I1
 tp686
 (dp687
@@ -4054,7 +4054,7 @@ g12
 I00
 sg13
 (lp1273
-F1821.622411693053
+F1823.1766138855012
 aF1891.4640682094964
 asg15
 (itiddlywiki
@@ -4062,7 +4062,7 @@ Tiddler
 p1274
 (dp1275
 g19
-Vsetup.version = "0.90c";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "0.90d";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1276
 sg21
 VVersion & Reset
@@ -4071,12 +4071,12 @@ sg23
 g24
 ((I2014
 I10
-I29
-I16
-I9
-I7
+I30
+I10
 I2
-I302
+I57
+I3
+I303
 I1
 tp1278
 (dp1279

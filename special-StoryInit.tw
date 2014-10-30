@@ -1,6 +1,7 @@
 :: StoryInit
 /% Add the header & controls to the document when the story first loads. %/
 <<set options.autoplaydelay to 0>>
+<<set $browserSupport to "unknown">>
 <<set $csscalc to true>>
 <<set $facultyled to false>>
 <<set $vanderbilt to false>>
@@ -164,6 +165,55 @@
 <<loadJS "script/ua-parser.min.js">>
 <<script>>
     state.active.variables.UAinfo = new UAParser().getResult();
+    var support = {
+        type: "browser",
+        key: "name",
+        value: "version",
+        Chrome: 20,
+        Firefox: 10,
+        Safari: 6,
+        IE: 11,
+        Opera: 12,
+        "Mobile Safari": {
+            type: "os",
+            key: "name",
+            value: "version",
+            Android: 4.3,
+            iOS: 6.1
+        }
+    };
+    var comparator, comparison;
+    var finished = false;
+    for (var prop in support) {
+        var UAtype = state.active.variables.UAinfo[support.type];
+        if (prop == UAtype[support.key]) {
+            var version = UAtype[support.value];
+            var supportVal = support[prop];
+            if (typeof supportVal === "number") {
+                comparator = parseFloat(version);
+                comparison = supportVal;
+                break;
+            }
+            else if (typeof supportVal === "object") {
+                for (var subprop in supportVal) {
+                    var UAsubType = state.active.variables.UAinfo[supportVal.type];
+                    if (subprop === UAsubType[supportVal.key]) {
+                        comparator = parseFloat(UAsubType[supportVal.value]);
+                        comparison = supportVal[subprop];
+                        finished = true;
+                        break;
+                    }
+                }
+            }
+            if (finished === true) { break; }
+        }
+    }
+    if (comparator && comparison) {
+        if (comparator >= comparison) {
+            state.active.variables.browserSupport = "yes";
+        }
+        else { state.active.variables.browserSupport = "no"; }
+    }
 <</script>>
 <<loadJS "script/iscroll.js">>
 <<script>>

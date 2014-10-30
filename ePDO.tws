@@ -2002,7 +2002,7 @@ Tiddler
 p634
 (dp635
 g19
-V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account.\u000a<<if storage.getItem("registration") neq true>><iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:320px; height:437px; display:block; border:none;" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a/*\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0] + t[1]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a*/\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="checkmark"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
+V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account.\u000a<<if storage.getItem("registration") neq true>><iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:320px; height:437px; display:block; border:none;" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a/*\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0] + t[1]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a*/\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="message-box-symbol"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
 p636
 sg21
 VWhat to do next
@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2014
 I10
+I30
+I15
 I29
-I16
-I26
-I21
-I2
-I302
+I52
+I3
+I303
 I1
 tp638
 (dp639
@@ -2150,15 +2150,15 @@ g12
 I00
 sg13
 (lp681
-F12.139667072675593
-aF18.84206252537203
+F16.802273650020283
+aF21.95046691026849
 asg15
 (itiddlywiki
 Tiddler
 p682
 (dp683
 g19
-V<div class="inset-shadow"><img src="images/Survival_Training.png"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information, information that you will need to know to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the ''Quick Tour'' now for a very brief introduction to the Training interface. It will quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides ''In-Depth Information'' on a topic or topics. We recommend that you read these links in all cases where a topic could conceivably apply to you! Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aThroughout the training, ''blue hyperlinks'' will direct you to external sites with useful information or further resources. For example, this link will take you to the [[Global Education Office's home page|http://vanderbilt.edu/geo]].\u000a\u000aWhen you're ready to move on, hit the ''big blue Continue button'' at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
+V<div class="inset-shadow"><img src="images/Survival_Training.png"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a<<if config.historyMode eq HistoryMode.Hash or $browserSupport eq "no">><div class="message-box problem"><span>Your browser (<<print $UAinfo.browser.name>> v<<print $UAinfo.browser.major>> running on <<print $UAinfo.os.name>>) is not supported. We recommend that you either use another browser (see below) or download the [[PDF|$pdfURL]].</span></div>\u005c\u000a<<elseif $browserSupport eq "unknown">><div class="message-box warning"><span>Your browser (<<print $UAinfo.browser.name>> v<<print $UAinfo.browser.major>> running on <<print $UAinfo.os.name>>) may not work well for this training module. We recommend that you try another browser instead (see below). You may also download the [[PDF|$pdfURL]].</span></div><</if>>\u005c\u000a\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information, information that you will need to know to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the ''Quick Tour'' now for a very brief introduction to the Training interface. It will quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides ''In-Depth Information'' on a topic or topics. We recommend that you read these links in all cases where a topic could conceivably apply to you! Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aThroughout the training, ''blue hyperlinks'' will direct you to external sites with useful information or further resources. For example, this link will take you to the [[Global Education Office's home page|http://vanderbilt.edu/geo]].\u000a\u000aWhen you're ready to move on, hit the ''big blue Continue button'' at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major browsers on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u005c\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
 p684
 sg21
 VAbout Survival Training
@@ -2167,12 +2167,12 @@ sg23
 g24
 ((I2014
 I10
-I29
+I30
 I16
 I30
-I22
-I2
-I302
+I59
+I3
+I303
 I1
 tp686
 (dp687
@@ -2420,7 +2420,7 @@ Tiddler
 p763
 (dp764
 g19
-VGlobal Education Office Survival Training
+VSurvival Training
 p765
 sg21
 VStoryTitle
@@ -2429,12 +2429,12 @@ sg23
 g24
 ((I2014
 I10
-I6
-I10
+I30
+I11
+I31
+I35
 I3
-I10
-I0
-I279
+I303
 I1
 tp767
 (dp768
@@ -3796,8 +3796,8 @@ g12
 I00
 sg13
 (lp1194
-F1538.9338205440474
-aF1896.2046285018262
+F1537.3796183515992
+aF1894.650426309378
 asg15
 (itiddlywiki
 Tiddler
@@ -3813,12 +3813,12 @@ sg23
 g24
 ((I2014
 I10
-I29
-I9
-I20
-I7
-I2
-I302
+I30
+I11
+I31
+I23
+I3
+I303
 I1
 tp1199
 (dp1200
@@ -3897,7 +3897,7 @@ tp1223
 Rp1224
 sbsa(dp1225
 g12
-I00
+I01
 sg13
 (lp1226
 F155.51766138855047
@@ -3908,7 +3908,7 @@ Tiddler
 p1227
 (dp1228
 g19
-V<div id="browsers">\u005c\u000a	<div class="browser"><span class="sprite sprite-chrome_64x64"></span><p>''Chrome''</p><p>v20+<br />Android<br />iOS</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-firefox_64x64"></span><p>''Firefox''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-internet-explorer_64x64"></span><p>''Internet Explorer''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari_64x64"></span><p>''Safari''</p><p>v5.1+</p></div>\u005c\u000a	<div class="browser"><span class="sprite sprite-safari-ios_64x64"></span><p>''Mobile Safari''</p><p>iOS 6.1+</p></div>\u005c\u000a</div>\u005c
+V<div id="browsers">\u005c\u000a	<div class="browser"><a href="https://www.google.com/chrome/browser/"><span class="sprite sprite-chrome_64x64"></span></a><p>''Chrome''</p><p>v20+<br />Android<br />iOS</p></div>\u005c\u000a	<div class="browser"><a href="https://www.mozilla.org/en-US/firefox/new/"><span class="sprite sprite-firefox_64x64"></span></a><p>''Firefox''</p><p>v10+</p></div>\u005c\u000a	<div class="browser"><a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie"><span class="sprite sprite-internet-explorer_64x64"></span></a><p>''Internet Explorer''</p><p>v11+</p></div>\u005c\u000a	<div class="browser"><a href="https://www.apple.com/safari/"><span class="sprite sprite-safari_64x64"></span></a><p>''Safari''</p><p>v6+</p></div>\u005c\u000a	<div class="browser"><a href="https://www.apple.com/ios/"><span class="sprite sprite-safari-ios_64x64"></span></a><p>''Mobile Safari''</p><p>iOS 6.1+</p></div>\u005c\u000a</div>\u005c
 p1229
 sg21
 VBrowsers
@@ -3917,12 +3917,12 @@ sg23
 g24
 ((I2014
 I10
-I1
+I30
 I16
-I10
-I25
-I2
-I274
+I36
+I42
+I3
+I303
 I1
 tp1231
 (dp1232
@@ -4062,7 +4062,7 @@ Tiddler
 p1274
 (dp1275
 g19
-Vsetup.version = "0.90d";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "0.91a";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1276
 sg21
 VVersion & Reset
@@ -4072,9 +4072,9 @@ g24
 ((I2014
 I10
 I30
-I10
-I2
-I57
+I16
+I4
+I33
 I3
 I303
 I1

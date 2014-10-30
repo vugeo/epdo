@@ -4,7 +4,6 @@
 * Add to credits.
 * Incorporate Ruth's content images.
 * Incorporate Ruth's background images.
-* Check out iPad sometime failure to display background image when animating title. SEEMS TO BE OK ON IPAD 3, CHECK OUT IPAD 2.
 * Add full list of resources to What To Do Next (Mei's suggestion).
 * Add warning dialogue for Android default browser, maybe iPads (or prevent dramatic titles on iPads).
 * Fix index display on wider aspect ratio Chrome.
@@ -28,7 +27,7 @@
 * Make registration form submission set a flag so that it won't appear again after you've submitted it once. NEARLY COMPLETE: Change flag to be directly stored, rather than a variable. http://twinery.org/forum/index.php/topic,1932.msg5202.html#msg5202 DONE
 * When new versions that rearrange, delete, or add passages come out, it is necessary to delete SugarCube's saves and options. Test new code in ::Version & Reset. SEEMS TO WORK WELL!
 * Header bar doesn't come down on reload anymore like it should (cross-platform)--at least sometimes! FIXED, I think.
-
+* Check out iPad sometime failure to display background image when animating title. PROBLEM EXISTS ONLY ON IPAD2 AND PREVIOUS, ALMOST CERTAINLY PERFORMANCE-RELATED. THERE IS NO WAY TO DISTINGUISH THE LOW- FROM THE HIGH- PERFORMING DEVICES, SO I HAVE DISABLED DRAMATIC TITLES FOR ALL IPADS AND ANDROID DEVICES.
 
 Browser requirements:
 * Firefox 5+
@@ -36,7 +35,7 @@ Browser requirements:
 * Safari 5.1
 * Android 4.3
 * Mobile Safari 6.1+
-
+* Opera 
 
 NOTES
 * Keep all background images at 1440x900 (http://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)

@@ -174,7 +174,6 @@
     }
     if (typeof customScroll != "undefined") {
         var refresh = setInterval(function() {
-                console.log($(".content").css("height"));
                 if (parseInt($(".content").css("height")) > 0) {
                     customScroll.refresh();
                     customScroll.scrollTo(0, 0);

@@ -638,23 +638,41 @@ p.index-sidebar {
 .message-box {
   border: 1px solid;
   margin: 10px 5%;
-  padding:15px 10px;
+  padding: 15px 10px;
+  border-radius: 7px;
 }
 .message-box span {
   height: 32px;
   display: table-cell;
   vertical-align: middle;
+  padding-left: 1ex;
 }
 .success {
   color: #4F8A10;
   background-color: #DFF2BF;
 }
-.checkmark {
+.warning, .warning a {
+  color: #9F6000;
+  background-color: #FEEFB3;
+}
+.problem, .problem a {
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+.message-box-symbol {
   float: left;
-  background: url(ui/checkmark-green.png);
   background-size: 32px 32px;
   width: 32px;
   height: 32px;
+}
+.success .message-box-symbol{
+  background: url(ui/checkmark-green.png);
+}
+.warning .message-box-symbol{
+  background: url(ui/exclamation-yellow.png);
+}
+.problem .message-box-symbol{
+  background: url(ui/exclamation-red.png);
 }
 
 /* Custom UI styles */
@@ -708,6 +726,7 @@ header#custom {
   color: #aaa;
   background-color: #888;
   border: 1px solid #999;
+  cursor: default;
 }
 
 #menu-button {
@@ -759,6 +778,7 @@ header#custom {
     to { color:#bbb; text-shadow:none; }
 }
 
+button: {line-height: 100%; /* for IE */}
 button:focus {outline:none;}
 button::-moz-focus-inner {border:0;}
 

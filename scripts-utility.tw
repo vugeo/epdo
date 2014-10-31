@@ -45,6 +45,14 @@ window.parseQueryString = function( queryString ) {
     return params;
 };
 
-:: Polyfill for function.prototype.bind [script]
+:: Polyfills [script]
 //from https://gist.github.com/dsingleton/1312328
 Function.prototype.bind=(function(){}).bind||function(b){if(typeof this!=="function"){throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");}function c(){}var a=[].slice,f=a.call(arguments,1),e=this,d=function(){return e.apply(this instanceof c?this:b||window,f.concat(a.call(arguments)));};c.prototype=this.prototype;d.prototype=new c();return d;};
+//from https://stackoverflow.com/questions/5538972/console-log-apply-not-working-in-ie9
+if (Function.prototype.bind && window.console && typeof console.log == "object"){
+    [
+      "log","info","warn","error","assert","dir","clear","profile","profileEnd"
+    ].forEach(function (method) {
+        console[method] = this.bind(console[method], console);
+    }, Function.prototype.call);
+}

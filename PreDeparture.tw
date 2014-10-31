@@ -1,21 +1,21 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Android Chrome is not having trouble with window history after submitting the registration form. However, it is not forwarding it properly!! The passage text gets replaced with it, not just the frame contents. (How could that even happen?)
 * Add to credits.
 * Incorporate Ruth's content images.
 * Incorporate Ruth's background images.
 * Add full list of resources to What To Do Next (Mei's suggestion).
-* Add warning dialogue for Android default browser, maybe iPads (or prevent dramatic titles on iPads).
-* Fix index display on wider aspect ratio Chrome.
 * Add iOS metas:
 	<meta name="apple-mobile-web-app-capable" content="yes"> ADDED
-	<link rel="apple-touch-icon" href="icon.png" /> (icon for users' desktop if saved as webapp)
+	<link rel="apple-touch-icon"
+      href="/static/images/identity/HTML5_Badge_64.png" />
+      <link rel="apple-touch-icon-precomposed"
+      href="/static/images/identity/HTML5_Badge_64.png" /> (icon for users' desktop if saved as webapp, iOS and Andoid)
 	http://davidbcalhoun.com/2010/using-mobile-specific-html-css-javascript/ NOT SURE WHETHER TO BOTHER.
 
 * Find source of the "none" image that the presentation attempts to load. Difficult to find so far. All indications are that this is not actually an image, but from the snap.js external javascript.
 * iOS app icon template: http://appicontemplate.com/
 * Add an emergency plan for download, with blanks that student can fill in for local info.
-* Safari 5.1: Sometimes(?) the menu help tooltip stays onscreen when the following tip is shown. This may have been fixed, though.
+* Safari 5.1: Sometimes(?) the menu help tooltip stays onscreen when the following tip is shown. This may have been fixed, though. SAFARI 5 IS NO LONGER LISTED AS SUPPORTED
 * Comment out all console.log references DONE
 * Uncomment save options code in special-StoryInit.tw (macros.get("saveoptions").handler();) DONE
 * Scrolling doesn't work on iPad on first page until after rotating the screen. Other pages work fine. Fixed by increasing timeout value to 300 in PassageDone: if (typeof customScroll != "undefined") { setTimeout(function () { customScroll.refresh(); customScroll.scrollTo(0, 0); }, 300); DONE

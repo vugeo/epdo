@@ -1840,7 +1840,7 @@ Tiddler
 p583
 (dp584
 g19
-V!Reverse culture shock\u000a!!!!Be prepared for coming home to be a bumpy ride\u000aIt may seem like a distant reality now, but part of the study abroad experience is returning home. Many students tell GEO that this is harder than expected, and often harder than going abroad to begin with!\u000a\u000aLook, reverse culture shock is a fact. Returning home after a significant period of time abroad is in some ways just like going abroad. You have changed, your perceptions have changed, and you are now used to living in and interacting with a different culture. You may even find that readjusting to life in the US is more difficult than the initial adaption to your host country. Instead of ignoring this reverse culture shock, learn about effective ways to combat it. Rest assured, there are many resources that may be helpful as you make the adjustment to being back at home. You can find some resources on GEO's website (under [[Reverse Culture Shock|http://vanderbi.lt/reversecultureshock]]); you might want to bookmark that page for when you come back. Some useful resources are also listed below.\u000a\u000aSome students benefit from supportive counseling when struggling with reverse culture shock. You can contact [[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]] for counseling services at no charge.\u000a\u000a|box|k\u000a|!Resources for Reverse Culture Shock|\u000a|[[Top 10 Challenges Faced on Returning from Study Abroad|http://www.du.edu/intl/abroad/pdf_docs/challenges_returnees.pdf]]|\u000a|[[Adjusting to Life Back Home|http://www.studyabroad.illinois.edu/resources/return/adjusting_home.aspx]]|\u000a|[[Common Challenges and Coping Strategies|http://www.du.edu/intl/abroad/pdf_docs/returneechallenges.pdf]]|\u000a|[[Tips for Family and Friends on Welcoming a Student Home|http://www.du.edu/intl/abroad/pdf_docs/twelvetips_parents.pdf]]|\u000a|[[Small Planet Studio, an online community for study abroad alums|http://www.smallplanetstudio.com/]]|\u000a|[[Melibee Global|http://www.melibeeglobal.com/]]|\u000a|[[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]]|\u000a\u000a<<segue "Opportunities for returned students">>\u005c
+V!Reverse culture shock\u000a!!!!Be prepared for coming home to be a bumpy ride\u000aIt may seem like a distant reality now, but part of the study abroad experience is returning home. Many students tell GEO that this is harder than expected, and often harder than going abroad to begin with!\u000a\u000aLook, reverse culture shock is a fact. Returning home after a significant period of time abroad is in some ways just like going abroad. You have changed, your perceptions have changed, and you are now used to living in and interacting with a different culture. You may even find that readjusting to life in the US is more difficult than the initial adaption to your host country. Instead of ignoring this reverse culture shock, learn about effective ways to combat it. Rest assured, there are many resources that may be helpful as you make the adjustment to being back at home. You can find some resources on GEO's website (under [[Reverse Culture Shock|http://vanderbi.lt/reversecultureshock]]); you might want to bookmark that page for when you come back. Some useful resources are also listed below.\u000a\u000aSome students benefit from supportive counseling when struggling with reverse culture shock. You can contact [[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]] for counseling services at no charge.\u000a\u000a|box|k\u000a|!Resources for Reverse Culture Shock|\u000a|[[Top 10 Challenges Faced on Returning from Study Abroad|https://abroad.du.edu/_customtags/ct_FileRetrieve.cfm?File_ID=594]]|\u000a|[[Adjusting to Life Back Home|http://www.studyabroad.illinois.edu/returning-home]]|\u000a|[[Common Challenges and Coping Strategies|https://abroad.du.edu/_customtags/ct_FileRetrieve.cfm?File_ID=596]]|\u000a|[[Tips for Family and Friends on Welcoming a Student Home|http://www.du.edu/intl/abroad/pdf_docs/twelvetips_parents.pdf]]|\u000a|[[Small Planet Studio, an online community for study abroad alums|http://www.smallplanetstudio.com/]]|\u000a|[[Melibee Global|http://www.melibeeglobal.com/]]|\u000a|[[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]]|\u000a\u000a<<segue "Opportunities for returned students">>\u005c
 p585
 sg21
 VReverse culture shock
@@ -1848,13 +1848,13 @@ p586
 sg23
 g24
 ((I2014
+I10
+I30
+I17
 I8
-I1
-I16
-I42
-I19
-I4
-I213
+I17
+I3
+I303
 I1
 tp587
 (dp588
@@ -2002,7 +2002,7 @@ Tiddler
 p634
 (dp635
 g19
-V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account.\u000a<<if storage.getItem("registration") neq true>><iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:320px; height:437px; display:block; border:none;" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a/*\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0] + t[1]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a*/\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="message-box-symbol"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
+V!What to do next\u000a!!!!You have completed the training!\u000aCongratulations, you have completed Study Abroad Survival Training. On the following pages you will find an Index that you can bookmark to return to any page of this training easily, as well as credits for the student photographs and other pieces that went into making this presentation.\u000a\u000aBelow are a few things you may need to take care of right now. Remember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]]. \u000a*''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad.\u000a*Check requirements for a ''student visa'' or resident permit, and begin applying if necessary.\u000a*Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.\u000a* Students, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected in your GEO account.\u000a<<if storage.getItem("registration") neq true>><iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" style="margin: 0 auto; width:320px; height:437px; display:block; border:none;" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a/*//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0] + t[1]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}*/\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="message-box-symbol"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000a<<segue "Credits">>\u005c
 p636
 sg21
 VWhat to do next
@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2014
 I10
-I30
-I15
-I29
-I52
-I3
-I303
+I31
+I16
+I28
+I6
+I4
+I304
 I1
 tp638
 (dp639
@@ -3897,7 +3897,7 @@ tp1223
 Rp1224
 sbsa(dp1225
 g12
-I01
+I00
 sg13
 (lp1226
 F155.51766138855047
@@ -3920,7 +3920,7 @@ I10
 I30
 I16
 I36
-I42
+I44
 I3
 I303
 I1
@@ -4062,7 +4062,7 @@ Tiddler
 p1274
 (dp1275
 g19
-Vsetup.version = "0.91a";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "0.91e";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1276
 sg21
 VVersion & Reset
@@ -4071,12 +4071,12 @@ sg23
 g24
 ((I2014
 I10
-I30
+I31
 I16
+I42
+I26
 I4
-I33
-I3
-I303
+I304
 I1
 tp1278
 (dp1279

@@ -1,6 +1,8 @@
 :: Registration form [script]
 
 window.registrationUpdate = function() {
+	// Move iframe above overlay and display it
+	$("#JotFormIFrame").hide().insertBefore($("#ui-overlay"));
 	// Get browser and device info
 	var UAinfo = state.active.variables.UAinfo;
 	var browser = UAinfo.browser.name + " " + UAinfo.browser.version + " (" + UAinfo.engine.name + " " + UAinfo.engine.version + ")";
@@ -19,4 +21,20 @@ window.registrationUpdate = function() {
 	$("#JotFormIFrame").contents().find("#input_12").val(system);
 	$("#JotFormIFrame").contents().find("#input_13").val(window.location.href);
 	$("#JotFormIFrame").removeAttr("onload");// Prevent this script from being called a second time
+}
+
+window.showRegistration = function() {
+	$("#ui-overlay").fadeIn("fast");
+	$("#JotFormIFrame").fadeIn("fast");
+}
+
+window.hideRegistration = function () {
+	$("#ui-overlay").fadeOut("fast");
+	$("#JotFormIFrame").fadeOut("fast");
+}
+
+window.registrationSubmit = function() {
+	// Set flag if registration succeeds
+    storage.setItem("registration", true);
+    $("#registration").html('<div class="message-box success"><div class="message-box-symbol"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>');
 }

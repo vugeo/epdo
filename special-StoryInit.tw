@@ -37,14 +37,10 @@
     if (storedRegistration === null) {
         setup.registration = false;
     }
-    // Set flag if registration succeeds
-    window.registrationSubmit = function(h, w) {
-        setTimeout(function() {$("#JotFormIFrame").css({height: parseInt(h) + "px", width: parseInt(w) + "px"})}, 100);
-        storage.setItem("registration", true);
-        if (typeof customScroll != "undefined") {
-            customScroll.refresh();
-        }
-    }
+    // Hide registration
+    $("#ui-overlay").on("click", function() {
+        hideRegistration();
+    });
 
     // Set up custom UI
     var main = document.getElementById('passages');

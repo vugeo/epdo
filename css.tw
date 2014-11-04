@@ -199,8 +199,24 @@ body {
   }
 }
 
+#registration button {
+  display: block;
+  margin: auto;
+}
 #JotFormIFrame {
   -webkit-overflow-scrolling: auto;
+  display: block;
+  filter: alpha(opacity=0);
+  position: fixed;
+  margin: auto auto;
+  width:320px;
+  height:383px;
+  border:none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
 }
 iframe[scrolling='no'] {
   overflow: hidden;

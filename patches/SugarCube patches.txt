@@ -1,5 +1,7 @@
 Changes to SugarCube header.html file (v1.0.5):
 
+line 6: Added viewport meta attributes: <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+
 line 81: Replaced #init-screen p { display: none; width: 75%; margin: 2em auto; font-family: verdana,"dejavu sans",tahoma,arial,sans-serif; font-size: 28px; font-weight: bold; font-style: italic; } with 
 #init-screen p { display: none; width: 75%; margin: 2em auto; font-family: verdana,"dejavu sans",tahoma,arial,sans-serif; font-size: 28px; font-weight: bold; } 
 
@@ -14,7 +16,7 @@ line 88: Inserted (minimized version) progress bar CSS:
   border-radius: 3px;
   width: 50%;
   height: 20px;
-  margin: 1.5em 0; 
+  margin: 1.5em 0 1em 0; 
 }
 
 /* -webkit-progress-bar -> Style the progress element container */

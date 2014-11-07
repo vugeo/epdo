@@ -1,5 +1,4 @@
 :: Help interface [script]
-// The tooltips themselves are defined at the bottom of this script.
 $.fn.removeClassRegex = function(regex) {
   return $(this).removeClass(function(index, classes) {
     return classes.split(/\s+/).filter(function(c) {
@@ -26,6 +25,10 @@ window.Help = {
 			element: "#progress-meter"
 		},
 		help3: {
+			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Index Button</h1><p>This button appears after you have completed the training. Click it to go to the full index, which will allow you to navigate quickly to any page.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			element: "#index-button"
+		},
+		help4: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Menu Button</h1><p>Tap this button to open the Navigation menu, which provides an index of all of the pages you've read so far, as well as helpful links.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: "#menu-button"
 		},/*
@@ -42,28 +45,28 @@ window.Help = {
 			scroll: true,
 			element: "#drawer-help-link"
 		},*/
-		help4: {
+		help5: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>In-Depth Information</h1><p>Red boxes like this one contain links to more detailed info on related topics. Click on a link to read more. You'll be able to return to the page you began on easily, with a single click.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: ".sidebar-box",
 			scroll: true,
 			parent: "#passages",
 			addedClass: "help-box-callout-alt"
 		},
-		help5: {
+		help6: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>External Links</h1><p>Blue links with the <span class='help-external-link-icon'></span> symbol will either take you to a page on a different website, or will download a file.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: ".link-external",
 			scroll: true,
 			parent: "#passages",
 			addedClass: "help-box-callout-alt"
 		},
-		help6: {
+		help7: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Back Button</h1><p>Click here to go back to the previous page.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: ".page-back-link.main",
 			scroll: true,
 			parent: "#passages",
 			addedClass: "help-box-callout-alt"
 		},
-		help7: {
+		help8: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Continue Button</h1><p>This friendly blue button will take you to the next page in the training.</p><div class='help-box-nav'>" + HelpIMGs.left + "<a class='help-box-next' style='bottom:21px; font-size:14px;'>Finish</a></div></div>",
 			element: "a.continue-link",
 			addedClass: "help-box-callout-alt",
@@ -83,10 +86,6 @@ for (var i in Help.tips) {
 window.activateHelp = function() {
 	var box = "help" + Help.current;
 	if (Help.tips.hasOwnProperty(box)) {
-		// TODO: For mobile, offset arrow instead of box if offsetting box
-		// would put it outside of the content area. Do the same for drawer tips
-		// regardless of device.
-		// TODO: Put scroll code in timer callback.
 		var tip = Help.tips[box];
 		// Check to see whether the target element exists on the page
 		var $target = $(tip.element);

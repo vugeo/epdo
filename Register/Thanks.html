@@ -57,12 +57,18 @@
 <body>
 	<div id="wrap">
 		<h2 style="text-align: center;">Thank You!</h2>
-		<p>Your registration has been received. It may take a few working days (Monday-Friday) before your registration is reflected on your GEO account.&nbsp;</p>
-        <p><button id="close">Close</button></p>
+		<p>Your registration has been received. It may take a few working days (Monday-Friday) before your registration is reflected on your GEO account.</p>
+        <p id="wrapper"></p>
 	</div>
 	<script>
-    	window.top.registrationSubmit();
-        var button = document.getElementById("close");
-        button.onclick = window.top.hideRegistration;
+    	if ( window.location !== window.parent.location ) {
+            // The page is in an iframe
+            window.top.registrationSubmit();
+            var wrapper = document.getElementById("wrapper");
+            var button = document.createElement("button");
+            button.innerText = "Close";
+            button.onclick = window.top.hideRegistration;
+            wrapper.appendChild(button);
+        }        
 	</script>
 </body>

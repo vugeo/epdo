@@ -160,17 +160,33 @@
     else if ($("#custom").is(":hidden")) {
         $("#custom").slideDown("fast");
     }
+    console.log("Checking...");
     if (storage.getItem("registration") === true || state.active.variables.passageprogress >= state.active.variables.totalPassages - 1) {
+        console.log("Need to show index button.");
+        if ($('#index-button').length === 0) {
+            // create index button if it doesn't already exist
+            $("#controls").prepend('<a id="index-button">Index</a>');
+            $("#index-button").on("click", function() {
+                if ($(this).hasClass("disabled")) {
+                    if (typeof ga != "undefined") {
+                        ga('send', 'event', 'help', 'index', 'attempted to use disabled Index button');
+                    }
+                }
+                else {
+                    if (typeof ga != "undefined") {
+                        ga('send', 'event', 'help', 'index', 'navigated to Index using header button');
+                    }
+                    state.display("Index");
+                }
+            });
+        }
         if (state.active.title === "Index") {
             // Disable the index button on the index page
-            $("#index-button").addClass("disabled").show();
+            $("#index-button").addClass("disabled");
         }
         else {
-            $("#index-button").removeClass("disabled").show();
+            $("#index-button").removeClass("disabled");
         }
-    }
-    else {
-        $("#index-button").hide();
     }
     if (typeof customScroll != "undefined") {
         var refresh = setInterval(function() {

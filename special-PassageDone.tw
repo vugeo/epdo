@@ -160,9 +160,7 @@
     else if ($("#custom").is(":hidden")) {
         $("#custom").slideDown("fast");
     }
-    console.log("Checking...");
-    if (storage.getItem("registration") === true || state.active.variables.passageprogress >= state.active.variables.totalPassages - 1) {
-        console.log("Need to show index button.");
+    if (storage.getItem("registration") === true || state.active.variables.passageprogress >= state.active.variables.totalPassages - 2) {
         if ($('#index-button').length === 0) {
             // create index button if it doesn't already exist
             $("#controls").prepend('<a id="index-button">Index</a>');

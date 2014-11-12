@@ -1,11 +1,6 @@
 :: Todo
 /%%%%%%%%%%%%%%%%%%%%%%%%%%
-* Variable for URL of Emergency Contact card
 * Rectify naming differences (per Ruth's charting)
-* Add to credits.
-* Incorporate Ruth's content images.
-* Incorporate Ruth's background images.
-* Add full list of resources to What To Do Next (Mei's suggestion).
 * Add iOS metas:
 	<meta name="apple-mobile-web-app-capable" content="yes"> ADDED
 	<link rel="apple-touch-icon"

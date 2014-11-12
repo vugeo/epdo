@@ -34,11 +34,11 @@ p16
 (dp18
 S'text'
 p19
-V!Your Survival Training guidebook\u000a!!!!What to expect from this training\u000aOver the next hour or so, you will learn much about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas!\u000a\u000aThe chart below shows the modules included in this training. You can expect to spend 5 to 10 minutes per module. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a\u000a|box|k\u000a|!Module|!Description|\u000a|''Basic Policy Information''|Things you need to know about being a Vanderbilt student abroad, conduct, and the law|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|\u000a|''Safety and Security''|Information on staying safe and protecting yourself abroad|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|\u000a|''Living and Learning Abroad''|Answers to questions about on-the-ground logistics|\u000a|''Returning Home''|How your study abroad experience will impact you when you return to Vanderbilt|\u000a|''Finishing Up''|Your next steps including verifying with GEO that you completed this required module|\u000a\u000a<<segue "Student status and billing">>\u005c
+V!What to expect from this training\u000a!!!!Your Survival Training guidebook\u000aOver the next hour or so, you will learn much about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas!\u000a\u000aThe chart below shows the modules included in this training. You can expect to spend 5 to 10 minutes per module. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a\u000a|box|k\u000a|!Module|!Description|\u000a|''Basic Policy Information''|Things you need to know about being a Vanderbilt student abroad, conduct, and the law|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|\u000a|''Safety and Security''|Information on staying safe and protecting yourself abroad|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|\u000a|''Living and Learning Abroad''|Answers to questions about navigating cultural differences and on-the-ground logistics|\u000a|''Returning Home''|How your study abroad experience will impact you when you return to Vanderbilt|\u000a|''Finishing Up''|Your next steps, including verifying with GEO that you completed this required training|\u000a\u000a<<segue "Student status and billing">>\u005c
 p20
 sS'title'
 p21
-VWhat we will cover in this presentation
+VWhat to expect from this training
 p22
 sS'modified'
 p23
@@ -46,14 +46,14 @@ ctime
 struct_time
 p24
 ((I2014
-I10
-I1
-I10
-I6
-I32
+I11
+I12
+I16
+I43
+I9
 I2
-I274
-I1
+I316
+I0
 tp25
 (dp26
 tp27
@@ -92,7 +92,7 @@ Tiddler
 p39
 (dp40
 g19
-V!What you'll get out of study abroad\u000a!!!!Academics, Cultural Competence, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to take classes that are not available at Vanderbilt and expand the breadth of perspectives you draw on.</p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience. It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vandybubble will help shape you as a person and hone your life skills. You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.</p>\u005c\u000a<figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure>\u000a<<segue "What we will cover in this presentation">>\u005c
+V!What you'll get out of study abroad\u000a!!!!Academics, Cultural Competence, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to take classes that are not available at Vanderbilt and expand the breadth of perspectives you draw on.</p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience. It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vandybubble will help shape you as a person and hone your life skills. You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.</p>\u005c\u000a<figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure>\u000a<<segue "What to expect from this training">>\u005c
 p41
 sg21
 VWhat you will get out of study abroad
@@ -100,14 +100,14 @@ p42
 sg23
 g24
 ((I2014
-I9
-I29
-I9
-I56
-I3
+I11
+I12
+I16
+I35
+I54
+I2
+I316
 I0
-I272
-I1
 tp43
 (dp44
 tp45
@@ -146,7 +146,7 @@ Tiddler
 p56
 (dp57
 g19
-V!Vanderbilt conduct policies\u000a!!!!Vanderbilt policies apply abroad as well as on campus\u000a<<if ($vanderbilt eq "true") or ($facultyled eq "true")>>Your ''trip leader or resident director has sole discretion over all discipline decisions''. They will hold you accountable for the standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]], and they may also dictate other rules as needed. Your Vanderbilt trip leader may impose any disciplinary sanction, up to and including dismissal from the program. You also may face further consequences when you return to Vanderbilt.\u000a<<else>>You are subject to your abroad institution's rules, but you //also// need to abide by Vanderbilt's conduct policies. The standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]] remain in effect while you are abroad. Conduct that violates these codes may result in sanctions when you return to Vanderbilt, //even if you already received sanctions from your program abroad.//<</if>>\u000a\u000a''Be sure to read the section in the Student Handbook on'' [[conduct in study abroad programs|http://www.vanderbilt.edu/student_handbook/student-conduct/#conduct-in-study-abroad-programs]].\u000a\u000a<<segue "Alcohol policy abroad">>\u005c
+V!Vanderbilt conduct policies\u000a!!!!Vanderbilt policies apply abroad as well as on campus\u000a<<if ($vanderbilt eq "true") or ($facultyled eq "true")>>Your ''trip leader or resident director has sole discretion over all discipline decisions''. They will hold you accountable for the standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]], and they may also dictate other rules as needed. Your Vanderbilt trip leader may impose any disciplinary sanction, up to and including dismissal from the program. You also may face further consequences when you return to Vanderbilt.\u000a<<else>>You are subject to your abroad institution's rules, but you //also// need to abide by Vanderbilt's conduct policies. The standards of behavior described in the VU [[Student Handbook|http://www.vanderbilt.edu/student_handbook/]] and [[Honor System|http://www.vanderbilt.edu/student_handbook/the-honor-system/]] remain in effect while you are abroad. Conduct that violates these codes may result in sanctions when you return to Vanderbilt, //even if you already received sanctions from your program abroad.//<</if>>\u000a\u000a''Be sure to read the section in the Student Handbook on'' [[conduct in study abroad programs|http://www.vanderbilt.edu/student_handbook/student-conduct/#conduct-in-study-abroad-programs]].\u000a\u000a<<segue "Vanderbilt policy on alcohol abroad">>\u005c
 p58
 sg21
 VVanderbilt conduct policies
@@ -154,14 +154,14 @@ p59
 sg23
 g24
 ((I2014
-I10
-I1
+I11
+I12
+I16
+I20
 I13
-I27
-I23
 I2
-I274
-I1
+I316
+I0
 tp60
 (dp61
 tp62
@@ -201,19 +201,19 @@ g19
 V!Vanderbilt policy on alcohol abroad\u000a!!!!Be aware of legal rules and cultural norms\u000aVanderbilt does not really treat alcohol use abroad any differently than it does on campus. You still need to abide by the legal drinking age of the country you're in. In all of the countries where Vanderbilt has approved study abroad programs, the drinking age is lower than it is here in Nashville, so you may find that your legal status is different. Just remember that violations of law or of institutional policy overseas may also become grounds for disciplinary action both at Vanderbilt and under the rules of your abroad program.\u000a\u000aAt the same time that you are considering the legal implications of drinking, be mindful of cultural norms surrounding alcohol use in your host country. In many countries, for example, American-style "binge drinking" may appear pathological or merely pathetic. Take the opportunity to see cultural practices in a new light. \u000a\u000a|box|k\u000a|!The Student Handbook says:|\u000a|Students are required to abide by the laws of the respective countries in which they reside, study, or travel, with respect to the age at which alcoholic beverages may be consumed. Otherwise, the policies with respect to [[alcoholic beverages and controlled substances|http://www.vanderbilt.edu/student_handbook/alcohol/]] included in the Vanderbilt //Student Handbook// apply. Students are subject to student-accountability sanctions, including expulsion, and referral for prosecution for violation of these policies.|\u000a|<hr>//From// [[VU Student Handbook, Study Abroad|http://www.vanderbilt.edu/student_handbook/university-policies-and-regulations/#study-abroad]]|\u000a\u000a<<segue "Sexual misconduct abroad">>\u005c
 p74
 sg21
-VAlcohol policy abroad
+VVanderbilt policy on alcohol abroad
 p75
 sg23
 g24
 ((I2014
+I11
+I12
+I16
+I20
 I10
-I1
-I13
-I29
-I26
 I2
-I274
-I1
+I316
+I0
 tp76
 (dp77
 tp78
@@ -568,22 +568,22 @@ Tiddler
 p187
 (dp188
 g19
-V!Passport and Document Security\u000a!!!!Keep your passport and other key documents safe\u000aWhen you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also become difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe.\u000a\u000aIn general, you should keep your passport on your person only when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.\u000a<img src="images/passport wallet.jpg" class="right" style="height: 250px;" />\u005c\u000a\u000aIf you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.\u000a\u000a|box|k\u000a|!(Potentially) Good Places to Keep Your Passport|\u000a|Hidden in the room of your homestay or residence hall|\u000a|In your hotel's safe (//not// the room safe)|\u000a|With your study abroad provider, if they offer such a service|\u000a|<hr>//In some situations, even these options may not be secure. Use your common sense and evaluate the situation. If in doubt, talk to your Resident Director for advice.//|\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|Visa Acquisition]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Traveling with medications">>
+V!Passport and Document Security\u000a!!!!Keep your passport and other key documents safe\u000aWhen you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also become difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe.\u000a\u000aIn general, you should keep your passport on your person only when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.\u000a<img src="images/passport wallet.jpg" class="right" style="height: 250px;" />\u005c\u000a\u000aIf you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.\u000a\u000a|box|k\u000a|!(Potentially) Good Places to Keep Your Passport|\u000a|Hidden in the room of your homestay or residence hall|\u000a|In your hotel's safe (//not// the room safe)|\u000a|With your study abroad provider, if they offer such a service|\u000a|<hr>//In some situations, even these options may not be secure. Use your common sense and evaluate the situation. If in doubt, talk to your Resident Director for advice.//|\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Traveling with medications">>
 p189
 sg21
-VDocument security
+VPassport and document security
 p190
 sg23
 g24
 ((I2014
-I9
+I11
+I12
 I16
-I14
-I46
-I10
-I1
-I259
-I1
+I26
+I19
+I2
+I316
+I0
 tp191
 (dp192
 tp193
@@ -612,7 +612,7 @@ g12
 I00
 sg13
 (lp202
-F1074.512789281364
+F1072.9585870889157
 aF299.42955745026535
 asg15
 (itiddlywiki
@@ -620,22 +620,22 @@ Tiddler
 p203
 (dp204
 g19
-V<<sidebar "How to Get a Travel Visa">>\u000aA ''travel visa'' is not a credit card! It's a stamp or sticker placed in your passport that allows you to enter a foreign country. Depending on your own nationality and your reasons for traveling, ''you may or may not need a visa'' to visit a given country.\u000a\u000aIf you will be taking classes from an institution based in your host country, you will usually need a student-class visa to enter. Entry requirements are often lower when you are simply visiting as a tourist. \u000a\u000aRequirements to get a visa may include photographs, financial information, a letter from your host university, a criminal background check, an HIV test, or even a personal appearance at the foreign consulate. Your own nationality may have a major impact on the requirements you face in getting a visa. For example, US citizens typically face lower barriers than students of other nationalities. \u000a\u000aIn certain cases, students may be able to enter a country without a visa, but will need to obtain a ''residence permit'' after entering.\u000a\u000aYour study abroad provider will inform you about your visa requirements. If you are uncertain or have general questions, please contact GEO. \u000a\u000a|box|k\u000a|>|!Further information|\u000a|[[Travisa|http://www.travisa.com/]]|Easy access to visa requirements for all countries and most nationalities|\u000a|[[Visa @Wikipedia|https://en.wikipedia.org/wiki/Visa_(document)]]|Article providing information about visa policies around the world|\u000a\u000a<<segue "Traveling with medications">>\u005c
+V<<sidebar "How to get a travel visa">>\u000aA ''travel visa'' is not a credit card! It's a stamp or sticker placed in your passport that allows you to enter a foreign country. Depending on your own nationality and your reasons for traveling, ''you may or may not need a visa'' to visit a given country.\u000a\u000aIf you will be taking classes from an institution based in your host country, you will usually need a student-class visa to enter. Entry requirements are often lower when you are simply visiting as a tourist. \u000a\u000aRequirements to get a visa may include photographs, financial information, a letter from your host university, a criminal background check, an HIV test, or even a personal appearance at the foreign consulate. Your own nationality may have a major impact on the requirements you face in getting a visa. For example, US citizens typically face lower barriers than students of other nationalities. \u000a\u000aIn certain cases, students may be able to enter a country without a visa, but will need to obtain a ''residence permit'' after entering.\u000a\u000aYour study abroad provider will inform you about your visa requirements. If you are uncertain or have general questions, please contact GEO. \u000a\u000a|box|k\u000a|>|!Further information|\u000a|[[Travisa|http://www.travisa.com/]]|Easy access to visa requirements for all countries and most nationalities|\u000a|[[Visa @Wikipedia|https://en.wikipedia.org/wiki/Visa_(document)]]|Article providing information about visa policies around the world|\u000a\u000a<<segue "Traveling with medications">>\u005c
 p205
 sg21
-VVisa Acquisition
+VHow to get a travel visa
 p206
 sg23
 g24
 ((I2014
-I7
-I23
-I14
-I7
-I39
+I11
+I12
+I16
+I26
+I8
 I2
-I204
-I1
+I316
+I0
 tp207
 (dp208
 tp209
@@ -682,14 +682,14 @@ p223
 sg23
 g24
 ((I2014
-I9
-I30
-I17
 I11
-I25
-I1
-I273
-I1
+I12
+I15
+I58
+I44
+I2
+I316
+I0
 tp224
 (dp225
 tp226
@@ -728,22 +728,22 @@ Tiddler
 p237
 (dp238
 g19
-V<<sidebar "Getting or Renewing a Passport">>\u000aTo get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.\u000a\u000aUS citizens should visit the State Department's website for [[passport services|http://travel.state.gov/content/passports/english/passports.html]] to view requirements and to check on [[current processing times|http://travel.state.gov/content/passports/english/passports/information/processing-times.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications.\u000a\u000aIn Nashville, locations near Vanderbilt where you can apply for a passport include:\u000a\u000a|alternating-rows|k\u000a|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|\u000a|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|\u000a|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|\u000a|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|\u000a\u000aYou may need to ''call in advance'' for an appointment.\u000a\u000aYou'll also need to get ''passport photos'' taken before you can apply. FedEx-Kinko's, Walgreens, and CVS are locations near Vandy that can take passport photos.\u000a\u000a<<segue "Document security">>\u005c
+V<<sidebar "Getting or renewing a passport">>\u000aTo get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.\u000a\u000aUS citizens should visit the State Department's website for [[passport services|http://travel.state.gov/content/passports/english/passports.html]] to view requirements and to check on [[current processing times|http://travel.state.gov/content/passports/english/passports/information/processing-times.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications.\u000a\u000aIn Nashville, locations near Vanderbilt where you can apply for a passport include:\u000a\u000a|alternating-rows|k\u000a|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|\u000a|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|\u000a|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|\u000a|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|\u000a\u000aYou may need to ''call in advance'' for an appointment.\u000a\u000aYou'll also need to get ''passport photos'' taken before you can apply. FedEx-Kinko's, Walgreens, and CVS are locations near Vandy that can take passport photos.\u000a\u000a<<segue "Document security">>\u005c
 p239
 sg21
-VPassport Acquisition
+VGetting or renewing a passport
 p240
 sg23
 g24
 ((I2014
-I9
+I11
+I12
 I16
-I14
-I45
-I58
-I1
-I259
-I1
+I25
+I38
+I2
+I316
+I0
 tp241
 (dp242
 tp243
@@ -886,7 +886,7 @@ Tiddler
 p286
 (dp287
 g19
-V!Money\u000a!!!!Use debit and credit cards wisely to save money\u000aThe amount of money you spend while studying abroad will vary depending on the local cost of living, your personal spending habits, independent travel, and so on. //How// you access your money can also play a role in maintaining your budget.\u000a\u000aMany businesses will not accept plastic, especially for smaller purchases, so it's a good idea to have ''cash'' on hand throughout your time abroad. The most cost-effective way to get cash abroad is to use your ''debit card'' (not a credit card!) in an ATM. You can usually find out where the ATMs you might need are before you leave the US--ask your bank how.\u000a\u000aGEO also recommends that you bring a ''credit card''. Be aware that every credit card purchase or debit card withdrawal will likely carry transaction fees. Shop around a bit for the best rates before you leave the US, but also minimize the number of times you use your cards. Take out as much cash as you feel comfortable with each time you use the ATM, and use your credit card only when necessary or when you have an especially large purchase.\u000a\u000aBefore you depart the US, and every time you enter a new country, you should inform your bank(s) of your location. If you don't, you may find your cards canceled as an anti-fraud measure! \u000a\u000a|box|k\u000a|!Summary|\u000a|Before you leave, consider seeking out the US banks with the best currency conversion and transaction fees for your host country.|\u000a|Call your bank(s) to let them know you'll be abroad. Don't forget to call again whenever you cross an international border.|\u000a|Use your debit card in an ATM to get cash on a weekly or biweekly basis.|\u000a|Use your credit card for purchases. Do not use your debit card except for ATM withdrawals!|\u000a|Use your credit card for large purchases if possible.|\u000a|Only get cash from an ATM using your credit card in a dire emergency. Cash advances carry high fees.|\u000a\u000a<<sidebar-box>>\u000a   [[More on credit cards|More on credit cards]]\u000a   [[How do I budget for myself?|Budgeting]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Where will you live?">>\u005c
+V!Money\u000a!!!!Use debit and credit cards wisely to save money\u000aThe amount of money you spend while studying abroad will vary depending on the local cost of living, your personal spending habits, independent travel, and so on. //How// you access your money can also play a role in maintaining your budget.\u000a\u000aMany businesses will not accept plastic, especially for smaller purchases, so it's a good idea to have ''cash'' on hand throughout your time abroad. The most cost-effective way to get cash abroad is to use your ''debit card'' (not a credit card!) in an ATM. You can usually find out where the ATMs you might need are before you leave the US--ask your bank how.\u000a\u000aGEO also recommends that you bring a ''credit card''. Be aware that every credit card purchase or debit card withdrawal will likely carry transaction fees. Shop around a bit for the best rates before you leave the US, but also minimize the number of times you use your cards. Take out as much cash as you feel comfortable with each time you use the ATM, and use your credit card only when necessary or when you have an especially large purchase.\u000a\u000aBefore you depart the US, and every time you enter a new country, you should inform your bank(s) of your location. If you don't, you may find your cards canceled as an anti-fraud measure! \u000a\u000a|box|k\u000a|!Summary|\u000a|Before you leave, consider seeking out the US banks with the best currency conversion and transaction fees for your host country.|\u000a|Call your bank(s) to let them know you'll be abroad. Don't forget to call again whenever you cross an international border.|\u000a|Use your debit card in an ATM to get cash on a weekly or biweekly basis.|\u000a|Use your credit card for purchases. Do not use your debit card except for ATM withdrawals!|\u000a|Use your credit card for large purchases if possible.|\u000a|Only get cash from an ATM using your credit card in a dire emergency. Cash advances carry high fees.|\u000a\u000a<<sidebar-box>>\u000a   [[More on credit cards|More on credit cards]]\u000a   [[How do I budget for myself?|Basics of budgeting]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Where will you live?">>\u005c
 p288
 sg21
 VMoney
@@ -894,14 +894,14 @@ p289
 sg23
 g24
 ((I2014
-I7
-I23
+I11
+I12
 I16
-I55
-I21
+I25
+I11
 I2
-I204
-I1
+I316
+I0
 tp290
 (dp291
 tp292
@@ -938,22 +938,22 @@ Tiddler
 p302
 (dp303
 g19
-V<<sidebar "Basics of Budgeting">>\u000aBudgeting can be crucial to ensuring you have enough money to fund your study abroad experience. There are really two levels of budgeting that you need to keep in mind.\u000a\u000aFirst is the ''overall budget for your study abroad experience''. Getting a ballpark figure for this will help you and your family determine an appropriate monthly budget for you while you are abroad. Be sure to include not only the costs that are billed through Vanderbilt, but also the clear, fixed costs that you will pay out of pocket. Examples include: passport fees, visa fees, airfare, luggage fees, and purchase of clothing or other travel needs.\u000a\u000aTo this, you need to add an estimate of what you will spend on living expenses and entertainment and enrichment activities. These can be tricky to estimate, especially because a sudden change in currency exchange rates can alter the calculation substantially. GEO offers rough estimates in our cost calculator, but your program provider can give you a better idea of your costs on the ground. You can also use online cost-of-living calculators (see the Resources section below). \u000a\u000aNow that you have a blanket estimate of costs, you and your family can determine how much you should aim to spend per month. Here is where you will need to figure out how to maintain your month-to-month budget while you are abroad. \u000a\u000aA ''month-to-month budget'' is a detailed plan of the money you plan to spend, divided into categories: so much for food, so much for travel, and so on. You may need to revise it as you go. For example, you may overspend one month and need to cut back on future months. Keep in mind that students often spend more money the first few weeks while becoming acquainted with their new surroundings. [[More tips on budgeting from GEO|http://prezi.com/hkf9icfmogbd/budgeting-while-abroad/]].\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Numbeo|http://www.numbeo.com/cost-of-living/]], international cost of living database and calculator|\u000a|[[Expatistan|http://www.expatistan.com/cost-of-living]], international cost of living database and calculator|\u000a|[[OANDA|http://www.oanda.com/currency/converter/]] currency exchange converter, including historical trends|\u000a|[[Maintain a Personal Budget|http://www.wikihow.com/Maintain-a-Budget-for-Personal-Use]], a general budgeting guide|\u000a|[[Budgeting While Abroad|http://prezi.com/hkf9icfmogbd/budgeting-while-abroad/]], GEO's tips for maintaining a budget while abroad|\u000a|[[Budget tracking sheet|https://docs.google.com/spreadsheet/ccc?key=0Alj5J4V4xlpIdEx2Q0ZWME9ISnlEQms1ZzRLenkyNlE#gid=0]], a Google spreadsheet that helps automate budget tracking|\u000a\u000a<<segue "Where will you live?">>\u005c
+V<<sidebar "Basics of budgeting">>\u000aBudgeting can be crucial to ensuring you have enough money to fund your study abroad experience. There are really two levels of budgeting that you need to keep in mind.\u000a\u000aFirst is the ''overall budget for your study abroad experience''. Getting a ballpark figure for this will help you and your family determine an appropriate monthly budget for you while you are abroad. Be sure to include not only the costs that are billed through Vanderbilt, but also the clear, fixed costs that you will pay out of pocket. Examples include: passport fees, visa fees, airfare, luggage fees, and purchase of clothing or other travel needs.\u000a\u000aTo this, you need to add an estimate of what you will spend on living expenses and entertainment and enrichment activities. These can be tricky to estimate, especially because a sudden change in currency exchange rates can alter the calculation substantially. GEO offers rough estimates in our cost calculator, but your program provider can give you a better idea of your costs on the ground. You can also use online cost-of-living calculators (see the Resources section below). \u000a\u000aNow that you have a blanket estimate of costs, you and your family can determine how much you should aim to spend per month. Here is where you will need to figure out how to maintain your month-to-month budget while you are abroad. \u000a\u000aA ''month-to-month budget'' is a detailed plan of the money you plan to spend, divided into categories: so much for food, so much for travel, and so on. You may need to revise it as you go. For example, you may overspend one month and need to cut back on future months. Keep in mind that students often spend more money the first few weeks while becoming acquainted with their new surroundings. [[More tips on budgeting from GEO|http://prezi.com/hkf9icfmogbd/budgeting-while-abroad/]].\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Numbeo|http://www.numbeo.com/cost-of-living/]], international cost of living database and calculator|\u000a|[[Expatistan|http://www.expatistan.com/cost-of-living]], international cost of living database and calculator|\u000a|[[OANDA|http://www.oanda.com/currency/converter/]] currency exchange converter, including historical trends|\u000a|[[Maintain a Personal Budget|http://www.wikihow.com/Maintain-a-Budget-for-Personal-Use]], a general budgeting guide|\u000a|[[Budgeting While Abroad|http://prezi.com/hkf9icfmogbd/budgeting-while-abroad/]], GEO's tips for maintaining a budget while abroad|\u000a|[[Budget tracking sheet|https://docs.google.com/spreadsheet/ccc?key=0Alj5J4V4xlpIdEx2Q0ZWME9ISnlEQms1ZzRLenkyNlE#gid=0]], a Google spreadsheet that helps automate budget tracking|\u000a\u000a<<segue "Where will you live?">>\u005c
 p304
 sg21
-VBudgeting
+VBasics of budgeting
 p305
 sg23
 g24
 ((I2014
-I7
-I31
-I15
-I23
-I14
-I3
-I212
-I1
+I11
+I12
+I16
+I25
+I4
+I2
+I316
+I0
 tp306
 (dp307
 tp308
@@ -1092,8 +1092,8 @@ g12
 I00
 sg13
 (lp352
-F929.8833739342268
-aF969.1599675192821
+F934.5459805115715
+aF967.6057653268338
 asg15
 (itiddlywiki
 Tiddler
@@ -1108,14 +1108,14 @@ p356
 sg23
 g24
 ((I2014
-I9
-I22
+I11
+I12
 I15
-I18
-I5
+I59
+I8
+I2
+I316
 I0
-I265
-I1
 tp357
 (dp358
 tp359
@@ -1144,7 +1144,7 @@ g12
 I00
 sg13
 (lp368
-F1077.6625050751093
+F1069.8914941128683
 aF1505.7060495330952
 asg15
 (itiddlywiki
@@ -1160,14 +1160,14 @@ p372
 sg23
 g24
 ((I2014
-I7
+I11
+I12
+I16
 I31
-I15
-I25
-I34
-I3
-I212
-I1
+I52
+I2
+I316
+I0
 tp373
 (dp374
 tp375
@@ -1308,22 +1308,22 @@ Tiddler
 p417
 (dp418
 g19
-V<<sidebar "Where to Find Crucial Information About Your Medications">>\u000aThere are two pieces of information that it will be useful or even critical for you to know about your medications: the legal status of the drug in your host country, and the generic/chemical name and/or the local brand names it goes by.\u000a\u000aTo ''find out if any of your medications are restricted or banned'' in your host country, contact the country's embassy here in the US. The US Department of State provides a [[directory of foreign embassies|http://www.state.gov/s/cpr/rls/dpl/32122.htm]]. Even some over-the-counter drugs may be more restricted abroad, so ask if you have doubts.\u000a\u000aTo ''find the generic or chemical name'' of a drug, you can check the National Institutes of Health's [[MedlinePlus website|http://www.nlm.nih.gov/medlineplus/druginformation.html]]. It may be somewhat trickier to find out the brand name the drug might be sold under in your host country, but [[this tool from HTH Worldwide Insurance|https://www.hthstudents.com/drug/index1.cfm]] will provide answers in most cases.\u000a\u000aWhatever the legal status of your medications, ''request a letter from your physician'' explaining why the drugs you are transporting have been prescribed to you. Also include over-the-counter drugs if needed. You will want to take this letter with you //whenever you travel!// Request that your doctor use the local brand names or generic/chemical names for your drugs.\u000a\u000aWhen possible, ''take enough medicine with you to cover your entire stay abroad'', unless your doctor prefers that you identify a physician in your host country to renew your prescription. You may discuss with your physician and program staff how you will obtain enough medication for your stay. Please be aware that medications //cannot be sent through the mail!//\u000a\u000a|box|k\u000a|!Resources|\u000a|[[MedlinePlus|http://www.nlm.nih.gov/medlineplus/druginformation.html]], information on prescription and over-the-counter drugs, including generic/chemical names|\u000a|[[HTH Drug Translation Guide|https://www.hthstudents.com/drug/index1.cfm]], offers equivalent brand names and availability for frequently visited countries/destinations|\u000a|[[Directory of Foreign Embassies|http://www.state.gov/s/cpr/rls/dpl/32122.htm]], US Department of State|\u000a|[[Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]] from the US Department of State|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a\u000a<<segue "Medical insurance">>\u005c
+V<<sidebar "Where to find crucial information about your medications">>\u000aThere are two pieces of information that it will be useful or even critical for you to know about your medications: the legal status of the drug in your host country, and the generic/chemical name and/or the local brand names it goes by.\u000a\u000aTo ''find out if any of your medications are restricted or banned'' in your host country, contact the country's embassy here in the US. The US Department of State provides a [[directory of foreign embassies|http://www.state.gov/s/cpr/rls/dpl/32122.htm]]. Even some over-the-counter drugs may be more restricted abroad, so ask if you have doubts.\u000a\u000aTo ''find the generic or chemical name'' of a drug, you can check the National Institutes of Health's [[MedlinePlus website|http://www.nlm.nih.gov/medlineplus/druginformation.html]]. It may be somewhat trickier to find out the brand name the drug might be sold under in your host country, but [[this tool from HTH Worldwide Insurance|https://www.hthstudents.com/drug/index1.cfm]] will provide answers in most cases.\u000a\u000aWhatever the legal status of your medications, ''request a letter from your physician'' explaining why the drugs you are transporting have been prescribed to you. Also include over-the-counter drugs if needed. You will want to take this letter with you //whenever you travel!// Request that your doctor use the local brand names or generic/chemical names for your drugs.\u000a\u000aWhen possible, ''take enough medicine with you to cover your entire stay abroad'', unless your doctor prefers that you identify a physician in your host country to renew your prescription. You may discuss with your physician and program staff how you will obtain enough medication for your stay. Please be aware that medications //cannot be sent through the mail!//\u000a\u000a|box|k\u000a|!Resources|\u000a|[[MedlinePlus|http://www.nlm.nih.gov/medlineplus/druginformation.html]], information on prescription and over-the-counter drugs, including generic/chemical names|\u000a|[[HTH Drug Translation Guide|https://www.hthstudents.com/drug/index1.cfm]], offers equivalent brand names and availability for frequently visited countries/destinations|\u000a|[[Directory of Foreign Embassies|http://www.state.gov/s/cpr/rls/dpl/32122.htm]], US Department of State|\u000a|[[Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]] from the US Department of State|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a\u000a<<segue "Medical insurance">>\u005c
 p419
 sg21
-VInformation about medications
+VWhere to find crucial information about your medications
 p420
 sg23
 g24
 ((I2014
-I8
-I1
+I11
+I12
 I16
-I38
-I3
-I4
-I213
-I1
+I24
+I46
+I2
+I316
+I0
 tp421
 (dp422
 tp423
@@ -1362,7 +1362,7 @@ Tiddler
 p434
 (dp435
 g19
-V!Before you leave\u000a!!!!Know where you are medically before you depart\u000aRegardless of whether you have an existing medical condition, there are a few things you should do before you go abroad.\u000a\u000aFirst, consult with a travel medicine clinic (such as the one at the [[VU Student Health Center|https://medschool.vanderbilt.edu/student-health/travel-medicine]]) about any ''vaccinations'' that might be necessary or advisable. You should do this as soon as possible!\u000a\u000aMeet with your medical, dental, and other care providers for a ''full checkup''. You don't want to be blindsided by an unnoticed condition when you arrive in your new location.\u000a\u000aIf you have an existing medical or mental health condition, have an honest discussion with your care providers about your current history and ''how study abroad will fit into your care plan''.\u000a\u000aWhile you know your history, your program staff does not. In an emergency, you may not be able to relay information that is critical to your care. //Please// ''disclose any physical or mental health conditions'' to your program staff prior to arrival. You can use the program's medical history form, or send an email detailing your history and current care plan.\u000a\u000aLearn the generic names and legal status of any ''prescription medications'' you take //before// you leave the US. Request a letter from your physician explaining your use of prescription and over-the-counter drugs to ensure that you will be allowed entry into your host country.\u000a\u000aWork with the travel clinic mental health team to ''identify resources for obtaining your prescriptions'' in your host country. Your provider may want you to obtain monthly prescriptions in the host country, and you may also need to have resources available in case you lose your medications.\u000a\u000a<<sidebar-box>>\u000a   [[Do I need any vaccinations?|Vaccinations]]\u000a   [[How do I find out more about my medications?|Information about medications]]\u000a   [[Should I really disclose my medical information?|Disclosing medical information]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Medical insurance">>
+V!Before you leave\u000a!!!!Know where you are medically before you depart\u000aRegardless of whether you have an existing medical condition, there are a few things you should do before you go abroad.\u000a\u000aFirst, consult with a travel medicine clinic (such as the one at the [[VU Student Health Center|https://medschool.vanderbilt.edu/student-health/travel-medicine]]) about any ''vaccinations'' that might be necessary or advisable. You should do this as soon as possible!\u000a\u000aMeet with your medical, dental, and other care providers for a ''full checkup''. You don't want to be blindsided by an unnoticed condition when you arrive in your new location.\u000a\u000aIf you have an existing medical or mental health condition, have an honest discussion with your care providers about your current history and ''how study abroad will fit into your care plan''.\u000a\u000aWhile you know your history, your program staff does not. In an emergency, you may not be able to relay information that is critical to your care. //Please// ''disclose any physical or mental health conditions'' to your program staff prior to arrival. You can use the program's medical history form, or send an email detailing your history and current care plan.\u000a\u000aLearn the generic names and legal status of any ''prescription medications'' you take //before// you leave the US. Request a letter from your physician explaining your use of prescription and over-the-counter drugs to ensure that you will be allowed entry into your host country.\u000a\u000aWork with the travel clinic mental health team to ''identify resources for obtaining your prescriptions'' in your host country. Your provider may want you to obtain monthly prescriptions in the host country, and you may also need to have resources available in case you lose your medications.\u000a\u000a<<sidebar-box>>\u000a   [[Do I need any vaccinations?|Vaccinations]]\u000a   [[How do I find out more about my medications?|Where to find crucial information about your medications]]\u000a   [[Should I really disclose my medical information?|Disclosing medical information]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Medical insurance">>
 p436
 sg21
 VBefore you leave
@@ -1370,14 +1370,14 @@ p437
 sg23
 g24
 ((I2014
-I9
-I30
-I17
-I5
-I51
-I1
-I273
-I1
+I11
+I12
+I16
+I24
+I23
+I2
+I316
+I0
 tp438
 (dp439
 tp440
@@ -1468,7 +1468,7 @@ Tiddler
 p467
 (dp468
 g19
-V<<sidebar "Do I Need Any Vaccinations?">>\u000aTo find out whether any vaccinations are required or recommended for your trip abroad, you may visit the [[Vanderbilt Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]]. You are also, of course, welcome to see a travel medicine provider of your choice.\u000a\u000aRegardless of who you consult, schedule your initial appointment ''at least 6 weeks before your departure''. Think about //all// of the countries you hope to visit and discuss them all with your travel clinician.   \u000a\u000aBe aware that most ''medical insurance usually does not cover immunizations'' or other medications needed for travel.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Centers for Disease Control travel website|http://wwwnc.cdc.gov/travel]], an excellent resource with country-specific information|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[VU Student Health Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]], information including list of documents to bring to your consultation|\u000a|[[List of information about vaccines|https://medschool.vanderbilt.edu/student-health/files/student-health/public_files/TravelImmunizations.pdf]] offered at VU Student Health, including approximate cost|\u000a\u000a<<segue "Medical insurance">>\u005c
+V<<sidebar "Vaccinations">>\u000aTo find out whether any vaccinations are required or recommended for your trip abroad, you may visit the [[Vanderbilt Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]]. You are also, of course, welcome to see a travel medicine provider of your choice.\u000a\u000aRegardless of who you consult, schedule your initial appointment ''at least 6 weeks before your departure''. Think about //all// of the countries you hope to visit and discuss them all with your travel clinician.   \u000a\u000aBe aware that most ''medical insurance usually does not cover immunizations'' or other medications needed for travel.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Centers for Disease Control travel website|http://wwwnc.cdc.gov/travel]], an excellent resource with country-specific information|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[VU Student Health Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]], information including list of documents to bring to your consultation|\u000a|[[List of information about vaccines|https://medschool.vanderbilt.edu/student-health/files/student-health/public_files/TravelImmunizations.pdf]] offered at VU Student Health, including approximate cost|\u000a\u000a<<segue "Medical insurance">>\u005c
 p469
 sg21
 VVaccinations
@@ -1476,14 +1476,14 @@ p470
 sg23
 g24
 ((I2014
-I10
-I3
-I14
-I48
+I11
+I12
+I16
+I23
+I6
 I2
-I4
-I276
-I1
+I316
+I0
 tp471
 (dp472
 tp473
@@ -1574,7 +1574,7 @@ Tiddler
 p500
 (dp501
 g19
-V!Illness abroad\u000a!!!!Know attendance policies and who to contact\u000aThink about who can best help you if you become sick while abroad. It will usually be someone on site, with your program's resident director or staff at the top of the list. Don't contact home for help unless you've exhausted all your local contacts.\u000a\u000aWhen you arrive at your program site, you should receive a list of all appropriate emergency contacts for your program or host university, as well as for emergency services (police, ambulance, etc.). If you don't receive this information, ask for it! Also consider recording it on a [[handy wallet-sized card|http://studentsabroad.com/handbook/emergency-card.php?country=General]].\u000a\u000aRemember that phone numbers for emergency services will be different in each country you might visit. Get that information before you take a side trip.\u000a\u000aBe aware of the absence and illness policies for your program or host university. They may differ drastically from Vanderbilt policies. Always keep your program staff in the loop while ill (via email or phone). \u000a\u000aBe sure to keep any doctor's notes for your files. You may need them later for academic or medical reasons.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[Emergency services numbers abroad|http://travel.state.gov/content/dam/students-abroad/pdfs/911_ABROAD.pdf]], the US Department of State's list of 911 equivalents around the world|\u000a|[[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]] Wherever you are in the world, the PCC can help you identify local resources. When you contact PCC, request the GEO resource provider.|\u000a\u000a<<segue "Traveling while abroad">>\u005c
+V!Illness abroad\u000a!!!!Know attendance policies and who to contact\u000aThink about who can best help you if you become sick while abroad. It will usually be someone on site, with your program's resident director or staff at the top of the list. Don't contact home for help unless you've exhausted all your local contacts.\u000a\u000aWhen you arrive at your program site, you should receive a list of all appropriate emergency contacts for your program or host university, as well as for emergency services (police, ambulance, etc.). If you don't receive this information, ask for it! Also consider recording it on a [[handy wallet-sized card|$emergencyCardURL]].\u000a\u000aRemember that phone numbers for emergency services will be different in each country you might visit. Get that information before you take a side trip.\u000a\u000aBe aware of the absence and illness policies for your program or host university. They may differ drastically from Vanderbilt policies. Always keep your program staff in the loop while ill (via email or phone). \u000a\u000aBe sure to keep any doctor's notes for your files. You may need them later for academic or medical reasons.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[Emergency services numbers abroad|http://travel.state.gov/content/dam/students-abroad/pdfs/911_ABROAD.pdf]], the US Department of State's list of 911 equivalents around the world|\u000a|[[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-center]] Wherever you are in the world, the PCC can help you identify local resources. When you contact PCC, request the GEO resource provider.|\u000a\u000a<<segue "Traveling while abroad">>\u005c
 p502
 sg21
 VIllness abroad
@@ -1582,14 +1582,14 @@ p503
 sg23
 g24
 ((I2014
-I10
-I1
-I10
-I6
-I6
+I11
+I12
+I15
+I59
+I48
 I2
-I274
-I1
+I316
+I0
 tp504
 (dp505
 tp506
@@ -1626,22 +1626,22 @@ Tiddler
 p516
 (dp517
 g19
-V<<sidebar "More Ideas and Resources for Getting Involved After Returning Home">>\u000aWhether you're interested in publishing your experiences, submitting photos to the GEO photo contest, or getting involved with the international communities of Vanderbilt and Nashville, GEO has information for you. In fact, there's an [[entire section of our website|http://vanderbi.lt/rusg8]] dedicated to giving you ideas for post-study abroad involvement. Check it out!\u000a\u000a<<segue "GEO Photo Contest">>\u005c
+V<<sidebar "More ideas and resources for getting involved">>\u000aWhether you're interested in publishing your experiences, submitting photos to the GEO photo contest, or getting involved with the international communities of Vanderbilt and Nashville, GEO has information for you. In fact, there's an [[entire section of our website|http://vanderbi.lt/rusg8]] dedicated to giving you ideas for post-study abroad involvement. Check it out!\u000a\u000a<<segue "GEO Photo Contest">>\u005c
 p518
 sg21
-VReturnee resources
+VMore ideas and resources for getting involved
 p519
 sg23
 g24
 ((I2014
-I9
-I15
-I14
-I33
-I21
+I11
+I12
+I16
+I31
+I16
+I2
+I316
 I0
-I258
-I1
 tp520
 (dp521
 tp522
@@ -1680,7 +1680,7 @@ Tiddler
 p533
 (dp534
 g19
-V<<sidebar "Going Abroad ... Again!">>\u000aStudents who return from abroad often feel the need to go abroad again.\u000a\u000aIf you are not graduating and you have room in your academic schedule, you are welcome to ''apply for another GEO study abroad program''--there is no rule that says you can only go once! Or, if you are more strapped for time, consider ''volunteering abroad''. You can go over break either with the [[Office of Active Citizenship and Service|http://www.vanderbilt.edu/oacs/]] (OACS) or on your own. You may even be able to find funding (ask OACS about the [[Nichols Humanitarian Fund|http://www.vanderbilt.edu/nicholsfund/]]).\u000a\u000aOr consider ''graduate studies abroad''. Several universities around the world welcome international students for graduate degrees. Many have more reasonable tuition fees than you will find in the US, yet with comparable educational quality and prestige. It is often possible to apply US federal financial aid toward studies at recognized institutions. Some countries, like the United Kingdom, will even give you a 1- or 2-year work visa upon completion of an advanced degree in their country.\u000a\u000aAnother option might be ''working or interning abroad'', including teaching English abroad. Visit GEO's [[Career page|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2A18AE-0A6B-2220-EA57131A558B072C&Link_ID=1B3AFB7F-CCFB-5B8C-F4E22E5CBC34F1E5&pID=2&lID=21]] for resources and tips for finding an international job.\u000a\u000a<<segue "GEO Photo Contest">>\u005c
+V<<sidebar "Going abroad ... again!">>\u000aStudents who return from abroad often feel the need to go abroad again.\u000a\u000aIf you are not graduating and you have room in your academic schedule, you are welcome to ''apply for another GEO study abroad program''--there is no rule that says you can only go once! Or, if you are more strapped for time, consider ''volunteering abroad''. You can go over break either with the [[Office of Active Citizenship and Service|http://www.vanderbilt.edu/oacs/]] (OACS) or on your own. You may even be able to find funding (ask OACS about the [[Nichols Humanitarian Fund|http://www.vanderbilt.edu/nicholsfund/]]).\u000a\u000aOr consider ''graduate studies abroad''. Several universities around the world welcome international students for graduate degrees. Many have more reasonable tuition fees than you will find in the US, yet with comparable educational quality and prestige. It is often possible to apply US federal financial aid toward studies at recognized institutions. Some countries, like the United Kingdom, will even give you a 1- or 2-year work visa upon completion of an advanced degree in their country.\u000a\u000aAnother option might be ''working or interning abroad'', including teaching English abroad. Visit GEO's [[Career page|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2A18AE-0A6B-2220-EA57131A558B072C&Link_ID=1B3AFB7F-CCFB-5B8C-F4E22E5CBC34F1E5&pID=2&lID=21]] for resources and tips for finding an international job.\u000a\u000a<<segue "GEO Photo Contest">>\u005c
 p535
 sg21
 VGoing abroad again
@@ -1688,14 +1688,14 @@ p536
 sg23
 g24
 ((I2014
-I9
-I15
-I14
-I33
-I17
+I11
+I12
+I16
+I31
+I23
+I2
+I316
 I0
-I258
-I1
 tp537
 (dp538
 tp539
@@ -1734,7 +1734,7 @@ Tiddler
 p550
 (dp551
 g19
-V!Opportunities for returned students\u000a!!!!There's sooooo much you can do when you get home!\u000aYour study abroad experience doesn't have to end when you return to the US! In fact, our goal is to ensure that you can extend and process your experience when you return home.\u000a\u000aGEO offers programming specifically for returning students. We sponsor a ''student organization,'' the Study Abroad Alumni Group, which hosts social dinners and workshops. Our [[annual conference|http://vanderbi.lt/icgrsa]] helps you unpack your experience and/or share your newfound insights about the world with fellow students.\u000a\u000aWhen you return, you can also ''volunteer with'' or ''work for GEO''; it's a great way to share your experience with other students. You can also get involved in our own local community: you may be surprised how international Nashville really is!\u000a\u000aStudying abroad can make you a great candidate for ''prestigious honors scholarships'' when you return home. Some of these, such as the Fulbright Fellowship or Critical Language Summer Institutes, may even send you abroad again. These opportunities may require advance planning, though, so we encourage you to study the offerings and discuss your interests with the [[Office of Honor Scholarships|http://ohs.vanderbilt.edu]] //before you leave//.\u000a\u000a<<sidebar-box>>\u000a   [[More ideas and resources for getting involved after you return|Returnee resources]]\u000a   [[What possibilities exist for me to go abroad again after I return?|Going abroad again]]\u000a<</sidebar-box>>\u000a\u000a<<segue "GEO Photo Contest">>\u005c
+V!Opportunities for returned students\u000a!!!!There's sooooo much you can do when you get home!\u000aYour study abroad experience doesn't have to end when you return to the US! In fact, our goal is to ensure that you can extend and process your experience when you return home.\u000a\u000aGEO offers programming specifically for returning students. We sponsor a ''student organization,'' the Study Abroad Alumni Group, which hosts social dinners and workshops. Our [[annual conference|http://vanderbi.lt/icgrsa]] helps you unpack your experience and/or share your newfound insights about the world with fellow students.\u000a\u000aWhen you return, you can also ''volunteer with'' or ''work for GEO''; it's a great way to share your experience with other students. You can also get involved in our own local community: you may be surprised how international Nashville really is!\u000a\u000aStudying abroad can make you a great candidate for ''prestigious honors scholarships'' when you return home. Some of these, such as the Fulbright Fellowship or Critical Language Summer Institutes, may even send you abroad again. These opportunities may require advance planning, though, so we encourage you to study the offerings and discuss your interests with the [[Office of Honor Scholarships|http://ohs.vanderbilt.edu]] //before you leave//.\u000a\u000a<<sidebar-box>>\u000a   [[More ideas and resources for getting involved after you return|More ideas and resources for getting involved]]\u000a   [[What possibilities exist for me to go abroad again after I return?|Going abroad again]]\u000a<</sidebar-box>>\u000a\u000a<<segue "GEO\u2019s annual Photo Contest">>\u005c
 p552
 sg21
 VOpportunities for returned students
@@ -1742,14 +1742,14 @@ p553
 sg23
 g24
 ((I2014
-I7
-I31
+I11
+I12
 I16
-I39
-I43
-I3
-I212
-I1
+I40
+I16
+I2
+I316
+I0
 tp554
 (dp555
 tp556
@@ -1786,7 +1786,7 @@ Tiddler
 p566
 (dp567
 g19
-V<<sidebar "Ethical Photography Abroad">>\u000aAs a representative of Vanderbilt, your home country, and the global community at large, you have a responsibility to follow ethical and respectful photography practices. Be mindful of the message your final product sends as well as the impact it has on the host culture.\u000a\u000aDefinitely ''get permission'' to photograph human subjects: There are cultures where people consider photography rude or a violation of modesty, or believe that the camera can be harmful to health. And in all cultures there are people who just don't like to be photographed. Don't be afraid to ask for permission, though. Instead consider asking for permission as an opportunity to make a connection, have a conversation, and to demonstrate your interest in the people of your host country!\u000a\u000a|box|k\u000a|!Questions to ask yourself before you snap that picture|\u000a|Does the photo make fun of the culture or people of my host country?|\u000a|Does this picture tell a false story about my host country or its people?|\u000a|Does the subject mind that I'm photographing them?|\u000a|What message does this photo send about how I spent my time abroad?|\u000a\u000a''More resources:''\u000a[[Guidelines for Culturally Sensitive Photography|http://www.culturosity.com/pdfs/CulturallySensitivePhotography.pdf]]\u000a[[Breaking Free from the Viewfinder|http://www.melibeeglobal.com/2012/09/photography-while-on-study-abroad-breaking-free-from-the-viewfinder/]]\u000a\u000a<<segue "Your next steps">>\u005c
+V<<sidebar "Ethical photography">>\u000aAs a representative of Vanderbilt, your home country, and the global community at large, you have a responsibility to follow ethical and respectful photography practices. Be mindful of the message your final product sends as well as the impact it has on the host culture.\u000a\u000aDefinitely ''get permission'' to photograph human subjects: There are cultures where people consider photography rude or a violation of modesty, or believe that the camera can be harmful to health. And in all cultures there are people who just don't like to be photographed. Don't be afraid to ask for permission, though. Instead consider asking for permission as an opportunity to make a connection, have a conversation, and to demonstrate your interest in the people of your host country!\u000a\u000a|box|k\u000a|!Questions to ask yourself before you snap that picture|\u000a|Does the photo make fun of the culture or people of my host country?|\u000a|Does this picture tell a false story about my host country or its people?|\u000a|Does the subject mind that I'm photographing them?|\u000a|What message does this photo send about how I spent my time abroad?|\u000a\u000a''More resources:''\u000a[[Guidelines for Culturally Sensitive Photography|http://www.culturosity.com/pdfs/CulturallySensitivePhotography.pdf]]\u000a[[Breaking Free from the Viewfinder|http://www.melibeeglobal.com/2012/09/photography-while-on-study-abroad-breaking-free-from-the-viewfinder/]]\u000a\u000a<<segue "Your next steps">>\u005c
 p568
 sg21
 VEthical photography
@@ -1795,12 +1795,12 @@ sg23
 g24
 ((I2014
 I11
-I7
-I14
-I49
-I22
-I4
-I311
+I12
+I16
+I31
+I11
+I2
+I316
 I0
 tp570
 (dp571
@@ -1894,21 +1894,21 @@ Tiddler
 p600
 (dp601
 g19
-V!GEO's Annual Photo Contest\u000a!!!!Keep the contest in mind as you decide what to photograph!\u000aEvery year, GEO conducts a photo contest. We solicit photos from students who went abroad in the 12 months previous and choose the best images to feature.\u000a\u000aWe will contact you via email, usually in the summer, to request your entries in the contest. \u000aThere are prizes, and we invite the entire Vanderbilt campus and alumni community to take part in the judging process. If you're a winner, your photo will be seen by thousands or tens of thousands of people! We put the winning photos on live exhibit on campus, and they tend to show up in campus publications as well, including //Vanderbilt Magazine.//\u000a\u000aPhotos can be of any subject (scenery, activities, cultures, etc.) but please be tasteful and respectful as you snap your pics.\u000a\u000aIf you just want to share photos of your experiences without entering the contest, [[we have an outlet for that too|http://www.jotformpro.com/form/21576745147965]].\u000a\u000aGEO is particularly keen on photos that show Vanderbilt students participating in academic and cultural endeavors. Scenery is beautiful, but action shots with Vandy representatives (such as yourself) tell interesting stories!\u000a\u000a<<sidebar-box>>\u000a   [[Quick guidelines for ethical photography|Ethical photography]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Your next steps">>\u005c
+V!GEO's annual Photo Contest\u000a!!!!Keep the contest in mind as you decide what to photograph!\u000aEvery year, GEO conducts a photo contest. We solicit photos from students who went abroad in the 12 months previous and choose the best images to feature.\u000a\u000aWe will contact you via email, usually in the summer, to request your entries in the contest. \u000aThere are prizes, and we invite the entire Vanderbilt campus and alumni community to take part in the judging process. If you're a winner, your photo will be seen by thousands or tens of thousands of people! We put the winning photos on live exhibit on campus, and they tend to show up in campus publications as well, including //Vanderbilt Magazine.//\u000a\u000aPhotos can be of any subject (scenery, activities, cultures, etc.) but please be tasteful and respectful as you snap your pics.\u000a\u000aIf you just want to share photos of your experiences without entering the contest, [[we have an outlet for that too|http://www.jotformpro.com/form/21576745147965]].\u000a\u000aGEO is particularly keen on photos that show Vanderbilt students participating in academic and cultural endeavors. Scenery is beautiful, but action shots with Vandy representatives (such as yourself) tell interesting stories!\u000a\u000a<<sidebar-box>>\u000a   [[Quick guidelines for ethical photography|Ethical photography]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Your next steps">>\u005c
 p602
 sg21
-VGEO Photo Contest
+VGEO\u2019s annual Photo Contest
 p603
 sg23
 g24
 ((I2014
 I11
-I11
+I12
 I16
-I14
-I56
-I1
-I315
+I40
+I8
+I2
+I316
 I0
 tp604
 (dp605
@@ -2002,7 +2002,7 @@ Tiddler
 p634
 (dp635
 g19
-V!Your next steps\u000a!!!!What to do now...\u000aBelow are a few things you may need to take care of right now or in the near future. Students, please be sure to go to the next page to ''register your participation'' in this training before quitting.\u000a<ul class="checklist">\u005c\u000a<li><<smartcheckbox "$todo.commit">> Formally ''commit to your program'' to ensure that GEO and our partners are planning for your departure from campus.</li>\u000a<li><<smartcheckbox "$todo.passport">> ''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad. Consider expediting if you are behind.</li>\u000a<li><<smartcheckbox "$todo.visa">> Check requirements for a ''student visa'' or resident permit, and decide when you need to begin applying.</li>\u000a<li><<smartcheckbox "$todo.vaccinations">> Check on required and recommended ''vaccinations'' with your doctor, the [[CDC|http://wwwnc.cdc.gov/travel]], or the [[Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]].</li>\u000a<li><<smartcheckbox "$todo.medical">> Get ''medical and dental checkups'', and talk with your physician about how any existing medical or mental health conditions can be managed abroad.</li>\u000a<li><<smartcheckbox "$todo.medications">> Learn the generic or local names of any ''medications'' you take on a regular basis, as well as verify their legal status in your host country.</li>\u000a<li><<smartcheckbox "$todo.travel">> If you've already purchased your airline tickets, ''register your travel'' with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]] and (US citizens only) the US Department of State [[Smart Traveler program|https://step.state.gov/step/]].</li>\u000a<li><<smartcheckbox "$todo.checklist">> Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.</li>\u000a<li><<smartcheckbox "$todo.packing">> Start thinking about ''packing'' and what you'd like to bring with you. You may want to download GEO's [[suggested packing list|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14068]].</li>\u000a<li><<smartcheckbox "$todo.contactinfo">> Scan or photocopy your critical documents (such as passport and credit cards), and create an [[emergency contact information card|$emergencyCardURL]] to carry with you.</li>\u000a<li><<if storage.getItem("registration") eq true>><input type="checkbox" disabled="disabled" checked="checked"><<else>><<smartcheckbox "$todo.register">><</if>> ''Register your participation'' in the training on the next page!</li>\u000a</ul>\u000aRemember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]].\u000a\u000a<<segue "Register your participation">>\u005c
+V!Your next steps\u000a!!!!What to do now...\u000aBelow are a few things you may need to take care of right now or in the near future. Students, please be sure to go to the next page to ''register your participation'' in this training before quitting.\u000a<ul class="checklist">\u005c\u000a<li><<smartcheckbox "$todo.commit">> Formally ''commit to your program'' to ensure that GEO and our partners are planning for your departure from campus.</li>\u000a<li><<smartcheckbox "$todo.passport">> ''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad. Consider expediting if you are behind schedule.</li>\u000a<li><<smartcheckbox "$todo.visa">> Check requirements for a ''student visa'' or resident permit, and decide when you need to begin applying.</li>\u000a<li><<smartcheckbox "$todo.vaccinations">> Check on required and recommended ''vaccinations'' with your doctor, the [[CDC|http://wwwnc.cdc.gov/travel]], or the [[Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]].</li>\u000a<li><<smartcheckbox "$todo.medical">> Get ''medical and dental checkups'', and talk with your care providers about how any existing medical, dental, or mental health conditions can be managed abroad.</li>\u000a<li><<smartcheckbox "$todo.ead">> If you have ''accommodations'' with [[EAD|http://www.vanderbilt.edu/ead/]], have them send a letter explaining these to your program advisor. If you have other special needs, consider communicating those to your program advisor as well.</li>\u000a<li><<smartcheckbox "$todo.medications">> Learn the generic or local names of any ''medications'' you take on a regular basis, as well as verify their legal status in your host country.</li>\u000a<li><<smartcheckbox "$todo.travel">> If you've already purchased your airline tickets, ''register your travel'' with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]] and (US citizens only) the US Department of State [[Smart Traveler program|https://step.state.gov/step/]].</li>\u000a<li><<smartcheckbox "$todo.checklist">> Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.</li>\u000a<li><<smartcheckbox "$todo.packing">> Start thinking about ''packing'' and what you'd like to bring with you. You may want to download GEO's [[suggested packing list|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14068]].</li>\u000a<li><<smartcheckbox "$todo.contactinfo">> Scan or photocopy your critical documents (such as passport and credit cards), and create an [[emergency contact information card|$emergencyCardURL]] to carry with you.</li>\u000a<li><<if storage.getItem("registration") eq true>><input type="checkbox" disabled="disabled" checked="checked"><<else>><<smartcheckbox "$todo.register">><</if>> ''Register your participation'' in the training on the next page!</li>\u000a</ul>\u000aRemember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]].\u000a\u000a<<segue "Register your participation">>\u005c
 p636
 sg21
 VYour next steps
@@ -2012,9 +2012,9 @@ g24
 ((I2014
 I11
 I12
-I15
-I56
-I25
+I16
+I8
+I26
 I2
 I316
 I0
@@ -2167,12 +2167,12 @@ sg23
 g24
 ((I2014
 I11
-I5
+I12
 I16
-I31
-I33
+I34
+I47
 I2
-I309
+I316
 I0
 tp686
 (dp687
@@ -2316,7 +2316,7 @@ Tiddler
 p731
 (dp732
 g19
-V<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any farther, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you to get a student visa or residence permit if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Passport Acquisition]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Document security">>
+V<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any farther, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you to get a student visa or residence permit if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Getting or renewing a passport]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport and document security">>
 p733
 sg21
 VPassport Check
@@ -2324,14 +2324,14 @@ p734
 sg23
 g24
 ((I2014
-I9
-I29
-I10
-I19
-I31
+I11
+I12
+I16
+I25
+I50
+I2
+I316
 I0
-I272
-I1
 tp735
 (dp736
 tp737
@@ -2621,14 +2621,14 @@ I00
 sg13
 (lp826
 F1072.4125050751093
-aF1902.3727161997695
+aF1903.9269183922177
 asg15
 (itiddlywiki
 Tiddler
 p827
 (dp828
 g19
-V<<sidebar "Gifts and Relationships">>\u000aPresenting a gift shows that you place importance on a relationship. Consider a gift to start off your more important relationships abroad, such as with your homestay family or a host-country roommate.\u000a\u000aIn a cross-cultural setting, the best gifts can be those that let you bring a little of where you're from to the relationship. Examples might include a Vanderbilt mug or pendant, a photo book about Nashville or your hometown, maple syrup if you're from Vermont, or maybe biscuit or grits mix if you're from the South. Not only are gifts like these polite, positive, well-meaning gestures, they can also spur conversations ("Is a biscuit the same thing as a scone?").\u000a\u000aPhotos of home are another great conversation starter. Make sure you bring along some photos of your family, your house, your campus, your hobbies, and so on. It's a great way for people to feel like they are getting to know you and where you come from. \u000a\u000a<<segue "Before you leave">>\u005c
+V<<sidebar "Gifts and relationships">>\u000aPresenting a gift shows that you place importance on a relationship. Consider a gift to start off your more important relationships abroad, such as with your homestay family or a host-country roommate.\u000a\u000aIn a cross-cultural setting, the best gifts can be those that let you bring a little of where you're from to the relationship. Examples might include a Vanderbilt mug or pendant, a photo book about Nashville or your hometown, maple syrup if you're from Vermont, or maybe biscuit or grits mix if you're from the South. Not only are gifts like these polite, positive, well-meaning gestures, they can also spur conversations ("Is a biscuit the same thing as a scone?").\u000a\u000aPhotos of home are another great conversation starter. Make sure you bring along some photos of your family, your house, your campus, your hobbies, and so on. It's a great way for people to feel like they are getting to know you and where you come from. \u000a\u000a<<segue "Before you leave">>\u005c
 p829
 sg21
 VGifts and relationships
@@ -2636,14 +2636,14 @@ p830
 sg23
 g24
 ((I2014
-I7
+I11
+I12
+I16
 I31
-I15
-I37
-I35
-I3
-I212
-I1
+I46
+I2
+I316
+I0
 tp831
 (dp832
 tp833
@@ -3014,14 +3014,14 @@ p949
 sg23
 g24
 ((I2014
-I7
-I23
-I14
-I49
-I14
+I11
+I12
+I16
+I31
+I27
 I2
-I204
-I1
+I316
+I0
 tp950
 (dp951
 tp952
@@ -3122,14 +3122,14 @@ p983
 sg23
 g24
 ((I2014
-I8
-I1
+I11
+I12
 I16
-I37
-I57
-I4
-I213
-I1
+I24
+I31
+I2
+I316
+I0
 tp984
 (dp985
 tp986
@@ -3274,7 +3274,7 @@ Tiddler
 p1030
 (dp1031
 g19
-V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. This is ''mandatory'', and //you should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. This is ''mandatory'', and //you should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are the best resources for monitoring the safety of regions overseas?|Resources for monitoring safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000aDownload a [[wallet-sized emergency numbers directory|$emergencyCardURL]] to record information in a handy, portable format.\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1032
 sg21
 VPreparing for safety
@@ -3282,14 +3282,14 @@ p1033
 sg23
 g24
 ((I2014
-I10
-I1
 I11
-I47
-I43
+I12
+I16
+I4
+I30
 I2
-I274
-I1
+I316
+I0
 tp1034
 (dp1035
 tp1036
@@ -3380,7 +3380,7 @@ Tiddler
 p1063
 (dp1064
 g19
-V!Personal emergencies\u000a!!!!What to do after experiencing a personal emergency\u000aPersonal emergencies may arise from illness, accidents, behavioral health crises, or criminal/negligent behavior. They generally require immediate assistance, whether from a health professional, law enforcement, a counselor, or some combination of these. If you encounter a personal emergency abroad, follow these steps:\u000a\u000a''Request help immediately''. Know the local [[emergency number or numbers|http://travel.state.gov/content/dam/students-abroad/pdfs/911_ABROAD.pdf]] (911 doesn't work abroad!) and have your phone with you at all times.\u000a\u000a''Notify your program's emergency contact''. At least one member of your program's staff will be available to you around the clock. On-site personnel are best positioned to provide timely and appropriate emergency support. If you are reporting an emergency on behalf of a friend, be sure to identify yourself as well as your friend.\u000a\u000aIf you are in immediate danger, or have been in a serious accident or the victim of a criminal act, ''contact law enforcement as soon as possible''. Your program staff may be in a better position to talk with law enforcement, and will also know the proper protocols. Work with him or her if at all possible.\u000a\u000a''Contact your insurance provider'' if the emergency requires medical attention of any kind. Depending on the nature of the emergency, it may also be appropriate to contact International SOS (ISOS). See information later in this presentation.\u000a\u000a''Notify the Vanderbilt Global Education Office''. A direct notification from you will help us coordinate support services. We can often provide additional assistance or help streamline communications.\u000a\u000a''Contact the nearest embassy''. Consular agents at US embassies are available 24/7 to help US citizens with emergencies. If you are not a US citizen, contact both the US embassy and your home country's embassy.\u000a\u000a''Contact your family''. Your family will be anxious and concerned about your well-being. Your program staff and GEO are both limited in the information they can share, so be sure to communicate with your family directly.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a<<segue "Large-scale emergencies">>\u005c
+V!Personal emergencies\u000a!!!!What to do after experiencing a personal emergency\u000aPersonal emergencies may arise from illness, accidents, behavioral health crises, or criminal/negligent behavior. They generally require immediate assistance, whether from a health professional, law enforcement, a counselor, or some combination of these. If you encounter a personal emergency abroad, follow these steps:\u000a\u000a''Request help immediately''. Know the local [[emergency number or numbers|http://travel.state.gov/content/dam/students-abroad/pdfs/911_ABROAD.pdf]] (911 doesn't work abroad!) and have your phone with you at all times.\u000a\u000a''Notify your program's emergency contact''. At least one member of your program's staff will be available to you around the clock. On-site personnel are best positioned to provide timely and appropriate emergency support. If you are reporting an emergency on behalf of a friend, be sure to identify yourself as well as your friend.\u000a\u000aIf you are in immediate danger, or have been in a serious accident or the victim of a criminal act, ''contact law enforcement as soon as possible''. Your program staff may be in a better position to talk with law enforcement, and will also know the proper protocols. Work with him or her if at all possible.\u000a\u000a''Contact your insurance provider'' if the emergency requires medical attention of any kind. Depending on the nature of the emergency, it may also be appropriate to contact International SOS (ISOS). See information later in this presentation.\u000a\u000a''Notify the Vanderbilt Global Education Office''. A direct notification from you will help us coordinate support services. We can often provide additional assistance or help streamline communications.\u000a\u000a''Contact the nearest embassy''. Consular agents at US embassies are available 24/7 to help US citizens with emergencies. If you are not a US citizen, contact both the US embassy and your home country's embassy.\u000a\u000a''Contact your family''. Your family will be anxious and concerned about your well-being. Your program staff and GEO are both limited in the information they can share, so be sure to communicate with your family directly.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|$emergencyCardURL]] to record information in a handy, portable format.\u000a\u000a<<segue "Large-scale emergencies">>\u005c
 p1065
 sg21
 VPersonal emergencies
@@ -3388,14 +3388,14 @@ p1066
 sg23
 g24
 ((I2014
-I9
+I11
+I12
+I16
 I25
-I10
-I58
-I29
-I3
-I268
-I1
+I22
+I2
+I316
+I0
 tp1067
 (dp1068
 tp1069
@@ -3432,7 +3432,7 @@ Tiddler
 p1079
 (dp1080
 g19
-V!Large-scale emergencies\u000a!!!!Procedures for dealing with large-scale disaster\u000aLarge-scale emergencies take many forms. Massive accidents, civil strife, acts of terrorism, natural disasters.... They are hard to predict and proper response depends heavily on local circumstances. \u000a\u000aIn general, your program staff will brief you soon after arrival on emergency protocols. Local emergency plans typically include the following elements:\u005c\u000a\u000a*a pre-established location where students and staff will assemble after a large-scale disaster;\u000a*communications protocols designed to account for all program participants;\u000a*an evacuation plan;\u000a*contingency plans short of full evacuation.\u005c\u000a\u000aThe most important general advice that Vanderbilt can offer is this: ''Know the protocols of your site's emergency plan.'' Keep calm, follow those protocols, and act with common sense and your best knowledge of the local situation.\u000a\u000aIf you are traveling independently or are unable to reach your rally point, contact International SOS (ISOS). Vanderbilt contracts with ISOS to provide emergency services around the globe. They can provide you with information as well as direct aid. See the information on the next page.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|http://studentsabroad.com/handbook/emergency-card.php?country=General]] to record information in a handy, portable format.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[FAQ on the US Department of State's role in crises overseas|http://travel.state.gov/content/passports/english/emergencies/crisis-support.html]]|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], includes contact information|\u000a\u000a<<segue "International SOS">>\u005c
+V!Large-scale emergencies\u000a!!!!Procedures for dealing with large-scale disaster\u000aLarge-scale emergencies take many forms. Massive accidents, civil strife, acts of terrorism, natural disasters.... They are hard to predict and proper response depends heavily on local circumstances. \u000a\u000aIn general, your program staff will brief you soon after arrival on emergency protocols. Local emergency plans typically include the following elements:\u005c\u000a\u000a*a pre-established location where students and staff will assemble after a large-scale disaster;\u000a*communications protocols designed to account for all program participants;\u000a*an evacuation plan;\u000a*contingency plans short of full evacuation.\u005c\u000a\u000aThe most important general advice that Vanderbilt can offer is this: ''Know the protocols of your site's emergency plan.'' Keep calm, follow those protocols, and act with common sense and your best knowledge of the local situation.\u000a\u000aIf you are traveling independently or are unable to reach your rally point, contact International SOS (ISOS). Vanderbilt contracts with ISOS to provide emergency services around the globe. They can provide you with information as well as direct aid. See the information on the next page.\u000a\u000aDownload a [[wallet-sized emergency numbers directory|$emergencyCardURL]] to record information in a handy, portable format.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[FAQ on the US Department of State's role in crises overseas|http://travel.state.gov/content/passports/english/emergencies/crisis-support.html]]|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], includes contact information|\u000a\u000a<<segue "International SOS">>\u005c
 p1081
 sg21
 VLarge-scale emergencies
@@ -3440,14 +3440,14 @@ p1082
 sg23
 g24
 ((I2014
-I9
-I25
-I10
-I58
-I31
-I3
-I268
-I1
+I11
+I12
+I16
+I5
+I6
+I2
+I316
+I0
 tp1083
 (dp1084
 tp1085
@@ -3492,14 +3492,14 @@ p1098
 sg23
 g24
 ((I2014
-I10
-I1
 I11
-I40
-I9
+I12
+I16
+I19
+I23
 I2
-I274
-I1
+I316
+I0
 tp1099
 (dp1100
 tp1101
@@ -3864,14 +3864,14 @@ p1214
 sg23
 g24
 ((I2014
-I10
-I1
-I13
-I29
-I25
+I11
+I12
+I16
+I20
+I7
 I2
-I274
-I1
+I316
+I0
 tp1215
 (dp1216
 tp1217
@@ -3958,7 +3958,7 @@ Tiddler
 p1242
 (dp1243
 g19
-V<<sidebar "In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can /%either %/tap on the "Back" link below to go back and finish reading the previous page/%, or press the big "Continue" button to go on to the next page of the Survival Guide%/.\u000a\u000a<<segue "What you will get out of study abroad">>\u005c
+V<<sidebar "Sample: In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can /%either %/tap on the "Back" link below to go back and finish reading the previous page/%, or press the big "Continue" button to go on to the next page of the Survival Guide%/.\u000a\u000a<<segue "What you will get out of study abroad">>\u005c
 p1244
 sg21
 VSample
@@ -3966,14 +3966,14 @@ p1245
 sg23
 g24
 ((I2014
-I10
-I1
-I10
-I4
-I53
+I11
+I12
+I16
+I35
+I47
 I2
-I274
-I1
+I316
+I0
 tp1246
 (dp1247
 tp1248
@@ -4062,7 +4062,7 @@ Tiddler
 p1274
 (dp1275
 g19
-Vsetup.version = "0.95";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "0.96";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1276
 sg21
 VVersion & Reset
@@ -4071,12 +4071,12 @@ sg23
 g24
 ((I2014
 I11
-I10
 I12
-I17
-I30
-I0
-I314
+I16
+I33
+I37
+I2
+I316
 I0
 tp1278
 (dp1279

@@ -8,11 +8,14 @@
 <<set $admin to false>>
 <<set $maymester to false>>
 <<set $pdfURL to "https://dl.dropboxusercontent.com/u/8434146/GitHub/epdo/PDF/Global%20Education%20Office%20Survival%20Training.pdf">>
+<<set $emergencyCardURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14726">>
 <<set $urlopts to {}>>
 <<set $temp to "">>
+<<set $temp_checked to "">>
 <<set $UAinfo to {}>>
 <<set $chapterprogress to 0>>
 <<set $passageprogress to 0>>
+<<set $todo to {}>>
 <<script>>
     // Create new options interface
     window.setOption = function(name, value) {

@@ -197,6 +197,9 @@ body {
   #JotFormIFrame, #registration {
     display: none;
   }
+  .iScrollIndicator {
+    display:none;
+  }
 }
 #registration button {
   display: block;
@@ -580,7 +583,12 @@ table li {
   color: #ffffff;
   background-color: #555555;
 }
-
+ul.checklist {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1.6em;
+  text-indent: -1.6em;
+}
 
 /* Figures */
 figure {

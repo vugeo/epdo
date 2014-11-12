@@ -266,6 +266,33 @@ macros.add("sidebar-box", {
 <</widget>>\
 
 
+:: Smart checkboxes [widget]
+<<widget "smartcheckbox">>\
+    <<script>>
+        state.active.variables.temp_checked = "";
+        var pNames = Wikifier.parseStoryVariable(state.active.variables.args[0].trim());
+        if (pNames.length !== 0) {
+            var baseObj = state.active.variables,
+                varName = pNames.pop();
+            for (var i = 0, iend = pNames.length; i < iend; i++) {
+                if (typeof baseObj[pNames[i]] !== "undefined") {
+                    baseObj = baseObj[pNames[i]];
+                } else {
+                    baseObj = undefined;
+                    break;
+                }
+            }
+            if (baseObj !== undefined) {
+                if (baseObj[varName] === true) {
+                    state.active.variables.temp_checked = "checked";
+                }
+            }
+
+        }
+    <</script>>\
+    <<print '<<checkbox "' + $args[0] + '" false true ' + $temp_checked + '>>'>>\
+<</widget>>
+
 :: External Script Loader [script]
 //adapted from http://videlais.com/2013/03/05/twine-tuesday-loading-external-javascript/
 (function () {

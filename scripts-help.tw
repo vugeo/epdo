@@ -171,6 +171,7 @@ window.activateHelp = function() {
 				// Change this so that the value in tip.scroll is the element to scroll to
 				if (typeof customScroll != "undefined") {
 					customScroll.scrollToElement(tip.element, 300, 0, (arrowClass === "arrow-down" ? 0 - $helpBox.outerHeight() - parseInt($parent.css("padding-top"), 10) - 20 : 0));
+					customScroll.refresh();
 				}
 				else {
 					$("#passages").animate({scrollTop: $target.offset().top + (arrowClass === "arrow-down" ? 0 - $helpBox.outerHeight() - parseInt($parent.css("padding-top"), 10) - 20 : 0)}, 300);

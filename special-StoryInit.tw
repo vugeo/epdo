@@ -9,6 +9,7 @@
 <<set $maymester to false>>
 <<set $pdfURL to "https://dl.dropboxusercontent.com/u/8434146/GitHub/epdo/PDF/Global%20Education%20Office%20Survival%20Training.pdf">>
 <<set $emergencyCardURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14726">>
+<<set $local911URL to "http://travel.state.gov/content/dam/students-abroad/pdfs/911_ABROAD.pdf">>
 <<set $urlopts to {}>>
 <<set $temp to "">>
 <<set $temp_checked to "">>

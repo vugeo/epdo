@@ -1,11 +1,11 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005ctest.html
+VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005ctraining.html
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005cePDO.tws
+S'C:\\Users\\ohnstaat\\Dropbox\\Public\\GitHub\\epdo\\Survival Training.tws'
 p4
 sS'target'
 p5
@@ -2012,9 +2012,9 @@ g24
 ((I2014
 I11
 I20
-I11
-I51
-I25
+I12
+I38
+I54
 I3
 I324
 I0
@@ -4114,7 +4114,7 @@ Tiddler
 p1290
 (dp1291
 g19
-V!Register your participation\u000a!!!!You have completed the training!\u000aIf you are a student, please ''register your participation'' in this training by filling out the form below! Note that it may take a few days before your registration is reflected on your GEO account.\u000a\u000a<<if storage.getItem("registration") neq true>><div id="registration"><<button "Register your participation">><<if $UAinfo.os.name eq "Android" or $UAinfo.os.name eq "iOS" or $UAinfo.os.name eq "IE" or config.historyMode eq HistoryMode.Hash or $browserSupport eq "no" or isHandheld() eq true>><<run window.open('http://form.jotformpro.com/form/41326113066949', 'blank','scrollbars=yes,toolbar=no,width=700,height=500');>>ePDO Registration</a><<else>><<run showRegistration();>><</if>><</button>></div>\u000a<iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0] + t[1]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="message-box-symbol"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000aOnce you've registered, you may want to check out the next couple of pages, which include ''credits'' for the student photographs and other pieces that went into making this training document, as well as a bookmarkable ''index'' that  will allow you to come back and navigate to any page in the presentation.\u000a\u000a<<segue "Credits">>\u005c
+V!Register your participation\u000a!!!!You have completed the training!\u000aIf you are a student, please ''register your participation'' in this training by clicking on the button below! Fill in your name and email address, then submit the form. Note that it may take a few days before your registration is reflected on your GEO account.\u000a\u000a<<if storage.getItem("registration") neq true>><div id="registration"><<button "Register your participation">><<if $UAinfo.os.name eq "Android" or $UAinfo.os.name eq "iOS" or $UAinfo.os.name eq "IE" or config.historyMode eq HistoryMode.Hash or $browserSupport eq "no" or isHandheld() eq true>><<run window.open('http://form.jotformpro.com/form/41326113066949', 'blank','scrollbars=yes,toolbar=no,width=700,height=500');>>ePDO Registration</a><<else>><<run showRegistration();>><</if>><</button>></div>\u000a<iframe id="JotFormIFrame" onload="registrationUpdate();" allowtransparency="true" src="Register/registration.html" frameborder="0" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0] + t[1]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="message-box-symbol"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000aOnce you've registered, you may want to check out the next couple of pages, which include ''credits'' for the student photographs and other pieces that went into making this training document, as well as a bookmarkable ''index'' that  will allow you to come back and navigate to any page in the presentation.\u000a\u000a<<segue "Credits">>\u005c
 p1292
 sg21
 VRegister your participation
@@ -4124,9 +4124,9 @@ g24
 ((I2014
 I11
 I20
-I11
-I52
-I27
+I12
+I39
+I55
 I3
 I324
 I0

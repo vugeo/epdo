@@ -524,6 +524,9 @@ button.default {
     text-align: left;
     height:100%;
 }
+#passages span[title] {
+  border-bottom: 1px dashed #46d;
+}
 #ui-bar {
     display:none;
 }

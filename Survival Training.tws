@@ -4062,7 +4062,7 @@ Tiddler
 p1274
 (dp1275
 g19
-Vsetup.version = "0.97a";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "1.0";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1276
 sg21
 VVersion & Reset
@@ -4072,9 +4072,9 @@ g24
 ((I2014
 I11
 I20
-I11
-I33
-I57
+I16
+I48
+I27
 I3
 I324
 I0

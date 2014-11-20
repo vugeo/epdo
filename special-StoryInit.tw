@@ -151,8 +151,11 @@
         config.startPassage = options.adminStart;
     } 
     if (opts.hasOwnProperty("nav")) {
-        SaveSystem.deleteAuto();
-        config.startPassage = opts["nav"];
+        if (tale.has(opts["nav"])) {
+            SaveSystem.deleteAuto();
+            config.startPassage = opts["nav"];
+        }
+        else { console.log("Passage requested via URL does not exist."); }
     } 
 <</script>>
 <<loadJS "script/fastclick.js">>

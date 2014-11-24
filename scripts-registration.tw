@@ -1,7 +1,5 @@
 :: Registration form [script]
 window.registrationUpdate = function() {
-	// Move iframe above overlay and display it
-	$("#JotFormIFrame").hide().css("opacity", 1).insertBefore($("#ui-overlay"));
 	// Get browser and device info
 	var UAinfo = state.active.variables.UAinfo;
 	var browser = UAinfo.browser.name + " " + UAinfo.browser.version + " (" + UAinfo.engine.name + " " + UAinfo.engine.version + ")";
@@ -19,6 +17,11 @@ window.registrationUpdate = function() {
 	$("#JotFormIFrame").contents().find("#input_11").val(browser);
 	$("#JotFormIFrame").contents().find("#input_12").val(system);
 	$("#JotFormIFrame").contents().find("#input_13").val(window.location.href);
+}
+
+window.registrationInit = function() {
+	// Move iframe above overlay and hide it
+	$("#JotFormIFrame").hide().css("opacity", 1).insertBefore($("#ui-overlay"));
 	$("#JotFormIFrame").removeAttr("onload");// Prevent this script from being called a second time
 }
 

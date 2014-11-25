@@ -399,7 +399,9 @@ var JotForm = {
                 console.log('Debug : setting height to ',height,' from iframe');
             }
         }
-    	window.parent.postMessage('setHeight:' + height, '*');
+        if (height > 0) { //****GEO patch for Firefox issue with height calculation when iframe is hidden.
+    	   window.parent.postMessage('setHeight:' + height, '*');
+        }
     },
     removeCover: function () {
         $$('.form-cover-wrapper').each(function (el) {

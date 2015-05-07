@@ -93,15 +93,18 @@ macros.add("displayAll", {
 // Syntax: <<displayAdmin>>
 
 macros.add("displayAdmin", {
-    version: { major: 1, minor: 0, revision: 0 },
+    version: { major: 1, minor: 1, revision: 0 },
     handler: function () {
         var passage = tale.get(state.active.title);
         if (passage.tags.indexOf("no save") === -1) {
-            var html = "<div id='admin-area'><h4>Admin area</h4>";
-            var hash = { "Semester": "",
-                         "Summer": "&summer=true",
-                         "Summer faculty-led": "&summer=true&facultyled=true",
-                         "Maymester faculty-led": "&maymester=true&facultyled=true"
+            var html = "<div id='admin-area'><h4>Direct links to this page:</h4>";
+            var hash = { "Semester/Academic Year Provider Program": "&semester=true",
+                         "Semester-Long Vanderbilt Program": "&semester=true&vanderbilt=true",
+                         "Summer Provider Program": "&summer=true",
+                         "Summer Vanderbilt Program": "&summer=true&vanderbilt=true",
+                         "Summer faculty-led (VISAGE)": "&summer=true&vanderbilt=true&facultyled=true",
+                         "Maymester faculty-led": "&maymester=true&vanderbilt=true&facultyled=true&shortterm=true",
+                         "Summer Short-Term Faculty-Led Program": "&summer=true&vanderbilt=true&facultyled=true&shortterm=true"
                         };
             $.each(hash, function(term, query) {
                 var url = window.location.protocol + "//" + window.location.host + window.location.pathname + "?nav=" + encodeURI(state.active.title) + query;

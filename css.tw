@@ -197,7 +197,7 @@ body {
   #JotFormIFrame, #registration {
     display: none;
   }
-  .iScrollIndicator {
+  .iScrollIndicator, .iScrollVerticalScrollbar, .iScrollLoneScrollbar {
     display:none;
   }
 }

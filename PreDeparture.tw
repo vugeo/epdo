@@ -45,8 +45,10 @@ nav : go directly to a given passage in the ePDO, ex.: http://...index.html?nav=
 admin: sets $admin, which provides direct links to any page on that page. Ex: ex.: http://...index.html?admin=true
 facultyled: sets $facultyled, used for Maymesters etc., ex.: http://...index.html?facultyled=true
 vanderbilt: sets $vanderbilt, used for Vanderbilt In's, ex.: http://...index.html?vanderbilt=true
+shortterm: sets $shortterm, used for programs that are under 4 weeks. 
 summer: sets $summer, used for summer, ex.: http://...index.html?summer=true
 maymester: sets $maymester, used for Maymester programs, ex.: http://...index.html?maymester=true
+semester: sets $semester, used for semester or longer programs.
 insurance: sets $insurance, used for programs that include HTH insurance, ex.: http://...index.html?insurance=true
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

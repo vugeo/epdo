@@ -17,6 +17,7 @@ window.registrationUpdate = function() {
 	$("#JotFormIFrame").contents().find("#input_11").val(browser);
 	$("#JotFormIFrame").contents().find("#input_12").val(system);
 	$("#JotFormIFrame").contents().find("#input_13").val(window.location.href);
+	$("#JotFormIFrame").contents().find("#input_14").val(state.active.variables.edition);
 }
 
 window.registrationInit = function() {

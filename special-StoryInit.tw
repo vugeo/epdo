@@ -4,9 +4,13 @@
 <<set $browserSupport to "unknown">>
 <<set $csscalc to true>>
 <<set $facultyled to false>>
+<<set $shortterm to false>>
 <<set $vanderbilt to false>>
+<<set $summer to false>>
 <<set $admin to false>>
 <<set $maymester to false>>
+<<set $semester to false>>
+<<set $edition to "--Error--">>
 <<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14758">>
 <<set $emergencyCardURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14726">>
 <<set $local911URL to "http://travel.state.gov/content/dam/students-abroad/pdfs/911_ABROAD.pdf">>
@@ -301,3 +305,36 @@ if (isHandheld() === true) {
     //console.log("You have a handheld device!");
 } */
 <</script>>\
+<<if $maymester and $facultyled>>
+    /% Maymesters %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15387">>
+    <<set $edition to "Maymester faculty-led">>
+<</if>>
+<<if $summer>>
+    <<if $shortterm>>
+        /% Summer Faculty-Led %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15421">>
+        <<set $edition to "Summer faculty-led">>
+    <<elseif $facultyled>>
+        /% VISAGE %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15420">>
+        <<set $edition to "VISAGE">>
+    <<elseif $vanderbilt>>
+        /% Summer Vanderbilt In %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15423">>
+        <<set $edition to "Summer Vanderbilt In">>
+    <<else>>
+        /% Summer Provider Programs %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15388">>
+        <<set $edition to "Summer partner program">>
+    <</if>>
+<</if>>
+<<if $semester>>
+    <<if $vanderbilt>>
+        /% Semester Vanderbilt In %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15422">>
+        <<set $edition to "Semester/year-long Vanderbilt In">>
+    <<else>>
+        /% Semester Provider Programs %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14758">>
+        <<set $edition to "Semester/year-long partner program">>
+    <</if>>
+<</if>>
+<<if $edition eq "--Error--">>
+    <<script>>console.log("No valid edition specified. Defaulting to the semester/year-long partner program edition.")<</script>>
+    <<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14758">>
+    <<set $edition to "Semester/year-long partner program">>
+<</if>>

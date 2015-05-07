@@ -60,13 +60,20 @@ window.Help = {
 			addedClass: "help-box-callout-alt"
 		},
 		help7: {
+			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Definitions</h1><p>When you see words and phrases with a dotted underline, you can hover over them to get a definition. Note that you may not be able to hover on a mobile device!</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			element: "span[title]",
+			scroll: true,
+			parent: "#passages",
+			addedClass: "help-box-callout-alt"
+		},
+		help8: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Back Button</h1><p>Click here to go back to the previous page.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: ".page-back-link.main",
 			scroll: true,
 			parent: "#passages",
 			addedClass: "help-box-callout-alt"
 		},
-		help8: {
+		help9: {
 			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Continue Button</h1><p>This friendly blue button will take you to the next page in the training.</p><div class='help-box-nav'>" + HelpIMGs.left + "<a class='help-box-next' style='bottom:21px; font-size:14px;'>Finish</a></div></div>",
 			element: "a.continue-link",
 			addedClass: "help-box-callout-alt",

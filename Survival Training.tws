@@ -239,7 +239,7 @@ tp84
 Rp85
 sbsa(dp86
 g12
-I01
+I00
 sg13
 (lp87
 F13.441737718229788
@@ -260,9 +260,9 @@ g24
 ((I2015
 I5
 I8
-I13
-I24
-I56
+I14
+I4
+I17
 I4
 I128
 I1
@@ -410,7 +410,7 @@ Tiddler
 p138
 (dp139
 g19
-V!<<if not $facultyled>>Study abroad c<<else>>C<</if>>ourse review\u000a!!!!<<if $facultyled>>How will your course(s) count?<<else>>Making sure your courses count for Vanderbilt credit<</if>>\u000a<<if $facultyled>>Courses taught by Vanderbilt faculty abroad are regular Vanderbilt courses. If you aren't sure whether your course(s) can count toward specific academic requirements, you can check with your academic adviser or your college's Office of Academic Services (see below).\u000a\u000aIf your course doesn't automatically count toward a particular requirement, you might be able to petition. Again, your college's Office of Academic Services will be your best resource for information on the process to follow. \u000a\u000aMany abroad courses taught by VU faculty count toward College of Arts and Science <span title="AXLE is the acronym for Achieving Excellence in Liberal Education. It is the core curriculum that all students in the College of Arts and Science must fulfill.">AXLE requirements</span>. Please speak to your faculty leader or A&S's Office of Academic Services to confirm what AXLE credit (if any) you will earn.\u000a\u000a|box|k\u000a|! Vanderbilt Offices of Academic Services|\u000a|[[College of Arts and Science|http://as.vanderbilt.edu/oas/]]|\u000a|[[Blair School of Music|http://blair.vanderbilt.edu/academics/]]|\u000a|[[Peabody College|http://peabody.vanderbilt.edu/admin-offices/oas/]]|\u000a|[[School of Engineering|http://engineering.vanderbilt.edu/academic-services/]]|\u000a<<else>>Every course you take <<if $vanderbilt>>outside your Vanderbilt study abroad center<<else>>abroad<</if>> needs to be evaluated by Vanderbilt faculty in order to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about this process of course review and evaluation is that ''you are responsible'' for making sure it gets done! The Office of the University Registrar facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[database of evaluated courses|https://webapp.mis.vanderbilt.edu/more/SearchAbroadCourses.action]] for your program. Are all of your courses already on the list? Are you clear on //how many// credits you'll earn for each course? If so, great, you're done! Skip to Step 5.|\u000a|<li>2</li>|If one or more of your courses is not on the list: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|http://registrar.vanderbilt.edu/study-abroad-course-review/#request]] for each course.|\u000a|<li>4</li>|The Registrar's Study Abroad Analysis team will do the rest! They contact faculty and find out how the course will count, and then email you the result.|\u000a|<li>5</li>|Relax. Enjoy life.|\u000a\u000aNeed more information? Check out the University Registrar's [[Study Abroad Course Review|http://registrar.vanderbilt.edu/study-abroad-course-review/]] page, or talk with your [[GEO advisor|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]].\u000a\u000aIf you have questions about the list of existing course reviews for your program (such as the number of credits a course is worth) or about any course reviews you might currently have in process, email <a class="link-external" target="_blank" href="mailto:StudyAbroadAnalysis@Vanderbilt.edu">StudyAbroadAnalysis@Vanderbilt.edu</a>.<</if>>\u000a\u000a<<segue "Preparing for safety">>\u005c
+V!<<if not $facultyled>>Study abroad c<<else>>C<</if>>ourse review\u000a!!!!<<if $facultyled>>How will your course(s) count?<<else>>Making sure your courses count for Vanderbilt credit<</if>>\u000a<<if $facultyled>>Courses taught by Vanderbilt faculty abroad are regular Vanderbilt courses. If you aren't sure whether your course(s) can count toward specific academic requirements, you can check with your academic adviser or your college's Office of Academic Services (see below).\u000a\u000aIf your course doesn't automatically count toward a particular requirement, you might be able to petition. Again, your college's Office of Academic Services will be your best resource for information on the process to follow. \u000a\u000aMany abroad courses taught by VU faculty count toward College of Arts and Science <span title="AXLE is the acronym for Achieving Excellence in Liberal Education. It is the core curriculum that all students in the College of Arts and Science must fulfill.">AXLE requirements</span>. Please speak to your faculty leader or A&S's Office of Academic Services to confirm what AXLE credit (if any) you will earn.\u000a\u000a|box|k\u000a|! Vanderbilt Offices of Academic Services|\u000a|[[College of Arts and Science|http://as.vanderbilt.edu/oas/]]|\u000a|[[Blair School of Music|http://blair.vanderbilt.edu/academics/]]|\u000a|[[Peabody College|http://peabody.vanderbilt.edu/admin-offices/oas/]]|\u000a|[[School of Engineering|http://engineering.vanderbilt.edu/academic-services/]]|\u000a<<else>>Every course you take <<if $vanderbilt>>outside your Vanderbilt study abroad center<<else>>abroad<</if>> needs to be evaluated by Vanderbilt faculty in order to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about this process of course review and evaluation is that ''you are responsible'' for making sure it gets done! The Office of the University Registrar facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[YES database of evaluated courses|https://webapp.mis.vanderbilt.edu/more/SearchAbroadCourses.action]] for your program. Are all of your courses already on the list? Are you clear on //how many// credits you'll earn for each course? If so, great, you're done! Skip to Step 5.|\u000a|<li>2</li>|If one or more of your courses is not on the list: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|http://registrar.vanderbilt.edu/study-abroad-course-review/#request]] for each course.|\u000a|<li>4</li>|The Registrar's Study Abroad Analysis team will do the rest! They contact faculty and find out how the course will count, and then email you the result.|\u000a\u000aNote that the ''number of credits you will receive is not listed'' in the YES database of evaluated courses. You are responsible for checking on the number of credits that you will receive for all courses you take abroad. Please email <a class="link-external" target="_blank" href="mailto:StudyAbroadAnalysis@Vanderbilt.edu">StudyAbroadAnalysis@Vanderbilt.edu</a> for any questions you have about the database or about course reviews you have in process.\u000a\u000aNeed more information? Check out the University Registrar's [[Study Abroad Course Review|http://registrar.vanderbilt.edu/study-abroad-course-review/]] page, or talk with your [[GEO advisor|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]].<</if>>\u000a\u000a<<segue "Preparing for safety">>\u005c
 p140
 sg21
 VStudy abroad course review
@@ -418,13 +418,13 @@ p141
 sg23
 g24
 ((I2015
-I5
-I8
-I12
-I16
-I45
-I4
-I128
+I9
+I21
+I15
+I36
+I48
+I0
+I264
 I1
 tp142
 (dp143

@@ -100,14 +100,14 @@ p42
 sg23
 g24
 ((I2015
-I2
-I27
-I14
-I47
-I42
-I4
-I58
+I9
+I21
+I16
+I31
+I23
 I0
+I264
+I1
 tp43
 (dp44
 tp45
@@ -2222,14 +2222,14 @@ p703
 sg23
 g24
 ((I2015
-I2
-I20
-I14
-I46
-I15
-I4
-I51
-I0
+I9
+I22
+I9
+I21
+I16
+I1
+I265
+I1
 tp704
 (dp705
 tp706
@@ -3388,14 +3388,14 @@ p1066
 sg23
 g24
 ((I2015
-I3
-I3
-I10
-I19
-I29
-I1
-I62
+I9
+I21
+I16
+I56
+I59
 I0
+I264
+I1
 tp1067
 (dp1068
 tp1069
@@ -3538,7 +3538,7 @@ Tiddler
 p1112
 (dp1113
 g19
-V!International SOS\u000a!!!!Emergency and travel assistance for Vanderbilt students\u000aIt is //mandatory// for all students traveling on Vanderbilt programs to ''register their travel with International SOS'' (ISOS). You should register not only your main trip, but also log in again to register any side trips you take while abroad. GEO will remind you to do this and link to instructions, but the responsibility is yours.\u000a\u000aVanderbilt contracts with ISOS primarily to handle responses to major emergencies overseas. ISOS also offers other services, and as a Vanderbilt student, you have access to all of them. But you should be aware that //not all are free// to you.\u000a\u000aThe primary role of ISOS is to aid in response to large-scale disasters and crises. For example, during the "Arab Spring," ISOS evacuated a Vanderbilt student from Egypt. The organization runs a worldwide network of centers, clinics, and ambulances to deal with ill or wounded people. If you use ISOS in such an emergency, Vanderbilt will cover the cost.\u000a\u000aISOS can also help you with medical, personal, security, legal, or travel problems. Examples might include dealing with a lost passport, a critical missed airline connection, medical help, or other issues. ISOS provides these services on a fee-for-service basis (it is //not// a health or travel insurer). While Vanderbilt will likely cover the up-front charges in non-emergency circumstances, ''you may be billed for these services after the fact.'' \u000a\u000aISOS also offers excellent safety information both on its [[website|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]] and via emailed updates. You'll need to [[sign up for email updates|https://www.travelsecurity.com/Alerts.aspx?MembershipNo=11BSGM000066&Colour=cccccc&Logo=https://www.internationalsos.com/MasterPortal/images/ClientAssets/logos/182_logo.jpg]] yourself (it's quick and painless).\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt's ISOS portal|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]], registration instructions, up-to-date risk ratings, and travel security advisories.|\u000a\u000a<<segue "Before you leave">>\u005c
+V!International SOS\u000a!!!!Emergency and travel assistance for Vanderbilt students\u000aVanderbilt requires that all students traveling on Vanderbilt programs register their travel with International SOS (ISOS). ''GEO registers you automatically'' for your primary study abroad program. You should log in to Vanderbilt's ISOS portal (see below) to register any side trips you take while abroad, or time you spend abroad before or after your program. GEO will remind you to do this and link to instructions, but the responsibility is yours.\u000a\u000aVanderbilt contracts with ISOS primarily to handle responses to major emergencies overseas. ISOS also offers other services, and as a Vanderbilt student, you have access to all of them. But you should be aware that //not all are free// to you.\u000a\u000aThe primary role of ISOS is to aid in ''response to large-scale disasters and crises''. For example, during the "Arab Spring," ISOS evacuated a Vanderbilt student from Egypt. The organization runs a worldwide network of centers, clinics, and ambulances to deal with ill or wounded people. If you use ISOS in such an emergency, Vanderbilt will cover the cost.\u000a\u000aISOS can also help you with medical, personal, security, legal, or travel problems. Examples might include dealing with a lost passport, a critical missed airline connection, medical help, or other issues. ISOS provides these services on a fee-for-service basis (it is //not// a health or travel insurer). While Vanderbilt will likely cover the up-front charges in non-emergency circumstances, ''you may be billed for these services after the fact.'' \u000a\u000aISOS also offers excellent safety information both on its [[Vanderbilt web portal|$isosURL]] and via emailed updates. You'll need to [[sign up for email updates|https://www.travelsecurity.com/Alerts.aspx?MembershipNo=11BSGM000066&Colour=cccccc&Logo=https://www.internationalsos.com/MasterPortal/images/ClientAssets/logos/182_logo.jpg]] yourself (it's quick and painless). Consider downloading the [[ISOS contact card|https://www.internationalsos.com/MasterPortal/images/ClientAssets/CustomPrintCards/182_CustomPrintCard.pdf]] from the web portal, or use GEO's [[wallet-sized emergency numbers directory|$emergencyCardURL]].\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt's ISOS portal|$isosURL]], registration instructions, up-to-date risk ratings, downloadable ISOS card, and travel security advisories.|\u000a|[[ISOS email update signup|https://www.travelsecurity.com/Alerts.aspx?MembershipNo=11BSGM000066&Colour=cccccc&Logo=https://www.internationalsos.com/MasterPortal/images/ClientAssets/logos/182_logo.jpg]], enter your email address for email updates related to your travel destination(s)|\u000a|[[ISOS contact card|https://www.internationalsos.com/MasterPortal/images/ClientAssets/CustomPrintCards/182_CustomPrintCard.pdf]], including 24/7 phone number and membership number|\u000a|[[GEO's wallet-sized emergency numbers directory|$emergencyCardURL]] is designed to be filled out and carried on your person|\u000a\u000a<<segue "Before you leave">>\u005c
 p1114
 sg21
 VInternational SOS
@@ -3546,14 +3546,14 @@ p1115
 sg23
 g24
 ((I2015
-I3
-I3
+I9
+I22
 I10
-I20
-I51
+I10
+I4
 I1
-I62
-I0
+I265
+I1
 tp1116
 (dp1117
 tp1118
@@ -3812,13 +3812,13 @@ p1198
 sg23
 g24
 ((I2015
-I4
-I2
-I16
-I3
-I16
-I3
-I92
+I9
+I22
+I9
+I21
+I35
+I1
+I265
 I1
 tp1199
 (dp1200
@@ -4051,7 +4051,7 @@ tp1270
 Rp1271
 sbsa(dp1272
 g12
-I00
+I01
 sg13
 (lp1273
 F1823.1766138855012
@@ -4070,13 +4070,13 @@ p1277
 sg23
 g24
 ((I2015
-I3
-I13
-I17
-I6
-I5
-I4
-I72
+I9
+I22
+I9
+I21
+I44
+I1
+I265
 I1
 tp1278
 (dp1279
@@ -4158,8 +4158,8 @@ g12
 I00
 sg13
 (lp1305
-F672.9695493300846
-aF425.851400730815
+F665.1985383678431
+aF421.1887941534705
 asg15
 (itiddlywiki
 Tiddler

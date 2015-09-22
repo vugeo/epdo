@@ -14,6 +14,7 @@
 <<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14758">>
 <<set $emergencyCardURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14726">>
 <<set $local911URL to "http://travel.state.gov/content/dam/students-abroad/pdfs/911_ABROAD.pdf">>
+<<set $isosURL to "https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066">>
 <<set $urlopts to {}>>
 <<set $temp to "">>
 <<set $temp_checked to "">>
@@ -154,14 +155,14 @@
         //console.log ("Setting start passage to " + options.adminStart);
         SaveSystem.deleteAuto();
         config.startPassage = options.adminStart;
-    } 
+    }
     if (opts.hasOwnProperty("nav")) {
         if (tale.has(opts["nav"])) {
             SaveSystem.deleteAuto();
             config.startPassage = opts["nav"];
         }
         else { console.log("Passage requested via URL does not exist."); }
-    } 
+    }
 <</script>>
 <<loadJS "script/fastclick.js">>
 <<script>>

@@ -684,9 +684,9 @@ g24
 ((I2015
 I9
 I23
-I13
-I20
-I58
+I14
+I30
+I23
 I2
 I266
 I1
@@ -4266,7 +4266,7 @@ Tiddler
 p1336
 (dp1337
 g19
-V<<sidebar "Early arrivals and late departures">>\u000aGenerally speaking, study abroad ''sites cannot accommodate early arrivals or late stays''. Student housing, including home stays, will only be available during the dates specified.\u000a\u000aIf you want to arrive earlier or stay later, ''you are responsible for securing temporary housing''. <<if $facultyled>>Your program leader  will likely be able to recommend local hotels or hostels.<<else>>Local staff will likely be able to recommend local hotels or hostels. GEO can help put you in touch with local staff if you're not sure how to contact them.<</if>>\u000a\u000aBe sure to ''consider immigration issues'' when planning an extended stay. Some countries refuse to admit travelers beyond the dates stipulated in a visa or letter of invitation. You can contact your <<if $facultyled>>program leader<<else>>program provider (CIEE, IFSA-Butler)<</if>> if you're unsure about your situation.\u000a\u000a<<segue "Passport Check">>
+V<<sidebar "Early arrivals and late departures">>\u000aGenerally speaking, study abroad ''sites cannot accommodate early arrivals or late stays''. Student housing, including home stays, will only be available during the dates specified.\u000a\u000aIf you want to arrive earlier or stay later, ''you are responsible for securing temporary housing''. <<if $facultyled>>Your program leader  will likely be able to recommend local hotels or hostels.<<else>>Local staff will likely be able to recommend local hotels or hostels. GEO can help put you in touch with local staff if you're not sure how to contact them.<</if>>\u000a\u000aBe sure to ''consider immigration issues'' when planning an extended stay. Some countries refuse to admit travelers beyond the dates stipulated in a visa or letter of invitation. You can contact your <<if $facultyled>>program leader<<else>>program provider (CIEE, IFSA-Butler)<</if>> if you're unsure about your situation.\u000a\u000aYou are covered by your program's health insurance only for the dates of the program itself. GEO strongly encourages you to ''purchase international health insurance for any stay outside the published dates of your program''. You may use any provider you like, but group rates are available through Vanderbilt's provider, HTH Worldwide.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Short-term health insurance (HTH Worldwide)|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=E83863BD-9A32-7CA0-B92DCF0450860B55&Link_ID=C8CB82A5-C1FE-003A-1004174A4A63A5FD]], instructions for using VU's group plan to purchase add-on insurance for your extended stay|\u000a\u000a<<segue "Passport Check">>
 p1338
 sg21
 VEarly arrivals
@@ -4276,9 +4276,9 @@ g24
 ((I2015
 I9
 I23
-I13
-I48
-I42
+I14
+I33
+I51
 I2
 I266
 I1

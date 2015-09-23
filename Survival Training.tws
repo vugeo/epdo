@@ -666,7 +666,7 @@ g12
 I00
 sg13
 (lp219
-F939.9585870889151
+F941.5127892813633
 aF28.542021924483265
 asg15
 (itiddlywiki
@@ -674,7 +674,7 @@ Tiddler
 p220
 (dp221
 g19
-V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aSome programs may provide opportunities for independent travel. First, always ''keep your <<if $facultyled>>faculty leader<<else>>resident director or program staff<</if>> informed'' of your travel. Also keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you.\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a <span title="A stamp or sticker placed in your passport that allows you to enter a foreign country.">travel visa</span>, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<<if not $facultyled>><div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div><</if>>\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a   [[Can I arrive early or leave late from my study abroad site?|Early arrivals]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport Check">>\u005c
+V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aGEO recommends that you consider supplemental insurance to cover your entire time abroad. ''Trip cancellation/trip interruption and theft insurance'' are particularly worthwhile options. GEO cannot recommend specific plans or providers, but you can check with your travel agent, home/auto insurance agent, or online.\u000a\u000aSome programs may provide opportunities for independent travel. First, always ''keep your <<if $facultyled>>faculty leader<<else>>resident director or program staff<</if>> informed'' of your travel. Also keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you.\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a <span title="A stamp or sticker placed in your passport that allows you to enter a foreign country.">travel visa</span>, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<<if not $facultyled>><div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div><</if>>\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a   [[Can I arrive early or leave late from my study abroad site?|Early arrivals]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport Check">>\u005c
 p222
 sg21
 VTraveling while abroad
@@ -685,8 +685,8 @@ g24
 I9
 I23
 I14
-I30
-I23
+I56
+I33
 I2
 I266
 I1

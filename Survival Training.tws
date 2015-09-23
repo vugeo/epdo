@@ -609,7 +609,7 @@ tp199
 Rp200
 sbsa(dp201
 g12
-I01
+I00
 sg13
 (lp202
 F1072.9585870889157
@@ -620,7 +620,7 @@ Tiddler
 p203
 (dp204
 g19
-V<<sidebar "How to get a travel visa">>\u000aA ''travel visa'' is not a credit card! It's a stamp or sticker placed in your passport that allows you to enter a foreign country. Depending on your own nationality and your reasons for traveling, ''you may or may not need a visa'' to visit a given country.\u000a\u000a<<if $facultyled>>Faculty-led courses abroad will generally requiring only a tourist visa, or for US passport holders many will require no visa at all. However, if<<else>>If<</if>> you will be taking classes from an institution based in your host country, you will usually need a student-class visa to enter. Entry requirements are often lower when you are simply visiting as a tourist.<<if $facultyled>> If you aren't sure whether you need a student-class visa, talk with your faculty leader.\u000a\u000a''If you will not be traveling on a US passport'', you may have different entry requirements from others traveling on your program. It is your responsibility to be aware of these requirements and obtain required visa(s). GEO can help get your oriented to the process. \u000a\u000a <</if>>Requirements to get a visa may include photographs, financial information, a letter from your host university, a criminal background check, an HIV test, or even a personal appearance at the foreign consulate. Your own nationality may have a major impact on the requirements you face in getting a visa. For example, US citizens typically face lower barriers than students of other nationalities. \u000a\u000aIn certain cases, students may be able to enter a country without a visa, but will need to obtain a ''residence permit'' after entering.\u000a\u000a''Your <<if $facultyled>>program leader should<<else>>study abroad provider will<</if>> inform you'' about your visa requirements. If you are uncertain or have general questions, please contact <<if $facultyled>>your program administration (see below)<<else>>GEO<</if>>. \u000a\u000a|box|k\u000a|>|!Further information|\u000a|[[Travisa|http://www.travisa.com/]]|Easy access to visa requirements for all countries and most nationalities|\u000a|[[Visa @Wikipedia|https://en.wikipedia.org/wiki/Visa_(document)]]|Article providing information about visa policies around the world|\u000a\u000a<<if $facultyled>><<display "Faculty-Led Administration">>\u000a<</if>>\u005c\u000a<<segue "Passport Check">>
+V<<sidebar "How to get a travel visa">>\u000aA ''travel visa'' is not a credit card! It's a stamp or sticker placed in your passport that allows you to enter a foreign country. Depending on your own nationality and your reasons for traveling, ''you may or may not need a visa'' to visit a given country.\u000a\u000a<<if $facultyled>>Faculty-led courses abroad will generally require only a tourist visa, or for US passport holders many will require no visa at all. However, if<<else>>If<</if>> you will be taking classes from an institution based in your host country, you will usually need a student-class visa to enter. Entry requirements are often lower when you are simply visiting as a tourist.<<if $facultyled>> If you aren't sure whether you need a student-class visa, talk with your faculty leader.\u000a\u000a''If you will not be traveling on a US passport'', you may have different entry requirements from others traveling on your program. It is your responsibility to be aware of these requirements and obtain required visa(s). GEO can help get your oriented to the process. \u000a\u000a <</if>>Requirements to get a visa may include photographs, financial information, a letter from your host university, a criminal background check, an HIV test, or even a personal appearance at the foreign consulate. Your own nationality may have a major impact on the requirements you face in getting a visa. For example, US citizens typically face lower barriers than students of other nationalities. \u000a\u000aIn certain cases, students may be able to enter a country without a visa, but will need to obtain a ''residence permit'' after entering.\u000a\u000a''Your <<if $facultyled>>program leader should<<else>>study abroad provider will<</if>> inform you'' about your visa requirements. If you are uncertain or have general questions, please contact <<if $facultyled>>your program administration (see below)<<else>>GEO<</if>>. \u000a\u000a|box|k\u000a|>|!Further information|\u000a|[[Travisa|http://www.travisa.com/]]|Easy access to visa requirements for all countries and most nationalities|\u000a|[[Visa @Wikipedia|https://en.wikipedia.org/wiki/Visa_(document)]]|Article providing information about visa policies around the world|\u000a\u000a<<if $facultyled>><<display "Faculty-Led Administration">>\u000a<</if>>\u005c\u000a<<segue "Passport Check">>
 p205
 sg21
 VHow to get a travel visa
@@ -630,9 +630,9 @@ g24
 ((I2015
 I9
 I23
-I12
+I14
 I7
-I47
+I38
 I2
 I266
 I1
@@ -674,7 +674,7 @@ Tiddler
 p220
 (dp221
 g19
-V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aSome programs may provide opportunities for independent travel. First, always ''keep your <<if $facultyled>>faculty leader<<else>>resident director or program staff<</if>> informed'' of your travel. Also keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you.\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a <span title="A stamp or sticker placed in your passport that allows you to enter a foreign country.">travel visa</span>, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<<if not $facultyled>><div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div><</if>>\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport Check">>\u005c
+V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aSome programs may provide opportunities for independent travel. First, always ''keep your <<if $facultyled>>faculty leader<<else>>resident director or program staff<</if>> informed'' of your travel. Also keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you.\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a <span title="A stamp or sticker placed in your passport that allows you to enter a foreign country.">travel visa</span>, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<<if not $facultyled>><div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div><</if>>\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a   [[Can I arrive early or leave late from my study abroad site?|Early arrivals]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport Check">>\u005c
 p222
 sg21
 VTraveling while abroad
@@ -682,14 +682,14 @@ p223
 sg23
 g24
 ((I2015
-I2
-I27
-I16
-I8
-I34
-I4
+I9
+I23
+I13
+I20
 I58
-I0
+I2
+I266
+I1
 tp224
 (dp225
 tp226
@@ -4253,10 +4253,64 @@ tp1330
 (dp1331
 tp1332
 Rp1333
+sbsa(dp1334
+g12
+I00
+sg13
+(lp1335
+F1210.601705237513
+aF31.20584652862391
+asg15
+(itiddlywiki
+Tiddler
+p1336
+(dp1337
+g19
+V<<sidebar "Early arrivals and late departures">>\u000aGenerally speaking, study abroad ''sites cannot accommodate early arrivals or late stays''. Student housing, including home stays, will only be available during the dates specified.\u000a\u000aIf you want to arrive earlier or stay later, ''you are responsible for securing temporary housing''. <<if $facultyled>>Your program leader  will likely be able to recommend local hotels or hostels.<<else>>Local staff will likely be able to recommend local hotels or hostels. GEO can help put you in touch with local staff if you're not sure how to contact them.<</if>>\u000a\u000aBe sure to ''consider immigration issues'' when planning an extended stay. Some countries refuse to admit travelers beyond the dates stipulated in a visa or letter of invitation. You can contact your <<if $facultyled>>program leader<<else>>program provider (CIEE, IFSA-Butler)<</if>> if you're unsure about your situation.\u000a\u000a<<segue "Passport Check">>
+p1338
+sg21
+VEarly arrivals
+p1339
+sg23
+g24
+((I2015
+I9
+I23
+I13
+I48
+I42
+I2
+I266
+I1
+tp1340
+(dp1341
+tp1342
+Rp1343
+sg29
+(lp1344
+Vsidebar
+p1345
+aVtravel
+p1346
+asg32
+g24
+((I2015
+I9
+I23
+I13
+I20
+I58
+I2
+I266
+I1
+tp1347
+(dp1348
+tp1349
+Rp1350
 sbsasS'scale'
-p1334
+p1351
 F0.643416927899688
 sS'snapping'
-p1335
+p1352
 I00
 ss.

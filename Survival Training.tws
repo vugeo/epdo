@@ -250,7 +250,7 @@ Tiddler
 p88
 (dp89
 g19
-V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you remain registered as a Vanderbilt student and you retain access to campus resources. You can<<if not ($maymester or $summer)>> register for the next term's classes,<</if>> log in to YES and other applications, and make use of campus services.\u000a\u000a<<if not $facultyled>>To make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your <span title="The official academic record from the term(s) you spent abroad.">transcript</span> arrives from abroad and the University Registrar has processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.\u000a\u000a<</if>>''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will <<if $summer or $maymester>>usually arrive on May 1 or June 1, with the usual payment terms.<<else>>arrive at the same time as usual, with the same payment terms.<</if>> <<if not $facultyled>>You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. <</if>>Be aware that there are <span title="Costs that are not billed through Vanderbilt--you pay them directly to your study abroad provider or to third parties">''out-of-pocket costs''</span> that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your <<if $facultyled>>faculty leader<<else>>program provider or GEO advisor<</if>> for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Vanderbilt Tuition<<if ($summer)>>, billed per credit hour<</if>>|\u000a|Program Fee<<if not ($maymester)>> (if any)<</if>>|\u000a|Study Abroad Fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial aid]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
+V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you remain registered as a Vanderbilt student and you retain access to campus resources. You can<<if not ($maymester or $summer)>> register for the next term's classes,<</if>> log in to YES and other applications, and make use of campus services.\u000a\u000a<<if not $facultyled>>To make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your <span title="The official academic record from the term(s) you spent abroad.">transcript</span> arrives from abroad and the University Registrar has processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.\u000a\u000a<</if>>''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will <<if $summer or $maymester>>usually arrive on May 1 or June 1, with the usual payment terms.<<else>>arrive at the same time as usual, with the same payment terms.<</if>> <<if not $facultyled>>You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. <</if>>Be aware that there are <span title="Costs that are not billed through Vanderbilt--you pay them directly to your study abroad provider or to third parties">''out-of-pocket costs''</span> that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your <<if $facultyled>>faculty leader<<else>>program provider or GEO advisor<</if>> for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Vanderbilt Tuition<<if ($summer)>>, billed per credit hour<</if>>|\u000a|Program Fee<<if not ($maymester)>> (if any)<</if>>|\u000a|Study Abroad Fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box>>\u000a	[[What about financial aid?|Financial aid]]\u000a    [[How about withdrawing from my study abroad program?|Program withdrawal]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
 p90
 sg21
 VStudent status and billing
@@ -259,12 +259,12 @@ sg23
 g24
 ((I2015
 I9
-I24
-I16
-I42
-I38
-I3
-I267
+I25
+I14
+I17
+I54
+I4
+I268
 I1
 tp92
 (dp93
@@ -364,14 +364,14 @@ p124
 sg23
 g24
 ((I2015
-I2
-I23
-I15
+I9
+I25
+I11
+I55
+I19
 I4
-I15
-I0
-I54
-I0
+I268
+I1
 tp125
 (dp126
 tp127
@@ -2116,14 +2116,14 @@ p670
 sg23
 g24
 ((I2015
-I2
-I20
-I14
-I48
-I37
+I9
+I25
+I13
+I55
+I19
 I4
-I51
-I0
+I268
+I1
 tp671
 (dp672
 tp673
@@ -2223,12 +2223,12 @@ sg23
 g24
 ((I2015
 I9
-I22
-I9
-I21
-I16
-I1
-I265
+I25
+I13
+I55
+I5
+I4
+I268
 I1
 tp704
 (dp705
@@ -2273,15 +2273,15 @@ VTable of Contents
 p719
 sg23
 g24
-((I2014
-I11
-I10
+((I2015
+I9
+I25
 I13
+I55
+I16
 I4
-I13
-I0
-I314
-I0
+I268
+I1
 tp720
 (dp721
 tp722
@@ -3813,12 +3813,12 @@ sg23
 g24
 ((I2015
 I9
-I22
-I9
-I21
-I35
-I1
-I265
+I25
+I13
+I55
+I11
+I4
+I268
 I1
 tp1199
 (dp1200
@@ -4020,14 +4020,14 @@ p1262
 sg23
 g24
 ((I2015
-I3
-I3
-I16
-I41
-I12
+I9
+I25
+I13
+I54
+I46
+I4
+I268
 I1
-I62
-I0
 tp1263
 (dp1264
 tp1265
@@ -4071,12 +4071,12 @@ sg23
 g24
 ((I2015
 I9
-I22
-I9
-I21
-I44
-I1
-I265
+I25
+I13
+I54
+I53
+I4
+I268
 I1
 tp1278
 (dp1279
@@ -4174,14 +4174,14 @@ p1309
 sg23
 g24
 ((I2015
-I3
-I3
-I10
-I27
 I9
+I25
+I10
+I44
+I8
+I4
+I268
 I1
-I62
-I0
 tp1310
 (dp1311
 tp1312
@@ -4307,10 +4307,64 @@ tp1347
 (dp1348
 tp1349
 Rp1350
+sbsa(dp1351
+g12
+I00
+sg13
+(lp1352
+F146.21680876979298
+aF894.9768574908624
+asg15
+(itiddlywiki
+Tiddler
+p1353
+(dp1354
+g19
+V<<sidebar "Withdrawing from your program">>\u000aWe hope you won't have to withdraw from your program. But if you must, please note the following:\u000a\u000a<<if $vanderbilt>>|box|k\u000a|!Withdrawal Deadline|<<if $maymester>>You need to withdraw by the Withdrawal Deadline specified on the [[Maymester/Summer Sessions page|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>In your GEO account ([[log in|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Security.ExistingUserLogin]]), you will find a Withdrawal Deadline. You need to withdraw by this date<</if>> to avoid penalties.|\u000a|!Communication|You must withdraw with GEO in writing.<<if $facultyled>> Be sure to also notify your course instructor/faculty leader<</if>>|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline, <<if $maymester>>the VU college offering the course<<else>>GEO<</if>> may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|<<else>>|box|k\u000a|!Withdrawal Deadline|In your GEO account ([[log in|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Security.ExistingUserLogin]]), you will find a Withdrawal Deadline. You need to withdraw by this date to avoid penalties.|\u000a|!Communication|You must withdraw with GEO in writing. If you applied to one of Vanderbilt's partner organizations (e.g., CIEE, CET, IFSA-Butler), you must contact //both// the partner and GEO to communicate your decision.|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline, GEO may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|\u000a|!Obligations|If you signed an agreement with one of our partners (CIEE, CET, IFSA-Butler, etc.), you will have to pay their deposit //even if// you withdraw before the GEO Withdrawal Deadline. GEO will pay this for you and bill your student account.|<</if>>\u005c\u000a\u000a<<if $maymester>>Please read the full [[Maymester Withdrawal policy|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>Please read GEO's full [[Withdrawal Instructions and Policies|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=PublicDocuments.View&File_ID=2587]]<</if>>.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
+p1355
+sg21
+VProgram withdrawal
+p1356
+sg23
+g24
+((I2015
+I9
+I25
+I14
+I38
+I53
+I4
+I268
+I1
+tp1357
+(dp1358
+tp1359
+Rp1360
+sg29
+(lp1361
+Vpolicies
+p1362
+aVsidebar
+p1363
+asg32
+g24
+((I2015
+I9
+I24
+I16
+I44
+I29
+I3
+I267
+I1
+tp1364
+(dp1365
+tp1366
+Rp1367
 sbsasS'scale'
-p1351
+p1368
 F0.643416927899688
 sS'snapping'
-p1352
+p1369
 I00
 ss.

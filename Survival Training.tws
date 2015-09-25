@@ -4363,7 +4363,7 @@ tp1366
 Rp1367
 sbsa(dp1368
 g12
-I00
+I01
 sg13
 (lp1369
 F146.21680876979292
@@ -4374,7 +4374,7 @@ Tiddler
 p1370
 (dp1371
 g19
-V<<sidebar "Maintaining your eligibility to study abroad">>\u000aTo maintain your eligibility to study abroad you must ''remain in good standing'' with the University. You must also ''complete all Vanderbilt study abroad'' requirements.\u000a\u000aGEO checks your academic, disciplinary, and financial standing when you apply to a program. We also check late in the semester before you leave for your abroad program. If you fall out of good standing, we will consult with your academic dean and, if necessary, withdraw you from your abroad program.\u000a\u000aYour eligibility also depends on completing all of the items listed in your GEO account (see below). If you fail to complete any of these required items,  we may be forced to rescind your permission to study abroad. \u000a\u000aHere's how that would work: As the <<if $maymester>>withdrawal deadline<<else>>end of the term<</if>> draws near, GEO will warn you at least twice in writing, directing all emails to your Vanderbilt email address. Your final warning will also be copied to your dean's office. If the requirements are not complete by the day specified in your final warning email, we will remove you from the program.\u000a\u000a|box|k\u000a|!Examples of requirements|\u000a|Program Release Form|\u000a|GEO Survival Guide|\u000a|Mandatory Health Assessment|\u000a|Withdrawal Policy|\u000a|<hr>//Requirements may vary by program. See your GEO account for your specific requirements.//|\u000a\u000aRegardless of why you are removed from a program, you will be responsible for any fees that accompany late withdrawal. Fees will be billed through your Vanderbilt student account.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
+V<<sidebar "Maintaining your eligibility to study abroad">>\u000aTo maintain your eligibility to study abroad you must ''remain in good standing'' with the University. You must also ''complete all Vanderbilt study abroad'' requirements. Regardless of why you are removed from a program, ''you will be responsible for any fees that accompany late withdrawal''. Fees will be billed through your Vanderbilt student account.\u000a\u000aGEO checks Vanderbilt students' academic, disciplinary, and financial standing when you apply to a program. We also check late in the semester or summer before you leave for your abroad program. If you fall out of good standing, we will consult with your academic dean and, if necessary, withdraw you from your abroad program. <<if $vanderbilt>>(Visiting students may be withdrawn at the request of the home university.)<</if>>\u000a\u000aYour eligibility also depends on completing all of the items listed in your GEO account (see below). If you fail to complete any of these required items,  we may be forced to revoke your permission to study abroad. \u000a\u000aHere's how that would work: As the <<if $maymester>>withdrawal deadline<<else>>end of the term<</if>> draws near, GEO will warn you at least twice in writing, directing all emails to your Vanderbilt email address. Your final warning will also be copied to your dean's office. If the requirements are not complete by the day specified in your final warning email, we will remove you from the program.\u000a\u000a|box|k\u000a|!Examples of requirements|\u000a|Program Release Form|\u000a|GEO Survival Guide|\u000a|Mandatory Health Assessment|\u000a|Withdrawal Policy|\u000a|<hr>//Requirements may vary by program. See your GEO account for your specific requirements.//|\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
 p1372
 sg21
 VMaintaining eligibility
@@ -4384,9 +4384,9 @@ g24
 ((I2015
 I9
 I25
-I14
-I59
-I26
+I17
+I13
+I1
 I4
 I268
 I1

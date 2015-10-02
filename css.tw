@@ -530,6 +530,10 @@ button.default {
 #ui-bar {
     display:none;
 }
+#passages blockquote {
+	background-color: blanchedalmond;
+    padding: 10px;
+}
 #passages table thead td {
     font-weight:bold;
 }

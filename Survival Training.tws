@@ -198,22 +198,22 @@ Tiddler
 p72
 (dp73
 g19
-V!Vanderbilt policy on alcohol abroad\u000a!!!!Be aware of legal rules and cultural norms\u000aVanderbilt does not really treat alcohol use abroad any differently than it does on campus--you still need to abide by the ''legal drinking age'' of the country you're in. In all of the countries where Vanderbilt has approved study abroad programs, the drinking age is lower than it is here in Nashville, so you may find that your legal status is different. Just remember that violations of law or of institutional policy overseas may also become grounds for disciplinary action both at Vanderbilt and under the rules of your abroad program.\u000a\u000aAt the same time that you are considering the legal implications of drinking, be mindful of ''cultural norms'' surrounding alcohol use in your host country. In many countries, for example, American-style "binge drinking" may appear pathological or merely pathetic. Take the opportunity to see cultural practices in a new light. \u000a\u000a|box|k\u000a|!The Student Handbook says:|\u000a|Students are required to abide by the laws of the respective countries in which they reside, study, or travel, with respect to the age at which alcoholic beverages may be consumed. Otherwise, the policies with respect to [[alcoholic beverages and controlled substances|http://www.vanderbilt.edu/student_handbook/alcohol/]] included in the Vanderbilt //Student Handbook// apply. Students are subject to student-accountability sanctions, including expulsion, and referral for prosecution for violation of these policies.|\u000a|<hr>//From// [[VU Student Handbook, Study Abroad|http://www.vanderbilt.edu/student_handbook/university-policies-and-regulations/#study-abroad]]|\u000a\u000a<<segue "Sexual misconduct abroad">>\u005c
+V!Vanderbilt policy on alcohol abroad\u000a!!!!Be aware of legal rules and cultural norms\u000aVanderbilt does not really treat alcohol use abroad any differently than it does on campus--you still need to abide by the ''legal drinking age'' of the country you're in. In all of the countries where Vanderbilt has approved study abroad programs, the drinking age is lower than it is here in Nashville, so you may find that your legal status is different. Just remember that violations of law or of institutional policy overseas may also become grounds for disciplinary action both at Vanderbilt and under the rules of your abroad program.\u000a\u000aAt the same time that you are considering the legal implications of drinking, be mindful of ''cultural norms'' surrounding alcohol use in your host country. In many countries, for example, American-style "binge drinking" may appear pathological or merely pathetic. Take the opportunity to see cultural practices in a new light. \u000a\u000a|box|k\u000a|!The Student Handbook says:|\u000a|Students are required to abide by the laws of the respective countries in which they reside, study, or travel, with respect to the age at which alcoholic beverages may be consumed. Otherwise, the policies with respect to [[alcoholic beverages and controlled substances|http://www.vanderbilt.edu/student_handbook/alcoholic-beverage-and-controlled-substances-policies/ ]] included in the Vanderbilt //Student Handbook// apply. Students are subject to student-accountability sanctions, including expulsion, and referral for prosecution for violation of these policies.|\u000a|<hr>//From// [[VU Student Handbook, Study Abroad|http://www.vanderbilt.edu/student_handbook/university-policies-and-regulations/#study-abroad]]|\u000a\u000a<<segue "Sexual misconduct abroad">>\u005c
 p74
 sg21
 VVanderbilt policy on alcohol abroad
 p75
 sg23
 g24
-((I2014
+((I2015
+I9
+I28
 I11
-I20
-I10
-I54
-I17
-I3
-I324
+I53
+I34
 I0
+I271
+I1
 tp76
 (dp77
 tp78
@@ -674,7 +674,7 @@ Tiddler
 p220
 (dp221
 g19
-V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aGEO recommends that you consider supplemental insurance to cover your entire time abroad. ''Trip cancellation/trip interruption and theft insurance'' are particularly worthwhile options. GEO cannot recommend specific plans or providers, but you can check with your travel agent, home/auto insurance agent, or online.\u000a\u000aSome programs may provide opportunities for independent travel. First, always ''keep your <<if $facultyled>>faculty leader<<else>>resident director or program staff<</if>> informed'' of your travel. Also keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you.\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a <span title="A stamp or sticker placed in your passport that allows you to enter a foreign country.">travel visa</span>, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<<if not $facultyled>><div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div><</if>>\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a   [[Can I arrive early or leave late from my study abroad site?|Early arrivals]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport Check">>\u005c
+V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aGEO recommends that you consider supplemental insurance to cover your entire time abroad. ''Trip cancellation/trip interruption and theft insurance'' are particularly worthwhile options. GEO cannot recommend specific plans or providers, but you can check with your travel agent, home/auto insurance agent, or online.\u000a\u000aSome programs may provide opportunities for independent travel. First, always ''keep your <<if $facultyled>>faculty leader<<else>>resident director or program staff<</if>> informed'' of your travel. Also keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you.\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a <span title="A stamp or sticker placed in your passport that allows you to enter a foreign country.">travel visa</span>, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<<if not $facultyled>><div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div><</if>>\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a   [[Can I arrive early or leave late from my study abroad site?|Early arrivals]]\u000a   [[What about traveling with a musical instrument?|Traveling with a musical instrument]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport Check">>\u005c
 p222
 sg21
 VTraveling while abroad
@@ -682,13 +682,13 @@ p223
 sg23
 g24
 ((I2015
-I9
-I23
-I14
-I56
-I33
+I10
 I2
-I266
+I14
+I52
+I14
+I4
+I275
 I1
 tp224
 (dp225
@@ -2010,14 +2010,14 @@ p637
 sg23
 g24
 ((I2015
+I10
 I2
-I27
-I14
+I15
 I39
-I26
+I23
 I4
-I58
-I0
+I275
+I1
 tp638
 (dp639
 tp640
@@ -4062,7 +4062,7 @@ Tiddler
 p1274
 (dp1275
 g19
-Vsetup.version = "2015.1.5";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "2015.10.2";\u000a\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1276
 sg21
 VVersion & Reset
@@ -4070,13 +4070,13 @@ p1277
 sg23
 g24
 ((I2015
-I9
-I25
-I13
-I54
-I53
+I10
+I2
+I16
 I4
-I268
+I24
+I4
+I275
 I1
 tp1278
 (dp1279
@@ -4274,13 +4274,13 @@ p1339
 sg23
 g24
 ((I2015
-I9
-I23
-I14
-I33
-I51
+I10
 I2
-I266
+I14
+I52
+I50
+I4
+I275
 I1
 tp1340
 (dp1341
@@ -4415,10 +4415,64 @@ tp1381
 (dp1382
 tp1383
 Rp1384
+sbsa(dp1385
+g12
+I00
+sg13
+(lp1386
+F1345.8172959805072
+aF29.65164433617568
+asg15
+(itiddlywiki
+Tiddler
+p1387
+(dp1388
+g19
+V<<sidebar "Traveling with a musical instrument">>\u000aAir travel with a musical instrument can present special challenges. Many instruments are larger than the typical carry-on bag, and some are irregularly shaped. Certain instruments are fragile, exceptionally valuable, or contain protected materials. Here are some things to consider as you decide whether and how to bring your instrument.\u000a\u000aIf you have a large instrument, or a very valuable one, you may want to check into options for ''renting an instrument'' rather than dealing with transport. Contact your program provider or GEO to see whether renting is a viable option. \u000a\u000aThe airline you choose may greatly affect your transportation options. Check their ''guidelines for checked and carry-on baggage''. Some airlines allow 1-2 checked bags for no charge, while others charge even for a single checked bag. If your instrument is too large, you may be able to ''buy a seat next to you''. <<if $semester>>If you receive financial assistance, you may want to check with the Office of Financial Aid to see whether help might be available to cover the second seat.<</if>>\u000a\u000aOn full flights, airlines may require that carry-on items be checked. Arriving early to get through security and/or paying for advance boarding may help avoid this situation. But even if you plan to carry on your instrument, it is wise to ''pack it as though it will be checked''.\u000a\u000a''Pack your instrument'' in a hard-sided case with padding around it;  foam, bubble wrap, newspapers, and t-shirts work well as packing materials. Put a tag with your name, permanent address, and phone number both outside and inside your case. Include short instructions in case a security officer is handling and repacking your instrument.\u000a\u000aIt is also vitally important that you check to see if your instrument contains any [[protected materials|https://www.fws.gov/international/pdf/factsheet-musical-instruments-2014.pdf]] such as Brazilian rosewood, elephant ivory, tortoiseshell or other rare plant or animal material. Some materials require [[special documentation or a permit|http://americanorchestras.org/advocacy-government/travel-with-instruments/endangered-species-material/protected-species-travel-tips.html]], and if carry them you must travel through [[specific ports|http://americanorchestras.org/advocacy-government/travel-with-instruments/endangered-species-material/protected-species-travel-tips/designated-ports-of-entry-exit.html]].\u000a\u000aBefore you make final decisions about bringing a large instrument, you may want to check with your program provider to see what options you will have for ''instrument storage''. \u000a\u000a<<<\u000a''Predeparture checklist''\u000a\u000a<ul class="checklist">\u005c\u000a<li><<smartcheckbox "$todo.instrumentProtected">>Check whether your instrument contains [[protected materials|https://www.fws.gov/international/pdf/factsheet-musical-instruments-2014.pdf]] that require [[special documentation, a permit|http://americanorchestras.org/advocacy-government/travel-with-instruments/endangered-species-material/protected-species-travel-tips.html]], or travel through [[specific ports|http://americanorchestras.org/advocacy-government/travel-with-instruments/endangered-species-material/protected-species-travel-tips/designated-ports-of-entry-exit.html]].</li>\u000a<li><<smartcheckbox "$todo.instrumentStorage">>Inquire with your program provider about storing your instrument safely while abroad. Consider bringing a lock for safe storage.</li>\u000a<li><<smartcheckbox "$todo.instrumentRental">>Look into options for renting an instrument abroad.</li>\u000a<li><<smartcheckbox "$todo.instrumentCarry">>Check your airline\u2019s carry-on limits and measure your instrument case to see if it will fit on all flights.</li>\u000a<li><<smartcheckbox "$todo.instrumentDecision">>Decide whether to carry on or check your instrument on your flight(s).</li>\u000a<li><<smartcheckbox "$todo.instrumentPacking">>Pack and label your instrument, preferably so that if carry-on compartments are full and your instrument has to be checked at the gate, it will be protected.</li>\u000a<li><<smartcheckbox "$todo.instrumentArrival">>If carrying on your instrument, arrive early to your flight and/or consider paying for advance boarding.</li></ul>\u000a<<<\u000a|box|k\u000a|!Resources|\u000a|[[US Department of Transportation|http://www.transportation.gov/airconsumer/tips-traveling-musical-instrument]] provides helpful information, tips, and frequently asked questions about traveling with musical instruments.|\u000a|[[Airlines for America|http://airlines.org/blog/instrument-rated-air-travel-for-musicians/]], the airline industry trade association, outlines a list of the instrument policies for all major carriers.|\u000a|Specific instructions on musical instruments from specific airlines: [[United|https://www.united.com/web/en-US/content/travel/baggage/fragile.aspx]], [[Delta|http://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-your-trip/special-items.html]], [[American|https://www.aa.com/i18n/travelInformation/baggage/specialty-sports.jsp]], [[US Airways|http://reservations.usairways.com/en-US/traveltools/baggage/specialitems.html]], [[British Airways|http://www.britishairways.com/en-us/information/baggage-essentials/sporting-goods-and-musical-instruments]], [[easyJet|http://www.easyjet.com/en/music-instruments]], [[Jet Blue|http://help.jetblue.com/SRVS/CGI-BIN/webisapi.dll/,/?St=126,E=0000000000055950384,K=1283,Sxi=1,Case=obj(2132)]]|\u000a|[[Future of Music Coalition|https://www.futureofmusic.org/article/fact-sheet/traveling-instruments]] offers suggestions and tips from a musician's perspective.|\u000a|[[Details about permits and international travel with protected materials|https://www.fws.gov/international/permits/by-activity/musical-instruments.html]] from US Fish and Wildlife.|\u000a|[[Information on protected materials permits|http://americanorchestras.org/advocacy-government/travel-with-instruments/endangered-species-material/protected-species-travel-tips.html]] from the League of American Orchestras.|\u000a|[[Tips on packing|http://flyingwithguitars.com/2013/08/packing-guitars/]], specifically guitars but generalizable to other instruments.|\u000a\u000a<<segue "Passport Check">>
+p1389
+sg21
+VTraveling with a musical instrument
+p1390
+sg23
+g24
+((I2015
+I10
+I2
+I16
+I3
+I3
+I4
+I275
+I1
+tp1391
+(dp1392
+tp1393
+Rp1394
+sg29
+(lp1395
+Vtravel
+p1396
+aVsidebar
+p1397
+asg32
+g24
+((I2015
+I10
+I2
+I14
+I52
+I14
+I4
+I275
+I1
+tp1398
+(dp1399
+tp1400
+Rp1401
 sbsasS'scale'
-p1385
+p1402
 F0.643416927899688
 sS'snapping'
-p1386
+p1403
 I00
 ss.

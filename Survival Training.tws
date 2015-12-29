@@ -250,7 +250,7 @@ Tiddler
 p88
 (dp89
 g19
-V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you remain registered as a Vanderbilt student and you retain access to campus resources. You can<<if not ($maymester or $summer)>> register for the next term's classes,<</if>> log in to YES and other applications, and make use of campus services.\u000a\u000a<<if not $facultyled>>To make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your <span title="The official academic record from the term(s) you spent abroad.">transcript</span> arrives from abroad and the University Registrar has processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.\u000a\u000a<</if>>''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will <<if $summer or $maymester>>usually arrive on May 1 or June 1, with the usual payment terms.<<else>>arrive at the same time as usual, with the same payment terms.<</if>> <<if not $facultyled>>You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. <</if>>Be aware that there are <span title="Costs that are not billed through Vanderbilt--you pay them directly to your study abroad provider or to third parties">''out-of-pocket costs''</span> that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your <<if $facultyled>>faculty leader<<else>>program provider or GEO advisor<</if>> for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Vanderbilt Tuition<<if ($summer)>>, billed per credit hour<</if>>|\u000a|Program Fee<<if not ($maymester)>> (if any)<</if>>|\u000a|Study Abroad Fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box "More info">>\u000a	[[Financial aid|Financial aid]]\u000a    [[Maintaining eligibility to study abroad|Maintaining eligibility]]\u000a    [[Withdrawal from a study abroad program|Program withdrawal]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
+V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you remain registered as a Vanderbilt student and you retain access to campus resources. You can<<if not ($maymester or $summer)>> register for the next term's classes,<</if>> log in to YES and other applications, and make use of campus services.\u000a\u000a<<if not $facultyled>>To make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''.&rdquo; The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your <span title="The official academic record from the term(s) you spent abroad.">transcript</span> arrives from abroad and the University Registrar has processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.\u000a\u000a<</if>>''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will <<if $summer or $maymester>>usually arrive on May 1 or June 1, with the usual payment terms.<<else>>arrive at the same time as usual, with the same payment terms.<</if>> <<if not $facultyled>>You can find the fees for your program in GEO's [[Cost Calculator|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=B6A18B3E-FF30-D2BF-DB945C58C1748491&Link_ID=A02DB6D2-A969-AD00-E852344EC0D31EA1&pID=5&lID=33]]. <</if>>Be aware that there are <span title="Costs that are not billed through Vanderbilt--you pay them directly to your study abroad provider or to third parties">''out-of-pocket costs''</span> that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your <<if $facultyled>>faculty leader<<else>>program provider or GEO advisor<</if>> for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Vanderbilt Tuition<<if ($summer)>>, billed per credit hour<</if>>|\u000a|Program Fee<<if not ($maymester)>> (if any)<</if>>|\u000a|Study Abroad Administrative Fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2BA4C0-FC49-E73B-80E95C6B35878D81&Link_ID=1B4B6ADC-B154-3B65-716254775A4B2E6D&pID=11&lID=64#billing]]|\u000a\u000a<<sidebar-box "More info">>\u000a	[[Financial aid|Financial aid]]\u000a    [[Maintaining eligibility to study abroad|Maintaining eligibility]]\u000a    [[Withdrawal from a study abroad program|Program withdrawal]]\u000a<</sidebar-box>>\u000a<<segue "Preparation and responsibilities">>\u005c
 p90
 sg21
 VStudent status and billing
@@ -258,14 +258,14 @@ p91
 sg23
 g24
 ((I2015
-I9
-I25
-I14
-I42
-I30
+I12
 I4
-I268
-I1
+I14
+I49
+I33
+I4
+I338
+I0
 tp92
 (dp93
 tp94
@@ -1995,14 +1995,14 @@ I00
 sg13
 (lp633
 F1607.2289890377624
-aF566.5948030856655
+aF565.0406008932173
 asg15
 (itiddlywiki
 Tiddler
 p634
 (dp635
 g19
-V!Your next steps\u000a!!!!What to do now...\u000aBelow are a few things you may need to take care of right now or in the near future. Students, please be sure to go to the next page to ''register your participation'' in this training before quitting.\u000a<ul class="checklist">\u005c\u000a<li><<if storage.getItem("registration") eq true>><input type="checkbox" disabled="disabled" checked="checked"><<else>><<smartcheckbox "$todo.register">><</if>> ''Register your participation'' in the training on the next page!</li>\u000a<li><<smartcheckbox "$todo.commit">> Formally ''commit to your program'' to ensure that <<if $facultyled>>your program administration and<<else>>GEO and our<</if>> partners are planning for your departure from campus.</li>\u000a<li><<smartcheckbox "$todo.passport">> ''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad. Consider expediting if you are behind schedule.</li>\u000a<li><<smartcheckbox "$todo.visa">> Check requirements for a <<if $facultyled>>''visa''<<else>>''student visa'' or resident permit<</if>>, and decide when you need to begin applying.</li>\u000a<li><<smartcheckbox "$todo.vaccinations">> Check on required and recommended ''vaccinations'' with your doctor, the [[CDC|http://wwwnc.cdc.gov/travel]], or the [[Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]].</li>\u000a<li><<smartcheckbox "$todo.medical">> Get ''medical and dental checkups'', and talk with your care providers about how any existing medical, dental, or mental health conditions can be managed abroad.</li>\u000a<<if $facultyled and ($maymester or $summer)>><li><<smartcheckbox "$todo.campushousing">> If your program has a Nashville component, arrange for your housing. If you are interested in on-campus housing, contact the [[Office of Housing and Residential Education|http://www.vanderbilt.edu/ResEd/main/contact-us/contact-us/]].</li><</if>>\u000a<li><<smartcheckbox "$todo.ead">> If you have ''accommodations'' with [[EAD|http://www.vanderbilt.edu/ead/]], have them send a letter explaining these to your <<if $facultyled>>faculty leader<<else>>program advisor<</if>>. If you have other needs, consider communicating those to your <<if $facultyled>>faculty leader<<else>>program advisor<</if>> as well.</li>\u000a<li><<smartcheckbox "$todo.medications">> Learn the generic or local names of any ''medications'' you take on a regular basis, as well as verify their legal status in your host country.</li>\u000a<li><<smartcheckbox "$todo.travel">> If you've already purchased your airline tickets, ''register your travel'' with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]] and (for US citizens only) the US Department of State [[Smart Traveler program|https://step.state.gov/step/]].</li>\u000a<li><<smartcheckbox "$todo.checklist">> Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.</li>\u000a<li><<smartcheckbox "$todo.packing">> Start thinking about ''packing'' and what you'd like to bring with you. You may want to download GEO's [[suggested packing list|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14068]].</li>\u000a<li><<smartcheckbox "$todo.contactinfo">> Scan or photocopy your critical documents (such as passport and credit cards), and create an [[emergency contact information card|$emergencyCardURL]] to carry with you.</li></ul>\u000aRemember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]].\u000a\u000a<<segue "Register your participation">>\u005c
+V!Your next steps\u000a!!!!What to do now...\u000aBelow are a few things you may need to take care of right now or in the near future. Students, please be sure to go to the next page to ''register your participation'' in this training before quitting.\u000a<ul class="checklist">\u005c\u000a<li><<if storage.getItem("registration") eq true>><input type="checkbox" disabled="disabled" checked="checked"><<else>><<smartcheckbox "$todo.register">><</if>> ''Register your participation'' in the training on the next page!</li>\u000a<li><<smartcheckbox "$todo.commit">> Formally ''commit to your program'' to ensure that <<if $facultyled>>your program administration and<<else>>GEO and our<</if>> partners are planning for your departure from campus.</li>\u000a<li><<smartcheckbox "$todo.passport">> ''Apply for a passport'' if you don't have one or if it will expire less than 6 months //after you return// from abroad. Consider expediting if you are behind schedule.</li>\u000a<li><<smartcheckbox "$todo.visa">> Check requirements for a <<if $facultyled>>''visa''<<else>>''student visa'' or resident permit<</if>>, and decide when you need to begin applying.</li>\u000a<li><<smartcheckbox "$todo.vaccinations">> Check on required and recommended ''vaccinations'' with your doctor, the [[CDC|http://wwwnc.cdc.gov/travel]], or the [[Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]].</li>\u000a<li><<smartcheckbox "$todo.medical">> Get ''medical and dental checkups'', and talk with your care providers about how any existing medical, dental, or mental health conditions can be managed abroad.</li>\u000a<<if $facultyled and ($maymester or $summer)>><li><<smartcheckbox "$todo.campushousing">> If your program has a Nashville component, arrange for your housing. If you are interested in on-campus housing, contact the [[Office of Housing and Residential Education|http://www.vanderbilt.edu/ResEd/main/contact-us/contact-us/]].</li><</if>>\u000a<li><<smartcheckbox "$todo.ead">> If you have ''accommodations'' with [[EAD|http://www.vanderbilt.edu/ead/]], have them send a letter explaining these to your <<if $facultyled>>faculty leader<<else>>program advisor<</if>>. If you have other needs, consider communicating those to your <<if $facultyled>>faculty leader<<else>>program advisor<</if>> as well.</li>\u000a<li><<smartcheckbox "$todo.medications">> Learn the generic or local names of any ''medications'' you take on a regular basis, as well as verify their legal status in your host country.</li>\u000a<li><<smartcheckbox "$todo.travel">> Once you have purchased your airline tickets, ''register your travel'' with the US Department of State [[Smart Traveler program|https://step.state.gov/step/]] (US citizens only). Whatever your nationality, you should also register any side trips (or travel at the beginning or end of your program) with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066]].</li>\u000a<li><<smartcheckbox "$todo.checklist">> Download the <<if $summer and (not $maymester)>>[[Summer Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12585]]<<elseif $maymester>>[[Maymester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=12584]]<<else>>[[Semester Responsibilities & Opportunities Checklist|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=11244]]<</if>> for a guide to things you need to do on campus.</li>\u000a<li><<smartcheckbox "$todo.packing">> Start thinking about ''packing'' and what you'd like to bring with you. You may want to download GEO's [[suggested packing list|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14068]].</li>\u000a<li><<smartcheckbox "$todo.contactinfo">> Scan or photocopy your critical documents (such as passport and credit cards), and create an [[emergency contact information card|$emergencyCardURL]] to carry with you.</li></ul>\u000aRemember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=4]].\u000a\u000a<<segue "Register your participation">>\u005c
 p636
 sg21
 VYour next steps
@@ -2011,12 +2011,12 @@ sg23
 g24
 ((I2015
 I10
-I2
-I15
-I39
-I23
-I4
-I275
+I19
+I17
+I7
+I33
+I0
+I292
 I1
 tp638
 (dp639
@@ -3274,21 +3274,21 @@ Tiddler
 p1030
 (dp1031
 g19
-V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aRegister your overseas travel plans with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. This is ''mandatory'', and //you should register not only your main trip, but also any side trips you take while abroad.// If you are a US citizen, you should also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are some resources for monitoring regional safety overseas?|Resources for monitoring regional safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt\u2019s safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aYour main destination will be automatically registered with [[International SOS|https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066&AspxAutoDetectCookieSupport=1]], Vanderbilt's emergency evacuation provider. But //you should also register any side trips you take while abroad.// If you are a US citizen, also register with the Department of State's [[STEP program|https://step.state.gov/step/]].\u000a\u000a<<sidebar-box>>\u000a   [[What are some resources for monitoring regional safety overseas?|Resources for monitoring regional safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt\u2019s safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1032
 sg21
 VPreparing for safety
 p1033
 sg23
 g24
-((I2014
-I11
-I20
-I11
+((I2015
+I12
+I29
 I15
-I6
-I3
-I324
+I50
+I37
+I1
+I363
 I0
 tp1034
 (dp1035
@@ -3491,14 +3491,14 @@ VVanderbilt\u2019s safety efforts
 p1098
 sg23
 g24
-((I2014
-I11
-I20
-I11
-I17
-I9
-I3
-I324
+((I2015
+I12
+I29
+I15
+I50
+I35
+I1
+I363
 I0
 tp1099
 (dp1100

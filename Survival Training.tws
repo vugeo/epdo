@@ -789,14 +789,14 @@ VTraveling with medications
 p257
 sg23
 g24
-((I2015
-I3
-I3
-I11
+((I2016
 I1
-I23
-I1
-I62
+I8
+I10
+I55
+I12
+I4
+I8
 I0
 tp258
 (dp259
@@ -1315,14 +1315,14 @@ VWhere to find crucial information about your medications
 p420
 sg23
 g24
-((I2014
-I11
-I12
-I16
-I24
-I46
-I2
-I316
+((I2016
+I1
+I8
+I10
+I56
+I59
+I4
+I8
 I0
 tp421
 (dp422
@@ -1522,21 +1522,21 @@ Tiddler
 p484
 (dp485
 g19
-V!Medical Insurance\u000a!!!!You are covered by international insurance\u000a<<if $vanderbilt>>Vanderbilt will automatically enroll you in [[HTH Worldwide Insurance|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]. You will receive an email from HTH with a letter and an insurance card that you can print and carry with you.<<else>>You will be enrolled in international health insurance by your program provider, Vanderbilt GEO, or both (depending on the scope of the provider's coverage).<</if>> Be sure to read your insurance benefits and know how to access health care providers in your host country. Also ''know what your insurance covers'' and how to file and pay claims.\u000a\u000a''This insurance only covers you outside the United States.'' GEO strongly encourages all students to maintain health insurance in their home country. If unforeseen circumstances force you to return home, you want subsidized care to be available.\u000a\u000aInternational health insurance usually ''only covers you for the official dates of your program.'' If you are planning to travel before or after your program begins, GEO recommends that you purchase additional short-term coverage. You are free to select any provider, but [[HTH Worldwide Insurance|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=E83863BD-9A32-7CA0-B92DCF0450860B55&Link_ID=C8CB82A5-C1FE-003A-1004174A4A63A5FD&pID=13&lID=69]] is readily available at reasonable prices. \u000a\u000aIf you are currently under medical care, your international health insurance can help in locating an appropriate care provider in your host country. Plan ahead!  If you know you want to continue care overseas, contact your international insurance //before// you leave the US.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Medical Care and Insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]], a brief guide|\u000a|[[Brief plan info for HTH Worldwide Health Insurance|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]: If you have HTH health insurance through Vanderbilt GEO, this is a basic description of your plan. You may contact HTH for more information on particulars.|\u000a\u000a<<segue "Culture shock">>\u005c
+V!Medical Insurance\u000a!!!!You are covered by international insurance\u000aVanderbilt will automatically enroll you in [[HTH Worldwide Insurance|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]. You will receive an email from HTH with a letter and an insurance card that you can print and carry with you. You may also be enrolled in international health insurance by your program provider. Be sure to read your insurance benefits for all plans and know how to access health care providers in your host country. ''Know what your insurance covers'' and how to file and pay claims.\u000a\u000a''This insurance only covers you outside the United States.'' GEO strongly encourages all students to maintain health insurance in their home country. If unforeseen circumstances force you to return home, you want subsidized care to be available.\u000a\u000aInternational health insurance usually ''only covers you for the official dates of your program.'' If you are planning to travel before or after your program begins, GEO recommends that you purchase additional short-term coverage. You are free to select any provider, but [[HTH Worldwide Insurance|https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=E83863BD-9A32-7CA0-B92DCF0450860B55&Link_ID=C8CB82A5-C1FE-003A-1004174A4A63A5FD&pID=13&lID=69]] is readily available at reasonable prices. \u000a\u000aIf you are currently under medical care, your international health insurance can help in locating an appropriate care provider in your host country. Plan ahead!  If you know you want to continue care overseas, contact your international insurance //before// you leave the US.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Medical Care and Insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]], a brief guide|\u000a|[[Brief plan info for HTH Worldwide Health Insurance|https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]: This is a basic description of your HTH Worldwide plan. You may contact HTH for more information on particulars.|\u000a\u000a<<segue "Culture shock">>\u005c
 p486
 sg21
 VMedical insurance
 p487
 sg23
 g24
-((I2015
-I3
-I3
-I10
-I21
-I59
+((I2016
 I1
-I62
+I8
+I10
+I59
+I57
+I4
+I8
 I0
 tp488
 (dp489

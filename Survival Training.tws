@@ -257,14 +257,14 @@ VStudent status and billing
 p91
 sg23
 g24
-((I2015
-I12
+((I2016
+I1
+I8
+I11
 I4
-I14
-I49
-I33
+I26
 I4
-I338
+I8
 I0
 tp92
 (dp93
@@ -2729,28 +2729,28 @@ I00
 sg13
 (lp860
 F933.1835160373525
-aF826.493300852616
+aF824.9390986601678
 asg15
 (itiddlywiki
 Tiddler
 p861
 (dp862
 g19
-V!Identity and diversity\u000a!!!!Research beliefs, attitudes, and experiences\u000aOur surroundings shape us and help to define who we are. <<if $shortterm>>Experiencing<<else>>Living<</if>> in another cultural context will give you the chance to explore many facets of your identity, and to do so in light of new surroundings. Students overwhelmingly tell us that this process leads to increased personal growth and insight. However, it often carries difficulties too.\u000a\u000aAs you gear up for your time abroad, prepare yourself for how people in your new culture will perceive you. Just as in the US, people abroad will have beliefs, myths, stereotypes, and prejudices about aspects of personal identity. You may also find that the way(s) in which you identify yourself in the US differ from how others will identify you abroad.\u000a\u000a|box|k\u000a|!You might be surprised to learn...|\u000a|No matter what their background, the components of identity that most impact the experience of students abroad are ''nationality'' and ''gender''.|\u000a\u000aResearch the viewpoints held by people of your host country, including beliefs, laws, and customs that revolve around nationality, race and ethnicity, gender, religion, sexual orientation, age, mobility, and more. You may be able to prevent or at least alleviate cultural misunderstandings by learning as much as you can about your host culture before leaving. But also prepare for how your time abroad might change, challenge, and strengthen your own identity. \u000a\u000a<<sidebar-box>>\u000a   [[Being American abroad|Being American abroad]]\u000a   [[Gender roles abroad|Gender roles abroad]]\u000a   [[Race and ethnicity abroad|Race and ethnicity abroad]]\u000a   [[Sexual and gender identity abroad|Sexual and gender identity abroad]]\u000a   [[Religious identity abroad|Religious identity abroad]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Contacts and communications">>\u005c
+V!Identity and diversity\u000a!!!!Research beliefs, attitudes, and experiences\u000aOur surroundings shape us and help to define who we are. <<if $shortterm>>Experiencing<<else>>Living in<</if>> another cultural context will give you the chance to explore many facets of your identity, and to do so in light of new surroundings. Students overwhelmingly tell us that this process leads to increased personal growth and insight. However, it often carries difficulties too.\u000a\u000aAs you gear up for your time abroad, prepare yourself for how people in your new culture will perceive you. Just as in the US, people abroad will have beliefs, myths, stereotypes, and prejudices about aspects of personal identity. You may also find that the way(s) in which you identify yourself in the US differ from how others will identify you abroad.\u000a\u000a|box|k\u000a|!You might be surprised to learn...|\u000a|No matter what their background, the components of identity that most impact the experience of students abroad are ''nationality'' and ''gender''.|\u000a\u000aResearch the viewpoints held by people of your host country, including beliefs, laws, and customs that revolve around nationality, race and ethnicity, gender, religion, sexual orientation, age, mobility, and more. You may be able to prevent or at least alleviate cultural misunderstandings by learning as much as you can about your host culture before leaving. But also prepare for how your time abroad might change, challenge, and strengthen your own identity.\u000a\u000aWe encourage //all// students to read all of the information linked below. Even if you don't believe that it applies to you, it will be useful to try to understand your peers' experience as well as your own. \u000a\u000a<<sidebar-box>>\u000a   [[Being American abroad|Being American abroad]]\u000a   [[Gender roles abroad|Gender roles abroad]]\u000a   [[Race and ethnicity abroad|Race and ethnicity abroad]]\u000a   [[Sexual and gender identity abroad|Sexual and gender identity abroad]]\u000a   [[Religious identity abroad|Religious identity abroad]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Contacts and communications">>\u005c
 p863
 sg21
 VIdentity and diversity
 p864
 sg23
 g24
-((I2015
-I2
-I25
-I11
-I48
-I30
-I2
-I56
+((I2016
+I1
+I12
+I17
+I1
+I59
+I1
+I12
 I0
 tp865
 (dp866

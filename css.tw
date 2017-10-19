@@ -34,7 +34,6 @@ body {
   height:100%;
   width: 60%;
   margin: 0 auto;
-  box-shadow: 0 0 20px black;
   z-index: 5;
 }
 #body-wrap.title {
@@ -168,6 +167,7 @@ body {
 @media screen {
   #body-wrap {
     width:60%;
+    box-shadow: 0 0 20px black;
   }
 }
 @media print {

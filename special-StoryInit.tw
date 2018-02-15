@@ -11,9 +11,9 @@
 <<set $maymester to false>>
 <<set $semester to false>>
 <<set $edition to "--Error--">>
-<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14758">>
-<<set $emergencyCardURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14726">>
-<<set $local911URL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=22176">>
+<<set $pdfURL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=14758">>
+<<set $emergencyCardURL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=14726">>
+<<set $local911URL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=22176">>
 <<set $isosURL to "https://www.internationalsos.com/MasterPortal/default.aspx?membnum=11BSGM000066">>
 <<set $urlopts to {}>>
 <<set $temp to "">>
@@ -101,7 +101,7 @@
         }
     });
     $("#drawer-contact-link").click(function() {
-        window.open("https://webapp.mis.vanderbilt.edu/studioabroad/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5");
+        window.open("https://geo.vanderbilt.edu/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5");
     });
     /**** Sound interface **** $(right_drawer).append("<div id='nav-control' class='drawer-section'><h4>Navigation</h4><p class='menu-legend'>Use this menu to quickly navigate to any section you have already read.</p><div id='nav-container'></div></div>"); ****/
 
@@ -307,35 +307,35 @@ if (isHandheld() === true) {
 } */
 <</script>>\
 <<if $maymester and $facultyled>>
-    /% Maymesters %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15387">>
+    /% Maymesters %/<<set $pdfURL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15387">>
     <<set $edition to "Maymester faculty-led">>
 <</if>>
 <<if $summer>>
     <<if $shortterm>>
-        /% Summer Faculty-Led %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15421">>
+        /% Summer Faculty-Led %/<<set $pdfURL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15421">>
         <<set $edition to "Summer faculty-led">>
     <<elseif $facultyled>>
-        /% VISAGE %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15420">>
+        /% VISAGE %/<<set $pdfURL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15420">>
         <<set $edition to "VISAGE">>
     <<elseif $vanderbilt>>
-        /% Summer Vanderbilt In %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15423">>
+        /% Summer Vanderbilt In %/<<set $pdfURL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15423">>
         <<set $edition to "Summer Vanderbilt In">>
     <<else>>
-        /% Summer Provider Programs %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15388">>
+        /% Summer Provider Programs %/<<set $pdfURL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15388">>
         <<set $edition to "Summer partner program">>
     <</if>>
 <</if>>
 <<if $semester>>
     <<if $vanderbilt>>
-        /% Semester Vanderbilt In %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=15422">>
+        /% Semester Vanderbilt In %/<<set $pdfURL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15422">>
         <<set $edition to "Semester/year-long Vanderbilt In">>
     <<else>>
-        /% Semester Provider Programs %/<<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14758">>
+        /% Semester Provider Programs %/<<set $pdfURL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=14758">>
         <<set $edition to "Semester/year-long partner program">>
     <</if>>
 <</if>>
 <<if $edition eq "--Error--">>
     <<script>>console.log("No valid edition specified. Defaulting to the semester/year-long partner program edition.")<</script>>
-    <<set $pdfURL to "https://webapp.mis.vanderbilt.edu/studioabroad/_customtags/ct_FileRetrieve.cfm?File_ID=14758">>
+    <<set $pdfURL to "https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=14758">>
     <<set $edition to "Semester/year-long partner program">>
 <</if>>

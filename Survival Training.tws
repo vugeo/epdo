@@ -92,7 +92,7 @@ Tiddler
 p39
 (dp40
 g19
-V!What you'll get out of study abroad\u000a!!!!Academics, <<if $shortterm>>Experiential Learning<<else>>Cultural Competence<</if>>, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to <<if $facultyled>>experience a dimension of your subject that you would never have the opportunity to experience on Vanderbilt's campus.<<else>>take classes that are not available at Vanderbilt and expand the breadth of perspectives you draw on.<</if>></p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience. It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<<if not $shortterm>><p><<$- "Cultural Competencies">> You will build [[cultural competencies|https://en.wikipedia.org/wiki/Cultural_competence]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring skills that help you interact with a diverse set of people.</p><</if>>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vandybubble will help shape you as a person and hone your life skills. <<if $shortterm>>Your program may even help crustallize your medium- and long-term goals, whetting your appetite for longer-term study abroad or even an international component to your career.<<else>>You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.<</if>></p>\u005c\u000a<<if not $shortterm>><figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure><</if>>\u000a<<segue "What to expect from this training">>\u005c
+V!What you'll get out of study abroad\u000a!!!!Academics, <<if $shortterm>>Experiential Learning<<else>>Intercultural Competence<</if>>, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to <<if $facultyled>>experience a dimension of your subject that you would never have the opportunity to experience on Vanderbilt's campus.<<else>>take classes that are not available at Vanderbilt and expand the breadth of perspectives you draw on.<</if>></p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience. It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<<if not $shortterm>><p><<$- "Cultural Competencies">> You will build [[intercultural competence|https://www.gcu.ac.uk/media/gcalwebv2/theuniversity/centresprojects/globalperspectives/Definition_of_Intercultural_competence.pdf]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring knowledge, skills, and attitudes that help you interact with a diverse set of people.</p><</if>>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vandybubble will help shape you as a person and hone your life skills. <<if $shortterm>>Your program may even help crustallize your medium- and long-term goals, whetting your appetite for longer-term study abroad or even an international component to your career.<<else>>You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.<</if>></p>\u005c\u000a<<if not $shortterm>><figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure><</if>>\u000a<<segue "What to expect from this training">>\u005c
 p41
 sg21
 VWhat you will get out of study abroad
@@ -101,12 +101,12 @@ sg23
 g24
 ((I2018
 I2
-I13
-I15
-I57
-I25
+I27
+I10
+I17
+I41
 I1
-I44
+I58
 I0
 tp43
 (dp44
@@ -250,7 +250,7 @@ Tiddler
 p88
 (dp89
 g19
-V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you remain registered as a Vanderbilt student and you retain access to campus resources. You can<<if not ($maymester or $summer)>> register for the next term's classes,<</if>> log in to YES and other applications, utilize safety resources, and make use of campus services, including online library resources.\u000a\u000a<<if not $facultyled>>To make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''&rdquo;<<if $summer>> equal to the number of credits you are expected to earn<<else>> of 12 credits<</if>>. The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your <span title="The official academic record from the term(s) you spent abroad.">transcript</span> arrives from abroad and the University Registrar has processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.\u000a\u000a<</if>>''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will <<if $summer or $maymester>>usually arrive on May 1 or June 1, with the usual payment terms.<<else>>arrive at the same time as usual, with the same payment terms.<</if>> <<if not $facultyled>>You can find estimated fees and other costs in GEO's [[Budget Sheet|https://wp0.vanderbilt.edu/geo/finances/budget-sheets/]] for your program. <</if>>Be aware that there are <span title="Costs that are not billed through Vanderbilt--you pay them directly to your study abroad provider or to third parties">''out-of-pocket costs''</span> that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your <<if $facultyled>>faculty leader<<else>>program provider or GEO advisor<</if>> for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Vanderbilt Tuition<<if ($summer)>>, billed per credit hour<</if>>|\u000a|Program Fee|\u000a|Study Abroad Administrative Fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://vanderbilt.edu/geo/finances/costs/]]|\u000a\u000a<<sidebar-box "More info">>\u000a	[[Financial aid|Financial aid]]\u000a    [[Maintaining eligibility to study abroad|Maintaining eligibility]]\u000a    [[Withdrawal from a study abroad program|Program withdrawal]]\u000a<</sidebar-box>>\u000a<<segue "Vanderbilt Incident Response for Travel">>\u005c
+V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you remain registered as a Vanderbilt student and you retain access to campus resources. You can<<if not ($maymester or $summer)>> register for the next term's classes,<</if>> log in to YES and other applications, utilize safety resources, and make use of campus services, including online library resources.\u000a\u000a<<if not $facultyled>>To make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''&rdquo;<<if $summer>> equal to the number of credits you are expected to earn<<else>> of 12 credits<</if>>. The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your <span title="The official academic record from the term(s) you spent abroad.">transcript</span> arrives from abroad and the University Registrar has processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.\u000a\u000a<</if>>''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will <<if $summer or $maymester>>usually arrive on May 1 or June 1, with the usual payment terms.<<else>>arrive at the same time as usual, with the same payment terms.<</if>> <<if not $facultyled>>You can find estimated fees and other costs in GEO's [[Budget Sheet|https://vanderbilt.edu/geo/finances/budget-sheets/]] for your program. <</if>>Be aware that there are <span title="Costs that are not billed through Vanderbilt--you pay them directly to your study abroad provider or to third parties">''out-of-pocket costs''</span> that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your <<if $facultyled>>faculty leader<<else>>program provider or GEO advisor<</if>> for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Vanderbilt Tuition<<if ($summer)>>, billed per credit hour<</if>>|\u000a|Program Fee|\u000a|Study Abroad Administrative Fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://vanderbilt.edu/geo/finances/costs/]]|\u000a\u000a<<sidebar-box "More info">>\u000a	[[Financial aid|Financial aid]]\u000a    [[Maintaining eligibility to study abroad|Maintaining eligibility]]\u000a    [[Withdrawal from a study abroad program|Program withdrawal]]\u000a<</sidebar-box>>\u000a<<segue "Vanderbilt Incident Response for Travel">>\u005c
 p90
 sg21
 VStudent status and billing
@@ -259,12 +259,12 @@ sg23
 g24
 ((I2018
 I2
-I15
-I11
-I35
-I26
-I3
-I46
+I27
+I10
+I9
+I50
+I1
+I58
 I0
 tp92
 (dp93
@@ -410,7 +410,7 @@ Tiddler
 p138
 (dp139
 g19
-V!<<if not $facultyled>>Study abroad c<<else>>C<</if>>ourse review\u000a!!!!<<if $facultyled>>How will your course(s) count?<<else>>Making sure your courses count for Vanderbilt credit<</if>>\u000a<<if $facultyled>>Courses taught by Vanderbilt faculty abroad are regular Vanderbilt courses. If you aren't sure whether your course(s) can count toward specific academic requirements, you can check with your academic adviser or your college's Office of Academic Services (see below).\u000a\u000aIf your course doesn't automatically count toward a particular requirement, you might be able to petition. Again, your college's Office of Academic Services will be your best resource for information on the process to follow. \u000a\u000aMany abroad courses taught by VU faculty count toward College of Arts and Science <span title="AXLE is the acronym for Achieving Excellence in Liberal Education. It is the core curriculum that all students in the College of Arts and Science must fulfill.">AXLE requirements</span>. Please speak to your faculty leader or A&S's Office of Academic Services to confirm what AXLE credit (if any) you will earn.\u000a\u000a|box|k\u000a|! Vanderbilt Offices of Academic Services|\u000a|[[College of Arts and Science|http://as.vanderbilt.edu/oas/]]|\u000a|[[Blair School of Music|http://blair.vanderbilt.edu/academics/]]|\u000a|[[Peabody College|http://peabody.vanderbilt.edu/admin-offices/oas/]]|\u000a|[[School of Engineering|http://engineering.vanderbilt.edu/academic-services/]]|\u000a<<else>>Every course you take <<if $vanderbilt>>outside your Vanderbilt study abroad center<<else>>abroad<</if>> needs to be evaluated by Vanderbilt faculty in order to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about this process of course review and evaluation is that ''you are responsible'' for making sure it gets done! The Office of the University Registrar facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[YES database of evaluated courses|https://webapp.mis.vanderbilt.edu/more/SearchAbroadCourses.action]] for your program. Are all of your courses already on the list? Are you clear on //how many// credits you'll earn for each course? If so, great, you're done!|\u000a|<li>2</li>|If one or more of your courses is not on the list: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|http://registrar.vanderbilt.edu/study-abroad-course-review/#request]] for each course.|\u000a|<li>4</li>|The Registrar's Study Abroad Analysis team will do the rest! They contact faculty and find out how the course will count, and then email you the result.|\u000a\u000aNote that the ''number of credits you will receive'' listed in the YES database of evaluated courses ''may not match the number of credits your program provider suggests''. In that situation, the YES database lists the number of credits you will receive at Vanderbilt. You are responsible for checking on the number of credits that you will receive for all courses you take abroad. Please email <a class="link-external" target="_blank" href="mailto:StudyAbroadAnalysis@Vanderbilt.edu">StudyAbroadAnalysis@Vanderbilt.edu</a> for any questions you have about the database or about course reviews you have in process.\u000a\u000aNeed more information? Check out the University Registrar's [[Study Abroad Course Review|http://registrar.vanderbilt.edu/study-abroad-course-review/]] page, or talk with your [[GEO advisor|https://wp0.vanderbilt.edu/geo/advising/]]. You might also want to check out this [[chart of common questions|https://geo.vanderbilt.edu/index.cfm?FuseAction=PublicDocuments.View&File_ID=19473]].<</if>>\u000a\u000a<<segue "Preparing for safety">>\u005c
+V!<<if not $facultyled>>Study abroad c<<else>>C<</if>>ourse review\u000a!!!!<<if $facultyled>>How will your course(s) count?<<else>>Making sure your courses count for Vanderbilt credit<</if>>\u000a<<if $facultyled>>Courses taught by Vanderbilt faculty abroad are regular Vanderbilt courses. If you aren't sure whether your course(s) can count toward specific academic requirements, you can check with your academic adviser or your college's Office of Academic Services (see below).\u000a\u000aIf your course doesn't automatically count toward a particular requirement, you might be able to petition. Again, your college's Office of Academic Services will be your best resource for information on the process to follow. \u000a\u000aMany abroad courses taught by VU faculty count toward College of Arts and Science <span title="AXLE is the acronym for Achieving Excellence in Liberal Education. It is the core curriculum that all students in the College of Arts and Science must fulfill.">AXLE requirements</span>. Please speak to your faculty leader or A&S's Office of Academic Services to confirm what AXLE credit (if any) you will earn.\u000a\u000a|box|k\u000a|! Vanderbilt Offices of Academic Services|\u000a|[[College of Arts and Science|http://as.vanderbilt.edu/oas/]]|\u000a|[[Blair School of Music|http://blair.vanderbilt.edu/academics/]]|\u000a|[[Peabody College|http://peabody.vanderbilt.edu/admin-offices/oas/]]|\u000a|[[School of Engineering|http://engineering.vanderbilt.edu/academic-services/]]|\u000a<<else>>Every course you take <<if $vanderbilt>>outside your Vanderbilt study abroad center<<else>>abroad<</if>> needs to be evaluated by Vanderbilt faculty in order to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about this process of course review and evaluation is that ''you are responsible'' for making sure it gets done! The Office of the University Registrar facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[YES database of evaluated courses|https://webapp.mis.vanderbilt.edu/more/SearchAbroadCourses.action]] for your program. Are all of your courses already on the list? Are you clear on //how many// credits you'll earn for each course? If so, great, you're done!|\u000a|<li>2</li>|If one or more of your courses is not on the list: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|http://registrar.vanderbilt.edu/study-abroad-course-review/#request]] for each course.|\u000a|<li>4</li>|The Registrar's Study Abroad Analysis team will do the rest! They contact faculty and find out how the course will count, and then email you the result.|\u000a\u000aNote that the ''number of credits you will receive'' listed in the YES database of evaluated courses ''may not match the number of credits your program provider suggests''. In that situation, the YES database lists the number of credits you will receive at Vanderbilt. You are responsible for checking on the number of credits that you will receive for all courses you take abroad. Please email <a class="link-external" target="_blank" href="mailto:StudyAbroadAnalysis@Vanderbilt.edu">StudyAbroadAnalysis@Vanderbilt.edu</a> for any questions you have about the database or about course reviews you have in process.\u000a\u000aNeed more information? Check out the University Registrar's [[Study Abroad Course Review|http://registrar.vanderbilt.edu/study-abroad-course-review/]] page, or talk with your [[GEO advisor|https://vanderbilt.edu/geo/advising/]]. You might also want to check out this [[chart of common questions|https://geo.vanderbilt.edu/index.cfm?FuseAction=PublicDocuments.View&File_ID=19473]].<</if>>\u000a\u000a<<segue "Preparing for safety">>\u005c
 p140
 sg21
 VStudy abroad course review
@@ -629,12 +629,12 @@ sg23
 g24
 ((I2018
 I2
-I15
-I13
-I31
+I27
+I10
+I22
+I38
 I1
-I3
-I46
+I58
 I0
 tp207
 (dp208
@@ -940,7 +940,7 @@ Tiddler
 p303
 (dp304
 g19
-V<<sidebar "Basics of budgeting">>\u000aBudgeting can be crucial to ensure you have enough money to fund your study abroad experience. There are really two levels of budgeting that you need to keep in mind.\u000a\u000aFirst is the ''overall budget for your study abroad experience''. Getting a ballpark figure for this will help you and your family determine an appropriate weekly budget for you while you are abroad. Be sure to include not only the costs that are billed through Vanderbilt, but also the clear, fixed costs that you will pay out of pocket. Examples include: passport fees, visa fees, airfare, luggage fees, and purchase of clothing or other travel needs.\u000a\u000aTo this, you need to add an estimate of what you will spend on living expenses and entertainment and enrichment activities. These can be tricky to estimate, especially because a sudden change in currency exchange rates can alter the calculation substantially. <<if $facultyled>>Your faculty leader should be able to give you a better idea of costs on the ground.<<else>>GEO offers rough estimates in our online [[budget sheets|https://wp0.vanderbilt.edu/geo/finances/budget-sheets/]], but your program provider can give you a better idea of your costs on the ground. You can also use online cost-of-living calculators (see the Resources section below).<</if>>\u000a\u000aNow that you have a blanket estimate of costs, you and your family can determine how much you should aim to spend per week. Here is where you will need to figure out how to maintain your week-to-week budget while you are abroad. \u000a\u000aA ''week-to-week budget'' is a detailed plan of the money you plan to spend, divided into categories: so much for food, so much for travel, and so on. You may need to revise it as you go. For example, you may overspend one week and need to cut back in future weeks.<<if not $shortterm>> Keep in mind that students often spend more money the first few weeks while becoming acquainted with their new surroundings.<</if>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Numbeo|http://www.numbeo.com/cost-of-living/]], international cost of living database and calculator|\u000a|[[Expatistan|http://www.expatistan.com/cost-of-living]], international cost of living database and calculator|\u000a|[[OANDA|http://www.oanda.com/currency/converter/]] currency exchange converter, including historical trends|\u000a|[[Maintain a Personal Budget|http://www.wikihow.com/Maintain-a-Budget-for-Personal-Use]], a general budgeting guide|\u000a\u000a<<segue "Where will you live?">>\u005c
+V<<sidebar "Basics of budgeting">>\u000aBudgeting can be crucial to ensure you have enough money to fund your study abroad experience. There are really two levels of budgeting that you need to keep in mind.\u000a\u000aFirst is the ''overall budget for your study abroad experience''. Getting a ballpark figure for this will help you and your family determine an appropriate weekly budget for you while you are abroad. Be sure to include not only the costs that are billed through Vanderbilt, but also the clear, fixed costs that you will pay out of pocket. Examples include: passport fees, visa fees, airfare, luggage fees, and purchase of clothing or other travel needs.\u000a\u000aTo this, you need to add an estimate of what you will spend on living expenses and entertainment and enrichment activities. These can be tricky to estimate, especially because a sudden change in currency exchange rates can alter the calculation substantially. <<if $facultyled>>Your faculty leader should be able to give you a better idea of costs on the ground.<<else>>GEO offers rough estimates in our online [[budget sheets|https://vanderbilt.edu/geo/finances/budget-sheets/]], but your program provider can give you a better idea of your costs on the ground. You can also use online cost-of-living calculators (see the Resources section below).<</if>>\u000a\u000aNow that you have a blanket estimate of costs, you and your family can determine how much you should aim to spend per week. Here is where you will need to figure out how to maintain your week-to-week budget while you are abroad. \u000a\u000aA ''week-to-week budget'' is a detailed plan of the money you plan to spend, divided into categories: so much for food, so much for travel, and so on. You may need to revise it as you go. For example, you may overspend one week and need to cut back in future weeks.<<if not $shortterm>> Keep in mind that students often spend more money the first few weeks while becoming acquainted with their new surroundings.<</if>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Numbeo|http://www.numbeo.com/cost-of-living/]], international cost of living database and calculator|\u000a|[[Expatistan|http://www.expatistan.com/cost-of-living]], international cost of living database and calculator|\u000a|[[OANDA|http://www.oanda.com/currency/converter/]] currency exchange converter, including historical trends|\u000a|[[Maintain a Personal Budget|http://www.wikihow.com/Maintain-a-Budget-for-Personal-Use]], a general budgeting guide|\u000a\u000a<<segue "Where will you live?">>\u005c
 p305
 sg21
 VBasics of budgeting
@@ -1531,12 +1531,12 @@ sg23
 g24
 ((I2018
 I2
-I15
-I14
-I18
-I36
-I3
-I46
+I27
+I10
+I12
+I34
+I1
+I58
 I0
 tp488
 (dp489
@@ -2262,7 +2262,7 @@ Tiddler
 p714
 (dp715
 g19
-V<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any farther, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you <<if $facultyled or $shortterm>>to get a student visa or residence permit<<else>>to enter<</if>> if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Getting or renewing a passport]]\u000a<</sidebar-box>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[US Department of State video on passport requirements|https://www.youtube.com/watch?v=yAQdMNqvrxE]]|\u000a\u000a<<segue "Passport and document security">>
+V<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any further, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you <<if $facultyled or $shortterm>>to get a student visa or residence permit<<else>>to enter<</if>> if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Getting or renewing a passport]]\u000a<</sidebar-box>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[US Department of State video on passport requirements|https://www.youtube.com/watch?v=yAQdMNqvrxE]]|\u000a\u000a<<segue "Passport and document security">>
 p716
 sg21
 VPassport Check
@@ -2271,12 +2271,12 @@ sg23
 g24
 ((I2018
 I2
-I15
-I13
-I30
-I30
-I3
-I46
+I27
+I10
+I23
+I0
+I1
+I58
 I0
 tp718
 (dp719
@@ -2531,12 +2531,12 @@ sg23
 g24
 ((I2018
 I2
-I15
-I14
-I7
-I43
-I3
-I46
+I27
+I10
+I11
+I49
+I1
+I58
 I0
 tp798
 (dp799
@@ -3997,7 +3997,7 @@ tp1253
 Rp1254
 sbsa(dp1255
 g12
-I01
+I00
 sg13
 (lp1256
 F1823.1766138855012
@@ -4020,7 +4020,7 @@ I2
 I15
 I14
 I35
-I0
+I11
 I3
 I46
 I0
@@ -4221,12 +4221,12 @@ sg23
 g24
 ((I2018
 I2
-I15
-I13
-I32
-I30
-I3
-I46
+I27
+I10
+I10
+I55
+I1
+I58
 I0
 tp1323
 (dp1324
@@ -4421,14 +4421,14 @@ I00
 sg13
 (lp1386
 F1336.4799396129426
-aF951.4274903505161
+aF950.0072340506057
 asg15
 (itiddlywiki
 Tiddler
 p1387
 (dp1388
 g19
-V<<sidebar "Transgender travelers">>\u000aTransgender students are valued members of the Vanderbilt community. Abroad, attitudes regarding transgender students may not be the same. Cultures may not support or value ''non-cisnormative genders or non-heteronormative sexualities'', and in some countries transgender people may face criminal sanctions simply because they are transgender. Before you travel abroad, ''learn more about the laws, customs, and attitudes'' of the country in which you will be studying. Some resources are provided at the end of this article as a starting point.\u000a\u000aWhen preparing to travel, be sure to that your documents and IDs match your legal name and gender. We recognize this process can be anxiety-inducing and stressful for trans people; however, due to the legal system of the United States, ''the name, gender, and date of birth on your flight ticket must match the government-issued photo ID (i.e. passport) you provide when passing through security''. Perceived differences between documents and gender presentation may cause delays and/or additional screenings by travel agency staff. \u000a\u000aIf your US passport does not reflect your current gender, you can [[obtain a new ten-year passport with your updated gender|http://www.transequality.org/sites/default/files/docs/kyr/passports_2014.pdf]] but you must provide a ''letter from your physician'' documenting appropriate \u201cclinical treatment\u201d for gender transition. ''If you have decided to engage in the process of gender transition'', you can [[obtain a temporary two-year passport with your updated gender|http://www.transequality.org/sites/default/files/docs/kyr/passports_2014.pdf]]. If your passport does not match your gender/has not been updated to reflect your gender, you ''must apply in person'' at any passport acceptance facility. If you are applying for a change of name, you may be eligible to apply by mail. Consult [[details|http://www.transequality.org/sites/default/files/docs/kyr/passports_2014.pdf]] provided by the National Center for Transgender Equality. If you are not a US citizen, consult the embassy or consulate of your home country for requirements.\u000a\u000aWhen traveling, be aware that ''security screening'' may involve whole-body scanners (Advanced Imaging Technology) or a pat-down. If you opt out of the imaging scan, or if the machine detects something \u201cunusual\u201d (such as ''binding garments, prosthetics, or body parts the attendant did not assume you to have''), you will be required to go through a ''pat-down''. The officer working will assign an officer they assume matches your gender to perform the pat-down. Travelers may ''ask for a private screening'' at any time, and you may bring a travel companion in with you. You should never be required to lift or remove an article of clothing to reveal your body part(s) or a prosthetic item. If you use a prosthetic item, you are not required to remove it. \u000a\u000aIf you are carrying any ''medically prescribed items with you, bring documentation from your physician''. If you are on ''hormones'', talk with your physician about how to access medical treatment and prescriptions abroad. \u000a\u000aBe aware that traveling within your host country or crossing borders while abroad may also require documentation and security screenings.\u000a\u000aWhen planning for your trip, consider ''housing options'' that fit your comfort and safety levels. Single rooms might be best for personal freedom, but they may not be available or may cost more. It may be wise to talk to your program provider to seek trans-friendly roommates or host families. \u000a\u000aAfter considering potential safety issues, determine how you would like instructors and peers abroad to address you, for example with your ''preferred name and gender pronouns''. You may want to ask your program provider about the availability of ''gender inclusive restrooms''.\u000a\u000aIf you have any questions or concerns, feel free to [[contact GEO|https://vanderbilt.edu/geo/advising/]] and we will be happy to help you work through them.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[International Lesbian Gay Bisexual Trans and Intersex Association|https://davidson.studioabroad.com/_customtags/ct_FileRetrieve.cfm?File_ID=05077A7671743F0777067173060A011C7C0D777C1A0C0307051C7174050501730706777D71707171020D]] (ILGA) provides a country-by-country analysis of attitudes and laws regarding LGBTQ people.|\u000a|More information on the new [[passport gender change policy|http://www.transequality.org/sites/default/files/docs/kyr/passports_2014.pdf]] for US passport holders.|\u000a|How to [[apply for a limited 2-year US passport|https://travel.state.gov/content/travel/en/passports/apply-renew-passport/gender.html]] if you are in the process of gender transition.|\u000a|The National Center for Transgender Equality (NCTE) provides an [[ID Documents Center|http://www.transequality.org/documents]] to help you get a legal name change and update your name/gender on state and federal IDs and records.|\u000a|NCTE offers a [[\u201cKnow Your Rights\u201d report|http://www.transequality.org/sites/default/files/docs/kyr/AirportSecurity_March2014.pdf]] on airport security and transgender people.|\u000a|If you do experience disrespectful treatment or other problems from airline staff, you may [[file a complaint|https://www.transportation.gov/airconsumer/file-consumer-complaint]] with the Aviation Consumer Protection Division.|\u000a|Check out a blogpost on a [[Transgender Guide to Staying Safe While Traveling.|http://dopesontheroad.com/travel/transgender-guide-to-staying-safe-while-traveling/]]|\u000a|If you have a smart phone and are traveling within the U.S. or Europe, you can download the REFUGE Restroom app to help you locate gender inclusive restrooms.|\u000a\u000a<<segue "Contacts and communications">>\u005c
+V<<sidebar "Transgender travelers">>\u000aTransgender students are valued members of the Vanderbilt community. Abroad, attitudes regarding transgender students may not be the same. Cultures may not support or value ''non-cisnormative genders or non-heteronormative sexualities'', and in some countries transgender people may face criminal sanctions simply because they are transgender. Before you travel abroad, ''learn more about the laws, customs, and attitudes'' of the country in which you will be studying. Some resources are provided at the end of this article as a starting point.\u000a\u000aWhen preparing to travel, be sure that your documents and IDs match your legal name and gender. We recognize this process can be anxiety-inducing and stressful for trans people; however, due to the legal system of the United States, ''the name, gender, and date of birth on your flight ticket must match the government-issued photo ID (i.e. passport) you provide when passing through security''. Perceived differences between documents and gender presentation may cause delays and/or additional screenings by travel agency staff. \u000a\u000aIf your US passport does not reflect your current gender, you can [[obtain a new ten-year passport with your updated gender|https://transequality.org/know-your-rights/passports]] but you must provide a ''letter from your physician'' documenting appropriate \u201cclinical treatment\u201d for gender transition. ''If you have decided to engage in the process of gender transition'', you can [[obtain a temporary two-year passport with your updated gender|https://transequality.org/know-your-rights/passports]]. If your passport does not match your gender/has not been updated to reflect your gender, you ''must apply in person'' at any passport acceptance facility. If you are applying for a change of name, you may be eligible to apply by mail. Consult [[details|https://transequality.org/know-your-rights/passports]] provided by the National Center for Transgender Equality. If you are not a US citizen, consult the embassy or consulate of your home country for requirements.\u000a\u000aWhen traveling, be aware that ''security screening'' may involve whole-body scanners (Advanced Imaging Technology) or a pat-down. If you opt out of the imaging scan, or if the machine detects something \u201cunusual\u201d (such as ''binding garments, prosthetics, or body parts the attendant did not assume you to have''), you will be required to go through a ''pat-down''. The officer working will assign an officer they assume matches your gender to perform the pat-down. Travelers may ''ask for a private screening'' at any time, and you may bring a travel companion in with you. You should never be required to lift or remove an article of clothing to reveal your body part(s) or a prosthetic item. If you use a prosthetic item, you are not required to remove it. \u000a\u000aIf you are carrying any ''medically prescribed items with you, bring documentation from your physician''. If you are on ''hormones'', talk with your physician about how to access medical treatment and prescriptions abroad. \u000a\u000aBe aware that traveling within your host country or crossing borders while abroad may also require documentation and security screenings.\u000a\u000aWhen planning for your trip, consider ''housing options'' that fit your comfort and safety levels. Single rooms might be best for personal freedom, but they may not be available or may cost more. It may be wise to talk to your program provider to seek trans-friendly roommates or host families. \u000a\u000aAfter considering potential safety issues, determine how you would like instructors and peers abroad to address you, for example with your ''preferred name and gender pronouns''. You may want to ask your program provider about the availability of ''gender inclusive restrooms''.\u000a\u000aIf you have any questions or concerns, feel free to [[contact GEO|https://vanderbilt.edu/geo/advising/]] and we will be happy to help you work through them.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[International Lesbian Gay Bisexual Trans and Intersex Association|https://davidson.studioabroad.com/_customtags/ct_FileRetrieve.cfm?File_ID=05077A7671743F0777067173060A011C7C0D777C1A0C0307051C7174050501730706777D71707171020D]] (ILGA) provides a country-by-country analysis of attitudes and laws regarding LGBTQ people; not focused on transgender issues, but possibly broadly useful.|\u000a|More information on the new [[passport gender change policy|http://www.transequality.org/sites/default/files/docs/kyr/passports_2014.pdf]] for US passport holders.|\u000a|How to [[apply for a limited 2-year US passport|https://travel.state.gov/content/travel/en/passports/apply-renew-passport/gender.html]] if you are in the process of gender transition.|\u000a|The National Center for Transgender Equality (NCTE) provides an [[ID Documents Center|http://www.transequality.org/documents]] to help you get a legal name change and update your name/gender on state and federal IDs and records.|\u000a|NCTE offers a [[\u201cKnow Your Rights\u201d report|http://www.transequality.org/sites/default/files/docs/kyr/AirportSecurity_March2014.pdf]] on airport security and transgender people.|\u000a|If you do experience disrespectful treatment or other problems from airline staff, you may [[file a complaint|https://www.transportation.gov/airconsumer/file-consumer-complaint]] with the Aviation Consumer Protection Division.|\u000a|Check out a blogpost on a [[Transgender Guide to Staying Safe While Traveling.|http://dopesontheroad.com/travel/transgender-guide-to-staying-safe-while-traveling/]]|\u000a|If you have a smart phone and are traveling within the U.S. or Europe, you can download the REFUGE Restroom app to help you locate gender inclusive restrooms.|\u000a\u000a<<segue "Contacts and communications">>\u005c
 p1389
 sg21
 VTransgender travelers
@@ -4437,12 +4437,12 @@ sg23
 g24
 ((I2018
 I2
+I27
 I15
-I14
+I29
+I58
 I1
-I22
-I3
-I46
+I58
 I0
 tp1391
 (dp1392

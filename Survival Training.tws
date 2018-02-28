@@ -198,7 +198,7 @@ Tiddler
 p72
 (dp73
 g19
-V!Vanderbilt policy on alcohol abroad\u000a!!!!Be aware of legal rules and cultural norms\u000aVanderbilt does not really treat alcohol use abroad any differently than it does on campus--you still need to abide by the ''legal drinking age'' of the country you're in. In all of the countries where Vanderbilt has approved study abroad programs, the drinking age is lower than it is here in Nashville, so you may find that your legal status is different. Just remember that violations of law or of institutional policy overseas may also become grounds for disciplinary action both at Vanderbilt and under the rules of your abroad program.\u000a\u000aAt the same time that you are considering the legal implications of drinking, be mindful of ''cultural norms'' surrounding alcohol use in your host country. In many countries, for example, American-style "binge drinking" may appear pathological or merely pathetic. Take the opportunity to see cultural practices in a new light. \u000a\u000a|box|k\u000a|!The Student Handbook says:|\u000a|Students are required to abide by the laws of the respective countries in which they reside, study, or travel, with respect to the age at which alcoholic beverages may be consumed. Otherwise, the policies with respect to [[alcoholic beverages and controlled substances|http://www.vanderbilt.edu/student_handbook/alcoholic-beverage-and-controlled-substances-policies/ ]] included in the Vanderbilt //Student Handbook// apply. Students are subject to student-accountability sanctions, including expulsion, and referral for prosecution for violation of these policies.|\u000a|<hr>//From// [[VU Student Handbook, Study Abroad|http://www.vanderbilt.edu/student_handbook/university-policies-and-regulations/#study-abroad]]|\u000a\u000a<<segue "Sexual misconduct abroad">>\u005c
+V!Vanderbilt policy on alcohol abroad\u000a!!!!Be aware of legal rules and cultural norms\u000aVanderbilt does not really treat alcohol use abroad any differently than it does on campus--you still need to abide by the ''legal drinking age'' of the country you're in. In all of the countries where Vanderbilt has approved study abroad programs, the drinking age is lower than it is here in Nashville, so you may find that your legal status is different. Just remember that violations of law or of institutional policy overseas may also become grounds for disciplinary action both at Vanderbilt and under the rules of your abroad program.\u000a\u000aAt the same time that you are considering the legal implications of drinking, be mindful of ''cultural norms'' surrounding alcohol use in your host country. In many countries, for example, American-style "binge drinking" may appear pathological or merely pathetic. Take the opportunity to see cultural practices in a new light. \u000a\u000a|box|k\u000a|!The Student Handbook says:|\u000a|Students are required to abide by the laws of the respective countries in which they reside, study, or travel, with respect to the age at which alcoholic beverages may be consumed. Otherwise, the policies with respect to [[alcoholic beverages and controlled substances|http://www.vanderbilt.edu/student_handbook/alcoholic-beverage-and-controlled-substances-policies/]] included in the Vanderbilt //Student Handbook// apply. Students are subject to student-accountability sanctions, including expulsion, and referral for prosecution for violation of these policies.|\u000a|<hr>//From// [[VU Student Handbook, Study Abroad|http://www.vanderbilt.edu/student_handbook/university-policies-and-regulations/#study-abroad]]|\u000a\u000a<<segue "Sexual misconduct abroad">>\u005c
 p74
 sg21
 VVanderbilt policy on alcohol abroad
@@ -207,12 +207,12 @@ sg23
 g24
 ((I2018
 I2
+I28
 I15
-I11
-I44
-I39
-I3
-I46
+I9
+I59
+I2
+I59
 I0
 tp76
 (dp77
@@ -250,7 +250,7 @@ Tiddler
 p88
 (dp89
 g19
-V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you remain registered as a Vanderbilt student and you retain access to campus resources. You can<<if not ($maymester or $summer)>> register for the next term's classes,<</if>> log in to YES and other applications, utilize safety resources, and make use of campus services, including online library resources.\u000a\u000a<<if not $facultyled>>To make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''&rdquo;<<if $summer>> equal to the number of credits you are expected to earn<<else>> of 12 credits<</if>>. The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your <span title="The official academic record from the term(s) you spent abroad.">transcript</span> arrives from abroad and the University Registrar has processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.\u000a\u000a<</if>>''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will <<if $summer or $maymester>>usually arrive on May 1 or June 1, with the usual payment terms.<<else>>arrive at the same time as usual, with the same payment terms.<</if>> <<if not $facultyled>>You can find estimated fees and other costs in GEO's [[Budget Sheet|https://vanderbilt.edu/geo/finances/budget-sheets/]] for your program. <</if>>Be aware that there are <span title="Costs that are not billed through Vanderbilt--you pay them directly to your study abroad provider or to third parties">''out-of-pocket costs''</span> that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your <<if $facultyled>>faculty leader<<else>>program provider or GEO advisor<</if>> for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Vanderbilt Tuition<<if ($summer)>>, billed per credit hour<</if>>|\u000a|Program Fee|\u000a|Study Abroad Administrative Fee|\u000a|<hr />//More information:// [[Billing policies and procedures|https://vanderbilt.edu/geo/finances/costs/]]|\u000a\u000a<<sidebar-box "More info">>\u000a	[[Financial aid|Financial aid]]\u000a    [[Maintaining eligibility to study abroad|Maintaining eligibility]]\u000a    [[Withdrawal from a study abroad program|Program withdrawal]]\u000a<</sidebar-box>>\u000a<<segue "Vanderbilt Incident Response for Travel">>\u005c
+V!Student status and billing\u000a!!!!You remain a Vanderbilt student while abroad!\u000aWhile studying abroad, you remain registered as a Vanderbilt student and you retain access to campus resources. You can<<if not ($maymester or $summer)>> register for the next term's classes,<</if>> log in to YES and other applications, utilize safety resources, and make use of campus services, including online library resources.\u000a\u000a<<if not $facultyled>>To make this possible, GEO enrolls you in a study abroad &ldquo;''placeholder course''&rdquo;<<if $summer>> equal to the number of credits you are expected to earn<<else>> of 12 credits<</if>>. The placeholder will appear on your YES account before you go abroad. The actual courses you take abroad, as well as the grades you earn, will eventually replace the placeholder. This will occur only after your <span title="The official academic record from the term(s) you spent abroad.">transcript</span> arrives from abroad and the University Registrar has processed it. ''It may take 2 to 6 months'' from the end of your program for your transcript to arrive, depending on individual circumstances.\u000a\u000a<</if>>''Billing'' works just as it does for on-campus students. [[Vanderbilt Student Accounts|https://finance.vanderbilt.edu/stuaccts/]] will bill you, and your bill will <<if $summer or $maymester>>usually arrive on May 1 or June 1, with the usual payment terms.<<else>>arrive at the same time as usual, with the same payment terms.<</if>> <<if not $facultyled>>You can find estimated fees and other costs in GEO's [[Budget Sheet|https://vanderbilt.edu/geo/finances/budget-sheets/]] for your program. <</if>>Be aware that there are <span title="Costs that are not billed through Vanderbilt--you pay them directly to your study abroad provider or to third parties">''out-of-pocket costs''</span> that are not billed by Vanderbilt--including airfare, visa fees, and more--which you should factor into your overall budget. Contact your <<if $facultyled>>faculty leader<<else>>program provider or GEO advisor<</if>> for more information.\u000a\u000a|box|k\u000a|!What's in my bill?|\u000a|Vanderbilt Tuition<<if ($summer)>>, billed per credit hour<</if>>|\u000a|Program Fee|\u000a|Study Abroad Administrative Fee|\u000a|<hr />//More information:// <<if $maymester>>[[A&S Maymester fee and billing information|https://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>[[Billing policies and procedures|https://vanderbilt.edu/geo/finances/costs/]]<</if>>|\u000a\u000a<<sidebar-box "More info">>\u000a	[[Financial aid|Financial aid]]\u000a    [[Maintaining eligibility to study abroad|Maintaining eligibility]]\u000a    [[Withdrawal from a study abroad program|Program withdrawal]]\u000a<</sidebar-box>>\u000a<<segue "Vanderbilt Incident Response for Travel">>\u005c
 p90
 sg21
 VStudent status and billing
@@ -259,12 +259,12 @@ sg23
 g24
 ((I2018
 I2
+I28
+I15
+I15
 I27
-I10
-I9
-I50
-I1
-I58
+I2
+I59
 I0
 tp92
 (dp93
@@ -3802,7 +3802,7 @@ Tiddler
 p1194
 (dp1195
 g19
-V!Sexual misconduct abroad\u000a!!!!Regardless of local law, Vanderbilt policies apply\u000aSocial norms--and civil and criminal laws--vary from country to country.  Even so, Vanderbilt\u2019s policies, including the university\u2019s Student Accountability and Sexual Misconduct and Power-Based Violence policies, apply in all study abroad programs in which Vanderbilt students participate, whether those programs are administered by Vanderbilt or a third party.  Vanderbilt students, faculty and staff participating in study abroad programs must comply with local laws, the rules and regulations of their study abroad program, and with Vanderbilt\u2019s policies.\u000a\u000aIf you are a victim of sexual misconduct while abroad, contact the <<if $facultyled>>faculty leader<<else>>resident director<</if>> of your program for help. If you are unable or unwilling to discuss the issue with program staff, please contact [[Vanderbilt Incident Response for Travel (VIRT)|https://www.vanderbilt.edu/virt/]], Vanderbilt's [[Equal Opportunity, Affirmative Action, and Disability Services Department|http://www.vanderbilt.edu/ead/]] (EAD) or [[Project Safe|http://www.vanderbilt.edu/projectsafe/]]. Project Safe has someone available around the clock every day of the year. The Student Handbook\u2019s [[policy on Sexual Misconduct|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]] identifies confidential resources (see also [[Project Safe|https://www.vanderbilt.edu/projectsafe/wp-content/uploads/sites/133/VU-One-Page-Resources-List_Students_2016-17-final.pdf]]).\u000a\u000aNot all countries offer the same legal protections for victims as are offered in the United States. Again, Vanderbilt can explain your options ''before you file a formal police report''. Contact VIRT, EAD, or Project Safe; the Student Handbook\u2019s [[policy on Sexual Misconduct|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]] identifies confidential resources (see also [[Project Safe|https://www.vanderbilt.edu/projectsafe/wp-content/uploads/sites/133/VU-One-Page-Resources-List_Students_2016-17-final.pdf]]).\u000a\u000aThe range of sanctions for violations of Vanderbilt\u2019s Student Accountability and Sexual Misconduct and Power-Based Violence Policies are set forth in the Student Handbook. Individuals who engage in gender-based or sexual misconduct--or other forms of misconduct--may also be subject to local laws, and the civil and criminal consequences may be severe.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[VU Student Accountability Policy|http://www.vanderbilt.edu/student_handbook/student-conduct/]], from the Student Handbook|\u000a|[[Sexual Misconduct and Other Forms of Power-Based Violence Policy|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]], from the Student Handbook|\u000a|[[Vanderbilt Incident Response for Travel (VIRT)|https://www.vanderbilt.edu/virt/]]|\u000a|[[VU Equal Opportunity, Affirmative Action, and Disability Services Department|http://www.vanderbilt.edu/ead/]]|\u000a|[[VU Project Safe|http://www.vanderbilt.edu/projectsafe/]] will research local resources when a student needs in-person advocacy or support, wherever they are--including abroad.|\u000a|[[Vanderbilt Sexual Assault Support and Resources List|https://www.vanderbilt.edu/projectsafe/wp-content/uploads/sites/133/VU-One-Page-Resources-List_Students_2016-17-final.pdf]]|\u000a\u000a<<segue "Grades and credits">>\u005c
+V!Sexual misconduct abroad\u000a!!!!Regardless of local law, Vanderbilt policies apply\u000aSocial norms--and civil and criminal laws--vary from country to country.  Even so, Vanderbilt\u2019s policies, including the university\u2019s Student Accountability and Sexual Misconduct and Power-Based Violence policies, apply in all study abroad programs in which Vanderbilt students participate, whether those programs are administered by Vanderbilt or a third party.  Vanderbilt students, faculty and staff participating in study abroad programs must comply with local laws, the rules and regulations of their study abroad program, and with Vanderbilt\u2019s policies.\u000a\u000aIf you are a victim of sexual misconduct while abroad, contact the <<if $facultyled>>faculty leader<<else>>resident director<</if>> of your program for help. If you are unable or unwilling to discuss the issue with program staff, please contact [[Vanderbilt Incident Response for Travel (VIRT)|https://www.vanderbilt.edu/virt/]], Vanderbilt's [[Title IX Office|https://www.vanderbilt.edu/title-ix/]] or [[Project Safe|http://www.vanderbilt.edu/projectsafe/]]. Project Safe has someone available around the clock every day of the year. The Student Handbook\u2019s [[policy on Sexual Misconduct|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]] identifies confidential resources (see also [[Project Safe|https://www.vanderbilt.edu/projectsafe/wp-content/uploads/sites/133/VU-One-Page-Resources-List_Students_2016-17-final.pdf]]).\u000a\u000aNot all countries offer the same legal protections for victims as are offered in the United States. Again, Vanderbilt can explain your options ''before you file a formal police report''. Contact VIRT, EAD, or Project Safe; the Student Handbook\u2019s [[policy on Sexual Misconduct|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]] identifies confidential resources (see also [[Project Safe|https://www.vanderbilt.edu/projectsafe/wp-content/uploads/sites/133/VU-One-Page-Resources-List_Students_2016-17-final.pdf]]).\u000a\u000aThe range of sanctions for violations of Vanderbilt\u2019s Student Accountability and Sexual Misconduct and Power-Based Violence Policies are set forth in the Student Handbook. Individuals who engage in gender-based or sexual misconduct--or other forms of misconduct--may also be subject to local laws, and the civil and criminal consequences may be severe.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[VU Student Accountability Policy|http://www.vanderbilt.edu/student_handbook/student-conduct/]], from the Student Handbook|\u000a|[[Sexual Misconduct and Other Forms of Power-Based Violence Policy|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]], from the Student Handbook|\u000a|[[Vanderbilt Incident Response for Travel (VIRT)|https://www.vanderbilt.edu/virt/]]|\u000a|[[VU Title IX Office|https://www.vanderbilt.edu/title-ix/]]|\u000a|[[VU Project Safe|http://www.vanderbilt.edu/projectsafe/]] will research local resources when a student needs in-person advocacy or support, wherever they are--including abroad.|\u000a|[[Vanderbilt Sexual Assault Support and Resources List|https://www.vanderbilt.edu/projectsafe/wp-content/uploads/sites/133/VU-One-Page-Resources-List_Students_2016-17-final.pdf]]|\u000a\u000a<<segue "Grades and credits">>\u005c
 p1196
 sg21
 VSexual misconduct abroad
@@ -3811,12 +3811,12 @@ sg23
 g24
 ((I2018
 I2
+I28
 I15
 I11
-I45
-I0
-I3
-I46
+I40
+I2
+I59
 I0
 tp1198
 (dp1199
@@ -3997,7 +3997,7 @@ tp1253
 Rp1254
 sbsa(dp1255
 g12
-I00
+I01
 sg13
 (lp1256
 F1823.1766138855012
@@ -4017,12 +4017,12 @@ sg23
 g24
 ((I2018
 I2
+I28
 I15
-I14
-I35
-I11
-I3
-I46
+I20
+I13
+I2
+I59
 I0
 tp1261
 (dp1262
@@ -4266,7 +4266,7 @@ Tiddler
 p1336
 (dp1337
 g19
-V<<sidebar "Withdrawing from your program">>\u000aWe hope you won't have to withdraw from your program. But if you must, please note the following:\u000a\u000a<<if $vanderbilt>>|box|k\u000a|!Withdrawal Deadline|<<if $maymester>>You need to withdraw by the Withdrawal Deadline specified on the [[Maymester/Summer Sessions page|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>In your GEO account ([[log in|https://geo.vanderbilt.edu/index.cfm?FuseAction=Security.ExistingUserLogin]]), you will find a Withdrawal Deadline. You need to withdraw by this date<</if>> to avoid penalties.|\u000a|!Communication|You must withdraw with GEO in writing.<<if $facultyled>> Be sure to also notify your course instructor/faculty leader<</if>>|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline, <<if $maymester>>the VU college offering the course<<else>>GEO<</if>> may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|<<else>>|box|k\u000a|!Withdrawal Deadline|In your GEO account ([[log in|https://geo.vanderbilt.edu/index.cfm?FuseAction=Security.ExistingUserLogin]]), you will find a Withdrawal Deadline. You need to withdraw by this date to avoid penalties.|\u000a|!Communication|You must withdraw with GEO in writing. If you applied to one of Vanderbilt's partner organizations (e.g., CIEE, CET, IFSA-Butler), you must contact //both// the partner and GEO to communicate your decision.|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline, GEO may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|\u000a|!Obligations|If you signed an agreement with one of our partners (CIEE, CET, IFSA-Butler, etc.), you will have to pay their deposit //even if// you withdraw before the GEO Withdrawal Deadline. GEO will pay this for you and bill your student account.|<</if>>\u005c\u000a\u000a<<if $maymester>>Please read the full [[Maymester Withdrawal policy|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>Please read GEO's full [[Withdrawal Instructions and Policies|https://vanderbilt.edu/geo/advising/policies/#withdrawal]]<</if>>.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
+V<<sidebar "Withdrawing from your program">>\u000aWe hope you won't have to withdraw from your program. But if you must, please note the following:\u000a\u000a<<if $vanderbilt>>|box|k\u000a|!Withdrawal Deadline|<<if $maymester>>You need to withdraw by the Withdrawal Deadline specified on the [[Maymester/Summer Sessions page|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>In your GEO account ([[log in|https://geo.vanderbilt.edu/index.cfm?FuseAction=Security.ExistingUserLogin]]), you will find a Withdrawal Deadline. You need to withdraw by this date<</if>> to avoid penalties.|\u000a|!Communication|You must withdraw with GEO in writing.<<if $facultyled>> Be sure to also notify your course instructor/faculty leader.<</if>>|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline, <<if $maymester>>the VU college offering the course<<else>>the study abroad partner<</if>> may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|<<else>>|box|k\u000a|!Withdrawal Deadline|In your GEO account ([[log in|https://geo.vanderbilt.edu/index.cfm?FuseAction=Security.ExistingUserLogin]]), you will find a Withdrawal Deadline. You need to withdraw by this date to avoid penalties.|\u000a|!Communication|You must withdraw with GEO in writing. If you applied to one of Vanderbilt's partner organizations (e.g., CIEE, CET, IFSA-Butler), you must contact //both// the partner and GEO to communicate your decision.|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline or after committing to attend, our partner may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|\u000a|!Obligations|If you signed an agreement with one of our partners (CIEE, CET, IFSA-Butler, etc.), you will have to pay their deposit //even if// you withdraw before the GEO Withdrawal Deadline. GEO will bill this via your student account.|<</if>>\u005c\u000a\u000a<<if $maymester>>Please read the full [[Maymester Withdrawal policy|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>Please read GEO's full [[Withdrawal Instructions and Policies|https://vanderbilt.edu/geo/advising/policies/#withdrawal]]<</if>>.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
 p1338
 sg21
 VProgram withdrawal
@@ -4275,12 +4275,12 @@ sg23
 g24
 ((I2018
 I2
+I28
 I15
-I11
-I42
-I49
-I3
-I46
+I19
+I27
+I2
+I59
 I0
 tp1340
 (dp1341

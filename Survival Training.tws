@@ -1532,9 +1532,9 @@ g24
 ((I2018
 I10
 I5
-I14
-I57
-I9
+I15
+I41
+I31
 I4
 I278
 I1
@@ -4008,7 +4008,7 @@ Tiddler
 p1257
 (dp1258
 g19
-Vsetup.version = "2018.10.05a";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "2018.10.05b";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1259
 sg21
 VVersion & Reset
@@ -4019,8 +4019,8 @@ g24
 I10
 I5
 I15
-I14
-I56
+I43
+I28
 I4
 I278
 I1
@@ -4638,7 +4638,7 @@ Tiddler
 p1452
 (dp1453
 g19
-V!How to use international health insurance\u000a!!!!The basics of networks and claims\u000a\u000aMost international health insurers have their own network of partner clinics and hospitals around the world. When you use one of these <span title="A clinic is "in-network" if the insurer has identified it as a preferred partner and has set up a direct billing relationship with the clinic.">in-network</a> clinics, billing should be straightforward: If the care you receive requires a <span title="A co-pay is the amount, usually expressed as a percentage, that the patient pays. The remainder is paid by the insurance company.">co-pay</a>, you will pay that to the clinic, usually on the day of your appointment. The clinic will then bill the balance to the insurer directly. You can find information on what percentage your insurer pays for different types of medical expenses in the insurer\u2019s guide to benefits.\u000a\u000a''What happens if it isn\u2019t convenient to visit an in-network clinic?'' If you can\u2019t visit an in-network clinic for any of your insurers, GEO recommends that you contact Vanderbilt\u2019s international health insurer (GeoBlue). You can call or email GeoBlue a few days in advance of an appointment and request that they set up a direct payment relationship with the provider.\u000a\u000aIf GeoBlue isn\u2019t able to set up direct payment, or you aren\u2019t able to call them ahead of time, don\u2019t worry. You can go to any medical establishment abroad, pay out of pocket, and then submit a claim to GeoBlue (remember to keep all your receipts!). If you need help with this process, please contact VIRT.\u000a\u000a''How do you decide which plan to use?''\u000a\u000aYou might have multiple insurance policies available while you\u2019re abroad. All students on GEO programs will have Vanderbilt\u2019s international insurance. Your study abroad program may have its own insurance that will also cover you, and students who are on exchange programs may also be required to purchase specific national health insurance. \u000a\u000a\u000aCompare your coverage across the different policies: If one policy covers you for a specific condition and another does not, that is important information. It\u2019s also important to know whether the co-pays differ between insurance policies. If one covers you at 100%, but the other has a 20% co-pay, you will probably want to submit for reimbursement under the policy that grants full coverage.\u000aIf your program purchases specific health insurance on your behalf, your program staff probably has a good working knowledge of that insurer and its network of providers. Consult with them to get a good sense of where to go for treatment.\u000aYou can always use the coverage from Vanderbilt\u2019s international insurer (GeoBlue). If you do, VIRT is available to help you come to terms with the process.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Contact VIRT|mailto:virt@vanderbilt.edu]] to inquire about using Vanderbilt\u2019s international health insurance to access medical services|\u000a|[[Brief coverage and services description|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]] for Vanderbilt\u2019s international health insurer|\u000a|[[Detailed description of coverage|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15554]] for Vanderbilt\u2019s international health insurer|\u000a|[[General guide to medical care and insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]] from StudentsAbroad.com|\u000a\u000a<<segue "Culture shock">>\u005c\u000a\u000a
+V!How to use international health insurance\u000a!!!!The basics of networks and claims\u000a\u000aMost international health insurers have their own network of partner clinics and hospitals around the world. When you use one of these <span title="A clinic is "in-network" if the insurer has identified it as a preferred partner and has set up a direct billing relationship with the clinic.">in-network</span> clinics, billing should be straightforward: If the care you receive requires a <span title="A co-pay is the amount, usually expressed as a percentage, that the patient pays. The remainder is paid by the insurance company.">co-pay</span>, you will pay that to the clinic, usually on the day of your appointment. The clinic will then bill the balance to the insurer directly. You can find information on what percentage your insurer pays for different types of medical expenses in the insurer\u2019s guide to benefits.\u000a\u000a''What happens if it isn\u2019t convenient to visit an in-network clinic?''\u000aIf you can\u2019t visit an in-network clinic for any of your insurers, GEO recommends that you contact Vanderbilt\u2019s international health insurer (GeoBlue). You can call or email GeoBlue a few days in advance of an appointment and request that they set up a direct payment relationship with the provider.\u000a\u000aIf GeoBlue isn\u2019t able to set up direct payment, or you aren\u2019t able to call them ahead of time, don\u2019t worry. You can go to any medical establishment abroad, pay out of pocket, and then submit a claim to GeoBlue (remember to keep all your receipts!). If you need help with this process, please contact VIRT.\u000a\u000a''How do you decide which plan to use?''\u000aYou might have multiple insurance policies available while you\u2019re abroad. All students on GEO programs will have Vanderbilt\u2019s international insurance. Your study abroad program may have its own insurance that will also cover you, and students who are on exchange programs may also be required to purchase specific national health insurance. \u000a\u000a\u000aCompare your coverage across the different policies: If one policy covers you for a specific condition and another does not, that is important information. It\u2019s also important to know whether the co-pays differ between insurance policies. If one covers you at 100%, but the other has a 20% co-pay, you will probably want to submit for reimbursement under the policy that grants full coverage.\u000aIf your program purchases specific health insurance on your behalf, your program staff probably has a good working knowledge of that insurer and its network of providers. Consult with them to get a good sense of where to go for treatment.\u000aYou can always use the coverage from Vanderbilt\u2019s international insurer (GeoBlue). If you do, VIRT is available to help you come to terms with the process.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Contact VIRT|mailto:virt@vanderbilt.edu]] to inquire about using Vanderbilt\u2019s international health insurance to access medical services|\u000a|[[Brief coverage and services description|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]] for Vanderbilt\u2019s international health insurer|\u000a|[[Detailed description of coverage|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15554]] for Vanderbilt\u2019s international health insurer|\u000a|[[General guide to medical care and insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]] from StudentsAbroad.com|\u000a\u000a<<segue "Culture shock">>\u005c\u000a\u000a
 p1454
 sg21
 VHow to use international health insurance
@@ -4649,8 +4649,8 @@ g24
 I10
 I5
 I15
-I4
-I20
+I41
+I43
 I4
 I278
 I1

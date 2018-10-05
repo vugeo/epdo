@@ -410,7 +410,7 @@ Tiddler
 p138
 (dp139
 g19
-V!<<if not $facultyled>>Study abroad c<<else>>C<</if>>ourse review\u000a!!!!<<if $facultyled>>How will your course(s) count?<<else>>Making sure your courses count for Vanderbilt credit<</if>>\u000a<<if $facultyled>>Courses taught by Vanderbilt faculty abroad are regular Vanderbilt courses. If you aren't sure whether your course(s) can count toward specific academic requirements, you can check with your academic adviser or your college's Office of Academic Services (see below).\u000a\u000aIf your course doesn't automatically count toward a particular requirement, you might be able to petition. Again, your college's Office of Academic Services will be your best resource for information on the process to follow. \u000a\u000aMany abroad courses taught by VU faculty count toward College of Arts and Science <span title="AXLE is the acronym for Achieving Excellence in Liberal Education. It is the core curriculum that all students in the College of Arts and Science must fulfill.">AXLE requirements</span>. Please speak to your faculty leader or A&S's Office of Academic Services to confirm what AXLE credit (if any) you will earn.\u000a\u000a|box|k\u000a|! Vanderbilt Offices of Academic Services|\u000a|[[College of Arts and Science|http://as.vanderbilt.edu/oas/]]|\u000a|[[Blair School of Music|http://blair.vanderbilt.edu/academics/]]|\u000a|[[Peabody College|http://peabody.vanderbilt.edu/admin-offices/oas/]]|\u000a|[[School of Engineering|http://engineering.vanderbilt.edu/academic-services/]]|\u000a<<else>>Every course you take <<if $vanderbilt>>outside your Vanderbilt study abroad center<<else>>abroad<</if>> needs to be evaluated by Vanderbilt faculty in order to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about this process of course review and evaluation is that ''you are responsible'' for making sure it gets done! The Office of the University Registrar facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[YES database of evaluated courses|https://webapp.mis.vanderbilt.edu/more/SearchAbroadCourses.action]] for your program. Are all of your courses already on the list? Are you clear on //how many// credits you'll earn for each course? If so, great, you're done!|\u000a|<li>2</li>|If one or more of your courses is not on the list: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|http://registrar.vanderbilt.edu/study-abroad-course-review/#request]] for each course.|\u000a|<li>4</li>|The Registrar's Study Abroad Analysis team will do the rest! They contact faculty and find out how the course will count, and then email you the result.|\u000a\u000aNote that the ''number of credits you will receive'' listed in the YES database of evaluated courses ''may not match the number of credits your program provider suggests''. In that situation, the YES database lists the number of credits you will receive at Vanderbilt. You are responsible for checking on the number of credits that you will receive for all courses you take abroad. Please email <a class="link-external" target="_blank" href="mailto:StudyAbroadAnalysis@Vanderbilt.edu">StudyAbroadAnalysis@Vanderbilt.edu</a> for any questions you have about the database or about course reviews you have in process.\u000a\u000aNeed more information? Check out the University Registrar's [[Study Abroad Course Review|http://registrar.vanderbilt.edu/study-abroad-course-review/]] page, or talk with your [[GEO advisor|https://vanderbilt.edu/geo/advising/]]. You might also want to check out this [[chart of common questions|https://geo.vanderbilt.edu/index.cfm?FuseAction=PublicDocuments.View&File_ID=19473]].<</if>>\u000a\u000a<<segue "Preparing for safety">>\u005c
+V!<<if not $facultyled>>Study abroad c<<else>>C<</if>>ourse review\u000a!!!!<<if $facultyled>>How will your course(s) count?<<else>>Making sure your courses count for Vanderbilt credit<</if>>\u000a<<if $facultyled>>Courses taught by Vanderbilt faculty abroad are regular Vanderbilt courses. If you aren't sure whether your course(s) can count toward specific academic requirements, you can check with your academic adviser or your college's Office of Academic Services (see below).\u000a\u000aIf your course doesn't automatically count toward a particular requirement, you might be able to petition. Again, your college's Office of Academic Services will be your best resource for information on the process to follow. \u000a\u000aMany abroad courses taught by VU faculty count toward College of Arts and Science <span title="AXLE is the acronym for Achieving Excellence in Liberal Education. It is the core curriculum that all students in the College of Arts and Science must fulfill.">AXLE requirements</span>. Please speak to your faculty leader or A&S's Office of Academic Services to confirm what AXLE credit (if any) you will earn.\u000a\u000a|box|k\u000a|! Vanderbilt Offices of Academic Services|\u000a|[[College of Arts and Science|http://as.vanderbilt.edu/oas/]]|\u000a|[[Blair School of Music|http://blair.vanderbilt.edu/academics/]]|\u000a|[[Peabody College|http://peabody.vanderbilt.edu/admin-offices/oas/]]|\u000a|[[School of Engineering|http://engineering.vanderbilt.edu/academic-services/]]|\u000a<<else>>Every course you take <<if $vanderbilt>>outside your Vanderbilt study abroad center<<else>>abroad<</if>> needs to be evaluated by Vanderbilt faculty in order to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about this process of course review and evaluation is that ''you are responsible'' for making sure it gets done! The Office of the University Registrar facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[YES database of evaluated courses|https://acad.app.vanderbilt.edu/more/SearchAbroadCourses.action]] for your program. Are all of your courses already on the list? Are you clear on //how many// credits you'll earn for each course? If so, great, you're done!|\u000a|<li>2</li>|If one or more of your courses is not on the list: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|http://registrar.vanderbilt.edu/study-abroad-course-review/#request]] for each course.|\u000a|<li>4</li>|The Registrar's Study Abroad Analysis team will do the rest! They contact faculty and find out how the course will count, and then email you the result.|\u000a\u000aNote that the ''number of credits you will receive'' listed in the YES database of evaluated courses ''may not match the number of credits your program provider suggests''. In that situation, the YES database lists the number of credits you will receive at Vanderbilt. You are responsible for checking on the number of credits that you will receive for all courses you take abroad. Please email <a class="link-external" target="_blank" href="mailto:StudyAbroadAnalysis@Vanderbilt.edu">StudyAbroadAnalysis@Vanderbilt.edu</a> for any questions you have about the database or about course reviews you have in process.\u000a\u000aNeed more information? Check out the [[Study Abroad Course Review|https://vanderbilt.edu/geo/review/]] page, or talk with your [[GEO advisor|https://vanderbilt.edu/geo/advising/]]. You might also want to check out this [[chart of common questions|https://geo.vanderbilt.edu/index.cfm?FuseAction=PublicDocuments.View&File_ID=19473]].<</if>>\u000a\u000a<<segue "Preparing for safety">>\u005c
 p140
 sg21
 VStudy abroad course review
@@ -418,14 +418,14 @@ p141
 sg23
 g24
 ((I2018
-I2
-I15
-I12
-I2
+I10
+I5
 I14
-I3
-I46
-I0
+I1
+I19
+I4
+I278
+I1
 tp142
 (dp143
 tp144
@@ -1316,14 +1316,14 @@ p420
 sg23
 g24
 ((I2018
-I2
-I15
-I12
+I10
+I5
+I14
+I57
+I34
 I4
-I0
-I3
-I46
-I0
+I278
+I1
 tp421
 (dp422
 tp423
@@ -1362,7 +1362,7 @@ Tiddler
 p434
 (dp435
 g19
-V!Before you leave\u000a!!!!Know where you are medically before you depart\u000aRegardless of whether you have an existing medical condition, there are a few things you should do before you go abroad.\u000a\u000aFirst, consult with a travel medicine clinic (such as the one at the [[VU Student Health Center|https://medschool.vanderbilt.edu/student-health/travel-medicine]]) about any ''vaccinations'' that might be necessary or advisable. You should do this as soon as possible!\u000a\u000aMeet with your medical, dental, and other care providers for a ''full checkup''. You don't want to be blindsided by an unnoticed condition when you arrive in your new location.\u000a\u000aIf you have an existing medical or mental health condition, have an honest discussion with your care providers about your current history and ''how study abroad will fit into your care plan''.\u000a\u000aIf you will need to receive ongoing treatment while abroad, be aware that providers overseas may not have immediate availability. You should make every effort to ''set up appointments now, before you travel'' so that you can ensure that you have access to a provider when you arrive. Your abroad program's staff can help you, or you can <a href="mailto:geo@vanderbilt.edu">contact GEO</a>.\u000a\u000aWhile you know your history, your program staff does not. In an emergency, you may not be able to relay information that is critical to your care. //Please// ''disclose any physical or mental health conditions'' to your program staff prior to arrival. You can <<if $facultyled or $vanderbilt>>turn in a copy of the Medical Information Form from your GEO account to your faculty leader or resident director<<else>>use the program's medical history form<</if>>, or send an email detailing your history and current care plan.\u000a\u000aLearn the generic names and legal status of any ''prescription medications'' you take //before// you leave the US. Request a letter from your physician explaining your use of prescription and over-the-counter drugs to ensure that you will be allowed entry into your host country.\u000a\u000aWork with the travel clinic mental health team to ''identify resources for obtaining your prescriptions'' in your host country. Your provider may want you to obtain<<if not $shortterm>> monthly<</if>> prescriptions in the host country, and you may also need to have resources available in case you lose your medications.\u000a\u000a<<sidebar-box>>\u000a   [[Do I need any vaccinations?|Vaccinations]]\u000a   [[How do I find out more about my medications?|Where to find crucial information about your medications]]\u000a   [[Should I really disclose my medical information?|Disclosing medical information]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Medical insurance">>
+V!Before you leave\u000a!!!!Know where you are medically before you depart\u000aRegardless of whether you have an existing medical condition, there are a few things you should do before you go abroad.\u000a\u000aFirst, consult with a travel medicine clinic (such as the one at the [[VU Student Health Center|https://medschool.vanderbilt.edu/student-health/travel-medicine]]) about any ''vaccinations'' that might be necessary or advisable. You should do this as soon as possible!\u000a\u000aMeet with your medical, dental, and other care providers for a ''full checkup''. You don't want to be blindsided by an unnoticed condition when you arrive in your new location.\u000a\u000aIf you have an existing medical or mental health condition, have an honest discussion with your care providers about your current history and ''how study abroad will fit into your care plan''.\u000a\u000aIf you will need to receive ongoing treatment while abroad, be aware that providers overseas may not have immediate availability. You should make every effort to ''set up appointments now, before you travel'' so that you can ensure that you have access to a provider when you arrive. Your abroad program's staff can help you, or you can <a href="mailto:geo@vanderbilt.edu">contact GEO</a>.\u000a\u000aWhile you know your history, your program staff does not. In an emergency, you may not be able to relay information that is critical to your care. Please ''consider disclosing any physical or mental health conditions'' to your program staff prior to arrival. You can <<if $facultyled or $vanderbilt>>turn in a copy of the Medical Information Form from your GEO account to your faculty leader or resident director<<else>>use the program's medical history form<</if>>, or send an email detailing your history and current care plan.\u000a\u000aLearn the generic names and legal status of any ''prescription medications'' you take //before// you leave the US. Request a letter from your physician explaining your use of prescription and over-the-counter drugs to ensure that you will be allowed entry into your host country.\u000a\u000aWork with the travel clinic mental health team to ''identify resources for obtaining your prescriptions'' in your host country. Your provider may want you to obtain<<if not $shortterm>> monthly<</if>> prescriptions in the host country, and you may also need to have resources available in case you lose your medications.\u000a\u000a<<sidebar-box>>\u000a   [[Do I need any vaccinations?|Vaccinations]]\u000a   [[How do I find out more about my medications?|Where to find crucial information about your medications]]\u000a   [[Should I really disclose my medical information?|Disclosing medical information]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Medical insurance">>
 p436
 sg21
 VBefore you leave
@@ -1370,14 +1370,14 @@ p437
 sg23
 g24
 ((I2018
-I2
-I15
-I12
-I3
-I48
-I3
-I46
-I0
+I10
+I5
+I14
+I57
+I25
+I4
+I278
+I1
 tp438
 (dp439
 tp440
@@ -1408,8 +1408,8 @@ g12
 I00
 sg13
 (lp450
-F520.9561510353261
-aF1621.7141697117374
+F522.3764073352364
+aF1760.899287102955
 asg15
 (itiddlywiki
 Tiddler
@@ -1468,7 +1468,7 @@ Tiddler
 p467
 (dp468
 g19
-V<<sidebar "Vaccinations">>\u000aTo find out whether any vaccinations are required or recommended for your trip abroad, you may visit the [[Vanderbilt Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]]. You are also, of course, welcome to see a travel medicine provider of your choice.\u000a\u000aRegardless of who you consult, schedule your initial appointment ''at least 6 weeks before your departure''. Think about //all// of the countries you hope to visit and discuss them all with your travel clinician.   \u000a\u000aBe aware that most ''medical insurance usually does not cover immunizations'' or other medications needed for travel.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Centers for Disease Control travel website|http://wwwnc.cdc.gov/travel]], an excellent resource with country-specific information|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[VU Student Health Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]], information including list of documents to bring to your consultation|\u000a|[[List of information about vaccines|https://medschool.vanderbilt.edu/student-health/files/student-health/public_files/Travel%20Immunizations_4.pdf]] offered at VU Student Health, including approximate cost|\u000a\u000a<<segue "Medical insurance">>\u005c
+V<<sidebar "Vaccinations">>\u000aTo find out whether any vaccinations are required or recommended for your trip abroad, you may visit the [[Vanderbilt Student Health Center's Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]]. You are also, of course, welcome to see a travel medicine provider of your choice.\u000a\u000aRegardless of who you consult, schedule your initial appointment ''at least 6 weeks before your departure''. Think about //all// of the countries you hope to visit and discuss them all with your travel clinician.   \u000a\u000aBe aware that most ''medical insurance usually does not cover immunizations'' or other medications needed for travel.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Centers for Disease Control travel website|http://wwwnc.cdc.gov/travel]], an excellent resource with country-specific information|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a|[[VU Student Health Travel Medicine Clinic|https://medschool.vanderbilt.edu/student-health/travel-medicine]], information including list of documents to bring to your consultation|\u000a|[[List of information about vaccines|https://www.vumc.org/student-health/files/student-health/public_files/Travel%20Immunizations_2.pdf]] offered at VU Student Health, including approximate cost|\u000a\u000a<<segue "Medical insurance">>\u005c
 p469
 sg21
 VVaccinations
@@ -1476,14 +1476,14 @@ p470
 sg23
 g24
 ((I2018
-I2
+I10
+I5
 I15
-I12
+I17
+I18
 I4
-I8
-I3
-I46
-I0
+I278
+I1
 tp471
 (dp472
 tp473
@@ -1522,7 +1522,7 @@ Tiddler
 p484
 (dp485
 g19
-V!Medical Insurance\u000a!!!!You are covered by international insurance\u000aVanderbilt will automatically enroll you in [[Vanderbilt's international travel insurance|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]. You will receive an email from our provider, GeoBlue, with a letter and an insurance card that you can print and carry with you. You may also be enrolled in an international health insurance by your program provider. Be sure to read your insurance benefits for all plans and know how to access health care providers in your host country. ''Know what your insurance covers'' and how to file and pay claims.\u000a\u000a''This insurance only covers you outside the United States.'' GEO strongly encourages all students to maintain health insurance in their home country. If unforeseen circumstances force you to return home, you want subsidized care to be available.\u000a\u000aInternational health insurance usually ''only covers you for the official dates of your program.'' If you are planning to travel before or after your program begins, GEO recommends that you purchase additional short-term coverage. You are free to select any provider, but Vanderbilt's international insurance provider, [[GeoBlue|https://vanderbilt.edu/geo/travel-registration/#insurance]], is readily available at reasonable prices. \u000a\u000aIf you are currently under medical care, your international health insurance can help in locating an appropriate care provider in your host country. Plan ahead!  If you know you want to continue care overseas, contact your international insurance //before// you leave the US.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Medical Care and Insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]], a brief guide|\u000a|[[Brief plan info for GeoBlue international health insurance|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]: This is a basic description of your GeoBlue plan. You may contact GeoBlue for more information on particulars.|\u000a\u000a<<segue "Culture shock">>\u005c
+V!Medical Insurance\u000a!!!!You are covered by international insurance\u000aVanderbilt will automatically enroll you in [[Vanderbilt's international travel insurance|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]. This plan is more comprehensive than most plans and includes coverage for mandatory evacuation, pre existing conditions, and mental health and substance abuse treatment. Unlike many international insurance plans, it also covers injuries that involve substance use.\u000aBefore you travel, you will receive an email from our provider, GeoBlue, with a letter and an insurance card that you can print and carry with you.\u000a\u000aYou may also be enrolled in an international health insurance by your program provider. Be sure to read your insurance benefits for all plans and know how to access health care providers in your host country. ''Know what your insurance covers'' and how to file and pay claims.\u000a\u000a''This insurance only covers you outside the United States.'' GEO strongly encourages all students to maintain health insurance in their home country. If unforeseen circumstances force you to return home, you want subsidized care to be available.\u000a\u000aInternational health insurance usually ''only covers you for the official dates of your program.'' If you are planning to travel before or after your program begins, GEO recommends that you purchase additional short-term coverage. You are free to select any provider, but Vanderbilt's international insurance provider, [[GeoBlue|https://vanderbilt.edu/geo/travel-registration/#insurance]], is readily available at reasonable prices. \u000a\u000aIf you are currently under medical care, your international health insurance can help in locating an appropriate care provider in your host country. Plan ahead!  If you know you want to continue care overseas, contact your international insurance //before// you leave the US.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Medical Care and Insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]], a brief guide|\u000a|[[Brief plan info for GeoBlue international health insurance|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]: This is a basic description of your GeoBlue plan. You may contact GeoBlue for more information on particulars.|\u000a\u000a<<segue "How to use international health insurance">>\u005c
 p486
 sg21
 VMedical insurance
@@ -1530,14 +1530,14 @@ p487
 sg23
 g24
 ((I2018
-I2
-I27
 I10
-I12
-I34
+I5
+I14
+I57
+I9
+I4
+I278
 I1
-I58
-I0
 tp488
 (dp489
 tp490
@@ -1566,8 +1566,8 @@ g12
 I00
 sg13
 (lp499
-F520.6228177019931
-aF1757.1344260116452
+F522.0430740019034
+aF1896.3195434028628
 asg15
 (itiddlywiki
 Tiddler
@@ -1786,7 +1786,7 @@ Tiddler
 p566
 (dp567
 g19
-V!Reverse culture shock\u000a!!!!Be prepared for coming home to be a bumpy ride\u000aIt may seem like a distant reality now, but part of the study abroad experience is returning home. Many students tell GEO that this is harder than expected, and often harder than going abroad to begin with!\u000a\u000aLook, [[reverse culture shock|https://www.state.gov/m/fsi/tc/c56075.htm]] is a fact. Returning home after a significant period of time abroad is in some ways just like going abroad. You have changed, your perceptions have changed, and you are now used to living in and interacting with a different culture. You may even find that readjusting to life in the US is more difficult than the initial adaption to your host country. Instead of ignoring this reverse culture shock, learn about effective ways to combat it. Rest assured, there are many resources that may be helpful as you make the adjustment to being back at home. WE have listed some of them below.\u000a\u000aSome students benefit from supportive counseling when struggling with reverse culture shock. You can contact [[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-us]] for counseling services at no charge.\u000a\u000a|box|k\u000a|!Resources for Reverse Culture Shock|\u000a|[[Top 10 Challenges Faced on Returning from Study Abroad|https://abroad.du.edu/_customtags/ct_FileRetrieve.cfm?File_ID=594]]|\u000a|[[Common Challenges and Coping Strategies|https://abroad.du.edu/_customtags/ct_FileRetrieve.cfm?File_ID=596]]|\u000a|[[Tips for Family and Friends on Welcoming a Student Home|https://abroad.du.edu/_customtags/ct_FileRetrieve.cfm?File_ID=599]]|\u000a|[[Small Planet Studio, an online community for study abroad alums|http://www.smallplanetstudio.com/]]|\u000a|[[Melibee Global|http://www.melibeeglobal.com/]]|\u000a|[[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-us]]|\u000a\u000a<<segue "Opportunities for returned students">>\u005c
+V!Reverse culture shock\u000a!!!!Be prepared for coming home to be a bumpy ride\u000aIt may seem like a distant reality now, but part of the study abroad experience is returning home. Many students tell GEO that this is harder than expected, and often harder than going abroad to begin with!\u000a\u000aLook, [[reverse culture shock|https://www.state.gov/m/fsi/tc/c56075.htm]] is a fact. Returning home after a significant period of time abroad is in some ways just like going abroad. You have changed, your perceptions have changed, and you are now used to living in and interacting with a different culture. You may even find that readjusting to life in the US is more difficult than the initial adaption to your host country. Instead of ignoring this reverse culture shock, learn about effective ways to combat it. Rest assured, there are many resources that may be helpful as you make the adjustment to being back at home. WE have listed some of them below.\u000a\u000aSome students benefit from supportive counseling when struggling with reverse culture shock. You can contact [[Vanderbilt's University Counseling Center|https://www.vanderbilt.edu/ucc/]] for counseling services at no charge.\u000a\u000a|box|k\u000a|!Resources for Reverse Culture Shock|\u000a|[[Top 10 Challenges Faced on Returning from Study Abroad|https://abroad.du.edu/_customtags/ct_FileRetrieve.cfm?File_ID=594]]|\u000a|[[Common Challenges and Coping Strategies|https://abroad.du.edu/_customtags/ct_FileRetrieve.cfm?File_ID=596]]|\u000a|[[Tips for Family and Friends on Welcoming a Student Home|https://abroad.du.edu/_customtags/ct_FileRetrieve.cfm?File_ID=599]]|\u000a|[[Small Planet Studio, an online community for study abroad alums|http://www.smallplanetstudio.com/]]|\u000a|[[Melibee Global|http://www.melibeeglobal.com/]]|\u000a|[[Vanderbilt's Psychological & Counseling Center|https://medschool.vanderbilt.edu/pcc/about-us]]|\u000a\u000a<<segue "Opportunities for returned students">>\u005c
 p568
 sg21
 VReverse culture shock
@@ -1794,14 +1794,14 @@ p569
 sg23
 g24
 ((I2018
-I2
-I15
+I10
+I5
 I14
-I8
-I12
-I3
-I46
-I0
+I20
+I1
+I4
+I278
+I1
 tp570
 (dp571
 tp572
@@ -2112,14 +2112,14 @@ p668
 sg23
 g24
 ((I2018
-I2
-I15
-I11
-I24
+I10
+I5
 I14
-I3
-I46
-I0
+I54
+I57
+I4
+I278
+I1
 tp669
 (dp670
 tp671
@@ -2952,7 +2952,7 @@ Tiddler
 p929
 (dp930
 g19
-V<<sidebar "Being American abroad">>\u000aIf you grew up in the US and identify as American, your American-ness will probably be the most important factor in how natives of your host country relate to you. (This is true no matter what your background.) While other components of your identity may be important factors, the fact that you are American will be a critical component of your identity abroad.\u000a\u000aBe prepared to encounter curiosity and interest. America's unique economic, political, and cultural position in the world means that people all around the world feel like they have a stake in what the US does. You may be asked all sorts of questions, from what it's like to live in America to what you think of politics and other issues in the US. (The FBI has recently warned that American students abroad may also be the target of espionage recruitment.)\u000a\u000aMost interest you receive will probably be friendly, even if frankly or passionately expressed. But do prepare yourself to encounter actual hostility as well, and to consider how you might handle it.\u000a\u000aIn many places, people may assume that because you are American, you are also rich. Or they may have other assumptions, based on media portrayals, local history with US policies or intervention, or other sources. Do some research before you go so that you can have some idea of what being an American might mean in your host country.\u000a\u000a|box|k\u000a|!Quick tip|\u000a|In some parts of the world, you should be careful about referring to yourself as "American." The entire Western Hemisphere is properly called America, and in Central and South America people may find the term "American" arrogant when used for just one country. Plan on referring to yourself as North American (//norteamericano/norteamericana//) instead.|\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Diversity Issues in Study Abroad|http://www.smith.edu/studyabroad/docs/diversity_st_abroad01.pdf]]: A booklet that collects statements of Brown University students about their experiences of identity abroad. A bit dated now, but many comments remain reflective of realities today.|\u000a|''A Student Guide to Study Abroad'', a guide to many aspects of the process of study abroad, is a physical volume that you are welcome to reference by visiting GEO's reading library in our Student Life Center office.|\u000a\u000a<<segue "Contacts and communications">>\u005c
+V<<sidebar "Being American abroad">>\u000aIf you grew up in the US and identify as American, your American-ness will probably be the most important factor in how natives of your host country relate to you. (This is true no matter what your background.) While other components of your identity may be important factors, the fact that you are American will be a critical component of your identity abroad.\u000a\u000aBe prepared to encounter curiosity and interest. America's unique economic, political, and cultural position in the world means that people all around the world feel like they have a stake in what the US does. You may be asked all sorts of questions, from what it's like to live in America to what you think of politics and other issues in the US. (The FBI has recently warned that American students abroad may also be the target of espionage recruitment.)\u000a\u000aMost interest you receive will probably be friendly, even if frankly or passionately expressed. But do prepare yourself to encounter actual hostility as well, and to consider how you might handle it.\u000a\u000aIn many places, people may assume that because you are American, you are also rich. Or they may have other assumptions, based on media portrayals, local history with US policies or intervention, or other sources. Do some research before you go so that you can have some idea of what being an American might mean in your host country.\u000a\u000a|box|k\u000a|!Quick tip|\u000a|In some parts of the world, you should be careful about referring to yourself as "American." The entire Western Hemisphere is properly called America, and in Central and South America people may find the term "American" arrogant when used for just one country. Plan on referring to yourself as North American (//norteamericano/norteamericana//) instead.|\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Diversity Issues in Study Abroad|https://www.smith.edu/sites/default/files/media/Documents/Study-Abroad/brown_university_studyabroaddiversity.pdf]]: A booklet that collects statements of Brown University students about their experiences of identity abroad. A bit dated now, but many comments remain reflective of realities today.|\u000a|''A Student Guide to Study Abroad'', a guide to many aspects of the process of study abroad, is a physical volume that you are welcome to reference by visiting GEO's reading library in our Student Life Center office.|\u000a\u000a<<segue "Contacts and communications">>\u005c
 p931
 sg21
 VBeing American abroad
@@ -2960,14 +2960,14 @@ p932
 sg23
 g24
 ((I2018
-I2
-I13
-I16
-I36
-I15
+I10
+I5
+I14
+I18
+I56
+I4
+I278
 I1
-I44
-I0
 tp933
 (dp934
 tp935
@@ -3106,8 +3106,8 @@ g12
 I00
 sg13
 (lp979
-F661.709740668569
-aF1624.380836378404
+F663.1299969684793
+aF1763.5659537696215
 asg15
 (itiddlywiki
 Tiddler
@@ -3430,7 +3430,7 @@ Tiddler
 p1078
 (dp1079
 g19
-V<<sidebar "Vanderbilt's safety efforts">>\u000aThe safety and security of students studying abroad are primary concerns of Vanderbilt University. Vanderbilt takes care to minimize the risks students face abroad and to provide support through several measures, including:\u000a*Selecting responsible partners and organizations to provide educational opportunities abroad;\u000a*Providing program-specific training to help students identify and mitigate potential risks;\u000a*Providing access to on-site support staff and organizations trained to handle emergencies of all types;\u000a*Training on-campus personnel to respond to crises and provide support where possible;\u000a*Training students in preventive as well as remedial strategies to avoid trouble abroad;\u000a*Monitoring the safety and security of our programs abroad on a 24/7 basis;\u000a*Providing 24/7 support to students in crisis abroad\u000a*Ensuring access to the highest standard medical and security services abroad.\u000a\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V<<sidebar "Vanderbilt's safety efforts">>\u000aThe safety and security of students studying abroad are primary concerns of Vanderbilt University. Vanderbilt takes care to minimize the risks students face abroad and to provide support through several measures, including:\u000a*Selecting responsible partners and organizations to provide educational opportunities abroad;\u000a*Providing program-specific training to help students identify and mitigate potential risks;\u000a*Providing access to on-site support staff and organizations trained to handle emergencies of all types;\u000a*Training on-campus personnel to respond to crises and provide support where possible;\u000a*Training students in preventive as well as remedial strategies to avoid trouble abroad;\u000a*Monitoring the safety and security of our programs abroad on a 24/7 basis;\u000a*Providing 24/7 support to students in crisis abroad via [[Vanderbilt Incident Response for Travel|https://vanderbilt.edu/virt/]] (VIRT)\u000a*Ensuring access to the highest standard medical and security services abroad.\u000a\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1080
 sg21
 VVanderbilt\u2019s safety efforts
@@ -3438,14 +3438,14 @@ p1081
 sg23
 g24
 ((I2018
-I2
-I15
-I12
-I2
-I42
-I3
-I46
-I0
+I10
+I5
+I14
+I26
+I35
+I4
+I278
+I1
 tp1082
 (dp1083
 tp1084
@@ -3590,7 +3590,7 @@ Tiddler
 p1128
 (dp1129
 g19
-V<<sidebar "Road safety overseas">>\u000aMovies and media reporting have conditioned us to think that the greatest threats to safety abroad are dramatic, "foreign," and of the "third world." The reality is that the ''number one cause of injury and death for American students abroad is traffic accidents''. And the vast majority of these occur in wealthy, industrialized countries.\u000a\u000aGEO suggests that you train yourself to pay maximum attention at all times. Avoid earbuds as well as drinking--both can impair perception! Know the basic patterns of traffic, and remember to pay attention to the right side of the road in countries where traffic flow is reversed!\u000a\u000aAvoid traveling late at night, and always choose the safest form of transportation available. If you have a choice between riding in a taxicab or on the roof of a crowded bus--choose the cab! If walking is your safest option, do that whenever possible.\u000a\u000aJust as in the US, you should always wear a seatbelt. Avoid riding with anyone who appears intoxicated, over-tired, or emotionally distraught. Always sit in the back seat of a taxi.\u000a\u000aDeveloping countries present other risks, including shady taxi drivers, unsafe vehicles, overcrowded transport, and more. Your program staff will provide you with information about your options and help you assess risk. Don't be afraid to ask questions! \u000a\u000a''Vanderbilt strongly advises against renting a vehicle while abroad.'' Cars, SUVs, motorcycles, and mopeds are equally poor choices. The risks of driving when the rules of the road are unfamiliar are just too great.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Road Safety Overseas|http://travel.state.gov/content/passports/english/go/safety/road.html]], US Department of State|\u000a|[[Country-specific information from US Department of State|http://travel.state.gov/content/passports/english/country.html]], includes information on road safety for every country in the world|\u000a\u000a<<segue "Personal emergencies">>\u005c
+V<<sidebar "Road safety overseas">>\u000aMovies and media reporting have conditioned us to think that the greatest threats to safety abroad are dramatic, "foreign," and of the "third world." The reality is that the ''number one cause of injury and death for American students abroad is traffic accidents''. And the vast majority of these occur in wealthy, industrialized countries.\u000a\u000aGEO suggests that you train yourself to pay maximum attention at all times. Whether walking or driving, avoid earbuds as well as drinking--both can impair perception! Know the basic patterns of traffic, and remember to pay attention to the right side of the road in countries where traffic flow is reversed!\u000a\u000aAvoid traveling late at night, and always choose the safest form of transportation available. If you have a choice between riding in a taxicab or on the roof of a crowded bus--choose the cab! If walking is your safest option, do that whenever possible.\u000a\u000aJust as in the US, you should always wear a seatbelt. Avoid riding with anyone who appears intoxicated, over-tired, or emotionally distraught. Always sit in the back seat of a taxi.\u000a\u000aDeveloping countries present other risks, including shady taxi drivers, unsafe vehicles, overcrowded transport, and more. Your program staff will provide you with information about your options and help you assess risk. Don't be afraid to ask questions! \u000a\u000a''Vanderbilt strongly advises against renting a vehicle while abroad.'' Cars, SUVs, motorcycles, and mopeds are equally poor choices. The risks of driving when the rules of the road are unfamiliar are just too great.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Road Safety Overseas|http://travel.state.gov/content/passports/english/go/safety/road.html]], US Department of State|\u000a|[[Country-specific information from US Department of State|http://travel.state.gov/content/passports/english/country.html]], includes information on road safety for every country in the world|\u000a\u000a<<segue "Personal emergencies">>\u005c
 p1130
 sg21
 VRoad safety overseas
@@ -3598,14 +3598,14 @@ p1131
 sg23
 g24
 ((I2018
-I2
-I15
-I12
-I2
-I58
-I3
-I46
-I0
+I10
+I5
+I14
+I28
+I43
+I4
+I278
+I1
 tp1132
 (dp1133
 tp1134
@@ -4008,7 +4008,7 @@ Tiddler
 p1257
 (dp1258
 g19
-Vsetup.version = "2018.03.01a";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "2018.10.05a";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1259
 sg21
 VVersion & Reset
@@ -4016,14 +4016,14 @@ p1260
 sg23
 g24
 ((I2018
-I2
-I28
+I10
+I5
 I15
-I54
-I47
-I2
-I59
-I0
+I14
+I56
+I4
+I278
+I1
 tp1261
 (dp1262
 tp1263
@@ -4625,10 +4625,62 @@ tp1446
 (dp1447
 tp1448
 Rp1449
+sbsa(dp1450
+g12
+I00
+sg13
+(lp1451
+F521.0338143741944
+aF1624.368081099288
+asg15
+(itiddlywiki
+Tiddler
+p1452
+(dp1453
+g19
+V!How to use international health insurance\u000a!!!!The basics of networks and claims\u000a\u000aMost international health insurers have their own network of partner clinics and hospitals around the world. When you use one of these <span title="A clinic is "in-network" if the insurer has identified it as a preferred partner and has set up a direct billing relationship with the clinic.">in-network</a> clinics, billing should be straightforward: If the care you receive requires a <span title="A co-pay is the amount, usually expressed as a percentage, that the patient pays. The remainder is paid by the insurance company.">co-pay</a>, you will pay that to the clinic, usually on the day of your appointment. The clinic will then bill the balance to the insurer directly. You can find information on what percentage your insurer pays for different types of medical expenses in the insurer\u2019s guide to benefits.\u000a\u000a''What happens if it isn\u2019t convenient to visit an in-network clinic?'' If you can\u2019t visit an in-network clinic for any of your insurers, GEO recommends that you contact Vanderbilt\u2019s international health insurer (GeoBlue). You can call or email GeoBlue a few days in advance of an appointment and request that they set up a direct payment relationship with the provider.\u000a\u000aIf GeoBlue isn\u2019t able to set up direct payment, or you aren\u2019t able to call them ahead of time, don\u2019t worry. You can go to any medical establishment abroad, pay out of pocket, and then submit a claim to GeoBlue (remember to keep all your receipts!). If you need help with this process, please contact VIRT.\u000a\u000a''How do you decide which plan to use?''\u000a\u000aYou might have multiple insurance policies available while you\u2019re abroad. All students on GEO programs will have Vanderbilt\u2019s international insurance. Your study abroad program may have its own insurance that will also cover you, and students who are on exchange programs may also be required to purchase specific national health insurance. \u000a\u000a\u000aCompare your coverage across the different policies: If one policy covers you for a specific condition and another does not, that is important information. It\u2019s also important to know whether the co-pays differ between insurance policies. If one covers you at 100%, but the other has a 20% co-pay, you will probably want to submit for reimbursement under the policy that grants full coverage.\u000aIf your program purchases specific health insurance on your behalf, your program staff probably has a good working knowledge of that insurer and its network of providers. Consult with them to get a good sense of where to go for treatment.\u000aYou can always use the coverage from Vanderbilt\u2019s international insurer (GeoBlue). If you do, VIRT is available to help you come to terms with the process.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Contact VIRT|mailto:virt@vanderbilt.edu]] to inquire about using Vanderbilt\u2019s international health insurance to access medical services|\u000a|[[Brief coverage and services description|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]] for Vanderbilt\u2019s international health insurer|\u000a|[[Detailed description of coverage|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15554]] for Vanderbilt\u2019s international health insurer|\u000a|[[General guide to medical care and insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]] from StudentsAbroad.com|\u000a\u000a<<segue "Culture shock">>\u005c\u000a\u000a
+p1454
+sg21
+VHow to use international health insurance
+p1455
+sg23
+g24
+((I2018
+I10
+I5
+I15
+I4
+I20
+I4
+I278
+I1
+tp1456
+(dp1457
+tp1458
+Rp1459
+sg29
+(lp1460
+Vhealth
+p1461
+asg32
+g24
+((I2018
+I10
+I5
+I14
+I51
+I12
+I4
+I278
+I1
+tp1462
+(dp1463
+tp1464
+Rp1465
 sbsasS'scale'
-p1450
+p1466
 F0.704098267378281
 sS'snapping'
-p1451
+p1467
 I00
 ss.

@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\ohnstaat\\Dropbox\\Public\\GitHub\\epdo\\Survival Training.tws'
+VC:\u005cUsers\u005cohnstaat\u005cDropbox\u005cPublic\u005cGitHub\u005cepdo\u005cSurvival Training.tws
 p4
 sS'target'
 p5
@@ -674,7 +674,7 @@ Tiddler
 p220
 (dp221
 g19
-V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aGEO recommends that you consider supplemental insurance to cover your entire time abroad. ''Trip cancellation/trip interruption and theft insurance'' are particularly worthwhile options. GEO cannot recommend specific plans or providers, but you can check with your travel agent, home/auto insurance agent, or online.\u000a\u000aMany programs may provide opportunities for independent travel. First, always ''keep your <<if $facultyled>>faculty leader<<else>>resident director or program staff<</if>> informed'' of your travel. Don't forget to keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you.\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a <span title="A stamp or sticker placed in your passport that allows you to enter a foreign country.">travel visa</span>, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<<if not $facultyled>><div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div><</if>>\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a   [[Can I arrive early or leave late from my study abroad site?|Early arrivals]]\u000a   [[What about traveling with a musical instrument?|Traveling with a musical instrument]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport Check">>\u005c
+V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aGEO recommends that you consider supplemental insurance to cover your entire time abroad. ''Trip cancellation/trip interruption and theft insurance'' are particularly worthwhile options. GEO cannot recommend specific plans or providers, but you can check with your travel agent, home/auto insurance agent, or online.\u000a\u000aMany programs may provide opportunities for independent travel. First, always ''keep your <<if $facultyled>>faculty leader<<else>>resident director or program staff<</if>> informed'' of your travel. Don't forget to keep your family in the loop; if there is an emergency back home, they will want to know how get in touch with you.\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a <span title="A stamp or sticker placed in your passport that allows you to enter a foreign country.">travel visa</span>, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aAs you make travel plans, consider the ''ecological impact'' of your travel. Per person, [[airplane travel|https://www.theguardian.com/environment/ng-interactive/2019/jul/19/carbon-calculator-how-taking-one-flight-emits-as-much-as-many-people-do-in-a-year]] generally emits far more carbon dioxide into the atmosphere than travel by train, bus, or automobile. Think about whether you really need to leave your host city so often, and about whether you can use alternative transport that would reduce your carbon footprint.\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<<if not $facultyled>><div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div><</if>>\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a   [[Can I arrive early or leave late from my study abroad site?|Early arrivals]]\u000a   [[What about traveling with a musical instrument?|Traveling with a musical instrument]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport Check">>\u005c
 p222
 sg21
 VTraveling while abroad
@@ -682,13 +682,13 @@ p223
 sg23
 g24
 ((I2019
-I4
-I5
-I14
-I0
-I59
-I4
-I95
+I10
+I22
+I8
+I58
+I43
+I1
+I295
 I1
 tp224
 (dp225
@@ -1256,7 +1256,7 @@ Tiddler
 p401
 (dp402
 g19
-V!Where will you live?\u000a!!!!<<if $facultyled and ($maymester or $summer)>>Will you need housing on-campus at Vanderbilt?<<else>>What choices do you have in your housing abroad?<</if>>\u000aSome programs offer you the opportunity to select from multiple housing options. <<if not $facultyled>>Which should you choose?\u000a\u000aThe answer, of course, depends on what you are hoping to get out of your time overseas. (If you're not sure what your housing options are, talk to the GEO advisor for your program.)\u000a\u000aBut since you may be facing a choice soon, we want to share with you what alumni of Vanderbilt study abroad tell us in their program evaluations: Students who live with natives of their host country typically report greater satisfaction with their housing and integration into the local culture than students who live with Americans. This is true whether students lived with a homestay family or with native roommates of their own age.\u000a<<display "Housing chart">>\u005c\u000a<<else>>Students on most faculty-led summer courses will live in hotels, hostels, or in the residence halls of partner universities. You will receive more information about housing abroad from your faculty leader.<<if $summer or $maymester>>\u000a\u000aIf a component of your program is based at Vanderbilt, ''you are responsible for finding your own housing in Nashville''. Vanderbilt's [[Office of Housing and Residential Education|http://www.vanderbilt.edu/ResEd/main/]] does make housing available to students whose programs are partially taught abroad, but an advance application is required.\u000a\u000aApplications for Maymester/Summer housing are generally made available in mid-April, and move-in is usually on or around the day that residence halls close to non-graduating students. You will be charged a standard daily rate. [[Contact|http://www.vanderbilt.edu/ResEd/main/contact-us/contact-us/]] the Office of Housing and Residential Education for more information.\u000a<</if>><</if>>\u000a<<if $shortterm>>\u000aBy the way, are you ''thinking about doing a semester abroad in the future?'' Here's something that you might want to consider: Students who live with natives of their host country typically report greater satisfaction with their housing and integration into the local culture than students who live with Americans. This is true whether students lived with a homestay family or with native roommates of their own age.\u000a<<display "Housing chart">><</if>>\u005c\u000a   \u000a<<segue "Eating and diet">>\u005c
+V!Where will you live?\u000a!!!!<<if $facultyled and ($maymester or $summer)>>Will you need housing on-campus at Vanderbilt?<<else>>What choices do you have in your housing abroad?<</if>>\u000aSome programs offer you the opportunity to select from multiple housing options, including in some cases the option to live in independent housing. <<if not $facultyled>>Which should you choose?\u000a\u000aThe answer, of course, depends on what you are hoping to get out of your time overseas. (If you're not sure what your housing options are, talk to the GEO advisor for your program.)\u000a\u000aBut since you may be facing a choice soon, we want to share with you ''what alumni of Vanderbilt study abroad tell us'' in their program evaluations: Students who live with natives of their host country typically report greater satisfaction with their housing and integration into the local culture than students who live with Americans. This is true whether students lived with a homestay family or with native roommates of their own age.\u000a<<display "Housing chart">>\u000aIf your program allows you to live in ''independent housing'', consider carefully. While the freedom of independent housing may be attractive, there are downsides as well. These include the difficulty of navigating unfamiliar regulations and requirements (perhaps in a foreign language), the possibility of predatory landlords, and the difficulty of researching and assessing safety from abroad. One upside is that it can be a real learning experience to navigate the process of finding and renting your own place. If you are finding your own housing, remember that you need to turn in your Study Abroad Housing Policy Waiver Form to GEO before your program begins\u2014and that you aren\u2019t cleared to study abroad until we receive it!\u005c\u000a<<else>>Students on most faculty-led summer courses will live in hotels, hostels, or in the residence halls of partner universities. You will receive more information about housing abroad from your faculty leader.<<if $summer or $maymester>>\u000a\u000aIf a component of your program is based at Vanderbilt, ''you are responsible for finding your own housing in Nashville''. Vanderbilt's [[Office of Housing and Residential Education|http://www.vanderbilt.edu/ResEd/main/]] does make housing available to students whose programs are partially taught abroad, but an advance application is required.\u000a\u000aApplications for Maymester/Summer housing are generally made available in mid-April, and move-in is usually on or around the day that residence halls close to non-graduating students. You will be charged a standard daily rate. [[Contact|http://www.vanderbilt.edu/ResEd/main/contact-us/contact-us/]] the Office of Housing and Residential Education for more information.\u000a<</if>><</if>>\u000a<<if $shortterm>>\u000aBy the way, are you ''thinking about doing a semester abroad in the future?'' Here's something that you might want to consider: Students who live with natives of their host country typically report greater satisfaction with their housing and integration into the local culture than students who live with Americans. This is true whether students lived with a homestay family or with native roommates of their own age.\u000a<<display "Housing chart">><</if>>\u005c\u000a   \u000a<<segue "Eating and diet">>\u005c
 p403
 sg21
 VWhere will you live?
@@ -1264,13 +1264,13 @@ p404
 sg23
 g24
 ((I2019
-I4
-I8
-I11
-I18
-I44
-I0
-I98
+I10
+I22
+I10
+I12
+I45
+I1
+I295
 I1
 tp405
 (dp406
@@ -1308,7 +1308,7 @@ Tiddler
 p417
 (dp418
 g19
-V<<sidebar "Where to find crucial information about your medications">>\u000aThere are two pieces of information that it will be useful or even critical for you to know about your medications: the legal status of the drug in your host country, and the generic/chemical name and/or the local brand names it goes by.\u000a\u000aTo ''find out if any of your medications are restricted or banned'' in your host country, contact the country's embassy here in the US. The US Department of State provides a [[directory of foreign embassies|https://travel.state.gov/content/travel/en/consularnotification/ConsularNotificationandAccess.html]]. Even some over-the-counter drugs may be more restricted abroad, so ask if you have doubts. In some cases, GEO may be able to advise you on whether your prescriptions are legal to carry abroad. Contact your GEO advisor or GEO's [[Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]].\u000a\u000aTo ''find the generic or chemical name'' of a drug, you can check the National Institutes of Health's [[MedlinePlus website|http://www.nlm.nih.gov/medlineplus/druginformation.html]]. It may be somewhat trickier to find out the brand name the drug might be sold under in your host country, but [[this tool|https://members.geobluestudents.com/TranslationTools/DrugEquivalents]] from Vanderbilt's international health insurance provider will provide answers in most cases.\u000a\u000aWhatever the legal status of your medications, ''request a letter from your physician'' explaining why the drugs you are transporting have been prescribed to you. Also include over-the-counter drugs if needed. You will want to take this letter with you //whenever you travel!// Request that your doctor use the local brand names or generic/chemical names for your drugs.\u000a\u000aWhen possible, ''take enough medicine with you to cover your entire stay abroad'', unless your doctor prefers that you identify a physician in your host country to renew your prescription. You may discuss with your physician and program staff how you will obtain enough medication for your stay. Please be aware that medications //cannot be sent through the mail!//\u000a\u000a|box|k\u000a|!Resources|\u000a|[[GEO's Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]], for personal guidance on health and wellness as well as personalized safety guidance for all travelers|\u000a|[[MedlinePlus|http://www.nlm.nih.gov/medlineplus/druginformation.html]], information on prescription and over-the-counter drugs, including generic/chemical names|\u000a|[[GeoBlue Drug Translation Guide|https://members.geobluestudents.com/TranslationTools/DrugEquivalents]], offers equivalent brand names and availability for frequently visited countries/destinations|\u000a|[[Directory of Foreign Embassies|https://travel.state.gov/content/travel/en/consularnotification/ConsularNotificationandAccess.html]], US Department of State|\u000a|[[Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]] from the US Department of State|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a\u000a<<segue "Medical insurance">>\u005c
+V<<sidebar "Where to find crucial information about your medications">>\u000aThere are two pieces of information that it will be useful or even critical for you to know about your medications: the legal status of the drug in your host country, and the generic/chemical name and/or the local brand names it goes by.\u000a\u000aTo ''find out if any of your medications are restricted or banned'' in your host country, contact the country's embassy here in the US. The US Department of State provides a [[directory of foreign embassies|https://travel.state.gov/content/travel/en/consularnotification/ConsularNotificationandAccess.html]]. Even some over-the-counter drugs may be more restricted abroad, so ask if you have doubts. In some cases, GEO may be able to advise you on whether your prescriptions are legal to carry abroad. Contact your GEO advisor or GEO's [[Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]].\u000a\u000aTo ''find the generic or chemical name'' of a drug, you can check the National Institutes of Health's [[MedlinePlus website|http://www.nlm.nih.gov/medlineplus/druginformation.html]]. It may be somewhat trickier to find out the brand name the drug might be sold under in your host country, but [[this tool|https://members.geobluestudents.com/TranslationTools/DrugEquivalents]] from Vanderbilt's international health insurance provider will provide answers in most cases (requires that you already been enrolled in GeoBlue for access).\u000a\u000aWhatever the legal status of your medications, ''request a letter from your physician'' explaining why the drugs you are transporting have been prescribed to you. Also include over-the-counter drugs if needed. You will want to take this letter with you //whenever you travel!// Request that your doctor use the local brand names or generic/chemical names for your drugs.\u000a\u000aWhen possible, ''take enough medicine with you to cover your entire stay abroad'', unless your doctor prefers that you identify a physician in your host country to renew your prescription. You may discuss with your physician and program staff how you will obtain enough medication for your stay. Please be aware that medications //cannot be sent through the mail!//\u000a\u000a|box|k\u000a|!Resources|\u000a|[[GEO's Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]], for personal guidance on health and wellness as well as personalized safety guidance for all travelers|\u000a|[[MedlinePlus|http://www.nlm.nih.gov/medlineplus/druginformation.html]], information on prescription and over-the-counter drugs, including generic/chemical names|\u000a|[[GeoBlue Drug Translation Guide|https://members.geobluestudents.com/TranslationTools/DrugEquivalents]], offers equivalent brand names and availability for frequently visited countries/destinations; you will need to already be registered into your GeoBlue insurance and have a GeoBlue account to access|\u000a|[[Directory of Foreign Embassies|https://travel.state.gov/content/travel/en/consularnotification/ConsularNotificationandAccess.html]], US Department of State|\u000a|[[Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]] from the US Department of State|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a\u000a<<segue "Medical insurance">>\u005c
 p419
 sg21
 VWhere to find crucial information about your medications
@@ -1316,13 +1316,13 @@ p420
 sg23
 g24
 ((I2019
-I4
-I8
-I9
 I10
-I59
-I0
-I98
+I22
+I10
+I44
+I9
+I1
+I295
 I1
 tp421
 (dp422
@@ -1370,13 +1370,13 @@ p437
 sg23
 g24
 ((I2019
-I4
-I2
-I16
-I28
-I23
+I10
+I22
+I10
+I20
+I38
 I1
-I92
+I295
 I1
 tp438
 (dp439
@@ -1423,15 +1423,15 @@ VCulture shock
 p454
 sg23
 g24
-((I2018
-I2
-I15
-I12
-I7
-I0
-I3
-I46
-I0
+((I2019
+I10
+I22
+I10
+I21
+I40
+I1
+I295
+I1
 tp455
 (dp456
 tp457
@@ -1476,13 +1476,13 @@ p470
 sg23
 g24
 ((I2019
-I4
-I2
-I16
-I29
-I40
+I10
+I22
+I10
+I21
 I1
-I92
+I1
+I295
 I1
 tp471
 (dp472
@@ -1522,7 +1522,7 @@ Tiddler
 p484
 (dp485
 g19
-V!Medical Insurance\u000a!!!!You are covered by international insurance\u000aVanderbilt will automatically enroll you in [[Vanderbilt's international travel insurance|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]. This plan is more comprehensive than most plans and includes coverage for mandatory evacuation, preexisting conditions, and mental health and substance abuse treatment. Unlike many international insurance plans, it also covers injuries that involve substance use.\u000aBefore you travel, you will receive an email from our provider, GeoBlue, with a letter and an insurance card that you can print and carry with you.\u000a\u000aYou may also be enrolled in an international health insurance by your program provider. Be sure to read your insurance benefits for all plans and know how to access health care providers in your host country. ''Know what your insurance covers'' and how to file and pay claims.\u000a\u000a''This insurance only covers you outside the United States.'' GEO strongly encourages all students to maintain health insurance in their home country. If unforeseen circumstances force you to return home, you will want to be insured.\u000a\u000aInternational health insurance usually ''only covers you for the official dates of your program.'' If you are planning to travel before or after your program begins, GEO recommends that you purchase additional short-term coverage. You are free to select any provider, but Vanderbilt's international insurance provider, [[GeoBlue|https://vanderbilt.edu/geo/travel-registration/#insurance]], is readily available at reasonable prices. \u000a\u000aIf you are currently under medical care, your international health insurance can help in locating an appropriate care provider in your host country. Plan ahead!  If you know you want to continue care overseas, contact your international insurance //before// you leave the US.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[GEO's Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]], for personal guidance on international insurance, health and wellness, and safety for all travelers|\u000a|[[Medical Care and Insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]], a brief guide|\u000a|[[Brief plan info for GeoBlue international health insurance|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]: This is a basic description of your GeoBlue plan. You may contact GeoBlue for more information on particulars.|\u000a\u000a<<segue "How to use international health insurance">>\u005c
+V!Medical Insurance\u000a!!!!You are covered by international insurance\u000aVanderbilt will automatically enroll you in [[Vanderbilt's international travel insurance|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]. This plan is more comprehensive than most plans and includes coverage for mandatory evacuation, preexisting conditions, and mental health and substance abuse treatment. Unlike many international insurance plans, it also covers injuries that involve substance use.\u000aBefore you travel, you will receive an email from our provider, GeoBlue, with a letter and an insurance card that you can print and carry with you.\u000a\u000aYou may also be enrolled in an international health insurance by your program provider. Be sure to read your insurance benefits for all plans and know how to access health care providers in your host country. ''Know what your insurance covers'' and how to file and pay claims.\u000a\u000a''This insurance only covers you outside the United States.'' GEO strongly encourages all students to maintain health insurance in their home country. If unforeseen circumstances force you to return home, you will want to be insured.\u000a\u000aInternational health insurance usually ''only covers you for the official dates of your program.'' If you are planning to travel before or after your program begins, GEO recommends that you purchase additional short-term coverage. You are free to select any provider, but Vanderbilt's international insurance provider, [[GeoBlue|https://www.vanderbilt.edu/global/health-safety/#insurance]], is readily available at reasonable prices. \u000a\u000aIf you are currently under medical care, your international health insurance can help in locating an appropriate care provider in your host country. Plan ahead!  If you know you want to continue care overseas, contact your international insurance //before// you leave the US.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[GEO's Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]], for personal guidance on international insurance, health and wellness, and safety for all travelers|\u000a|[[Medical Care and Insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]], a brief guide|\u000a|[[Brief plan info for GeoBlue international health insurance|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]]: This is a basic description of your GeoBlue plan. You may contact GeoBlue for more information on particulars.|\u000a\u000a<<segue "How to use international health insurance">>\u005c
 p486
 sg21
 VMedical insurance
@@ -1530,13 +1530,13 @@ p487
 sg23
 g24
 ((I2019
-I4
-I5
-I14
-I57
-I11
-I4
-I95
+I10
+I22
+I10
+I30
+I47
+I1
+I295
 I1
 tp488
 (dp489
@@ -1582,13 +1582,13 @@ p503
 sg23
 g24
 ((I2019
-I4
-I5
-I13
-I55
-I38
-I4
-I95
+I10
+I22
+I10
+I22
+I15
+I1
+I295
 I1
 tp504
 (dp505
@@ -1680,22 +1680,22 @@ Tiddler
 p533
 (dp534
 g19
-V!Opportunities for returned students\u000a!!!!There's sooooo much you can do when you get home!\u000aYour study abroad experience doesn't have to end when you return to the US! In fact, our goal is to ensure that you can extend and process your experience when you return home.\u000a\u000aGEO offers programming specifically for returning students. We sponsor a ''student organization,'' [[GEO Study Abroad Alumni (GEOSAA)|https://anchorlink.vanderbilt.edu/organization/geosaa]], which hosts social dinners and workshops. There are plenty of opportunities to present original research conducted abroad once you return to campus, such as the [[World on Wednesday programming|http://www.vanderbilt.edu/isss/activities-events/world-on-wednesdays-wow/]] offered by [[Vanderbilt's International Student and Scholar Services|http://www.vanderbilt.edu/isss/]] (ISSS). Additionally, we partner with the [[Career Center|http://www.vanderbilt.edu/career/]] to help you leverage your study abroad experience as you make post-graduation plans. \u000a\u000aWhen you return, you can also ''volunteer with'' or ''work for GEO''; it's a great way to share your experience with other students. You can also get involved in our own local community: you may be surprised how international Nashville really is!\u000a\u000aStudying abroad can make you a great candidate for ''prestigious honors scholarships'' when you return home. Some of these, such as the Fulbright Fellowship or Critical Language Summer Institutes, may even send you abroad again. These opportunities may require advance planning, though, so we encourage you to study the offerings and discuss your interests with the [[Career Center|https://www.vanderbilt.edu/career/post-graduate-study-fellowships/]] //before you leave//.\u000a\u000a<<sidebar-box>>\u000a   [[What possibilities exist for me to go abroad again after I return?|Going abroad again]]\u000a<</sidebar-box>>\u000a\u000a<<segue "GEO\u2019s annual Photo Contest">>\u005c
+V!Opportunities for returned students\u000a!!!!There's sooooo much you can do when you get home!\u000aYour study abroad experience doesn't have to end when you return to the US! In fact, our goal is to ensure that you can extend and process your experience when you return home.\u000a\u000aGEO offers programming specifically for returning students. We can provide opportunities to present original research conducted abroad once you return to campus--just reach out to us. We also partner with the [[Career Center|http://www.vanderbilt.edu/career/]] to help you leverage your study abroad experience as you make post-graduation plans. \u000a\u000aWhen you return, you can also ''volunteer with'' or ''work for GEO''; it's a great way to share your experience with other students. You can also get involved in our own local community: you may be surprised how international Nashville really is!\u000a\u000aStudying abroad can make you a great candidate for ''prestigious honors scholarships'' when you return home. Some of these, such as the Fulbright Fellowship or Critical Language Summer Institutes, may even send you abroad again. These opportunities may require advance planning, though, so we encourage you to study the offerings and discuss your interests with the [[Career Center|https://www.vanderbilt.edu/career/post-graduate-study-fellowships/]] //before you leave//.\u000a\u000a<<sidebar-box>>\u000a   [[What possibilities exist for me to go abroad again after I return?|Going abroad again]]\u000a<</sidebar-box>>\u000a\u000a<<segue "GEO\u2019s annual Photo Contest">>\u005c
 p535
 sg21
 VOpportunities for returned students
 p536
 sg23
 g24
-((I2018
-I2
-I15
-I14
-I34
-I23
-I3
-I46
-I0
+((I2019
+I10
+I22
+I10
+I47
+I53
+I1
+I295
+I1
 tp537
 (dp538
 tp539
@@ -1840,22 +1840,22 @@ Tiddler
 p583
 (dp584
 g19
-V!GEO's annual Photo Contest\u000a!!!!Keep the contest in mind as you decide what to photograph!\u000aEvery year, GEO conducts a photo contest. We solicit photos from students who went abroad in the 12 months previous and choose the best images to feature.\u000a\u000aWe will contact you via email, usually in the spring, to request your entries in the contest. \u000aThere are prizes, and we invite the entire Vanderbilt campus and alumni community to take part in the judging process. If you're a winner, your photo will be seen by thousands or tens of thousands of people! We put the winning photos on live exhibit on campus, and they tend to show up in campus publications as well, including //Vanderbilt Magazine.//\u000a\u000aPhotos can be of any subject (scenery, activities, cultures, etc.) but please be tasteful and respectful as you snap your pics.\u000a\u000aIf you just want to share photos of your experiences without entering the contest, [[we have an outlet for that too|http://www.jotformpro.com/form/21576745147965]].\u000a\u000aGEO is particularly keen on photos that show Vanderbilt students participating in academic and cultural endeavors. Scenery is beautiful, but action shots with Vandy representatives (such as yourself) tell interesting stories!\u000a\u000a<<sidebar-box>>\u000a   [[Quick guidelines for ethical photography|Ethical photography]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Your next steps">>\u005c
+V!GEO's annual Photo Contest\u000a!!!!Keep the contest in mind as you decide what to photograph!\u000aEvery year, GEO conducts a photo contest. We solicit photos on a rolling basis from students who are studying abroad during the current academic year. Photos will be judged in the summer, and winners will receive an Amazon gift card! We put the winning photos on live exhibit on campus, and they tend to show up in campus publications as well, including //Vanderbilt Magazine.//\u000a\u000aCheck out last year\u2019s winning photos and submit your photos at [[our website|https://www.vanderbilt.edu/geo/photo-contest/]].\u000a\u000aPhotos can be of any subject (scenery, activities, cultures, etc.) but please be tasteful and respectful as you snap your pics.\u000a\u000aGEO is particularly keen on photos that show Vanderbilt students participating in academic and cultural endeavors. Scenery is beautiful, but action shots with Vandy representatives (such as yourself) tell interesting stories!\u000a\u000a<<sidebar-box>>\u000a   [[Quick guidelines for ethical photography|Ethical photography]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Your next steps">>\u005c
 p585
 sg21
 VGEO\u2019s annual Photo Contest
 p586
 sg23
 g24
-((I2018
-I2
-I15
-I14
+((I2019
+I10
+I22
+I10
+I55
 I9
-I54
-I3
-I46
-I0
+I1
+I295
+I1
 tp587
 (dp588
 tp589
@@ -2736,7 +2736,7 @@ Tiddler
 p861
 (dp862
 g19
-V<<sidebar "Race and ethnicity abroad">>\u000aDepending on who you are and where you are going, you may feel a part of a racial or ethnic majority for the first time in your life. Or you may have the opposite experience, becoming an ethnic minority in one fell swoop. Either way, you will likely find that your ethnic or racial identity has different implications in your new host country than it has at home. \u000a\u000aThese new vantage points on self and identity can be exciting, but they can also be difficult. People may consistently misidentify you based on physical appearance, for example. Or you may be surprised at how freely people comment on appearance. If your appearance is very exotic for your host culture, you may find that you are stared at, or that people want to touch your hair or skin.\u000a\u000aOr, it's possible that your physical appearance and racial or ethnic identity is almost totally ignored, and all that really seems to matter is your nationality or gender.\u000a\u000aIf you are traveling to a location that is part of your own heritage, be aware that people there may not see your heritage as the most important thing about you. If you are from the US, you may find that people there identify you as an American first. You should be prepared to be considered an outsider.   \u000a\u000aFor all of these reasons, it will be wise to prepare yourself in advance for the attitudes on race and ethnicity held by people of your host country. Do some research, and also see whether talking with alums of the program might help. GEO can help you find alums to talk to, just ask!\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Diversity Issues in Study Abroad|https://www.smith.edu/sites/default/files/media/Documents/Study-Abroad/brown_university_studyabroaddiversity.pdf]]: A booklet that collects statements of Brown University students about their experiences of identity abroad. A bit dated now, but many comments remain reflective of realities today.|\u000a|[[AllAbroad.us|http://allabroad.us/diversity-resources.php]], which has a wide variety of specific information for African American, Asian/Pacific Island, Latino/Hispanic American, and Native American students|\u000a|[[Diversity Abroad|https://www.diversityabroad.com/guides/diversity-and-inclusion-abroad-guide/diversity-guide-to-study-abroad]], a collection of resources for underrepresented students traveling abroad|\u000a|[[Heritage seekers|http://www.diversityabroad.com/guides/diversity-inclusion/heritage-seekers]], thoughts and resources for students interested in exploring their own heritage through study abroad|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
+V<<sidebar "Race and ethnicity abroad">>\u000aDepending on who you are and where you are going, you may feel a part of a racial or ethnic majority for the first time in your life. Or you may have the opposite experience, becoming an ethnic minority in one fell swoop. Either way, you will likely find that your ethnic or racial identity has different implications in your new host country than it has at home. \u000a\u000aThese new vantage points on self and identity can be exciting, but they can also be difficult. People may consistently misidentify you based on physical appearance, for example. Or you may be surprised at how freely people comment on appearance. If your appearance is very exotic for your host culture, you may find that you are stared at, or that people want to touch your hair or skin.\u000a\u000aOr, it's possible that your physical appearance and racial or ethnic identity is almost totally ignored, and all that really seems to matter is your nationality or gender.\u000a\u000aIf you are traveling to a location that is part of your own heritage, be aware that people there may not see your heritage as the most important thing about you. If you are from the US, you may find that people there identify you as an American first. You should be prepared to be considered an outsider.   \u000a\u000aFor all of these reasons, it will be wise to prepare yourself in advance for the attitudes on race and ethnicity held by people of your host country. Do some research, and also see whether talking with alums of the program might help. GEO can help you find alums to talk to, just ask!\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Diversity Issues in Study Abroad|https://www.smith.edu/sites/default/files/media/Documents/Study-Abroad/brown_university_studyabroaddiversity.pdf]]: A booklet that collects statements of Brown University students about their experiences of identity abroad. A bit dated now, but many comments remain reflective of realities today.|\u000a|[[AllAbroad.us|http://allabroad.us/diversity-resources.php]], which has a wide variety of specific information for African American, Asian/Pacific Island, Latino/Hispanic American, and Native American students|\u000a|[[Diversity Abroad|https://www.diversityabroad.com/guides/diversity-and-inclusion-abroad-guide/diversity-guide-to-study-abroad]], a collection of resources for underrepresented students traveling abroad|\u000a|[[Heritage seekers|https://www.diversityabroad.com/article/tips-heritage-seekers-traveling-abroad]], thoughts and resources for students interested in exploring their own heritage through study abroad|\u000a\u000a<<segue "Contacts and communications">>\u005c\u000a
 p863
 sg21
 VRace and ethnicity abroad
@@ -2744,13 +2744,13 @@ p864
 sg23
 g24
 ((I2019
-I4
-I8
-I9
-I36
-I34
-I0
-I98
+I10
+I22
+I10
+I32
+I27
+I1
+I295
 I1
 tp865
 (dp866
@@ -3068,13 +3068,13 @@ p966
 sg23
 g24
 ((I2019
-I4
-I5
-I13
-I53
-I23
-I4
-I95
+I10
+I22
+I10
+I21
+I15
+I1
+I295
 I1
 tp967
 (dp968
@@ -3122,13 +3122,13 @@ p983
 sg23
 g24
 ((I2019
-I4
-I5
-I13
-I43
+I10
 I22
-I4
-I95
+I10
+I21
+I58
+I1
+I295
 I1
 tp984
 (dp985
@@ -3997,7 +3997,7 @@ tp1253
 Rp1254
 sbsa(dp1255
 g12
-I00
+I01
 sg13
 (lp1256
 F1826.017126485322
@@ -4008,7 +4008,7 @@ Tiddler
 p1257
 (dp1258
 g19
-Vsetup.version = "2019.04.08c";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "2019.10.22a";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1259
 sg21
 VVersion & Reset
@@ -4016,13 +4016,13 @@ p1260
 sg23
 g24
 ((I2019
-I4
-I8
-I11
-I51
-I14
-I0
-I98
+I10
+I22
+I10
+I58
+I27
+I1
+I295
 I1
 tp1261
 (dp1262
@@ -4646,13 +4646,13 @@ p1455
 sg23
 g24
 ((I2019
-I4
-I5
-I13
-I42
-I54
-I4
-I95
+I10
+I22
+I10
+I21
+I34
+I1
+I295
 I1
 tp1456
 (dp1457

@@ -73,7 +73,7 @@
                             this.output.appendChild(sidebar);
                             this.output.appendChild(document.createElement("br"));
                         }
-                    }               
+                    }
                 }
             }
             var passage = state.active.variables.args[0];
@@ -90,14 +90,14 @@
                         state.display(passage, el);
                     });
                 this.output.appendChild(el);
-            } 
+            }
         <</script>>\
         <<if $index[state.active.title].enumeration gt 1 || ($index[state.active.title].enumeration lt 2 && tags().contains("sidebar")) >>\
             <<if tags().contains("sidebar") >>\
-                <h6 class='page-back-link main'><<click "Back">><<prevPassage 0>><</click>></h6>\            
+                <h6 class='page-back-link main'><<click "Back">><<prevPassage 0>><</click>></h6>\
             <<else>>\
                 <<if isHandheld() neq true>><br /><</if>>\
-                &nbsp; &nbsp;<h6 class='page-back-link main'><<click "Previous">><<prevPassage>><</click>></h6>\                
+                &nbsp; &nbsp;<h6 class='page-back-link main'><<click "Previous">><<prevPassage>><</click>></h6>\
             <</if>>\
         <</if>>\
 <</widget>>\
@@ -136,8 +136,8 @@
                         state.display(key);
                         break;
                     }
-                } 
-            } 
+                }
+            }
             catch (e) {
                 return this.error(e.message);
             }
@@ -151,7 +151,7 @@
     <<$- [text] [optional: ending punctuation]>>%/\
 <<widget "$-">>\
     <span class='inline-head'><<print $args[0]>><<if $args.length > 1>><<print $args[1]>><<else>>.<<endif>></span>\
-<</widget>>\ 
+<</widget>>\
 
 
 :: Goto Passage [script]
@@ -166,8 +166,8 @@
         },
         handler: function () {
             try {
-                state.display(this.args[0]); 
-            } 
+                state.display(this.args[0]);
+            }
             catch (e) {
                 return this.error("Go to passage: " + e.message);
             }
@@ -231,9 +231,10 @@ macros.add("sidebar-box", {
 
 :: Image with Caption [widget]
 /% Syntax:
-       <<figure [image url] 
+       <<figure [image url]
                 [caption text]
-                [optional: "left" or "right", to float figure container; other classes could be given here as well]>>  %/\
+                [optional: "left" or "right", to float figure container; other classes could be given here as well]
+                [optional: alt text describing the image for screen readers]>>  %/\
 <<widget "figure">>\
     <<script>>
         (function () {
@@ -243,11 +244,12 @@ macros.add("sidebar-box", {
             text = state.active.variables.args[1];
             var positioning = "";
             positioning = state.active.variables.args[2].length ? state.active.variables.args[2] : "";
-            var container = insertElement( 
-                output, 
-                "figure", 
-                "", 
-                positioning 
+            alttext = state.active.variables.args[3].length ? state.active.variables.args[3] : "";
+            var container = insertElement(
+                output,
+                "figure",
+                "",
+                positioning
             );
             var image = insertElement(
                 container,
@@ -261,6 +263,7 @@ macros.add("sidebar-box", {
                 text
             );
             image.src = url;
+            image.alt= alttext;
         }());
     <</script>>\
 <</widget>>\
@@ -309,8 +312,8 @@ macros.add("sidebar-box", {
                 se.src = this.args[0];
                 $("head").append(se);
                 if(se.innerText) {eval(se.innerText);}
-                else {eval(se.textContent);} 
-            } 
+                else {eval(se.textContent);}
+            }
             catch (e) {
                 return this.error("LoadJS: " + e.message);
             }

@@ -568,21 +568,21 @@ Tiddler
 p187
 (dp188
 g19
-V!Passport and Document Security\u000a!!!!Keep your passport and other key documents safe\u000aWhen you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also become difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe.\u000a<img src="images/passport wallet.jpg" class="right" style="height: 250px;" />\u005c\u000a\u000aIn general, you should keep your passport on your person only when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.\u000a\u000aIf you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.\u000a\u000a|box|k\u000a|!(Potentially) Good Places to Keep Your Passport|\u000a|Hidden in the room of your homestay or residence hall|\u000a|In your hotel's safe (//not// the room safe)|\u000a|With your study abroad provider, if they offer such a service|\u000a|<hr>//In some situations, even these options may not be secure. Use your common sense and evaluate the situation. If in doubt, talk to your <<if $facultyled>>faculty leader<<else>>resident director<</if>> for advice.//|\u000a\u000a<<segue "Traveling with medications">>
+V!Passport and Document Security\u000a!!!!Keep your passport and other key documents safe\u000aWhen you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also become difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe.\u000a<img alt="Passport wallet" src="images/passport wallet.jpg" class="right" style="height: 250px;" />\u005c\u000a\u000aIn general, you should keep your passport on your person only when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.\u000a\u000aIf you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.\u000a\u000a|box|k\u000a|!(Potentially) Good Places to Keep Your Passport|\u000a|Hidden in the room of your homestay or residence hall|\u000a|In your hotel's safe (//not// the room safe)|\u000a|With your study abroad provider, if they offer such a service|\u000a|<hr>//In some situations, even these options may not be secure. Use your common sense and evaluate the situation. If in doubt, talk to your <<if $facultyled>>faculty leader<<else>>resident director<</if>> for advice.//|\u000a\u000a<<segue "Traveling with medications">>
 p189
 sg21
 VPassport and document security
 p190
 sg23
 g24
-((I2015
-I9
+((I2019
+I10
 I22
-I13
-I29
-I40
+I15
+I42
+I28
 I1
-I265
+I295
 I1
 tp191
 (dp192
@@ -1308,7 +1308,7 @@ Tiddler
 p417
 (dp418
 g19
-V<<sidebar "Where to find crucial information about your medications">>\u000aThere are two pieces of information that it will be useful or even critical for you to know about your medications: the legal status of the drug in your host country, and the generic/chemical name and/or the local brand names it goes by.\u000a\u000aTo ''find out if any of your medications are restricted or banned'' in your host country, contact the country's embassy here in the US. The US Department of State provides a [[directory of foreign embassies|https://travel.state.gov/content/travel/en/consularnotification/ConsularNotificationandAccess.html]]. Even some over-the-counter drugs may be more restricted abroad, so ask if you have doubts. In some cases, GEO may be able to advise you on whether your prescriptions are legal to carry abroad. Contact your GEO advisor or GEO's [[Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]].\u000a\u000aTo ''find the generic or chemical name'' of a drug, you can check the National Institutes of Health's [[MedlinePlus website|http://www.nlm.nih.gov/medlineplus/druginformation.html]]. It may be somewhat trickier to find out the brand name the drug might be sold under in your host country, but [[this tool|https://members.geobluestudents.com/TranslationTools/DrugEquivalents]] from Vanderbilt's international health insurance provider will provide answers in most cases (requires that you already been enrolled in GeoBlue for access).\u000a\u000aWhatever the legal status of your medications, ''request a letter from your physician'' explaining why the drugs you are transporting have been prescribed to you. Also include over-the-counter drugs if needed. You will want to take this letter with you //whenever you travel!// Request that your doctor use the local brand names or generic/chemical names for your drugs.\u000a\u000aWhen possible, ''take enough medicine with you to cover your entire stay abroad'', unless your doctor prefers that you identify a physician in your host country to renew your prescription. You may discuss with your physician and program staff how you will obtain enough medication for your stay. Please be aware that medications //cannot be sent through the mail!//\u000a\u000a|box|k\u000a|!Resources|\u000a|[[GEO's Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]], for personal guidance on health and wellness as well as personalized safety guidance for all travelers|\u000a|[[MedlinePlus|http://www.nlm.nih.gov/medlineplus/druginformation.html]], information on prescription and over-the-counter drugs, including generic/chemical names|\u000a|[[GeoBlue Drug Translation Guide|https://members.geobluestudents.com/TranslationTools/DrugEquivalents]], offers equivalent brand names and availability for frequently visited countries/destinations; you will need to already be registered into your GeoBlue insurance and have a GeoBlue account to access|\u000a|[[Directory of Foreign Embassies|https://travel.state.gov/content/travel/en/consularnotification/ConsularNotificationandAccess.html]], US Department of State|\u000a|[[Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]] from the US Department of State|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a\u000a<<segue "Medical insurance">>\u005c
+V<<sidebar "Where to find crucial information about your medications">>\u000aThere are two pieces of information that it will be useful or even critical for you to know about your medications: the legal status of the drug in your host country, and the generic/chemical name and/or the local brand names it goes by.\u000a\u000aTo ''find out if any of your medications are restricted or banned'' in your host country, contact the country's embassy here in the US. The US Department of State provides a [[directory of foreign embassies|https://travel.state.gov/content/travel/en/consularnotification/ConsularNotificationandAccess.html]]. Even some over-the-counter drugs may be more restricted abroad, so ask if you have doubts. In some cases, GEO may be able to advise you on whether your prescriptions are legal to carry abroad. Contact your GEO advisor or GEO's [[Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]].\u000a\u000aTo ''find the generic or chemical name'' of a drug, you can check the National Institutes of Health's [[MedlinePlus website|http://www.nlm.nih.gov/medlineplus/druginformation.html]]. It may be somewhat trickier to find out the brand name the drug might be sold under in your host country, but [[this tool|https://members.geobluestudents.com/TranslationTools/DrugEquivalents]] from Vanderbilt's international health insurance provider will provide answers in most cases (requires you to have already enrolled in GeoBlue, in order to have an account for online access).\u000a\u000aWhatever the legal status of your medications, ''request a letter from your physician'' explaining why the drugs you are transporting have been prescribed to you. Also include over-the-counter drugs if needed. You will want to take this letter with you //whenever you travel!// Request that your doctor use the local brand names or generic/chemical names for your drugs.\u000a\u000aWhen possible, ''take enough medicine with you to cover your entire stay abroad'', unless your doctor prefers that you identify a physician in your host country to renew your prescription. You may discuss with your physician and program staff how you will obtain enough medication for your stay. Please be aware that medications //cannot be sent through the mail!//\u000a\u000a|box|k\u000a|!Resources|\u000a|[[GEO's Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]], for personal guidance on health and wellness as well as personalized safety guidance for all travelers|\u000a|[[MedlinePlus|http://www.nlm.nih.gov/medlineplus/druginformation.html]], information on prescription and over-the-counter drugs, including generic/chemical names|\u000a|[[GeoBlue Drug Translation Guide|https://members.geobluestudents.com/TranslationTools/DrugEquivalents]], offers equivalent brand names and availability for frequently visited countries/destinations; you will need to already be registered into your GeoBlue insurance and have a GeoBlue account to access|\u000a|[[Directory of Foreign Embassies|https://travel.state.gov/content/travel/en/consularnotification/ConsularNotificationandAccess.html]], US Department of State|\u000a|[[Traveler's Checklist|http://travel.state.gov/content/passports/english/go/checklist.html]] from the US Department of State|\u000a|[[The Yellow Book|http://wwwnc.cdc.gov/travel/yellowbook/2014/table-of-contents]], the CDC's extensive guide for foreign travel, with answers to questions you didn't even know to ask!|\u000a\u000a<<segue "Medical insurance">>\u005c
 p419
 sg21
 VWhere to find crucial information about your medications
@@ -1318,9 +1318,9 @@ g24
 ((I2019
 I10
 I22
-I10
-I44
-I9
+I14
+I34
+I50
 I1
 I295
 I1
@@ -2104,21 +2104,21 @@ Tiddler
 p665
 (dp666
 g19
-V<div class="inset-shadow"><img src="images/Survival_Training.png"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a<<if config.historyMode eq HistoryMode.Hash or $browserSupport eq "no">><div class="message-box problem"><span>Your browser (<<print $UAinfo.browser.name>> v<<print $UAinfo.browser.major>> running on <<print $UAinfo.os.name>>) is not supported. We recommend that you either use another browser (see below) or download the [[PDF|$pdfURL]].</span></div>\u005c\u000a<<elseif $browserSupport eq "unknown">><div class="message-box warning"><span>Your browser (<<print $UAinfo.browser.name>> v<<print $UAinfo.browser.major>> running on <<print $UAinfo.os.name>>) may not work well for this training module. We recommend that you try another browser instead (see below). You may also download the [[PDF|$pdfURL]].</span></div><</if>>\u005c\u000a\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information--information that you will need to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the ''Quick Tour'' now for a very brief introduction to the Training interface. It will quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides ''In-Depth Information'' on a topic or topics. We recommend that you read these links in all cases where a topic could conceivably apply to you! Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aThroughout the training, ''blue hyperlinks'' will direct you to external sites with useful information or further resources. For example, this link will take you to the [[Global Education Office's home page|http://vanderbilt.edu/geo]].\u000a\u000aWhen you're ready to move on, hit the ''big blue Continue button'' at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major <span title="The application you use to access and view websites is called a web browser.">web browsers</span> on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u000a\u000a//Edition: <<print $edition>>//\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
+V<div class="inset-shadow"><img src="images/Survival_Training.png" alt="GEO Survival Training"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img alt="Vanderbilt logo" id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img alt="Global Education Office logo" id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a<<if config.historyMode eq HistoryMode.Hash or $browserSupport eq "no">><div class="message-box problem"><span>Your browser (<<print $UAinfo.browser.name>> v<<print $UAinfo.browser.major>> running on <<print $UAinfo.os.name>>) is not supported. We recommend that you either use another browser (see below) or download the [[PDF|$pdfURL]].</span></div>\u005c\u000a<<elseif $browserSupport eq "unknown">><div class="message-box warning"><span>Your browser (<<print $UAinfo.browser.name>> v<<print $UAinfo.browser.major>> running on <<print $UAinfo.os.name>>) may not work well for this training module. We recommend that you try another browser instead (see below). You may also download the [[PDF|$pdfURL]].</span></div><</if>>\u005c\u000a\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information--information that you will need to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the ''Quick Tour'' now for a very brief introduction to the Training interface. It will quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides ''In-Depth Information'' on a topic or topics. We recommend that you read these links in all cases where a topic could conceivably apply to you! Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aThroughout the training, ''blue hyperlinks'' will direct you to external sites with useful information or further resources. For example, this link will take you to the [[Global Education Office's home page|http://vanderbilt.edu/geo]].\u000a\u000aWhen you're ready to move on, hit the ''big blue Continue button'' at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major <span title="The application you use to access and view websites is called a web browser.">web browsers</span> on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u000a\u000a//Edition: <<print $edition>>//\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
 p667
 sg21
 VAbout Survival Training
 p668
 sg23
 g24
-((I2018
+((I2019
 I10
-I5
-I14
-I54
-I57
-I4
-I278
+I22
+I15
+I41
+I8
+I1
+I295
 I1
 tp669
 (dp670
@@ -2262,22 +2262,22 @@ Tiddler
 p714
 (dp715
 g19
-V<img src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any further, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right">>Most countries will not allow you <<if $facultyled or $shortterm>>to get a student visa or residence permit<<else>>to enter<</if>> if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Getting or renewing a passport]]\u000a<</sidebar-box>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[US Department of State video on passport requirements|https://www.youtube.com/watch?v=yAQdMNqvrxE]]|\u000a\u000a<<segue "Passport and document security">>
+V<img alt="Yellow warning symbol--pay attention!" src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any further, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "right" "Photo showing location of expiration date on the main passport information page. It is located toward the bottom of the passport page.">>Most countries will not allow you <<if $facultyled or $shortterm>>to get a student visa or residence permit<<else>>to enter<</if>> if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Getting or renewing a passport]]\u000a<</sidebar-box>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[US Department of State video on passport requirements|https://www.youtube.com/watch?v=yAQdMNqvrxE]]|\u000a\u000a<<segue "Passport and document security">>
 p716
 sg21
 VPassport Check
 p717
 sg23
 g24
-((I2018
-I2
-I27
+((I2019
 I10
-I23
-I0
+I22
+I15
+I52
+I5
 I1
-I58
-I0
+I295
+I1
 tp718
 (dp719
 tp720
@@ -2636,13 +2636,13 @@ p830
 sg23
 g24
 ((I2019
-I3
-I29
-I17
-I9
-I37
-I4
-I88
+I10
+I22
+I14
+I57
+I8
+I1
+I295
 I1
 tp831
 (dp832
@@ -3997,7 +3997,7 @@ tp1253
 Rp1254
 sbsa(dp1255
 g12
-I01
+I00
 sg13
 (lp1256
 F1826.017126485322
@@ -4008,7 +4008,7 @@ Tiddler
 p1257
 (dp1258
 g19
-Vsetup.version = "2019.10.22a";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "2019.10.22d";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1259
 sg21
 VVersion & Reset
@@ -4018,9 +4018,9 @@ g24
 ((I2019
 I10
 I22
-I10
-I58
-I27
+I15
+I54
+I28
 I1
 I295
 I1

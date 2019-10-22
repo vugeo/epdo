@@ -17,64 +17,64 @@ window.Help = {
 	current: 1,
 	tips:	 {
 		help1: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Module Heading</h1><hr /><p>This training presentation is divided into modules, each containing a number of pages for you to read. The text here tells you the name of the module you are currently reading.</p><div class='help-box-nav'>" + HelpIMGs.right + "</div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>Module Heading</h1><hr /><p>This training presentation is divided into modules, each containing a number of pages for you to read. The text here tells you the name of the module you are currently reading.</p><div class='help-box-nav'>" + HelpIMGs.right + "</div></div>",
 			element: "#section-name"
 		},
 		help2: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Progress Meter</h1><hr /><p>The blue spark in the meter shows how far you've advanced and how much further you have to go. If you have a recent web browser, differently shaded bands will mark each module of the training.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>Progress Meter</h1><hr /><p>The blue spark in the meter shows how far you've advanced and how much further you have to go. If you have a recent web browser, differently shaded bands will mark each module of the training.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: "#progress-meter"
 		},
 		help3: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Index Button</h1><p>This button appears after you have completed the training. Click it to go to the full index, which will allow you to navigate quickly to any page.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>Index Button</h1><p>This button appears after you have completed the training. Click it to go to the full index, which will allow you to navigate quickly to any page.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: "#index-button"
 		},
 		help4: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Menu Button</h1><p>Tap this button to open the Navigation menu, which provides an index of all of the pages you've read so far, as well as helpful links.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>Menu Button</h1><p>Tap this button to open the Navigation menu, which provides an index of all of the pages you've read so far, as well as helpful links.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: "#menu-button"
 		},/*
 		help4: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Index</h1><p>As you read through the presentation, each new page you read will appear here. Click on the title of a section to see the pages inside, and click on the name of a page to visit it.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>Index</h1><p>As you read through the presentation, each new page you read will appear here. Click on the title of a section to see the pages inside, and click on the name of a page to visit it.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			parent: "#right-drawer",
 			scroll: true,
 			element: "#nav-container",
-			addedClass: "help-box-callout-nav" 
+			addedClass: "help-box-callout-nav"
 		},
 		help5: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Quick Tour</h1><p>Anytime you want to see these helpful tips again, just open the menu and click on this link.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>Quick Tour</h1><p>Anytime you want to see these helpful tips again, just open the menu and click on this link.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			parent: "#right-drawer",
 			scroll: true,
 			element: "#drawer-help-link"
 		},*/
 		help5: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>In-Depth Information</h1><p>Red boxes like this one contain links to more detailed info on related topics. Click on a link to read more. You'll be able to return to the page you began on easily, with a single click.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>In-Depth Information</h1><p>Red boxes like this one contain links to more detailed info on related topics. Click on a link to read more. You'll be able to return to the page you began on easily, with a single click.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: ".sidebar-box",
 			scroll: true,
 			parent: "#passages",
 			addedClass: "help-box-callout-alt"
 		},
 		help6: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>External Links</h1><p>Blue links with the <span class='help-external-link-icon'></span> symbol will either take you to a page on a different website, or will download a file.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>External Links</h1><p>Blue links with the <span class='help-external-link-icon'></span> symbol will either take you to a page on a different website, or will download a file.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: ".link-external",
 			scroll: true,
 			parent: "#passages",
 			addedClass: "help-box-callout-alt"
 		},
 		help7: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Definitions</h1><p>When you see words and phrases with a dotted underline, you can hover over them to get a definition. Note that you may not be able to hover on a mobile device!</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>Definitions</h1><p>When you see words and phrases with a dotted underline, you can hover over them to get a definition. Note that you may not be able to hover on a mobile device!</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: "span[title]",
 			scroll: true,
 			parent: "#passages",
 			addedClass: "help-box-callout-alt"
 		},
 		help8: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Back Button</h1><p>Click here to go back to the previous page.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>Back Button</h1><p>Click here to go back to the previous page.</p><div class='help-box-nav'>" + HelpIMGs.left + HelpIMGs.right + "</div></div>",
 			element: ".page-back-link.main",
 			scroll: true,
 			parent: "#passages",
 			addedClass: "help-box-callout-alt"
 		},
 		help9: {
-			html: "<div class='help-box'>" + HelpIMGs.close + "<h1>Continue Button</h1><p>This friendly blue button will take you to the next page in the training.</p><div class='help-box-nav'>" + HelpIMGs.left + "<a class='help-box-next' style='bottom:21px; font-size:14px;'>Finish</a></div></div>",
+			html: "<div aria-hidden='true' class='help-box'>" + HelpIMGs.close + "<h1>Continue Button</h1><p>This friendly blue button will take you to the next page in the training.</p><div class='help-box-nav'>" + HelpIMGs.left + "<a class='help-box-next' style='bottom:21px; font-size:14px;'>Finish</a></div></div>",
 			element: "a.continue-link",
 			addedClass: "help-box-callout-alt",
 			scroll: true,
@@ -134,7 +134,7 @@ window.activateHelp = function() {
 			offset = $target.position();
 			adjust.left = 0;
 			//alert("offset.left: " + offset.left + ", adjust.left: " + adjust.left);
-		} 
+		}
 		if (arrowClass === "arrow-down") {
 			$helpBox.css("bottom", ~~($parent.outerHeight(true) - (offset.top - 10) + topOffset + adjust.top ) + "px");
 		}
@@ -166,15 +166,15 @@ window.activateHelp = function() {
 				$helpBox.css("left", parentRight - 2 - tipWidth);
 			}
 		}
-		
+
 		// Show help box and highlight target
 		setTimeout(function() {
-			$helpBox.addClass("help-box-show");
+			$helpBox.addClass("help-box-show").attr("aria-hidden", "false").focus();
 			$target.addClass("help-box-callout");
 			if (tip.hasOwnProperty("addedClass")) {
 				$target.addClass(tip.addedClass);
 			}
-			if (tip.hasOwnProperty("scroll") && tip.scroll === true) { 
+			if (tip.hasOwnProperty("scroll") && tip.scroll === true) {
 				// Change this so that the value in tip.scroll is the element to scroll to
 				if (typeof customScroll != "undefined") {
 					customScroll.scrollToElement(tip.element, 300, 0, (arrowClass === "arrow-down" ? 0 - $helpBox.outerHeight() - parseInt($parent.css("padding-top"), 10) - 20 : 0));
@@ -194,7 +194,7 @@ window.activateHelp = function() {
 			// Hide any existing tooltip
 			var parent = $this.closest("div");
 			// Hide tip box and move it back into storage
-			var $currentTip = $this.closest(".help-box").removeClass("help-box-show");
+			var $currentTip = $this.closest(".help-box").removeClass("help-box-show").attr("aria-hidden", "true");
 			// Remove any highlighting effect on tooltip targets
 			$target.removeClass("help-box-callout");
 			if (tip.hasOwnProperty("addedClass")) {
@@ -210,13 +210,13 @@ window.activateHelp = function() {
 					current++;
 				}
 				if (current > maxTips || current < 0) { break; }
-				// go ahead only if the next tip's target exists on the page 
+				// go ahead only if the next tip's target exists on the page
 				tip = Help.tips["help" + current];
 				$target = $(tip.element);
 				if ($target.length > 0) { break; }
 			}
 			Help.current = current;
-		
+
 			// If we've gone farther than the start or end, turn help off
 			if (current > maxTips || current < 1) {
 				deactivateHelp();
@@ -228,7 +228,7 @@ window.activateHelp = function() {
 
 		$("a.help-box-close").off().on("click", function(event) {
 			var $this = $(this);
-			$this.closest(".help-box").removeClass("help-box-show");
+			$this.closest(".help-box").removeClass("help-box-show").attr("aria-hidden", "true");
 			deactivateHelp();
 		});
 	}
@@ -248,10 +248,9 @@ $(document).on('click', function(event) {
 });
 
 window.deactivateHelp = function() {
-	$(".help-box").removeClass("help-box-show");
+	$(".help-box").removeClass("help-box-show").attr("aria-hidden", "true");
 	$(".help-box-callout").removeClassRegex(/^help-box-callout/);
 	if (Help.current >= Object.keys(Help.tips).length || Help.current < 1) {
 		Help.current = 1;
 	};
 }
-

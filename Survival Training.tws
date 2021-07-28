@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V!What to expect from this training\u000a!!!!Your Survival Training guidebook\u000aOver the next hour or so, you will learn much about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas!\u000a\u000aThe chart below shows the modules included in this training. You can expect to spend 5 to 10 minutes per module. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a\u000a|box|k\u000a|!Module|!Description|\u000a|''Basic Policy Information''|Things you need to know about being a Vanderbilt student abroad, conduct, and the law|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|\u000a|''Safety and Security''|Information on staying safe and protecting yourself abroad|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|\u000a|''Living and Learning Abroad''|Answers to questions about navigating cultural differences and on-the-ground logistics|\u000a|''Returning Home''|How your study abroad experience will impact you when you return to Vanderbilt|\u000a|''Finishing Up''|Your next steps, including verifying with GEO that you completed this required training|\u000a\u000a<<segue "Student status and billing">>\u005c
+V!What to expect from this training\u000a!!!!Your predeparture guidebook\u000aOver the next hour or so, you will learn much about what to expect during your study abroad experience and how to prepare for it. It is a lot of information, but you can access it at any time, even while you're overseas!\u000a\u000aThe chart below shows the modules included in this training. You can expect to spend 5 to 10 minutes per module. Keep an eye on the progress meter at the top of the screen to track how far you've come!\u000a\u000a|box|k\u000a|!Module|!Description|\u000a|''Basic Policy Information''|Things you need to know about being a Vanderbilt student abroad, conduct, and the law|\u000a|''Academic Policies''|How credits work, rules for determining credit, and how study abroad will impact your Vanderbilt transcript|\u000a|''Safety and Security''|Information on staying safe and protecting yourself abroad|\u000a|''Health and Wellness''|How to have a healthy study abroad experience and what to do when you are not so healthy|\u000a|''Travel''|What you need to know before you get on the plane, and how to prepare for your journey|\u000a|''Living and Learning Abroad''|Answers to questions about navigating cultural differences and on-the-ground logistics|\u000a|''Returning Home''|How your study abroad experience will impact you when you return to Vanderbilt|\u000a|''Finishing Up''|Your next steps, including verifying with GEO that you completed this required training|\u000a\u000a<<segue "Student status and billing">>\u005c
 p20
 sS'title'
 p21
@@ -45,15 +45,15 @@ p23
 ctime
 struct_time
 p24
-((I2018
+((I2021
+I7
+I28
+I17
+I33
+I26
 I2
-I13
-I16
-I10
+I209
 I1
-I1
-I44
-I0
 tp25
 (dp26
 tp27
@@ -1998,22 +1998,22 @@ Tiddler
 p632
 (dp633
 g19
-V!Credits\u000a!!!!Join us in thanking these folks for their contributions!\u000a\u000a''Study Abroad Survival Training logo image''\u000aDetail, Bonnie Renee Williamson '15, [[Inside the Grotta Azzurra ("Blue Cave"), Capri, Italy|https://secure.flickr.com/photos/100718964@N02/9732982312/in/photolist-fQ52w7-fQ55Hq-fPMxpV-fQ55T1-fQ55xS]]\u000a\u000a''Background Images (visible on wider screens only)''\u000a* Ben Woods '10, [[Sand Dunes in Sossusvlei, Namibia|https://secure.flickr.com/photos/100718964@N02/9727615368/in/set-72157635498587057]]\u000a*Elizabeth Rose Wheelock '15, [[Tulips at the Keukenhof Gardens, outside of Amsterdam|https://secure.flickr.com/photos/100718964@N02/9729747873/in/photolist-fPMuZP-fQ53bA-fQ53j9-fPMvdx-fPMv4F]]\u000a*Lori Ann Weinstein '14, [[Sunrise at the lighthouse in Byron Bay, Australia|https://secure.flickr.com/photos/100718964@N02/9732976450/in/photolist-fQ54do-fQ54ej-fPMvVM-fQ53NN-fPMvUz]]\u000a*Sushma Boppana '14, [[Hillside Door in Budapest, Hungary|https://secure.flickr.com/photos/100718964@N02/9732659004/in/photolist-fQ3qrA-fQ3qg5-fQ3qkY-fQ3md3-fQ3qbG]]\u000a*Joshua Grubb '14, [[Checkered Lawn at the Jardín Japonés (Japanese Garden), Buenos Aires, Argentina|https://secure.flickr.com/photos/100718964@N02/9732835282/in/photolist-fPLMWv-fQ4a8L-fQ4jWW-fQ4jQS-fQ4jS7]]\u000a*Danielle Antoinette Morrison '14, [[Rooftop View, Segovia, Spain|https://secure.flickr.com/photos/100718964@N02/9732971742/in/photolist-fPLR8c-fQ5dfb-fQ52pC-fPMEAc-fQ5d9Q-fPMEFe]]\u000a*Abby Marie Pribish '14, [[Lake Geneva Through the Foliage, Switzerland|https://secure.flickr.com/photos/100718964@N02/9729769853/in/photolist-fPMBu4-fQ59DW-fPMBpR-fPMBAD-fQ59QG]]\u000a*John Franklin Sims-Jones '14, [[Fields and mountains near the Inca ruins of Moray, Peru|https://secure.flickr.com/photos/100718964@N02/9729744099/in/photolist-oiPuiG-fPMtWB]]\u000a*Stefanie Tollefsen '13, [[Violet tree in Rome, Italy|https://secure.flickr.com/photos/100718964@N02/9732678988/in/photolist-fPKZh2-fPKZwi-fPKMBX-fQ3wyb-fQ3wo9]]\u000a*Jonathan C. Williams '14, [[Beautiful clear beaches of Tarifa, Spain|https://secure.flickr.com/photos/100718964@N02/9729745463/in/photolist-fPP9QD-fPMuu2-fPMum8-fPMukr-fPMurt-fQ52GE-fPkVZg-fPkW4H-fPkW4R-fPkW4a-fPCtXY-fPLDQR-fQ4bRW-fPLDLB-fPjmMv]]\u000a*Ben Shane '15, [[An old woman carries bricks on her back in Yuanyang, China|https://secure.flickr.com/photos/100718964@N02/14641598859/in/photolist-oA73AU-oA88b3-oiQ2eD-fPAUDf-oA7JLd]]\u000a\u000a''Other Images''\u000aBrowser icons from C\u0103t\u0103lin Mari\u0219's open [[GitHub project|https://github.com/alrra/browser-logos#readme]].\u000a\u000a''Special Thanks''\u000aThanks to our student reviewers for their help and excellent suggestions: Molly Corn '15, Stephen Firestone '15, Meixi Guo '15, Trevor Schill '15, Omega Tennant '15.\u000a\u000aParticular thanks to GEO Graduate Assistants Ruth Page (Divinity '16) and Maegen Hughes (Peabody '15) for their input, editing, and help pulling materials together.\u000a\u000a''Created using ''[[Twine|http://twinery.org/]]'' and ''[[SugarCube|http://www.motoslave.net/sugarcube/]]. Thanks and appreciation also to [[Thomas Michael Edwards|http://www.motoslave.net/]], developer of [[SugarCube|http://www.motoslave.net/sugarcube/]], for his personal assistance.\u000a\u000a<<segue "Index">>\u005c
+V!Credits\u000a!!!!Join us in thanking these folks for their contributions!\u000a\u000a''Study Abroad Predeparture Guide logo image''\u000aDetail, Lori Ann Weinstein '14, [[Sunrise at the lighthouse in Byron Bay, Australia|https://secure.flickr.com/photos/100718964@N02/9732976450/in/photolist-fQ54do-fQ54ej-fPMvVM-fQ53NN-fPMvUz]]\u000a\u000a''Background Images (visible on wider screens only)''\u000a* Ben Woods '10, [[Sand Dunes in Sossusvlei, Namibia|https://secure.flickr.com/photos/100718964@N02/9727615368/in/set-72157635498587057]]\u000a*Elizabeth Rose Wheelock '15, [[Tulips at the Keukenhof Gardens, outside of Amsterdam|https://secure.flickr.com/photos/100718964@N02/9729747873/in/photolist-fPMuZP-fQ53bA-fQ53j9-fPMvdx-fPMv4F]]\u000a*Lori Ann Weinstein '14, [[Sunrise at the lighthouse in Byron Bay, Australia|https://secure.flickr.com/photos/100718964@N02/9732976450/in/photolist-fQ54do-fQ54ej-fPMvVM-fQ53NN-fPMvUz]]\u000a*Sushma Boppana '14, [[Hillside Door in Budapest, Hungary|https://secure.flickr.com/photos/100718964@N02/9732659004/in/photolist-fQ3qrA-fQ3qg5-fQ3qkY-fQ3md3-fQ3qbG]]\u000a*Joshua Grubb '14, [[Checkered Lawn at the Jardín Japonés (Japanese Garden), Buenos Aires, Argentina|https://secure.flickr.com/photos/100718964@N02/9732835282/in/photolist-fPLMWv-fQ4a8L-fQ4jWW-fQ4jQS-fQ4jS7]]\u000a*Danielle Antoinette Morrison '14, [[Rooftop View, Segovia, Spain|https://secure.flickr.com/photos/100718964@N02/9732971742/in/photolist-fPLR8c-fQ5dfb-fQ52pC-fPMEAc-fQ5d9Q-fPMEFe]]\u000a*Abby Marie Pribish '14, [[Lake Geneva Through the Foliage, Switzerland|https://secure.flickr.com/photos/100718964@N02/9729769853/in/photolist-fPMBu4-fQ59DW-fPMBpR-fPMBAD-fQ59QG]]\u000a*John Franklin Sims-Jones '14, [[Fields and mountains near the Inca ruins of Moray, Peru|https://secure.flickr.com/photos/100718964@N02/9729744099/in/photolist-oiPuiG-fPMtWB]]\u000a*Stefanie Tollefsen '13, [[Violet tree in Rome, Italy|https://secure.flickr.com/photos/100718964@N02/9732678988/in/photolist-fPKZh2-fPKZwi-fPKMBX-fQ3wyb-fQ3wo9]]\u000a*Jonathan C. Williams '14, [[Beautiful clear beaches of Tarifa, Spain|https://secure.flickr.com/photos/100718964@N02/9729745463/in/photolist-fPP9QD-fPMuu2-fPMum8-fPMukr-fPMurt-fQ52GE-fPkVZg-fPkW4H-fPkW4R-fPkW4a-fPCtXY-fPLDQR-fQ4bRW-fPLDLB-fPjmMv]]\u000a*Ben Shane '15, [[An old woman carries bricks on her back in Yuanyang, China|https://secure.flickr.com/photos/100718964@N02/14641598859/in/photolist-oA73AU-oA88b3-oiQ2eD-fPAUDf-oA7JLd]]\u000a\u000a''Other Images''\u000aBrowser icons from C\u0103t\u0103lin Mari\u0219's open [[GitHub project|https://github.com/alrra/browser-logos#readme]].\u000a\u000a''Special Thanks''\u000aThanks to our student reviewers for their help and excellent suggestions: Molly Corn '15, Stephen Firestone '15, Meixi Guo '15, Trevor Schill '15, Omega Tennant '15.\u000a\u000aParticular thanks to GEO Graduate Assistants Ruth Page (Divinity '16) and Maegen Hughes (Peabody '15) for their input, editing, and help pulling materials together.\u000a\u000a''Created using ''[[Twine|http://twinery.org/]]'' and ''[[SugarCube|http://www.motoslave.net/sugarcube/]]. Thanks and appreciation also to [[Thomas Michael Edwards|http://www.motoslave.net/]], developer of [[SugarCube|http://www.motoslave.net/sugarcube/]], for his personal assistance.\u000a\u000a<<segue "Index">>\u005c
 p634
 sg21
 VCredits
 p635
 sg23
 g24
-((I2018
+((I2021
+I7
+I28
+I17
+I34
+I8
 I2
-I15
-I14
-I19
-I0
-I3
-I46
-I0
+I209
+I1
 tp636
 (dp637
 tp638
@@ -2100,21 +2100,21 @@ Tiddler
 p663
 (dp664
 g19
-V<div class="inset-shadow"><img src="images/Survival_Training.png" alt="GEO Survival Training"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img alt="Vanderbilt logo" id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img alt="Global Education Office logo" id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a<<if config.historyMode eq HistoryMode.Hash or $browserSupport eq "no">><div class="message-box problem"><span>Your browser (<<print $UAinfo.browser.name>> v<<print $UAinfo.browser.major>> running on <<print $UAinfo.os.name>>) is not supported. We recommend that you either use another browser (see below) or download the [[PDF|$pdfURL]].</span></div>\u005c\u000a<<elseif $browserSupport eq "unknown">><div class="message-box warning"><span>Your browser (<<print $UAinfo.browser.name>> v<<print $UAinfo.browser.major>> running on <<print $UAinfo.os.name>>) may not work well for this training module. We recommend that you try another browser instead (see below). You may also download the [[PDF|$pdfURL]].</span></div><</if>>\u005c\u000a\u000aThe Global Education Office welcomes you to ''Study Abroad Survival Training''. The training modules within introduce you to a wealth of information--information that you will need to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the ''Quick Tour'' now for a very brief introduction to the Training interface. It will quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides ''In-Depth Information'' on a topic or topics. We recommend that you read these links in all cases where a topic could conceivably apply to you! Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aThroughout the training, ''blue hyperlinks'' will direct you to external sites with useful information or further resources. For example, this link will take you to the [[Global Education Office's home page|http://vanderbilt.edu/geo]].\u000a\u000aWhen you're ready to move on, hit the ''big blue Continue button'' at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major <span title="The application you use to access and view websites is called a web browser.">web browsers</span> on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u000a\u000a//Edition: <<print $edition>>//\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
+V<div><img src="images/ePDO logo.png" alt="Study Abroad Predeparture Guide"></div><div><a href="http://vanderbilt.edu/" target="_blank"><img alt="Vanderbilt logo" id="VU-logo" src="images/VU_logo.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://vanderbilt.edu/geo" target="_blank"><img alt="Global Education Office logo" id="GEO-logo" src="images/GEO.4c.web.png" /></a></div>\u005c\u000a<<if config.historyMode eq HistoryMode.Hash or $browserSupport eq "no">><div class="message-box problem"><span>Your browser (<<print $UAinfo.browser.name>> v<<print $UAinfo.browser.major>> running on <<print $UAinfo.os.name>>) is not supported. We recommend that you either use another browser (see below) or download the [[PDF|$pdfURL]].</span></div>\u005c\u000a<<elseif $browserSupport eq "unknown">><div class="message-box warning"><span>Your browser (<<print $UAinfo.browser.name>> v<<print $UAinfo.browser.major>> running on <<print $UAinfo.os.name>>) may not work well for this training module. We recommend that you try another browser instead (see below). You may also download the [[PDF|$pdfURL]].</span></div><</if>>\u005c\u000a\u000aThe Global Education Office welcomes you to our ''Study Abroad Predeparture Guide''. The training modules within introduce you to a wealth of information--information that you will need to have a successful and safe experience abroad. Please read everything carefully.\u000a\u000aYou can take the ''Quick Tour'' now for a very brief introduction to the Training interface. It will quickly show you what all of the elements on this page are and what they do. <<button "Take the Tour">><<script>>ga('send', 'event', 'help', 'tour', 'launched tour from intro page'); activateHelp();<</script>><</button>>\u000a\u000aFrom time to time, you will see a red box like the one below that provides ''In-Depth Information'' on a topic or topics. We recommend that you read these links in all cases where a topic could conceivably apply to you! Just click on the red links to check them out.\u000a\u000a<<sidebar-box "In-Depth Information">>\u000a   [[Click here for a sample, just to see how it works!|Sample]]\u000a<</sidebar-box>>\u005c\u000a\u000aThroughout the training, ''blue hyperlinks'' will direct you to external sites with useful information or further resources. For example, this link will take you to the [[Global Education Office's home page|http://vanderbilt.edu/geo]].\u000a\u000aWhen you're ready to move on, hit the ''big blue Continue button'' at the bottom of the page!\u000a\u000a!!!!!Browser support\u000aThis presentation works best with recent versions of the major <span title="The application you use to access and view websites is called a web browser.">web browsers</span> on desktops, tablets, and smartphones. If you are having trouble with the presentation, try upgrading your web browser. Or you may [[download the presentation in PDF format|$pdfURL]] instead.\u000a\u000a<<display "Browsers">>\u005c\u000a\u000a<<segue "What you will get out of study abroad">>\u000a\u000a//Edition: <<print $edition>>//\u000a/% !!!!Choose mode to continue\u000aThis presentation can be viewed in Automatic Mode, with a narrator speaking the text, or in Manual Mode. You can turn Automatic Mode on or off at any time using the button in the upper right.\u000a\u000aYou can always hit the <span class='continue-button' style="clear:both;"><<click "Continue" $first>><<set options.autoplay to true>><<updateAutoplay>><<saveoptions>><</click>><span class="anim-wrapper"><span class='onward-arrow fade-bounce'>&raquo;</span></span>&ensp;</span> button at any time to advance.\u000a\u000a<<click "Continue in Automatic Mode" $first>>\u005c\u000a    <<set options.autoplay to true>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u000a<<click "Continue in Manual Mode" $first>>\u005c\u000a    <<set options.autoplay to false>>\u005c\u000a    <<updateAutoplay>>\u005c\u000a    <<saveoptions>>\u005c\u000a<</click>>\u005c\u000a<<stopAllSounds>>\u005c\u000a<<set options.autoplaydelay to 1000 >>\u005c\u000a<<saveoptions>>\u005c\u000a%/\u005c
 p665
 sg21
-VAbout Survival Training
+VAbout the Predeparture Guide
 p666
 sg23
 g24
-((I2019
-I10
-I22
-I15
-I41
-I8
-I1
-I295
+((I2021
+I7
+I28
+I17
+I46
+I5
+I2
+I209
 I1
 tp667
 (dp668
@@ -2156,7 +2156,7 @@ Tiddler
 p681
 (dp682
 g19
-V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/Survival_Training.png"></div>\u005c\u000a\u000aYou have a session already in progress. Do you want to resume where you left off?\u000a<<script>> \u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start Over"\u000a	);\u000a	insertText(output, " ");\u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button default",\u000a		"Resume"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		var ret = confirm("Are you sure you want to start over? Your progress will be erased.");\u000a		if (ret === true) {\u000a			SaveSystem.deleteAuto();\u000a			state.display(state.active.variables.first);\u000a		}\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>
+V<<if SaveSystem.autosaveOK() && SaveSystem.hasAuto()>>\u005c\u000a<div class="inset-shadow"><img src="images/ePDO logo.png"></div>\u005c\u000a\u000aYou have a session already in progress. Do you want to resume where you left off?\u000a<<script>> \u000a	var restartBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"restart-button",\u000a		"ui-autostart-button",\u000a		"Start Over"\u000a	);\u000a	insertText(output, " ");\u000a	var resumeBtn = insertElement(\u000a		output,\u000a		"button",\u000a		"resume-button",\u000a		"ui-autostart-button default",\u000a		"Resume"\u000a	);\u000a	$(resumeBtn).click(function () {\u000a		SaveSystem.loadAuto();\u000a	});\u000a	$(restartBtn).click(function () {\u000a		var ret = confirm("Are you sure you want to start over? Your progress will be erased.");\u000a		if (ret === true) {\u000a			SaveSystem.deleteAuto();\u000a			state.display(state.active.variables.first);\u000a		}\u000a	});\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a	<<script>>\u000a		setTimeout(function () {\u000a			state.display(state.active.variables.first);\u000a			customScroll.refresh();\u000a		}, 100);\u000a	<</script>>\u005c\u000a<</if>>
 p683
 sg21
 VStart
@@ -2166,9 +2166,9 @@ g24
 ((I2021
 I7
 I28
-I14
-I55
-I23
+I17
+I34
+I40
 I2
 I209
 I1
@@ -2208,7 +2208,7 @@ Tiddler
 p697
 (dp698
 g19
-V/% \u000a	Each passage can be part of only one section,\u000a	sections cannot overlap. Sections must be listed\u000a	*in order* of their appearance in the presentation.\u000a%/\u000a\u000a/% Where should we begin? Give first passage's name here. %/\u000a<<set $first to "About Survival Training">>\u000a\u000a<<contents>>\u000a    <<section "Global Education Office" "nosave" "backgrounds/Sand_Dunes_Sossusvlei_Namibia.jpg">>\u000a	<<section "About" "about" "backgrounds/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg">>\u000a    <<section "Introduction" "intro" "backgrounds/Weinstein_Lori_Ann_Sunrise_at_Byron_Bay_Australia.jpg">>\u000a    <<section "Basic Policy Information" "policies" "backgrounds/Boppana_Sushma_Hillside_Door_Budapest_Hungary.jpg">>\u000a    <<section "Academic Policies" "academics" "backgrounds/Grubb_Joshua_LouAllen_Checkered_Lawn_Buenos_Aires.jpg">>\u000a    <<section "Safety and Security" "safety" "backgrounds/Tollefsen_Stefanie_Violet_tree_Rome_Italy.jpg">>\u000a    <<section "Health and Wellness" "health" "backgrounds/Sims-Jones_John_Fields_and_mountains_of_Moray.jpg">>\u000a    <<section "Travel" "travel" "backgrounds/Morrison_Danielle_Antoinette_Rooftop_View_Segovia_Spain.jpg">>\u000a    <<section "Living and Learning Abroad" "living" "backgrounds/Pribish_Abby_Marie_Lake_Geneva_Through_the_Foliage_Switzerland.jpg">>\u000a    <<section "Returning Home" "home" "backgrounds/Williams_Jon_Beaches_of_Tarifa_Spain.jpg">>\u000a    <<section "Finishing Up" "finish" "backgrounds/Ben_Shane_An_old_woman_carries_bricks_on_her_back_in_Yuanyang_China.jpg">>\u000a<<create-index>>
+V/% \u000a	Each passage can be part of only one section,\u000a	sections cannot overlap. Sections must be listed\u000a	*in order* of their appearance in the presentation.\u000a%/\u000a\u000a/% Where should we begin? Give first passage's name here. %/\u000a<<set $first to "About the Predeparture Guide">>\u000a\u000a<<contents>>\u000a    <<section "Global Education Office" "nosave" "backgrounds/Sand_Dunes_Sossusvlei_Namibia.jpg">>\u000a	<<section "About" "about" "backgrounds/Wheelock_Elizabeth_Rose_Tulips_at_Keukenhof_Gardens_outside_Amsterdam.jpg">>\u000a    <<section "Introduction" "intro" "backgrounds/Weinstein_Lori_Ann_Sunrise_at_Byron_Bay_Australia.jpg">>\u000a    <<section "Basic Policy Information" "policies" "backgrounds/Boppana_Sushma_Hillside_Door_Budapest_Hungary.jpg">>\u000a    <<section "Academic Policies" "academics" "backgrounds/Grubb_Joshua_LouAllen_Checkered_Lawn_Buenos_Aires.jpg">>\u000a    <<section "Safety and Security" "safety" "backgrounds/Tollefsen_Stefanie_Violet_tree_Rome_Italy.jpg">>\u000a    <<section "Health and Wellness" "health" "backgrounds/Sims-Jones_John_Fields_and_mountains_of_Moray.jpg">>\u000a    <<section "Travel" "travel" "backgrounds/Morrison_Danielle_Antoinette_Rooftop_View_Segovia_Spain.jpg">>\u000a    <<section "Living and Learning Abroad" "living" "backgrounds/Pribish_Abby_Marie_Lake_Geneva_Through_the_Foliage_Switzerland.jpg">>\u000a    <<section "Returning Home" "home" "backgrounds/Williams_Jon_Beaches_of_Tarifa_Spain.jpg">>\u000a    <<section "Finishing Up" "finish" "backgrounds/Ben_Shane_An_old_woman_carries_bricks_on_her_back_in_Yuanyang_China.jpg">>\u000a<<create-index>>
 p699
 sg21
 VTable of Contents
@@ -2218,8 +2218,8 @@ g24
 ((I2021
 I7
 I28
-I14
-I5
+I17
+I42
 I2
 I2
 I209
@@ -2362,7 +2362,7 @@ Tiddler
 p744
 (dp745
 g19
-VSurvival Training
+VPredeparture Guide
 p746
 sg21
 VStoryTitle
@@ -2372,9 +2372,9 @@ g24
 ((I2021
 I7
 I28
-I14
-I2
-I47
+I17
+I35
+I5
 I2
 I209
 I1
@@ -3746,7 +3746,7 @@ Tiddler
 p1176
 (dp1177
 g19
-V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000a\u000aconfig.startPassage = "About Survival Training";\u000aconfig.saves.autosave = true;\u000aconfig.saves.autoload = true;\u000aconfig.saves.slots = 0;\u000aconfig.errorName = "presentation";\u000aconfig.disableHistoryControls = true;\u000a//config.loadDelay = 1000;\u000a\u000aconfig.saves.isAllowed = function () {\u000a    if (tale.get(state.active.title).tags.indexOf("nosave") === -1) { \u000a       return true; \u000a    }\u000a    return false; \u000a};
+V// Need to set the default location to go to when the\u000a// admin mode is in effect. Admin mode is activated\u000a// by URL, e.g. http://...index.html?admin=true\u000a\u000aoptions.adminStart = "Index";\u000a\u000aconfig.startPassage = "About the Predeparture Guide";\u000aconfig.saves.autosave = true;\u000aconfig.saves.autoload = true;\u000aconfig.saves.slots = 0;\u000aconfig.errorName = "presentation";\u000aconfig.disableHistoryControls = true;\u000a//config.loadDelay = 1000;\u000a\u000aconfig.saves.isAllowed = function () {\u000a    if (tale.get(state.active.title).tags.indexOf("nosave") === -1) { \u000a       return true; \u000a    }\u000a    return false; \u000a};
 p1178
 sg21
 VOptions
@@ -3756,9 +3756,9 @@ g24
 ((I2021
 I7
 I28
-I14
-I4
-I27
+I17
+I35
+I42
 I2
 I209
 I1
@@ -3900,22 +3900,22 @@ Tiddler
 p1223
 (dp1224
 g19
-V<<sidebar "Sample: In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can /%either %/tap on the "Back" link below to go back and finish reading the previous page/%, or press the big "Continue" button to go on to the next page of the Survival Guide%/.\u000a\u000a<<segue "What you will get out of study abroad">>\u005c
+V<<sidebar "Sample: In-Depth Information">>\u000aFrom time to time, we need a bit more space to dig into a topic. This sample shows what an In-Depth Information page looks like. In-Depth Information pages provide more information about a given topic.\u000a\u000aYou can /%either %/tap on the "Back" link below to go back and finish reading the previous page/%, or press the big "Continue" button to go on to the next page of the Predeparture Guide%/.\u000a\u000a<<segue "What you will get out of study abroad">>\u005c
 p1225
 sg21
 VSample
 p1226
 sg23
 g24
-((I2018
-I2
-I15
-I11
-I24
+((I2021
+I7
+I28
+I17
+I42
 I23
-I3
-I46
-I0
+I2
+I209
+I1
 tp1227
 (dp1228
 tp1229
@@ -4004,7 +4004,7 @@ Tiddler
 p1255
 (dp1256
 g19
-Vsetup.version = "2021.07.28a";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "2021.07.28c";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1257
 sg21
 VVersion & Reset
@@ -4014,9 +4014,9 @@ g24
 ((I2021
 I7
 I28
-I14
-I4
-I33
+I17
+I46
+I54
 I2
 I209
 I1
@@ -4318,7 +4318,7 @@ Tiddler
 p1352
 (dp1353
 g19
-V<<sidebar "Maintaining your eligibility to study abroad">>\u000aTo maintain your eligibility to study abroad you must ''remain in good standing'' with the University. You must also ''complete all Vanderbilt study abroad'' requirements. Regardless of why you are removed from a program, ''you will be responsible for any fees that accompany late withdrawal''. Fees will be billed through your Vanderbilt student account.\u000a\u000aGEO checks Vanderbilt students' academic, disciplinary, and financial standing when you apply to a program. We also check late in the semester or summer before you leave for your abroad program. If you fall out of good standing we will, if necessary, administratively withdraw you from your abroad program. <<if $vanderbilt>>(Visiting students may be withdrawn at the request of the home university.)<</if>>\u000a\u000aYour eligibility also depends on completing all of the items listed in your GEO account (see below). If you fail to complete any of these required items,  we may be forced to revoke your permission to study abroad. \u000a\u000aHere's how that would work: As the <<if $maymester>>withdrawal deadline<<else>>end of the term<</if>> draws near, GEO will warn you at least twice in writing, directing all emails to your Vanderbilt email address. Your final warning will also be copied to your dean's office. If the requirements are not complete by the day specified in your final warning email, we will remove you from the program.\u000a\u000a|box|k\u000a|!Examples of requirements|\u000a|Program Release Form|\u000a|GEO Survival Guide|\u000a|Mandatory Health Assessment|\u000a|Withdrawal Policy|\u000a|<hr>//Requirements may vary by program. See your GEO account for your specific requirements.//|\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
+V<<sidebar "Maintaining your eligibility to study abroad">>\u000aTo maintain your eligibility to study abroad you must ''remain in good standing'' with the University. You must also ''complete all Vanderbilt study abroad'' requirements. Regardless of why you are removed from a program, ''you will be responsible for any fees that accompany late withdrawal''. Fees will be billed through your Vanderbilt student account.\u000a\u000aGEO checks Vanderbilt students' academic, disciplinary, and financial standing when you apply to a program. We also check late in the semester or summer before you leave for your abroad program. If you fall out of good standing we will, if necessary, administratively withdraw you from your abroad program. <<if $vanderbilt>>(Visiting students may be withdrawn at the request of the home university.)<</if>>\u000a\u000aYour eligibility also depends on completing all of the items listed in your GEO account (see below). If you fail to complete any of these required items,  we may be forced to revoke your permission to study abroad. \u000a\u000aHere's how that would work: As the <<if $maymester>>withdrawal deadline<<else>>end of the term<</if>> draws near, GEO will warn you at least twice in writing, directing all emails to your Vanderbilt email address. Your final warning will also be copied to your dean's office. If the requirements are not complete by the day specified in your final warning email, we will remove you from the program.\u000a\u000a|box|k\u000a|!Examples of requirements|\u000a|Program Release Form|\u000a|GEO Predeparture Guide|\u000a|Mandatory Health Assessment|\u000a|Withdrawal Policy|\u000a|<hr>//Requirements may vary by program. See your GEO account for your specific requirements.//|\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
 p1354
 sg21
 VMaintaining eligibility
@@ -4327,12 +4327,12 @@ sg23
 g24
 ((I2021
 I7
-I26
-I15
-I51
-I48
-I0
-I207
+I28
+I17
+I37
+I18
+I2
+I209
 I1
 tp1356
 (dp1357

@@ -1529,12 +1529,12 @@ sg23
 g24
 ((I2021
 I7
-I26
-I16
-I38
-I33
-I0
-I207
+I30
+I14
+I49
+I41
+I4
+I211
 I1
 tp487
 (dp488
@@ -3002,7 +3002,7 @@ Tiddler
 p944
 (dp945
 g19
-V<<sidebar "More on credit cards">>\u000aEurope and much of the rest of the world have long used chip-and-PIN \u201csmart\u201d credit cards. These cards offer more secure transactions by adding an embedded microchip and replacing easily forged signatures with entry of a PIN number.\u000a\u000aThe US lagged behind other countries in implementing chip cards, but has now also shifted almost entirely to this technology. ''If you have a card //without// an embedded microchip,'' GEO recommends that you request a chip card (i.e., an [[EMV card|https://en.wikipedia.org/wiki/EMV]]) from your bank. Your ability to use a card without a chip overseas may be limited, particularly in Europe. A card without a chip has only a magnetic stripe.\u000a\u000aWhile US cards now mostly have chips, a small proportion of overseas processing machines may not be compatible with the US version of the technology. To maximize payment convenience, ''learn the PIN numbers for any credit cards //and// debit cards'' you bring with you.\u000a\u000a''Self-service kiosks are the main culprit for difficulties,'' and may not work even if you do know your US-issued card\u2019s PIN. If you are traveling via train or bus, plan to arrive a little early so that you can find a cashier if need be, and carry cash as well so that you have an alternate form of payment if required. Other places self-service machines might be required are at luggage lockers, bike-rental kiosks, highway tolls, etc.\u000a\u000aIf you are using a credit card, be sure that you are making a simple payment rather than a cash advance. Cash advances can result in high transaction and interest payments.\u000a\u000aYou may want to ''shop around for banks and credit cards'' before you leave. Seek out cards that carry low foreign transaction fees, as well as debit card providers with overseas partnerships that allow for lower ATM fees.\u000a\u000a<<segue "Where will you live?">>
+V<<sidebar "More on credit cards">>\u000aEurope and much of the rest of the world have long used chip-and-PIN \u201csmart\u201d credit cards. These cards offer more secure transactions by adding an embedded microchip and replacing easily forged signatures with entry of a PIN number.\u000a\u000aWhile US cards all now have chips, a small proportion of overseas processing machines may not be compatible with the US version of the technology. To maximize payment convenience, ''learn the PIN numbers for any credit cards //and// debit cards'' you bring with you.\u000a\u000a''Self-service kiosks are the main culprit for difficulties,'' and may not work even if you do know your US-issued card\u2019s PIN. If you are traveling via train or bus, plan to arrive a little early so that you can find a cashier if need be, and carry cash as well so that you have an alternate form of payment if required. Other places self-service machines might be required are at luggage lockers, bike-rental kiosks, highway tolls, etc.\u000a\u000aIf you are using a credit card, be sure that you are making a simple payment rather than a cash advance. Cash advances can result in high transaction and interest payments.\u000a\u000aYou may want to ''shop around for banks and credit cards'' before you leave. Seek out cards that carry low foreign transaction fees, as well as debit card providers with overseas partnerships that allow for lower ATM fees.\u000a\u000a<<segue "Where will you live?">>
 p946
 sg21
 VMore on credit cards
@@ -3011,12 +3011,12 @@ sg23
 g24
 ((I2021
 I7
-I28
-I16
-I35
-I41
-I2
-I209
+I30
+I14
+I52
+I8
+I4
+I211
 I1
 tp948
 (dp949
@@ -3164,7 +3164,7 @@ Tiddler
 p995
 (dp996
 g19
-V!Eating and diet\u000a!!!!Balancing safety and diet with cultural exploration\u000aPeople everywhere eat differently because they //are// different--they have different cultures. Exploring another culture means exploring its food. GEO recommends that you keep an open mind, accept cultural differences, and try everything you (safely) can. Have a gastronomic adventure!\u000a\u000aBe sure to eat safely, however. Travelers diarrhea and, worse, food poisoning are no fun. You can never eliminate the risk of ''food-borne illness'' entirely, but you can learn more about your destination to make safer choices about your food and drink. The CDC provides [[safer eating guidelines|https://wwwnc.cdc.gov/travel/destinations/list/]], and we encourage you to check out all the countries on your itinerary. If you do get a food-borne illness, drink fluids to stay hydrated, and consider taking over-the-counter medications to keep diarrhea under control. Seek medical attention if your symptoms are serious or prolonged. [[General tips and information about food safety|https://www.betterhealth.vic.gov.au/health/healthyliving/Food-safety-while-travelling]]\u000a\u000aIf you have dietary restrictions, eating well while fully experiencing your host culture may be a challenge. Whether you maintain your diet for medical, religious, philosophical, or other reasons, be sure to ''share the details with your <<if $facultyled>>faculty leader<<else>>program staff<</if>> //before// you arrive on site.'' They will use this information to help identify appropriate housing/dining for you. They //may// also be able to research restaurants, grocery stores, and useful vocabulary.\u000a\u000a''If you have a food allergy, be very detailed in disclosing what is safe for you''.  For example, if you have a nut allergy, can you be around nuts? can you eat food processed on the same equipment as nuts? are all nuts harmful for you? Let your <<if $facultyled>>faculty leader, other staff, and your classmates<<else>>program and host family<</if>> know.\u000a\u000a''Learn as much as you can about your host culture's food, food culture, and food vocabulary before you go''. Your diet and the terms you use for it may not be well understood there, so be prepared to explain why you can\u2019t, or choose not to, eat certain foods--ideally before someone cooks you a meal.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Travel destination advice|https://wwwnc.cdc.gov/travel/destinations/list/]], country-specific travel advice from the Centers for Disease Control|\u000a|[[Food safety while traveling|https://www.betterhealth.vic.gov.au/health/healthyliving/Food-safety-while-travelling], an information-rich resource]]|\u000a|[[International Vegetarian Union|http://www.ivu.org/]], information and recipes for vegetarians and vegans worldwide|\u000a|[[HappyCow|https://www.happycow.net/]], a searchable guide to vegetarian restaurants worldwide|\u000a|[[SelectWisely|http://www.selectwisely.com/Resources/]], a library of links to information about traveling abroad with dietary restrictions|\u000a|[[Jewish Travel Advisor|http://jewishtraveladvisor.com/]], world-wide listing of kosher hotels and restaurants, synagogues, mikvaot, and Jewish communities around the world |\u000a|[[Halal Trip|http://www.halaltrip.com/city-guide-all]], website focused on Muslim travelers and including city guides with a focus on halal dining|\u000a\u000a<<segue "Making friends">>\u005c
+V!Eating and diet\u000a!!!!Balancing diet and safety with cultural exploration\u000aPeople everywhere eat differently because they //are// different--they have different cultures. Exploring another culture means exploring its food. GEO recommends that you keep an open mind, accept cultural differences, and try everything you (safely) can. Have a gastronomic adventure!\u000a\u000aBe sure to eat safely, however. Travelers diarrhea and, worse, food poisoning are no fun. You can never eliminate the risk of ''food-borne illness'' entirely, but you can learn more about your destination to make safer choices about your food and drink. The CDC provides [[country-specific safer eating guidelines|https://wwwnc.cdc.gov/travel/destinations/list/]], and we encourage you to check out all the destinations on your itinerary. If you do get a food-borne illness, drink fluids to stay hydrated, and consider taking over-the-counter medications to keep diarrhea under control. Seek medical attention if your symptoms are serious or prolonged. [[General tips and information about food safety|https://www.betterhealth.vic.gov.au/health/healthyliving/Food-safety-while-travelling]]\u000a\u000aIf you have dietary restrictions, eating well while fully experiencing your host culture may be a challenge. Whether you maintain your diet for medical, religious, philosophical, or other reasons, be sure to ''share the details with your <<if $facultyled>>faculty leader<<else>>program staff<</if>> //before// you arrive on site.'' They will use this information to help identify appropriate housing/dining for you. They //may// also be able to research restaurants, grocery stores, and useful vocabulary.\u000a\u000a''If you have a food allergy, be very detailed in disclosing what is safe for you''.  For example, if you have a nut allergy, can you be around nuts? can you eat food processed on the same equipment as nuts? are all nuts harmful for you? Let your <<if $facultyled>>faculty leader, other staff, and your classmates<<else>>program and host family<</if>> know.\u000a\u000a''Learn as much as you can about your host culture's food, food culture, and food vocabulary before you go''. Your diet and the terms you use for it may not be well understood there, so be prepared to explain why you can\u2019t, or choose not to, eat certain foods--ideally before someone cooks you a meal.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Travel destination advice|https://wwwnc.cdc.gov/travel/destinations/list/]], country-specific travel advice from the Centers for Disease Control|\u000a|[[Food safety while traveling|https://www.betterhealth.vic.gov.au/health/healthyliving/Food-safety-while-travelling]], an information-rich resource|\u000a|[[International Vegetarian Union|http://www.ivu.org/]], information and recipes for vegetarians and vegans worldwide|\u000a|[[HappyCow|https://www.happycow.net/]], a searchable guide to vegetarian restaurants worldwide|\u000a|[[SelectWisely|http://www.selectwisely.com/Resources/]], a library of links to information about traveling abroad with dietary restrictions|\u000a|[[Jewish Travel Advisor|http://jewishtraveladvisor.com/]], world-wide listing of kosher hotels and restaurants, synagogues, mikvaot, and Jewish communities around the world |\u000a|[[Halal Trip|http://www.halaltrip.com/city-guide-all]], website focused on Muslim travelers and including city guides with a focus on halal dining|\u000a\u000a<<segue "Making friends">>\u005c
 p997
 sg21
 VEating and diet
@@ -3173,12 +3173,12 @@ sg23
 g24
 ((I2021
 I7
-I28
-I16
-I53
+I30
+I14
+I40
+I33
 I4
-I2
-I209
+I211
 I1
 tp999
 (dp1000
@@ -3216,7 +3216,7 @@ Tiddler
 p1011
 (dp1012
 g19
-V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe ''coronavirus epidemic continues to present challenges worldwide''. Your program will provide operating procedures, guidelines, and updates while you are abroad. It is critical that you heed this advice and adhere to your program's policies as well as your locality's requirements. Disciplinary action from your program and legal action from local authorities are real possibilities.\u000a\u000aMost countries outside the United States have taken more nationalized and often more stringent approaches to COVID-19 measures. You are likely to find somewhat different COVID rules and more nuance in how those are applied. In particular, ''response to COVID outbreaks is more likely to involve strict, if temporary, lockdowns and targeted shutdown of services''. These may cause inconvenience, including interrupting classes or travel. It is possible that your coursework might need to go online for an extended period, or that a planned trip may have to be canceled.\u000a\u000aRequirements and restrictions imposed by the US government, foreign governments, regional governments, airlines, or other entities may change at any time. ''You are ultimately responsible for being aware of and taking action'' to ensure that you meet all these requirements.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, attend the Office of Global Safety's orientation (see below), and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aYour main destination will be automatically registered with  Vanderbilt's emergency evacuation provider (Anvil Group).\u000a\u000aIf you are a US citizen, also ''register with the Department of State's [[STEP program|https://step.state.gov/step/]]'', which allows the US Embassy in your host country to contact you with updates, both before, during, and after an emergency. \u000a\u000a''If you are not a US citizen,'' you can still utilize publicly available resources from the US Department of State, such as online updates. You can also seek out comparable resources from your home country. If your home country has an embassy or consulate near your study abroad site, we recommend that you make note of the contact information. \u000a\u000aFinally, be sure to enter the phone number for Vanderbilt Incident Response for Travel (VIRT) into your mobile phone: ''+1 615-322-2745''. VIRT provides round-the-clock health and safety assistance to Vanderbilt community members around the world.\u000a\u000a|box|k\u000a|!Global Safety Pre-Departure Session for Fall 2021 |\u000a|''August 3 at 12:00 PM Central''|\u000a| Via [[Zoom|https://vanderbilt.zoom.us/meeting/register/tJEtcuyprTgiGNTLx_6UIdhd2mbQ066B5AyE]]|\u000a|This is a mandatory session with the Office of Global Safety, and you will need to attend in order to maintain eligibility to study abroad. Email [[globalsafety@vanderbilt.edu|mailto:globalsafety@vanderbilt.edu]] to schedule a makeup session, or if you have questions you'd like to see addressed in the session.|\u000a\u000a<<sidebar-box>>\u000a   [[What are some resources for monitoring regional safety overseas?|Resources for monitoring regional safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt\u2019s safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000a<div class="talkbox">\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|The ''coronavirus epidemic continues to present challenges worldwide''. Your program will provide operating procedures, guidelines, and updates while you are abroad. It is critical that you heed this advice and adhere to your program's policies as well as your locality's requirements. Disciplinary action from your program and legal action from local authorities are real possibilities.|\u000a|Most countries outside the United States have taken more nationalized and often more stringent approaches to COVID-19 measures. You are likely to find somewhat different COVID rules and more nuance in how those are applied. In particular, ''response to COVID outbreaks is more likely to involve strict, if temporary, lockdowns and targeted shutdown of services''. These may cause inconvenience, including interrupting classes or travel. It is possible that your coursework might need to go online for an extended period, or that a planned trip may have to be canceled.|\u000a|Requirements and restrictions imposed by the US government, foreign governments, regional governments, airlines, or other entities may change at any time. ''You are ultimately responsible for being aware of and taking action'' to ensure that you meet all these requirements.|\u000a</div>\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, attend the Office of Global Safety's orientation (see below), and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aYour main destination will be automatically registered with  Vanderbilt's emergency evacuation provider (Anvil Group).\u000a\u000aIf you are a US citizen, also ''register with the Department of State's [[STEP program|https://step.state.gov/step/]]'', which allows the US Embassy in your host country to contact you with updates, both before, during, and after an emergency. \u000a\u000a''If you are not a US citizen,'' you can still utilize publicly available resources from the US Department of State, such as online updates. You can also seek out comparable resources from your home country. If your home country has an embassy or consulate near your study abroad site, we recommend that you make note of the contact information. \u000a\u000aFinally, be sure to enter the phone number for Vanderbilt Incident Response for Travel (VIRT) into your mobile phone: ''+1 615-322-2745''. VIRT provides round-the-clock health and safety assistance to Vanderbilt community members around the world.\u000a\u000a|box|k\u000a|!Global Safety Pre-Departure Session for Fall 2021 |\u000a|''August 3 at 12:00 PM Central''|\u000a| Via [[Zoom|https://vanderbilt.zoom.us/meeting/register/tJEtcuyprTgiGNTLx_6UIdhd2mbQ066B5AyE]]|\u000a|This is a mandatory session with the Office of Global Safety, and you will need to attend in order to maintain eligibility to study abroad. Email [[globalsafety@vanderbilt.edu|mailto:globalsafety@vanderbilt.edu]] to schedule a makeup session, or if you have questions you'd like to see addressed in the session.|\u000a\u000a<<sidebar-box>>\u000a   [[What are some resources for monitoring regional safety overseas?|Resources for monitoring regional safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt\u2019s safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1013
 sg21
 VPreparing for safety
@@ -3225,12 +3225,12 @@ sg23
 g24
 ((I2021
 I7
-I28
-I14
-I8
-I53
-I2
-I209
+I30
+I15
+I21
+I58
+I4
+I211
 I1
 tp1015
 (dp1016
@@ -3270,21 +3270,21 @@ Tiddler
 p1028
 (dp1029
 g19
-V!Basic safety abroad\u000a!!!!Tips for staying safe while out and about\u000aYou are the best guarantor of your own safety! While abroad, commit yourself to being an alert and observant traveler at all times. Anticipate problems by learning to read the local environment, and by knowing where and when to be hypervigilant. If you aren't paying attention, you can easily become the victim of opportunistic crime.\u000a\u000aRoad safety issues and driving accidents are the //primary// cause of injury to students abroad. Learn local traffic patterns and traffic laws, as well as safe pedestrian habits. Given the risks of traffic accidents, ''Vanderbilt does //not// recommend the rental of motor vehicles while studying abroad''.\u000a\u000a''Know where you are going and look like you belong''. Definitely bring your map along, but don't check it in the open street, where looking lost could get you robbed. Be friendly, but don't hesitate to refuse offers of help from strangers, especially near ATMs, ticket machines, train and metro stations, and baggage lines. See a [[list of common travel scams|http://www.justtheflight.co.uk/blog/16-40-tourist-scams-to-avoid-this-summer.html]].\u000a\u000a''Avoid demonstrations and political disturbances'' of all kinds. Crowd behavior is unpredictable, and even peaceful marches can turn violent.\u000a\u000a''Get a working cell phone'' and carry it with you. Some programs require students to have a phone, and most will provide you information on getting a cheap phone that works locally. A phone can be a literal lifeline in an emergency--carry one! There is more information on phones abroad later in this guide.\u000a\u000aSecure your travel and identification documents at all times, and store duplicate copies in multiple places. ''Know your local emergency numbers'', particularly for your <<if $facultyled>>faculty leader<<else>>resident director and program staff<</if>>, and for the [[local equivalent of 911|$local911URL]].\u000a\u000a|box|k\u000a|!Resources|\u000a|[[GEO's Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]], for personal guidance on health and wellness as well as personalized safety guidance for all travelers|\u000a\u000a<<sidebar-box>>\u000a   [[Road safety overseas|Road safety overseas]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Alcohol and drugs">>\u005c
+V!Basic safety abroad\u000a!!!!Tips for staying safe while out and about\u000aYou are the best guarantor of your own safety! While abroad, commit yourself to being an alert and observant traveler at all times. Anticipate problems by learning to read the local environment, and by knowing where and when to be hypervigilant. If you aren't paying attention, you can easily become the victim of opportunistic crime.\u000a\u000aRoad safety issues and driving accidents are the //primary// cause of injury to students abroad. Learn local traffic patterns and traffic laws, as well as safe pedestrian habits. Given the risks of traffic accidents, ''Vanderbilt does //not// recommend the rental of motor vehicles while studying abroad''.\u000a\u000a''Know where you are going and look like you belong''. Definitely bring your map along, but don't check it in the open street, where looking lost could get you robbed. Be friendly, but don't hesitate to refuse offers of help from strangers, especially near ATMs, ticket machines, train and metro stations, and baggage lines. See a [[list of common travel scams|http://www.justtheflight.co.uk/blog/16-40-tourist-scams-to-avoid-this-summer.html]].\u000a\u000a''Avoid demonstrations and political disturbances'' of all kinds. Crowd behavior is unpredictable, and even peaceful marches can turn violent.\u000a\u000a''Get a working cell phone'' and carry it with you. Some programs require students to have a phone, and most will provide you information on getting a cheap phone that works locally. A phone can be a literal lifeline in an emergency--carry one! There is more information on phones abroad later in this guide.\u000a\u000aSecure your travel and identification documents at all times, and store duplicate copies in multiple places. ''Know your local emergency numbers'', particularly for your <<if $facultyled>>faculty leader<<else>>resident director and program staff<</if>>, and for the [[local equivalent of 911|$local911URL]].\u000a\u000a|box|k\u000a|!Resources|\u000a|Vanderbilt's [[Office of Global Safety|https://www.vanderbilt.edu/global/global-safety/]], for personal guidance on health and wellness as well as personalized safety guidance for all travelers|\u000a\u000a<<sidebar-box>>\u000a   [[Road safety overseas|Road safety overseas]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Alcohol and drugs">>\u005c
 p1030
 sg21
 VBasic safety abroad
 p1031
 sg23
 g24
-((I2019
+((I2021
+I7
+I30
+I14
+I49
+I5
 I4
-I2
-I16
-I33
-I9
-I1
-I92
+I211
 I1
 tp1032
 (dp1033
@@ -4004,7 +4004,7 @@ Tiddler
 p1255
 (dp1256
 g19
-Vsetup.version = "2021.07.28c";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "2021.07.30";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1257
 sg21
 VVersion & Reset
@@ -4013,12 +4013,12 @@ sg23
 g24
 ((I2021
 I7
-I28
-I17
-I46
-I54
-I2
-I209
+I30
+I15
+I24
+I18
+I4
+I211
 I1
 tp1259
 (dp1260
@@ -4219,12 +4219,12 @@ sg23
 g24
 ((I2021
 I7
-I28
-I14
-I42
-I42
-I2
-I209
+I30
+I15
+I21
+I23
+I4
+I211
 I1
 tp1322
 (dp1323
@@ -4264,7 +4264,7 @@ Tiddler
 p1335
 (dp1336
 g19
-V<<sidebar "Withdrawing from your program">>\u000aWe hope you won't have to withdraw from your program. But if you must, please note the following:\u000a\u000a<<if $vanderbilt>>|box|k\u000a|!Withdrawal Deadline|<<if $maymester>>You need to withdraw by the Withdrawal Deadline specified on the [[Maymester/Summer Sessions page|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>In your GEO account ([[log in|https://geo.vanderbilt.edu/index.cfm?FuseAction=Security.ExistingUserLogin]]), you will find a Withdrawal Deadline. You need to withdraw by this date<</if>> to avoid penalties.|\u000a|!Communication|You must withdraw with GEO in writing.<<if $facultyled>> Be sure to also notify your course instructor/faculty leader.<</if>>|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline, <<if $maymester>>the VU college offering the course<<else>>GEO<</if>> may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|<<else>>|box|k\u000a|!Obligations|If you signed an agreement with one of our partners (CIEE, CET, IFSA-Butler, etc.), you will owe them directly. GEO will generally bill such a fee via your student account.|\u000a|!Communication|You must withdraw with GEO in writing. If you applied to one of Vanderbilt's partner organizations (e.g., CIEE, CET, IFSA-Butler), you must contact //both// the partner and GEO to communicate your decision.|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline or after committing to attend, our partner may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|\u000a|!COVID-19|Many partners have adopted more flexible COVID-19 withdrawal policies. If you are uncertain what your program's policies are, check in with your [[GEO advisor|https://www.vanderbilt.edu/geo/advising/]].|<</if>>\u005c\u000a\u000a<<if $maymester>>Please read the full [[Maymester Withdrawal policy|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>Please read GEO's full [[Withdrawal Instructions and Policies|https://vanderbilt.edu/geo/advising/policies/#withdrawal]]<</if>>.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
+V<<sidebar "Withdrawing from your program">>\u000aWe hope you won't have to withdraw from your program. But if you must, please note the following:\u000a\u000a<<if $vanderbilt>>|box|k\u000a|!Withdrawal Deadline|<<if $maymester>>You need to withdraw by the Withdrawal Deadline specified on the [[Maymester/Summer Sessions page|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>In your GEO account ([[log in|https://geo.vanderbilt.edu/index.cfm?FuseAction=Security.ExistingUserLogin]]), you will find a Withdrawal Deadline. You need to withdraw by this date<</if>> to avoid penalties.|\u000a|!Communication|You must withdraw with GEO in writing.<<if $facultyled>> Be sure to also notify your course instructor/faculty leader.<</if>>|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline, <<if $maymester>>the VU college offering the course<<else>>GEO<</if>> may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|<<else>>|box|k\u000a|!Obligations|If you signed an agreement with one of our partners (CIEE, CET, IFSA-Butler, etc.), you will owe them directly. GEO will generally bill such a fee via your student account.|\u000a|!Communication|You must withdraw with GEO in writing. If you applied to one of Vanderbilt's partner organizations (e.g., CIEE, CET, IFSA), you must contact //both// the partner and GEO to communicate your decision.|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline or after committing to attend, our partner may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|\u000a|!COVID-19|Many partners have adopted more flexible COVID-19 withdrawal policies. If you are uncertain what your program's policies are, check in with your [[GEO advisor|https://www.vanderbilt.edu/geo/advising/]].|<</if>>\u005c\u000a\u000a<<if $maymester>>Please read the full [[Maymester Withdrawal policy|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>Please read GEO's full [[Withdrawal Instructions and Policies|https://vanderbilt.edu/geo/advising/policies/#withdrawal]]<</if>>.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
 p1337
 sg21
 VProgram withdrawal
@@ -4273,12 +4273,12 @@ sg23
 g24
 ((I2021
 I7
-I26
-I15
-I27
-I44
-I0
-I207
+I30
+I14
+I48
+I14
+I4
+I211
 I1
 tp1339
 (dp1340
@@ -4636,7 +4636,7 @@ Tiddler
 p1451
 (dp1452
 g19
-V!How to use international health insurance\u000a!!!!The basics of networks and claims\u000a\u000aMost international health insurers have their own network of partner clinics and hospitals around the world. When you use one of these <span title="A clinic is 'in-network' if the insurer has identified it as a preferred partner and has set up a direct billing relationship with the clinic.">in-network</span> clinics, billing should be straightforward: If the care you receive requires a <span title="A co-pay is the amount, usually expressed as a percentage, that the patient pays. The remainder is paid by the insurance company.">co-pay</span>, you will pay that to the clinic, usually on the day of your appointment. The clinic will then bill the balance to the insurer directly. You can find information on what percentage your insurer pays for different types of medical expenses in the insurer\u2019s guide to benefits.\u000a\u000a''What happens if it isn\u2019t convenient to visit an in-network clinic?''\u000aIf you can\u2019t visit an in-network clinic for any of your insurers, GEO recommends that you contact Vanderbilt\u2019s international health insurer (GeoBlue). You can call or email GeoBlue a few days in advance of an appointment and request that they set up a direct payment relationship with the provider.\u000a\u000aIf GeoBlue isn\u2019t able to set up direct payment, or you aren\u2019t able to call them ahead of time, don\u2019t worry. You can go to any medical establishment abroad, pay out of pocket, and then submit a claim to GeoBlue (remember to keep all your receipts!). If you need help with this process, please [[contact VIRT|mailto:virt@vanderbilt.edu]].\u000a\u000a''How do you decide which plan to use?''\u000aYou might have multiple insurance policies available while you\u2019re abroad. All students on GEO programs will have Vanderbilt\u2019s international insurance. Your study abroad program may have its own insurance that will also cover you, and students who are on exchange programs may also be required to purchase specific national health insurance. Here's how you can approach this:\u000a\u000a# Compare your coverage across the different policies: If one policy covers you for a specific condition and another does not, that is important information. It\u2019s also important to know whether the co-pays differ between insurance policies. If one covers you at 100%, but the other has a 20% co-pay, you will probably want to submit for reimbursement under the policy that grants full coverage.\u000a# If your program purchases specific health insurance on your behalf, your program staff probably has a good working knowledge of that insurer and its network of providers. Consult with them to get a good sense of where to go for treatment.\u000a# You can always use the coverage from Vanderbilt\u2019s international insurer (GeoBlue). If you do, VIRT is available to help you come to terms with the process.\u000a\u000a|box|k\u000a|!Resources|\u000a|Before you leave: [[GEO's Global Safety and Security Manager|https://www.vanderbilt.edu/geo/advising#safetyadvising]], for personal guidance on internation insurance, health and wellness, and safety for all travelers|\u000a|While you're abroad: [[Contact VIRT|mailto:virt@vanderbilt.edu]] to inquire about using Vanderbilt\u2019s international health insurance to access medical services|\u000a|[[Brief coverage and services description|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]] for Vanderbilt\u2019s international health insurer|\u000a|[[Detailed description of coverage|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15554]] for Vanderbilt\u2019s international health insurer|\u000a|[[General guide to medical care and insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]] from StudentsAbroad.com|\u000a\u000a<<segue "Culture shock">>\u005c\u000a\u000a
+V!How to use international health insurance\u000a!!!!The basics of networks and claims\u000a\u000aMost international health insurers have their own network of partner clinics and hospitals around the world. When you use one of these <span title="A clinic is 'in-network' if the insurer has identified it as a preferred partner and has set up a direct billing relationship with the clinic.">in-network</span> clinics, billing should be straightforward: If the care you receive requires a <span title="A co-pay is the amount, usually expressed as a percentage, that the patient pays. The remainder is paid by the insurance company.">co-pay</span>, you will pay that to the clinic, usually on the day of your appointment. The clinic will then bill the balance to the insurer directly. You can find information on what percentage your insurer pays for different types of medical expenses in the insurer\u2019s guide to benefits.\u000a\u000a''What happens if it isn\u2019t convenient to visit an in-network clinic?''\u000aIf you can\u2019t visit an in-network clinic for any of your insurers, GEO recommends that you contact Vanderbilt\u2019s international health insurer (GeoBlue). You can call or email GeoBlue a few days in advance of an appointment and request that they set up a direct payment relationship with the provider.\u000a\u000aIf GeoBlue isn\u2019t able to set up direct payment, or you aren\u2019t able to call them ahead of time, don\u2019t worry. You can go to any medical establishment abroad, pay out of pocket, and then submit a claim to GeoBlue (remember to keep all your receipts!). If you need help with this process, please [[contact VIRT|mailto:virt@vanderbilt.edu]].\u000a\u000a''How do you decide which plan to use?''\u000aYou might have multiple insurance policies available while you\u2019re abroad. All students on GEO programs will have Vanderbilt\u2019s international insurance. Your study abroad program may have its own insurance that will also cover you, and students who are on exchange programs may also be required to purchase specific national health insurance. Here's how you can approach this:\u000a\u000a# Compare your coverage across the different policies: If one policy covers you for a specific condition and another does not, that is important information. It\u2019s also important to know whether the co-pays differ between insurance policies. If one covers you at 100%, but the other has a 20% co-pay, you will probably want to submit for reimbursement under the policy that grants full coverage.\u000a# If your program purchases specific health insurance on your behalf, your program staff probably has a good working knowledge of that insurer and its network of providers. Consult with them to get a good sense of where to go for treatment.\u000a# You can always use the coverage from Vanderbilt\u2019s international insurer (GeoBlue). If you do, VIRT is available to help you come to terms with the process.\u000a\u000a|box|k\u000a|!Resources|\u000a|Before you leave: [[Vanderbilt's Office of Global Safety|https://www.vanderbilt.edu/global/global-safety/]], for personal guidance on internation insurance, health and wellness, and safety for all travelers|\u000a|While you're abroad: [[Contact VIRT|mailto:virt@vanderbilt.edu]] to inquire about using Vanderbilt\u2019s international health insurance to access medical services|\u000a|[[Brief coverage and services description|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=2361]] for Vanderbilt\u2019s international health insurer|\u000a|[[Detailed description of coverage|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=15554]] for Vanderbilt\u2019s international health insurer|\u000a|[[General guide to medical care and insurance|http://www.studentsabroad.com/handbook/medical-care-and-insurance.php?country=General]] from StudentsAbroad.com|\u000a\u000a<<segue "Culture shock">>\u005c\u000a\u000a
 p1453
 sg21
 VHow to use international health insurance
@@ -4645,12 +4645,12 @@ sg23
 g24
 ((I2021
 I7
-I26
-I16
-I41
-I32
-I0
-I207
+I30
+I14
+I50
+I13
+I4
+I211
 I1
 tp1455
 (dp1456

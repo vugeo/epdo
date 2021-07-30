@@ -3993,7 +3993,7 @@ tp1251
 Rp1252
 sbsa(dp1253
 g12
-I00
+I01
 sg13
 (lp1254
 F1826.017126485322
@@ -4004,7 +4004,7 @@ Tiddler
 p1255
 (dp1256
 g19
-Vsetup.version = "2021.07.30";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "2021.07.30a";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1257
 sg21
 VVersion & Reset
@@ -4015,8 +4015,8 @@ g24
 I7
 I30
 I15
-I24
-I18
+I50
+I51
 I4
 I211
 I1
@@ -4264,7 +4264,7 @@ Tiddler
 p1335
 (dp1336
 g19
-V<<sidebar "Withdrawing from your program">>\u000aWe hope you won't have to withdraw from your program. But if you must, please note the following:\u000a\u000a<<if $vanderbilt>>|box|k\u000a|!Withdrawal Deadline|<<if $maymester>>You need to withdraw by the Withdrawal Deadline specified on the [[Maymester/Summer Sessions page|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>In your GEO account ([[log in|https://geo.vanderbilt.edu/index.cfm?FuseAction=Security.ExistingUserLogin]]), you will find a Withdrawal Deadline. You need to withdraw by this date<</if>> to avoid penalties.|\u000a|!Communication|You must withdraw with GEO in writing.<<if $facultyled>> Be sure to also notify your course instructor/faculty leader.<</if>>|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline, <<if $maymester>>the VU college offering the course<<else>>GEO<</if>> may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|<<else>>|box|k\u000a|!Obligations|If you signed an agreement with one of our partners (CIEE, CET, IFSA-Butler, etc.), you will owe them directly. GEO will generally bill such a fee via your student account.|\u000a|!Communication|You must withdraw with GEO in writing. If you applied to one of Vanderbilt's partner organizations (e.g., CIEE, CET, IFSA), you must contact //both// the partner and GEO to communicate your decision.|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline or after committing to attend, our partner may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|\u000a|!COVID-19|Many partners have adopted more flexible COVID-19 withdrawal policies. If you are uncertain what your program's policies are, check in with your [[GEO advisor|https://www.vanderbilt.edu/geo/advising/]].|<</if>>\u005c\u000a\u000a<<if $maymester>>Please read the full [[Maymester Withdrawal policy|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>Please read GEO's full [[Withdrawal Instructions and Policies|https://vanderbilt.edu/geo/advising/policies/#withdrawal]]<</if>>.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
+V<<sidebar "Withdrawing from your program">>\u000aWe hope you won't have to withdraw from your program. But if you must, please note the following:\u000a\u000a<<if $vanderbilt>>|box|k\u000a|!Withdrawal Deadline|<<if $maymester>>You need to withdraw by the Withdrawal Deadline specified on the [[Maymester/Summer Sessions page|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>In your GEO account ([[log in|https://geo.vanderbilt.edu/index.cfm?FuseAction=Security.ExistingUserLogin]]), you will find a Withdrawal Deadline. You need to withdraw by this date<</if>> to avoid penalties.|\u000a|!Communication|You must withdraw with GEO in writing.<<if $facultyled>> Be sure to also notify your course instructor/faculty leader.<</if>>|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline, <<if $maymester>>the VU college offering the course<<else>>GEO<</if>> may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|<<else>>|box|k\u000a|!Obligations|If you signed an agreement with one of our partners (CIEE, CET, IFSA, etc.), you will owe them directly. GEO will generally bill such a fee via your student account.|\u000a|!Communication|You must withdraw with GEO in writing. If you applied to one of Vanderbilt's partner organizations (e.g., CIEE, CET, IFSA), you must contact //both// the partner and GEO to communicate your decision.|\u000a|!Potential Costs|If you withdraw after the stated Withdrawal Deadline or after committing to attend, our partner may bill a monetary penalty to your VU student account. Such penalties generally increase as the departure date gets closer. If you must withdraw, do so as early as you can!|\u000a|!COVID-19|Many partners have adopted more flexible COVID-19 withdrawal policies. If you are uncertain what your program's policies are, check in with your [[GEO advisor|https://www.vanderbilt.edu/geo/advising/]].|<</if>>\u005c\u000a\u000a<<if $maymester>>Please read the full [[Maymester Withdrawal policy|http://www.vanderbilt.edu/summer/maysession/abroad-listings.php]]<<else>>Please read GEO's full [[Withdrawal Instructions and Policies|https://vanderbilt.edu/geo/advising/policies/#withdrawal]]<</if>>.\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
 p1337
 sg21
 VProgram withdrawal
@@ -4274,9 +4274,9 @@ g24
 ((I2021
 I7
 I30
-I14
-I48
-I14
+I15
+I49
+I56
 I4
 I211
 I1

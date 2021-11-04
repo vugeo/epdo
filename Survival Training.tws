@@ -356,7 +356,7 @@ Tiddler
 p121
 (dp122
 g19
-V<<sidebar "Financial aid">>\u000a<<if not ($summer or $maymester)>>All ''semester-long programs available through GEO are eligible for US federal and Vanderbilt financial aid''. All types of financial aid other than work study are applicable to semester-long study abroad. If you aren't sure about your financial aid package, check with the [[Office of Financial Aid|http://www.vanderbilt.edu/financialaid/]].\u000a\u000a<<else>>''Summer and Maymester abroad programs are normally not eligible for Vanderbilt financial aid''. However, there may be some circumstances in which financial aid can apply to summer study. Speak with your academic dean and/or financial aid officer if you think an exception might apply in your case. \u000a\u000aThe [[Office of Financial Aid|http://www.vanderbilt.edu/financialaid/]] disburses funding for the scholarship funds administered by GEO. We expect that Financial Aid will credit GEO scholarship awards to your student account //on or about the day that your account is billed for your abroad program//. Please feel free to contact the Global Education Office's [[scholarship coordinator|https://vanderbilt.edu/geo/advising/]] with questions about this process.<</if>>\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
+V<<sidebar "Financial aid">>\u000a<<if not ($summer or $maymester)>>All ''semester-long programs available through GEO are eligible for US federal and Vanderbilt financial aid''. Most types of financial aid other than work study are applicable to semester-long study abroad. If you aren't sure about your financial aid package, check with the [[Office of Financial Aid|http://www.vanderbilt.edu/financialaid/]].\u000a\u000a<<else>>''Summer and Maymester abroad programs are normally not eligible for Vanderbilt financial aid''. However, there may be some circumstances in which financial aid can apply to summer study. Speak with your academic dean and/or financial aid officer if you think an exception might apply in your case. \u000a\u000aThe [[Office of Financial Aid|http://www.vanderbilt.edu/financialaid/]] disburses funding for the scholarship funds administered by GEO. We expect that Financial Aid will credit GEO scholarship awards to your student account //on or about the day that your account is billed for your abroad program//. Please feel free to contact the Global Education Office's [[scholarship coordinator|https://vanderbilt.edu/geo/advising/]] with questions about this process.<</if>>\u000a\u000a<<segue "Preparation and responsibilities">>\u005c
 p123
 sg21
 VFinancial aid
@@ -364,13 +364,13 @@ p124
 sg23
 g24
 ((I2021
-I7
-I26
+I11
+I4
 I15
-I13
-I32
-I0
-I207
+I47
+I11
+I3
+I308
 I1
 tp125
 (dp126
@@ -410,7 +410,7 @@ Tiddler
 p138
 (dp139
 g19
-V!<<if not $facultyled>>Study abroad c<<else>>C<</if>>ourse review\u000a!!!!<<if $facultyled>>How will your course(s) count?<<else>>Making sure your courses count for Vanderbilt credit<</if>>\u000a<<if $facultyled>>Courses taught by Vanderbilt faculty abroad are regular Vanderbilt courses. If you aren't sure whether your course(s) can count toward specific academic requirements, you can check with your academic adviser or your college's Office of Academic Services (see below).\u000a\u000aIf your course doesn't automatically count toward a particular requirement, you might be able to petition. Again, your college's Office of Academic Services will be your best resource for information on the process to follow. \u000a\u000aMany abroad courses taught by VU faculty count toward College of Arts and Science <span title="AXLE is the acronym for Achieving Excellence in Liberal Education. It is the core curriculum that all students in the College of Arts and Science must fulfill.">AXLE requirements</span>. Please speak to your faculty leader or A&S's Office of Academic Services to confirm what AXLE credit (if any) you will earn.\u000a\u000a|box|k\u000a|! Vanderbilt Offices of Academic Services|\u000a|[[College of Arts and Science|http://as.vanderbilt.edu/oas/]]|\u000a|[[Blair School of Music|http://blair.vanderbilt.edu/academics/]]|\u000a|[[Peabody College|http://peabody.vanderbilt.edu/admin-offices/oas/]]|\u000a|[[School of Engineering|http://engineering.vanderbilt.edu/academic-services/]]|\u000a<<else>>Every course you take <<if $vanderbilt>>outside your Vanderbilt study abroad center<<else>>abroad<</if>> needs to be evaluated by Vanderbilt faculty in order to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about this process of course review and evaluation is that ''you are responsible'' for making sure it gets done! The Office of the University Registrar facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[YES database of evaluated courses|https://acad.app.vanderbilt.edu/more/SearchAbroadCourses.action]] for your program. Are all of your courses already on the list? Are you clear on //how many// credits you'll earn for each course? If so, great, you're done!|\u000a|<li>2</li>|If one or more of your courses is not on the list: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|http://registrar.vanderbilt.edu/study-abroad-course-review/#request]] for each course.|\u000a|<li>4</li>|The Registrar's Study Abroad Analysis team will do the rest! They contact faculty and find out how the course will count, and then email you the result.|\u000a\u000aNote that the ''number of credits you will receive'' listed in the YES database of evaluated courses ''may not match the number of credits your program provider suggests''. In that situation, the YES database is the authoritative reference for the number of credits you will receive at Vanderbilt. You are responsible for checking on the number of credits that you will receive for all courses you take abroad. Please email <a class="link-external" target="_blank" href="mailto:StudyAbroadAnalysis@Vanderbilt.edu">StudyAbroadAnalysis@Vanderbilt.edu</a> for any questions you have about the database or about course reviews you have in process.\u000a\u000aNeed more information? Check out GEO's [[Study Abroad Course Review|https://www.vanderbilt.edu/geo/review/]] page, or talk with your [[GEO advisor|https://www.vanderbilt.edu/geo/advising/]].<</if>>\u000a\u000a<<segue "Preparing for safety">>\u005c
+V!<<if not $facultyled>>Study abroad c<<else>>C<</if>>ourse review\u000a!!!!<<if $facultyled>>How will your course(s) count?<<else>>Making sure your courses count for Vanderbilt credit<</if>>\u000a<<if $facultyled>>Courses taught by Vanderbilt faculty abroad are regular Vanderbilt courses. If you aren't sure whether your course(s) can count toward specific academic requirements, you can check with your academic adviser or your college's Office of Academic Services (see below).\u000a\u000aIf your course doesn't automatically count toward a particular requirement, you might be able to petition. Again, your college's Office of Academic Services will be your best resource for information on the process to follow. \u000a\u000aMany abroad courses taught by VU faculty count toward College of Arts and Science <span title="AXLE is the acronym for Achieving Excellence in Liberal Education. It is the core curriculum that all students in the College of Arts and Science must fulfill.">AXLE requirements</span>. Please speak to your faculty leader or A&S's Office of Academic Services to confirm what AXLE credit (if any) you will earn.\u000a\u000a|box|k\u000a|! Vanderbilt Offices of Academic Services|\u000a|[[College of Arts and Science|http://as.vanderbilt.edu/oas/]]|\u000a|[[Blair School of Music|http://blair.vanderbilt.edu/academics/]]|\u000a|[[Peabody College|http://peabody.vanderbilt.edu/admin-offices/oas/]]|\u000a|[[School of Engineering|http://engineering.vanderbilt.edu/academic-services/]]|\u000a<<else>>Every course you take <<if $vanderbilt>>outside your Vanderbilt study abroad center<<else>>abroad<</if>> needs to be evaluated by Vanderbilt faculty in order to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about this process of course review and evaluation is that ''you are responsible'' for making sure it gets done! The Office of the University Registrar facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[YES database of evaluated courses|https://acad.app.vanderbilt.edu/more/SearchAbroadCourses.action]] for your program. Are all of your courses already on the list? Are you clear on //how many// credits you'll earn for each course? If so, great, you're done!|\u000a|<li>2</li>|If one or more of your courses is not on the list: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|http://registrar.vanderbilt.edu/study-abroad-course-review/#request]] for each course.|\u000a|<li>4</li>|The Registrar's Study Abroad Analysis team will do the rest! They contact faculty and find out how the course will count, and then email you the result.|\u000a|<li>5</li>|If you want a course to count differently than is listed on YES, your next step will depend on your college. See GEO's [[Study Abroad Course Review|https://www.vanderbilt.edu/geo/review/]] for more information.|\u000a\u000aNote that the ''number of credits you will receive'' listed in the YES database of evaluated courses ''may not match the number of credits your program provider suggests''. In that situation, the YES database is the authoritative reference for the number of credits you will receive at Vanderbilt. You are responsible for checking on the number of credits that you will receive for all courses you take abroad. Please email <a class="link-external" target="_blank" href="mailto:StudyAbroadAnalysis@Vanderbilt.edu">StudyAbroadAnalysis@Vanderbilt.edu</a> for any questions you have about the database or about course reviews you have in process.\u000a\u000aNeed more information? Check out GEO's [[Study Abroad Course Review|https://www.vanderbilt.edu/geo/review/]] page, or talk with your [[GEO advisor|https://www.vanderbilt.edu/geo/advising/]].<</if>>\u000a\u000a<<segue "Preparing for safety">>\u005c
 p140
 sg21
 VStudy abroad course review
@@ -420,9 +420,9 @@ g24
 ((I2021
 I11
 I4
-I8
-I58
-I17
+I15
+I50
+I52
 I3
 I308
 I1
@@ -726,7 +726,7 @@ Tiddler
 p236
 (dp237
 g19
-V<<sidebar "Getting or renewing a passport">>\u000a<div class="talkbox">\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|US passport processing has seen significant delays during the pandemic. Be sure to [[check processing times|https://travel.state.gov/content/travel/en/passports.html/]] and plan accordingly.|\u000a</div>\u000aTo get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.\u000a\u000aUS citizens should visit the State Department's website for [[passport services|https://travel.state.gov/content/travel/en/passports.html/]] to view requirements and to check on [[current processing times|https://travel.state.gov/content/travel/en/passports/requirements/processing-times.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications.\u000a\u000aIn Nashville, locations near Vanderbilt where you can apply for a passport include:\u000a\u000a|alternating-rows|k\u000a|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|\u000a|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|\u000a|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|\u000a|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|\u000a\u000aYou may need to ''call in advance'' for an appointment.\u000a\u000aYou'll also need to get ''passport photos'' taken before you can apply. FedEx-Kinko's, Walgreens, and CVS are locations near Vandy that can take passport photos.\u000a\u000a<<segue "Document security">>\u005c
+V<<sidebar "Getting or renewing a passport">>\u000a<div class="talkbox">\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|US passport processing has seen significant delays during the pandemic. Be sure to [[check processing times|https://travel.state.gov/content/travel/en/passports.html/]] and plan accordingly.|\u000a|If you will need a new passport to study abroad and have not yet begun the process of applying, ''contact your GEO advisor immediately!''|\u000a</div>\u000aTo get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.\u000a\u000aUS citizens should visit the State Department's website for [[passport services|https://travel.state.gov/content/travel/en/passports.html/]] to view requirements and to check on [[current processing times|https://travel.state.gov/content/travel/en/passports/requirements/processing-times.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications.\u000a\u000aIn Nashville, locations near Vanderbilt where you can apply for a passport include:\u000a\u000a|alternating-rows|k\u000a|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|\u000a|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|\u000a|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|\u000a|![[Davidson County Clerk|http://www.nashvilleclerk.com/living/passports/]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|\u000a\u000aYou may need to ''call in advance'' for an appointment.\u000a\u000aYou'll also need to get ''passport photos'' taken before you can apply. FedEx-Kinko's, Walgreens, and CVS are locations near Vandy that can take passport photos.\u000a\u000a<<segue "Document security">>\u005c
 p238
 sg21
 VGetting or renewing a passport
@@ -734,13 +734,13 @@ p239
 sg23
 g24
 ((I2021
-I7
-I28
-I16
-I12
-I31
-I2
-I209
+I11
+I4
+I15
+I53
+I45
+I3
+I308
 I1
 tp240
 (dp241
@@ -886,7 +886,7 @@ Tiddler
 p286
 (dp287
 g19
-V!Money\u000a!!!!Use debit and credit cards wisely to save money\u000aThe amount of money you spend while studying abroad will vary depending on the local cost of living, your personal spending habits, independent travel, and so on. //How you access your money// can also play a role in maintaining your budget.\u000a\u000a|!COVID-19 Considerations|\u000a|Due to concerns about the spreading of COVID-19, ''use of cash may be discouraged in your host country''. Be prepared to rely on debit or credit cards and/or other cashless methods of payment.| \u000a\u000aMany businesses will not accept plastic, especially for smaller purchases, so it's a good idea to have ''cash'' on hand throughout your time abroad. The most cost-effective way to get cash abroad is to use your ''debit card'' (not a credit card!) in an ATM. You can usually find out where the ATMs you might need are before you leave the US--ask your bank how.\u000a\u000aGEO also recommends that you bring a ''credit card''. Be aware that every credit card purchase or debit card withdrawal will likely carry transaction fees. Shop around a bit for the best rates before you leave the US, but also minimize the number of times you use your cards. Take out as much cash as you feel comfortable with each time you use the ATM, and use your credit card only when necessary or when you have an especially large purchase.\u000a\u000aSome merchants will offer to convert your purchase into dollars before your card payment. GEO does not recommend this practice\u2014you will be charged sometimes quite high exchange rates and fees for the privilege. Make the effort to ''learn how to mentally convert your host country's currency'' on the fly instead!\u000a\u000aBefore you depart the US, and before traveling to a new country, you should ''inform your bank(s) of your location.'' If you don't, you may find your cards canceled as an anti-fraud measure! \u000a\u000aMuch of the rest of the world, including Europe, uses a slightly different technology for credit cards (chip-and-PIN) from the type that is most commonly used in the United States (chip-and-signature). This shouldn't cause you much headache, but it may mean that once in a while you can't complete a transaction. See the In-Depth Information section below for more information on US-issued cards.\u000a\u000a|box|k\u000a|!Summary|\u000a|Before you leave, consider seeking out the US banks with the best currency conversion and transaction fees for your host country.|\u000a|Call your bank(s) to let them know you'll be abroad. Don't forget to call again whenever you cross an international border.|\u000a|Use your debit card in an ATM to get cash on a weekly or biweekly basis.|\u000a|Use your credit card for purchases. Do not use your debit card except for ATM withdrawals!|\u000a|Use your credit card for large purchases if possible.|\u000a|Only get cash from an ATM using your credit card in a dire emergency. Cash advances on credit cards carry high fees.|\u000a\u000a<<sidebar-box>>\u000a   [[More on credit cards|More on credit cards]]\u000a   [[How do I budget for myself?|Basics of budgeting]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Living abroad">>\u005c
+V!Money\u000a!!!!Use debit and credit cards wisely to save money\u000aThe amount of money you spend while studying abroad will vary depending on the local cost of living, your personal spending habits, independent travel, and so on. //How you access your money// can also play a role in maintaining your budget.\u000a\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|Due to concerns about the spreading of COVID-19, ''use of cash may be discouraged in your host country''. Be prepared to rely on debit or credit cards and/or other cashless methods of payment.| \u000a\u000aMany businesses will not accept plastic, especially for smaller purchases, so it's a good idea to have ''cash'' on hand throughout your time abroad. The most cost-effective way to get cash abroad is to use your ''debit card'' (not a credit card!) in an ATM. You can usually find out where the ATMs you might need are before you leave the US--ask your bank how.\u000a\u000aGEO also recommends that you bring a ''credit card''. Be aware that every credit card purchase or debit card withdrawal will likely carry transaction fees. Shop around a bit for the best rates before you leave the US, but also minimize the number of times you use your cards. Take out as much cash as you feel comfortable with each time you use the ATM, and use your credit card only when necessary or when you have an especially large purchase.\u000a\u000aSome merchants will offer to convert your purchase into dollars before your card payment. GEO does not recommend this practice\u2014you will be charged sometimes quite high exchange rates and fees for the privilege. Make the effort to ''learn how to mentally convert your host country's currency'' on the fly instead!\u000a\u000aBefore you depart the US, and before traveling to a new country, you should ''inform your bank(s) of your location.'' If you don't, you may find your cards canceled as an anti-fraud measure! \u000a\u000aMuch of the rest of the world, including Europe, uses a slightly different technology for credit cards (chip-and-PIN) from the type that is most commonly used in the United States (chip-and-signature). This shouldn't cause you much headache, but it may mean that once in a while you can't complete a transaction. See the In-Depth Information section below for more information on US-issued cards.\u000a\u000a|box|k\u000a|!Summary|\u000a|Before you leave, consider seeking out the US banks with the best currency conversion and transaction fees for your host country.|\u000a|Call your bank(s) to let them know you'll be abroad. Don't forget to call again whenever you cross an international border.|\u000a|Use your debit card in an ATM to get cash on a weekly or biweekly basis.|\u000a|Use your credit card for purchases. Do not use your debit card except for ATM withdrawals!|\u000a|Use your credit card for large purchases if possible.|\u000a|Only get cash from an ATM using your credit card in a dire emergency. Cash advances on credit cards carry high fees.|\u000a\u000a<<sidebar-box>>\u000a   [[More on credit cards|More on credit cards]]\u000a   [[How do I budget for myself?|Basics of budgeting]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Living abroad">>\u005c
 p288
 sg21
 VMoney
@@ -896,9 +896,9 @@ g24
 ((I2021
 I11
 I4
+I17
 I10
-I18
-I55
+I41
 I3
 I308
 I1
@@ -2008,9 +2008,9 @@ g24
 ((I2021
 I11
 I4
-I10
-I26
-I58
+I14
+I43
+I14
 I3
 I308
 I1
@@ -2258,7 +2258,7 @@ Tiddler
 p712
 (dp713
 g19
-V<img alt="Yellow warning symbol--pay attention!" src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any further, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "" "Photo showing location of expiration date on the main passport information page. It is located toward the bottom of the passport page.">>Most countries will not allow you <<if $facultyled or $shortterm>>to get a student visa or residence permit<<else>>to enter<</if>> if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Getting or renewing a passport]]\u000a<</sidebar-box>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[US Department of State video on passport requirements|https://www.youtube.com/watch?v=yAQdMNqvrxE]]|\u000a\u000a<<segue "Passport and document security">>
+V<img alt="Yellow warning symbol--pay attention!" src="images/warning.png" class="left inline" style="width:40px; margin-right:10px;" />\u005c\u000a!Passport Check\u000a!!!!Be sure that you have a valid passport, and that it will not be expiring within the next year or so.\u000aBefore we go any further, take a moment to check your passport's expiration date.\u000a\u000a<<figure "images/passport_expiration.jpg" "Where to find the expiration date on your main passport page." "" "Photo showing location of expiration date on the main passport information page. It is located toward the bottom of the passport page.">>Most countries will not allow you <<if $facultyled or $shortterm>>to get a student visa or residence permit<<else>>to enter<</if>> if your passport is near its expiration date. ''Be sure that your passport does not expire until at least 6 months after your program ends!''\u000a\u000a|box|k\u000a|!COVID Considerations|\u000a|For reasons related to COVID-19, [[processing times|https://travel.state.gov/content/travel/en/passports/how-apply/processing-times.html]] for US passports are longer than usual. If you will need a new passport to study abroad and have not yet begun the process of applying, ''contact your GEO advisor immediately!''|\u000a\u000a<<sidebar-box>>\u000a	[[Uh oh, it looks like I need a new passport!|Getting or renewing a passport]]\u000a<</sidebar-box>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[US Department of State video on passport requirements|https://www.youtube.com/watch?v=yAQdMNqvrxE]]|\u000a\u000a<<segue "Passport and document security">>
 p714
 sg21
 VPassport Check
@@ -2266,13 +2266,13 @@ p715
 sg23
 g24
 ((I2021
-I7
-I28
-I16
-I6
-I16
-I2
-I209
+I11
+I4
+I15
+I54
+I44
+I3
+I308
 I1
 tp716
 (dp717
@@ -3216,7 +3216,7 @@ Tiddler
 p1011
 (dp1012
 g19
-V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000a<div class="talkbox">\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|The ''coronavirus epidemic continues to present challenges worldwide''. Your program will provide operating procedures, guidelines, and updates while you are abroad. It is critical that you heed this advice and adhere to your program's policies as well as your locality's requirements. Disciplinary action from your program and legal action from local authorities are real possibilities.|\u000a|Most countries outside the United States have taken more nationalized and often more stringent approaches to COVID-19 measures. You are likely to find somewhat different COVID rules and more nuance in how those are applied. In particular, ''response to COVID outbreaks is more likely to involve strict, if temporary, lockdowns and targeted shutdown of services''. These may cause inconvenience, including interrupting classes or travel. It is possible that your coursework might need to go online for an extended period, or that a planned trip may have to be canceled.|\u000a|Requirements and restrictions imposed by the US government, foreign governments, regional governments, airlines, or other entities may change at any time. ''You are ultimately responsible for being aware of and taking action'' to ensure that you meet all these requirements.|\u000a|Students who are not vaccinated against COVID-19 may face additional obstacles such as, for example, the requirement to undergo regular testing in order to participate in many activities. ''Governments may not recognize all types of COVID vaccines as fulfilling requirements''--be sure to check whether your vaccine is recognized. Also check whether your proof of vaccination (CDC card, etc.) will be accepted by all countries you hope to spend time in.|\u000a|It is possible that ''governments may impose vaccination (or other) requirements'', including booster shots, at any time.|\u000a</div>\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, attend the Office of Global Safety's orientation (see below), and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aYour main destination will be automatically registered with  Vanderbilt's emergency evacuation provider (Anvil Group).\u000a\u000aIf you are a US citizen, also ''register with the Department of State's [[STEP program|https://step.state.gov/step/]]'', which allows the US Embassy in your host country to contact you with updates, both before, during, and after an emergency. \u000a\u000a''If you are not a US citizen,'' you can still utilize publicly available resources from the US Department of State, such as online updates. You can also seek out comparable resources from your home country. If your home country has an embassy or consulate near your study abroad site, we recommend that you make note of the contact information. \u000a\u000aFinally, be sure to enter the phone number for Vanderbilt Incident Response for Travel (VIRT) into your mobile phone: ''+1 615-322-2745''. VIRT provides round-the-clock health and safety assistance to Vanderbilt community members around the world.\u000a\u000a|box|k\u000a|!Global Safety Pre-Departure Session|\u000a|''Date and time to be determined''|\u000a| | Via Zoom |\u000a|This is a mandatory session with the Office of Global Safety, and you will need to attend in order to maintain eligibility to study abroad. Email [[globalsafety@vanderbilt.edu|mailto:globalsafety@vanderbilt.edu]] if you have questions you'd like to see addressed in the session.|\u000a\u000a<<sidebar-box>>\u000a   [[What are some resources for monitoring regional safety overseas?|Resources for monitoring regional safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt\u2019s safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000a<div class="talkbox">\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|The ''coronavirus epidemic continues to present challenges worldwide''. Your program will provide operating procedures, guidelines, and updates while you are abroad. It is critical that you heed this advice and adhere to your program's policies as well as your locality's requirements. Disciplinary action from your program and legal action from local authorities are real possibilities.|\u000a|Most countries outside the United States have taken more nationalized and often more stringent approaches to COVID-19 measures. You are likely to find somewhat different COVID rules and more nuance in how those are applied. In particular, ''response to COVID outbreaks is more likely to involve strict, if temporary, lockdowns and targeted shutdown of services''. These may cause inconvenience, including interrupting classes or travel. It is possible that your coursework might need to go online for an extended period, or that a planned trip may have to be canceled.|\u000a|Requirements and restrictions imposed by the US government, foreign governments, regional governments, airlines, or other entities may change at any time. ''You are ultimately responsible for being aware of and taking action'' to ensure that you meet all these requirements.|\u000a|Students who are not vaccinated against COVID-19 may face additional obstacles such as, for example, the requirement to undergo regular testing in order to participate in many activities. ''Governments may not recognize all types of COVID vaccines as fulfilling requirements''--be sure to check whether your vaccine is recognized. Also check whether your proof of vaccination (CDC card, etc.) will be accepted by all countries you hope to spend time in.|\u000a|It is possible that ''governments may impose vaccination (or other) requirements'', including booster shots, at any time.|\u000a</div>\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, attend the Office of Global Safety's orientation (see below), and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aYour main destination will be automatically registered with  Vanderbilt's emergency evacuation provider (Anvil Group).\u000a\u000aIf you are a US citizen, also ''register with the Department of State's [[STEP program|https://step.state.gov/step/]]'', which allows the US Embassy in your host country to contact you with updates, both before, during, and after an emergency. \u000a\u000a''If you are not a US citizen,'' you can still utilize publicly available resources from the US Department of State, such as online updates. You can also seek out comparable resources from your home country. If your home country has an embassy or consulate near your study abroad site, we recommend that you make note of the contact information. \u000a\u000aFinally, be sure to enter the phone number for Vanderbilt Incident Response for Travel (VIRT) into your mobile phone: ''+1 615-322-2745''. VIRT provides round-the-clock health and safety assistance to Vanderbilt community members around the world.\u000a\u000a|box|k\u000a|!Global Safety Pre-Departure Session|\u000a|''Date and time to be determined''|\u000a| Via Zoom |\u000a|This is a mandatory session with the Office of Global Safety, and you will need to attend in order to maintain eligibility to study abroad. Email [[globalsafety@vanderbilt.edu|mailto:globalsafety@vanderbilt.edu]] if you have questions you'd like to see addressed in the session.|\u000a\u000a<<sidebar-box>>\u000a   [[What are some resources for monitoring regional safety overseas?|Resources for monitoring regional safety]]\u000a   [[How does Vanderbilt minimize risks that students face abroad?|Vanderbilt\u2019s safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1013
 sg21
 VPreparing for safety
@@ -3226,9 +3226,9 @@ g24
 ((I2021
 I11
 I4
-I10
-I45
-I11
+I14
+I48
+I44
 I3
 I308
 I1
@@ -3640,7 +3640,7 @@ Tiddler
 p1143
 (dp1144
 g19
-V!Alcohol and drugs\u000a!!!!Intoxication is a major contributor to injury abroad\u000aVanderbilt recommends that you avoid the use of alcohol and controlled substances while overseas, even if you are of legal age. Intoxication is a major factor in injuries and deaths experienced by American students abroad. Physical and mental impairment also make it difficult for you to take precautions for your own safety and well-being.\u000a\u000aIf you do drink, do so in moderation. Be careful what you consume, and always watch your drink to avoid having it spiked with a dangerous substance. \u000a\u000aRemember that your behavior is subject to local laws, to policies set by your program provider and/or university, //and// to [[Vanderbilt policy|https://www.vanderbilt.edu/student_handbook/alcoholic-beverage-and-controlled-substances-policies/]]. Laws governing controlled substances may differ greatly from those in your home country, and it is your responsibility to be aware. Public intoxication is always inappropriate, may be illegal, and can lead to serious--even fatal--consequences.\u000a\u000aIf you are uncertain about specific policies or laws abroad, please consult with a local program representative. GEO staff can also help you clarify policies.\u000a\u000a<<sidebar-box>>\u000a   [[Can I be arrested abroad?|Your legal status in your host country]]\u000a<</sidebar-box>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt Center for Student Wellbeing|https://www.vanderbilt.edu/healthydores/]] provides information, resources, and referrals|\u000a|[[Vanderbilt University Counseling Center|https://www.vanderbilt.edu/ucc/]], available for counseling, assessment, and treatment during and after your stay abroad|\u000a|[[Vanderbilt's Office of Global Safety|https://www.vanderbilt.edu/global/global-safety/]], for personal guidance on health and wellness as well as personalized safety guidance for all travelers|\u000a|[[Alcoholics Anonymous international meeting resources|http://www.aa.org/pages/en_US/find-local-aa/world/1]]|\u000a|[[Vanderbilt Student Handbook Alcohol Policy|https://www.vanderbilt.edu/student_handbook/alcoholic-beverage-and-controlled-substances-policies/]]|\u000a\u000a<<segue "Personal emergencies">>\u005c
+V!Alcohol and drugs\u000a!!!!Intoxication is a major contributor to injury abroad\u000aVanderbilt recommends that you avoid the use of alcohol and controlled substances while overseas, even if you are of legal age. Intoxication is a major factor in injuries and deaths experienced by students abroad. Physical and mental impairment also make it difficult for you to take precautions for your own safety and well-being.\u000a\u000aIf you do drink, do so in moderation. Be careful what you consume, and always watch your drink to avoid having it spiked with a dangerous substance. \u000a\u000aRemember that your behavior is subject to local laws, to policies set by your program provider and/or university, //and// to [[Vanderbilt policy|https://www.vanderbilt.edu/student_handbook/alcoholic-beverage-and-controlled-substances-policies/]]. Laws governing controlled substances may differ greatly from those in your home country, and it is your responsibility to be aware. Public intoxication is always inappropriate, may be illegal, and can lead to serious--even fatal--consequences.\u000a\u000aIf you are uncertain about specific policies or laws abroad, please consult with a local program representative. GEO staff can also help you clarify policies.\u000a\u000a<<sidebar-box>>\u000a   [[Can I be arrested abroad?|Your legal status in your host country]]\u000a<</sidebar-box>>\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt Center for Student Wellbeing|https://www.vanderbilt.edu/healthydores/]] provides information, resources, and referrals|\u000a|[[Vanderbilt University Counseling Center|https://www.vanderbilt.edu/ucc/]], available for counseling, assessment, and treatment during and after your stay abroad|\u000a|[[Vanderbilt's Office of Global Safety|https://www.vanderbilt.edu/global/global-safety/]], for personal guidance on health and wellness as well as personalized safety guidance for all travelers|\u000a|[[Alcoholics Anonymous international meeting resources|http://www.aa.org/pages/en_US/find-local-aa/world/1]]|\u000a|[[Vanderbilt Student Handbook Alcohol Policy|https://www.vanderbilt.edu/student_handbook/alcoholic-beverage-and-controlled-substances-policies/]]|\u000a\u000a<<segue "Personal emergencies">>\u005c
 p1145
 sg21
 VAlcohol and drugs
@@ -3650,9 +3650,9 @@ g24
 ((I2021
 I11
 I4
-I9
-I54
-I17
+I15
+I43
+I58
 I3
 I308
 I1
@@ -4004,7 +4004,7 @@ Tiddler
 p1255
 (dp1256
 g19
-Vsetup.version = "2021.11.04";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "2021.11.04f";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1257
 sg21
 VVersion & Reset
@@ -4014,9 +4014,9 @@ g24
 ((I2021
 I11
 I4
-I10
-I33
-I27
+I15
+I44
+I12
 I3
 I308
 I1
@@ -4045,7 +4045,7 @@ tp1267
 Rp1268
 sbsa(dp1269
 g12
-I01
+I00
 sg13
 (lp1270
 F1611.7076735688142
@@ -4056,7 +4056,7 @@ Tiddler
 p1271
 (dp1272
 g19
-V!Register your participation\u000a!!!!You have completed the training!\u000aCongratulations! Much of the information you've read through will continue to be useful while you're abroad and once you return home. After you register your participation, click through to the end and ''bookmark the Index page''--you'll be able to easily go back and read any information in this presentation! Also, don't forget to download GEO's [[Traveler Checklist|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=14068]] to help you keep track of many of the things you need to do next.\u000a\u000aIf you are a student, please ''register your participation'' in this training by clicking on the button below! Fill in your name and email address, then submit the form. Note that it may take a few days before your registration is reflected on your GEO account.\u000a\u000a<<button "Register your participation" https://docs.google.com/forms/d/e/1FAIpQLSctpIhHe4POdUH68s19ccalPUlq5UjZ1nEoo7gbXeu3ojQyZg/viewform?usp=sf_link>><</button>>\u000a\u000a/% <<if storage.getItem("registration") neq true>><div id="registration"><<button "Register your participation">><<if $UAinfo.os.name eq "Android" or $UAinfo.os.name eq "iOS" or $UAinfo.os.name eq "IE" or config.historyMode eq HistoryMode.Hash or $browserSupport eq "no" or isHandheld() eq true>><<run window.open('https://form.jotformpro.com/form/41326113066949', 'blank','scrollbars=yes,toolbar=no,width=700,height=500');>>ePDO Registration</a><<else>><<run showRegistration(); registrationUpdate();>><</if>><</button>></div>\u000a<iframe id="JotFormIFrame" onload="registrationInit();" allowtransparency="true" src="Register/registration.html" frameborder="0" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0] + t[1]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="message-box-symbol"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>>\u005c\u000aIf you have trouble submitting the registration form, please go [[here|https://form.jotformpro.com/form/41326113066949]].%/\u000a\u000aOnce you've registered, you may want to check out the next couple of pages, which include ''credits'' for the student photographs and other pieces that went into making this training document, as well as the bookmarkable ''index'' that  will allow you to come back and navigate to any page in the presentation.\u000a\u000aRemember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://vanderbilt.edu/geo/advising/]].\u000a\u000a<<segue "Credits">>\u005c
+V!Register your participation\u000a!!!!You have completed the training!\u000aCongratulations! Much of the information you've read through will continue to be useful while you're abroad and once you return home. After you register your participation, click through to the end and ''bookmark the Index page''--you'll be able to easily go back and read any information in this presentation! Also, don't forget to download GEO's [[Traveler Checklist|https://geo.vanderbilt.edu/_customtags/ct_FileRetrieve.cfm?File_ID=14068]] to help you keep track of many of the things you need to do next.\u000a\u000aIf you are a student, please ''register your participation'' in this training by clicking on the button below! Fill in your name and email address, then submit the form. Note that it may take a few days before your registration is reflected on your GEO account.\u000a\u000a<div id="registration"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSctpIhHe4POdUH68s19ccalPUlq5UjZ1nEoo7gbXeu3ojQyZg/viewform?usp=sf_link"><<button "Register your participation">><</button>></a></div>\u000a/% <<if storage.getItem("registration") neq true>><div id="registration"><<button "Register your participation">><<if $UAinfo.os.name eq "Android" or $UAinfo.os.name eq "iOS" or $UAinfo.os.name eq "IE" or config.historyMode eq HistoryMode.Hash or $browserSupport eq "no" or isHandheld() eq true>><<run window.open('https://form.jotformpro.com/form/41326113066949','blank','scrollbars=yes,toolbar=no,width=700,height=500');>>ePDO Registration</a><<else>><<run showRegistration(); registrationUpdate();>><</if>><</button>></div>\u000a<iframe id="JotFormIFrame" onload="registrationInit();" allowtransparency="true" src="Register/registration.html" frameborder="0" scrolling="no"></iframe>\u005c\u000a<<script>>\u000a//Code from JotForm\u000awindow.handleIFrameMessage=function(e){var t=e.data.split(":");console.log(t[0] + t[1]);var n=document.getElementById("JotFormIFrame");if(!n)return;switch(t[0]){case"scrollIntoView":n.scrollIntoView();break;case"setHeight":n.style.height=t[1]+"px";break}};if(window.addEventListener){window.addEventListener("message",handleIFrameMessage,false)}else if(window.attachEvent){window.attachEvent("onmessage",handleIFrameMessage)}\u000a<</script>>\u005c\u000a<<else>>\u005c\u000a<div class="message-box success"><div class="message-box-symbol"></div><span>&nbsp;&nbsp;You have successfully registered your participation!</span></div>\u000a<</if>> %/ \u005c\u000aIf you have trouble submitting the registration form, please go [[here|https://docs.google.com/forms/d/e/1FAIpQLSctpIhHe4POdUH68s19ccalPUlq5UjZ1nEoo7gbXeu3ojQyZg/viewform?usp=sf_link]].\u000a\u000aOnce you've registered, you may want to check out the next couple of pages, which include ''credits'' for the student photographs and other pieces that went into making this training document, as well as the bookmarkable ''index'' that  will allow you to come back and navigate to any page in the presentation.\u000a\u000aRemember, if you have questions about your next steps or any other aspect of your study abroad experience, GEO staff are standing by! [[Contact us|https://vanderbilt.edu/geo/advising/]].\u000a\u000a<<segue "Credits">>\u005c
 p1273
 sg21
 VRegister your participation
@@ -4066,9 +4066,9 @@ g24
 ((I2021
 I11
 I4
-I14
-I31
-I26
+I15
+I34
+I15
 I3
 I308
 I1

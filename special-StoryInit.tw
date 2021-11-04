@@ -101,7 +101,7 @@
         }
     });
     $("#drawer-contact-link").click(function() {
-        window.open("https://geo.vanderbilt.edu/index.cfm?FuseAction=Abroad.ViewLink&Parent_ID=1B2936BD-9D45-883A-02A56AC77951A353&Link_ID=1B34B64E-9B4D-6FCE-D278333739D84B5D&pID=1&lID=5");
+        window.open("https://www.vanderbilt.edu/geo/advising/");
     });
     /**** Sound interface **** $(right_drawer).append("<div id='nav-control' class='drawer-section'><h4>Navigation</h4><p class='menu-legend'>Use this menu to quickly navigate to any section you have already read.</p><div id='nav-container'></div></div>"); ****/
 

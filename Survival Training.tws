@@ -92,21 +92,21 @@ Tiddler
 p39
 (dp40
 g19
-V!What you'll get out of study abroad\u000a!!!!Academics, <<if $shortterm>>Experiential Learning<<else>>Intercultural Competence<</if>>, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to <<if $facultyled>>experience a dimension of your subject that you would never have the opportunity to experience on Vanderbilt's campus.<<else>>take classes that are not available at Vanderbilt and expand the breadth of perspectives you draw on.<</if>></p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience. It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]...</p>\u005c\u000a<<if not $shortterm>><p><<$- "Cultural Competencies">> You will build [[intercultural competence|https://web.archive.org/web/20220120081531/https://www.gcu.ac.uk/media/gcalwebv2/theuniversity/centresprojects/globalperspectives/Definition_of_Intercultural_competence.pdf]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring knowledge, skills, and attitudes that help you interact with a diverse set of people.</p><</if>>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vandybubble will help shape you as a person and hone your life skills. <<if $shortterm>>Your program may even help crystallize your medium- and long-term goals, whetting your appetite for longer-term study abroad or even an international component to your career.<<else>>You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.<</if>></p>\u005c\u000a<<if not $shortterm>><figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure><</if>>\u000a<<segue "What to expect from this training">>\u005c
+V!What you'll get out of study abroad\u000a!!!!Academics, <<if $shortterm>>Experiential Learning<<else>>Intercultural Competence<</if>>, Personal Growth\u000aCongratulations, you are getting closer to lift-off! Let us take a moment to remind you what you will get out of your study abroad experience.\u005c\u000a\u000a<p><<$- "Academic Training">> Without a doubt, you will be //studying// abroad. You will have the chance to <<if $facultyled>>experience a dimension of your subject that you would never have the opportunity to experience on Vanderbilt's campus.<<else>>take classes that are not available at Vanderbilt and expand the breadth of perspectives you draw on.<</if>></p>\u005c\u000a<p><<$- "Experiential Learning">> As a study abroad student, you will learn in part by doing. In or out of the classroom, everything you do overseas will be a learning experience. It may even lead to [[increased creativity|http://www.apa.org/news/press/releases/2009/04/abroad-creativity.aspx]]! And, if you officially declare your intention in advance, study abroad can serve as the [[Experiential Learning part of your Immersion Vanderbilt requirement|https://www.vanderbilt.edu/immersion/about/]].</p>\u005c\u000a<<if not $shortterm>><p><<$- "Cultural Competencies">> You will build [[intercultural competence|https://web.archive.org/web/20220120081531/https://www.gcu.ac.uk/media/gcalwebv2/theuniversity/centresprojects/globalperspectives/Definition_of_Intercultural_competence.pdf]] by experiencing cultural differences, gaining a new perspective on your own culture, and acquiring knowledge, skills, and attitudes that help you interact with a diverse set of people.</p><</if>>\u005c\u000a<p><<$- "Personal Growth">> Regardless of where you go, facing the world outside the Vandybubble will help shape you as a person and hone your life skills. <<if $shortterm>>Your program may even help crystallize your medium- and long-term goals, whetting your appetite for longer-term study abroad or even an international component to your career.<<else>>You will become more self-reliant, confident, and self-aware. In fact, 97% of Vanderbilt study abroad alumni say that study abroad helped them develop self-confidence and independence.<</if>></p>\u005c\u000a<<if not $shortterm>><figure>\u005c\u000a|box|k\u000a|>|!According to Recent College Graduates Who Studied Abroad...|\u000a| ''84%''|Studying abroad helped me build valuable job skills, including language proficiency, cultural training, tolerance for ambiguity, adaptability, communication skills|\u000a| ''80%''|Studying abroad helped me develop confidence to deal with new skills required for my first job|\u000a|>|<hr />//Source: [[IES Recent Graduates Survey|http://www.iesabroad.org/system/files/recentgraduatessurvey.pdf]]//|\u000a</figure><</if>>\u000a<<segue "What to expect from this training">>\u005c
 p41
 sg21
 VWhat you will get out of study abroad
 p42
 sg23
 g24
-((I2022
-I11
+((I2023
 I4
-I10
-I48
-I13
-I4
-I308
+I3
+I9
+I44
+I0
+I0
+I93
 I1
 tp43
 (dp44
@@ -410,21 +410,21 @@ Tiddler
 p138
 (dp139
 g19
-V!<<if not $facultyled>>Study abroad c<<else>>C<</if>>ourse review\u000a!!!!<<if $facultyled>>How will your course(s) count?<<else>>Making sure your courses count for Vanderbilt credit<</if>>\u000a<<if $facultyled>>Courses taught by Vanderbilt faculty abroad are regular Vanderbilt courses. If you aren't sure whether your course(s) can count toward specific academic requirements, you can check with your academic adviser or your college's Office of Academic Services (see below).\u000a\u000aIf your course doesn't automatically count toward a particular requirement, you might be able to petition. Again, your college's Office of Academic Services will be your best resource for information on the process to follow. \u000a\u000aMany abroad courses taught by VU faculty count toward College of Arts and Science <span title="AXLE is the acronym for Achieving Excellence in Liberal Education. It is the core curriculum that all students in the College of Arts and Science must fulfill.">AXLE requirements</span>. Please speak to your faculty leader or A&S's Office of Academic Services to confirm what AXLE credit (if any) you will earn.\u000a\u000a|box|k\u000a|! Vanderbilt Offices of Academic Services|\u000a|[[College of Arts and Science|http://as.vanderbilt.edu/oas/]]|\u000a|[[Blair School of Music|http://blair.vanderbilt.edu/academics/]]|\u000a|[[Peabody College|http://peabody.vanderbilt.edu/admin-offices/oas/]]|\u000a|[[School of Engineering|http://engineering.vanderbilt.edu/academic-services/]]|\u000a<<else>>Every course you take <<if $vanderbilt>>outside your Vanderbilt study abroad center<<else>>abroad<</if>> needs to be evaluated by Vanderbilt faculty in order to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about this process of course review and evaluation is that ''you are responsible'' for making sure it gets done! The Office of the University Registrar facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[YES database of evaluated courses|https://acad.app.vanderbilt.edu/more/SearchAbroadCourses.action]] for your program. Are all of your courses already on the list? Are you clear on //how many// credits you'll earn for each course? If so, great, you're done!|\u000a|<li>2</li>|If one or more of your courses is not on the list: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|http://registrar.vanderbilt.edu/study-abroad-course-review/#request]] for each course.|\u000a|<li>4</li>|The Registrar's Study Abroad Analysis team will do the rest! They contact faculty and find out how the course will count, and then email you the result.|\u000a|<li>5</li>|If you want a course to count differently than is listed on YES, your next step will depend on your college. See GEO's [[Study Abroad Course Review|https://www.vanderbilt.edu/geo/review/]] for more information.|\u000a\u000aNote that the ''number of credits you will receive'' listed in the YES database of evaluated courses ''may not match the number of credits your program provider suggests''. In that situation, the YES database is the authoritative reference for the number of credits you will receive at Vanderbilt. You are responsible for checking on the number of credits that you will receive for all courses you take abroad. Please email <a class="link-external" target="_blank" href="mailto:StudyAbroadAnalysis@Vanderbilt.edu">StudyAbroadAnalysis@Vanderbilt.edu</a> for any questions you have about the database or about course reviews you have in process.\u000a\u000aNeed more information? Check out GEO's [[Study Abroad Course Review|https://www.vanderbilt.edu/geo/review/]] page, watch the [[tutorial video|https://www.youtube.com/watch?v=6QWWzwGsq8M]], or talk with your [[GEO advisor|https://www.vanderbilt.edu/geo/advising/]].<</if>>\u000a\u000a<<segue "Preparing for safety">>\u005c
+V!<<if not $facultyled>>Study abroad c<<else>>C<</if>>ourse review\u000a!!!!<<if $facultyled>>How will your course(s) count?<<else>>Making sure your courses count for Vanderbilt credit<</if>>\u000a<<if $facultyled>>Courses taught by Vanderbilt faculty abroad are regular Vanderbilt courses. If you aren't sure whether your course(s) can count toward specific academic requirements, you can check with your academic adviser or your college's Office of Academic Services (see below).\u000a\u000aIf your course doesn't automatically count toward a particular requirement, you might be able to petition. Again, your college's Office of Academic Services will be your best resource for information on the process to follow. \u000a\u000aMany abroad courses taught by VU faculty count toward College of Arts and Science <span title="AXLE is the acronym for Achieving Excellence in Liberal Education. It is the core curriculum that all students in the College of Arts and Science must fulfill.">AXLE requirements</span>. Please speak to your faculty leader or A&S's Office of Academic Services to confirm what AXLE credit (if any) you will earn.\u000a\u000a|box|k\u000a|! Vanderbilt Offices of Academic Services|\u000a|[[College of Arts and Science|http://as.vanderbilt.edu/oas/]]|\u000a|[[Blair School of Music|http://blair.vanderbilt.edu/academics/]]|\u000a|[[Peabody College|http://peabody.vanderbilt.edu/admin-offices/oas/]]|\u000a|[[School of Engineering|http://engineering.vanderbilt.edu/academic-services/]]|\u000a<<else>>Every course you take <<if $vanderbilt>>outside your Vanderbilt study abroad center<<else>>abroad<</if>> needs to be evaluated by Vanderbilt faculty in order to earn Vanderbilt credit. This process determines how the course will count at Vanderbilt--or if it will count at all.\u000a\u000aThe single most important thing to remember about this process of course review and evaluation is that ''you are responsible'' for making sure it gets done! The Office of the University Registrar facilitates the process, but it falls on you to ensure that your courses get evaluated for credit. Vanderbilt can't process your grades until //all the courses// you took have evaluations on file.\u000a\u000a|box|k\u000a|>|! How to get your courses evaluated|\u000a|<li>1</li>|Check the [[YES database of evaluated courses|https://acad.app.vanderbilt.edu/more/SearchAbroadCourses.action]] for your program. Are all of your courses already on the list? Are you clear on //how many// credits you'll earn for each course? If so, great, you're done!|\u000a|<li>2</li>|If one or more of your courses is not on the list: Get your hands on syllabi for the missing courses, either online, by writing the department abroad, or by going to the first day of class. Get the most complete syllabus you can for the best shot at an evaluation.|\u000a|<li>3</li>|Submit a [[Course Equivalency Evaluation Request|http://registrar.vanderbilt.edu/study-abroad-course-review/#request]] for each course.|\u000a|<li>4</li>|The Registrar's Study Abroad Analysis team will do the rest! They contact faculty and find out how the course will count, and then email you the result.|\u000a|<li>5</li>|If you want a course to count differently than is listed on YES, your next step will depend on your college. See GEO's [[Study Abroad Course Review|https://www.vanderbilt.edu/geo/review/]] for more information.|\u000a\u000aNote that the ''number of credits you will receive'' listed in the YES database of evaluated courses ''may not match the number of credits your program provider suggests''. In that situation, the YES database is the authoritative reference for the number of credits you will receive at Vanderbilt. You are responsible for checking on the number of credits that you will receive for all courses you take abroad. Please email <a class="link-external" target="_blank" href="mailto:StudyAbroadAnalysis@Vanderbilt.edu">StudyAbroadAnalysis@Vanderbilt.edu</a> for any questions you have about the database or about course reviews you have in process.\u000a\u000aNeed more information? Check out GEO's [[Study Abroad Course Review|https://www.vanderbilt.edu/geo/review/]] page, watch the [[tutorial video|https://www.youtube.com/watch?v=6QWWzwGsq8M]], or talk with your [[GEO advisor|https://www.vanderbilt.edu/geo/advising/]].<</if>>\u000a\u000a<<segue "Study abroad and Immersion Vanderbilt">>\u005c
 p140
 sg21
 VStudy abroad course review
 p141
 sg23
 g24
-((I2022
-I11
+((I2023
 I4
-I12
-I23
-I23
-I4
-I308
+I3
+I9
+I46
+I50
+I0
+I93
 I1
 tp142
 (dp143
@@ -568,21 +568,21 @@ Tiddler
 p187
 (dp188
 g19
-V!Passport and Document Security\u000a!!!!Keep your passport and other key documents safe\u000aWhen you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also become difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe.\u000a<img alt="Passport wallet" src="images/passport wallet.jpg" class="right" style="height: 250px;" />\u005c\u000a\u000aIn general, you should keep your passport on your person only when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.\u000a\u000aIf you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.\u000a\u000aYour passport is not your only critical document. ''Vaccination records, particularly your COVID-19 vaccination record,'' deserve the same care. Take the original with you overseas, but also take a photocopy of these documents to carry around with you when you are out.\u000a\u000aWe also recommend keeping a scan of your passport information page, vaccination records, credit cards, and other important documents on a ''cloud service such as Google Drive or iCloud''. This will give you another way to access them if you lose the photocopy.\u000a\u000a|box|k\u000a|!(Potentially) Good Places to Keep Your Passport|\u000a|Hidden in the room of your homestay or residence hall|\u000a|In your hotel's safe (//not// the room safe)|\u000a|With your study abroad provider, if they offer such a service|\u000a|<hr>//In some situations, even these options may not be secure. Use your common sense and evaluate the situation. If in doubt, talk to your <<if $facultyled>>faculty leader<<else>>resident director<</if>> for advice.//|\u000a\u000a<<segue "Traveling with medications">>
+V!Passport and Document Security\u000a!!!!Keep your passport and other key documents safe\u000aWhen you are abroad, no single document is more important than your passport. Without it, ''you will not be able to cross international borders'', and other tasks--such as transferring funds--may also become difficult or impossible. Losing your passport can be a major headache, and might even cost you thousands of dollars in airfare for missed flights. Do everything you can to keep it safe.\u000a<img alt="Passport wallet" src="images/passport wallet.jpg" class="right" style="height: 250px;" />\u005c\u000a\u000aIn general, you should keep your passport on your person only when you are traveling across borders. Otherwise, ''find a safe place for it and leave it there.'' Make a photocopy and carry that on you when you are out and about.\u000a\u000aIf you must carry your passport with you, keep it in a special ''passport wallet'' under your clothes.\u000a\u000aYour passport is not your only critical document. ''Vaccination records, including your COVID-19 vaccination record,'' deserve the same care. Take the original with you overseas, but also take a photocopy of these documents to carry around with you when you are out.\u000a\u000aWe also recommend keeping a scan of your passport information page, vaccination records, credit cards, and other important documents on a ''cloud service such as Google Drive or iCloud''. This will give you another way to access them if you lose the photocopy.\u000a\u000a|box|k\u000a|!(Potentially) Good Places to Keep Your Passport|\u000a|Hidden in the room of your homestay or residence hall|\u000a|In your hotel's safe (//not// the room safe)|\u000a|With your study abroad provider, if they offer such a service|\u000a|<hr>//In some situations, even these options may not be secure. Use your common sense and evaluate the situation. If in doubt, talk to your <<if $facultyled>>faculty leader<<else>>resident director<</if>> for advice.//|\u000a\u000a<<segue "Traveling with medications">>
 p189
 sg21
 VPassport and document security
 p190
 sg23
 g24
-((I2021
-I7
-I28
-I16
-I15
-I43
+((I2023
+I4
+I3
+I10
 I2
-I209
+I58
+I0
+I93
 I1
 tp191
 (dp192
@@ -674,21 +674,21 @@ Tiddler
 p220
 (dp221
 g19
-V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aMany programs may provide opportunities for independent travel. First, always ''keep your <<if $facultyled>>faculty leader<<else>>resident director or program staff<</if>> informed'' of your travel. Don't forget to keep your family in the loop; if there is an emergency back home, they will want to know how to get in touch with you.\u000a<div class="talkbox">\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|You cannot count on being able to travel to other countries independently while you are on your program. There may be restrictions on non-essential travel between countries, even within normally open regional blocs like the EU. New restrictions could be put in place at any time, including while you are traveling! Your program may also impose restrictions out of an abundance of caution.|\u000a|Even if travel is possible, it may be more difficult than before. Before you set out, be sure that you understand requirements to enter other countries as well as requirements to return to your host country. Always carry your essential travel documents when you travel, including passport and proof of vaccination!|\u000a</div>\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a <span title="A stamp or sticker placed in your passport that allows you to enter a foreign country.">travel visa</span>, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aAs you make travel plans, consider the ''ecological impact'' of your travel. Per person, [[airplane travel|https://www.theguardian.com/environment/ng-interactive/2019/jul/19/carbon-calculator-how-taking-one-flight-emits-as-much-as-many-people-do-in-a-year]] generally emits far more carbon dioxide into the atmosphere than travel by train, bus, or automobile. Think about whether you really need to leave your host city so often, and about whether you can use alternative transport that would reduce your carbon footprint.\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<<if not $facultyled>><div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div><</if>>\u000a\u000a<<segue "Identity and diversity">>\u005c
+V!Traveling while abroad\u000a!!!!Important things to keep in mind when planning travel\u000aMany programs may provide opportunities for independent travel. First, always ''keep your <<if $facultyled>>faculty leader<<else>>resident director or program staff<</if>> informed'' of your travel. Don't forget to keep your family in the loop; if there is an emergency back home, they will want to know how to get in touch with you.\u000a\u000aSome countries that you plan to visit may have different entry requirements than your primary host country. ''Investigate all the countries you're interested in'' before you leave the US. If any require a <span title="A stamp or sticker placed in your passport that allows you to enter a foreign country.">travel visa</span>, it will probably be easier to get the visa while you're in the US--this applies to both international students and US citizens!\u000a\u000aIn every country you visit, make a point of knowing where your ''home country's nearest embassy or consulate'' is. You want to know where you can find support if you get into real trouble. (If you're a US citizen, you should bookmark the [[list of US embassies around the world|http://www.usembassy.gov/]].)\u000a\u000aAs you make travel plans, consider the ''ecological impact'' of your travel. Per person, [[airplane travel|https://www.theguardian.com/environment/ng-interactive/2019/jul/19/carbon-calculator-how-taking-one-flight-emits-as-much-as-many-people-do-in-a-year]] generally emits far more carbon dioxide into the atmosphere than travel by train, bus, or automobile. Think about whether you really need to leave your host city so often, and about whether you can use alternative transport that would reduce your carbon footprint.\u000a\u000aFinally, independent travel is one of the ''most expensive activities'' you can undertake abroad. Be sure to budget appropriately, and remember to consider safety while you're on the lookout for ways to travel on the cheap.\u000a<<if not $facultyled>><div class="talkbox">\u000a|box|k\u000a|!Wisdom from alums|\u000a|Every year, students tell us that while they loved the traveling they did abroad, they also regretted not getting to know their host city better. Consider the value of staying put sometimes rather than skipping town.|\u000a</div><</if>>\u000a\u000a<<segue "Identity and diversity">>\u005c
 p222
 sg21
 VTraveling while abroad
 p223
 sg23
 g24
-((I2021
-I11
+((I2023
 I4
-I10
-I12
-I58
 I3
-I308
+I10
+I3
+I23
+I0
+I93
 I1
 tp224
 (dp225
@@ -726,21 +726,21 @@ Tiddler
 p236
 (dp237
 g19
-V<<sidebar "Getting or renewing a passport">>\u000a<div class="talkbox">\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|US passport processing has seen significant delays during the pandemic. Be sure to [[check processing times|https://travel.state.gov/content/travel/en/passports.html/]] and plan accordingly.|\u000a|If you will need a new passport to study abroad and have not yet begun the process of applying, ''contact your GEO advisor immediately!''|\u000a</div>\u000aTo get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.\u000a\u000aUS citizens should visit the State Department's website for [[passport services|https://travel.state.gov/content/travel/en/passports.html/]] to view requirements and to check on [[current processing times|https://travel.state.gov/content/travel/en/passports/requirements/processing-times.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications.\u000a\u000aIn Nashville, locations near Vanderbilt where you can apply for a passport include:\u000a\u000a|alternating-rows|k\u000a|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|\u000a|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|\u000a|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|\u000a|![[Davidson County Clerk|https://www.nashville.gov/departments/county-clerk/passport-services]]|Downtown <br />700 2nd Ave South, Suite 101|(615) 862-6223|\u000a\u000aYou may need to ''call in advance'' for an appointment.\u000a\u000aYou'll also need to get ''passport photos'' taken before you can apply. FedEx-Kinko's, Walgreens, and CVS are locations near Vandy that can take passport photos.\u000a\u000a<<segue "Document security">>\u005c
+V<<sidebar "Getting or renewing a passport">>\u000a<div class="talkbox">\u000a|box|k\u000a|!Special Considerations|\u000a|US passport processing has seen significant delays. Be sure to [[check processing times|https://travel.state.gov/content/travel/en/passports.html/]] and plan accordingly.|\u000a|If you will need a new passport to study abroad and have not yet begun the process of applying, ''contact your GEO advisor immediately!''|\u000a</div>\u000aTo get a new passport, or to renew an old one, you will need to contact the proper issuing authority for your home country.\u000a\u000aUS citizens should visit the State Department's website for [[passport services|https://travel.state.gov/content/travel/en/passports.html/]] to view requirements and to check on [[current processing times|https://travel.state.gov/content/travel/en/passports/requirements/processing-times.html]]. Be sure that you will receive your new passport in time to complete any visa or resident permit applications.\u000a\u000aIn Nashville, locations near Vanderbilt where you can apply for a passport include:\u000a\u000a|alternating-rows|k\u000a|!Church Street Post Office|Midtown<br />1718 Church Street|(615) 321-0172|\u000a|!Acklen Post Office|Hillsboro Village<br />2006 Acklen Ave|(615) 383-5396|\u000a|!Broadway Post Office|Downtown<br />901 Broadway|(615) 255-3613|\u000a\u000aHowever, it may be difficult to schedule an appointment online. You may need to ''call in advance'' for an appointment, or even ''go in person'' to attempt to schedule an appointment.\u000a\u000aYou'll also need to get ''passport photos'' taken before you can apply. FedEx-Kinko's, Walgreens, and CVS are locations near Vandy that can take passport photos.\u000a\u000a<<segue "Document security">>\u005c
 p238
 sg21
 VGetting or renewing a passport
 p239
 sg23
 g24
-((I2022
-I11
+((I2023
 I4
-I12
-I31
-I8
-I4
-I308
+I3
+I10
+I2
+I36
+I0
+I93
 I1
 tp240
 (dp241
@@ -787,14 +787,14 @@ VTraveling with medications
 p256
 sg23
 g24
-((I2022
-I11
+((I2023
 I4
-I12
-I26
-I26
-I4
-I308
+I3
+I10
+I3
+I8
+I0
+I93
 I1
 tp257
 (dp258
@@ -886,21 +886,21 @@ Tiddler
 p286
 (dp287
 g19
-V!Money\u000a!!!!Use debit and credit cards wisely to save money\u000aThe amount of money you spend while studying abroad will vary depending on the local cost of living, your personal spending habits, independent travel, and so on. //How you access your money// can also play a role in maintaining your budget.\u000a\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|Due to concerns about the spreading of COVID-19, ''use of cash may be discouraged in your host country''. Be prepared to rely on debit or credit cards and/or other cashless methods of payment.|\u000a\u000aMany businesses will not accept plastic, especially for smaller purchases, so it's a good idea to have ''cash'' on hand throughout your time abroad. The most cost-effective way to get cash abroad is to use your ''debit card'' (not a credit card!) in an ATM. You can usually find out where the ATMs you might need are before you leave the US--ask your bank how.\u000a\u000aGEO also recommends that you bring a ''credit card''. Be aware that every credit card purchase or debit card withdrawal will likely carry transaction fees. Shop around a bit for the best rates before you leave the US, but also minimize the number of times you use your cards. Take out as much cash as you feel comfortable with each time you use the ATM, and use your credit card only when necessary or when you have an especially large purchase.\u000a\u000aSome merchants will offer to convert your purchase into dollars before your card payment. GEO does not recommend this practice\u2014you will be charged sometimes quite high exchange rates and fees for the privilege. Make the effort to ''learn how to mentally convert your host country's currency'' on the fly instead!\u000a\u000aBefore you depart the US, and before traveling to a new country, you should ''inform your bank(s) of your location.'' If you don't, you may find your cards canceled as an anti-fraud measure! \u000a\u000aMuch of the rest of the world, including Europe, uses a slightly different technology for credit cards (chip-and-PIN) from the type that is most commonly used in the United States (chip-and-signature). This shouldn't cause you much headache, but it may mean that once in a while you can't complete a transaction. See the In-Depth Information section below for more information on US-issued cards.\u000a\u000a|box|k\u000a|!Summary|\u000a|Before you leave, consider seeking out the US banks with the best currency conversion and transaction fees for your host country.|\u000a|Call your bank(s) to let them know you'll be abroad. Don't forget to call again whenever you cross an international border.|\u000a|Use your debit card in an ATM to get cash on a weekly or biweekly basis.|\u000a|Use your credit card for purchases. Do not use your debit card except for ATM withdrawals!|\u000a|Use your credit card for large purchases if possible.|\u000a|Only get cash from an ATM using your credit card in a dire emergency. Cash advances on credit cards carry high fees.|\u000a\u000a<<sidebar-box>>\u000a   [[More on credit cards|More on credit cards]]\u000a   [[How do I budget for myself?|Basics of budgeting]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Living abroad">>\u005c
+V!Money\u000a!!!!Use debit and credit cards wisely to save money\u000aThe amount of money you spend while studying abroad will vary depending on the local cost of living, your personal spending habits, independent travel, and so on. //How you access your money// can also play a role in maintaining your budget.\u000a\u000aMany businesses will not accept credit cards, especially for smaller purchases. In others, credit cards may be the favored means of payment, and cash frowned upon. Do a bit of research to learn about your host country and any others you plan to visit. Generally speaking, it's a good idea to have ''both a credit card and cash'' on hand throughout your time abroad. The most cost-effective way to get cash abroad is to use your ''debit card'' (not a credit card!) in an ATM. You can usually find out where the ATMs you might need are before you leave the US--ask your bank.\u000a\u000aGEO also recommends that you bring a ''credit card''. Be aware that every credit card purchase or debit card withdrawal will likely carry transaction fees. Shop around a bit for the best rates before you leave the US, but also minimize the number of times you use your cards. Take out as much cash as you feel comfortable with each time you use the ATM, and use your credit card only when necessary or when you have an especially large purchase.\u000a\u000aSome merchants will offer to convert your credit card purchase into dollars before your card payment. GEO does not recommend this practice\u2014you will be charged sometimes quite high exchange rates and fees for the privilege. Make the effort to ''learn how to mentally convert your host country's currency'' on the fly instead!\u000a\u000aBefore you depart the US, and before traveling to a new country, you should ''inform your bank(s) of your location.'' If you don't, you may find your cards canceled as an anti-fraud measure! \u000a\u000aMuch of the rest of the world, including Europe, uses a slightly different technology for credit cards (chip-and-PIN) from the type that is most commonly used in the United States (chip-and-signature). This shouldn't cause you much headache, but it may mean that once in a while you can't complete a transaction. See the In-Depth Information section below for more information on US-issued cards.\u000a\u000a|box|k\u000a|!Summary|\u000a|Before you leave, consider seeking out the US banks with the best currency conversion and transaction fees for your host country.|\u000a|Call your bank(s) to let them know you'll be abroad. Don't forget to call again whenever you cross an international border.|\u000a|Use your debit card in an ATM to get cash on a weekly or biweekly basis.|\u000a|Use your credit card for purchases. Do not use your debit card except for ATM withdrawals!|\u000a|Use your credit card for large purchases if possible.|\u000a|Only get cash from an ATM using your credit card in a dire emergency. Cash advances on credit cards carry high fees.|\u000a\u000a<<sidebar-box>>\u000a   [[More on credit cards|More on credit cards]]\u000a   [[How do I budget for myself?|Basics of budgeting]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Living abroad">>\u005c
 p288
 sg21
 VMoney
 p289
 sg23
 g24
-((I2022
+((I2023
 I4
-I7
-I13
-I18
-I5
 I3
-I97
+I10
+I7
+I23
+I0
+I93
 I1
 tp290
 (dp291
@@ -992,21 +992,21 @@ Tiddler
 p319
 (dp320
 g19
-V!Phones and internet abroad\u000a!!!!Basic advice and information\u000a\u000a<<$- "Cell phones">> GEO doesn't recommend one cell phone provider over another, but here are some resources to help you figure out what is best for you. Note that your program may also have cell phone recommendations or even specific requirements for you to follow.\u000a\u000aIf you plan to take your own phone abroad, be sure to check with your phone company for their international plans and rates. Also check their data-roaming fees, since those can rack up fast!\u000a\u000aIt is also possible to leave your phone at home and ''purchase a cheap phone when you arrive''. Or you could buy a cheap unlocked phone before you leave and get the appropriate SIM card when you arrive in your host country. (Some airports sell SIMs in the international arrivals section, so they can be quite easy to come by.)\u000a\u000aYou may want to talk to your <<if $facultyled>>faculty leader<<else>>study abroad provider (or look at their predeparture materials)<</if>> to see if they have specific recommendations on how to handle phones in your host country. You can also visit this [[international cell phone guide|https://www.fcc.gov/international-roaming]] to get a good overview of the options.\u000a\u000aMany newer smartphones include a build-in programmable "embedded SIM" or ''eSIM'' that allows you to install a second SIM alongside your main SIM without needing to use a physical chip. If your phone includes an eSIM, you can purchase and install the SIM using one of many downloadable apps. This is potentially a convenient and low-cost way to add local data, phone, and/or message services on your phone.\u000a\u000a<<$- "Dialing Telephones">> The details of dialing internationally vary depending on which countries you're trying to connect. Check out [[How To Call Abroad|http://www.howtocallabroad.com/]] and share the info you find with family and friends.\u000a\u000a<<$- "Internet">> Internet access abroad is typically not the same as in the US. While you will have access, prepare yourself for slower connections. Depending on your host location, you might have a weekly usage limit in your room or at your college, or you may need to pay for internet access at a cafe. Talk with your <<if $facultyled>>faculty leader<<else>>program provider or host university<</if>> to find out what to expect.\u000a\u000a<<sidebar-box>>\u000a   [[Communicating with home|Communicating with home]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Disabilities and accommodations">>\u005c
+V!Phones and internet abroad\u000a!!!!Basic advice and information\u000a\u000a<<$- "Cell phones">> GEO doesn't recommend one cell phone provider over another, but here are some resources to help you figure out what is best for you. Note that your program may also have cell phone recommendations or even specific requirements for you to follow.\u000a\u000aIf you plan to take your own phone abroad, be sure to check with your phone company for their international plans and rates. Also check their data-roaming fees, since those can rack up fast!\u000a\u000aIt is also possible to leave your phone at home and ''purchase a cheap phone when you arrive''. Or you could buy a cheap unlocked phone before you leave and get the appropriate SIM card when you arrive in your host country. (Some airports sell SIMs in the international arrivals section, so they can be quite easy to come by.)\u000a\u000aYou may want to talk to your <<if $facultyled>>faculty leader<<else>>study abroad provider (or look at their predeparture materials)<</if>> to see if they have specific recommendations on how to handle phones in your host country. You can also visit this [[international cell phone guide|https://www.fcc.gov/international-roaming]] to get a good overview of the options.\u000a\u000aMany newer smartphones include a built-in programmable "embedded SIM" or ''eSIM'' that allows you to install a second SIM alongside your main SIM without needing to use a physical chip. If your phone includes an eSIM, you can purchase and install the SIM using one of many downloadable apps. This is potentially a convenient and low-cost way to add local data, phone, and/or message services on your phone.\u000a\u000a<<$- "Dialing Telephones">> The details of dialing internationally vary depending on which countries you're trying to connect. Check out [[How To Call Abroad|http://www.howtocallabroad.com/]] and share the info you find with family and friends.\u000a\u000a<<$- "Internet">> Internet access abroad is typically not the same as in the US. While you will have access, prepare yourself for slower connections. Depending on your host location, you might have a weekly usage limit in your room or at your college, or you may need to pay for internet access at a cafe. Talk with your <<if $facultyled>>faculty leader<<else>>program provider or host university<</if>> to find out what to expect.\u000a\u000a<<sidebar-box>>\u000a   [[Communicating with home|Communicating with home]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Disabilities and accommodations">>\u005c
 p321
 sg21
 VPhones and internet abroad
 p322
 sg23
 g24
-((I2022
+((I2023
 I4
-I7
-I13
-I25
+I3
 I10
 I3
-I97
+I58
+I0
+I93
 I1
 tp323
 (dp324
@@ -1202,21 +1202,21 @@ Tiddler
 p384
 (dp385
 g19
-V!Disabilities and accommodations\u000a!!!!Getting physical and academic accommodations\u000aIf you have registered with Vanderbilt [[Student Access|https://www.vanderbilt.edu/student-access/]] to receive academic or physical accommodations at Vanderbilt, you will want to learn whether you can get similar accommodations on your program abroad.\u000a\u000aConsult with Student Access staff and request that they send your accommodations letter to your <<if $facultyled>>faculty leader<<else>>program advisor or  on-site staff<</if>>. Do this //before// you depart! Program staff will use this letter in researching what accommodations are possible on site.\u000a\u000aIf you have a disability or challenge that you have so far managed without Student Access, you may want to meet with them before you study abroad. In addition to providing you with a letter, they can help you think through what you might need to ask of your program staff abroad.\u000a\u000aDo understand that while most requests will be honored, laws in other countries regarding required or reasonable accommodations often differ from what is mandated by law in the United States. ''Not all requests can be met exactly.'' For example, the legal status of emotional support animals varies around the world; it may be extremely difficult to incorporate an emotional support animal into many study abroad experiences, depending on the location and specific characteristics of the program.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt Student Access|https://www.vanderbilt.edu/student-access/]]|\u000a|[[Mobility International USA|http://www.miusa.org/]], resources for travelers with disabilities|\u000a|[[Travelers with Disabilities|http://wwwnc.cdc.gov/travel/yellowbook/2014/chapter-8-advising-travelers-with-specific-needs/travelers-with-disabilities]], excellent information on traveling with physical disabilities|\u000a\u000a<<segue "Money">>\u005c
+V!Disabilities and accommodations\u000a!!!!Getting physical and academic accommodations\u000aIf you have registered with Vanderbilt [[Student Access|https://www.vanderbilt.edu/student-access/]] to receive academic or physical accommodations at Vanderbilt, you will want to learn whether you can get similar accommodations on your program abroad.\u000a\u000aConsult with Student Access staff and request that they send your accommodations letter to your <<if $facultyled>>faculty leader<<else>>program advisor or  on-site staff<</if>>. Do this //before// you depart! Program staff will use this letter in researching what accommodations are possible on site.\u000a\u000aIn some cases, reasonable accommodations may carry ''additional requirements or fees,'' such as special housing, airfare for a guide animal, or sign language interpretation. ''There is no guarantee that such additional costs can be funded by Vanderbilt or the study abroad program.''\u000a\u000aIf you have a disability or challenge that you have so far managed without Student Access, you may want to meet with them before you study abroad. In addition to providing you with a letter, they can help you think through what you might need to ask of your program staff abroad.\u000a\u000aDo understand that while most requests will be honored, laws in other countries regarding required or reasonable accommodations often differ from what is mandated by law in the United States. ''Not all requests can be met exactly.'' For example, the legal status of emotional support animals varies around the world; it may be extremely difficult to incorporate an emotional support animal into many study abroad experiences, depending on the location and specific characteristics of the program.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Vanderbilt Student Access|https://www.vanderbilt.edu/student-access/]]|\u000a|[[Mobility International USA|http://www.miusa.org/]], resources for travelers with disabilities|\u000a|[[Travelers with Disabilities|http://wwwnc.cdc.gov/travel/yellowbook/2014/chapter-8-advising-travelers-with-specific-needs/travelers-with-disabilities]], excellent information on traveling with physical disabilities|\u000a\u000a<<segue "Money">>\u005c
 p386
 sg21
 VDisabilities and accommodations
 p387
 sg23
 g24
-((I2021
-I11
+((I2023
 I4
-I10
-I14
-I6
 I3
-I308
+I10
+I5
+I13
+I0
+I93
 I1
 tp388
 (dp389
@@ -1254,21 +1254,21 @@ Tiddler
 p400
 (dp401
 g19
-V!Living abroad\u000a!!!!Considerations for life abroad in 2022\u000aMost countries outside the United States have taken more top-down approaches to COVID-19 than the US. Many will have both national and local regulations to follow. Wherever you go, you are likely to find somewhat different COVID rules and more nuance in how those are applied.\u000a\u000aIn particular, response to COVID outbreaks is more likely to involve strict, if temporary, ''lockdowns and targeted shutdowns of services''. These may cause inconvenience, including interrupting classes or travel. It is possible that your coursework might need to go online for an extended period, or that a planned trip may have to be canceled.\u000a\u000aYour <<if $facultyled>>faculty leader<<else>>university or program<</if>> will provide guidance on rules and regulations throughout your term abroad. If you are looking to travel elsewhere during your program, however, you\u2019ll need to keep up with this information--and travel-specific restrictions--yourself. Consider consulting with Vanderbilt's [[Office of Global Safety|https://www.vanderbilt.edu/global/global-safety/]] on any independent travel plans.\u000a\u000a<<if (not $facultyled)>>With independent travel potentially restricted in many places, ''GEO encourages you to explore your host city and region''. There is a lot to be said for getting to know one area in depth: you develop a more intimate relationship with your surroundings, gain a deeper understanding of the local culture and rhythms of life, and are more likely to begin to see how to live more like locals do. The feeling of competence of mastering the ins and outs of another city is very satisfying.\u000a\u000a''Make use of your program staff\u2019s intimate knowledge of your host city''. They can help you find cool things to do, master transport systems, find safe routes to where you want to go, and more!\u000a\u000aIf your program allows you to live in ''independent housing'', consider carefully. While the freedom of independent housing may be attractive, there are downsides as well. These include the difficulty of navigating unfamiliar regulations and requirements (perhaps in a foreign language), the possibility of predatory landlords, and the difficulty of researching and assessing safety from abroad. One upside is that it can be a real learning experience to navigate the process of finding and renting your own place. If you are finding your own housing, remember that you need to turn in your Study Abroad Housing Policy Waiver Form to GEO before your program begins\u2014and that ''you aren\u2019t cleared to study abroad until we receive it!''<</if>><<if $facultyled>>Students on most faculty-led summer courses will live in hotels, hostels, or in the residence halls of partner universities. You will receive more information about housing abroad from your faculty leader.\u000a\u000aIf a component of your program is based at Vanderbilt, ''you are responsible for finding your own housing in Nashville''. Vanderbilt's [[Office of Housing and Residential Education|http://www.vanderbilt.edu/ResEd/main/]] does make housing available to students whose programs are partially taught abroad, but an advance application is required.\u000a\u000aApplications for Maymester/Summer housing are generally made available in mid-April, and move-in is usually on or around the day that residence halls close to non-graduating students. You will be charged a standard daily rate. [[Contact|http://www.vanderbilt.edu/ResEd/main/contact-us/contact-us/]] the Office of Housing and Residential Education for more information.<</if>>\u000a/% !Where will you live?\u000a!!!!<<if $facultyled and ($maymester or $summer)>>Will you need housing on-campus at Vanderbilt?<<else>>What choices do you have in your housing abroad?<</if>>\u000aSome programs offer you the opportunity to select from multiple housing options, including in some cases the option to live in independent housing. <<if not $facultyled>>Which should you choose?\u000a\u000aThe answer, of course, depends on what you are hoping to get out of your time overseas. (If you're not sure what your housing options are, talk to the GEO advisor for your program.)\u000a\u000aBut since you may be facing a choice soon, we want to share with you ''what alumni of Vanderbilt study abroad tell us'' in their program evaluations: Students who live with natives of their host country typically report greater satisfaction with their housing and integration into the local culture than students who live with Americans. This is true whether students lived with a homestay family or with native roommates of their own age.\u000a<<display "Housing chart">>\u000aIf your program allows you to live in ''independent housing'', consider carefully. While the freedom of independent housing may be attractive, there are downsides as well. These include the difficulty of navigating unfamiliar regulations and requirements (perhaps in a foreign language), the possibility of predatory landlords, and the difficulty of researching and assessing safety from abroad. One upside is that it can be a real learning experience to navigate the process of finding and renting your own place. If you are finding your own housing, remember that you need to turn in your Study Abroad Housing Policy Waiver Form to GEO before your program begins\u2014and that you aren\u2019t cleared to study abroad until we receive it!\u005c\u000a<<else>>Students on most faculty-led summer courses will live in hotels, hostels, or in the residence halls of partner universities. You will receive more information about housing abroad from your faculty leader.<<if $summer or $maymester>>\u000a\u000aIf a component of your program is based at Vanderbilt, ''you are responsible for finding your own housing in Nashville''. Vanderbilt's [[Office of Housing and Residential Education|http://www.vanderbilt.edu/ResEd/main/]] does make housing available to students whose programs are partially taught abroad, but an advance application is required.\u000a\u000aApplications for Maymester/Summer housing are generally made available in mid-April, and move-in is usually on or around the day that residence halls close to non-graduating students. You will be charged a standard daily rate. [[Contact|http://www.vanderbilt.edu/ResEd/main/contact-us/contact-us/]] the Office of Housing and Residential Education for more information.\u000a<</if>><</if>>\u000a<<if $shortterm>>\u000aBy the way, are you ''thinking about doing a semester abroad in the future?'' Here's something that you might want to consider: Students who live with natives of their host country typically report greater satisfaction with their housing and integration into the local culture than students who live with Americans. This is true whether students lived with a homestay family or with native roommates of their own age.\u000a<<display "Housing chart">><</if>>\u005c %/\u000a   \u000a<<segue "Eating and diet">>\u005c
+V!Living abroad\u000a!!!!Considerations for life abroad\u000aYour <<if $facultyled>>faculty leader<<else>>university or program<</if>> will provide guidance on rules and regulations throughout your term abroad. If you are looking to travel elsewhere during your program, however, you\u2019ll need to keep up with this information--and travel-specific restrictions--yourself. Consider consulting with Vanderbilt's [[Office of Global Safety|https://www.vanderbilt.edu/global/global-safety/]] on any independent travel plans.\u000a\u000a<<if (not $facultyled)>>With independent travel potentially restricted in many places, ''GEO encourages you to explore your host city and region''. There is a lot to be said for getting to know one area in depth: you develop a more intimate relationship with your surroundings, gain a deeper understanding of the local culture and rhythms of life, and are more likely to begin to see how to live more like locals do. The feeling of competence of mastering the ins and outs of another city is very satisfying.\u000a\u000a''Make use of your program staff\u2019s intimate knowledge of your host city''. They can help you find cool things to do, master transport systems, find safe routes to where you want to go, and more!\u000a\u000aIf your program allows you to live in ''independent housing'', consider carefully. While the freedom of independent housing may be attractive, there are downsides as well. These include the difficulty of navigating unfamiliar regulations and requirements (perhaps in a foreign language), the possibility of predatory landlords, and the difficulty of researching and assessing safety from abroad. One upside is that it can be a real learning experience to navigate the process of finding and renting your own place. If you are finding your own housing, remember that you need to turn in your Study Abroad Housing Policy Waiver Form to GEO before your program begins\u2014and that ''you aren\u2019t cleared to study abroad until we receive it!''<</if>><<if $facultyled>>Students on most faculty-led summer courses will live in hotels, hostels, or in the residence halls of partner universities. You will receive more information about housing abroad from your faculty leader.\u000a\u000aIf a component of your program is based at Vanderbilt, ''you are responsible for finding your own housing in Nashville''. Vanderbilt's [[Office of Housing and Residential Education|http://www.vanderbilt.edu/ResEd/main/]] does make housing available to students whose programs are partially taught abroad, but an advance application is required.\u000a\u000aApplications for Maymester/Summer housing are generally made available in mid-April, and move-in is usually on or around the day that residence halls close to non-graduating students. You will be charged a standard daily rate. [[Contact|http://www.vanderbilt.edu/ResEd/main/contact-us/contact-us/]] the Office of Housing and Residential Education for more information.<</if>>\u000a\u000aIf the COVID-19 pandemic should intensify again while you are abroad, be aware: Most countries outside the United States have taken more top-down approaches to COVID-19 than the US, and many will have both national and local regulations to follow. Response to COVID outbreaks may involve strict, if temporary, ''lockdowns and targeted shutdowns of services''. These may cause inconvenience, including interrupting classes or travel. It is possible that your coursework might need to go online for an extended period, or that a planned trip may have to be canceled.\u005c\u000a/% !Where will you live?\u000a!!!!<<if $facultyled and ($maymester or $summer)>>Will you need housing on-campus at Vanderbilt?<<else>>What choices do you have in your housing abroad?<</if>>\u000aSome programs offer you the opportunity to select from multiple housing options, including in some cases the option to live in independent housing. <<if not $facultyled>>Which should you choose?\u000a\u000aThe answer, of course, depends on what you are hoping to get out of your time overseas. (If you're not sure what your housing options are, talk to the GEO advisor for your program.)\u000a\u000aBut since you may be facing a choice soon, we want to share with you ''what alumni of Vanderbilt study abroad tell us'' in their program evaluations: Students who live with natives of their host country typically report greater satisfaction with their housing and integration into the local culture than students who live with Americans. This is true whether students lived with a homestay family or with native roommates of their own age.\u000a<<display "Housing chart">>\u000aIf your program allows you to live in ''independent housing'', consider carefully. While the freedom of independent housing may be attractive, there are downsides as well. These include the difficulty of navigating unfamiliar regulations and requirements (perhaps in a foreign language), the possibility of predatory landlords, and the difficulty of researching and assessing safety from abroad. One upside is that it can be a real learning experience to navigate the process of finding and renting your own place. If you are finding your own housing, remember that you need to turn in your Study Abroad Housing Policy Waiver Form to GEO before your program begins\u2014and that you aren\u2019t cleared to study abroad until we receive it!\u005c\u000a<<else>>Students on most faculty-led summer courses will live in hotels, hostels, or in the residence halls of partner universities. You will receive more information about housing abroad from your faculty leader.<<if $summer or $maymester>>\u000a\u000aIf a component of your program is based at Vanderbilt, ''you are responsible for finding your own housing in Nashville''. Vanderbilt's [[Office of Housing and Residential Education|http://www.vanderbilt.edu/ResEd/main/]] does make housing available to students whose programs are partially taught abroad, but an advance application is required.\u000a\u000aApplications for Maymester/Summer housing are generally made available in mid-April, and move-in is usually on or around the day that residence halls close to non-graduating students. You will be charged a standard daily rate. [[Contact|http://www.vanderbilt.edu/ResEd/main/contact-us/contact-us/]] the Office of Housing and Residential Education for more information.\u000a<</if>><</if>>\u000a<<if $shortterm>>\u000aBy the way, are you ''thinking about doing a semester abroad in the future?'' Here's something that you might want to consider: Students who live with natives of their host country typically report greater satisfaction with their housing and integration into the local culture than students who live with Americans. This is true whether students lived with a homestay family or with native roommates of their own age.\u000a<<display "Housing chart">><</if>>\u005c %/\u000a   \u000a<<segue "Eating and diet">>\u005c
 p402
 sg21
 VLiving abroad
 p403
 sg23
 g24
-((I2022
-I4
-I7
-I13
-I52
+((I2023
 I4
 I3
-I97
+I11
+I11
+I21
+I0
+I93
 I1
 tp404
 (dp405
@@ -2057,14 +2057,14 @@ VStoryIncludes
 p651
 sg23
 g24
-((I2021
-I11
+((I2023
 I4
-I10
-I28
-I32
 I3
-I308
+I10
+I36
+I42
+I0
+I93
 I1
 tp652
 (dp653
@@ -2107,14 +2107,14 @@ VAbout the Predeparture Guide
 p666
 sg23
 g24
-((I2021
-I10
-I28
-I10
-I33
-I36
+((I2023
+I4
 I3
-I301
+I9
+I41
+I6
+I0
+I93
 I1
 tp667
 (dp668
@@ -2163,14 +2163,14 @@ VStart
 p684
 sg23
 g24
-((I2021
-I7
-I28
-I17
-I34
-I40
-I2
-I209
+((I2023
+I4
+I3
+I10
+I36
+I46
+I0
+I93
 I1
 tp685
 (dp686
@@ -2215,14 +2215,14 @@ VTable of Contents
 p700
 sg23
 g24
-((I2021
-I7
-I28
-I17
-I42
-I2
-I2
-I209
+((I2023
+I4
+I3
+I10
+I36
+I37
+I0
+I93
 I1
 tp701
 (dp702
@@ -2369,14 +2369,14 @@ VStoryTitle
 p747
 sg23
 g24
-((I2022
+((I2023
 I4
-I7
-I14
-I16
-I34
 I3
-I97
+I10
+I36
+I40
+I0
+I93
 I1
 tp748
 (dp749
@@ -3216,21 +3216,21 @@ Tiddler
 p1011
 (dp1012
 g19
-V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000a<div class="talkbox">\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|The ''coronavirus epidemic continues to present challenges worldwide''. <<if $facultyled>>Your faculty leader will provide operating procedures, guidelines, and updates while you are abroad. It is critical that you heed this advice, as well as your locality's requirements. Disciplinary action and legal action from local authorities are real possibilities for noncompliance.<<else>>Your program will provide operating procedures, guidelines, and updates while you are abroad. It is critical that you heed this advice and adhere to your program's policies as well as your locality's requirements. Disciplinary actionfrom your program (and Vanderbilt) and legal action from local authorities are real possibilities.<</if>>|\u000a|Most countries outside the United States have taken more nationalized and often more stringent approaches to COVID-19 measures. You are likely to find somewhat different COVID rules and more nuance in how those are applied. In particular, ''response to COVID outbreaks is more likely to involve strict, if temporary, lockdowns and targeted shutdown of services''. These may cause inconvenience, including interrupting classes or travel. It is possible that your coursework might need to go online for an extended period, or that planned trips/class visits may have to be canceled.|\u000a|Requirements and restrictions imposed by the US government, foreign governments, regional governments, airlines, or other entities may change at any time. ''You are ultimately responsible for being aware of and taking action'' to ensure that you meet all these requirements.|\u000a|Students who are not vaccinated against COVID-19 may face additional obstacles such as, for example, the requirement to undergo regular testing in order to participate in many activities. ''Governments may not recognize all types of COVID vaccines as fulfilling requirements''--be sure to check whether your vaccine is recognized. Also check whether your proof of vaccination (CDC card, etc.) will be accepted by all countries you hope to spend time in.|\u000a|It is possible that ''governments may impose vaccination (or other) requirements'', including booster shots, at any time.|\u000a</div>\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, attend the Office of Global Safety's orientation (see below), and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aYour main destination will be automatically registered with  Vanderbilt's emergency evacuation provider (Anvil Group).\u000a\u000aIf you are a US citizen, also ''register with the Department of State's [[STEP program|https://step.state.gov/step/]]'', which allows the US Embassy in your host country to contact you with updates, both before, during, and after an emergency. \u000a\u000a''If you are not a US citizen,'' you can still utilize publicly available resources from the US Department of State, such as online updates. You can also seek out comparable resources from your home country. If your home country has an embassy or consulate near your study abroad site, we recommend that you make note of the contact information. \u000a\u000aFinally, be sure to enter the phone number for Vanderbilt Incident Response for Travel (VIRT) into your mobile phone: ''+1 615-322-2745''. VIRT provides round-the-clock health and safety assistance to Vanderbilt community members around the world.\u000a\u000a|box|k\u000a|!Global Safety Pre-Departure Session|\u000a|''Date and time to be determined''|\u000a| Via Zoom |\u000a|This is a mandatory session with the Office of Global Safety, and you will need to attend in order to maintain eligibility to study abroad. Email [[globalsafety@vanderbilt.edu|mailto:globalsafety@vanderbilt.edu]] if you have questions you'd like to see addressed in the session.|\u000a\u000a<<sidebar-box>>\u000a   [[What are some resources for monitoring regional safety overseas?|Resources for monitoring regional safety]]\u000a   [[How does Vanderbilt mitigate risks that students face abroad?|Vanderbilt\u2019s safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Basic safety abroad">>\u005c
+V!Preparing for safety\u000a!!!!Research your destination and register your travel\u000a<div class="talkbox">\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|The ''coronavirus epidemic continues to present challenges worldwide''. As needed, <<if $facultyled>>your faculty leader will provide operating procedures, guidelines, and updates while you are abroad. It is critical that you heed this advice, as well as your locality's requirements. Disciplinary action and legal action from local authorities are real possibilities for noncompliance.<<else>>your program will provide operating procedures, guidelines, and updates while you are abroad. It is critical that you heed this advice and adhere to your program's policies as well as your locality's requirements. Disciplinary action from your program (and Vanderbilt) and legal action from local authorities are real possibilities.<</if>>|\u000a|Requirements and restrictions imposed by the US government, foreign governments, regional governments, airlines, or other entities may change at any time. ''You are ultimately responsible for being aware of and taking action'' to ensure that you meet all these requirements.|\u000a|It is possible that ''governments may impose vaccination (or other) requirements'', including booster shots, at any time. Students who are not vaccinated against COVID-19 may face additional obstacles such as, for example, the requirement to undergo regular testing in order to participate in many activities.|\u000a</div>\u000aWhile generally not more dangerous than life in Nashville, study abroad is not a risk-free activity. You are traveling into an unfamiliar country and situation, and the most effective way to avoid problems is to plug the gaps in your knowledge.\u000a\u000aThe more you know and learn about your destination before you go, the safer you will be. Read all the program information you are given, attend the Office of Global Safety's orientation (see below), and do your own research as well. Up-to-date commercial guidebooks are often good resources, particularly for coverage of local risks and high-crime areas. Country-specific information provided by the US Department of State and its counterparts overseas can also be helpful.\u000a\u000aKnow the local laws, and learn about behavioral norms and expectations. Outspokenness and ostentatious public behavior are not virtues in most places abroad. In some situations they may invite unwanted attention and problems. Dress in a fashion that is appropriate to cultural norms and religious sensitivities.\u000a\u000aYour main destination will be automatically registered with  Vanderbilt's emergency evacuation provider (Anvil Group).\u000a\u000aIf you are a US citizen, also ''register with the Department of State's [[STEP program|https://step.state.gov/step/]]'', which allows the US Embassy in your host country to contact you with updates, both before, during, and after an emergency. \u000a\u000a''If you are not a US citizen,'' you can still utilize publicly available resources from the US Department of State, such as online updates. You can also seek out comparable resources from your home country. If your home country has an embassy or consulate near your study abroad site, we recommend that you make note of the contact information. \u000a\u000aFinally, be sure to enter the phone number for Vanderbilt Incident Response for Travel (VIRT) into your mobile phone: ''+1 615-322-2745''. VIRT provides round-the-clock health and safety assistance to Vanderbilt community members around the world.\u000a\u000a|box|k\u000a|!Global Safety Pre-Departure Session|\u000a|''Date and time to be determined''|\u000a| Via Zoom |\u000a|This is a mandatory session with the Office of Global Safety, and you will need to attend in order to maintain eligibility to study abroad. Email [[globalsafety@vanderbilt.edu|mailto:globalsafety@vanderbilt.edu]] if you have questions you'd like to see addressed in the session.|\u000a\u000a<<sidebar-box>>\u000a   [[What are some resources for monitoring regional safety overseas?|Resources for monitoring regional safety]]\u000a   [[How does Vanderbilt mitigate risks that students face abroad?|Vanderbilt\u2019s safety efforts]]\u000a<</sidebar-box>>\u005c\u000a\u000a<<segue "Basic safety abroad">>\u005c
 p1013
 sg21
 VPreparing for safety
 p1014
 sg23
 g24
-((I2022
+((I2023
 I4
-I7
-I13
-I58
-I19
 I3
-I97
+I9
+I58
+I15
+I0
+I93
 I1
 tp1015
 (dp1016
@@ -3753,14 +3753,14 @@ VOptions
 p1179
 sg23
 g24
-((I2021
-I7
-I28
-I17
-I35
-I42
-I2
-I209
+((I2023
+I4
+I3
+I11
+I12
+I40
+I0
+I93
 I1
 tp1180
 (dp1181
@@ -3798,21 +3798,21 @@ Tiddler
 p1192
 (dp1193
 g19
-V!Sexual misconduct abroad\u000a!!!!Regardless of local law, Vanderbilt policies apply\u000aSocial norms--and civil and criminal laws--vary from country to country.  Even so, Vanderbilt\u2019s policies, including the university\u2019s Student Accountability and Sexual Misconduct and Intimate Partner Violence policies, apply in all study abroad programs in which Vanderbilt students participate, whether those programs are administered by Vanderbilt or a third party.  Vanderbilt students, faculty and staff participating in study abroad programs must comply with local laws, the rules and regulations of their study abroad program, and with Vanderbilt\u2019s policies.\u000a\u000aIf you are a victim of sexual misconduct while abroad, contact the <<if $facultyled>>faculty leader<<else>>resident director<</if>> of your program for help. If you are unable or unwilling to discuss the issue with program staff, please contact [[Vanderbilt Incident Response for Travel (VIRT)|https://www.vanderbilt.edu/virt/]], Vanderbilt's [[Title IX Office|https://www.vanderbilt.edu/title-ix/]] or [[Project Safe|http://www.vanderbilt.edu/projectsafe/]]. Project Safe has someone available around the clock every day of the year. The Student Handbook\u2019s [[policy on Sexual Misconduct|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]] identifies confidential resources (see also [[Project Safe|https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/133/2018/01/23203603/List-of-Resources.pdf]]).\u000a\u000aNot all countries offer the same legal protections for victims as are offered in the United States. Again, Vanderbilt can explain your options ''before you file a formal police report''. Contact VIRT/Office of Global Safety, Title IX, or Project Safe; the Student Handbook\u2019s [[policy on Sexual Misconduct|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]] identifies confidential resources (see also [[Project Safe|https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/133/2018/01/23203603/List-of-Resources.pdf]]).\u000a\u000aThe range of sanctions for violations of Vanderbilt\u2019s Student Accountability and Sexual Misconduct and Intimate Partner Violence Policies are set forth in the Student Handbook. Individuals who engage in gender-based or sexual misconduct--or other forms of misconduct--may also be subject to local laws, and the civil and criminal consequences may be severe.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[VU Student Accountability Policy|http://www.vanderbilt.edu/student_handbook/student-conduct/]], from the Student Handbook|\u000a|[[Sexual Misconduct and Intimate Partner Violence Policy|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]], from the Student Handbook|\u000a|[[Vanderbilt Incident Response for Travel (VIRT)|https://www.vanderbilt.edu/virt/]]|\u000a|[[VU Title IX Office|https://www.vanderbilt.edu/title-ix/]]|\u000a|[[VU Project Safe|http://www.vanderbilt.edu/projectsafe/]] will research local resources when a student needs in-person advocacy or support, wherever they are--including abroad.|\u000a|[[Vanderbilt Sexual Assault Support and Resources List|https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/133/2018/01/23203603/List-of-Resources.pdf]]|\u000a\u000a<<segue "Grades and credits">>\u005c
+V!Sexual misconduct abroad\u000a!!!!Regardless of local law, Vanderbilt policies apply\u000aSocial norms--and civil and criminal laws--vary from country to country.  Even so, Vanderbilt\u2019s policies, including the university\u2019s Student Accountability and Sexual Misconduct and Intimate Partner Violence policies, apply in all study abroad programs in which Vanderbilt students participate, whether those programs are administered by Vanderbilt or a third party.  Vanderbilt students, faculty and staff participating in study abroad programs must comply with local laws, the rules and regulations of their study abroad program, and with Vanderbilt\u2019s policies.\u000a\u000aIf you are a victim of sexual misconduct while abroad, contact the <<if $facultyled>>faculty leader<<else>>resident director<</if>> of your program for help. If you are unable or unwilling to discuss the issue with program staff, please contact [[Vanderbilt Incident Response for Travel (VIRT)|https://www.vanderbilt.edu/virt/]], Vanderbilt's [[Title IX Office|https://www.vanderbilt.edu/title-ix/]] or [[Project Safe|http://www.vanderbilt.edu/projectsafe/]]. Project Safe has someone available around the clock every day of the year. The Student Handbook\u2019s [[policy on Sexual Misconduct|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]] identifies confidential resources (see also [[Project Safe|https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/133/2013/11/11204527/Resource_List_2020_2021.pdf]]).\u000a\u000aNot all countries offer the same legal protections for victims as are offered in the United States. Again, Vanderbilt can explain your options ''before you file a formal police report''. Contact VIRT/Office of Global Safety, Title IX, or Project Safe; the Student Handbook\u2019s [[policy on Sexual Misconduct|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]] identifies confidential resources (see also [[Project Safe|https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/133/2013/11/11204527/Resource_List_2020_2021.pdf]]).\u000a\u000aThe range of sanctions for violations of Vanderbilt\u2019s Student Accountability and Sexual Misconduct and Intimate Partner Violence Policies are set forth in the Student Handbook. Individuals who engage in gender-based or sexual misconduct--or other forms of misconduct--may also be subject to local laws, and the civil and criminal consequences may be severe.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[VU Student Accountability Policy|http://www.vanderbilt.edu/student_handbook/student-conduct/]], from the Student Handbook|\u000a|[[Sexual Misconduct and Intimate Partner Violence Policy|http://www.vanderbilt.edu/student_handbook/sexual-misconduct/]], from the Student Handbook|\u000a|[[Vanderbilt Incident Response for Travel (VIRT)|https://www.vanderbilt.edu/virt/]]|\u000a|[[VU Title IX Office|https://www.vanderbilt.edu/title-ix/]]|\u000a|[[VU Project Safe|http://www.vanderbilt.edu/projectsafe/]] will research local resources when a student needs in-person advocacy or support, wherever they are--including abroad.|\u000a|[[Vanderbilt Sexual Assault Support and Resources List|https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/133/2013/11/11204527/Resource_List_2020_2021.pdf]]|\u000a\u000a<<segue "Grades and credits">>\u005c
 p1194
 sg21
 VSexual misconduct abroad
 p1195
 sg23
 g24
-((I2022
-I11
+((I2023
 I4
-I12
-I21
-I44
-I4
-I308
+I3
+I9
+I54
+I53
+I0
+I93
 I1
 tp1196
 (dp1197
@@ -4004,21 +4004,21 @@ Tiddler
 p1255
 (dp1256
 g19
-Vsetup.version = "2022.11.04a";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
+Vsetup.version = "2023.04.03b";\u000a// if the stored version does not exist or is not equal to the current version,\u000a// then delete the user's options and saves\u000avar storedVersion = storage.getItem("version");\u000aif (storedVersion === null || storedVersion !== setup.version) {\u000a	// purge them all\u000a	storage.removeItem("options");\u000a	storage.removeItem("registration");\u000a	SaveSystem.purge();\u000a\u000a	// store the new version\u000a	storage.setItem("version", setup.version);\u000aconsole.log("Updated to version " + setup.version);\u000a}
 p1257
 sg21
 VVersion & Reset
 p1258
 sg23
 g24
-((I2022
+((I2023
+I4
+I3
 I11
-I4
 I12
-I33
-I6
-I4
-I308
+I46
+I0
+I93
 I1
 tp1259
 (dp1260
@@ -4210,21 +4210,21 @@ Tiddler
 p1318
 (dp1319
 g19
-V<<sidebar "Early arrivals and late departures">><div class="talkbox">\u000a|box|k\u000a|!COVID-19 Considerations|\u000a|If you are considering an early arrival or late departure to your study abroad site, be sure to investigate entry requirements and think through potential consequences. The [[Office of Global Safety|https://www.vanderbilt.edu/global/global-safety/]] is available to advise on your plans.|\u000a</div>\u000aGenerally speaking, study abroad ''sites cannot accommodate early arrivals or late stays''. Student housing, including home stays, will only be available during the dates specified.\u000a\u000aIf you want to arrive earlier or stay later, ''you are responsible for securing temporary housing''. <<if $facultyled>>Your program leader will likely be able to recommend local hotels or hostels.<<else>>Local staff will likely be able to recommend local hotels or hostels. GEO can help put you in touch with local staff if you're not sure how to contact them.<</if>>\u000a\u000aBe sure to ''consider immigration issues'' when planning an extended stay. Some countries refuse to admit travelers beyond the dates stipulated in a visa or letter of invitation. You can contact your <<if $facultyled>>program leader<<else>>program provider (CIEE, IFSA-Butler)<</if>> if you're unsure about your situation.\u000a\u000aYou are covered by your program's health insurance only for the dates of the program itself. GEO strongly encourages you to ''purchase international health insurance for any stay outside the published dates of your program''. You may use any provider you like for this extended insurance, but group rates are available through Vanderbilt's provider, GeoBlue.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Short-term health insurance (GeoBlue)|https://vanderbilt.edu/geo/travel-registration/#insurance]], instructions for using VU's group plan to purchase add-on insurance for your extended stay|\u000a\u000a<<segue "Passport Check">>
+V<<sidebar "Early arrivals and late departures">>\u000aGenerally speaking, study abroad ''sites cannot accommodate early arrivals or late stays''. Student housing, including home stays, will only be available during the dates specified.\u000a\u000aIf you want to arrive earlier or stay later, ''you are responsible for securing temporary housing''. <<if $facultyled>>Your program leader will likely be able to recommend local hotels or hostels.<<else>>Local staff will likely be able to recommend local hotels or hostels. GEO can help put you in touch with local staff if you're not sure how to contact them.<</if>>\u000a\u000aBe sure to ''consider immigration issues'' when planning an extended stay. Some countries refuse to admit travelers beyond the dates stipulated in a visa or letter of invitation. You can contact your <<if $facultyled>>program leader<<else>>program provider (CIEE, IFSA-Butler)<</if>> if you're unsure about your situation.\u000a\u000aYou are covered by your program's health insurance only for the dates of the program itself. GEO strongly encourages you to ''purchase international health insurance for any stay outside the published dates of your program''. You may use any provider you like for this extended insurance, but group rates are available through Vanderbilt's provider, GeoBlue.\u000a\u000a|box|k\u000a|!Resources|\u000a|[[Short-term health insurance (GeoBlue)|https://vanderbilt.edu/geo/travel-registration/#insurance]], instructions for using VU's group plan to purchase add-on insurance for your extended stay|\u000a\u000a<<segue "Passport Check">>
 p1320
 sg21
 VEarly arrivals
 p1321
 sg23
 g24
-((I2021
-I7
-I30
-I15
-I21
-I23
+((I2023
 I4
-I211
+I3
+I10
+I1
+I1
+I0
+I93
 I1
 tp1322
 (dp1323
@@ -4688,21 +4688,21 @@ Tiddler
 p1467
 (dp1468
 g19
-V!Getting there (and back again)\u000a!!!!Considerations around planning your trip\u000aWith the coronavirus epidemic still impacting travel worldwide, there are a number of realities and possibilities to keep in mind.\u000a\u000aGEO recommends you purchase a ''flexible class of airline ticket'' that allows for itinerary changes at minimal cost. Given ever-shifting coronavirus precautions and entry/exit requirements, ''simpler itineraries are preferred''.\u000a\u000aRequirements have largely relaxed worldwide, but could be reinstated in response to emergent situations. You ''//may// be required to quarantine''. If so, this quarantine is likely to be stricter than the self-isolation requirements you may have encountered in the US in the early days of the pandemic. For example, you likely would not be able to receive guests or go outside. If a quarantine looks likely when you travel, we strongly encourage you to think about what you can do to avoid boredom and support your mental health. Here is a [[helpful list of guidelines|https://iocdf.org/covid19/self-care-during-covid-19/]] to get you started.\u000a\u000aRequirements and restrictions imposed by the US government, foreign governments, regional governments, airlines, or other entities may change at any time. ''You are ultimately responsible'' for being aware of and taking action to ensure that you meet all these requirements.\u000a\u000aGEO generally recommends that you consider supplemental insurance to cover your entire time abroad. ''Trip cancellation/trip interruption'' and ''theft insurance'' are particularly worthwhile options. GEO cannot recommend specific  plans or providers, but you can check with your travel agent, home/auto  insurance agent, or online. During COVID-19, decisions about trip interruption insurance may be more complicated; if you are considering this option, the [[Office of Global Safety|https://www.vanderbilt.edu/global/global-safety/]] would be happy to consult with you.\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a   [[Can I arrive early or leave late from my study abroad site?|Early arrivals]]\u000a   [[What about traveling with a musical instrument?|Traveling with a musical instrument]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport Check">>\u005c
+V!Getting there (and back again)\u000a!!!!Considerations around planning your trip\u000aWhile coronavirus regulations are having minimal impact on travel worldwide, there are still a number of realities and possibilities to keep in mind.\u000a\u000aAir travel has been impacted by scheduling, staffing, and capacity issues. ''Simpler itineraries are preferred,'' and GEO recommends you purchase a ''flexible class of airline ticket'' that allows for itinerary changes at minimal cost. \u000a\u000aRequirements have largely relaxed worldwide, but could be reinstated in response to emergent situations. You ''//may// be required to quarantine''. If so, this quarantine is likely to be stricter than the self-isolation requirements you may have encountered in the US in the early days of the pandemic. For example, you likely would not be able to receive guests or go outside. If a quarantine looks likely when you travel, we strongly encourage you to think about what you can do to avoid boredom and support your mental health. Here is a [[helpful list of guidelines|https://iocdf.org/covid19/self-care-during-covid-19/]] to get you started.\u000a\u000aRequirements and restrictions imposed by the US government, foreign governments, regional governments, airlines, or other entities may change at any time. ''You are ultimately responsible'' for being aware of and taking action to ensure that you meet all these requirements.\u000a\u000aGEO generally recommends that you consider supplemental insurance to cover your entire time abroad. ''Trip cancellation/trip interruption'' and ''theft insurance'' are particularly worthwhile options. GEO cannot recommend specific  plans or providers, but you can check with your travel agent, home/auto  insurance agent, or online. During COVID-19, decisions about trip interruption insurance may be more complicated; if you are considering this option, the [[Office of Global Safety|https://www.vanderbilt.edu/global/global-safety/]] would be happy to consult with you.\u000a\u000a<<sidebar-box>>\u000a   [[How do I go about getting a travel visa?|How to get a travel visa]]\u000a   [[Can I arrive early or leave late from my study abroad site?|Early arrivals]]\u000a   [[What about traveling with a musical instrument?|Traveling with a musical instrument]]\u000a<</sidebar-box>>\u000a\u000a<<segue "Passport Check">>\u005c
 p1469
 sg21
 VGetting there and back again
 p1470
 sg23
 g24
-((I2022
-I11
+((I2023
 I4
-I12
-I26
-I9
-I4
-I308
+I3
+I10
+I0
+I41
+I0
+I93
 I1
 tp1471
 (dp1472
@@ -4729,10 +4729,62 @@ tp1478
 (dp1479
 tp1480
 Rp1481
+sbsa(dp1482
+g12
+I00
+sg13
+(lp1483
+F30.88261518433356
+aF2575.9909195831556
+asg15
+(itiddlywiki
+Tiddler
+p1484
+(dp1485
+g19
+V!Study abroad and Immersion Vanderbilt\u000a!!!!Deepening your study abroad experience\u000aStudy abroad can be one of the most transformative and impactful experiences you will have as a Vanderbilt undergraduate. Given this, we ''strongly advise'' you to declare your study abroad experience for Immersion Vanderbilt. ''You can declare multiple experiences'' for Immersion, and it benefits you to keep a record of all immersive experiences you engage in throughout your Vanderbilt undergraduate career (such as internships, study abroad, research, etc.) for a number of reasons: \u000a* Declaring multiple experiences will give you ''more options and flexibility'' when it comes time to create your final Immersion culminating project\u000a* It offers a ''backup option'' for meeting requirements if a previously declared experience falls through\u000a* It creates an official record of your experiential learning journey, and gives you a menu of options as you choose which experience you want listed on your official transcript\u000a* It takes minimal effort to track additional experiences\u000a* You cannot retroactively declare a past experience for Immersion, so you should take action to declare study abroad now rather than regret it later!\u000aDeclare your study abroad for Immersion Vanderbilt by visiting the [[Immersion Portal|https://amplifyvu.vanderbilt.edu/s/immersionhub]]:\u000a* If you have not yet declared an immersive experience, click \u201cSubmit Your Immersive Experience Declaration Form\u201d or [[click here|https://amplifyvu.vanderbilt.edu/s/immersionhub/workflows/detail/22]].\u000a* If you have previously submitted an Immersive Experience Declaration Form for a different experience, click \u201cSubmit Additional Experiences\u201d or [[click here|https://amplifyvu.vanderbilt.edu/Form.aspx?id=5100]].\u000a\u000a<<segue "Preparing for safety">>\u005c
+p1486
+sg21
+VStudy abroad and Immersion Vanderbilt
+p1487
+sg23
+g24
+((I2023
+I4
+I3
+I11
+I0
+I20
+I0
+I93
+I1
+tp1488
+(dp1489
+tp1490
+Rp1491
+sg29
+(lp1492
+Vacademics
+p1493
+asg32
+g24
+((I2014
+I4
+I17
+I16
+I14
+I55
+I3
+I107
+I1
+tp1494
+(dp1495
+tp1496
+Rp1497
 sbsasS'scale'
-p1482
+p1498
 F0.704098267378281
 sS'snapping'
-p1483
+p1499
 I00
 ss.
